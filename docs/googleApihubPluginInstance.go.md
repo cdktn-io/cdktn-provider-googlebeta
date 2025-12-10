@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleApihubPluginInstance.GoogleApihubPluginInstance.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleapihubplugininstance"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googleapihubplugininstance"
 
 googleapihubplugininstance.NewGoogleApihubPluginInstance(scope Construct, id *string, config GoogleApihubPluginInstanceConfig) GoogleApihubPluginInstance
 ```
@@ -459,7 +459,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-google-beta.googleApihubPluginInstance.GoogleApihubPluginInstance.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleapihubplugininstance"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googleapihubplugininstance"
 
 googleapihubplugininstance.GoogleApihubPluginInstance_IsConstruct(x interface{}) *bool
 ```
@@ -491,7 +491,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-google-beta.googleApihubPluginInstance.GoogleApihubPluginInstance.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleapihubplugininstance"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googleapihubplugininstance"
 
 googleapihubplugininstance.GoogleApihubPluginInstance_IsTerraformElement(x interface{}) *bool
 ```
@@ -505,7 +505,7 @@ googleapihubplugininstance.GoogleApihubPluginInstance_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-google-beta.googleApihubPluginInstance.GoogleApihubPluginInstance.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleapihubplugininstance"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googleapihubplugininstance"
 
 googleapihubplugininstance.GoogleApihubPluginInstance_IsTerraformResource(x interface{}) *bool
 ```
@@ -519,7 +519,7 @@ googleapihubplugininstance.GoogleApihubPluginInstance_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-google-beta.googleApihubPluginInstance.GoogleApihubPluginInstance.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleapihubplugininstance"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googleapihubplugininstance"
 
 googleapihubplugininstance.GoogleApihubPluginInstance_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1023,11 +1023,11 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleApihubPluginInstance.GoogleApihubPluginInstanceActions.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleapihubplugininstance"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googleapihubplugininstance"
 
 &googleapihubplugininstance.GoogleApihubPluginInstanceActions {
 	ActionId: *string,
-	CurationConfig: github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16.googleApihubPluginInstance.GoogleApihubPluginInstanceActionsCurationConfig,
+	CurationConfig: github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta.googleApihubPluginInstance.GoogleApihubPluginInstanceActionsCurationConfig,
 	ScheduleCronExpression: *string,
 	ScheduleTimeZone: *string,
 }
@@ -1108,11 +1108,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleApihubPluginInstance.GoogleApihubPluginInstanceActionsCurationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleapihubplugininstance"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googleapihubplugininstance"
 
 &googleapihubplugininstance.GoogleApihubPluginInstanceActionsCurationConfig {
 	CurationType: *string,
-	CustomCuration: github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16.googleApihubPluginInstance.GoogleApihubPluginInstanceActionsCurationConfigCustomCuration,
+	CustomCuration: github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta.googleApihubPluginInstance.GoogleApihubPluginInstanceActionsCurationConfigCustomCuration,
 }
 ```
 
@@ -1158,7 +1158,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleApihubPluginInstance.GoogleApihubPluginInstanceActionsCurationConfigCustomCuration.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleapihubplugininstance"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googleapihubplugininstance"
 
 &googleapihubplugininstance.GoogleApihubPluginInstanceActionsCurationConfigCustomCuration {
 	Curation: *string,
@@ -1192,7 +1192,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleApihubPluginInstance.GoogleApihubPluginInstanceActionsHubInstanceAction.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleapihubplugininstance"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googleapihubplugininstance"
 
 &googleapihubplugininstance.GoogleApihubPluginInstanceActionsHubInstanceAction {
 
@@ -1205,7 +1205,7 @@ import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleapihu
 #### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleApihubPluginInstance.GoogleApihubPluginInstanceActionsHubInstanceActionLastExecution.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleapihubplugininstance"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googleapihubplugininstance"
 
 &googleapihubplugininstance.GoogleApihubPluginInstanceActionsHubInstanceActionLastExecution {
 
@@ -1218,14 +1218,14 @@ import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleapihu
 #### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleApihubPluginInstance.GoogleApihubPluginInstanceAuthConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleapihubplugininstance"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googleapihubplugininstance"
 
 &googleapihubplugininstance.GoogleApihubPluginInstanceAuthConfig {
 	AuthType: *string,
-	ApiKeyConfig: github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16.googleApihubPluginInstance.GoogleApihubPluginInstanceAuthConfigApiKeyConfig,
-	GoogleServiceAccountConfig: github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16.googleApihubPluginInstance.GoogleApihubPluginInstanceAuthConfigGoogleServiceAccountConfig,
-	Oauth2ClientCredentialsConfig: github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16.googleApihubPluginInstance.GoogleApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfig,
-	UserPasswordConfig: github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16.googleApihubPluginInstance.GoogleApihubPluginInstanceAuthConfigUserPasswordConfig,
+	ApiKeyConfig: github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta.googleApihubPluginInstance.GoogleApihubPluginInstanceAuthConfigApiKeyConfig,
+	GoogleServiceAccountConfig: github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta.googleApihubPluginInstance.GoogleApihubPluginInstanceAuthConfigGoogleServiceAccountConfig,
+	Oauth2ClientCredentialsConfig: github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta.googleApihubPluginInstance.GoogleApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfig,
+	UserPasswordConfig: github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta.googleApihubPluginInstance.GoogleApihubPluginInstanceAuthConfigUserPasswordConfig,
 }
 ```
 
@@ -1316,10 +1316,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleApihubPluginInstance.GoogleApihubPluginInstanceAuthConfigApiKeyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleapihubplugininstance"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googleapihubplugininstance"
 
 &googleapihubplugininstance.GoogleApihubPluginInstanceAuthConfigApiKeyConfig {
-	ApiKey: github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16.googleApihubPluginInstance.GoogleApihubPluginInstanceAuthConfigApiKeyConfigApiKey,
+	ApiKey: github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta.googleApihubPluginInstance.GoogleApihubPluginInstanceAuthConfigApiKeyConfigApiKey,
 	HttpElementLocation: *string,
 	Name: *string,
 }
@@ -1382,7 +1382,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleApihubPluginInstance.GoogleApihubPluginInstanceAuthConfigApiKeyConfigApiKey.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleapihubplugininstance"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googleapihubplugininstance"
 
 &googleapihubplugininstance.GoogleApihubPluginInstanceAuthConfigApiKeyConfigApiKey {
 	SecretVersion: *string,
@@ -1418,7 +1418,7 @@ Note: The above comment contained a comment block ending sequence (* followed by
 #### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleApihubPluginInstance.GoogleApihubPluginInstanceAuthConfigGoogleServiceAccountConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleapihubplugininstance"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googleapihubplugininstance"
 
 &googleapihubplugininstance.GoogleApihubPluginInstanceAuthConfigGoogleServiceAccountConfig {
 	ServiceAccount: *string,
@@ -1455,11 +1455,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleApihubPluginInstance.GoogleApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleapihubplugininstance"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googleapihubplugininstance"
 
 &googleapihubplugininstance.GoogleApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfig {
 	ClientId: *string,
-	ClientSecret: github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16.googleApihubPluginInstance.GoogleApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigClientSecret,
+	ClientSecret: github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta.googleApihubPluginInstance.GoogleApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigClientSecret,
 }
 ```
 
@@ -1505,7 +1505,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleApihubPluginInstance.GoogleApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigClientSecret.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleapihubplugininstance"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googleapihubplugininstance"
 
 &googleapihubplugininstance.GoogleApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigClientSecret {
 	SecretVersion: *string,
@@ -1541,10 +1541,10 @@ Note: The above comment contained a comment block ending sequence (* followed by
 #### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleApihubPluginInstance.GoogleApihubPluginInstanceAuthConfigUserPasswordConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleapihubplugininstance"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googleapihubplugininstance"
 
 &googleapihubplugininstance.GoogleApihubPluginInstanceAuthConfigUserPasswordConfig {
-	Password: github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16.googleApihubPluginInstance.GoogleApihubPluginInstanceAuthConfigUserPasswordConfigPassword,
+	Password: github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta.googleApihubPluginInstance.GoogleApihubPluginInstanceAuthConfigUserPasswordConfigPassword,
 	Username: *string,
 }
 ```
@@ -1591,7 +1591,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleApihubPluginInstance.GoogleApihubPluginInstanceAuthConfigUserPasswordConfigPassword.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleapihubplugininstance"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googleapihubplugininstance"
 
 &googleapihubplugininstance.GoogleApihubPluginInstanceAuthConfigUserPasswordConfigPassword {
 	SecretVersion: *string,
@@ -1627,7 +1627,7 @@ Note: The above comment contained a comment block ending sequence (* followed by
 #### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleApihubPluginInstance.GoogleApihubPluginInstanceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleapihubplugininstance"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googleapihubplugininstance"
 
 &googleapihubplugininstance.GoogleApihubPluginInstanceConfig {
 	Connection: interface{},
@@ -1642,11 +1642,11 @@ import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleapihu
 	Plugin: *string,
 	PluginInstanceId: *string,
 	Actions: interface{},
-	AuthConfig: github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16.googleApihubPluginInstance.GoogleApihubPluginInstanceAuthConfig,
+	AuthConfig: github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta.googleApihubPluginInstance.GoogleApihubPluginInstanceAuthConfig,
 	Disable: interface{},
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16.googleApihubPluginInstance.GoogleApihubPluginInstanceTimeouts,
+	Timeouts: github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta.googleApihubPluginInstance.GoogleApihubPluginInstanceTimeouts,
 }
 ```
 
@@ -1898,7 +1898,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleApihubPluginInstance.GoogleApihubPluginInstanceTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleapihubplugininstance"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googleapihubplugininstance"
 
 &googleapihubplugininstance.GoogleApihubPluginInstanceTimeouts {
 	Create: *string,
@@ -1960,7 +1960,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleApihubPluginInstance.GoogleApihubPluginInstanceActionsCurationConfigCustomCurationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleapihubplugininstance"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googleapihubplugininstance"
 
 googleapihubplugininstance.NewGoogleApihubPluginInstanceActionsCurationConfigCustomCurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApihubPluginInstanceActionsCurationConfigCustomCurationOutputReference
 ```
@@ -2231,7 +2231,7 @@ func InternalValue() GoogleApihubPluginInstanceActionsCurationConfigCustomCurati
 #### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleApihubPluginInstance.GoogleApihubPluginInstanceActionsCurationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleapihubplugininstance"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googleapihubplugininstance"
 
 googleapihubplugininstance.NewGoogleApihubPluginInstanceActionsCurationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApihubPluginInstanceActionsCurationConfigOutputReference
 ```
@@ -2551,7 +2551,7 @@ func InternalValue() GoogleApihubPluginInstanceActionsCurationConfig
 #### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleApihubPluginInstance.GoogleApihubPluginInstanceActionsHubInstanceActionLastExecutionList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleapihubplugininstance"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googleapihubplugininstance"
 
 googleapihubplugininstance.NewGoogleApihubPluginInstanceActionsHubInstanceActionLastExecutionList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleApihubPluginInstanceActionsHubInstanceActionLastExecutionList
 ```
@@ -2700,7 +2700,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleApihubPluginInstance.GoogleApihubPluginInstanceActionsHubInstanceActionLastExecutionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleapihubplugininstance"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googleapihubplugininstance"
 
 googleapihubplugininstance.NewGoogleApihubPluginInstanceActionsHubInstanceActionLastExecutionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleApihubPluginInstanceActionsHubInstanceActionLastExecutionOutputReference
 ```
@@ -3011,7 +3011,7 @@ func InternalValue() GoogleApihubPluginInstanceActionsHubInstanceActionLastExecu
 #### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleApihubPluginInstance.GoogleApihubPluginInstanceActionsHubInstanceActionList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleapihubplugininstance"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googleapihubplugininstance"
 
 googleapihubplugininstance.NewGoogleApihubPluginInstanceActionsHubInstanceActionList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleApihubPluginInstanceActionsHubInstanceActionList
 ```
@@ -3160,7 +3160,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleApihubPluginInstance.GoogleApihubPluginInstanceActionsHubInstanceActionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleapihubplugininstance"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googleapihubplugininstance"
 
 googleapihubplugininstance.NewGoogleApihubPluginInstanceActionsHubInstanceActionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleApihubPluginInstanceActionsHubInstanceActionOutputReference
 ```
@@ -3449,7 +3449,7 @@ func InternalValue() GoogleApihubPluginInstanceActionsHubInstanceAction
 #### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleApihubPluginInstance.GoogleApihubPluginInstanceActionsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleapihubplugininstance"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googleapihubplugininstance"
 
 googleapihubplugininstance.NewGoogleApihubPluginInstanceActionsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleApihubPluginInstanceActionsList
 ```
@@ -3609,7 +3609,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleApihubPluginInstance.GoogleApihubPluginInstanceActionsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleapihubplugininstance"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googleapihubplugininstance"
 
 googleapihubplugininstance.NewGoogleApihubPluginInstanceActionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleApihubPluginInstanceActionsOutputReference
 ```
@@ -4020,7 +4020,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleApihubPluginInstance.GoogleApihubPluginInstanceAuthConfigApiKeyConfigApiKeyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleapihubplugininstance"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googleapihubplugininstance"
 
 googleapihubplugininstance.NewGoogleApihubPluginInstanceAuthConfigApiKeyConfigApiKeyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApihubPluginInstanceAuthConfigApiKeyConfigApiKeyOutputReference
 ```
@@ -4291,7 +4291,7 @@ func InternalValue() GoogleApihubPluginInstanceAuthConfigApiKeyConfigApiKey
 #### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleApihubPluginInstance.GoogleApihubPluginInstanceAuthConfigApiKeyConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleapihubplugininstance"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googleapihubplugininstance"
 
 googleapihubplugininstance.NewGoogleApihubPluginInstanceAuthConfigApiKeyConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApihubPluginInstanceAuthConfigApiKeyConfigOutputReference
 ```
@@ -4619,7 +4619,7 @@ func InternalValue() GoogleApihubPluginInstanceAuthConfigApiKeyConfig
 #### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleApihubPluginInstance.GoogleApihubPluginInstanceAuthConfigGoogleServiceAccountConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleapihubplugininstance"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googleapihubplugininstance"
 
 googleapihubplugininstance.NewGoogleApihubPluginInstanceAuthConfigGoogleServiceAccountConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApihubPluginInstanceAuthConfigGoogleServiceAccountConfigOutputReference
 ```
@@ -4890,7 +4890,7 @@ func InternalValue() GoogleApihubPluginInstanceAuthConfigGoogleServiceAccountCon
 #### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleApihubPluginInstance.GoogleApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigClientSecretOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleapihubplugininstance"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googleapihubplugininstance"
 
 googleapihubplugininstance.NewGoogleApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigClientSecretOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigClientSecretOutputReference
 ```
@@ -5161,7 +5161,7 @@ func InternalValue() GoogleApihubPluginInstanceAuthConfigOauth2ClientCredentials
 #### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleApihubPluginInstance.GoogleApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleapihubplugininstance"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googleapihubplugininstance"
 
 googleapihubplugininstance.NewGoogleApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigOutputReference
 ```
@@ -5467,7 +5467,7 @@ func InternalValue() GoogleApihubPluginInstanceAuthConfigOauth2ClientCredentials
 #### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleApihubPluginInstance.GoogleApihubPluginInstanceAuthConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleapihubplugininstance"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googleapihubplugininstance"
 
 googleapihubplugininstance.NewGoogleApihubPluginInstanceAuthConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApihubPluginInstanceAuthConfigOutputReference
 ```
@@ -5906,7 +5906,7 @@ func InternalValue() GoogleApihubPluginInstanceAuthConfig
 #### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleApihubPluginInstance.GoogleApihubPluginInstanceAuthConfigUserPasswordConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleapihubplugininstance"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googleapihubplugininstance"
 
 googleapihubplugininstance.NewGoogleApihubPluginInstanceAuthConfigUserPasswordConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApihubPluginInstanceAuthConfigUserPasswordConfigOutputReference
 ```
@@ -6212,7 +6212,7 @@ func InternalValue() GoogleApihubPluginInstanceAuthConfigUserPasswordConfig
 #### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleApihubPluginInstance.GoogleApihubPluginInstanceAuthConfigUserPasswordConfigPasswordOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleapihubplugininstance"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googleapihubplugininstance"
 
 googleapihubplugininstance.NewGoogleApihubPluginInstanceAuthConfigUserPasswordConfigPasswordOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApihubPluginInstanceAuthConfigUserPasswordConfigPasswordOutputReference
 ```
@@ -6483,7 +6483,7 @@ func InternalValue() GoogleApihubPluginInstanceAuthConfigUserPasswordConfigPassw
 #### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleApihubPluginInstance.GoogleApihubPluginInstanceTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleapihubplugininstance"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googleapihubplugininstance"
 
 googleapihubplugininstance.NewGoogleApihubPluginInstanceTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApihubPluginInstanceTimeoutsOutputReference
 ```

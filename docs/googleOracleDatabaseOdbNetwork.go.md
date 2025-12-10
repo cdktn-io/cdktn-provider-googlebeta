@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleOracleDatabaseOdbNetwork.GoogleOracleDatabaseOdbNetwork.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleoracledatabaseodbnetwork"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googleoracledatabaseodbnetwork"
 
 googleoracledatabaseodbnetwork.NewGoogleOracleDatabaseOdbNetwork(scope Construct, id *string, config GoogleOracleDatabaseOdbNetworkConfig) GoogleOracleDatabaseOdbNetwork
 ```
@@ -426,7 +426,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-google-beta.googleOracleDatabaseOdbNetwork.GoogleOracleDatabaseOdbNetwork.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleoracledatabaseodbnetwork"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googleoracledatabaseodbnetwork"
 
 googleoracledatabaseodbnetwork.GoogleOracleDatabaseOdbNetwork_IsConstruct(x interface{}) *bool
 ```
@@ -458,7 +458,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-google-beta.googleOracleDatabaseOdbNetwork.GoogleOracleDatabaseOdbNetwork.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleoracledatabaseodbnetwork"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googleoracledatabaseodbnetwork"
 
 googleoracledatabaseodbnetwork.GoogleOracleDatabaseOdbNetwork_IsTerraformElement(x interface{}) *bool
 ```
@@ -472,7 +472,7 @@ googleoracledatabaseodbnetwork.GoogleOracleDatabaseOdbNetwork_IsTerraformElement
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-google-beta.googleOracleDatabaseOdbNetwork.GoogleOracleDatabaseOdbNetwork.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleoracledatabaseodbnetwork"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googleoracledatabaseodbnetwork"
 
 googleoracledatabaseodbnetwork.GoogleOracleDatabaseOdbNetwork_IsTerraformResource(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ googleoracledatabaseodbnetwork.GoogleOracleDatabaseOdbNetwork_IsTerraformResourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-google-beta.googleOracleDatabaseOdbNetwork.GoogleOracleDatabaseOdbNetwork.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleoracledatabaseodbnetwork"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googleoracledatabaseodbnetwork"
 
 googleoracledatabaseodbnetwork.GoogleOracleDatabaseOdbNetwork_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -957,7 +957,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleOracleDatabaseOdbNetwork.GoogleOracleDatabaseOdbNetworkConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleoracledatabaseodbnetwork"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googleoracledatabaseodbnetwork"
 
 &googleoracledatabaseodbnetwork.GoogleOracleDatabaseOdbNetworkConfig {
 	Connection: interface{},
@@ -974,7 +974,7 @@ import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleoracl
 	Id: *string,
 	Labels: *map[string]*string,
 	Project: *string,
-	Timeouts: github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16.googleOracleDatabaseOdbNetwork.GoogleOracleDatabaseOdbNetworkTimeouts,
+	Timeouts: github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta.googleOracleDatabaseOdbNetwork.GoogleOracleDatabaseOdbNetworkTimeouts,
 }
 ```
 
@@ -1196,7 +1196,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleOracleDatabaseOdbNetwork.GoogleOracleDatabaseOdbNetworkTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleoracledatabaseodbnetwork"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googleoracledatabaseodbnetwork"
 
 &googleoracledatabaseodbnetwork.GoogleOracleDatabaseOdbNetworkTimeouts {
 	Create: *string,
@@ -1258,7 +1258,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleOracleDatabaseOdbNetwork.GoogleOracleDatabaseOdbNetworkTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleoracledatabaseodbnetwork"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googleoracledatabaseodbnetwork"
 
 googleoracledatabaseodbnetwork.NewGoogleOracleDatabaseOdbNetworkTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOracleDatabaseOdbNetworkTimeoutsOutputReference
 ```
