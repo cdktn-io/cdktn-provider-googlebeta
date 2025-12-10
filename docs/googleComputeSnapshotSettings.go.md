@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleComputeSnapshotSettings.GoogleComputeSnapshotSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googlecomputesnapshotsettings"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecomputesnapshotsettings"
 
 googlecomputesnapshotsettings.NewGoogleComputeSnapshotSettings(scope Construct, id *string, config GoogleComputeSnapshotSettingsConfig) GoogleComputeSnapshotSettings
 ```
@@ -425,7 +425,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-google-beta.googleComputeSnapshotSettings.GoogleComputeSnapshotSettings.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googlecomputesnapshotsettings"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecomputesnapshotsettings"
 
 googlecomputesnapshotsettings.GoogleComputeSnapshotSettings_IsConstruct(x interface{}) *bool
 ```
@@ -457,7 +457,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-google-beta.googleComputeSnapshotSettings.GoogleComputeSnapshotSettings.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googlecomputesnapshotsettings"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecomputesnapshotsettings"
 
 googlecomputesnapshotsettings.GoogleComputeSnapshotSettings_IsTerraformElement(x interface{}) *bool
 ```
@@ -471,7 +471,7 @@ googlecomputesnapshotsettings.GoogleComputeSnapshotSettings_IsTerraformElement(x
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-google-beta.googleComputeSnapshotSettings.GoogleComputeSnapshotSettings.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googlecomputesnapshotsettings"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecomputesnapshotsettings"
 
 googlecomputesnapshotsettings.GoogleComputeSnapshotSettings_IsTerraformResource(x interface{}) *bool
 ```
@@ -485,7 +485,7 @@ googlecomputesnapshotsettings.GoogleComputeSnapshotSettings_IsTerraformResource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-google-beta.googleComputeSnapshotSettings.GoogleComputeSnapshotSettings.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googlecomputesnapshotsettings"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecomputesnapshotsettings"
 
 googlecomputesnapshotsettings.GoogleComputeSnapshotSettings_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -802,7 +802,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleComputeSnapshotSettings.GoogleComputeSnapshotSettingsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googlecomputesnapshotsettings"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecomputesnapshotsettings"
 
 &googlecomputesnapshotsettings.GoogleComputeSnapshotSettingsConfig {
 	Connection: interface{},
@@ -812,10 +812,10 @@ import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googlecomputesn
 	Lifecycle: github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle,
 	Provider: github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider,
 	Provisioners: *[]interface{},
-	StorageLocation: github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta.googleComputeSnapshotSettings.GoogleComputeSnapshotSettingsStorageLocation,
+	StorageLocation: github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16.googleComputeSnapshotSettings.GoogleComputeSnapshotSettingsStorageLocation,
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta.googleComputeSnapshotSettings.GoogleComputeSnapshotSettingsTimeouts,
+	Timeouts: github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16.googleComputeSnapshotSettings.GoogleComputeSnapshotSettingsTimeouts,
 }
 ```
 
@@ -967,7 +967,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleComputeSnapshotSettings.GoogleComputeSnapshotSettingsStorageLocation.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googlecomputesnapshotsettings"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecomputesnapshotsettings"
 
 &googlecomputesnapshotsettings.GoogleComputeSnapshotSettingsStorageLocation {
 	Policy: *string,
@@ -1017,7 +1017,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleComputeSnapshotSettings.GoogleComputeSnapshotSettingsStorageLocationLocations.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googlecomputesnapshotsettings"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecomputesnapshotsettings"
 
 &googlecomputesnapshotsettings.GoogleComputeSnapshotSettingsStorageLocationLocations {
 	Location: *string,
@@ -1068,7 +1068,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleComputeSnapshotSettings.GoogleComputeSnapshotSettingsTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googlecomputesnapshotsettings"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecomputesnapshotsettings"
 
 &googlecomputesnapshotsettings.GoogleComputeSnapshotSettingsTimeouts {
 	Create: *string,
@@ -1130,7 +1130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleComputeSnapshotSettings.GoogleComputeSnapshotSettingsStorageLocationLocationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googlecomputesnapshotsettings"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecomputesnapshotsettings"
 
 googlecomputesnapshotsettings.NewGoogleComputeSnapshotSettingsStorageLocationLocationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeSnapshotSettingsStorageLocationLocationsList
 ```
@@ -1290,7 +1290,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleComputeSnapshotSettings.GoogleComputeSnapshotSettingsStorageLocationLocationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googlecomputesnapshotsettings"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecomputesnapshotsettings"
 
 googlecomputesnapshotsettings.NewGoogleComputeSnapshotSettingsStorageLocationLocationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeSnapshotSettingsStorageLocationLocationsOutputReference
 ```
@@ -1601,7 +1601,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleComputeSnapshotSettings.GoogleComputeSnapshotSettingsStorageLocationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googlecomputesnapshotsettings"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecomputesnapshotsettings"
 
 googlecomputesnapshotsettings.NewGoogleComputeSnapshotSettingsStorageLocationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeSnapshotSettingsStorageLocationOutputReference
 ```
@@ -1914,7 +1914,7 @@ func InternalValue() GoogleComputeSnapshotSettingsStorageLocation
 #### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleComputeSnapshotSettings.GoogleComputeSnapshotSettingsTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googlecomputesnapshotsettings"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecomputesnapshotsettings"
 
 googlecomputesnapshotsettings.NewGoogleComputeSnapshotSettingsTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeSnapshotSettingsTimeoutsOutputReference
 ```

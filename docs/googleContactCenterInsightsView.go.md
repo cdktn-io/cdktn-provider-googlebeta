@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleContactCenterInsightsView.GoogleContactCenterInsightsView.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googlecontactcenterinsightsview"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecontactcenterinsightsview"
 
 googlecontactcenterinsightsview.NewGoogleContactCenterInsightsView(scope Construct, id *string, config GoogleContactCenterInsightsViewConfig) GoogleContactCenterInsightsView
 ```
@@ -426,7 +426,7 @@ func ResetValue()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-google-beta.googleContactCenterInsightsView.GoogleContactCenterInsightsView.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googlecontactcenterinsightsview"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecontactcenterinsightsview"
 
 googlecontactcenterinsightsview.GoogleContactCenterInsightsView_IsConstruct(x interface{}) *bool
 ```
@@ -458,7 +458,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-google-beta.googleContactCenterInsightsView.GoogleContactCenterInsightsView.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googlecontactcenterinsightsview"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecontactcenterinsightsview"
 
 googlecontactcenterinsightsview.GoogleContactCenterInsightsView_IsTerraformElement(x interface{}) *bool
 ```
@@ -472,7 +472,7 @@ googlecontactcenterinsightsview.GoogleContactCenterInsightsView_IsTerraformEleme
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-google-beta.googleContactCenterInsightsView.GoogleContactCenterInsightsView.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googlecontactcenterinsightsview"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecontactcenterinsightsview"
 
 googlecontactcenterinsightsview.GoogleContactCenterInsightsView_IsTerraformResource(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ googlecontactcenterinsightsview.GoogleContactCenterInsightsView_IsTerraformResou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-google-beta.googleContactCenterInsightsView.GoogleContactCenterInsightsView.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googlecontactcenterinsightsview"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecontactcenterinsightsview"
 
 googlecontactcenterinsightsview.GoogleContactCenterInsightsView_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -880,7 +880,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleContactCenterInsightsView.GoogleContactCenterInsightsViewConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googlecontactcenterinsightsview"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecontactcenterinsightsview"
 
 &googlecontactcenterinsightsview.GoogleContactCenterInsightsViewConfig {
 	Connection: interface{},
@@ -894,7 +894,7 @@ import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googlecontactce
 	DisplayName: *string,
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta.googleContactCenterInsightsView.GoogleContactCenterInsightsViewTimeouts,
+	Timeouts: github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16.googleContactCenterInsightsView.GoogleContactCenterInsightsViewTimeouts,
 	Value: *string,
 }
 ```
@@ -1077,7 +1077,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleContactCenterInsightsView.GoogleContactCenterInsightsViewTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googlecontactcenterinsightsview"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecontactcenterinsightsview"
 
 &googlecontactcenterinsightsview.GoogleContactCenterInsightsViewTimeouts {
 	Create: *string,
@@ -1139,7 +1139,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleContactCenterInsightsView.GoogleContactCenterInsightsViewTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/googlecontactcenterinsightsview"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecontactcenterinsightsview"
 
 googlecontactcenterinsightsview.NewGoogleContactCenterInsightsViewTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleContactCenterInsightsViewTimeoutsOutputReference
 ```

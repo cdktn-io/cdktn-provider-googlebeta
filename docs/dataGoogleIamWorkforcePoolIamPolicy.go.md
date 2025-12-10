@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.dataGoogleIamWorkforcePoolIamPolicy.DataGoogleIamWorkforcePoolIamPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/datagoogleiamworkforcepooliampolicy"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/datagoogleiamworkforcepooliampolicy"
 
 datagoogleiamworkforcepooliampolicy.NewDataGoogleIamWorkforcePoolIamPolicy(scope Construct, id *string, config DataGoogleIamWorkforcePoolIamPolicyConfig) DataGoogleIamWorkforcePoolIamPolicy
 ```
@@ -290,7 +290,7 @@ func ResetLocation()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-google-beta.dataGoogleIamWorkforcePoolIamPolicy.DataGoogleIamWorkforcePoolIamPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/datagoogleiamworkforcepooliampolicy"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/datagoogleiamworkforcepooliampolicy"
 
 datagoogleiamworkforcepooliampolicy.DataGoogleIamWorkforcePoolIamPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -322,7 +322,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-google-beta.dataGoogleIamWorkforcePoolIamPolicy.DataGoogleIamWorkforcePoolIamPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/datagoogleiamworkforcepooliampolicy"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/datagoogleiamworkforcepooliampolicy"
 
 datagoogleiamworkforcepooliampolicy.DataGoogleIamWorkforcePoolIamPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -336,7 +336,7 @@ datagoogleiamworkforcepooliampolicy.DataGoogleIamWorkforcePoolIamPolicy_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktf/provider-google-beta.dataGoogleIamWorkforcePoolIamPolicy.DataGoogleIamWorkforcePoolIamPolicy.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/datagoogleiamworkforcepooliampolicy"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/datagoogleiamworkforcepooliampolicy"
 
 datagoogleiamworkforcepooliampolicy.DataGoogleIamWorkforcePoolIamPolicy_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -350,7 +350,7 @@ datagoogleiamworkforcepooliampolicy.DataGoogleIamWorkforcePoolIamPolicy_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-google-beta.dataGoogleIamWorkforcePoolIamPolicy.DataGoogleIamWorkforcePoolIamPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/datagoogleiamworkforcepooliampolicy"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/datagoogleiamworkforcepooliampolicy"
 
 datagoogleiamworkforcepooliampolicy.DataGoogleIamWorkforcePoolIamPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -645,7 +645,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.dataGoogleIamWorkforcePoolIamPolicy.DataGoogleIamWorkforcePoolIamPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/datagoogleiamworkforcepooliampolicy"
+import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/datagoogleiamworkforcepooliampolicy"
 
 &datagoogleiamworkforcepooliampolicy.DataGoogleIamWorkforcePoolIamPolicyConfig {
 	Connection: interface{},
