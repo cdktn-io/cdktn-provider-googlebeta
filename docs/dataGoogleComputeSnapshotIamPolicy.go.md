@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleComputeSnapshotIamPolicy.DataGoogleComputeSnapshotIamPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglecomputesnapshotiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecomputesnapshotiampolicy"
 
 datagooglecomputesnapshotiampolicy.NewDataGoogleComputeSnapshotIamPolicy(scope Construct, id *string, config DataGoogleComputeSnapshotIamPolicyConfig) DataGoogleComputeSnapshotIamPolicy
 ```
@@ -290,7 +290,7 @@ func ResetProject()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.dataGoogleComputeSnapshotIamPolicy.DataGoogleComputeSnapshotIamPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglecomputesnapshotiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecomputesnapshotiampolicy"
 
 datagooglecomputesnapshotiampolicy.DataGoogleComputeSnapshotIamPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -322,7 +322,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.dataGoogleComputeSnapshotIamPolicy.DataGoogleComputeSnapshotIamPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglecomputesnapshotiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecomputesnapshotiampolicy"
 
 datagooglecomputesnapshotiampolicy.DataGoogleComputeSnapshotIamPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -336,7 +336,7 @@ datagooglecomputesnapshotiampolicy.DataGoogleComputeSnapshotIamPolicy_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-google-beta.dataGoogleComputeSnapshotIamPolicy.DataGoogleComputeSnapshotIamPolicy.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglecomputesnapshotiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecomputesnapshotiampolicy"
 
 datagooglecomputesnapshotiampolicy.DataGoogleComputeSnapshotIamPolicy_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -350,7 +350,7 @@ datagooglecomputesnapshotiampolicy.DataGoogleComputeSnapshotIamPolicy_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.dataGoogleComputeSnapshotIamPolicy.DataGoogleComputeSnapshotIamPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglecomputesnapshotiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecomputesnapshotiampolicy"
 
 datagooglecomputesnapshotiampolicy.DataGoogleComputeSnapshotIamPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -645,7 +645,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleComputeSnapshotIamPolicy.DataGoogleComputeSnapshotIamPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglecomputesnapshotiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecomputesnapshotiampolicy"
 
 &datagooglecomputesnapshotiampolicy.DataGoogleComputeSnapshotIamPolicyConfig {
 	Connection: interface{},

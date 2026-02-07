@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSecureSourceManagerRepository.GoogleSecureSourceManagerRepository.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesecuresourcemanagerrepository"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesecuresourcemanagerrepository"
 
 googlesecuresourcemanagerrepository.NewGoogleSecureSourceManagerRepository(scope Construct, id *string, config GoogleSecureSourceManagerRepositoryConfig) GoogleSecureSourceManagerRepository
 ```
@@ -446,7 +446,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleSecureSourceManagerRepository.GoogleSecureSourceManagerRepository.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesecuresourcemanagerrepository"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesecuresourcemanagerrepository"
 
 googlesecuresourcemanagerrepository.GoogleSecureSourceManagerRepository_IsConstruct(x interface{}) *bool
 ```
@@ -478,7 +478,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleSecureSourceManagerRepository.GoogleSecureSourceManagerRepository.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesecuresourcemanagerrepository"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesecuresourcemanagerrepository"
 
 googlesecuresourcemanagerrepository.GoogleSecureSourceManagerRepository_IsTerraformElement(x interface{}) *bool
 ```
@@ -492,7 +492,7 @@ googlesecuresourcemanagerrepository.GoogleSecureSourceManagerRepository_IsTerraf
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleSecureSourceManagerRepository.GoogleSecureSourceManagerRepository.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesecuresourcemanagerrepository"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesecuresourcemanagerrepository"
 
 googlesecuresourcemanagerrepository.GoogleSecureSourceManagerRepository_IsTerraformResource(x interface{}) *bool
 ```
@@ -506,7 +506,7 @@ googlesecuresourcemanagerrepository.GoogleSecureSourceManagerRepository_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleSecureSourceManagerRepository.GoogleSecureSourceManagerRepository.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesecuresourcemanagerrepository"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesecuresourcemanagerrepository"
 
 googlesecuresourcemanagerrepository.GoogleSecureSourceManagerRepository_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -988,7 +988,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSecureSourceManagerRepository.GoogleSecureSourceManagerRepositoryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesecuresourcemanagerrepository"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesecuresourcemanagerrepository"
 
 &googlesecuresourcemanagerrepository.GoogleSecureSourceManagerRepositoryConfig {
 	Connection: interface{},
@@ -1004,9 +1004,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlese
 	DeletionPolicy: *string,
 	Description: *string,
 	Id: *string,
-	InitialConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleSecureSourceManagerRepository.GoogleSecureSourceManagerRepositoryInitialConfig,
+	InitialConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleSecureSourceManagerRepository.GoogleSecureSourceManagerRepositoryInitialConfig,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleSecureSourceManagerRepository.GoogleSecureSourceManagerRepositoryTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleSecureSourceManagerRepository.GoogleSecureSourceManagerRepositoryTimeouts,
 }
 ```
 
@@ -1243,7 +1243,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSecureSourceManagerRepository.GoogleSecureSourceManagerRepositoryInitialConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesecuresourcemanagerrepository"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesecuresourcemanagerrepository"
 
 &googlesecuresourcemanagerrepository.GoogleSecureSourceManagerRepositoryInitialConfig {
 	DefaultBranch: *string,
@@ -1325,7 +1325,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSecureSourceManagerRepository.GoogleSecureSourceManagerRepositoryTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesecuresourcemanagerrepository"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesecuresourcemanagerrepository"
 
 &googlesecuresourcemanagerrepository.GoogleSecureSourceManagerRepositoryTimeouts {
 	Create: *string,
@@ -1385,7 +1385,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSecureSourceManagerRepository.GoogleSecureSourceManagerRepositoryUris.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesecuresourcemanagerrepository"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesecuresourcemanagerrepository"
 
 &googlesecuresourcemanagerrepository.GoogleSecureSourceManagerRepositoryUris {
 
@@ -1400,7 +1400,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlese
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSecureSourceManagerRepository.GoogleSecureSourceManagerRepositoryInitialConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesecuresourcemanagerrepository"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesecuresourcemanagerrepository"
 
 googlesecuresourcemanagerrepository.NewGoogleSecureSourceManagerRepositoryInitialConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleSecureSourceManagerRepositoryInitialConfigOutputReference
 ```
@@ -1765,7 +1765,7 @@ func InternalValue() GoogleSecureSourceManagerRepositoryInitialConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSecureSourceManagerRepository.GoogleSecureSourceManagerRepositoryTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesecuresourcemanagerrepository"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesecuresourcemanagerrepository"
 
 googlesecuresourcemanagerrepository.NewGoogleSecureSourceManagerRepositoryTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleSecureSourceManagerRepositoryTimeoutsOutputReference
 ```
@@ -2101,7 +2101,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSecureSourceManagerRepository.GoogleSecureSourceManagerRepositoryUrisList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesecuresourcemanagerrepository"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesecuresourcemanagerrepository"
 
 googlesecuresourcemanagerrepository.NewGoogleSecureSourceManagerRepositoryUrisList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleSecureSourceManagerRepositoryUrisList
 ```
@@ -2250,7 +2250,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSecureSourceManagerRepository.GoogleSecureSourceManagerRepositoryUrisOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesecuresourcemanagerrepository"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesecuresourcemanagerrepository"
 
 googlesecuresourcemanagerrepository.NewGoogleSecureSourceManagerRepositoryUrisOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleSecureSourceManagerRepositoryUrisOutputReference
 ```

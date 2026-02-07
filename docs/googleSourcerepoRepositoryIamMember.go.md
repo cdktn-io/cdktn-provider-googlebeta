@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSourcerepoRepositoryIamMember.GoogleSourcerepoRepositoryIamMember.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesourcereporepositoryiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesourcereporepositoryiammember"
 
 googlesourcereporepositoryiammember.NewGoogleSourcerepoRepositoryIamMember(scope Construct, id *string, config GoogleSourcerepoRepositoryIamMemberConfig) GoogleSourcerepoRepositoryIamMember
 ```
@@ -412,7 +412,7 @@ func ResetProject()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleSourcerepoRepositoryIamMember.GoogleSourcerepoRepositoryIamMember.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesourcereporepositoryiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesourcereporepositoryiammember"
 
 googlesourcereporepositoryiammember.GoogleSourcerepoRepositoryIamMember_IsConstruct(x interface{}) *bool
 ```
@@ -444,7 +444,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleSourcerepoRepositoryIamMember.GoogleSourcerepoRepositoryIamMember.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesourcereporepositoryiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesourcereporepositoryiammember"
 
 googlesourcereporepositoryiammember.GoogleSourcerepoRepositoryIamMember_IsTerraformElement(x interface{}) *bool
 ```
@@ -458,7 +458,7 @@ googlesourcereporepositoryiammember.GoogleSourcerepoRepositoryIamMember_IsTerraf
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleSourcerepoRepositoryIamMember.GoogleSourcerepoRepositoryIamMember.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesourcereporepositoryiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesourcereporepositoryiammember"
 
 googlesourcereporepositoryiammember.GoogleSourcerepoRepositoryIamMember_IsTerraformResource(x interface{}) *bool
 ```
@@ -472,7 +472,7 @@ googlesourcereporepositoryiammember.GoogleSourcerepoRepositoryIamMember_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleSourcerepoRepositoryIamMember.GoogleSourcerepoRepositoryIamMember.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesourcereporepositoryiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesourcereporepositoryiammember"
 
 googlesourcereporepositoryiammember.GoogleSourcerepoRepositoryIamMember_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -844,7 +844,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSourcerepoRepositoryIamMember.GoogleSourcerepoRepositoryIamMemberCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesourcereporepositoryiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesourcereporepositoryiammember"
 
 &googlesourcereporepositoryiammember.GoogleSourcerepoRepositoryIamMemberCondition {
 	Expression: *string,
@@ -904,7 +904,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSourcerepoRepositoryIamMember.GoogleSourcerepoRepositoryIamMemberConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesourcereporepositoryiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesourcereporepositoryiammember"
 
 &googlesourcereporepositoryiammember.GoogleSourcerepoRepositoryIamMemberConfig {
 	Connection: interface{},
@@ -917,7 +917,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleso
 	Member: *string,
 	Repository: *string,
 	Role: *string,
-	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleSourcerepoRepositoryIamMember.GoogleSourcerepoRepositoryIamMemberCondition,
+	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleSourcerepoRepositoryIamMember.GoogleSourcerepoRepositoryIamMemberCondition,
 	Id: *string,
 	Project: *string,
 }
@@ -1097,7 +1097,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSourcerepoRepositoryIamMember.GoogleSourcerepoRepositoryIamMemberConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesourcereporepositoryiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesourcereporepositoryiammember"
 
 googlesourcereporepositoryiammember.NewGoogleSourcerepoRepositoryIamMemberConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleSourcerepoRepositoryIamMemberConditionOutputReference
 ```

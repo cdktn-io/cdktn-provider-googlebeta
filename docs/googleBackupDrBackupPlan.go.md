@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebackupdrbackupplan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebackupdrbackupplan"
 
 googlebackupdrbackupplan.NewGoogleBackupDrBackupPlan(scope Construct, id *string, config GoogleBackupDrBackupPlanConfig) GoogleBackupDrBackupPlan
 ```
@@ -439,7 +439,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebackupdrbackupplan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebackupdrbackupplan"
 
 googlebackupdrbackupplan.GoogleBackupDrBackupPlan_IsConstruct(x interface{}) *bool
 ```
@@ -471,7 +471,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebackupdrbackupplan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebackupdrbackupplan"
 
 googlebackupdrbackupplan.GoogleBackupDrBackupPlan_IsTerraformElement(x interface{}) *bool
 ```
@@ -485,7 +485,7 @@ googlebackupdrbackupplan.GoogleBackupDrBackupPlan_IsTerraformElement(x interface
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebackupdrbackupplan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebackupdrbackupplan"
 
 googlebackupdrbackupplan.GoogleBackupDrBackupPlan_IsTerraformResource(x interface{}) *bool
 ```
@@ -499,7 +499,7 @@ googlebackupdrbackupplan.GoogleBackupDrBackupPlan_IsTerraformResource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebackupdrbackupplan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebackupdrbackupplan"
 
 googlebackupdrbackupplan.GoogleBackupDrBackupPlan_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1003,12 +1003,12 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanBackupRules.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebackupdrbackupplan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebackupdrbackupplan"
 
 &googlebackupdrbackupplan.GoogleBackupDrBackupPlanBackupRules {
 	BackupRetentionDays: *f64,
 	RuleId: *string,
-	StandardSchedule: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanBackupRulesStandardSchedule,
+	StandardSchedule: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanBackupRulesStandardSchedule,
 }
 ```
 
@@ -1071,17 +1071,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanBackupRulesStandardSchedule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebackupdrbackupplan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebackupdrbackupplan"
 
 &googlebackupdrbackupplan.GoogleBackupDrBackupPlanBackupRulesStandardSchedule {
 	RecurrenceType: *string,
 	TimeZone: *string,
-	BackupWindow: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanBackupRulesStandardScheduleBackupWindow,
+	BackupWindow: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanBackupRulesStandardScheduleBackupWindow,
 	DaysOfMonth: *[]*f64,
 	DaysOfWeek: *[]*string,
 	HourlyFrequency: *f64,
 	Months: *[]*string,
-	WeekDayOfMonth: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonth,
+	WeekDayOfMonth: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonth,
 }
 ```
 
@@ -1222,7 +1222,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanBackupRulesStandardScheduleBackupWindow.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebackupdrbackupplan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebackupdrbackupplan"
 
 &googlebackupdrbackupplan.GoogleBackupDrBackupPlanBackupRulesStandardScheduleBackupWindow {
 	StartHourOfDay: *f64,
@@ -1274,7 +1274,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonth.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebackupdrbackupplan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebackupdrbackupplan"
 
 &googlebackupdrbackupplan.GoogleBackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonth {
 	DayOfWeek: *string,
@@ -1324,7 +1324,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebackupdrbackupplan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebackupdrbackupplan"
 
 &googlebackupdrbackupplan.GoogleBackupDrBackupPlanConfig {
 	Connection: interface{},
@@ -1343,7 +1343,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleba
 	Id: *string,
 	LogRetentionDays: *f64,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanTimeouts,
 }
 ```
 
@@ -1587,7 +1587,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebackupdrbackupplan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebackupdrbackupplan"
 
 &googlebackupdrbackupplan.GoogleBackupDrBackupPlanTimeouts {
 	Create: *string,
@@ -1649,7 +1649,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanBackupRulesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebackupdrbackupplan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebackupdrbackupplan"
 
 googlebackupdrbackupplan.NewGoogleBackupDrBackupPlanBackupRulesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleBackupDrBackupPlanBackupRulesList
 ```
@@ -1809,7 +1809,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanBackupRulesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebackupdrbackupplan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebackupdrbackupplan"
 
 googlebackupdrbackupplan.NewGoogleBackupDrBackupPlanBackupRulesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleBackupDrBackupPlanBackupRulesOutputReference
 ```
@@ -2155,7 +2155,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanBackupRulesStandardScheduleBackupWindowOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebackupdrbackupplan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebackupdrbackupplan"
 
 googlebackupdrbackupplan.NewGoogleBackupDrBackupPlanBackupRulesStandardScheduleBackupWindowOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBackupDrBackupPlanBackupRulesStandardScheduleBackupWindowOutputReference
 ```
@@ -2455,7 +2455,7 @@ func InternalValue() GoogleBackupDrBackupPlanBackupRulesStandardScheduleBackupWi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanBackupRulesStandardScheduleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebackupdrbackupplan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebackupdrbackupplan"
 
 googlebackupdrbackupplan.NewGoogleBackupDrBackupPlanBackupRulesStandardScheduleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBackupDrBackupPlanBackupRulesStandardScheduleOutputReference
 ```
@@ -2948,7 +2948,7 @@ func InternalValue() GoogleBackupDrBackupPlanBackupRulesStandardSchedule
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonthOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebackupdrbackupplan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebackupdrbackupplan"
 
 googlebackupdrbackupplan.NewGoogleBackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonthOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonthOutputReference
 ```
@@ -3241,7 +3241,7 @@ func InternalValue() GoogleBackupDrBackupPlanBackupRulesStandardScheduleWeekDayO
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebackupdrbackupplan"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebackupdrbackupplan"
 
 googlebackupdrbackupplan.NewGoogleBackupDrBackupPlanTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBackupDrBackupPlanTimeoutsOutputReference
 ```

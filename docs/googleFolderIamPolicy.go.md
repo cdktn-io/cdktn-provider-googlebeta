@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFolderIamPolicy.GoogleFolderIamPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlefolderiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefolderiampolicy"
 
 googlefolderiampolicy.NewGoogleFolderIamPolicy(scope Construct, id *string, config GoogleFolderIamPolicyConfig) GoogleFolderIamPolicy
 ```
@@ -385,7 +385,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleFolderIamPolicy.GoogleFolderIamPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlefolderiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefolderiampolicy"
 
 googlefolderiampolicy.GoogleFolderIamPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -417,7 +417,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleFolderIamPolicy.GoogleFolderIamPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlefolderiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefolderiampolicy"
 
 googlefolderiampolicy.GoogleFolderIamPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -431,7 +431,7 @@ googlefolderiampolicy.GoogleFolderIamPolicy_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleFolderIamPolicy.GoogleFolderIamPolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlefolderiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefolderiampolicy"
 
 googlefolderiampolicy.GoogleFolderIamPolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -445,7 +445,7 @@ googlefolderiampolicy.GoogleFolderIamPolicy_IsTerraformResource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleFolderIamPolicy.GoogleFolderIamPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlefolderiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefolderiampolicy"
 
 googlefolderiampolicy.GoogleFolderIamPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -751,7 +751,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFolderIamPolicy.GoogleFolderIamPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlefolderiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefolderiampolicy"
 
 &googlefolderiampolicy.GoogleFolderIamPolicyConfig {
 	Connection: interface{},

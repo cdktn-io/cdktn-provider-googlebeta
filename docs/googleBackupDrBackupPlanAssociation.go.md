@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrBackupPlanAssociation.GoogleBackupDrBackupPlanAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebackupdrbackupplanassociation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebackupdrbackupplanassociation"
 
 googlebackupdrbackupplanassociation.NewGoogleBackupDrBackupPlanAssociation(scope Construct, id *string, config GoogleBackupDrBackupPlanAssociationConfig) GoogleBackupDrBackupPlanAssociation
 ```
@@ -412,7 +412,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleBackupDrBackupPlanAssociation.GoogleBackupDrBackupPlanAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebackupdrbackupplanassociation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebackupdrbackupplanassociation"
 
 googlebackupdrbackupplanassociation.GoogleBackupDrBackupPlanAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -444,7 +444,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleBackupDrBackupPlanAssociation.GoogleBackupDrBackupPlanAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebackupdrbackupplanassociation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebackupdrbackupplanassociation"
 
 googlebackupdrbackupplanassociation.GoogleBackupDrBackupPlanAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -458,7 +458,7 @@ googlebackupdrbackupplanassociation.GoogleBackupDrBackupPlanAssociation_IsTerraf
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleBackupDrBackupPlanAssociation.GoogleBackupDrBackupPlanAssociation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebackupdrbackupplanassociation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebackupdrbackupplanassociation"
 
 googlebackupdrbackupplanassociation.GoogleBackupDrBackupPlanAssociation_IsTerraformResource(x interface{}) *bool
 ```
@@ -472,7 +472,7 @@ googlebackupdrbackupplanassociation.GoogleBackupDrBackupPlanAssociation_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleBackupDrBackupPlanAssociation.GoogleBackupDrBackupPlanAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebackupdrbackupplanassociation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebackupdrbackupplanassociation"
 
 googlebackupdrbackupplanassociation.GoogleBackupDrBackupPlanAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -943,7 +943,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrBackupPlanAssociation.GoogleBackupDrBackupPlanAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebackupdrbackupplanassociation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebackupdrbackupplanassociation"
 
 &googlebackupdrbackupplanassociation.GoogleBackupDrBackupPlanAssociationConfig {
 	Connection: interface{},
@@ -960,7 +960,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleba
 	ResourceType: *string,
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleBackupDrBackupPlanAssociation.GoogleBackupDrBackupPlanAssociationTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleBackupDrBackupPlanAssociation.GoogleBackupDrBackupPlanAssociationTimeouts,
 }
 ```
 
@@ -1172,7 +1172,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrBackupPlanAssociation.GoogleBackupDrBackupPlanAssociationRulesConfigInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebackupdrbackupplanassociation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebackupdrbackupplanassociation"
 
 &googlebackupdrbackupplanassociation.GoogleBackupDrBackupPlanAssociationRulesConfigInfo {
 
@@ -1185,7 +1185,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleba
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrBackupPlanAssociation.GoogleBackupDrBackupPlanAssociationRulesConfigInfoLastBackupError.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebackupdrbackupplanassociation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebackupdrbackupplanassociation"
 
 &googlebackupdrbackupplanassociation.GoogleBackupDrBackupPlanAssociationRulesConfigInfoLastBackupError {
 
@@ -1198,7 +1198,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleba
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrBackupPlanAssociation.GoogleBackupDrBackupPlanAssociationTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebackupdrbackupplanassociation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebackupdrbackupplanassociation"
 
 &googlebackupdrbackupplanassociation.GoogleBackupDrBackupPlanAssociationTimeouts {
 	Create: *string,
@@ -1260,7 +1260,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrBackupPlanAssociation.GoogleBackupDrBackupPlanAssociationRulesConfigInfoLastBackupErrorList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebackupdrbackupplanassociation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebackupdrbackupplanassociation"
 
 googlebackupdrbackupplanassociation.NewGoogleBackupDrBackupPlanAssociationRulesConfigInfoLastBackupErrorList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleBackupDrBackupPlanAssociationRulesConfigInfoLastBackupErrorList
 ```
@@ -1409,7 +1409,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrBackupPlanAssociation.GoogleBackupDrBackupPlanAssociationRulesConfigInfoLastBackupErrorOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebackupdrbackupplanassociation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebackupdrbackupplanassociation"
 
 googlebackupdrbackupplanassociation.NewGoogleBackupDrBackupPlanAssociationRulesConfigInfoLastBackupErrorOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleBackupDrBackupPlanAssociationRulesConfigInfoLastBackupErrorOutputReference
 ```
@@ -1698,7 +1698,7 @@ func InternalValue() GoogleBackupDrBackupPlanAssociationRulesConfigInfoLastBacku
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrBackupPlanAssociation.GoogleBackupDrBackupPlanAssociationRulesConfigInfoList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebackupdrbackupplanassociation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebackupdrbackupplanassociation"
 
 googlebackupdrbackupplanassociation.NewGoogleBackupDrBackupPlanAssociationRulesConfigInfoList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleBackupDrBackupPlanAssociationRulesConfigInfoList
 ```
@@ -1847,7 +1847,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrBackupPlanAssociation.GoogleBackupDrBackupPlanAssociationRulesConfigInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebackupdrbackupplanassociation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebackupdrbackupplanassociation"
 
 googlebackupdrbackupplanassociation.NewGoogleBackupDrBackupPlanAssociationRulesConfigInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleBackupDrBackupPlanAssociationRulesConfigInfoOutputReference
 ```
@@ -2147,7 +2147,7 @@ func InternalValue() GoogleBackupDrBackupPlanAssociationRulesConfigInfo
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrBackupPlanAssociation.GoogleBackupDrBackupPlanAssociationTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebackupdrbackupplanassociation"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebackupdrbackupplanassociation"
 
 googlebackupdrbackupplanassociation.NewGoogleBackupDrBackupPlanAssociationTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBackupDrBackupPlanAssociationTimeoutsOutputReference
 ```

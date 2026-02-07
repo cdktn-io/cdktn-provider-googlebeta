@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleServiceNetworkingVpcServiceControls.GoogleServiceNetworkingVpcServiceControls.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleservicenetworkingvpcservicecontrols"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleservicenetworkingvpcservicecontrols"
 
 googleservicenetworkingvpcservicecontrols.NewGoogleServiceNetworkingVpcServiceControls(scope Construct, id *string, config GoogleServiceNetworkingVpcServiceControlsConfig) GoogleServiceNetworkingVpcServiceControls
 ```
@@ -412,7 +412,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleServiceNetworkingVpcServiceControls.GoogleServiceNetworkingVpcServiceControls.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleservicenetworkingvpcservicecontrols"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleservicenetworkingvpcservicecontrols"
 
 googleservicenetworkingvpcservicecontrols.GoogleServiceNetworkingVpcServiceControls_IsConstruct(x interface{}) *bool
 ```
@@ -444,7 +444,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleServiceNetworkingVpcServiceControls.GoogleServiceNetworkingVpcServiceControls.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleservicenetworkingvpcservicecontrols"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleservicenetworkingvpcservicecontrols"
 
 googleservicenetworkingvpcservicecontrols.GoogleServiceNetworkingVpcServiceControls_IsTerraformElement(x interface{}) *bool
 ```
@@ -458,7 +458,7 @@ googleservicenetworkingvpcservicecontrols.GoogleServiceNetworkingVpcServiceContr
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleServiceNetworkingVpcServiceControls.GoogleServiceNetworkingVpcServiceControls.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleservicenetworkingvpcservicecontrols"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleservicenetworkingvpcservicecontrols"
 
 googleservicenetworkingvpcservicecontrols.GoogleServiceNetworkingVpcServiceControls_IsTerraformResource(x interface{}) *bool
 ```
@@ -472,7 +472,7 @@ googleservicenetworkingvpcservicecontrols.GoogleServiceNetworkingVpcServiceContr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleServiceNetworkingVpcServiceControls.GoogleServiceNetworkingVpcServiceControls.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleservicenetworkingvpcservicecontrols"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleservicenetworkingvpcservicecontrols"
 
 googleservicenetworkingvpcservicecontrols.GoogleServiceNetworkingVpcServiceControls_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -833,7 +833,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleServiceNetworkingVpcServiceControls.GoogleServiceNetworkingVpcServiceControlsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleservicenetworkingvpcservicecontrols"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleservicenetworkingvpcservicecontrols"
 
 &googleservicenetworkingvpcservicecontrols.GoogleServiceNetworkingVpcServiceControlsConfig {
 	Connection: interface{},
@@ -848,7 +848,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlese
 	Service: *string,
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleServiceNetworkingVpcServiceControls.GoogleServiceNetworkingVpcServiceControlsTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleServiceNetworkingVpcServiceControls.GoogleServiceNetworkingVpcServiceControlsTimeouts,
 }
 ```
 
@@ -1035,7 +1035,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleServiceNetworkingVpcServiceControls.GoogleServiceNetworkingVpcServiceControlsTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleservicenetworkingvpcservicecontrols"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleservicenetworkingvpcservicecontrols"
 
 &googleservicenetworkingvpcservicecontrols.GoogleServiceNetworkingVpcServiceControlsTimeouts {
 	Create: *string,
@@ -1097,7 +1097,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleServiceNetworkingVpcServiceControls.GoogleServiceNetworkingVpcServiceControlsTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleservicenetworkingvpcservicecontrols"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleservicenetworkingvpcservicecontrols"
 
 googleservicenetworkingvpcservicecontrols.NewGoogleServiceNetworkingVpcServiceControlsTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleServiceNetworkingVpcServiceControlsTimeoutsOutputReference
 ```

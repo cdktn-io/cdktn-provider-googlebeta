@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeHubScopeRbacRoleBinding.GoogleGkeHubScopeRbacRoleBinding.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlegkehubscoperbacrolebinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkehubscoperbacrolebinding"
 
 googlegkehubscoperbacrolebinding.NewGoogleGkeHubScopeRbacRoleBinding(scope Construct, id *string, config GoogleGkeHubScopeRbacRoleBindingConfig) GoogleGkeHubScopeRbacRoleBinding
 ```
@@ -446,7 +446,7 @@ func ResetUser()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleGkeHubScopeRbacRoleBinding.GoogleGkeHubScopeRbacRoleBinding.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlegkehubscoperbacrolebinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkehubscoperbacrolebinding"
 
 googlegkehubscoperbacrolebinding.GoogleGkeHubScopeRbacRoleBinding_IsConstruct(x interface{}) *bool
 ```
@@ -478,7 +478,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleGkeHubScopeRbacRoleBinding.GoogleGkeHubScopeRbacRoleBinding.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlegkehubscoperbacrolebinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkehubscoperbacrolebinding"
 
 googlegkehubscoperbacrolebinding.GoogleGkeHubScopeRbacRoleBinding_IsTerraformElement(x interface{}) *bool
 ```
@@ -492,7 +492,7 @@ googlegkehubscoperbacrolebinding.GoogleGkeHubScopeRbacRoleBinding_IsTerraformEle
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleGkeHubScopeRbacRoleBinding.GoogleGkeHubScopeRbacRoleBinding.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlegkehubscoperbacrolebinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkehubscoperbacrolebinding"
 
 googlegkehubscoperbacrolebinding.GoogleGkeHubScopeRbacRoleBinding_IsTerraformResource(x interface{}) *bool
 ```
@@ -506,7 +506,7 @@ googlegkehubscoperbacrolebinding.GoogleGkeHubScopeRbacRoleBinding_IsTerraformRes
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleGkeHubScopeRbacRoleBinding.GoogleGkeHubScopeRbacRoleBinding.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlegkehubscoperbacrolebinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkehubscoperbacrolebinding"
 
 googlegkehubscoperbacrolebinding.GoogleGkeHubScopeRbacRoleBinding_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1021,7 +1021,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeHubScopeRbacRoleBinding.GoogleGkeHubScopeRbacRoleBindingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlegkehubscoperbacrolebinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkehubscoperbacrolebinding"
 
 &googlegkehubscoperbacrolebinding.GoogleGkeHubScopeRbacRoleBindingConfig {
 	Connection: interface{},
@@ -1031,14 +1031,14 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlegk
 	Lifecycle: github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle,
 	Provider: github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider,
 	Provisioners: *[]interface{},
-	Role: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleGkeHubScopeRbacRoleBinding.GoogleGkeHubScopeRbacRoleBindingRole,
+	Role: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleGkeHubScopeRbacRoleBinding.GoogleGkeHubScopeRbacRoleBindingRole,
 	ScopeId: *string,
 	ScopeRbacRoleBindingId: *string,
 	Group: *string,
 	Id: *string,
 	Labels: *map[string]*string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleGkeHubScopeRbacRoleBinding.GoogleGkeHubScopeRbacRoleBindingTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleGkeHubScopeRbacRoleBinding.GoogleGkeHubScopeRbacRoleBindingTimeouts,
 	User: *string,
 }
 ```
@@ -1276,7 +1276,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeHubScopeRbacRoleBinding.GoogleGkeHubScopeRbacRoleBindingRole.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlegkehubscoperbacrolebinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkehubscoperbacrolebinding"
 
 &googlegkehubscoperbacrolebinding.GoogleGkeHubScopeRbacRoleBindingRole {
 	CustomRole: *string,
@@ -1328,7 +1328,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeHubScopeRbacRoleBinding.GoogleGkeHubScopeRbacRoleBindingState.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlegkehubscoperbacrolebinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkehubscoperbacrolebinding"
 
 &googlegkehubscoperbacrolebinding.GoogleGkeHubScopeRbacRoleBindingState {
 
@@ -1341,7 +1341,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlegk
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGkeHubScopeRbacRoleBinding.GoogleGkeHubScopeRbacRoleBindingTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlegkehubscoperbacrolebinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkehubscoperbacrolebinding"
 
 &googlegkehubscoperbacrolebinding.GoogleGkeHubScopeRbacRoleBindingTimeouts {
 	Create: *string,
@@ -1403,7 +1403,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeHubScopeRbacRoleBinding.GoogleGkeHubScopeRbacRoleBindingRoleOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlegkehubscoperbacrolebinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkehubscoperbacrolebinding"
 
 googlegkehubscoperbacrolebinding.NewGoogleGkeHubScopeRbacRoleBindingRoleOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleGkeHubScopeRbacRoleBindingRoleOutputReference
 ```
@@ -1710,7 +1710,7 @@ func InternalValue() GoogleGkeHubScopeRbacRoleBindingRole
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeHubScopeRbacRoleBinding.GoogleGkeHubScopeRbacRoleBindingStateList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlegkehubscoperbacrolebinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkehubscoperbacrolebinding"
 
 googlegkehubscoperbacrolebinding.NewGoogleGkeHubScopeRbacRoleBindingStateList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleGkeHubScopeRbacRoleBindingStateList
 ```
@@ -1859,7 +1859,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeHubScopeRbacRoleBinding.GoogleGkeHubScopeRbacRoleBindingStateOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlegkehubscoperbacrolebinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkehubscoperbacrolebinding"
 
 googlegkehubscoperbacrolebinding.NewGoogleGkeHubScopeRbacRoleBindingStateOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleGkeHubScopeRbacRoleBindingStateOutputReference
 ```
@@ -2137,7 +2137,7 @@ func InternalValue() GoogleGkeHubScopeRbacRoleBindingState
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeHubScopeRbacRoleBinding.GoogleGkeHubScopeRbacRoleBindingTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlegkehubscoperbacrolebinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkehubscoperbacrolebinding"
 
 googlegkehubscoperbacrolebinding.NewGoogleGkeHubScopeRbacRoleBindingTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleGkeHubScopeRbacRoleBindingTimeoutsOutputReference
 ```

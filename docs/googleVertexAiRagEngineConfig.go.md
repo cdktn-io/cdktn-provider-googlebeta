@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexairagengineconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexairagengineconfig"
 
 googlevertexairagengineconfig.NewGoogleVertexAiRagEngineConfig(scope Construct, id *string, config GoogleVertexAiRagEngineConfigConfig) GoogleVertexAiRagEngineConfig
 ```
@@ -432,7 +432,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfig.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexairagengineconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexairagengineconfig"
 
 googlevertexairagengineconfig.GoogleVertexAiRagEngineConfig_IsConstruct(x interface{}) *bool
 ```
@@ -464,7 +464,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfig.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexairagengineconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexairagengineconfig"
 
 googlevertexairagengineconfig.GoogleVertexAiRagEngineConfig_IsTerraformElement(x interface{}) *bool
 ```
@@ -478,7 +478,7 @@ googlevertexairagengineconfig.GoogleVertexAiRagEngineConfig_IsTerraformElement(x
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfig.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexairagengineconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexairagengineconfig"
 
 googlevertexairagengineconfig.GoogleVertexAiRagEngineConfig_IsTerraformResource(x interface{}) *bool
 ```
@@ -492,7 +492,7 @@ googlevertexairagengineconfig.GoogleVertexAiRagEngineConfig_IsTerraformResource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfig.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexairagengineconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexairagengineconfig"
 
 googlevertexairagengineconfig.GoogleVertexAiRagEngineConfig_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -842,7 +842,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexairagengineconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexairagengineconfig"
 
 &googlevertexairagengineconfig.GoogleVertexAiRagEngineConfigConfig {
 	Connection: interface{},
@@ -852,11 +852,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleve
 	Lifecycle: github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle,
 	Provider: github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider,
 	Provisioners: *[]interface{},
-	RagManagedDbConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigRagManagedDbConfig,
+	RagManagedDbConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigRagManagedDbConfig,
 	Id: *string,
 	Project: *string,
 	Region: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigTimeouts,
 }
 ```
 
@@ -1023,12 +1023,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigRagManagedDbConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexairagengineconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexairagengineconfig"
 
 &googlevertexairagengineconfig.GoogleVertexAiRagEngineConfigRagManagedDbConfig {
-	Basic: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigRagManagedDbConfigBasic,
-	Scaled: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigRagManagedDbConfigScaled,
-	Unprovisioned: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigRagManagedDbConfigUnprovisioned,
+	Basic: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigRagManagedDbConfigBasic,
+	Scaled: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigRagManagedDbConfigScaled,
+	Unprovisioned: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigRagManagedDbConfigUnprovisioned,
 }
 ```
 
@@ -1089,7 +1089,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigRagManagedDbConfigBasic.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexairagengineconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexairagengineconfig"
 
 &googlevertexairagengineconfig.GoogleVertexAiRagEngineConfigRagManagedDbConfigBasic {
 
@@ -1102,7 +1102,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleve
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigRagManagedDbConfigScaled.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexairagengineconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexairagengineconfig"
 
 &googlevertexairagengineconfig.GoogleVertexAiRagEngineConfigRagManagedDbConfigScaled {
 
@@ -1115,7 +1115,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleve
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigRagManagedDbConfigUnprovisioned.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexairagengineconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexairagengineconfig"
 
 &googlevertexairagengineconfig.GoogleVertexAiRagEngineConfigRagManagedDbConfigUnprovisioned {
 
@@ -1128,7 +1128,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleve
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexairagengineconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexairagengineconfig"
 
 &googlevertexairagengineconfig.GoogleVertexAiRagEngineConfigTimeouts {
 	Create: *string,
@@ -1190,7 +1190,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigRagManagedDbConfigBasicOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexairagengineconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexairagengineconfig"
 
 googlevertexairagengineconfig.NewGoogleVertexAiRagEngineConfigRagManagedDbConfigBasicOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiRagEngineConfigRagManagedDbConfigBasicOutputReference
 ```
@@ -1439,7 +1439,7 @@ func InternalValue() GoogleVertexAiRagEngineConfigRagManagedDbConfigBasic
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigRagManagedDbConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexairagengineconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexairagengineconfig"
 
 googlevertexairagengineconfig.NewGoogleVertexAiRagEngineConfigRagManagedDbConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiRagEngineConfigRagManagedDbConfigOutputReference
 ```
@@ -1814,7 +1814,7 @@ func InternalValue() GoogleVertexAiRagEngineConfigRagManagedDbConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigRagManagedDbConfigScaledOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexairagengineconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexairagengineconfig"
 
 googlevertexairagengineconfig.NewGoogleVertexAiRagEngineConfigRagManagedDbConfigScaledOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiRagEngineConfigRagManagedDbConfigScaledOutputReference
 ```
@@ -2063,7 +2063,7 @@ func InternalValue() GoogleVertexAiRagEngineConfigRagManagedDbConfigScaled
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigRagManagedDbConfigUnprovisionedOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexairagengineconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexairagengineconfig"
 
 googlevertexairagengineconfig.NewGoogleVertexAiRagEngineConfigRagManagedDbConfigUnprovisionedOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiRagEngineConfigRagManagedDbConfigUnprovisionedOutputReference
 ```
@@ -2312,7 +2312,7 @@ func InternalValue() GoogleVertexAiRagEngineConfigRagManagedDbConfigUnprovisione
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiRagEngineConfig.GoogleVertexAiRagEngineConfigTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexairagengineconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexairagengineconfig"
 
 googlevertexairagengineconfig.NewGoogleVertexAiRagEngineConfigTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiRagEngineConfigTimeoutsOutputReference
 ```
