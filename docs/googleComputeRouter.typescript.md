@@ -1,28 +1,28 @@
-# `googleComputeRouter` Submodule <a name="`googleComputeRouter` Submodule" id="@cdktf/provider-google-beta.googleComputeRouter"></a>
+# `googleComputeRouter` Submodule <a name="`googleComputeRouter` Submodule" id="@cdktn/provider-google-beta.googleComputeRouter"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
 
-### GoogleComputeRouter <a name="GoogleComputeRouter" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter"></a>
+### GoogleComputeRouter <a name="GoogleComputeRouter" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter"></a>
 
 Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router google_compute_router}.
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.Initializer"></a>
 
 ```typescript
-import { googleComputeRouter } from '@cdktf/provider-google-beta'
+import { googleComputeRouter } from '@cdktn/provider-google-beta'
 
 new googleComputeRouter.GoogleComputeRouter(scope: Construct, id: string, config: GoogleComputeRouterConfig)
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.Initializer.parameter.id">id</a></code> | <code>string</code> | The scoped construct ID. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig">GoogleComputeRouterConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.Initializer.parameter.id">id</a></code> | <code>string</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig">GoogleComputeRouterConfig</a></code> | *No description.* |
 
 ---
 
-##### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.Initializer.parameter.scope"></a>
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.Initializer.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
@@ -30,7 +30,7 @@ The scope in which to define this construct.
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.Initializer.parameter.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.Initializer.parameter.id"></a>
 
 - *Type:* string
 
@@ -40,9 +40,9 @@ Must be unique amongst siblings in the same scope
 
 ---
 
-##### `config`<sup>Required</sup> <a name="config" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.Initializer.parameter.config"></a>
+##### `config`<sup>Required</sup> <a name="config" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.Initializer.parameter.config"></a>
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig">GoogleComputeRouterConfig</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig">GoogleComputeRouterConfig</a>
 
 ---
 
@@ -50,46 +50,46 @@ Must be unique amongst siblings in the same scope
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.toString">toString</a></code> | Returns a string representation of this construct. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.addOverride">addOverride</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.overrideLogicalId">overrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetOverrideLogicalId">resetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.toHclTerraform">toHclTerraform</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.toMetadata">toMetadata</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.toTerraform">toTerraform</a></code> | Adds this resource to the terraform JSON output. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.addMoveTarget">addMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getListAttribute">getListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getStringAttribute">getStringAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.hasResourceMove">hasResourceMove</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.importFrom">importFrom</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.moveFromId">moveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.putBgp">putBgp</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.putMd5AuthenticationKeys">putMd5AuthenticationKeys</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.putParams">putParams</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.putTimeouts">putTimeouts</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetBgp">resetBgp</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetDescription">resetDescription</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetEncryptedInterconnectRouter">resetEncryptedInterconnectRouter</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetId">resetId</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetMd5AuthenticationKeys">resetMd5AuthenticationKeys</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetParams">resetParams</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetProject">resetProject</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetRegion">resetRegion</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetTimeouts">resetTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.toString">toString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.addOverride">addOverride</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.overrideLogicalId">overrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetOverrideLogicalId">resetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.toHclTerraform">toHclTerraform</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.toMetadata">toMetadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.toTerraform">toTerraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.addMoveTarget">addMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.hasResourceMove">hasResourceMove</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.importFrom">importFrom</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.moveFromId">moveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.putBgp">putBgp</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.putMd5AuthenticationKeys">putMd5AuthenticationKeys</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.putParams">putParams</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.putTimeouts">putTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetBgp">resetBgp</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetDescription">resetDescription</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetEncryptedInterconnectRouter">resetEncryptedInterconnectRouter</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetId">resetId</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetMd5AuthenticationKeys">resetMd5AuthenticationKeys</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetParams">resetParams</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetProject">resetProject</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetRegion">resetRegion</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetTimeouts">resetTimeouts</a></code> | *No description.* |
 
 ---
 
-##### `toString` <a name="toString" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.toString"></a>
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.toString"></a>
 
 ```typescript
 public toString(): string
@@ -97,25 +97,25 @@ public toString(): string
 
 Returns a string representation of this construct.
 
-##### `addOverride` <a name="addOverride" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.addOverride"></a>
+##### `addOverride` <a name="addOverride" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.addOverride"></a>
 
 ```typescript
 public addOverride(path: string, value: any): void
 ```
 
-###### `path`<sup>Required</sup> <a name="path" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.addOverride.parameter.path"></a>
+###### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.addOverride.parameter.path"></a>
 
 - *Type:* string
 
 ---
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.addOverride.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.addOverride.parameter.value"></a>
 
 - *Type:* any
 
 ---
 
-##### `overrideLogicalId` <a name="overrideLogicalId" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.overrideLogicalId"></a>
+##### `overrideLogicalId` <a name="overrideLogicalId" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.overrideLogicalId"></a>
 
 ```typescript
 public overrideLogicalId(newLogicalId: string): void
@@ -123,7 +123,7 @@ public overrideLogicalId(newLogicalId: string): void
 
 Overrides the auto-generated logical ID with a specific ID.
 
-###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.overrideLogicalId.parameter.newLogicalId"></a>
+###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.overrideLogicalId.parameter.newLogicalId"></a>
 
 - *Type:* string
 
@@ -131,7 +131,7 @@ The new logical ID to use for this stack element.
 
 ---
 
-##### `resetOverrideLogicalId` <a name="resetOverrideLogicalId" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetOverrideLogicalId"></a>
+##### `resetOverrideLogicalId` <a name="resetOverrideLogicalId" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetOverrideLogicalId"></a>
 
 ```typescript
 public resetOverrideLogicalId(): void
@@ -139,19 +139,19 @@ public resetOverrideLogicalId(): void
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
 
-##### `toHclTerraform` <a name="toHclTerraform" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.toHclTerraform"></a>
+##### `toHclTerraform` <a name="toHclTerraform" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.toHclTerraform"></a>
 
 ```typescript
 public toHclTerraform(): any
 ```
 
-##### `toMetadata` <a name="toMetadata" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.toMetadata"></a>
+##### `toMetadata` <a name="toMetadata" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.toMetadata"></a>
 
 ```typescript
 public toMetadata(): any
 ```
 
-##### `toTerraform` <a name="toTerraform" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.toTerraform"></a>
+##### `toTerraform` <a name="toTerraform" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.toTerraform"></a>
 
 ```typescript
 public toTerraform(): any
@@ -159,7 +159,7 @@ public toTerraform(): any
 
 Adds this resource to the terraform JSON output.
 
-##### `addMoveTarget` <a name="addMoveTarget" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.addMoveTarget"></a>
+##### `addMoveTarget` <a name="addMoveTarget" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.addMoveTarget"></a>
 
 ```typescript
 public addMoveTarget(moveTarget: string): void
@@ -167,7 +167,7 @@ public addMoveTarget(moveTarget: string): void
 
 Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 
-###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.addMoveTarget.parameter.moveTarget"></a>
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.addMoveTarget.parameter.moveTarget"></a>
 
 - *Type:* string
 
@@ -175,151 +175,151 @@ The string move target that will correspond to this resource.
 
 ---
 
-##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getAnyMapAttribute"></a>
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getAnyMapAttribute"></a>
 
 ```typescript
 public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getBooleanAttribute"></a>
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getBooleanAttribute"></a>
 
 ```typescript
 public getBooleanAttribute(terraformAttribute: string): IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getBooleanMapAttribute"></a>
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getBooleanMapAttribute"></a>
 
 ```typescript
 public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getListAttribute` <a name="getListAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getListAttribute"></a>
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getListAttribute"></a>
 
 ```typescript
 public getListAttribute(terraformAttribute: string): string[]
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getNumberAttribute"></a>
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getNumberAttribute"></a>
 
 ```typescript
 public getNumberAttribute(terraformAttribute: string): number
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getNumberListAttribute"></a>
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getNumberListAttribute"></a>
 
 ```typescript
 public getNumberListAttribute(terraformAttribute: string): number[]
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getNumberMapAttribute"></a>
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getNumberMapAttribute"></a>
 
 ```typescript
 public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getStringAttribute` <a name="getStringAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getStringAttribute"></a>
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getStringAttribute"></a>
 
 ```typescript
 public getStringAttribute(terraformAttribute: string): string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getStringMapAttribute"></a>
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getStringMapAttribute"></a>
 
 ```typescript
 public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `hasResourceMove` <a name="hasResourceMove" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.hasResourceMove"></a>
+##### `hasResourceMove` <a name="hasResourceMove" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.hasResourceMove"></a>
 
 ```typescript
 public hasResourceMove(): TerraformResourceMoveByTarget | TerraformResourceMoveById
 ```
 
-##### `importFrom` <a name="importFrom" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.importFrom"></a>
+##### `importFrom` <a name="importFrom" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.importFrom"></a>
 
 ```typescript
 public importFrom(id: string, provider?: TerraformProvider): void
 ```
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.importFrom.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.importFrom.parameter.id"></a>
 
 - *Type:* string
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.importFrom.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.importFrom.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
 ---
 
-##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.interpolationForAttribute"></a>
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.interpolationForAttribute"></a>
 
 ```typescript
 public interpolationForAttribute(terraformAttribute: string): IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.interpolationForAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.interpolationForAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `moveFromId` <a name="moveFromId" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.moveFromId"></a>
+##### `moveFromId` <a name="moveFromId" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.moveFromId"></a>
 
 ```typescript
 public moveFromId(id: string): void
@@ -329,7 +329,7 @@ Move the resource corresponding to "id" to this resource.
 
 Note that the resource being moved from must be marked as moved using it's instance function.
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.moveFromId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.moveFromId.parameter.id"></a>
 
 - *Type:* string
 
@@ -337,7 +337,7 @@ Full id of resource being moved from, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `moveTo` <a name="moveTo" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.moveTo"></a>
+##### `moveTo` <a name="moveTo" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.moveTo"></a>
 
 ```typescript
 public moveTo(moveTarget: string, index?: string | number): void
@@ -345,7 +345,7 @@ public moveTo(moveTarget: string, index?: string | number): void
 
 Moves this resource to the target resource given by moveTarget.
 
-###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.moveTo.parameter.moveTarget"></a>
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.moveTo.parameter.moveTarget"></a>
 
 - *Type:* string
 
@@ -353,7 +353,7 @@ The previously set user defined string set by .addMoveTarget() corresponding to 
 
 ---
 
-###### `index`<sup>Optional</sup> <a name="index" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.moveTo.parameter.index"></a>
+###### `index`<sup>Optional</sup> <a name="index" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.moveTo.parameter.index"></a>
 
 - *Type:* string | number
 
@@ -361,7 +361,7 @@ Optional The index corresponding to the key the resource is to appear in the for
 
 ---
 
-##### `moveToId` <a name="moveToId" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.moveToId"></a>
+##### `moveToId` <a name="moveToId" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.moveToId"></a>
 
 ```typescript
 public moveToId(id: string): void
@@ -369,7 +369,7 @@ public moveToId(id: string): void
 
 Moves this resource to the resource corresponding to "id".
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.moveToId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.moveToId.parameter.id"></a>
 
 - *Type:* string
 
@@ -377,103 +377,103 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `putBgp` <a name="putBgp" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.putBgp"></a>
+##### `putBgp` <a name="putBgp" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.putBgp"></a>
 
 ```typescript
 public putBgp(value: GoogleComputeRouterBgp): void
 ```
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.putBgp.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.putBgp.parameter.value"></a>
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgp">GoogleComputeRouterBgp</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgp">GoogleComputeRouterBgp</a>
 
 ---
 
-##### `putMd5AuthenticationKeys` <a name="putMd5AuthenticationKeys" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.putMd5AuthenticationKeys"></a>
+##### `putMd5AuthenticationKeys` <a name="putMd5AuthenticationKeys" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.putMd5AuthenticationKeys"></a>
 
 ```typescript
 public putMd5AuthenticationKeys(value: GoogleComputeRouterMd5AuthenticationKeys): void
 ```
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.putMd5AuthenticationKeys.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.putMd5AuthenticationKeys.parameter.value"></a>
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeys">GoogleComputeRouterMd5AuthenticationKeys</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeys">GoogleComputeRouterMd5AuthenticationKeys</a>
 
 ---
 
-##### `putParams` <a name="putParams" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.putParams"></a>
+##### `putParams` <a name="putParams" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.putParams"></a>
 
 ```typescript
 public putParams(value: GoogleComputeRouterParams): void
 ```
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.putParams.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.putParams.parameter.value"></a>
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParams">GoogleComputeRouterParams</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParams">GoogleComputeRouterParams</a>
 
 ---
 
-##### `putTimeouts` <a name="putTimeouts" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.putTimeouts"></a>
+##### `putTimeouts` <a name="putTimeouts" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.putTimeouts"></a>
 
 ```typescript
 public putTimeouts(value: GoogleComputeRouterTimeouts): void
 ```
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.putTimeouts.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.putTimeouts.parameter.value"></a>
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeouts">GoogleComputeRouterTimeouts</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeouts">GoogleComputeRouterTimeouts</a>
 
 ---
 
-##### `resetBgp` <a name="resetBgp" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetBgp"></a>
+##### `resetBgp` <a name="resetBgp" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetBgp"></a>
 
 ```typescript
 public resetBgp(): void
 ```
 
-##### `resetDescription` <a name="resetDescription" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetDescription"></a>
+##### `resetDescription` <a name="resetDescription" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetDescription"></a>
 
 ```typescript
 public resetDescription(): void
 ```
 
-##### `resetEncryptedInterconnectRouter` <a name="resetEncryptedInterconnectRouter" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetEncryptedInterconnectRouter"></a>
+##### `resetEncryptedInterconnectRouter` <a name="resetEncryptedInterconnectRouter" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetEncryptedInterconnectRouter"></a>
 
 ```typescript
 public resetEncryptedInterconnectRouter(): void
 ```
 
-##### `resetId` <a name="resetId" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetId"></a>
+##### `resetId` <a name="resetId" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetId"></a>
 
 ```typescript
 public resetId(): void
 ```
 
-##### `resetMd5AuthenticationKeys` <a name="resetMd5AuthenticationKeys" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetMd5AuthenticationKeys"></a>
+##### `resetMd5AuthenticationKeys` <a name="resetMd5AuthenticationKeys" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetMd5AuthenticationKeys"></a>
 
 ```typescript
 public resetMd5AuthenticationKeys(): void
 ```
 
-##### `resetParams` <a name="resetParams" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetParams"></a>
+##### `resetParams` <a name="resetParams" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetParams"></a>
 
 ```typescript
 public resetParams(): void
 ```
 
-##### `resetProject` <a name="resetProject" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetProject"></a>
+##### `resetProject` <a name="resetProject" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetProject"></a>
 
 ```typescript
 public resetProject(): void
 ```
 
-##### `resetRegion` <a name="resetRegion" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetRegion"></a>
+##### `resetRegion` <a name="resetRegion" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetRegion"></a>
 
 ```typescript
 public resetRegion(): void
 ```
 
-##### `resetTimeouts` <a name="resetTimeouts" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetTimeouts"></a>
+##### `resetTimeouts` <a name="resetTimeouts" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.resetTimeouts"></a>
 
 ```typescript
 public resetTimeouts(): void
@@ -483,17 +483,17 @@ public resetTimeouts(): void
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.isTerraformElement">isTerraformElement</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.isTerraformResource">isTerraformResource</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTF code for importing a GoogleComputeRouter resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.isTerraformResource">isTerraformResource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTF code for importing a GoogleComputeRouter resource upon running "cdktf plan <stack-name>". |
 
 ---
 
-##### `isConstruct` <a name="isConstruct" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.isConstruct"></a>
+##### `isConstruct` <a name="isConstruct" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.isConstruct"></a>
 
 ```typescript
-import { googleComputeRouter } from '@cdktf/provider-google-beta'
+import { googleComputeRouter } from '@cdktn/provider-google-beta'
 
 googleComputeRouter.GoogleComputeRouter.isConstruct(x: any)
 ```
@@ -514,7 +514,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.isConstruct.parameter.x"></a>
 
 - *Type:* any
 
@@ -522,45 +522,45 @@ Any object.
 
 ---
 
-##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.isTerraformElement"></a>
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.isTerraformElement"></a>
 
 ```typescript
-import { googleComputeRouter } from '@cdktf/provider-google-beta'
+import { googleComputeRouter } from '@cdktn/provider-google-beta'
 
 googleComputeRouter.GoogleComputeRouter.isTerraformElement(x: any)
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.isTerraformElement.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.isTerraformElement.parameter.x"></a>
 
 - *Type:* any
 
 ---
 
-##### `isTerraformResource` <a name="isTerraformResource" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.isTerraformResource"></a>
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.isTerraformResource"></a>
 
 ```typescript
-import { googleComputeRouter } from '@cdktf/provider-google-beta'
+import { googleComputeRouter } from '@cdktn/provider-google-beta'
 
 googleComputeRouter.GoogleComputeRouter.isTerraformResource(x: any)
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.isTerraformResource.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.isTerraformResource.parameter.x"></a>
 
 - *Type:* any
 
 ---
 
-##### `generateConfigForImport` <a name="generateConfigForImport" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.generateConfigForImport"></a>
+##### `generateConfigForImport` <a name="generateConfigForImport" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.generateConfigForImport"></a>
 
 ```typescript
-import { googleComputeRouter } from '@cdktf/provider-google-beta'
+import { googleComputeRouter } from '@cdktn/provider-google-beta'
 
 googleComputeRouter.GoogleComputeRouter.generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: TerraformProvider)
 ```
 
 Generates CDKTF code for importing a GoogleComputeRouter resource upon running "cdktf plan <stack-name>".
 
-###### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.generateConfigForImport.parameter.scope"></a>
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.generateConfigForImport.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
@@ -568,7 +568,7 @@ The scope in which to define this construct.
 
 ---
 
-###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.generateConfigForImport.parameter.importToId"></a>
+###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.generateConfigForImport.parameter.importToId"></a>
 
 - *Type:* string
 
@@ -576,7 +576,7 @@ The construct id used in the generated config for the GoogleComputeRouter to imp
 
 ---
 
-###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.generateConfigForImport.parameter.importFromId"></a>
+###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.generateConfigForImport.parameter.importFromId"></a>
 
 - *Type:* string
 
@@ -586,7 +586,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.generateConfigForImport.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.generateConfigForImport.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
@@ -598,48 +598,48 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.cdktfStack">cdktfStack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.terraformMetaArguments">terraformMetaArguments</a></code> | <code>{[ key: string ]: any}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.bgp">bgp</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference">GoogleComputeRouterBgpOutputReference</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.creationTimestamp">creationTimestamp</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.md5AuthenticationKeys">md5AuthenticationKeys</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference">GoogleComputeRouterMd5AuthenticationKeysOutputReference</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.params">params</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference">GoogleComputeRouterParamsOutputReference</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.selfLink">selfLink</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.timeouts">timeouts</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference">GoogleComputeRouterTimeoutsOutputReference</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.bgpInput">bgpInput</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgp">GoogleComputeRouterBgp</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.descriptionInput">descriptionInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.encryptedInterconnectRouterInput">encryptedInterconnectRouterInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.md5AuthenticationKeysInput">md5AuthenticationKeysInput</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeys">GoogleComputeRouterMd5AuthenticationKeys</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.nameInput">nameInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.networkInput">networkInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.paramsInput">paramsInput</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParams">GoogleComputeRouterParams</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.projectInput">projectInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.regionInput">regionInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.timeoutsInput">timeoutsInput</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeouts">GoogleComputeRouterTimeouts</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.description">description</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.encryptedInterconnectRouter">encryptedInterconnectRouter</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.id">id</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.name">name</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.network">network</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.project">project</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.region">region</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.cdktfStack">cdktfStack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.terraformMetaArguments">terraformMetaArguments</a></code> | <code>{[ key: string ]: any}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.bgp">bgp</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference">GoogleComputeRouterBgpOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.creationTimestamp">creationTimestamp</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.md5AuthenticationKeys">md5AuthenticationKeys</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference">GoogleComputeRouterMd5AuthenticationKeysOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.params">params</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference">GoogleComputeRouterParamsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.selfLink">selfLink</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference">GoogleComputeRouterTimeoutsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.bgpInput">bgpInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgp">GoogleComputeRouterBgp</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.descriptionInput">descriptionInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.encryptedInterconnectRouterInput">encryptedInterconnectRouterInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.md5AuthenticationKeysInput">md5AuthenticationKeysInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeys">GoogleComputeRouterMd5AuthenticationKeys</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.nameInput">nameInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.networkInput">networkInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.paramsInput">paramsInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParams">GoogleComputeRouterParams</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.projectInput">projectInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.regionInput">regionInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.timeoutsInput">timeoutsInput</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeouts">GoogleComputeRouterTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.description">description</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.encryptedInterconnectRouter">encryptedInterconnectRouter</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.id">id</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.name">name</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.network">network</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.project">project</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.region">region</a></code> | <code>string</code> | *No description.* |
 
 ---
 
-##### `node`<sup>Required</sup> <a name="node" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.node"></a>
+##### `node`<sup>Required</sup> <a name="node" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.node"></a>
 
 ```typescript
 public readonly node: Node;
@@ -651,7 +651,7 @@ The tree node.
 
 ---
 
-##### `cdktfStack`<sup>Required</sup> <a name="cdktfStack" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.cdktfStack"></a>
+##### `cdktfStack`<sup>Required</sup> <a name="cdktfStack" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.cdktfStack"></a>
 
 ```typescript
 public readonly cdktfStack: TerraformStack;
@@ -661,7 +661,7 @@ public readonly cdktfStack: TerraformStack;
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.fqn"></a>
 
 ```typescript
 public readonly fqn: string;
@@ -671,7 +671,7 @@ public readonly fqn: string;
 
 ---
 
-##### `friendlyUniqueId`<sup>Required</sup> <a name="friendlyUniqueId" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.friendlyUniqueId"></a>
+##### `friendlyUniqueId`<sup>Required</sup> <a name="friendlyUniqueId" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.friendlyUniqueId"></a>
 
 ```typescript
 public readonly friendlyUniqueId: string;
@@ -681,7 +681,7 @@ public readonly friendlyUniqueId: string;
 
 ---
 
-##### `terraformMetaArguments`<sup>Required</sup> <a name="terraformMetaArguments" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.terraformMetaArguments"></a>
+##### `terraformMetaArguments`<sup>Required</sup> <a name="terraformMetaArguments" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.terraformMetaArguments"></a>
 
 ```typescript
 public readonly terraformMetaArguments: {[ key: string ]: any};
@@ -691,7 +691,7 @@ public readonly terraformMetaArguments: {[ key: string ]: any};
 
 ---
 
-##### `terraformResourceType`<sup>Required</sup> <a name="terraformResourceType" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.terraformResourceType"></a>
+##### `terraformResourceType`<sup>Required</sup> <a name="terraformResourceType" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.terraformResourceType"></a>
 
 ```typescript
 public readonly terraformResourceType: string;
@@ -701,7 +701,7 @@ public readonly terraformResourceType: string;
 
 ---
 
-##### `terraformGeneratorMetadata`<sup>Optional</sup> <a name="terraformGeneratorMetadata" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.terraformGeneratorMetadata"></a>
+##### `terraformGeneratorMetadata`<sup>Optional</sup> <a name="terraformGeneratorMetadata" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.terraformGeneratorMetadata"></a>
 
 ```typescript
 public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
@@ -711,7 +711,7 @@ public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.connection"></a>
 
 ```typescript
 public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
@@ -721,7 +721,7 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.count"></a>
 
 ```typescript
 public readonly count: number | TerraformCount;
@@ -731,7 +731,7 @@ public readonly count: number | TerraformCount;
 
 ---
 
-##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.dependsOn"></a>
+##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.dependsOn"></a>
 
 ```typescript
 public readonly dependsOn: string[];
@@ -741,7 +741,7 @@ public readonly dependsOn: string[];
 
 ---
 
-##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.forEach"></a>
+##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.forEach"></a>
 
 ```typescript
 public readonly forEach: ITerraformIterator;
@@ -751,7 +751,7 @@ public readonly forEach: ITerraformIterator;
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.lifecycle"></a>
 
 ```typescript
 public readonly lifecycle: TerraformResourceLifecycle;
@@ -761,7 +761,7 @@ public readonly lifecycle: TerraformResourceLifecycle;
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.provider"></a>
 
 ```typescript
 public readonly provider: TerraformProvider;
@@ -771,7 +771,7 @@ public readonly provider: TerraformProvider;
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.provisioners"></a>
 
 ```typescript
 public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
@@ -781,17 +781,17 @@ public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteEx
 
 ---
 
-##### `bgp`<sup>Required</sup> <a name="bgp" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.bgp"></a>
+##### `bgp`<sup>Required</sup> <a name="bgp" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.bgp"></a>
 
 ```typescript
 public readonly bgp: GoogleComputeRouterBgpOutputReference;
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference">GoogleComputeRouterBgpOutputReference</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference">GoogleComputeRouterBgpOutputReference</a>
 
 ---
 
-##### `creationTimestamp`<sup>Required</sup> <a name="creationTimestamp" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.creationTimestamp"></a>
+##### `creationTimestamp`<sup>Required</sup> <a name="creationTimestamp" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.creationTimestamp"></a>
 
 ```typescript
 public readonly creationTimestamp: string;
@@ -801,27 +801,27 @@ public readonly creationTimestamp: string;
 
 ---
 
-##### `md5AuthenticationKeys`<sup>Required</sup> <a name="md5AuthenticationKeys" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.md5AuthenticationKeys"></a>
+##### `md5AuthenticationKeys`<sup>Required</sup> <a name="md5AuthenticationKeys" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.md5AuthenticationKeys"></a>
 
 ```typescript
 public readonly md5AuthenticationKeys: GoogleComputeRouterMd5AuthenticationKeysOutputReference;
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference">GoogleComputeRouterMd5AuthenticationKeysOutputReference</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference">GoogleComputeRouterMd5AuthenticationKeysOutputReference</a>
 
 ---
 
-##### `params`<sup>Required</sup> <a name="params" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.params"></a>
+##### `params`<sup>Required</sup> <a name="params" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.params"></a>
 
 ```typescript
 public readonly params: GoogleComputeRouterParamsOutputReference;
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference">GoogleComputeRouterParamsOutputReference</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference">GoogleComputeRouterParamsOutputReference</a>
 
 ---
 
-##### `selfLink`<sup>Required</sup> <a name="selfLink" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.selfLink"></a>
+##### `selfLink`<sup>Required</sup> <a name="selfLink" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.selfLink"></a>
 
 ```typescript
 public readonly selfLink: string;
@@ -831,27 +831,27 @@ public readonly selfLink: string;
 
 ---
 
-##### `timeouts`<sup>Required</sup> <a name="timeouts" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.timeouts"></a>
+##### `timeouts`<sup>Required</sup> <a name="timeouts" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.timeouts"></a>
 
 ```typescript
 public readonly timeouts: GoogleComputeRouterTimeoutsOutputReference;
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference">GoogleComputeRouterTimeoutsOutputReference</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference">GoogleComputeRouterTimeoutsOutputReference</a>
 
 ---
 
-##### `bgpInput`<sup>Optional</sup> <a name="bgpInput" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.bgpInput"></a>
+##### `bgpInput`<sup>Optional</sup> <a name="bgpInput" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.bgpInput"></a>
 
 ```typescript
 public readonly bgpInput: GoogleComputeRouterBgp;
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgp">GoogleComputeRouterBgp</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgp">GoogleComputeRouterBgp</a>
 
 ---
 
-##### `descriptionInput`<sup>Optional</sup> <a name="descriptionInput" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.descriptionInput"></a>
+##### `descriptionInput`<sup>Optional</sup> <a name="descriptionInput" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.descriptionInput"></a>
 
 ```typescript
 public readonly descriptionInput: string;
@@ -861,7 +861,7 @@ public readonly descriptionInput: string;
 
 ---
 
-##### `encryptedInterconnectRouterInput`<sup>Optional</sup> <a name="encryptedInterconnectRouterInput" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.encryptedInterconnectRouterInput"></a>
+##### `encryptedInterconnectRouterInput`<sup>Optional</sup> <a name="encryptedInterconnectRouterInput" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.encryptedInterconnectRouterInput"></a>
 
 ```typescript
 public readonly encryptedInterconnectRouterInput: boolean | IResolvable;
@@ -871,7 +871,7 @@ public readonly encryptedInterconnectRouterInput: boolean | IResolvable;
 
 ---
 
-##### `idInput`<sup>Optional</sup> <a name="idInput" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.idInput"></a>
+##### `idInput`<sup>Optional</sup> <a name="idInput" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.idInput"></a>
 
 ```typescript
 public readonly idInput: string;
@@ -881,17 +881,17 @@ public readonly idInput: string;
 
 ---
 
-##### `md5AuthenticationKeysInput`<sup>Optional</sup> <a name="md5AuthenticationKeysInput" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.md5AuthenticationKeysInput"></a>
+##### `md5AuthenticationKeysInput`<sup>Optional</sup> <a name="md5AuthenticationKeysInput" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.md5AuthenticationKeysInput"></a>
 
 ```typescript
 public readonly md5AuthenticationKeysInput: GoogleComputeRouterMd5AuthenticationKeys;
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeys">GoogleComputeRouterMd5AuthenticationKeys</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeys">GoogleComputeRouterMd5AuthenticationKeys</a>
 
 ---
 
-##### `nameInput`<sup>Optional</sup> <a name="nameInput" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.nameInput"></a>
+##### `nameInput`<sup>Optional</sup> <a name="nameInput" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.nameInput"></a>
 
 ```typescript
 public readonly nameInput: string;
@@ -901,7 +901,7 @@ public readonly nameInput: string;
 
 ---
 
-##### `networkInput`<sup>Optional</sup> <a name="networkInput" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.networkInput"></a>
+##### `networkInput`<sup>Optional</sup> <a name="networkInput" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.networkInput"></a>
 
 ```typescript
 public readonly networkInput: string;
@@ -911,17 +911,17 @@ public readonly networkInput: string;
 
 ---
 
-##### `paramsInput`<sup>Optional</sup> <a name="paramsInput" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.paramsInput"></a>
+##### `paramsInput`<sup>Optional</sup> <a name="paramsInput" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.paramsInput"></a>
 
 ```typescript
 public readonly paramsInput: GoogleComputeRouterParams;
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParams">GoogleComputeRouterParams</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParams">GoogleComputeRouterParams</a>
 
 ---
 
-##### `projectInput`<sup>Optional</sup> <a name="projectInput" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.projectInput"></a>
+##### `projectInput`<sup>Optional</sup> <a name="projectInput" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.projectInput"></a>
 
 ```typescript
 public readonly projectInput: string;
@@ -931,7 +931,7 @@ public readonly projectInput: string;
 
 ---
 
-##### `regionInput`<sup>Optional</sup> <a name="regionInput" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.regionInput"></a>
+##### `regionInput`<sup>Optional</sup> <a name="regionInput" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.regionInput"></a>
 
 ```typescript
 public readonly regionInput: string;
@@ -941,17 +941,17 @@ public readonly regionInput: string;
 
 ---
 
-##### `timeoutsInput`<sup>Optional</sup> <a name="timeoutsInput" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.timeoutsInput"></a>
+##### `timeoutsInput`<sup>Optional</sup> <a name="timeoutsInput" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.timeoutsInput"></a>
 
 ```typescript
 public readonly timeoutsInput: IResolvable | GoogleComputeRouterTimeouts;
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeouts">GoogleComputeRouterTimeouts</a>
+- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeouts">GoogleComputeRouterTimeouts</a>
 
 ---
 
-##### `description`<sup>Required</sup> <a name="description" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.description"></a>
+##### `description`<sup>Required</sup> <a name="description" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.description"></a>
 
 ```typescript
 public readonly description: string;
@@ -961,7 +961,7 @@ public readonly description: string;
 
 ---
 
-##### `encryptedInterconnectRouter`<sup>Required</sup> <a name="encryptedInterconnectRouter" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.encryptedInterconnectRouter"></a>
+##### `encryptedInterconnectRouter`<sup>Required</sup> <a name="encryptedInterconnectRouter" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.encryptedInterconnectRouter"></a>
 
 ```typescript
 public readonly encryptedInterconnectRouter: boolean | IResolvable;
@@ -971,7 +971,7 @@ public readonly encryptedInterconnectRouter: boolean | IResolvable;
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.id"></a>
 
 ```typescript
 public readonly id: string;
@@ -981,7 +981,7 @@ public readonly id: string;
 
 ---
 
-##### `name`<sup>Required</sup> <a name="name" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.name"></a>
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.name"></a>
 
 ```typescript
 public readonly name: string;
@@ -991,7 +991,7 @@ public readonly name: string;
 
 ---
 
-##### `network`<sup>Required</sup> <a name="network" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.network"></a>
+##### `network`<sup>Required</sup> <a name="network" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.network"></a>
 
 ```typescript
 public readonly network: string;
@@ -1001,7 +1001,7 @@ public readonly network: string;
 
 ---
 
-##### `project`<sup>Required</sup> <a name="project" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.project"></a>
+##### `project`<sup>Required</sup> <a name="project" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.project"></a>
 
 ```typescript
 public readonly project: string;
@@ -1011,7 +1011,7 @@ public readonly project: string;
 
 ---
 
-##### `region`<sup>Required</sup> <a name="region" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.region"></a>
+##### `region`<sup>Required</sup> <a name="region" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.region"></a>
 
 ```typescript
 public readonly region: string;
@@ -1025,11 +1025,11 @@ public readonly region: string;
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.tfResourceType">tfResourceType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.tfResourceType">tfResourceType</a></code> | <code>string</code> | *No description.* |
 
 ---
 
-##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.tfResourceType"></a>
+##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.property.tfResourceType"></a>
 
 ```typescript
 public readonly tfResourceType: string;
@@ -1041,12 +1041,12 @@ public readonly tfResourceType: string;
 
 ## Structs <a name="Structs" id="Structs"></a>
 
-### GoogleComputeRouterBgp <a name="GoogleComputeRouterBgp" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgp"></a>
+### GoogleComputeRouterBgp <a name="GoogleComputeRouterBgp" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgp"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgp.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgp.Initializer"></a>
 
 ```typescript
-import { googleComputeRouter } from '@cdktf/provider-google-beta'
+import { googleComputeRouter } from '@cdktn/provider-google-beta'
 
 const googleComputeRouterBgp: googleComputeRouter.GoogleComputeRouterBgp = { ... }
 ```
@@ -1055,16 +1055,16 @@ const googleComputeRouterBgp: googleComputeRouter.GoogleComputeRouterBgp = { ...
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgp.property.asn">asn</a></code> | <code>number</code> | Local BGP Autonomous System Number (ASN). |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgp.property.advertisedGroups">advertisedGroups</a></code> | <code>string[]</code> | User-specified list of prefix groups to advertise in custom mode. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgp.property.advertisedIpRanges">advertisedIpRanges</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRanges">GoogleComputeRouterBgpAdvertisedIpRanges</a>[]</code> | advertised_ip_ranges block. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgp.property.advertiseMode">advertiseMode</a></code> | <code>string</code> | User-specified flag to indicate which mode to use for advertisement. Default value: "DEFAULT" Possible values: ["DEFAULT", "CUSTOM"]. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgp.property.identifierRange">identifierRange</a></code> | <code>string</code> | Explicitly specifies a range of valid BGP Identifiers for this Router. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgp.property.keepaliveInterval">keepaliveInterval</a></code> | <code>number</code> | The interval in seconds between BGP keepalive messages that are sent to the peer. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgp.property.asn">asn</a></code> | <code>number</code> | Local BGP Autonomous System Number (ASN). |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgp.property.advertisedGroups">advertisedGroups</a></code> | <code>string[]</code> | User-specified list of prefix groups to advertise in custom mode. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgp.property.advertisedIpRanges">advertisedIpRanges</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRanges">GoogleComputeRouterBgpAdvertisedIpRanges</a>[]</code> | advertised_ip_ranges block. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgp.property.advertiseMode">advertiseMode</a></code> | <code>string</code> | User-specified flag to indicate which mode to use for advertisement. Default value: "DEFAULT" Possible values: ["DEFAULT", "CUSTOM"]. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgp.property.identifierRange">identifierRange</a></code> | <code>string</code> | Explicitly specifies a range of valid BGP Identifiers for this Router. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgp.property.keepaliveInterval">keepaliveInterval</a></code> | <code>number</code> | The interval in seconds between BGP keepalive messages that are sent to the peer. |
 
 ---
 
-##### `asn`<sup>Required</sup> <a name="asn" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgp.property.asn"></a>
+##### `asn`<sup>Required</sup> <a name="asn" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgp.property.asn"></a>
 
 ```typescript
 public readonly asn: number;
@@ -1083,7 +1083,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `advertisedGroups`<sup>Optional</sup> <a name="advertisedGroups" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgp.property.advertisedGroups"></a>
+##### `advertisedGroups`<sup>Optional</sup> <a name="advertisedGroups" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgp.property.advertisedGroups"></a>
 
 ```typescript
 public readonly advertisedGroups: string[];
@@ -1104,13 +1104,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `advertisedIpRanges`<sup>Optional</sup> <a name="advertisedIpRanges" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgp.property.advertisedIpRanges"></a>
+##### `advertisedIpRanges`<sup>Optional</sup> <a name="advertisedIpRanges" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgp.property.advertisedIpRanges"></a>
 
 ```typescript
 public readonly advertisedIpRanges: IResolvable | GoogleComputeRouterBgpAdvertisedIpRanges[];
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRanges">GoogleComputeRouterBgpAdvertisedIpRanges</a>[]
+- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRanges">GoogleComputeRouterBgpAdvertisedIpRanges</a>[]
 
 advertised_ip_ranges block.
 
@@ -1118,7 +1118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `advertiseMode`<sup>Optional</sup> <a name="advertiseMode" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgp.property.advertiseMode"></a>
+##### `advertiseMode`<sup>Optional</sup> <a name="advertiseMode" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgp.property.advertiseMode"></a>
 
 ```typescript
 public readonly advertiseMode: string;
@@ -1132,7 +1132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `identifierRange`<sup>Optional</sup> <a name="identifierRange" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgp.property.identifierRange"></a>
+##### `identifierRange`<sup>Optional</sup> <a name="identifierRange" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgp.property.identifierRange"></a>
 
 ```typescript
 public readonly identifierRange: string;
@@ -1151,7 +1151,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `keepaliveInterval`<sup>Optional</sup> <a name="keepaliveInterval" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgp.property.keepaliveInterval"></a>
+##### `keepaliveInterval`<sup>Optional</sup> <a name="keepaliveInterval" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgp.property.keepaliveInterval"></a>
 
 ```typescript
 public readonly keepaliveInterval: number;
@@ -1175,12 +1175,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-### GoogleComputeRouterBgpAdvertisedIpRanges <a name="GoogleComputeRouterBgpAdvertisedIpRanges" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRanges"></a>
+### GoogleComputeRouterBgpAdvertisedIpRanges <a name="GoogleComputeRouterBgpAdvertisedIpRanges" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRanges"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRanges.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRanges.Initializer"></a>
 
 ```typescript
-import { googleComputeRouter } from '@cdktf/provider-google-beta'
+import { googleComputeRouter } from '@cdktn/provider-google-beta'
 
 const googleComputeRouterBgpAdvertisedIpRanges: googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRanges = { ... }
 ```
@@ -1189,12 +1189,12 @@ const googleComputeRouterBgpAdvertisedIpRanges: googleComputeRouter.GoogleComput
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRanges.property.range">range</a></code> | <code>string</code> | The IP range to advertise. The value must be a CIDR-formatted string. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRanges.property.description">description</a></code> | <code>string</code> | User-specified description for the IP range. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRanges.property.range">range</a></code> | <code>string</code> | The IP range to advertise. The value must be a CIDR-formatted string. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRanges.property.description">description</a></code> | <code>string</code> | User-specified description for the IP range. |
 
 ---
 
-##### `range`<sup>Required</sup> <a name="range" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRanges.property.range"></a>
+##### `range`<sup>Required</sup> <a name="range" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRanges.property.range"></a>
 
 ```typescript
 public readonly range: string;
@@ -1208,7 +1208,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `description`<sup>Optional</sup> <a name="description" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRanges.property.description"></a>
+##### `description`<sup>Optional</sup> <a name="description" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRanges.property.description"></a>
 
 ```typescript
 public readonly description: string;
@@ -1222,12 +1222,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-### GoogleComputeRouterConfig <a name="GoogleComputeRouterConfig" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig"></a>
+### GoogleComputeRouterConfig <a name="GoogleComputeRouterConfig" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.Initializer"></a>
 
 ```typescript
-import { googleComputeRouter } from '@cdktf/provider-google-beta'
+import { googleComputeRouter } from '@cdktn/provider-google-beta'
 
 const googleComputeRouterConfig: googleComputeRouter.GoogleComputeRouterConfig = { ... }
 ```
@@ -1236,28 +1236,28 @@ const googleComputeRouterConfig: googleComputeRouter.GoogleComputeRouterConfig =
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.dependsOn">dependsOn</a></code> | <code>cdktf.ITerraformDependable[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.name">name</a></code> | <code>string</code> | Name of the resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.network">network</a></code> | <code>string</code> | A reference to the network to which this router belongs. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.bgp">bgp</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgp">GoogleComputeRouterBgp</a></code> | bgp block. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.description">description</a></code> | <code>string</code> | An optional description of this resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.encryptedInterconnectRouter">encryptedInterconnectRouter</a></code> | <code>boolean \| cdktf.IResolvable</code> | Indicates if a router is dedicated for use with encrypted VLAN attachments (interconnectAttachments). |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#id GoogleComputeRouter#id}. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.md5AuthenticationKeys">md5AuthenticationKeys</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeys">GoogleComputeRouterMd5AuthenticationKeys</a></code> | md5_authentication_keys block. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.params">params</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParams">GoogleComputeRouterParams</a></code> | params block. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#project GoogleComputeRouter#project}. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.region">region</a></code> | <code>string</code> | Region where the router resides. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeouts">GoogleComputeRouterTimeouts</a></code> | timeouts block. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.dependsOn">dependsOn</a></code> | <code>cdktf.ITerraformDependable[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.name">name</a></code> | <code>string</code> | Name of the resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.network">network</a></code> | <code>string</code> | A reference to the network to which this router belongs. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.bgp">bgp</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgp">GoogleComputeRouterBgp</a></code> | bgp block. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.description">description</a></code> | <code>string</code> | An optional description of this resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.encryptedInterconnectRouter">encryptedInterconnectRouter</a></code> | <code>boolean \| cdktf.IResolvable</code> | Indicates if a router is dedicated for use with encrypted VLAN attachments (interconnectAttachments). |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#id GoogleComputeRouter#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.md5AuthenticationKeys">md5AuthenticationKeys</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeys">GoogleComputeRouterMd5AuthenticationKeys</a></code> | md5_authentication_keys block. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.params">params</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParams">GoogleComputeRouterParams</a></code> | params block. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#project GoogleComputeRouter#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.region">region</a></code> | <code>string</code> | Region where the router resides. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeouts">GoogleComputeRouterTimeouts</a></code> | timeouts block. |
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.connection"></a>
 
 ```typescript
 public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
@@ -1267,7 +1267,7 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.count"></a>
 
 ```typescript
 public readonly count: number | TerraformCount;
@@ -1277,7 +1277,7 @@ public readonly count: number | TerraformCount;
 
 ---
 
-##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.dependsOn"></a>
+##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.dependsOn"></a>
 
 ```typescript
 public readonly dependsOn: ITerraformDependable[];
@@ -1287,7 +1287,7 @@ public readonly dependsOn: ITerraformDependable[];
 
 ---
 
-##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.forEach"></a>
+##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.forEach"></a>
 
 ```typescript
 public readonly forEach: ITerraformIterator;
@@ -1297,7 +1297,7 @@ public readonly forEach: ITerraformIterator;
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.lifecycle"></a>
 
 ```typescript
 public readonly lifecycle: TerraformResourceLifecycle;
@@ -1307,7 +1307,7 @@ public readonly lifecycle: TerraformResourceLifecycle;
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.provider"></a>
 
 ```typescript
 public readonly provider: TerraformProvider;
@@ -1317,7 +1317,7 @@ public readonly provider: TerraformProvider;
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.provisioners"></a>
 
 ```typescript
 public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
@@ -1327,7 +1327,7 @@ public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteEx
 
 ---
 
-##### `name`<sup>Required</sup> <a name="name" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.name"></a>
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.name"></a>
 
 ```typescript
 public readonly name: string;
@@ -1348,7 +1348,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `network`<sup>Required</sup> <a name="network" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.network"></a>
+##### `network`<sup>Required</sup> <a name="network" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.network"></a>
 
 ```typescript
 public readonly network: string;
@@ -1362,13 +1362,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `bgp`<sup>Optional</sup> <a name="bgp" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.bgp"></a>
+##### `bgp`<sup>Optional</sup> <a name="bgp" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.bgp"></a>
 
 ```typescript
 public readonly bgp: GoogleComputeRouterBgp;
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgp">GoogleComputeRouterBgp</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgp">GoogleComputeRouterBgp</a>
 
 bgp block.
 
@@ -1376,7 +1376,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `description`<sup>Optional</sup> <a name="description" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.description"></a>
+##### `description`<sup>Optional</sup> <a name="description" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.description"></a>
 
 ```typescript
 public readonly description: string;
@@ -1390,7 +1390,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `encryptedInterconnectRouter`<sup>Optional</sup> <a name="encryptedInterconnectRouter" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.encryptedInterconnectRouter"></a>
+##### `encryptedInterconnectRouter`<sup>Optional</sup> <a name="encryptedInterconnectRouter" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.encryptedInterconnectRouter"></a>
 
 ```typescript
 public readonly encryptedInterconnectRouter: boolean | IResolvable;
@@ -1404,7 +1404,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `id`<sup>Optional</sup> <a name="id" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.id"></a>
+##### `id`<sup>Optional</sup> <a name="id" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.id"></a>
 
 ```typescript
 public readonly id: string;
@@ -1419,13 +1419,13 @@ If you experience problems setting this value it might not be settable. Please t
 
 ---
 
-##### `md5AuthenticationKeys`<sup>Optional</sup> <a name="md5AuthenticationKeys" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.md5AuthenticationKeys"></a>
+##### `md5AuthenticationKeys`<sup>Optional</sup> <a name="md5AuthenticationKeys" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.md5AuthenticationKeys"></a>
 
 ```typescript
 public readonly md5AuthenticationKeys: GoogleComputeRouterMd5AuthenticationKeys;
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeys">GoogleComputeRouterMd5AuthenticationKeys</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeys">GoogleComputeRouterMd5AuthenticationKeys</a>
 
 md5_authentication_keys block.
 
@@ -1433,13 +1433,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `params`<sup>Optional</sup> <a name="params" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.params"></a>
+##### `params`<sup>Optional</sup> <a name="params" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.params"></a>
 
 ```typescript
 public readonly params: GoogleComputeRouterParams;
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParams">GoogleComputeRouterParams</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParams">GoogleComputeRouterParams</a>
 
 params block.
 
@@ -1447,7 +1447,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `project`<sup>Optional</sup> <a name="project" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.project"></a>
+##### `project`<sup>Optional</sup> <a name="project" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.project"></a>
 
 ```typescript
 public readonly project: string;
@@ -1459,7 +1459,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `region`<sup>Optional</sup> <a name="region" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.region"></a>
+##### `region`<sup>Optional</sup> <a name="region" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.region"></a>
 
 ```typescript
 public readonly region: string;
@@ -1473,13 +1473,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `timeouts`<sup>Optional</sup> <a name="timeouts" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.timeouts"></a>
+##### `timeouts`<sup>Optional</sup> <a name="timeouts" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.property.timeouts"></a>
 
 ```typescript
 public readonly timeouts: GoogleComputeRouterTimeouts;
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeouts">GoogleComputeRouterTimeouts</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeouts">GoogleComputeRouterTimeouts</a>
 
 timeouts block.
 
@@ -1487,12 +1487,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-### GoogleComputeRouterMd5AuthenticationKeys <a name="GoogleComputeRouterMd5AuthenticationKeys" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeys"></a>
+### GoogleComputeRouterMd5AuthenticationKeys <a name="GoogleComputeRouterMd5AuthenticationKeys" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeys"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeys.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeys.Initializer"></a>
 
 ```typescript
-import { googleComputeRouter } from '@cdktf/provider-google-beta'
+import { googleComputeRouter } from '@cdktn/provider-google-beta'
 
 const googleComputeRouterMd5AuthenticationKeys: googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeys = { ... }
 ```
@@ -1501,12 +1501,12 @@ const googleComputeRouterMd5AuthenticationKeys: googleComputeRouter.GoogleComput
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeys.property.key">key</a></code> | <code>string</code> | Value of the key used for MD5 authentication. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeys.property.name">name</a></code> | <code>string</code> | Name used to identify the key. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeys.property.key">key</a></code> | <code>string</code> | Value of the key used for MD5 authentication. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeys.property.name">name</a></code> | <code>string</code> | Name used to identify the key. |
 
 ---
 
-##### `key`<sup>Required</sup> <a name="key" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeys.property.key"></a>
+##### `key`<sup>Required</sup> <a name="key" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeys.property.key"></a>
 
 ```typescript
 public readonly key: string;
@@ -1520,7 +1520,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `name`<sup>Required</sup> <a name="name" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeys.property.name"></a>
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeys.property.name"></a>
 
 ```typescript
 public readonly name: string;
@@ -1537,12 +1537,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-### GoogleComputeRouterParams <a name="GoogleComputeRouterParams" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParams"></a>
+### GoogleComputeRouterParams <a name="GoogleComputeRouterParams" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParams"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParams.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParams.Initializer"></a>
 
 ```typescript
-import { googleComputeRouter } from '@cdktf/provider-google-beta'
+import { googleComputeRouter } from '@cdktn/provider-google-beta'
 
 const googleComputeRouterParams: googleComputeRouter.GoogleComputeRouterParams = { ... }
 ```
@@ -1551,11 +1551,11 @@ const googleComputeRouterParams: googleComputeRouter.GoogleComputeRouterParams =
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParams.property.resourceManagerTags">resourceManagerTags</a></code> | <code>{[ key: string ]: string}</code> | Resource manager tags to be bound to the router. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParams.property.resourceManagerTags">resourceManagerTags</a></code> | <code>{[ key: string ]: string}</code> | Resource manager tags to be bound to the router. |
 
 ---
 
-##### `resourceManagerTags`<sup>Optional</sup> <a name="resourceManagerTags" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParams.property.resourceManagerTags"></a>
+##### `resourceManagerTags`<sup>Optional</sup> <a name="resourceManagerTags" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParams.property.resourceManagerTags"></a>
 
 ```typescript
 public readonly resourceManagerTags: {[ key: string ]: string};
@@ -1573,12 +1573,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-### GoogleComputeRouterTimeouts <a name="GoogleComputeRouterTimeouts" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeouts"></a>
+### GoogleComputeRouterTimeouts <a name="GoogleComputeRouterTimeouts" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeouts"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeouts.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeouts.Initializer"></a>
 
 ```typescript
-import { googleComputeRouter } from '@cdktf/provider-google-beta'
+import { googleComputeRouter } from '@cdktn/provider-google-beta'
 
 const googleComputeRouterTimeouts: googleComputeRouter.GoogleComputeRouterTimeouts = { ... }
 ```
@@ -1587,13 +1587,13 @@ const googleComputeRouterTimeouts: googleComputeRouter.GoogleComputeRouterTimeou
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#create GoogleComputeRouter#create}. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#delete GoogleComputeRouter#delete}. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#update GoogleComputeRouter#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#create GoogleComputeRouter#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#delete GoogleComputeRouter#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router#update GoogleComputeRouter#update}. |
 
 ---
 
-##### `create`<sup>Optional</sup> <a name="create" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeouts.property.create"></a>
+##### `create`<sup>Optional</sup> <a name="create" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeouts.property.create"></a>
 
 ```typescript
 public readonly create: string;
@@ -1605,7 +1605,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `delete`<sup>Optional</sup> <a name="delete" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeouts.property.delete"></a>
+##### `delete`<sup>Optional</sup> <a name="delete" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeouts.property.delete"></a>
 
 ```typescript
 public readonly delete: string;
@@ -1617,7 +1617,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `update`<sup>Optional</sup> <a name="update" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeouts.property.update"></a>
+##### `update`<sup>Optional</sup> <a name="update" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeouts.property.update"></a>
 
 ```typescript
 public readonly update: string;
@@ -1631,25 +1631,25 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ## Classes <a name="Classes" id="Classes"></a>
 
-### GoogleComputeRouterBgpAdvertisedIpRangesList <a name="GoogleComputeRouterBgpAdvertisedIpRangesList" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList"></a>
+### GoogleComputeRouterBgpAdvertisedIpRangesList <a name="GoogleComputeRouterBgpAdvertisedIpRangesList" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.Initializer"></a>
 
 ```typescript
-import { googleComputeRouter } from '@cdktf/provider-google-beta'
+import { googleComputeRouter } from '@cdktn/provider-google-beta'
 
 new googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList(terraformResource: IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean)
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
 
 ---
 
-##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.Initializer.parameter.terraformResource"></a>
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.Initializer.parameter.terraformResource"></a>
 
 - *Type:* cdktf.IInterpolatingParent
 
@@ -1657,7 +1657,7 @@ The parent resource.
 
 ---
 
-##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.Initializer.parameter.terraformAttribute"></a>
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
@@ -1665,7 +1665,7 @@ The attribute on the parent resource this class is referencing.
 
 ---
 
-##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.Initializer.parameter.wrapsSet"></a>
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.Initializer.parameter.wrapsSet"></a>
 
 - *Type:* boolean
 
@@ -1677,15 +1677,15 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.allWithMapKey">allWithMapKey</a></code> | Creating an iterator for this complex list. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.computeFqn">computeFqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.toString">toString</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.get">get</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.allWithMapKey">allWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.get">get</a></code> | *No description.* |
 
 ---
 
-##### `allWithMapKey` <a name="allWithMapKey" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.allWithMapKey"></a>
+##### `allWithMapKey` <a name="allWithMapKey" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.allWithMapKey"></a>
 
 ```typescript
 public allWithMapKey(mapKeyAttributeName: string): DynamicListTerraformIterator
@@ -1695,19 +1695,19 @@ Creating an iterator for this complex list.
 
 The list will be converted into a map with the mapKeyAttributeName as the key.
 
-###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.allWithMapKey.parameter.mapKeyAttributeName"></a>
 
 - *Type:* string
 
 ---
 
-##### `computeFqn` <a name="computeFqn" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.computeFqn"></a>
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.computeFqn"></a>
 
 ```typescript
 public computeFqn(): string
 ```
 
-##### `resolve` <a name="resolve" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.resolve"></a>
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.resolve"></a>
 
 ```typescript
 public resolve(_context: IResolveContext): any
@@ -1715,13 +1715,13 @@ public resolve(_context: IResolveContext): any
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.resolve.parameter._context"></a>
 
 - *Type:* cdktf.IResolveContext
 
 ---
 
-##### `toString` <a name="toString" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.toString"></a>
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.toString"></a>
 
 ```typescript
 public toString(): string
@@ -1731,13 +1731,13 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `get` <a name="get" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.get"></a>
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.get"></a>
 
 ```typescript
 public get(index: number): GoogleComputeRouterBgpAdvertisedIpRangesOutputReference
 ```
 
-###### `index`<sup>Required</sup> <a name="index" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.get.parameter.index"></a>
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.get.parameter.index"></a>
 
 - *Type:* number
 
@@ -1750,13 +1750,13 @@ the index of the item to return.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRanges">GoogleComputeRouterBgpAdvertisedIpRanges</a>[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRanges">GoogleComputeRouterBgpAdvertisedIpRanges</a>[]</code> | *No description.* |
 
 ---
 
-##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.property.creationStack"></a>
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.property.creationStack"></a>
 
 ```typescript
 public readonly creationStack: string[];
@@ -1770,7 +1770,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.property.fqn"></a>
 
 ```typescript
 public readonly fqn: string;
@@ -1780,37 +1780,37 @@ public readonly fqn: string;
 
 ---
 
-##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.property.internalValue"></a>
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.property.internalValue"></a>
 
 ```typescript
 public readonly internalValue: IResolvable | GoogleComputeRouterBgpAdvertisedIpRanges[];
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRanges">GoogleComputeRouterBgpAdvertisedIpRanges</a>[]
+- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRanges">GoogleComputeRouterBgpAdvertisedIpRanges</a>[]
 
 ---
 
 
-### GoogleComputeRouterBgpAdvertisedIpRangesOutputReference <a name="GoogleComputeRouterBgpAdvertisedIpRangesOutputReference" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference"></a>
+### GoogleComputeRouterBgpAdvertisedIpRangesOutputReference <a name="GoogleComputeRouterBgpAdvertisedIpRangesOutputReference" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.Initializer"></a>
 
 ```typescript
-import { googleComputeRouter } from '@cdktf/provider-google-beta'
+import { googleComputeRouter } from '@cdktn/provider-google-beta'
 
 new googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean)
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>number</code> | the index of this item in the list. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>number</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
 
 ---
 
-##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.Initializer.parameter.terraformResource"></a>
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.Initializer.parameter.terraformResource"></a>
 
 - *Type:* cdktf.IInterpolatingParent
 
@@ -1818,7 +1818,7 @@ The parent resource.
 
 ---
 
-##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.Initializer.parameter.terraformAttribute"></a>
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
@@ -1826,7 +1826,7 @@ The attribute on the parent resource this class is referencing.
 
 ---
 
-##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.Initializer.parameter.complexObjectIndex"></a>
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.Initializer.parameter.complexObjectIndex"></a>
 
 - *Type:* number
 
@@ -1834,7 +1834,7 @@ the index of this item in the list.
 
 ---
 
-##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
 
 - *Type:* boolean
 
@@ -1846,150 +1846,150 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.resetDescription">resetDescription</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.resetDescription">resetDescription</a></code> | *No description.* |
 
 ---
 
-##### `computeFqn` <a name="computeFqn" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.computeFqn"></a>
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.computeFqn"></a>
 
 ```typescript
 public computeFqn(): string
 ```
 
-##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getAnyMapAttribute"></a>
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getAnyMapAttribute"></a>
 
 ```typescript
 public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getBooleanAttribute"></a>
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getBooleanAttribute"></a>
 
 ```typescript
 public getBooleanAttribute(terraformAttribute: string): IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getBooleanMapAttribute"></a>
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getBooleanMapAttribute"></a>
 
 ```typescript
 public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getListAttribute` <a name="getListAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getListAttribute"></a>
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getListAttribute"></a>
 
 ```typescript
 public getListAttribute(terraformAttribute: string): string[]
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getNumberAttribute"></a>
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getNumberAttribute"></a>
 
 ```typescript
 public getNumberAttribute(terraformAttribute: string): number
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getNumberListAttribute"></a>
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getNumberListAttribute"></a>
 
 ```typescript
 public getNumberListAttribute(terraformAttribute: string): number[]
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getNumberMapAttribute"></a>
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getNumberMapAttribute"></a>
 
 ```typescript
 public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getStringAttribute` <a name="getStringAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getStringAttribute"></a>
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getStringAttribute"></a>
 
 ```typescript
 public getStringAttribute(terraformAttribute: string): string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getStringMapAttribute"></a>
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getStringMapAttribute"></a>
 
 ```typescript
 public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.interpolationForAttribute"></a>
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.interpolationForAttribute"></a>
 
 ```typescript
 public interpolationForAttribute(property: string): IResolvable
 ```
 
-###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.interpolationForAttribute.parameter.property"></a>
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.interpolationForAttribute.parameter.property"></a>
 
 - *Type:* string
 
 ---
 
-##### `resolve` <a name="resolve" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.resolve"></a>
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.resolve"></a>
 
 ```typescript
 public resolve(_context: IResolveContext): any
@@ -1997,13 +1997,13 @@ public resolve(_context: IResolveContext): any
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.resolve.parameter._context"></a>
 
 - *Type:* cdktf.IResolveContext
 
 ---
 
-##### `toString` <a name="toString" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.toString"></a>
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.toString"></a>
 
 ```typescript
 public toString(): string
@@ -2013,7 +2013,7 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `resetDescription` <a name="resetDescription" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.resetDescription"></a>
+##### `resetDescription` <a name="resetDescription" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.resetDescription"></a>
 
 ```typescript
 public resetDescription(): void
@@ -2024,17 +2024,17 @@ public resetDescription(): void
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.property.descriptionInput">descriptionInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.property.rangeInput">rangeInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.property.description">description</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.property.range">range</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRanges">GoogleComputeRouterBgpAdvertisedIpRanges</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.property.descriptionInput">descriptionInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.property.rangeInput">rangeInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.property.description">description</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.property.range">range</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRanges">GoogleComputeRouterBgpAdvertisedIpRanges</a></code> | *No description.* |
 
 ---
 
-##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.property.creationStack"></a>
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.property.creationStack"></a>
 
 ```typescript
 public readonly creationStack: string[];
@@ -2048,7 +2048,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.property.fqn"></a>
 
 ```typescript
 public readonly fqn: string;
@@ -2058,7 +2058,7 @@ public readonly fqn: string;
 
 ---
 
-##### `descriptionInput`<sup>Optional</sup> <a name="descriptionInput" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.property.descriptionInput"></a>
+##### `descriptionInput`<sup>Optional</sup> <a name="descriptionInput" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.property.descriptionInput"></a>
 
 ```typescript
 public readonly descriptionInput: string;
@@ -2068,7 +2068,7 @@ public readonly descriptionInput: string;
 
 ---
 
-##### `rangeInput`<sup>Optional</sup> <a name="rangeInput" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.property.rangeInput"></a>
+##### `rangeInput`<sup>Optional</sup> <a name="rangeInput" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.property.rangeInput"></a>
 
 ```typescript
 public readonly rangeInput: string;
@@ -2078,7 +2078,7 @@ public readonly rangeInput: string;
 
 ---
 
-##### `description`<sup>Required</sup> <a name="description" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.property.description"></a>
+##### `description`<sup>Required</sup> <a name="description" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.property.description"></a>
 
 ```typescript
 public readonly description: string;
@@ -2088,7 +2088,7 @@ public readonly description: string;
 
 ---
 
-##### `range`<sup>Required</sup> <a name="range" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.property.range"></a>
+##### `range`<sup>Required</sup> <a name="range" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.property.range"></a>
 
 ```typescript
 public readonly range: string;
@@ -2098,35 +2098,35 @@ public readonly range: string;
 
 ---
 
-##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.property.internalValue"></a>
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.property.internalValue"></a>
 
 ```typescript
 public readonly internalValue: IResolvable | GoogleComputeRouterBgpAdvertisedIpRanges;
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRanges">GoogleComputeRouterBgpAdvertisedIpRanges</a>
+- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRanges">GoogleComputeRouterBgpAdvertisedIpRanges</a>
 
 ---
 
 
-### GoogleComputeRouterBgpOutputReference <a name="GoogleComputeRouterBgpOutputReference" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference"></a>
+### GoogleComputeRouterBgpOutputReference <a name="GoogleComputeRouterBgpOutputReference" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.Initializer"></a>
 
 ```typescript
-import { googleComputeRouter } from '@cdktf/provider-google-beta'
+import { googleComputeRouter } from '@cdktn/provider-google-beta'
 
 new googleComputeRouter.GoogleComputeRouterBgpOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
-##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.Initializer.parameter.terraformResource"></a>
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.Initializer.parameter.terraformResource"></a>
 
 - *Type:* cdktf.IInterpolatingParent
 
@@ -2134,7 +2134,7 @@ The parent resource.
 
 ---
 
-##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.Initializer.parameter.terraformAttribute"></a>
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
@@ -2146,155 +2146,155 @@ The attribute on the parent resource this class is referencing.
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.putAdvertisedIpRanges">putAdvertisedIpRanges</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.resetAdvertisedGroups">resetAdvertisedGroups</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.resetAdvertisedIpRanges">resetAdvertisedIpRanges</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.resetAdvertiseMode">resetAdvertiseMode</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.resetIdentifierRange">resetIdentifierRange</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.resetKeepaliveInterval">resetKeepaliveInterval</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.putAdvertisedIpRanges">putAdvertisedIpRanges</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.resetAdvertisedGroups">resetAdvertisedGroups</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.resetAdvertisedIpRanges">resetAdvertisedIpRanges</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.resetAdvertiseMode">resetAdvertiseMode</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.resetIdentifierRange">resetIdentifierRange</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.resetKeepaliveInterval">resetKeepaliveInterval</a></code> | *No description.* |
 
 ---
 
-##### `computeFqn` <a name="computeFqn" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.computeFqn"></a>
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.computeFqn"></a>
 
 ```typescript
 public computeFqn(): string
 ```
 
-##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getAnyMapAttribute"></a>
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getAnyMapAttribute"></a>
 
 ```typescript
 public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getBooleanAttribute"></a>
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getBooleanAttribute"></a>
 
 ```typescript
 public getBooleanAttribute(terraformAttribute: string): IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getBooleanMapAttribute"></a>
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getBooleanMapAttribute"></a>
 
 ```typescript
 public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getListAttribute` <a name="getListAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getListAttribute"></a>
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getListAttribute"></a>
 
 ```typescript
 public getListAttribute(terraformAttribute: string): string[]
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getNumberAttribute"></a>
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getNumberAttribute"></a>
 
 ```typescript
 public getNumberAttribute(terraformAttribute: string): number
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getNumberListAttribute"></a>
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getNumberListAttribute"></a>
 
 ```typescript
 public getNumberListAttribute(terraformAttribute: string): number[]
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getNumberMapAttribute"></a>
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getNumberMapAttribute"></a>
 
 ```typescript
 public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getStringAttribute` <a name="getStringAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getStringAttribute"></a>
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getStringAttribute"></a>
 
 ```typescript
 public getStringAttribute(terraformAttribute: string): string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getStringMapAttribute"></a>
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getStringMapAttribute"></a>
 
 ```typescript
 public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.interpolationForAttribute"></a>
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.interpolationForAttribute"></a>
 
 ```typescript
 public interpolationForAttribute(property: string): IResolvable
 ```
 
-###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.interpolationForAttribute.parameter.property"></a>
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.interpolationForAttribute.parameter.property"></a>
 
 - *Type:* string
 
 ---
 
-##### `resolve` <a name="resolve" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.resolve"></a>
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.resolve"></a>
 
 ```typescript
 public resolve(_context: IResolveContext): any
@@ -2302,13 +2302,13 @@ public resolve(_context: IResolveContext): any
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.resolve.parameter._context"></a>
 
 - *Type:* cdktf.IResolveContext
 
 ---
 
-##### `toString` <a name="toString" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.toString"></a>
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.toString"></a>
 
 ```typescript
 public toString(): string
@@ -2318,43 +2318,43 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `putAdvertisedIpRanges` <a name="putAdvertisedIpRanges" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.putAdvertisedIpRanges"></a>
+##### `putAdvertisedIpRanges` <a name="putAdvertisedIpRanges" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.putAdvertisedIpRanges"></a>
 
 ```typescript
 public putAdvertisedIpRanges(value: IResolvable | GoogleComputeRouterBgpAdvertisedIpRanges[]): void
 ```
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.putAdvertisedIpRanges.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.putAdvertisedIpRanges.parameter.value"></a>
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRanges">GoogleComputeRouterBgpAdvertisedIpRanges</a>[]
+- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRanges">GoogleComputeRouterBgpAdvertisedIpRanges</a>[]
 
 ---
 
-##### `resetAdvertisedGroups` <a name="resetAdvertisedGroups" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.resetAdvertisedGroups"></a>
+##### `resetAdvertisedGroups` <a name="resetAdvertisedGroups" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.resetAdvertisedGroups"></a>
 
 ```typescript
 public resetAdvertisedGroups(): void
 ```
 
-##### `resetAdvertisedIpRanges` <a name="resetAdvertisedIpRanges" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.resetAdvertisedIpRanges"></a>
+##### `resetAdvertisedIpRanges` <a name="resetAdvertisedIpRanges" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.resetAdvertisedIpRanges"></a>
 
 ```typescript
 public resetAdvertisedIpRanges(): void
 ```
 
-##### `resetAdvertiseMode` <a name="resetAdvertiseMode" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.resetAdvertiseMode"></a>
+##### `resetAdvertiseMode` <a name="resetAdvertiseMode" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.resetAdvertiseMode"></a>
 
 ```typescript
 public resetAdvertiseMode(): void
 ```
 
-##### `resetIdentifierRange` <a name="resetIdentifierRange" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.resetIdentifierRange"></a>
+##### `resetIdentifierRange` <a name="resetIdentifierRange" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.resetIdentifierRange"></a>
 
 ```typescript
 public resetIdentifierRange(): void
 ```
 
-##### `resetKeepaliveInterval` <a name="resetKeepaliveInterval" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.resetKeepaliveInterval"></a>
+##### `resetKeepaliveInterval` <a name="resetKeepaliveInterval" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.resetKeepaliveInterval"></a>
 
 ```typescript
 public resetKeepaliveInterval(): void
@@ -2365,25 +2365,25 @@ public resetKeepaliveInterval(): void
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.advertisedIpRanges">advertisedIpRanges</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList">GoogleComputeRouterBgpAdvertisedIpRangesList</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.advertisedGroupsInput">advertisedGroupsInput</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.advertisedIpRangesInput">advertisedIpRangesInput</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRanges">GoogleComputeRouterBgpAdvertisedIpRanges</a>[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.advertiseModeInput">advertiseModeInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.asnInput">asnInput</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.identifierRangeInput">identifierRangeInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.keepaliveIntervalInput">keepaliveIntervalInput</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.advertisedGroups">advertisedGroups</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.advertiseMode">advertiseMode</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.asn">asn</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.identifierRange">identifierRange</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.keepaliveInterval">keepaliveInterval</a></code> | <code>number</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgp">GoogleComputeRouterBgp</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.advertisedIpRanges">advertisedIpRanges</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList">GoogleComputeRouterBgpAdvertisedIpRangesList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.advertisedGroupsInput">advertisedGroupsInput</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.advertisedIpRangesInput">advertisedIpRangesInput</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRanges">GoogleComputeRouterBgpAdvertisedIpRanges</a>[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.advertiseModeInput">advertiseModeInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.asnInput">asnInput</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.identifierRangeInput">identifierRangeInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.keepaliveIntervalInput">keepaliveIntervalInput</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.advertisedGroups">advertisedGroups</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.advertiseMode">advertiseMode</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.asn">asn</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.identifierRange">identifierRange</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.keepaliveInterval">keepaliveInterval</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgp">GoogleComputeRouterBgp</a></code> | *No description.* |
 
 ---
 
-##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.creationStack"></a>
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.creationStack"></a>
 
 ```typescript
 public readonly creationStack: string[];
@@ -2397,7 +2397,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.fqn"></a>
 
 ```typescript
 public readonly fqn: string;
@@ -2407,17 +2407,17 @@ public readonly fqn: string;
 
 ---
 
-##### `advertisedIpRanges`<sup>Required</sup> <a name="advertisedIpRanges" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.advertisedIpRanges"></a>
+##### `advertisedIpRanges`<sup>Required</sup> <a name="advertisedIpRanges" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.advertisedIpRanges"></a>
 
 ```typescript
 public readonly advertisedIpRanges: GoogleComputeRouterBgpAdvertisedIpRangesList;
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList">GoogleComputeRouterBgpAdvertisedIpRangesList</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList">GoogleComputeRouterBgpAdvertisedIpRangesList</a>
 
 ---
 
-##### `advertisedGroupsInput`<sup>Optional</sup> <a name="advertisedGroupsInput" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.advertisedGroupsInput"></a>
+##### `advertisedGroupsInput`<sup>Optional</sup> <a name="advertisedGroupsInput" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.advertisedGroupsInput"></a>
 
 ```typescript
 public readonly advertisedGroupsInput: string[];
@@ -2427,17 +2427,17 @@ public readonly advertisedGroupsInput: string[];
 
 ---
 
-##### `advertisedIpRangesInput`<sup>Optional</sup> <a name="advertisedIpRangesInput" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.advertisedIpRangesInput"></a>
+##### `advertisedIpRangesInput`<sup>Optional</sup> <a name="advertisedIpRangesInput" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.advertisedIpRangesInput"></a>
 
 ```typescript
 public readonly advertisedIpRangesInput: IResolvable | GoogleComputeRouterBgpAdvertisedIpRanges[];
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRanges">GoogleComputeRouterBgpAdvertisedIpRanges</a>[]
+- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRanges">GoogleComputeRouterBgpAdvertisedIpRanges</a>[]
 
 ---
 
-##### `advertiseModeInput`<sup>Optional</sup> <a name="advertiseModeInput" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.advertiseModeInput"></a>
+##### `advertiseModeInput`<sup>Optional</sup> <a name="advertiseModeInput" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.advertiseModeInput"></a>
 
 ```typescript
 public readonly advertiseModeInput: string;
@@ -2447,7 +2447,7 @@ public readonly advertiseModeInput: string;
 
 ---
 
-##### `asnInput`<sup>Optional</sup> <a name="asnInput" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.asnInput"></a>
+##### `asnInput`<sup>Optional</sup> <a name="asnInput" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.asnInput"></a>
 
 ```typescript
 public readonly asnInput: number;
@@ -2457,7 +2457,7 @@ public readonly asnInput: number;
 
 ---
 
-##### `identifierRangeInput`<sup>Optional</sup> <a name="identifierRangeInput" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.identifierRangeInput"></a>
+##### `identifierRangeInput`<sup>Optional</sup> <a name="identifierRangeInput" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.identifierRangeInput"></a>
 
 ```typescript
 public readonly identifierRangeInput: string;
@@ -2467,7 +2467,7 @@ public readonly identifierRangeInput: string;
 
 ---
 
-##### `keepaliveIntervalInput`<sup>Optional</sup> <a name="keepaliveIntervalInput" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.keepaliveIntervalInput"></a>
+##### `keepaliveIntervalInput`<sup>Optional</sup> <a name="keepaliveIntervalInput" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.keepaliveIntervalInput"></a>
 
 ```typescript
 public readonly keepaliveIntervalInput: number;
@@ -2477,7 +2477,7 @@ public readonly keepaliveIntervalInput: number;
 
 ---
 
-##### `advertisedGroups`<sup>Required</sup> <a name="advertisedGroups" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.advertisedGroups"></a>
+##### `advertisedGroups`<sup>Required</sup> <a name="advertisedGroups" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.advertisedGroups"></a>
 
 ```typescript
 public readonly advertisedGroups: string[];
@@ -2487,7 +2487,7 @@ public readonly advertisedGroups: string[];
 
 ---
 
-##### `advertiseMode`<sup>Required</sup> <a name="advertiseMode" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.advertiseMode"></a>
+##### `advertiseMode`<sup>Required</sup> <a name="advertiseMode" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.advertiseMode"></a>
 
 ```typescript
 public readonly advertiseMode: string;
@@ -2497,7 +2497,7 @@ public readonly advertiseMode: string;
 
 ---
 
-##### `asn`<sup>Required</sup> <a name="asn" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.asn"></a>
+##### `asn`<sup>Required</sup> <a name="asn" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.asn"></a>
 
 ```typescript
 public readonly asn: number;
@@ -2507,7 +2507,7 @@ public readonly asn: number;
 
 ---
 
-##### `identifierRange`<sup>Required</sup> <a name="identifierRange" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.identifierRange"></a>
+##### `identifierRange`<sup>Required</sup> <a name="identifierRange" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.identifierRange"></a>
 
 ```typescript
 public readonly identifierRange: string;
@@ -2517,7 +2517,7 @@ public readonly identifierRange: string;
 
 ---
 
-##### `keepaliveInterval`<sup>Required</sup> <a name="keepaliveInterval" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.keepaliveInterval"></a>
+##### `keepaliveInterval`<sup>Required</sup> <a name="keepaliveInterval" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.keepaliveInterval"></a>
 
 ```typescript
 public readonly keepaliveInterval: number;
@@ -2527,35 +2527,35 @@ public readonly keepaliveInterval: number;
 
 ---
 
-##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.internalValue"></a>
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.property.internalValue"></a>
 
 ```typescript
 public readonly internalValue: GoogleComputeRouterBgp;
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgp">GoogleComputeRouterBgp</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgp">GoogleComputeRouterBgp</a>
 
 ---
 
 
-### GoogleComputeRouterMd5AuthenticationKeysOutputReference <a name="GoogleComputeRouterMd5AuthenticationKeysOutputReference" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference"></a>
+### GoogleComputeRouterMd5AuthenticationKeysOutputReference <a name="GoogleComputeRouterMd5AuthenticationKeysOutputReference" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.Initializer"></a>
 
 ```typescript
-import { googleComputeRouter } from '@cdktf/provider-google-beta'
+import { googleComputeRouter } from '@cdktn/provider-google-beta'
 
 new googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
-##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.Initializer.parameter.terraformResource"></a>
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.Initializer.parameter.terraformResource"></a>
 
 - *Type:* cdktf.IInterpolatingParent
 
@@ -2563,7 +2563,7 @@ The parent resource.
 
 ---
 
-##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.Initializer.parameter.terraformAttribute"></a>
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
@@ -2575,149 +2575,149 @@ The attribute on the parent resource this class is referencing.
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
 
 ---
 
-##### `computeFqn` <a name="computeFqn" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.computeFqn"></a>
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.computeFqn"></a>
 
 ```typescript
 public computeFqn(): string
 ```
 
-##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getAnyMapAttribute"></a>
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getAnyMapAttribute"></a>
 
 ```typescript
 public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getBooleanAttribute"></a>
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getBooleanAttribute"></a>
 
 ```typescript
 public getBooleanAttribute(terraformAttribute: string): IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getBooleanMapAttribute"></a>
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getBooleanMapAttribute"></a>
 
 ```typescript
 public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getListAttribute` <a name="getListAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getListAttribute"></a>
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getListAttribute"></a>
 
 ```typescript
 public getListAttribute(terraformAttribute: string): string[]
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getNumberAttribute"></a>
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getNumberAttribute"></a>
 
 ```typescript
 public getNumberAttribute(terraformAttribute: string): number
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getNumberListAttribute"></a>
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getNumberListAttribute"></a>
 
 ```typescript
 public getNumberListAttribute(terraformAttribute: string): number[]
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getNumberMapAttribute"></a>
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getNumberMapAttribute"></a>
 
 ```typescript
 public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getStringAttribute` <a name="getStringAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getStringAttribute"></a>
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getStringAttribute"></a>
 
 ```typescript
 public getStringAttribute(terraformAttribute: string): string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getStringMapAttribute"></a>
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getStringMapAttribute"></a>
 
 ```typescript
 public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.interpolationForAttribute"></a>
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.interpolationForAttribute"></a>
 
 ```typescript
 public interpolationForAttribute(property: string): IResolvable
 ```
 
-###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.interpolationForAttribute.parameter.property"></a>
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.interpolationForAttribute.parameter.property"></a>
 
 - *Type:* string
 
 ---
 
-##### `resolve` <a name="resolve" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.resolve"></a>
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.resolve"></a>
 
 ```typescript
 public resolve(_context: IResolveContext): any
@@ -2725,13 +2725,13 @@ public resolve(_context: IResolveContext): any
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.resolve.parameter._context"></a>
 
 - *Type:* cdktf.IResolveContext
 
 ---
 
-##### `toString` <a name="toString" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.toString"></a>
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.toString"></a>
 
 ```typescript
 public toString(): string
@@ -2746,17 +2746,17 @@ Returns a reversible string representation.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.property.keyInput">keyInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.property.nameInput">nameInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.property.key">key</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.property.name">name</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeys">GoogleComputeRouterMd5AuthenticationKeys</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.property.keyInput">keyInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.property.nameInput">nameInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.property.key">key</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.property.name">name</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeys">GoogleComputeRouterMd5AuthenticationKeys</a></code> | *No description.* |
 
 ---
 
-##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.property.creationStack"></a>
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.property.creationStack"></a>
 
 ```typescript
 public readonly creationStack: string[];
@@ -2770,7 +2770,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.property.fqn"></a>
 
 ```typescript
 public readonly fqn: string;
@@ -2780,7 +2780,7 @@ public readonly fqn: string;
 
 ---
 
-##### `keyInput`<sup>Optional</sup> <a name="keyInput" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.property.keyInput"></a>
+##### `keyInput`<sup>Optional</sup> <a name="keyInput" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.property.keyInput"></a>
 
 ```typescript
 public readonly keyInput: string;
@@ -2790,7 +2790,7 @@ public readonly keyInput: string;
 
 ---
 
-##### `nameInput`<sup>Optional</sup> <a name="nameInput" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.property.nameInput"></a>
+##### `nameInput`<sup>Optional</sup> <a name="nameInput" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.property.nameInput"></a>
 
 ```typescript
 public readonly nameInput: string;
@@ -2800,7 +2800,7 @@ public readonly nameInput: string;
 
 ---
 
-##### `key`<sup>Required</sup> <a name="key" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.property.key"></a>
+##### `key`<sup>Required</sup> <a name="key" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.property.key"></a>
 
 ```typescript
 public readonly key: string;
@@ -2810,7 +2810,7 @@ public readonly key: string;
 
 ---
 
-##### `name`<sup>Required</sup> <a name="name" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.property.name"></a>
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.property.name"></a>
 
 ```typescript
 public readonly name: string;
@@ -2820,35 +2820,35 @@ public readonly name: string;
 
 ---
 
-##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.property.internalValue"></a>
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.property.internalValue"></a>
 
 ```typescript
 public readonly internalValue: GoogleComputeRouterMd5AuthenticationKeys;
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeys">GoogleComputeRouterMd5AuthenticationKeys</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeys">GoogleComputeRouterMd5AuthenticationKeys</a>
 
 ---
 
 
-### GoogleComputeRouterParamsOutputReference <a name="GoogleComputeRouterParamsOutputReference" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference"></a>
+### GoogleComputeRouterParamsOutputReference <a name="GoogleComputeRouterParamsOutputReference" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.Initializer"></a>
 
 ```typescript
-import { googleComputeRouter } from '@cdktf/provider-google-beta'
+import { googleComputeRouter } from '@cdktn/provider-google-beta'
 
 new googleComputeRouter.GoogleComputeRouterParamsOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
-##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.Initializer.parameter.terraformResource"></a>
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.Initializer.parameter.terraformResource"></a>
 
 - *Type:* cdktf.IInterpolatingParent
 
@@ -2856,7 +2856,7 @@ The parent resource.
 
 ---
 
-##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.Initializer.parameter.terraformAttribute"></a>
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
@@ -2868,150 +2868,150 @@ The attribute on the parent resource this class is referencing.
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.resetResourceManagerTags">resetResourceManagerTags</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.resetResourceManagerTags">resetResourceManagerTags</a></code> | *No description.* |
 
 ---
 
-##### `computeFqn` <a name="computeFqn" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.computeFqn"></a>
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.computeFqn"></a>
 
 ```typescript
 public computeFqn(): string
 ```
 
-##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getAnyMapAttribute"></a>
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getAnyMapAttribute"></a>
 
 ```typescript
 public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getBooleanAttribute"></a>
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getBooleanAttribute"></a>
 
 ```typescript
 public getBooleanAttribute(terraformAttribute: string): IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getBooleanMapAttribute"></a>
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getBooleanMapAttribute"></a>
 
 ```typescript
 public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getListAttribute` <a name="getListAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getListAttribute"></a>
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getListAttribute"></a>
 
 ```typescript
 public getListAttribute(terraformAttribute: string): string[]
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getNumberAttribute"></a>
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getNumberAttribute"></a>
 
 ```typescript
 public getNumberAttribute(terraformAttribute: string): number
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getNumberListAttribute"></a>
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getNumberListAttribute"></a>
 
 ```typescript
 public getNumberListAttribute(terraformAttribute: string): number[]
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getNumberMapAttribute"></a>
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getNumberMapAttribute"></a>
 
 ```typescript
 public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getStringAttribute` <a name="getStringAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getStringAttribute"></a>
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getStringAttribute"></a>
 
 ```typescript
 public getStringAttribute(terraformAttribute: string): string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getStringMapAttribute"></a>
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getStringMapAttribute"></a>
 
 ```typescript
 public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.interpolationForAttribute"></a>
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.interpolationForAttribute"></a>
 
 ```typescript
 public interpolationForAttribute(property: string): IResolvable
 ```
 
-###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.interpolationForAttribute.parameter.property"></a>
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.interpolationForAttribute.parameter.property"></a>
 
 - *Type:* string
 
 ---
 
-##### `resolve` <a name="resolve" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.resolve"></a>
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.resolve"></a>
 
 ```typescript
 public resolve(_context: IResolveContext): any
@@ -3019,13 +3019,13 @@ public resolve(_context: IResolveContext): any
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.resolve.parameter._context"></a>
 
 - *Type:* cdktf.IResolveContext
 
 ---
 
-##### `toString` <a name="toString" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.toString"></a>
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.toString"></a>
 
 ```typescript
 public toString(): string
@@ -3035,7 +3035,7 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `resetResourceManagerTags` <a name="resetResourceManagerTags" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.resetResourceManagerTags"></a>
+##### `resetResourceManagerTags` <a name="resetResourceManagerTags" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.resetResourceManagerTags"></a>
 
 ```typescript
 public resetResourceManagerTags(): void
@@ -3046,15 +3046,15 @@ public resetResourceManagerTags(): void
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.property.resourceManagerTagsInput">resourceManagerTagsInput</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.property.resourceManagerTags">resourceManagerTags</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParams">GoogleComputeRouterParams</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.property.resourceManagerTagsInput">resourceManagerTagsInput</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.property.resourceManagerTags">resourceManagerTags</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParams">GoogleComputeRouterParams</a></code> | *No description.* |
 
 ---
 
-##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.property.creationStack"></a>
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.property.creationStack"></a>
 
 ```typescript
 public readonly creationStack: string[];
@@ -3068,7 +3068,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.property.fqn"></a>
 
 ```typescript
 public readonly fqn: string;
@@ -3078,7 +3078,7 @@ public readonly fqn: string;
 
 ---
 
-##### `resourceManagerTagsInput`<sup>Optional</sup> <a name="resourceManagerTagsInput" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.property.resourceManagerTagsInput"></a>
+##### `resourceManagerTagsInput`<sup>Optional</sup> <a name="resourceManagerTagsInput" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.property.resourceManagerTagsInput"></a>
 
 ```typescript
 public readonly resourceManagerTagsInput: {[ key: string ]: string};
@@ -3088,7 +3088,7 @@ public readonly resourceManagerTagsInput: {[ key: string ]: string};
 
 ---
 
-##### `resourceManagerTags`<sup>Required</sup> <a name="resourceManagerTags" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.property.resourceManagerTags"></a>
+##### `resourceManagerTags`<sup>Required</sup> <a name="resourceManagerTags" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.property.resourceManagerTags"></a>
 
 ```typescript
 public readonly resourceManagerTags: {[ key: string ]: string};
@@ -3098,35 +3098,35 @@ public readonly resourceManagerTags: {[ key: string ]: string};
 
 ---
 
-##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.property.internalValue"></a>
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.property.internalValue"></a>
 
 ```typescript
 public readonly internalValue: GoogleComputeRouterParams;
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterParams">GoogleComputeRouterParams</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParams">GoogleComputeRouterParams</a>
 
 ---
 
 
-### GoogleComputeRouterTimeoutsOutputReference <a name="GoogleComputeRouterTimeoutsOutputReference" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference"></a>
+### GoogleComputeRouterTimeoutsOutputReference <a name="GoogleComputeRouterTimeoutsOutputReference" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.Initializer"></a>
 
 ```typescript
-import { googleComputeRouter } from '@cdktf/provider-google-beta'
+import { googleComputeRouter } from '@cdktn/provider-google-beta'
 
 new googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
-##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.Initializer.parameter.terraformResource"></a>
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.Initializer.parameter.terraformResource"></a>
 
 - *Type:* cdktf.IInterpolatingParent
 
@@ -3134,7 +3134,7 @@ The parent resource.
 
 ---
 
-##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.Initializer.parameter.terraformAttribute"></a>
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
@@ -3146,152 +3146,152 @@ The attribute on the parent resource this class is referencing.
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.resetCreate">resetCreate</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.resetDelete">resetDelete</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.resetUpdate">resetUpdate</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.resetCreate">resetCreate</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.resetDelete">resetDelete</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.resetUpdate">resetUpdate</a></code> | *No description.* |
 
 ---
 
-##### `computeFqn` <a name="computeFqn" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.computeFqn"></a>
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.computeFqn"></a>
 
 ```typescript
 public computeFqn(): string
 ```
 
-##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getAnyMapAttribute"></a>
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getAnyMapAttribute"></a>
 
 ```typescript
 public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getBooleanAttribute"></a>
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getBooleanAttribute"></a>
 
 ```typescript
 public getBooleanAttribute(terraformAttribute: string): IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getBooleanMapAttribute"></a>
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getBooleanMapAttribute"></a>
 
 ```typescript
 public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getListAttribute` <a name="getListAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getListAttribute"></a>
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getListAttribute"></a>
 
 ```typescript
 public getListAttribute(terraformAttribute: string): string[]
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getNumberAttribute"></a>
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getNumberAttribute"></a>
 
 ```typescript
 public getNumberAttribute(terraformAttribute: string): number
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getNumberListAttribute"></a>
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getNumberListAttribute"></a>
 
 ```typescript
 public getNumberListAttribute(terraformAttribute: string): number[]
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getNumberMapAttribute"></a>
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getNumberMapAttribute"></a>
 
 ```typescript
 public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getStringAttribute` <a name="getStringAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getStringAttribute"></a>
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getStringAttribute"></a>
 
 ```typescript
 public getStringAttribute(terraformAttribute: string): string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getStringMapAttribute"></a>
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getStringMapAttribute"></a>
 
 ```typescript
 public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.interpolationForAttribute"></a>
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.interpolationForAttribute"></a>
 
 ```typescript
 public interpolationForAttribute(property: string): IResolvable
 ```
 
-###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.interpolationForAttribute.parameter.property"></a>
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.interpolationForAttribute.parameter.property"></a>
 
 - *Type:* string
 
 ---
 
-##### `resolve` <a name="resolve" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.resolve"></a>
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.resolve"></a>
 
 ```typescript
 public resolve(_context: IResolveContext): any
@@ -3299,13 +3299,13 @@ public resolve(_context: IResolveContext): any
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.resolve.parameter._context"></a>
 
 - *Type:* cdktf.IResolveContext
 
 ---
 
-##### `toString` <a name="toString" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.toString"></a>
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.toString"></a>
 
 ```typescript
 public toString(): string
@@ -3315,19 +3315,19 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `resetCreate` <a name="resetCreate" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.resetCreate"></a>
+##### `resetCreate` <a name="resetCreate" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.resetCreate"></a>
 
 ```typescript
 public resetCreate(): void
 ```
 
-##### `resetDelete` <a name="resetDelete" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.resetDelete"></a>
+##### `resetDelete` <a name="resetDelete" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.resetDelete"></a>
 
 ```typescript
 public resetDelete(): void
 ```
 
-##### `resetUpdate` <a name="resetUpdate" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.resetUpdate"></a>
+##### `resetUpdate` <a name="resetUpdate" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.resetUpdate"></a>
 
 ```typescript
 public resetUpdate(): void
@@ -3338,19 +3338,19 @@ public resetUpdate(): void
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.property.createInput">createInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.property.deleteInput">deleteInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.property.updateInput">updateInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.property.create">create</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.property.delete">delete</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.property.update">update</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeouts">GoogleComputeRouterTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.property.createInput">createInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.property.deleteInput">deleteInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.property.updateInput">updateInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.property.create">create</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.property.delete">delete</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.property.update">update</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.property.internalValue">internalValue</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeouts">GoogleComputeRouterTimeouts</a></code> | *No description.* |
 
 ---
 
-##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.property.creationStack"></a>
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.property.creationStack"></a>
 
 ```typescript
 public readonly creationStack: string[];
@@ -3364,7 +3364,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.property.fqn"></a>
 
 ```typescript
 public readonly fqn: string;
@@ -3374,7 +3374,7 @@ public readonly fqn: string;
 
 ---
 
-##### `createInput`<sup>Optional</sup> <a name="createInput" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.property.createInput"></a>
+##### `createInput`<sup>Optional</sup> <a name="createInput" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.property.createInput"></a>
 
 ```typescript
 public readonly createInput: string;
@@ -3384,7 +3384,7 @@ public readonly createInput: string;
 
 ---
 
-##### `deleteInput`<sup>Optional</sup> <a name="deleteInput" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.property.deleteInput"></a>
+##### `deleteInput`<sup>Optional</sup> <a name="deleteInput" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.property.deleteInput"></a>
 
 ```typescript
 public readonly deleteInput: string;
@@ -3394,7 +3394,7 @@ public readonly deleteInput: string;
 
 ---
 
-##### `updateInput`<sup>Optional</sup> <a name="updateInput" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.property.updateInput"></a>
+##### `updateInput`<sup>Optional</sup> <a name="updateInput" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.property.updateInput"></a>
 
 ```typescript
 public readonly updateInput: string;
@@ -3404,7 +3404,7 @@ public readonly updateInput: string;
 
 ---
 
-##### `create`<sup>Required</sup> <a name="create" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.property.create"></a>
+##### `create`<sup>Required</sup> <a name="create" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.property.create"></a>
 
 ```typescript
 public readonly create: string;
@@ -3414,7 +3414,7 @@ public readonly create: string;
 
 ---
 
-##### `delete`<sup>Required</sup> <a name="delete" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.property.delete"></a>
+##### `delete`<sup>Required</sup> <a name="delete" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.property.delete"></a>
 
 ```typescript
 public readonly delete: string;
@@ -3424,7 +3424,7 @@ public readonly delete: string;
 
 ---
 
-##### `update`<sup>Required</sup> <a name="update" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.property.update"></a>
+##### `update`<sup>Required</sup> <a name="update" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.property.update"></a>
 
 ```typescript
 public readonly update: string;
@@ -3434,13 +3434,13 @@ public readonly update: string;
 
 ---
 
-##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.property.internalValue"></a>
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.property.internalValue"></a>
 
 ```typescript
 public readonly internalValue: IResolvable | GoogleComputeRouterTimeouts;
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeouts">GoogleComputeRouterTimeouts</a>
+- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeouts">GoogleComputeRouterTimeouts</a>
 
 ---
 

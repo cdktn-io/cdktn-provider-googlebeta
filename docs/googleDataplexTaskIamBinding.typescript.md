@@ -1,28 +1,28 @@
-# `googleDataplexTaskIamBinding` Submodule <a name="`googleDataplexTaskIamBinding` Submodule" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding"></a>
+# `googleDataplexTaskIamBinding` Submodule <a name="`googleDataplexTaskIamBinding` Submodule" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
 
-### GoogleDataplexTaskIamBinding <a name="GoogleDataplexTaskIamBinding" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding"></a>
+### GoogleDataplexTaskIamBinding <a name="GoogleDataplexTaskIamBinding" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding"></a>
 
 Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_task_iam_binding google_dataplex_task_iam_binding}.
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.Initializer"></a>
 
 ```typescript
-import { googleDataplexTaskIamBinding } from '@cdktf/provider-google-beta'
+import { googleDataplexTaskIamBinding } from '@cdktn/provider-google-beta'
 
 new googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding(scope: Construct, id: string, config: GoogleDataplexTaskIamBindingConfig)
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.Initializer.parameter.id">id</a></code> | <code>string</code> | The scoped construct ID. |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig">GoogleDataplexTaskIamBindingConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.Initializer.parameter.id">id</a></code> | <code>string</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig">GoogleDataplexTaskIamBindingConfig</a></code> | *No description.* |
 
 ---
 
-##### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.Initializer.parameter.scope"></a>
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.Initializer.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
@@ -30,7 +30,7 @@ The scope in which to define this construct.
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.Initializer.parameter.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.Initializer.parameter.id"></a>
 
 - *Type:* string
 
@@ -40,9 +40,9 @@ Must be unique amongst siblings in the same scope
 
 ---
 
-##### `config`<sup>Required</sup> <a name="config" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.Initializer.parameter.config"></a>
+##### `config`<sup>Required</sup> <a name="config" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.Initializer.parameter.config"></a>
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig">GoogleDataplexTaskIamBindingConfig</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig">GoogleDataplexTaskIamBindingConfig</a>
 
 ---
 
@@ -50,38 +50,38 @@ Must be unique amongst siblings in the same scope
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.toString">toString</a></code> | Returns a string representation of this construct. |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.addOverride">addOverride</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.overrideLogicalId">overrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.resetOverrideLogicalId">resetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.toHclTerraform">toHclTerraform</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.toMetadata">toMetadata</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.toTerraform">toTerraform</a></code> | Adds this resource to the terraform JSON output. |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.addMoveTarget">addMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getListAttribute">getListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getStringAttribute">getStringAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.hasResourceMove">hasResourceMove</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.importFrom">importFrom</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.moveFromId">moveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.putCondition">putCondition</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.resetCondition">resetCondition</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.resetId">resetId</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.resetLocation">resetLocation</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.resetProject">resetProject</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.toString">toString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.addOverride">addOverride</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.overrideLogicalId">overrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.resetOverrideLogicalId">resetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.toHclTerraform">toHclTerraform</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.toMetadata">toMetadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.toTerraform">toTerraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.addMoveTarget">addMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.hasResourceMove">hasResourceMove</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.importFrom">importFrom</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.moveFromId">moveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.putCondition">putCondition</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.resetCondition">resetCondition</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.resetId">resetId</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.resetLocation">resetLocation</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.resetProject">resetProject</a></code> | *No description.* |
 
 ---
 
-##### `toString` <a name="toString" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.toString"></a>
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.toString"></a>
 
 ```typescript
 public toString(): string
@@ -89,25 +89,25 @@ public toString(): string
 
 Returns a string representation of this construct.
 
-##### `addOverride` <a name="addOverride" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.addOverride"></a>
+##### `addOverride` <a name="addOverride" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.addOverride"></a>
 
 ```typescript
 public addOverride(path: string, value: any): void
 ```
 
-###### `path`<sup>Required</sup> <a name="path" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.addOverride.parameter.path"></a>
+###### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.addOverride.parameter.path"></a>
 
 - *Type:* string
 
 ---
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.addOverride.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.addOverride.parameter.value"></a>
 
 - *Type:* any
 
 ---
 
-##### `overrideLogicalId` <a name="overrideLogicalId" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.overrideLogicalId"></a>
+##### `overrideLogicalId` <a name="overrideLogicalId" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.overrideLogicalId"></a>
 
 ```typescript
 public overrideLogicalId(newLogicalId: string): void
@@ -115,7 +115,7 @@ public overrideLogicalId(newLogicalId: string): void
 
 Overrides the auto-generated logical ID with a specific ID.
 
-###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.overrideLogicalId.parameter.newLogicalId"></a>
+###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.overrideLogicalId.parameter.newLogicalId"></a>
 
 - *Type:* string
 
@@ -123,7 +123,7 @@ The new logical ID to use for this stack element.
 
 ---
 
-##### `resetOverrideLogicalId` <a name="resetOverrideLogicalId" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.resetOverrideLogicalId"></a>
+##### `resetOverrideLogicalId` <a name="resetOverrideLogicalId" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.resetOverrideLogicalId"></a>
 
 ```typescript
 public resetOverrideLogicalId(): void
@@ -131,19 +131,19 @@ public resetOverrideLogicalId(): void
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
 
-##### `toHclTerraform` <a name="toHclTerraform" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.toHclTerraform"></a>
+##### `toHclTerraform` <a name="toHclTerraform" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.toHclTerraform"></a>
 
 ```typescript
 public toHclTerraform(): any
 ```
 
-##### `toMetadata` <a name="toMetadata" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.toMetadata"></a>
+##### `toMetadata` <a name="toMetadata" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.toMetadata"></a>
 
 ```typescript
 public toMetadata(): any
 ```
 
-##### `toTerraform` <a name="toTerraform" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.toTerraform"></a>
+##### `toTerraform` <a name="toTerraform" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.toTerraform"></a>
 
 ```typescript
 public toTerraform(): any
@@ -151,7 +151,7 @@ public toTerraform(): any
 
 Adds this resource to the terraform JSON output.
 
-##### `addMoveTarget` <a name="addMoveTarget" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.addMoveTarget"></a>
+##### `addMoveTarget` <a name="addMoveTarget" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.addMoveTarget"></a>
 
 ```typescript
 public addMoveTarget(moveTarget: string): void
@@ -159,7 +159,7 @@ public addMoveTarget(moveTarget: string): void
 
 Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 
-###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.addMoveTarget.parameter.moveTarget"></a>
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.addMoveTarget.parameter.moveTarget"></a>
 
 - *Type:* string
 
@@ -167,151 +167,151 @@ The string move target that will correspond to this resource.
 
 ---
 
-##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getAnyMapAttribute"></a>
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getAnyMapAttribute"></a>
 
 ```typescript
 public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getBooleanAttribute"></a>
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getBooleanAttribute"></a>
 
 ```typescript
 public getBooleanAttribute(terraformAttribute: string): IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getBooleanMapAttribute"></a>
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getBooleanMapAttribute"></a>
 
 ```typescript
 public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getListAttribute` <a name="getListAttribute" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getListAttribute"></a>
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getListAttribute"></a>
 
 ```typescript
 public getListAttribute(terraformAttribute: string): string[]
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getNumberAttribute"></a>
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getNumberAttribute"></a>
 
 ```typescript
 public getNumberAttribute(terraformAttribute: string): number
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getNumberListAttribute"></a>
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getNumberListAttribute"></a>
 
 ```typescript
 public getNumberListAttribute(terraformAttribute: string): number[]
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getNumberMapAttribute"></a>
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getNumberMapAttribute"></a>
 
 ```typescript
 public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getStringAttribute` <a name="getStringAttribute" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getStringAttribute"></a>
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getStringAttribute"></a>
 
 ```typescript
 public getStringAttribute(terraformAttribute: string): string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getStringMapAttribute"></a>
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getStringMapAttribute"></a>
 
 ```typescript
 public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `hasResourceMove` <a name="hasResourceMove" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.hasResourceMove"></a>
+##### `hasResourceMove` <a name="hasResourceMove" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.hasResourceMove"></a>
 
 ```typescript
 public hasResourceMove(): TerraformResourceMoveByTarget | TerraformResourceMoveById
 ```
 
-##### `importFrom` <a name="importFrom" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.importFrom"></a>
+##### `importFrom` <a name="importFrom" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.importFrom"></a>
 
 ```typescript
 public importFrom(id: string, provider?: TerraformProvider): void
 ```
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.importFrom.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.importFrom.parameter.id"></a>
 
 - *Type:* string
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.importFrom.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.importFrom.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
 ---
 
-##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.interpolationForAttribute"></a>
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.interpolationForAttribute"></a>
 
 ```typescript
 public interpolationForAttribute(terraformAttribute: string): IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.interpolationForAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.interpolationForAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `moveFromId` <a name="moveFromId" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.moveFromId"></a>
+##### `moveFromId` <a name="moveFromId" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.moveFromId"></a>
 
 ```typescript
 public moveFromId(id: string): void
@@ -321,7 +321,7 @@ Move the resource corresponding to "id" to this resource.
 
 Note that the resource being moved from must be marked as moved using it's instance function.
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.moveFromId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.moveFromId.parameter.id"></a>
 
 - *Type:* string
 
@@ -329,7 +329,7 @@ Full id of resource being moved from, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `moveTo` <a name="moveTo" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.moveTo"></a>
+##### `moveTo` <a name="moveTo" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.moveTo"></a>
 
 ```typescript
 public moveTo(moveTarget: string, index?: string | number): void
@@ -337,7 +337,7 @@ public moveTo(moveTarget: string, index?: string | number): void
 
 Moves this resource to the target resource given by moveTarget.
 
-###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.moveTo.parameter.moveTarget"></a>
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.moveTo.parameter.moveTarget"></a>
 
 - *Type:* string
 
@@ -345,7 +345,7 @@ The previously set user defined string set by .addMoveTarget() corresponding to 
 
 ---
 
-###### `index`<sup>Optional</sup> <a name="index" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.moveTo.parameter.index"></a>
+###### `index`<sup>Optional</sup> <a name="index" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.moveTo.parameter.index"></a>
 
 - *Type:* string | number
 
@@ -353,7 +353,7 @@ Optional The index corresponding to the key the resource is to appear in the for
 
 ---
 
-##### `moveToId` <a name="moveToId" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.moveToId"></a>
+##### `moveToId` <a name="moveToId" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.moveToId"></a>
 
 ```typescript
 public moveToId(id: string): void
@@ -361,7 +361,7 @@ public moveToId(id: string): void
 
 Moves this resource to the resource corresponding to "id".
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.moveToId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.moveToId.parameter.id"></a>
 
 - *Type:* string
 
@@ -369,37 +369,37 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `putCondition` <a name="putCondition" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.putCondition"></a>
+##### `putCondition` <a name="putCondition" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.putCondition"></a>
 
 ```typescript
 public putCondition(value: GoogleDataplexTaskIamBindingCondition): void
 ```
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.putCondition.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.putCondition.parameter.value"></a>
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingCondition">GoogleDataplexTaskIamBindingCondition</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingCondition">GoogleDataplexTaskIamBindingCondition</a>
 
 ---
 
-##### `resetCondition` <a name="resetCondition" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.resetCondition"></a>
+##### `resetCondition` <a name="resetCondition" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.resetCondition"></a>
 
 ```typescript
 public resetCondition(): void
 ```
 
-##### `resetId` <a name="resetId" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.resetId"></a>
+##### `resetId` <a name="resetId" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.resetId"></a>
 
 ```typescript
 public resetId(): void
 ```
 
-##### `resetLocation` <a name="resetLocation" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.resetLocation"></a>
+##### `resetLocation` <a name="resetLocation" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.resetLocation"></a>
 
 ```typescript
 public resetLocation(): void
 ```
 
-##### `resetProject` <a name="resetProject" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.resetProject"></a>
+##### `resetProject` <a name="resetProject" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.resetProject"></a>
 
 ```typescript
 public resetProject(): void
@@ -409,17 +409,17 @@ public resetProject(): void
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.isTerraformElement">isTerraformElement</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.isTerraformResource">isTerraformResource</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTF code for importing a GoogleDataplexTaskIamBinding resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.isTerraformResource">isTerraformResource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTF code for importing a GoogleDataplexTaskIamBinding resource upon running "cdktf plan <stack-name>". |
 
 ---
 
-##### `isConstruct` <a name="isConstruct" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.isConstruct"></a>
+##### `isConstruct` <a name="isConstruct" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.isConstruct"></a>
 
 ```typescript
-import { googleDataplexTaskIamBinding } from '@cdktf/provider-google-beta'
+import { googleDataplexTaskIamBinding } from '@cdktn/provider-google-beta'
 
 googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.isConstruct(x: any)
 ```
@@ -440,7 +440,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.isConstruct.parameter.x"></a>
 
 - *Type:* any
 
@@ -448,45 +448,45 @@ Any object.
 
 ---
 
-##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.isTerraformElement"></a>
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.isTerraformElement"></a>
 
 ```typescript
-import { googleDataplexTaskIamBinding } from '@cdktf/provider-google-beta'
+import { googleDataplexTaskIamBinding } from '@cdktn/provider-google-beta'
 
 googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.isTerraformElement(x: any)
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.isTerraformElement.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.isTerraformElement.parameter.x"></a>
 
 - *Type:* any
 
 ---
 
-##### `isTerraformResource` <a name="isTerraformResource" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.isTerraformResource"></a>
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.isTerraformResource"></a>
 
 ```typescript
-import { googleDataplexTaskIamBinding } from '@cdktf/provider-google-beta'
+import { googleDataplexTaskIamBinding } from '@cdktn/provider-google-beta'
 
 googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.isTerraformResource(x: any)
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.isTerraformResource.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.isTerraformResource.parameter.x"></a>
 
 - *Type:* any
 
 ---
 
-##### `generateConfigForImport` <a name="generateConfigForImport" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.generateConfigForImport"></a>
+##### `generateConfigForImport` <a name="generateConfigForImport" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.generateConfigForImport"></a>
 
 ```typescript
-import { googleDataplexTaskIamBinding } from '@cdktf/provider-google-beta'
+import { googleDataplexTaskIamBinding } from '@cdktn/provider-google-beta'
 
 googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: TerraformProvider)
 ```
 
 Generates CDKTF code for importing a GoogleDataplexTaskIamBinding resource upon running "cdktf plan <stack-name>".
 
-###### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.generateConfigForImport.parameter.scope"></a>
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.generateConfigForImport.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
@@ -494,7 +494,7 @@ The scope in which to define this construct.
 
 ---
 
-###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.generateConfigForImport.parameter.importToId"></a>
+###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.generateConfigForImport.parameter.importToId"></a>
 
 - *Type:* string
 
@@ -502,7 +502,7 @@ The construct id used in the generated config for the GoogleDataplexTaskIamBindi
 
 ---
 
-###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.generateConfigForImport.parameter.importFromId"></a>
+###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.generateConfigForImport.parameter.importFromId"></a>
 
 - *Type:* string
 
@@ -512,7 +512,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.generateConfigForImport.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.generateConfigForImport.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
@@ -524,41 +524,41 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.cdktfStack">cdktfStack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.terraformMetaArguments">terraformMetaArguments</a></code> | <code>{[ key: string ]: any}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.condition">condition</a></code> | <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference">GoogleDataplexTaskIamBindingConditionOutputReference</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.etag">etag</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.conditionInput">conditionInput</a></code> | <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingCondition">GoogleDataplexTaskIamBindingCondition</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.lakeInput">lakeInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.locationInput">locationInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.membersInput">membersInput</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.projectInput">projectInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.roleInput">roleInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.taskIdInput">taskIdInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.id">id</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.lake">lake</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.location">location</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.members">members</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.project">project</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.role">role</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.taskId">taskId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.cdktfStack">cdktfStack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.terraformMetaArguments">terraformMetaArguments</a></code> | <code>{[ key: string ]: any}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.condition">condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference">GoogleDataplexTaskIamBindingConditionOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.etag">etag</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.conditionInput">conditionInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingCondition">GoogleDataplexTaskIamBindingCondition</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.lakeInput">lakeInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.locationInput">locationInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.membersInput">membersInput</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.projectInput">projectInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.roleInput">roleInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.taskIdInput">taskIdInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.id">id</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.lake">lake</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.location">location</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.members">members</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.project">project</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.role">role</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.taskId">taskId</a></code> | <code>string</code> | *No description.* |
 
 ---
 
-##### `node`<sup>Required</sup> <a name="node" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.node"></a>
+##### `node`<sup>Required</sup> <a name="node" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.node"></a>
 
 ```typescript
 public readonly node: Node;
@@ -570,7 +570,7 @@ The tree node.
 
 ---
 
-##### `cdktfStack`<sup>Required</sup> <a name="cdktfStack" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.cdktfStack"></a>
+##### `cdktfStack`<sup>Required</sup> <a name="cdktfStack" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.cdktfStack"></a>
 
 ```typescript
 public readonly cdktfStack: TerraformStack;
@@ -580,7 +580,7 @@ public readonly cdktfStack: TerraformStack;
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.fqn"></a>
 
 ```typescript
 public readonly fqn: string;
@@ -590,7 +590,7 @@ public readonly fqn: string;
 
 ---
 
-##### `friendlyUniqueId`<sup>Required</sup> <a name="friendlyUniqueId" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.friendlyUniqueId"></a>
+##### `friendlyUniqueId`<sup>Required</sup> <a name="friendlyUniqueId" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.friendlyUniqueId"></a>
 
 ```typescript
 public readonly friendlyUniqueId: string;
@@ -600,7 +600,7 @@ public readonly friendlyUniqueId: string;
 
 ---
 
-##### `terraformMetaArguments`<sup>Required</sup> <a name="terraformMetaArguments" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.terraformMetaArguments"></a>
+##### `terraformMetaArguments`<sup>Required</sup> <a name="terraformMetaArguments" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.terraformMetaArguments"></a>
 
 ```typescript
 public readonly terraformMetaArguments: {[ key: string ]: any};
@@ -610,7 +610,7 @@ public readonly terraformMetaArguments: {[ key: string ]: any};
 
 ---
 
-##### `terraformResourceType`<sup>Required</sup> <a name="terraformResourceType" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.terraformResourceType"></a>
+##### `terraformResourceType`<sup>Required</sup> <a name="terraformResourceType" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.terraformResourceType"></a>
 
 ```typescript
 public readonly terraformResourceType: string;
@@ -620,7 +620,7 @@ public readonly terraformResourceType: string;
 
 ---
 
-##### `terraformGeneratorMetadata`<sup>Optional</sup> <a name="terraformGeneratorMetadata" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.terraformGeneratorMetadata"></a>
+##### `terraformGeneratorMetadata`<sup>Optional</sup> <a name="terraformGeneratorMetadata" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.terraformGeneratorMetadata"></a>
 
 ```typescript
 public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
@@ -630,7 +630,7 @@ public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.connection"></a>
 
 ```typescript
 public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
@@ -640,7 +640,7 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.count"></a>
 
 ```typescript
 public readonly count: number | TerraformCount;
@@ -650,7 +650,7 @@ public readonly count: number | TerraformCount;
 
 ---
 
-##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.dependsOn"></a>
+##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.dependsOn"></a>
 
 ```typescript
 public readonly dependsOn: string[];
@@ -660,7 +660,7 @@ public readonly dependsOn: string[];
 
 ---
 
-##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.forEach"></a>
+##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.forEach"></a>
 
 ```typescript
 public readonly forEach: ITerraformIterator;
@@ -670,7 +670,7 @@ public readonly forEach: ITerraformIterator;
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.lifecycle"></a>
 
 ```typescript
 public readonly lifecycle: TerraformResourceLifecycle;
@@ -680,7 +680,7 @@ public readonly lifecycle: TerraformResourceLifecycle;
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.provider"></a>
 
 ```typescript
 public readonly provider: TerraformProvider;
@@ -690,7 +690,7 @@ public readonly provider: TerraformProvider;
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.provisioners"></a>
 
 ```typescript
 public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
@@ -700,17 +700,17 @@ public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteEx
 
 ---
 
-##### `condition`<sup>Required</sup> <a name="condition" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.condition"></a>
+##### `condition`<sup>Required</sup> <a name="condition" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.condition"></a>
 
 ```typescript
 public readonly condition: GoogleDataplexTaskIamBindingConditionOutputReference;
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference">GoogleDataplexTaskIamBindingConditionOutputReference</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference">GoogleDataplexTaskIamBindingConditionOutputReference</a>
 
 ---
 
-##### `etag`<sup>Required</sup> <a name="etag" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.etag"></a>
+##### `etag`<sup>Required</sup> <a name="etag" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.etag"></a>
 
 ```typescript
 public readonly etag: string;
@@ -720,17 +720,17 @@ public readonly etag: string;
 
 ---
 
-##### `conditionInput`<sup>Optional</sup> <a name="conditionInput" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.conditionInput"></a>
+##### `conditionInput`<sup>Optional</sup> <a name="conditionInput" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.conditionInput"></a>
 
 ```typescript
 public readonly conditionInput: GoogleDataplexTaskIamBindingCondition;
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingCondition">GoogleDataplexTaskIamBindingCondition</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingCondition">GoogleDataplexTaskIamBindingCondition</a>
 
 ---
 
-##### `idInput`<sup>Optional</sup> <a name="idInput" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.idInput"></a>
+##### `idInput`<sup>Optional</sup> <a name="idInput" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.idInput"></a>
 
 ```typescript
 public readonly idInput: string;
@@ -740,7 +740,7 @@ public readonly idInput: string;
 
 ---
 
-##### `lakeInput`<sup>Optional</sup> <a name="lakeInput" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.lakeInput"></a>
+##### `lakeInput`<sup>Optional</sup> <a name="lakeInput" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.lakeInput"></a>
 
 ```typescript
 public readonly lakeInput: string;
@@ -750,7 +750,7 @@ public readonly lakeInput: string;
 
 ---
 
-##### `locationInput`<sup>Optional</sup> <a name="locationInput" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.locationInput"></a>
+##### `locationInput`<sup>Optional</sup> <a name="locationInput" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.locationInput"></a>
 
 ```typescript
 public readonly locationInput: string;
@@ -760,7 +760,7 @@ public readonly locationInput: string;
 
 ---
 
-##### `membersInput`<sup>Optional</sup> <a name="membersInput" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.membersInput"></a>
+##### `membersInput`<sup>Optional</sup> <a name="membersInput" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.membersInput"></a>
 
 ```typescript
 public readonly membersInput: string[];
@@ -770,7 +770,7 @@ public readonly membersInput: string[];
 
 ---
 
-##### `projectInput`<sup>Optional</sup> <a name="projectInput" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.projectInput"></a>
+##### `projectInput`<sup>Optional</sup> <a name="projectInput" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.projectInput"></a>
 
 ```typescript
 public readonly projectInput: string;
@@ -780,7 +780,7 @@ public readonly projectInput: string;
 
 ---
 
-##### `roleInput`<sup>Optional</sup> <a name="roleInput" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.roleInput"></a>
+##### `roleInput`<sup>Optional</sup> <a name="roleInput" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.roleInput"></a>
 
 ```typescript
 public readonly roleInput: string;
@@ -790,7 +790,7 @@ public readonly roleInput: string;
 
 ---
 
-##### `taskIdInput`<sup>Optional</sup> <a name="taskIdInput" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.taskIdInput"></a>
+##### `taskIdInput`<sup>Optional</sup> <a name="taskIdInput" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.taskIdInput"></a>
 
 ```typescript
 public readonly taskIdInput: string;
@@ -800,7 +800,7 @@ public readonly taskIdInput: string;
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.id"></a>
 
 ```typescript
 public readonly id: string;
@@ -810,7 +810,7 @@ public readonly id: string;
 
 ---
 
-##### `lake`<sup>Required</sup> <a name="lake" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.lake"></a>
+##### `lake`<sup>Required</sup> <a name="lake" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.lake"></a>
 
 ```typescript
 public readonly lake: string;
@@ -820,7 +820,7 @@ public readonly lake: string;
 
 ---
 
-##### `location`<sup>Required</sup> <a name="location" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.location"></a>
+##### `location`<sup>Required</sup> <a name="location" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.location"></a>
 
 ```typescript
 public readonly location: string;
@@ -830,7 +830,7 @@ public readonly location: string;
 
 ---
 
-##### `members`<sup>Required</sup> <a name="members" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.members"></a>
+##### `members`<sup>Required</sup> <a name="members" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.members"></a>
 
 ```typescript
 public readonly members: string[];
@@ -840,7 +840,7 @@ public readonly members: string[];
 
 ---
 
-##### `project`<sup>Required</sup> <a name="project" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.project"></a>
+##### `project`<sup>Required</sup> <a name="project" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.project"></a>
 
 ```typescript
 public readonly project: string;
@@ -850,7 +850,7 @@ public readonly project: string;
 
 ---
 
-##### `role`<sup>Required</sup> <a name="role" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.role"></a>
+##### `role`<sup>Required</sup> <a name="role" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.role"></a>
 
 ```typescript
 public readonly role: string;
@@ -860,7 +860,7 @@ public readonly role: string;
 
 ---
 
-##### `taskId`<sup>Required</sup> <a name="taskId" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.taskId"></a>
+##### `taskId`<sup>Required</sup> <a name="taskId" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.taskId"></a>
 
 ```typescript
 public readonly taskId: string;
@@ -874,11 +874,11 @@ public readonly taskId: string;
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.tfResourceType">tfResourceType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.tfResourceType">tfResourceType</a></code> | <code>string</code> | *No description.* |
 
 ---
 
-##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.tfResourceType"></a>
+##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding.property.tfResourceType"></a>
 
 ```typescript
 public readonly tfResourceType: string;
@@ -890,12 +890,12 @@ public readonly tfResourceType: string;
 
 ## Structs <a name="Structs" id="Structs"></a>
 
-### GoogleDataplexTaskIamBindingCondition <a name="GoogleDataplexTaskIamBindingCondition" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingCondition"></a>
+### GoogleDataplexTaskIamBindingCondition <a name="GoogleDataplexTaskIamBindingCondition" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingCondition"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingCondition.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingCondition.Initializer"></a>
 
 ```typescript
-import { googleDataplexTaskIamBinding } from '@cdktf/provider-google-beta'
+import { googleDataplexTaskIamBinding } from '@cdktn/provider-google-beta'
 
 const googleDataplexTaskIamBindingCondition: googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingCondition = { ... }
 ```
@@ -904,13 +904,13 @@ const googleDataplexTaskIamBindingCondition: googleDataplexTaskIamBinding.Google
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingCondition.property.expression">expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_task_iam_binding#expression GoogleDataplexTaskIamBinding#expression}. |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingCondition.property.title">title</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_task_iam_binding#title GoogleDataplexTaskIamBinding#title}. |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingCondition.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_task_iam_binding#description GoogleDataplexTaskIamBinding#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingCondition.property.expression">expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_task_iam_binding#expression GoogleDataplexTaskIamBinding#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingCondition.property.title">title</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_task_iam_binding#title GoogleDataplexTaskIamBinding#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingCondition.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_task_iam_binding#description GoogleDataplexTaskIamBinding#description}. |
 
 ---
 
-##### `expression`<sup>Required</sup> <a name="expression" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingCondition.property.expression"></a>
+##### `expression`<sup>Required</sup> <a name="expression" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingCondition.property.expression"></a>
 
 ```typescript
 public readonly expression: string;
@@ -922,7 +922,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `title`<sup>Required</sup> <a name="title" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingCondition.property.title"></a>
+##### `title`<sup>Required</sup> <a name="title" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingCondition.property.title"></a>
 
 ```typescript
 public readonly title: string;
@@ -934,7 +934,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `description`<sup>Optional</sup> <a name="description" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingCondition.property.description"></a>
+##### `description`<sup>Optional</sup> <a name="description" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingCondition.property.description"></a>
 
 ```typescript
 public readonly description: string;
@@ -946,12 +946,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-### GoogleDataplexTaskIamBindingConfig <a name="GoogleDataplexTaskIamBindingConfig" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig"></a>
+### GoogleDataplexTaskIamBindingConfig <a name="GoogleDataplexTaskIamBindingConfig" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.Initializer"></a>
 
 ```typescript
-import { googleDataplexTaskIamBinding } from '@cdktf/provider-google-beta'
+import { googleDataplexTaskIamBinding } from '@cdktn/provider-google-beta'
 
 const googleDataplexTaskIamBindingConfig: googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig = { ... }
 ```
@@ -960,25 +960,25 @@ const googleDataplexTaskIamBindingConfig: googleDataplexTaskIamBinding.GoogleDat
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.dependsOn">dependsOn</a></code> | <code>cdktf.ITerraformDependable[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.lake">lake</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_task_iam_binding#lake GoogleDataplexTaskIamBinding#lake}. |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.members">members</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_task_iam_binding#members GoogleDataplexTaskIamBinding#members}. |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.role">role</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_task_iam_binding#role GoogleDataplexTaskIamBinding#role}. |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.taskId">taskId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_task_iam_binding#task_id GoogleDataplexTaskIamBinding#task_id}. |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.condition">condition</a></code> | <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingCondition">GoogleDataplexTaskIamBindingCondition</a></code> | condition block. |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_task_iam_binding#id GoogleDataplexTaskIamBinding#id}. |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.location">location</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_task_iam_binding#location GoogleDataplexTaskIamBinding#location}. |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_task_iam_binding#project GoogleDataplexTaskIamBinding#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.dependsOn">dependsOn</a></code> | <code>cdktf.ITerraformDependable[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.lake">lake</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_task_iam_binding#lake GoogleDataplexTaskIamBinding#lake}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.members">members</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_task_iam_binding#members GoogleDataplexTaskIamBinding#members}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.role">role</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_task_iam_binding#role GoogleDataplexTaskIamBinding#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.taskId">taskId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_task_iam_binding#task_id GoogleDataplexTaskIamBinding#task_id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.condition">condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingCondition">GoogleDataplexTaskIamBindingCondition</a></code> | condition block. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_task_iam_binding#id GoogleDataplexTaskIamBinding#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.location">location</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_task_iam_binding#location GoogleDataplexTaskIamBinding#location}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_task_iam_binding#project GoogleDataplexTaskIamBinding#project}. |
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.connection"></a>
 
 ```typescript
 public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
@@ -988,7 +988,7 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.count"></a>
 
 ```typescript
 public readonly count: number | TerraformCount;
@@ -998,7 +998,7 @@ public readonly count: number | TerraformCount;
 
 ---
 
-##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.dependsOn"></a>
+##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.dependsOn"></a>
 
 ```typescript
 public readonly dependsOn: ITerraformDependable[];
@@ -1008,7 +1008,7 @@ public readonly dependsOn: ITerraformDependable[];
 
 ---
 
-##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.forEach"></a>
+##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.forEach"></a>
 
 ```typescript
 public readonly forEach: ITerraformIterator;
@@ -1018,7 +1018,7 @@ public readonly forEach: ITerraformIterator;
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.lifecycle"></a>
 
 ```typescript
 public readonly lifecycle: TerraformResourceLifecycle;
@@ -1028,7 +1028,7 @@ public readonly lifecycle: TerraformResourceLifecycle;
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.provider"></a>
 
 ```typescript
 public readonly provider: TerraformProvider;
@@ -1038,7 +1038,7 @@ public readonly provider: TerraformProvider;
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.provisioners"></a>
 
 ```typescript
 public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
@@ -1048,7 +1048,7 @@ public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteEx
 
 ---
 
-##### `lake`<sup>Required</sup> <a name="lake" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.lake"></a>
+##### `lake`<sup>Required</sup> <a name="lake" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.lake"></a>
 
 ```typescript
 public readonly lake: string;
@@ -1060,7 +1060,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `members`<sup>Required</sup> <a name="members" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.members"></a>
+##### `members`<sup>Required</sup> <a name="members" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.members"></a>
 
 ```typescript
 public readonly members: string[];
@@ -1072,7 +1072,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `role`<sup>Required</sup> <a name="role" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.role"></a>
+##### `role`<sup>Required</sup> <a name="role" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.role"></a>
 
 ```typescript
 public readonly role: string;
@@ -1084,7 +1084,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `taskId`<sup>Required</sup> <a name="taskId" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.taskId"></a>
+##### `taskId`<sup>Required</sup> <a name="taskId" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.taskId"></a>
 
 ```typescript
 public readonly taskId: string;
@@ -1096,13 +1096,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `condition`<sup>Optional</sup> <a name="condition" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.condition"></a>
+##### `condition`<sup>Optional</sup> <a name="condition" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.condition"></a>
 
 ```typescript
 public readonly condition: GoogleDataplexTaskIamBindingCondition;
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingCondition">GoogleDataplexTaskIamBindingCondition</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingCondition">GoogleDataplexTaskIamBindingCondition</a>
 
 condition block.
 
@@ -1110,7 +1110,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `id`<sup>Optional</sup> <a name="id" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.id"></a>
+##### `id`<sup>Optional</sup> <a name="id" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.id"></a>
 
 ```typescript
 public readonly id: string;
@@ -1125,7 +1125,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 ---
 
-##### `location`<sup>Optional</sup> <a name="location" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.location"></a>
+##### `location`<sup>Optional</sup> <a name="location" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.location"></a>
 
 ```typescript
 public readonly location: string;
@@ -1137,7 +1137,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `project`<sup>Optional</sup> <a name="project" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.project"></a>
+##### `project`<sup>Optional</sup> <a name="project" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig.property.project"></a>
 
 ```typescript
 public readonly project: string;
@@ -1151,24 +1151,24 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ## Classes <a name="Classes" id="Classes"></a>
 
-### GoogleDataplexTaskIamBindingConditionOutputReference <a name="GoogleDataplexTaskIamBindingConditionOutputReference" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference"></a>
+### GoogleDataplexTaskIamBindingConditionOutputReference <a name="GoogleDataplexTaskIamBindingConditionOutputReference" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.Initializer"></a>
 
 ```typescript
-import { googleDataplexTaskIamBinding } from '@cdktf/provider-google-beta'
+import { googleDataplexTaskIamBinding } from '@cdktn/provider-google-beta'
 
 new googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
-##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.Initializer.parameter.terraformResource"></a>
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.Initializer.parameter.terraformResource"></a>
 
 - *Type:* cdktf.IInterpolatingParent
 
@@ -1176,7 +1176,7 @@ The parent resource.
 
 ---
 
-##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.Initializer.parameter.terraformAttribute"></a>
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
@@ -1188,150 +1188,150 @@ The attribute on the parent resource this class is referencing.
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.resetDescription">resetDescription</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.resetDescription">resetDescription</a></code> | *No description.* |
 
 ---
 
-##### `computeFqn` <a name="computeFqn" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.computeFqn"></a>
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.computeFqn"></a>
 
 ```typescript
 public computeFqn(): string
 ```
 
-##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getAnyMapAttribute"></a>
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getAnyMapAttribute"></a>
 
 ```typescript
 public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getBooleanAttribute"></a>
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getBooleanAttribute"></a>
 
 ```typescript
 public getBooleanAttribute(terraformAttribute: string): IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getBooleanMapAttribute"></a>
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getBooleanMapAttribute"></a>
 
 ```typescript
 public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getListAttribute` <a name="getListAttribute" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getListAttribute"></a>
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getListAttribute"></a>
 
 ```typescript
 public getListAttribute(terraformAttribute: string): string[]
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getNumberAttribute"></a>
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getNumberAttribute"></a>
 
 ```typescript
 public getNumberAttribute(terraformAttribute: string): number
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getNumberListAttribute"></a>
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getNumberListAttribute"></a>
 
 ```typescript
 public getNumberListAttribute(terraformAttribute: string): number[]
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getNumberMapAttribute"></a>
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getNumberMapAttribute"></a>
 
 ```typescript
 public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getStringAttribute` <a name="getStringAttribute" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getStringAttribute"></a>
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getStringAttribute"></a>
 
 ```typescript
 public getStringAttribute(terraformAttribute: string): string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getStringMapAttribute"></a>
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getStringMapAttribute"></a>
 
 ```typescript
 public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.interpolationForAttribute"></a>
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.interpolationForAttribute"></a>
 
 ```typescript
 public interpolationForAttribute(property: string): IResolvable
 ```
 
-###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.interpolationForAttribute.parameter.property"></a>
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.interpolationForAttribute.parameter.property"></a>
 
 - *Type:* string
 
 ---
 
-##### `resolve` <a name="resolve" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.resolve"></a>
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.resolve"></a>
 
 ```typescript
 public resolve(_context: IResolveContext): any
@@ -1339,13 +1339,13 @@ public resolve(_context: IResolveContext): any
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.resolve.parameter._context"></a>
 
 - *Type:* cdktf.IResolveContext
 
 ---
 
-##### `toString` <a name="toString" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.toString"></a>
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.toString"></a>
 
 ```typescript
 public toString(): string
@@ -1355,7 +1355,7 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `resetDescription` <a name="resetDescription" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.resetDescription"></a>
+##### `resetDescription` <a name="resetDescription" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.resetDescription"></a>
 
 ```typescript
 public resetDescription(): void
@@ -1366,19 +1366,19 @@ public resetDescription(): void
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.property.descriptionInput">descriptionInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.property.expressionInput">expressionInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.property.titleInput">titleInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.property.description">description</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.property.expression">expression</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.property.title">title</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingCondition">GoogleDataplexTaskIamBindingCondition</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.property.descriptionInput">descriptionInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.property.expressionInput">expressionInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.property.titleInput">titleInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.property.description">description</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.property.expression">expression</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.property.title">title</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingCondition">GoogleDataplexTaskIamBindingCondition</a></code> | *No description.* |
 
 ---
 
-##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.property.creationStack"></a>
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.property.creationStack"></a>
 
 ```typescript
 public readonly creationStack: string[];
@@ -1392,7 +1392,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.property.fqn"></a>
 
 ```typescript
 public readonly fqn: string;
@@ -1402,7 +1402,7 @@ public readonly fqn: string;
 
 ---
 
-##### `descriptionInput`<sup>Optional</sup> <a name="descriptionInput" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.property.descriptionInput"></a>
+##### `descriptionInput`<sup>Optional</sup> <a name="descriptionInput" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.property.descriptionInput"></a>
 
 ```typescript
 public readonly descriptionInput: string;
@@ -1412,7 +1412,7 @@ public readonly descriptionInput: string;
 
 ---
 
-##### `expressionInput`<sup>Optional</sup> <a name="expressionInput" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.property.expressionInput"></a>
+##### `expressionInput`<sup>Optional</sup> <a name="expressionInput" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.property.expressionInput"></a>
 
 ```typescript
 public readonly expressionInput: string;
@@ -1422,7 +1422,7 @@ public readonly expressionInput: string;
 
 ---
 
-##### `titleInput`<sup>Optional</sup> <a name="titleInput" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.property.titleInput"></a>
+##### `titleInput`<sup>Optional</sup> <a name="titleInput" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.property.titleInput"></a>
 
 ```typescript
 public readonly titleInput: string;
@@ -1432,7 +1432,7 @@ public readonly titleInput: string;
 
 ---
 
-##### `description`<sup>Required</sup> <a name="description" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.property.description"></a>
+##### `description`<sup>Required</sup> <a name="description" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.property.description"></a>
 
 ```typescript
 public readonly description: string;
@@ -1442,7 +1442,7 @@ public readonly description: string;
 
 ---
 
-##### `expression`<sup>Required</sup> <a name="expression" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.property.expression"></a>
+##### `expression`<sup>Required</sup> <a name="expression" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.property.expression"></a>
 
 ```typescript
 public readonly expression: string;
@@ -1452,7 +1452,7 @@ public readonly expression: string;
 
 ---
 
-##### `title`<sup>Required</sup> <a name="title" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.property.title"></a>
+##### `title`<sup>Required</sup> <a name="title" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.property.title"></a>
 
 ```typescript
 public readonly title: string;
@@ -1462,13 +1462,13 @@ public readonly title: string;
 
 ---
 
-##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.property.internalValue"></a>
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference.property.internalValue"></a>
 
 ```typescript
 public readonly internalValue: GoogleDataplexTaskIamBindingCondition;
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingCondition">GoogleDataplexTaskIamBindingCondition</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingCondition">GoogleDataplexTaskIamBindingCondition</a>
 
 ---
 

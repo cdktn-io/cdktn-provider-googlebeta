@@ -1,15 +1,15 @@
-# `googleComputeInterconnect` Submodule <a name="`googleComputeInterconnect` Submodule" id="@cdktf/provider-google-beta.googleComputeInterconnect"></a>
+# `googleComputeInterconnect` Submodule <a name="`googleComputeInterconnect` Submodule" id="@cdktn/provider-google-beta.googleComputeInterconnect"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
 
-### GoogleComputeInterconnect <a name="GoogleComputeInterconnect" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect"></a>
+### GoogleComputeInterconnect <a name="GoogleComputeInterconnect" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect"></a>
 
 Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_interconnect google_compute_interconnect}.
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_compute_interconnect
+from cdktn_provider_google_beta import google_compute_interconnect
 
 googleComputeInterconnect.GoogleComputeInterconnect(
   scope: Construct,
@@ -45,38 +45,38 @@ googleComputeInterconnect.GoogleComputeInterconnect(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.id">id</a></code> | <code>str</code> | The scoped construct ID. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.interconnectType">interconnect_type</a></code> | <code>str</code> | Type of interconnect. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.linkType">link_type</a></code> | <code>str</code> | Type of link requested. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.location">location</a></code> | <code>str</code> | URL of the InterconnectLocation object that represents where this connection is to be provisioned. Specifies the location inside Google's Networks. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.name">name</a></code> | <code>str</code> | Name of the resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.requestedLinkCount">requested_link_count</a></code> | <code>typing.Union[int, float]</code> | Target number of physical links in the link bundle, as requested by the customer. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.aaiEnabled">aai_enabled</a></code> | <code>bool \| cdktf.IResolvable</code> | Enable or disable the Application Aware Interconnect(AAI) feature on this interconnect. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.adminEnabled">admin_enabled</a></code> | <code>bool \| cdktf.IResolvable</code> | Administrative status of the interconnect. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.applicationAwareInterconnect">application_aware_interconnect</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnect">GoogleComputeInterconnectApplicationAwareInterconnect</a></code> | application_aware_interconnect block. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.customerName">customer_name</a></code> | <code>str</code> | Customer name, to put in the Letter of Authorization as the party authorized to request a crossconnect. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.description">description</a></code> | <code>str</code> | An optional description of this resource. Provide this property when you create the resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_interconnect#id GoogleComputeInterconnect#id}. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.labels">labels</a></code> | <code>typing.Mapping[str]</code> | Labels for this resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.macsec">macsec</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsec">GoogleComputeInterconnectMacsec</a></code> | macsec block. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.macsecEnabled">macsec_enabled</a></code> | <code>bool \| cdktf.IResolvable</code> | Enable or disable MACsec on this Interconnect connection. MACsec enablement fails if the MACsec object is not specified. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.nocContactEmail">noc_contact_email</a></code> | <code>str</code> | Email address to contact the customer NOC for operations and maintenance notifications regarding this Interconnect. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_interconnect#project GoogleComputeInterconnect#project}. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.remoteLocation">remote_location</a></code> | <code>str</code> | Indicates that this is a Cross-Cloud Interconnect. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.requestedFeatures">requested_features</a></code> | <code>typing.List[str]</code> | interconnects.list of features requested for this Interconnect connection. Options: IF_MACSEC ( If specified then the connection is created on MACsec capable hardware ports. If not specified, the default value is false, which allocates non-MACsec capable ports first if available). Note that MACSEC is still technically allowed for compatibility reasons, but it does not work with the API, and will be removed in an upcoming major version. Possible values: ["MACSEC", "CROSS_SITE_NETWORK", "IF_MACSEC"]. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeouts">GoogleComputeInterconnectTimeouts</a></code> | timeouts block. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.id">id</a></code> | <code>str</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.interconnectType">interconnect_type</a></code> | <code>str</code> | Type of interconnect. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.linkType">link_type</a></code> | <code>str</code> | Type of link requested. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.location">location</a></code> | <code>str</code> | URL of the InterconnectLocation object that represents where this connection is to be provisioned. Specifies the location inside Google's Networks. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.name">name</a></code> | <code>str</code> | Name of the resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.requestedLinkCount">requested_link_count</a></code> | <code>typing.Union[int, float]</code> | Target number of physical links in the link bundle, as requested by the customer. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.aaiEnabled">aai_enabled</a></code> | <code>bool \| cdktf.IResolvable</code> | Enable or disable the Application Aware Interconnect(AAI) feature on this interconnect. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.adminEnabled">admin_enabled</a></code> | <code>bool \| cdktf.IResolvable</code> | Administrative status of the interconnect. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.applicationAwareInterconnect">application_aware_interconnect</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnect">GoogleComputeInterconnectApplicationAwareInterconnect</a></code> | application_aware_interconnect block. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.customerName">customer_name</a></code> | <code>str</code> | Customer name, to put in the Letter of Authorization as the party authorized to request a crossconnect. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.description">description</a></code> | <code>str</code> | An optional description of this resource. Provide this property when you create the resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_interconnect#id GoogleComputeInterconnect#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.labels">labels</a></code> | <code>typing.Mapping[str]</code> | Labels for this resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.macsec">macsec</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsec">GoogleComputeInterconnectMacsec</a></code> | macsec block. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.macsecEnabled">macsec_enabled</a></code> | <code>bool \| cdktf.IResolvable</code> | Enable or disable MACsec on this Interconnect connection. MACsec enablement fails if the MACsec object is not specified. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.nocContactEmail">noc_contact_email</a></code> | <code>str</code> | Email address to contact the customer NOC for operations and maintenance notifications regarding this Interconnect. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_interconnect#project GoogleComputeInterconnect#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.remoteLocation">remote_location</a></code> | <code>str</code> | Indicates that this is a Cross-Cloud Interconnect. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.requestedFeatures">requested_features</a></code> | <code>typing.List[str]</code> | interconnects.list of features requested for this Interconnect connection. Options: IF_MACSEC ( If specified then the connection is created on MACsec capable hardware ports. If not specified, the default value is false, which allocates non-MACsec capable ports first if available). Note that MACSEC is still technically allowed for compatibility reasons, but it does not work with the API, and will be removed in an upcoming major version. Possible values: ["MACSEC", "CROSS_SITE_NETWORK", "IF_MACSEC"]. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeouts">GoogleComputeInterconnectTimeouts</a></code> | timeouts block. |
 
 ---
 
-##### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.scope"></a>
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
@@ -84,7 +84,7 @@ The scope in which to define this construct.
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.id"></a>
 
 - *Type:* str
 
@@ -94,49 +94,49 @@ Must be unique amongst siblings in the same scope
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.connection"></a>
 
 - *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.count"></a>
 
 - *Type:* typing.Union[int, float] | cdktf.TerraformCount
 
 ---
 
-##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.dependsOn"></a>
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.dependsOn"></a>
 
 - *Type:* typing.List[cdktf.ITerraformDependable]
 
 ---
 
-##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.forEach"></a>
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.forEach"></a>
 
 - *Type:* cdktf.ITerraformIterator
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.lifecycle"></a>
 
 - *Type:* cdktf.TerraformResourceLifecycle
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.provisioners"></a>
 
 - *Type:* typing.List[cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner]
 
 ---
 
-##### `interconnect_type`<sup>Required</sup> <a name="interconnect_type" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.interconnectType"></a>
+##### `interconnect_type`<sup>Required</sup> <a name="interconnect_type" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.interconnectType"></a>
 
 - *Type:* str
 
@@ -152,7 +152,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `link_type`<sup>Required</sup> <a name="link_type" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.linkType"></a>
+##### `link_type`<sup>Required</sup> <a name="link_type" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.linkType"></a>
 
 - *Type:* str
 
@@ -169,7 +169,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `location`<sup>Required</sup> <a name="location" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.location"></a>
+##### `location`<sup>Required</sup> <a name="location" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.location"></a>
 
 - *Type:* str
 
@@ -179,7 +179,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `name`<sup>Required</sup> <a name="name" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.name"></a>
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.name"></a>
 
 - *Type:* str
 
@@ -195,7 +195,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `requested_link_count`<sup>Required</sup> <a name="requested_link_count" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.requestedLinkCount"></a>
+##### `requested_link_count`<sup>Required</sup> <a name="requested_link_count" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.requestedLinkCount"></a>
 
 - *Type:* typing.Union[int, float]
 
@@ -205,7 +205,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `aai_enabled`<sup>Optional</sup> <a name="aai_enabled" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.aaiEnabled"></a>
+##### `aai_enabled`<sup>Optional</sup> <a name="aai_enabled" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.aaiEnabled"></a>
 
 - *Type:* bool | cdktf.IResolvable
 
@@ -215,7 +215,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `admin_enabled`<sup>Optional</sup> <a name="admin_enabled" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.adminEnabled"></a>
+##### `admin_enabled`<sup>Optional</sup> <a name="admin_enabled" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.adminEnabled"></a>
 
 - *Type:* bool | cdktf.IResolvable
 
@@ -229,9 +229,9 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `application_aware_interconnect`<sup>Optional</sup> <a name="application_aware_interconnect" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.applicationAwareInterconnect"></a>
+##### `application_aware_interconnect`<sup>Optional</sup> <a name="application_aware_interconnect" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.applicationAwareInterconnect"></a>
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnect">GoogleComputeInterconnectApplicationAwareInterconnect</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnect">GoogleComputeInterconnectApplicationAwareInterconnect</a>
 
 application_aware_interconnect block.
 
@@ -239,7 +239,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `customer_name`<sup>Optional</sup> <a name="customer_name" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.customerName"></a>
+##### `customer_name`<sup>Optional</sup> <a name="customer_name" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.customerName"></a>
 
 - *Type:* str
 
@@ -252,7 +252,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `description`<sup>Optional</sup> <a name="description" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.description"></a>
+##### `description`<sup>Optional</sup> <a name="description" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.description"></a>
 
 - *Type:* str
 
@@ -262,7 +262,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `id`<sup>Optional</sup> <a name="id" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.id"></a>
+##### `id`<sup>Optional</sup> <a name="id" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.id"></a>
 
 - *Type:* str
 
@@ -273,7 +273,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 ---
 
-##### `labels`<sup>Optional</sup> <a name="labels" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.labels"></a>
+##### `labels`<sup>Optional</sup> <a name="labels" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.labels"></a>
 
 - *Type:* typing.Mapping[str]
 
@@ -289,9 +289,9 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `macsec`<sup>Optional</sup> <a name="macsec" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.macsec"></a>
+##### `macsec`<sup>Optional</sup> <a name="macsec" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.macsec"></a>
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsec">GoogleComputeInterconnectMacsec</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsec">GoogleComputeInterconnectMacsec</a>
 
 macsec block.
 
@@ -299,7 +299,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `macsec_enabled`<sup>Optional</sup> <a name="macsec_enabled" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.macsecEnabled"></a>
+##### `macsec_enabled`<sup>Optional</sup> <a name="macsec_enabled" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.macsecEnabled"></a>
 
 - *Type:* bool | cdktf.IResolvable
 
@@ -309,7 +309,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `noc_contact_email`<sup>Optional</sup> <a name="noc_contact_email" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.nocContactEmail"></a>
+##### `noc_contact_email`<sup>Optional</sup> <a name="noc_contact_email" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.nocContactEmail"></a>
 
 - *Type:* str
 
@@ -324,7 +324,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `project`<sup>Optional</sup> <a name="project" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.project"></a>
+##### `project`<sup>Optional</sup> <a name="project" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.project"></a>
 
 - *Type:* str
 
@@ -332,7 +332,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `remote_location`<sup>Optional</sup> <a name="remote_location" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.remoteLocation"></a>
+##### `remote_location`<sup>Optional</sup> <a name="remote_location" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.remoteLocation"></a>
 
 - *Type:* str
 
@@ -345,7 +345,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `requested_features`<sup>Optional</sup> <a name="requested_features" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.requestedFeatures"></a>
+##### `requested_features`<sup>Optional</sup> <a name="requested_features" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.requestedFeatures"></a>
 
 - *Type:* typing.List[str]
 
@@ -355,9 +355,9 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `timeouts`<sup>Optional</sup> <a name="timeouts" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.timeouts"></a>
+##### `timeouts`<sup>Optional</sup> <a name="timeouts" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer.parameter.timeouts"></a>
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeouts">GoogleComputeInterconnectTimeouts</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeouts">GoogleComputeInterconnectTimeouts</a>
 
 timeouts block.
 
@@ -369,50 +369,50 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.toString">to_string</a></code> | Returns a string representation of this construct. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.addOverride">add_override</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.overrideLogicalId">override_logical_id</a></code> | Overrides the auto-generated logical ID with a specific ID. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetOverrideLogicalId">reset_override_logical_id</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.toHclTerraform">to_hcl_terraform</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.toMetadata">to_metadata</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.toTerraform">to_terraform</a></code> | Adds this resource to the terraform JSON output. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.addMoveTarget">add_move_target</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getListAttribute">get_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getStringAttribute">get_string_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.hasResourceMove">has_resource_move</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.importFrom">import_from</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.moveFromId">move_from_id</a></code> | Move the resource corresponding to "id" to this resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.putApplicationAwareInterconnect">put_application_aware_interconnect</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.putMacsec">put_macsec</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.putTimeouts">put_timeouts</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetAaiEnabled">reset_aai_enabled</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetAdminEnabled">reset_admin_enabled</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetApplicationAwareInterconnect">reset_application_aware_interconnect</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetCustomerName">reset_customer_name</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetDescription">reset_description</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetId">reset_id</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetLabels">reset_labels</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetMacsec">reset_macsec</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetMacsecEnabled">reset_macsec_enabled</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetNocContactEmail">reset_noc_contact_email</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetProject">reset_project</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetRemoteLocation">reset_remote_location</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetRequestedFeatures">reset_requested_features</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetTimeouts">reset_timeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.toString">to_string</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.addOverride">add_override</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.overrideLogicalId">override_logical_id</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetOverrideLogicalId">reset_override_logical_id</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.toHclTerraform">to_hcl_terraform</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.toMetadata">to_metadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.toTerraform">to_terraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.addMoveTarget">add_move_target</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.hasResourceMove">has_resource_move</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.importFrom">import_from</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.moveFromId">move_from_id</a></code> | Move the resource corresponding to "id" to this resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.putApplicationAwareInterconnect">put_application_aware_interconnect</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.putMacsec">put_macsec</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.putTimeouts">put_timeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetAaiEnabled">reset_aai_enabled</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetAdminEnabled">reset_admin_enabled</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetApplicationAwareInterconnect">reset_application_aware_interconnect</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetCustomerName">reset_customer_name</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetDescription">reset_description</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetId">reset_id</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetLabels">reset_labels</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetMacsec">reset_macsec</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetMacsecEnabled">reset_macsec_enabled</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetNocContactEmail">reset_noc_contact_email</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetProject">reset_project</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetRemoteLocation">reset_remote_location</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetRequestedFeatures">reset_requested_features</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetTimeouts">reset_timeouts</a></code> | *No description.* |
 
 ---
 
-##### `to_string` <a name="to_string" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.toString"></a>
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.toString"></a>
 
 ```python
 def to_string() -> str
@@ -420,7 +420,7 @@ def to_string() -> str
 
 Returns a string representation of this construct.
 
-##### `add_override` <a name="add_override" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.addOverride"></a>
+##### `add_override` <a name="add_override" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.addOverride"></a>
 
 ```python
 def add_override(
@@ -429,19 +429,19 @@ def add_override(
 ) -> None
 ```
 
-###### `path`<sup>Required</sup> <a name="path" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.addOverride.parameter.path"></a>
+###### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.addOverride.parameter.path"></a>
 
 - *Type:* str
 
 ---
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.addOverride.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.addOverride.parameter.value"></a>
 
 - *Type:* typing.Any
 
 ---
 
-##### `override_logical_id` <a name="override_logical_id" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.overrideLogicalId"></a>
+##### `override_logical_id` <a name="override_logical_id" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.overrideLogicalId"></a>
 
 ```python
 def override_logical_id(
@@ -451,7 +451,7 @@ def override_logical_id(
 
 Overrides the auto-generated logical ID with a specific ID.
 
-###### `new_logical_id`<sup>Required</sup> <a name="new_logical_id" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.overrideLogicalId.parameter.newLogicalId"></a>
+###### `new_logical_id`<sup>Required</sup> <a name="new_logical_id" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.overrideLogicalId.parameter.newLogicalId"></a>
 
 - *Type:* str
 
@@ -459,7 +459,7 @@ The new logical ID to use for this stack element.
 
 ---
 
-##### `reset_override_logical_id` <a name="reset_override_logical_id" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetOverrideLogicalId"></a>
+##### `reset_override_logical_id` <a name="reset_override_logical_id" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetOverrideLogicalId"></a>
 
 ```python
 def reset_override_logical_id() -> None
@@ -467,19 +467,19 @@ def reset_override_logical_id() -> None
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
 
-##### `to_hcl_terraform` <a name="to_hcl_terraform" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.toHclTerraform"></a>
+##### `to_hcl_terraform` <a name="to_hcl_terraform" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.toHclTerraform"></a>
 
 ```python
 def to_hcl_terraform() -> typing.Any
 ```
 
-##### `to_metadata` <a name="to_metadata" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.toMetadata"></a>
+##### `to_metadata` <a name="to_metadata" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.toMetadata"></a>
 
 ```python
 def to_metadata() -> typing.Any
 ```
 
-##### `to_terraform` <a name="to_terraform" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.toTerraform"></a>
+##### `to_terraform` <a name="to_terraform" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.toTerraform"></a>
 
 ```python
 def to_terraform() -> typing.Any
@@ -487,7 +487,7 @@ def to_terraform() -> typing.Any
 
 Adds this resource to the terraform JSON output.
 
-##### `add_move_target` <a name="add_move_target" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.addMoveTarget"></a>
+##### `add_move_target` <a name="add_move_target" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.addMoveTarget"></a>
 
 ```python
 def add_move_target(
@@ -497,7 +497,7 @@ def add_move_target(
 
 Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 
-###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.addMoveTarget.parameter.moveTarget"></a>
+###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.addMoveTarget.parameter.moveTarget"></a>
 
 - *Type:* str
 
@@ -505,7 +505,7 @@ The string move target that will correspond to this resource.
 
 ---
 
-##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getAnyMapAttribute"></a>
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getAnyMapAttribute"></a>
 
 ```python
 def get_any_map_attribute(
@@ -513,13 +513,13 @@ def get_any_map_attribute(
 ) -> typing.Mapping[typing.Any]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getBooleanAttribute"></a>
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getBooleanAttribute"></a>
 
 ```python
 def get_boolean_attribute(
@@ -527,13 +527,13 @@ def get_boolean_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getBooleanMapAttribute"></a>
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getBooleanMapAttribute"></a>
 
 ```python
 def get_boolean_map_attribute(
@@ -541,13 +541,13 @@ def get_boolean_map_attribute(
 ) -> typing.Mapping[bool]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_list_attribute` <a name="get_list_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getListAttribute"></a>
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getListAttribute"></a>
 
 ```python
 def get_list_attribute(
@@ -555,13 +555,13 @@ def get_list_attribute(
 ) -> typing.List[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_attribute` <a name="get_number_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getNumberAttribute"></a>
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getNumberAttribute"></a>
 
 ```python
 def get_number_attribute(
@@ -569,13 +569,13 @@ def get_number_attribute(
 ) -> typing.Union[int, float]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getNumberListAttribute"></a>
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getNumberListAttribute"></a>
 
 ```python
 def get_number_list_attribute(
@@ -583,13 +583,13 @@ def get_number_list_attribute(
 ) -> typing.List[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getNumberMapAttribute"></a>
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getNumberMapAttribute"></a>
 
 ```python
 def get_number_map_attribute(
@@ -597,13 +597,13 @@ def get_number_map_attribute(
 ) -> typing.Mapping[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_attribute` <a name="get_string_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getStringAttribute"></a>
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getStringAttribute"></a>
 
 ```python
 def get_string_attribute(
@@ -611,13 +611,13 @@ def get_string_attribute(
 ) -> str
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getStringMapAttribute"></a>
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getStringMapAttribute"></a>
 
 ```python
 def get_string_map_attribute(
@@ -625,19 +625,19 @@ def get_string_map_attribute(
 ) -> typing.Mapping[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `has_resource_move` <a name="has_resource_move" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.hasResourceMove"></a>
+##### `has_resource_move` <a name="has_resource_move" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.hasResourceMove"></a>
 
 ```python
 def has_resource_move() -> TerraformResourceMoveByTarget | TerraformResourceMoveById
 ```
 
-##### `import_from` <a name="import_from" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.importFrom"></a>
+##### `import_from` <a name="import_from" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.importFrom"></a>
 
 ```python
 def import_from(
@@ -646,19 +646,19 @@ def import_from(
 ) -> None
 ```
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.importFrom.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.importFrom.parameter.id"></a>
 
 - *Type:* str
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.importFrom.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.importFrom.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
 ---
 
-##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.interpolationForAttribute"></a>
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.interpolationForAttribute"></a>
 
 ```python
 def interpolation_for_attribute(
@@ -666,13 +666,13 @@ def interpolation_for_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.interpolationForAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.interpolationForAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `move_from_id` <a name="move_from_id" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.moveFromId"></a>
+##### `move_from_id` <a name="move_from_id" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.moveFromId"></a>
 
 ```python
 def move_from_id(
@@ -684,7 +684,7 @@ Move the resource corresponding to "id" to this resource.
 
 Note that the resource being moved from must be marked as moved using it's instance function.
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.moveFromId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.moveFromId.parameter.id"></a>
 
 - *Type:* str
 
@@ -692,7 +692,7 @@ Full id of resource being moved from, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `move_to` <a name="move_to" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.moveTo"></a>
+##### `move_to` <a name="move_to" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.moveTo"></a>
 
 ```python
 def move_to(
@@ -703,7 +703,7 @@ def move_to(
 
 Moves this resource to the target resource given by moveTarget.
 
-###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.moveTo.parameter.moveTarget"></a>
+###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.moveTo.parameter.moveTarget"></a>
 
 - *Type:* str
 
@@ -711,7 +711,7 @@ The previously set user defined string set by .addMoveTarget() corresponding to 
 
 ---
 
-###### `index`<sup>Optional</sup> <a name="index" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.moveTo.parameter.index"></a>
+###### `index`<sup>Optional</sup> <a name="index" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.moveTo.parameter.index"></a>
 
 - *Type:* str | typing.Union[int, float]
 
@@ -719,7 +719,7 @@ Optional The index corresponding to the key the resource is to appear in the for
 
 ---
 
-##### `move_to_id` <a name="move_to_id" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.moveToId"></a>
+##### `move_to_id` <a name="move_to_id" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.moveToId"></a>
 
 ```python
 def move_to_id(
@@ -729,7 +729,7 @@ def move_to_id(
 
 Moves this resource to the resource corresponding to "id".
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.moveToId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.moveToId.parameter.id"></a>
 
 - *Type:* str
 
@@ -737,7 +737,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `put_application_aware_interconnect` <a name="put_application_aware_interconnect" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.putApplicationAwareInterconnect"></a>
+##### `put_application_aware_interconnect` <a name="put_application_aware_interconnect" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.putApplicationAwareInterconnect"></a>
 
 ```python
 def put_application_aware_interconnect(
@@ -748,9 +748,9 @@ def put_application_aware_interconnect(
 ) -> None
 ```
 
-###### `bandwidth_percentage_policy`<sup>Optional</sup> <a name="bandwidth_percentage_policy" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.putApplicationAwareInterconnect.parameter.bandwidthPercentagePolicy"></a>
+###### `bandwidth_percentage_policy`<sup>Optional</sup> <a name="bandwidth_percentage_policy" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.putApplicationAwareInterconnect.parameter.bandwidthPercentagePolicy"></a>
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy">GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy">GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy</a>
 
 bandwidth_percentage_policy block.
 
@@ -758,7 +758,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-###### `profile_description`<sup>Optional</sup> <a name="profile_description" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.putApplicationAwareInterconnect.parameter.profileDescription"></a>
+###### `profile_description`<sup>Optional</sup> <a name="profile_description" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.putApplicationAwareInterconnect.parameter.profileDescription"></a>
 
 - *Type:* str
 
@@ -768,9 +768,9 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-###### `shape_average_percentage`<sup>Optional</sup> <a name="shape_average_percentage" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.putApplicationAwareInterconnect.parameter.shapeAveragePercentage"></a>
+###### `shape_average_percentage`<sup>Optional</sup> <a name="shape_average_percentage" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.putApplicationAwareInterconnect.parameter.shapeAveragePercentage"></a>
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage">GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage</a>]
+- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage">GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage</a>]
 
 shape_average_percentage block.
 
@@ -778,9 +778,9 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-###### `strict_priority_policy`<sup>Optional</sup> <a name="strict_priority_policy" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.putApplicationAwareInterconnect.parameter.strictPriorityPolicy"></a>
+###### `strict_priority_policy`<sup>Optional</sup> <a name="strict_priority_policy" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.putApplicationAwareInterconnect.parameter.strictPriorityPolicy"></a>
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicy">GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicy</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicy">GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicy</a>
 
 strict_priority_policy block.
 
@@ -788,7 +788,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `put_macsec` <a name="put_macsec" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.putMacsec"></a>
+##### `put_macsec` <a name="put_macsec" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.putMacsec"></a>
 
 ```python
 def put_macsec(
@@ -797,9 +797,9 @@ def put_macsec(
 ) -> None
 ```
 
-###### `pre_shared_keys`<sup>Required</sup> <a name="pre_shared_keys" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.putMacsec.parameter.preSharedKeys"></a>
+###### `pre_shared_keys`<sup>Required</sup> <a name="pre_shared_keys" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.putMacsec.parameter.preSharedKeys"></a>
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeys">GoogleComputeInterconnectMacsecPreSharedKeys</a>]
+- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeys">GoogleComputeInterconnectMacsecPreSharedKeys</a>]
 
 pre_shared_keys block.
 
@@ -807,7 +807,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-###### `fail_open`<sup>Optional</sup> <a name="fail_open" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.putMacsec.parameter.failOpen"></a>
+###### `fail_open`<sup>Optional</sup> <a name="fail_open" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.putMacsec.parameter.failOpen"></a>
 
 - *Type:* bool | cdktf.IResolvable
 
@@ -821,7 +821,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `put_timeouts` <a name="put_timeouts" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.putTimeouts"></a>
+##### `put_timeouts` <a name="put_timeouts" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.putTimeouts"></a>
 
 ```python
 def put_timeouts(
@@ -831,7 +831,7 @@ def put_timeouts(
 ) -> None
 ```
 
-###### `create`<sup>Optional</sup> <a name="create" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.putTimeouts.parameter.create"></a>
+###### `create`<sup>Optional</sup> <a name="create" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.putTimeouts.parameter.create"></a>
 
 - *Type:* str
 
@@ -839,7 +839,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-###### `delete`<sup>Optional</sup> <a name="delete" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.putTimeouts.parameter.delete"></a>
+###### `delete`<sup>Optional</sup> <a name="delete" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.putTimeouts.parameter.delete"></a>
 
 - *Type:* str
 
@@ -847,7 +847,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-###### `update`<sup>Optional</sup> <a name="update" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.putTimeouts.parameter.update"></a>
+###### `update`<sup>Optional</sup> <a name="update" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.putTimeouts.parameter.update"></a>
 
 - *Type:* str
 
@@ -855,85 +855,85 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `reset_aai_enabled` <a name="reset_aai_enabled" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetAaiEnabled"></a>
+##### `reset_aai_enabled` <a name="reset_aai_enabled" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetAaiEnabled"></a>
 
 ```python
 def reset_aai_enabled() -> None
 ```
 
-##### `reset_admin_enabled` <a name="reset_admin_enabled" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetAdminEnabled"></a>
+##### `reset_admin_enabled` <a name="reset_admin_enabled" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetAdminEnabled"></a>
 
 ```python
 def reset_admin_enabled() -> None
 ```
 
-##### `reset_application_aware_interconnect` <a name="reset_application_aware_interconnect" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetApplicationAwareInterconnect"></a>
+##### `reset_application_aware_interconnect` <a name="reset_application_aware_interconnect" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetApplicationAwareInterconnect"></a>
 
 ```python
 def reset_application_aware_interconnect() -> None
 ```
 
-##### `reset_customer_name` <a name="reset_customer_name" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetCustomerName"></a>
+##### `reset_customer_name` <a name="reset_customer_name" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetCustomerName"></a>
 
 ```python
 def reset_customer_name() -> None
 ```
 
-##### `reset_description` <a name="reset_description" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetDescription"></a>
+##### `reset_description` <a name="reset_description" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetDescription"></a>
 
 ```python
 def reset_description() -> None
 ```
 
-##### `reset_id` <a name="reset_id" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetId"></a>
+##### `reset_id` <a name="reset_id" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetId"></a>
 
 ```python
 def reset_id() -> None
 ```
 
-##### `reset_labels` <a name="reset_labels" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetLabels"></a>
+##### `reset_labels` <a name="reset_labels" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetLabels"></a>
 
 ```python
 def reset_labels() -> None
 ```
 
-##### `reset_macsec` <a name="reset_macsec" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetMacsec"></a>
+##### `reset_macsec` <a name="reset_macsec" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetMacsec"></a>
 
 ```python
 def reset_macsec() -> None
 ```
 
-##### `reset_macsec_enabled` <a name="reset_macsec_enabled" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetMacsecEnabled"></a>
+##### `reset_macsec_enabled` <a name="reset_macsec_enabled" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetMacsecEnabled"></a>
 
 ```python
 def reset_macsec_enabled() -> None
 ```
 
-##### `reset_noc_contact_email` <a name="reset_noc_contact_email" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetNocContactEmail"></a>
+##### `reset_noc_contact_email` <a name="reset_noc_contact_email" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetNocContactEmail"></a>
 
 ```python
 def reset_noc_contact_email() -> None
 ```
 
-##### `reset_project` <a name="reset_project" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetProject"></a>
+##### `reset_project` <a name="reset_project" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetProject"></a>
 
 ```python
 def reset_project() -> None
 ```
 
-##### `reset_remote_location` <a name="reset_remote_location" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetRemoteLocation"></a>
+##### `reset_remote_location` <a name="reset_remote_location" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetRemoteLocation"></a>
 
 ```python
 def reset_remote_location() -> None
 ```
 
-##### `reset_requested_features` <a name="reset_requested_features" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetRequestedFeatures"></a>
+##### `reset_requested_features` <a name="reset_requested_features" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetRequestedFeatures"></a>
 
 ```python
 def reset_requested_features() -> None
 ```
 
-##### `reset_timeouts` <a name="reset_timeouts" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetTimeouts"></a>
+##### `reset_timeouts` <a name="reset_timeouts" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.resetTimeouts"></a>
 
 ```python
 def reset_timeouts() -> None
@@ -943,17 +943,17 @@ def reset_timeouts() -> None
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.isConstruct">is_construct</a></code> | Checks if `x` is a construct. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.isTerraformElement">is_terraform_element</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.isTerraformResource">is_terraform_resource</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.generateConfigForImport">generate_config_for_import</a></code> | Generates CDKTF code for importing a GoogleComputeInterconnect resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.isConstruct">is_construct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.isTerraformElement">is_terraform_element</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.isTerraformResource">is_terraform_resource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.generateConfigForImport">generate_config_for_import</a></code> | Generates CDKTF code for importing a GoogleComputeInterconnect resource upon running "cdktf plan <stack-name>". |
 
 ---
 
-##### `is_construct` <a name="is_construct" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.isConstruct"></a>
+##### `is_construct` <a name="is_construct" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.isConstruct"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_compute_interconnect
+from cdktn_provider_google_beta import google_compute_interconnect
 
 googleComputeInterconnect.GoogleComputeInterconnect.is_construct(
   x: typing.Any
@@ -976,7 +976,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.isConstruct.parameter.x"></a>
 
 - *Type:* typing.Any
 
@@ -984,42 +984,42 @@ Any object.
 
 ---
 
-##### `is_terraform_element` <a name="is_terraform_element" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.isTerraformElement"></a>
+##### `is_terraform_element` <a name="is_terraform_element" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.isTerraformElement"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_compute_interconnect
+from cdktn_provider_google_beta import google_compute_interconnect
 
 googleComputeInterconnect.GoogleComputeInterconnect.is_terraform_element(
   x: typing.Any
 )
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.isTerraformElement.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.isTerraformElement.parameter.x"></a>
 
 - *Type:* typing.Any
 
 ---
 
-##### `is_terraform_resource` <a name="is_terraform_resource" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.isTerraformResource"></a>
+##### `is_terraform_resource` <a name="is_terraform_resource" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.isTerraformResource"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_compute_interconnect
+from cdktn_provider_google_beta import google_compute_interconnect
 
 googleComputeInterconnect.GoogleComputeInterconnect.is_terraform_resource(
   x: typing.Any
 )
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.isTerraformResource.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.isTerraformResource.parameter.x"></a>
 
 - *Type:* typing.Any
 
 ---
 
-##### `generate_config_for_import` <a name="generate_config_for_import" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.generateConfigForImport"></a>
+##### `generate_config_for_import` <a name="generate_config_for_import" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.generateConfigForImport"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_compute_interconnect
+from cdktn_provider_google_beta import google_compute_interconnect
 
 googleComputeInterconnect.GoogleComputeInterconnect.generate_config_for_import(
   scope: Construct,
@@ -1031,7 +1031,7 @@ googleComputeInterconnect.GoogleComputeInterconnect.generate_config_for_import(
 
 Generates CDKTF code for importing a GoogleComputeInterconnect resource upon running "cdktf plan <stack-name>".
 
-###### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.generateConfigForImport.parameter.scope"></a>
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.generateConfigForImport.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
@@ -1039,7 +1039,7 @@ The scope in which to define this construct.
 
 ---
 
-###### `import_to_id`<sup>Required</sup> <a name="import_to_id" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.generateConfigForImport.parameter.importToId"></a>
+###### `import_to_id`<sup>Required</sup> <a name="import_to_id" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.generateConfigForImport.parameter.importToId"></a>
 
 - *Type:* str
 
@@ -1047,7 +1047,7 @@ The construct id used in the generated config for the GoogleComputeInterconnect 
 
 ---
 
-###### `import_from_id`<sup>Required</sup> <a name="import_from_id" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.generateConfigForImport.parameter.importFromId"></a>
+###### `import_from_id`<sup>Required</sup> <a name="import_from_id" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.generateConfigForImport.parameter.importFromId"></a>
 
 - *Type:* str
 
@@ -1057,7 +1057,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.generateConfigForImport.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.generateConfigForImport.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
@@ -1069,79 +1069,79 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.cdktfStack">cdktf_stack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.friendlyUniqueId">friendly_unique_id</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.terraformMetaArguments">terraform_meta_arguments</a></code> | <code>typing.Mapping[typing.Any]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.terraformResourceType">terraform_resource_type</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.terraformGeneratorMetadata">terraform_generator_metadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.dependsOn">depends_on</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.applicationAwareInterconnect">application_aware_interconnect</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference">GoogleComputeInterconnectApplicationAwareInterconnectOutputReference</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.availableFeatures">available_features</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.circuitInfos">circuit_infos</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList">GoogleComputeInterconnectCircuitInfosList</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.creationTimestamp">creation_timestamp</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.effectiveLabels">effective_labels</a></code> | <code>cdktf.StringMap</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.expectedOutages">expected_outages</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList">GoogleComputeInterconnectExpectedOutagesList</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.googleIpAddress">google_ip_address</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.googleReferenceId">google_reference_id</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.interconnectAttachments">interconnect_attachments</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.interconnectGroups">interconnect_groups</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.labelFingerprint">label_fingerprint</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.macsec">macsec</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference">GoogleComputeInterconnectMacsecOutputReference</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.operationalStatus">operational_status</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.peerIpAddress">peer_ip_address</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.provisionedLinkCount">provisioned_link_count</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.satisfiesPzs">satisfies_pzs</a></code> | <code>cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.state">state</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.terraformLabels">terraform_labels</a></code> | <code>cdktf.StringMap</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.timeouts">timeouts</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference">GoogleComputeInterconnectTimeoutsOutputReference</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.wireGroups">wire_groups</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.aaiEnabledInput">aai_enabled_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.adminEnabledInput">admin_enabled_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.applicationAwareInterconnectInput">application_aware_interconnect_input</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnect">GoogleComputeInterconnectApplicationAwareInterconnect</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.customerNameInput">customer_name_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.descriptionInput">description_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.interconnectTypeInput">interconnect_type_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.labelsInput">labels_input</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.linkTypeInput">link_type_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.locationInput">location_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.macsecEnabledInput">macsec_enabled_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.macsecInput">macsec_input</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsec">GoogleComputeInterconnectMacsec</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.nameInput">name_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.nocContactEmailInput">noc_contact_email_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.projectInput">project_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.remoteLocationInput">remote_location_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.requestedFeaturesInput">requested_features_input</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.requestedLinkCountInput">requested_link_count_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.timeoutsInput">timeouts_input</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeouts">GoogleComputeInterconnectTimeouts</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.aaiEnabled">aai_enabled</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.adminEnabled">admin_enabled</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.customerName">customer_name</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.description">description</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.id">id</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.interconnectType">interconnect_type</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.labels">labels</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.linkType">link_type</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.location">location</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.macsecEnabled">macsec_enabled</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.name">name</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.nocContactEmail">noc_contact_email</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.project">project</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.remoteLocation">remote_location</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.requestedFeatures">requested_features</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.requestedLinkCount">requested_link_count</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.cdktfStack">cdktf_stack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.friendlyUniqueId">friendly_unique_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.terraformMetaArguments">terraform_meta_arguments</a></code> | <code>typing.Mapping[typing.Any]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.terraformResourceType">terraform_resource_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.terraformGeneratorMetadata">terraform_generator_metadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.dependsOn">depends_on</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.applicationAwareInterconnect">application_aware_interconnect</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference">GoogleComputeInterconnectApplicationAwareInterconnectOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.availableFeatures">available_features</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.circuitInfos">circuit_infos</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList">GoogleComputeInterconnectCircuitInfosList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.creationTimestamp">creation_timestamp</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.effectiveLabels">effective_labels</a></code> | <code>cdktf.StringMap</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.expectedOutages">expected_outages</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList">GoogleComputeInterconnectExpectedOutagesList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.googleIpAddress">google_ip_address</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.googleReferenceId">google_reference_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.interconnectAttachments">interconnect_attachments</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.interconnectGroups">interconnect_groups</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.labelFingerprint">label_fingerprint</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.macsec">macsec</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference">GoogleComputeInterconnectMacsecOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.operationalStatus">operational_status</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.peerIpAddress">peer_ip_address</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.provisionedLinkCount">provisioned_link_count</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.satisfiesPzs">satisfies_pzs</a></code> | <code>cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.state">state</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.terraformLabels">terraform_labels</a></code> | <code>cdktf.StringMap</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference">GoogleComputeInterconnectTimeoutsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.wireGroups">wire_groups</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.aaiEnabledInput">aai_enabled_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.adminEnabledInput">admin_enabled_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.applicationAwareInterconnectInput">application_aware_interconnect_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnect">GoogleComputeInterconnectApplicationAwareInterconnect</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.customerNameInput">customer_name_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.descriptionInput">description_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.interconnectTypeInput">interconnect_type_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.labelsInput">labels_input</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.linkTypeInput">link_type_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.locationInput">location_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.macsecEnabledInput">macsec_enabled_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.macsecInput">macsec_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsec">GoogleComputeInterconnectMacsec</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.nameInput">name_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.nocContactEmailInput">noc_contact_email_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.projectInput">project_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.remoteLocationInput">remote_location_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.requestedFeaturesInput">requested_features_input</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.requestedLinkCountInput">requested_link_count_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.timeoutsInput">timeouts_input</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeouts">GoogleComputeInterconnectTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.aaiEnabled">aai_enabled</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.adminEnabled">admin_enabled</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.customerName">customer_name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.description">description</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.id">id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.interconnectType">interconnect_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.labels">labels</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.linkType">link_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.location">location</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.macsecEnabled">macsec_enabled</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.name">name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.nocContactEmail">noc_contact_email</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.project">project</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.remoteLocation">remote_location</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.requestedFeatures">requested_features</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.requestedLinkCount">requested_link_count</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 
 ---
 
-##### `node`<sup>Required</sup> <a name="node" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.node"></a>
+##### `node`<sup>Required</sup> <a name="node" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.node"></a>
 
 ```python
 node: Node
@@ -1153,7 +1153,7 @@ The tree node.
 
 ---
 
-##### `cdktf_stack`<sup>Required</sup> <a name="cdktf_stack" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.cdktfStack"></a>
+##### `cdktf_stack`<sup>Required</sup> <a name="cdktf_stack" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.cdktfStack"></a>
 
 ```python
 cdktf_stack: TerraformStack
@@ -1163,7 +1163,7 @@ cdktf_stack: TerraformStack
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.fqn"></a>
 
 ```python
 fqn: str
@@ -1173,7 +1173,7 @@ fqn: str
 
 ---
 
-##### `friendly_unique_id`<sup>Required</sup> <a name="friendly_unique_id" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.friendlyUniqueId"></a>
+##### `friendly_unique_id`<sup>Required</sup> <a name="friendly_unique_id" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.friendlyUniqueId"></a>
 
 ```python
 friendly_unique_id: str
@@ -1183,7 +1183,7 @@ friendly_unique_id: str
 
 ---
 
-##### `terraform_meta_arguments`<sup>Required</sup> <a name="terraform_meta_arguments" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.terraformMetaArguments"></a>
+##### `terraform_meta_arguments`<sup>Required</sup> <a name="terraform_meta_arguments" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.terraformMetaArguments"></a>
 
 ```python
 terraform_meta_arguments: typing.Mapping[typing.Any]
@@ -1193,7 +1193,7 @@ terraform_meta_arguments: typing.Mapping[typing.Any]
 
 ---
 
-##### `terraform_resource_type`<sup>Required</sup> <a name="terraform_resource_type" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.terraformResourceType"></a>
+##### `terraform_resource_type`<sup>Required</sup> <a name="terraform_resource_type" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.terraformResourceType"></a>
 
 ```python
 terraform_resource_type: str
@@ -1203,7 +1203,7 @@ terraform_resource_type: str
 
 ---
 
-##### `terraform_generator_metadata`<sup>Optional</sup> <a name="terraform_generator_metadata" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.terraformGeneratorMetadata"></a>
+##### `terraform_generator_metadata`<sup>Optional</sup> <a name="terraform_generator_metadata" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.terraformGeneratorMetadata"></a>
 
 ```python
 terraform_generator_metadata: TerraformProviderGeneratorMetadata
@@ -1213,7 +1213,7 @@ terraform_generator_metadata: TerraformProviderGeneratorMetadata
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.connection"></a>
 
 ```python
 connection: SSHProvisionerConnection | WinrmProvisionerConnection
@@ -1223,7 +1223,7 @@ connection: SSHProvisionerConnection | WinrmProvisionerConnection
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.count"></a>
 
 ```python
 count: typing.Union[int, float] | TerraformCount
@@ -1233,7 +1233,7 @@ count: typing.Union[int, float] | TerraformCount
 
 ---
 
-##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.dependsOn"></a>
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.dependsOn"></a>
 
 ```python
 depends_on: typing.List[str]
@@ -1243,7 +1243,7 @@ depends_on: typing.List[str]
 
 ---
 
-##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.forEach"></a>
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.forEach"></a>
 
 ```python
 for_each: ITerraformIterator
@@ -1253,7 +1253,7 @@ for_each: ITerraformIterator
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.lifecycle"></a>
 
 ```python
 lifecycle: TerraformResourceLifecycle
@@ -1263,7 +1263,7 @@ lifecycle: TerraformResourceLifecycle
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.provider"></a>
 
 ```python
 provider: TerraformProvider
@@ -1273,7 +1273,7 @@ provider: TerraformProvider
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.provisioners"></a>
 
 ```python
 provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner]
@@ -1283,17 +1283,17 @@ provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecPro
 
 ---
 
-##### `application_aware_interconnect`<sup>Required</sup> <a name="application_aware_interconnect" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.applicationAwareInterconnect"></a>
+##### `application_aware_interconnect`<sup>Required</sup> <a name="application_aware_interconnect" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.applicationAwareInterconnect"></a>
 
 ```python
 application_aware_interconnect: GoogleComputeInterconnectApplicationAwareInterconnectOutputReference
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference">GoogleComputeInterconnectApplicationAwareInterconnectOutputReference</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference">GoogleComputeInterconnectApplicationAwareInterconnectOutputReference</a>
 
 ---
 
-##### `available_features`<sup>Required</sup> <a name="available_features" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.availableFeatures"></a>
+##### `available_features`<sup>Required</sup> <a name="available_features" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.availableFeatures"></a>
 
 ```python
 available_features: typing.List[str]
@@ -1303,17 +1303,17 @@ available_features: typing.List[str]
 
 ---
 
-##### `circuit_infos`<sup>Required</sup> <a name="circuit_infos" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.circuitInfos"></a>
+##### `circuit_infos`<sup>Required</sup> <a name="circuit_infos" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.circuitInfos"></a>
 
 ```python
 circuit_infos: GoogleComputeInterconnectCircuitInfosList
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList">GoogleComputeInterconnectCircuitInfosList</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList">GoogleComputeInterconnectCircuitInfosList</a>
 
 ---
 
-##### `creation_timestamp`<sup>Required</sup> <a name="creation_timestamp" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.creationTimestamp"></a>
+##### `creation_timestamp`<sup>Required</sup> <a name="creation_timestamp" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.creationTimestamp"></a>
 
 ```python
 creation_timestamp: str
@@ -1323,7 +1323,7 @@ creation_timestamp: str
 
 ---
 
-##### `effective_labels`<sup>Required</sup> <a name="effective_labels" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.effectiveLabels"></a>
+##### `effective_labels`<sup>Required</sup> <a name="effective_labels" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.effectiveLabels"></a>
 
 ```python
 effective_labels: StringMap
@@ -1333,17 +1333,17 @@ effective_labels: StringMap
 
 ---
 
-##### `expected_outages`<sup>Required</sup> <a name="expected_outages" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.expectedOutages"></a>
+##### `expected_outages`<sup>Required</sup> <a name="expected_outages" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.expectedOutages"></a>
 
 ```python
 expected_outages: GoogleComputeInterconnectExpectedOutagesList
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList">GoogleComputeInterconnectExpectedOutagesList</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList">GoogleComputeInterconnectExpectedOutagesList</a>
 
 ---
 
-##### `google_ip_address`<sup>Required</sup> <a name="google_ip_address" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.googleIpAddress"></a>
+##### `google_ip_address`<sup>Required</sup> <a name="google_ip_address" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.googleIpAddress"></a>
 
 ```python
 google_ip_address: str
@@ -1353,7 +1353,7 @@ google_ip_address: str
 
 ---
 
-##### `google_reference_id`<sup>Required</sup> <a name="google_reference_id" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.googleReferenceId"></a>
+##### `google_reference_id`<sup>Required</sup> <a name="google_reference_id" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.googleReferenceId"></a>
 
 ```python
 google_reference_id: str
@@ -1363,7 +1363,7 @@ google_reference_id: str
 
 ---
 
-##### `interconnect_attachments`<sup>Required</sup> <a name="interconnect_attachments" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.interconnectAttachments"></a>
+##### `interconnect_attachments`<sup>Required</sup> <a name="interconnect_attachments" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.interconnectAttachments"></a>
 
 ```python
 interconnect_attachments: typing.List[str]
@@ -1373,7 +1373,7 @@ interconnect_attachments: typing.List[str]
 
 ---
 
-##### `interconnect_groups`<sup>Required</sup> <a name="interconnect_groups" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.interconnectGroups"></a>
+##### `interconnect_groups`<sup>Required</sup> <a name="interconnect_groups" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.interconnectGroups"></a>
 
 ```python
 interconnect_groups: typing.List[str]
@@ -1383,7 +1383,7 @@ interconnect_groups: typing.List[str]
 
 ---
 
-##### `label_fingerprint`<sup>Required</sup> <a name="label_fingerprint" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.labelFingerprint"></a>
+##### `label_fingerprint`<sup>Required</sup> <a name="label_fingerprint" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.labelFingerprint"></a>
 
 ```python
 label_fingerprint: str
@@ -1393,17 +1393,17 @@ label_fingerprint: str
 
 ---
 
-##### `macsec`<sup>Required</sup> <a name="macsec" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.macsec"></a>
+##### `macsec`<sup>Required</sup> <a name="macsec" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.macsec"></a>
 
 ```python
 macsec: GoogleComputeInterconnectMacsecOutputReference
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference">GoogleComputeInterconnectMacsecOutputReference</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference">GoogleComputeInterconnectMacsecOutputReference</a>
 
 ---
 
-##### `operational_status`<sup>Required</sup> <a name="operational_status" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.operationalStatus"></a>
+##### `operational_status`<sup>Required</sup> <a name="operational_status" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.operationalStatus"></a>
 
 ```python
 operational_status: str
@@ -1413,7 +1413,7 @@ operational_status: str
 
 ---
 
-##### `peer_ip_address`<sup>Required</sup> <a name="peer_ip_address" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.peerIpAddress"></a>
+##### `peer_ip_address`<sup>Required</sup> <a name="peer_ip_address" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.peerIpAddress"></a>
 
 ```python
 peer_ip_address: str
@@ -1423,7 +1423,7 @@ peer_ip_address: str
 
 ---
 
-##### `provisioned_link_count`<sup>Required</sup> <a name="provisioned_link_count" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.provisionedLinkCount"></a>
+##### `provisioned_link_count`<sup>Required</sup> <a name="provisioned_link_count" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.provisionedLinkCount"></a>
 
 ```python
 provisioned_link_count: typing.Union[int, float]
@@ -1433,7 +1433,7 @@ provisioned_link_count: typing.Union[int, float]
 
 ---
 
-##### `satisfies_pzs`<sup>Required</sup> <a name="satisfies_pzs" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.satisfiesPzs"></a>
+##### `satisfies_pzs`<sup>Required</sup> <a name="satisfies_pzs" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.satisfiesPzs"></a>
 
 ```python
 satisfies_pzs: IResolvable
@@ -1443,7 +1443,7 @@ satisfies_pzs: IResolvable
 
 ---
 
-##### `state`<sup>Required</sup> <a name="state" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.state"></a>
+##### `state`<sup>Required</sup> <a name="state" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.state"></a>
 
 ```python
 state: str
@@ -1453,7 +1453,7 @@ state: str
 
 ---
 
-##### `terraform_labels`<sup>Required</sup> <a name="terraform_labels" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.terraformLabels"></a>
+##### `terraform_labels`<sup>Required</sup> <a name="terraform_labels" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.terraformLabels"></a>
 
 ```python
 terraform_labels: StringMap
@@ -1463,17 +1463,17 @@ terraform_labels: StringMap
 
 ---
 
-##### `timeouts`<sup>Required</sup> <a name="timeouts" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.timeouts"></a>
+##### `timeouts`<sup>Required</sup> <a name="timeouts" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.timeouts"></a>
 
 ```python
 timeouts: GoogleComputeInterconnectTimeoutsOutputReference
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference">GoogleComputeInterconnectTimeoutsOutputReference</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference">GoogleComputeInterconnectTimeoutsOutputReference</a>
 
 ---
 
-##### `wire_groups`<sup>Required</sup> <a name="wire_groups" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.wireGroups"></a>
+##### `wire_groups`<sup>Required</sup> <a name="wire_groups" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.wireGroups"></a>
 
 ```python
 wire_groups: typing.List[str]
@@ -1483,7 +1483,7 @@ wire_groups: typing.List[str]
 
 ---
 
-##### `aai_enabled_input`<sup>Optional</sup> <a name="aai_enabled_input" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.aaiEnabledInput"></a>
+##### `aai_enabled_input`<sup>Optional</sup> <a name="aai_enabled_input" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.aaiEnabledInput"></a>
 
 ```python
 aai_enabled_input: bool | IResolvable
@@ -1493,7 +1493,7 @@ aai_enabled_input: bool | IResolvable
 
 ---
 
-##### `admin_enabled_input`<sup>Optional</sup> <a name="admin_enabled_input" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.adminEnabledInput"></a>
+##### `admin_enabled_input`<sup>Optional</sup> <a name="admin_enabled_input" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.adminEnabledInput"></a>
 
 ```python
 admin_enabled_input: bool | IResolvable
@@ -1503,17 +1503,17 @@ admin_enabled_input: bool | IResolvable
 
 ---
 
-##### `application_aware_interconnect_input`<sup>Optional</sup> <a name="application_aware_interconnect_input" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.applicationAwareInterconnectInput"></a>
+##### `application_aware_interconnect_input`<sup>Optional</sup> <a name="application_aware_interconnect_input" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.applicationAwareInterconnectInput"></a>
 
 ```python
 application_aware_interconnect_input: GoogleComputeInterconnectApplicationAwareInterconnect
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnect">GoogleComputeInterconnectApplicationAwareInterconnect</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnect">GoogleComputeInterconnectApplicationAwareInterconnect</a>
 
 ---
 
-##### `customer_name_input`<sup>Optional</sup> <a name="customer_name_input" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.customerNameInput"></a>
+##### `customer_name_input`<sup>Optional</sup> <a name="customer_name_input" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.customerNameInput"></a>
 
 ```python
 customer_name_input: str
@@ -1523,7 +1523,7 @@ customer_name_input: str
 
 ---
 
-##### `description_input`<sup>Optional</sup> <a name="description_input" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.descriptionInput"></a>
+##### `description_input`<sup>Optional</sup> <a name="description_input" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.descriptionInput"></a>
 
 ```python
 description_input: str
@@ -1533,7 +1533,7 @@ description_input: str
 
 ---
 
-##### `id_input`<sup>Optional</sup> <a name="id_input" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.idInput"></a>
+##### `id_input`<sup>Optional</sup> <a name="id_input" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.idInput"></a>
 
 ```python
 id_input: str
@@ -1543,7 +1543,7 @@ id_input: str
 
 ---
 
-##### `interconnect_type_input`<sup>Optional</sup> <a name="interconnect_type_input" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.interconnectTypeInput"></a>
+##### `interconnect_type_input`<sup>Optional</sup> <a name="interconnect_type_input" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.interconnectTypeInput"></a>
 
 ```python
 interconnect_type_input: str
@@ -1553,7 +1553,7 @@ interconnect_type_input: str
 
 ---
 
-##### `labels_input`<sup>Optional</sup> <a name="labels_input" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.labelsInput"></a>
+##### `labels_input`<sup>Optional</sup> <a name="labels_input" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.labelsInput"></a>
 
 ```python
 labels_input: typing.Mapping[str]
@@ -1563,7 +1563,7 @@ labels_input: typing.Mapping[str]
 
 ---
 
-##### `link_type_input`<sup>Optional</sup> <a name="link_type_input" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.linkTypeInput"></a>
+##### `link_type_input`<sup>Optional</sup> <a name="link_type_input" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.linkTypeInput"></a>
 
 ```python
 link_type_input: str
@@ -1573,7 +1573,7 @@ link_type_input: str
 
 ---
 
-##### `location_input`<sup>Optional</sup> <a name="location_input" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.locationInput"></a>
+##### `location_input`<sup>Optional</sup> <a name="location_input" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.locationInput"></a>
 
 ```python
 location_input: str
@@ -1583,7 +1583,7 @@ location_input: str
 
 ---
 
-##### `macsec_enabled_input`<sup>Optional</sup> <a name="macsec_enabled_input" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.macsecEnabledInput"></a>
+##### `macsec_enabled_input`<sup>Optional</sup> <a name="macsec_enabled_input" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.macsecEnabledInput"></a>
 
 ```python
 macsec_enabled_input: bool | IResolvable
@@ -1593,17 +1593,17 @@ macsec_enabled_input: bool | IResolvable
 
 ---
 
-##### `macsec_input`<sup>Optional</sup> <a name="macsec_input" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.macsecInput"></a>
+##### `macsec_input`<sup>Optional</sup> <a name="macsec_input" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.macsecInput"></a>
 
 ```python
 macsec_input: GoogleComputeInterconnectMacsec
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsec">GoogleComputeInterconnectMacsec</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsec">GoogleComputeInterconnectMacsec</a>
 
 ---
 
-##### `name_input`<sup>Optional</sup> <a name="name_input" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.nameInput"></a>
+##### `name_input`<sup>Optional</sup> <a name="name_input" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.nameInput"></a>
 
 ```python
 name_input: str
@@ -1613,7 +1613,7 @@ name_input: str
 
 ---
 
-##### `noc_contact_email_input`<sup>Optional</sup> <a name="noc_contact_email_input" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.nocContactEmailInput"></a>
+##### `noc_contact_email_input`<sup>Optional</sup> <a name="noc_contact_email_input" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.nocContactEmailInput"></a>
 
 ```python
 noc_contact_email_input: str
@@ -1623,7 +1623,7 @@ noc_contact_email_input: str
 
 ---
 
-##### `project_input`<sup>Optional</sup> <a name="project_input" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.projectInput"></a>
+##### `project_input`<sup>Optional</sup> <a name="project_input" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.projectInput"></a>
 
 ```python
 project_input: str
@@ -1633,7 +1633,7 @@ project_input: str
 
 ---
 
-##### `remote_location_input`<sup>Optional</sup> <a name="remote_location_input" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.remoteLocationInput"></a>
+##### `remote_location_input`<sup>Optional</sup> <a name="remote_location_input" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.remoteLocationInput"></a>
 
 ```python
 remote_location_input: str
@@ -1643,7 +1643,7 @@ remote_location_input: str
 
 ---
 
-##### `requested_features_input`<sup>Optional</sup> <a name="requested_features_input" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.requestedFeaturesInput"></a>
+##### `requested_features_input`<sup>Optional</sup> <a name="requested_features_input" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.requestedFeaturesInput"></a>
 
 ```python
 requested_features_input: typing.List[str]
@@ -1653,7 +1653,7 @@ requested_features_input: typing.List[str]
 
 ---
 
-##### `requested_link_count_input`<sup>Optional</sup> <a name="requested_link_count_input" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.requestedLinkCountInput"></a>
+##### `requested_link_count_input`<sup>Optional</sup> <a name="requested_link_count_input" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.requestedLinkCountInput"></a>
 
 ```python
 requested_link_count_input: typing.Union[int, float]
@@ -1663,17 +1663,17 @@ requested_link_count_input: typing.Union[int, float]
 
 ---
 
-##### `timeouts_input`<sup>Optional</sup> <a name="timeouts_input" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.timeoutsInput"></a>
+##### `timeouts_input`<sup>Optional</sup> <a name="timeouts_input" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.timeoutsInput"></a>
 
 ```python
 timeouts_input: IResolvable | GoogleComputeInterconnectTimeouts
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeouts">GoogleComputeInterconnectTimeouts</a>
+- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeouts">GoogleComputeInterconnectTimeouts</a>
 
 ---
 
-##### `aai_enabled`<sup>Required</sup> <a name="aai_enabled" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.aaiEnabled"></a>
+##### `aai_enabled`<sup>Required</sup> <a name="aai_enabled" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.aaiEnabled"></a>
 
 ```python
 aai_enabled: bool | IResolvable
@@ -1683,7 +1683,7 @@ aai_enabled: bool | IResolvable
 
 ---
 
-##### `admin_enabled`<sup>Required</sup> <a name="admin_enabled" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.adminEnabled"></a>
+##### `admin_enabled`<sup>Required</sup> <a name="admin_enabled" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.adminEnabled"></a>
 
 ```python
 admin_enabled: bool | IResolvable
@@ -1693,7 +1693,7 @@ admin_enabled: bool | IResolvable
 
 ---
 
-##### `customer_name`<sup>Required</sup> <a name="customer_name" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.customerName"></a>
+##### `customer_name`<sup>Required</sup> <a name="customer_name" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.customerName"></a>
 
 ```python
 customer_name: str
@@ -1703,7 +1703,7 @@ customer_name: str
 
 ---
 
-##### `description`<sup>Required</sup> <a name="description" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.description"></a>
+##### `description`<sup>Required</sup> <a name="description" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.description"></a>
 
 ```python
 description: str
@@ -1713,7 +1713,7 @@ description: str
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.id"></a>
 
 ```python
 id: str
@@ -1723,7 +1723,7 @@ id: str
 
 ---
 
-##### `interconnect_type`<sup>Required</sup> <a name="interconnect_type" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.interconnectType"></a>
+##### `interconnect_type`<sup>Required</sup> <a name="interconnect_type" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.interconnectType"></a>
 
 ```python
 interconnect_type: str
@@ -1733,7 +1733,7 @@ interconnect_type: str
 
 ---
 
-##### `labels`<sup>Required</sup> <a name="labels" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.labels"></a>
+##### `labels`<sup>Required</sup> <a name="labels" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.labels"></a>
 
 ```python
 labels: typing.Mapping[str]
@@ -1743,7 +1743,7 @@ labels: typing.Mapping[str]
 
 ---
 
-##### `link_type`<sup>Required</sup> <a name="link_type" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.linkType"></a>
+##### `link_type`<sup>Required</sup> <a name="link_type" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.linkType"></a>
 
 ```python
 link_type: str
@@ -1753,7 +1753,7 @@ link_type: str
 
 ---
 
-##### `location`<sup>Required</sup> <a name="location" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.location"></a>
+##### `location`<sup>Required</sup> <a name="location" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.location"></a>
 
 ```python
 location: str
@@ -1763,7 +1763,7 @@ location: str
 
 ---
 
-##### `macsec_enabled`<sup>Required</sup> <a name="macsec_enabled" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.macsecEnabled"></a>
+##### `macsec_enabled`<sup>Required</sup> <a name="macsec_enabled" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.macsecEnabled"></a>
 
 ```python
 macsec_enabled: bool | IResolvable
@@ -1773,7 +1773,7 @@ macsec_enabled: bool | IResolvable
 
 ---
 
-##### `name`<sup>Required</sup> <a name="name" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.name"></a>
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.name"></a>
 
 ```python
 name: str
@@ -1783,7 +1783,7 @@ name: str
 
 ---
 
-##### `noc_contact_email`<sup>Required</sup> <a name="noc_contact_email" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.nocContactEmail"></a>
+##### `noc_contact_email`<sup>Required</sup> <a name="noc_contact_email" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.nocContactEmail"></a>
 
 ```python
 noc_contact_email: str
@@ -1793,7 +1793,7 @@ noc_contact_email: str
 
 ---
 
-##### `project`<sup>Required</sup> <a name="project" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.project"></a>
+##### `project`<sup>Required</sup> <a name="project" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.project"></a>
 
 ```python
 project: str
@@ -1803,7 +1803,7 @@ project: str
 
 ---
 
-##### `remote_location`<sup>Required</sup> <a name="remote_location" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.remoteLocation"></a>
+##### `remote_location`<sup>Required</sup> <a name="remote_location" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.remoteLocation"></a>
 
 ```python
 remote_location: str
@@ -1813,7 +1813,7 @@ remote_location: str
 
 ---
 
-##### `requested_features`<sup>Required</sup> <a name="requested_features" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.requestedFeatures"></a>
+##### `requested_features`<sup>Required</sup> <a name="requested_features" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.requestedFeatures"></a>
 
 ```python
 requested_features: typing.List[str]
@@ -1823,7 +1823,7 @@ requested_features: typing.List[str]
 
 ---
 
-##### `requested_link_count`<sup>Required</sup> <a name="requested_link_count" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.requestedLinkCount"></a>
+##### `requested_link_count`<sup>Required</sup> <a name="requested_link_count" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.requestedLinkCount"></a>
 
 ```python
 requested_link_count: typing.Union[int, float]
@@ -1837,11 +1837,11 @@ requested_link_count: typing.Union[int, float]
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.tfResourceType">tfResourceType</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.tfResourceType">tfResourceType</a></code> | <code>str</code> | *No description.* |
 
 ---
 
-##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.tfResourceType"></a>
+##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.property.tfResourceType"></a>
 
 ```python
 tfResourceType: str
@@ -1853,12 +1853,12 @@ tfResourceType: str
 
 ## Structs <a name="Structs" id="Structs"></a>
 
-### GoogleComputeInterconnectApplicationAwareInterconnect <a name="GoogleComputeInterconnectApplicationAwareInterconnect" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnect"></a>
+### GoogleComputeInterconnectApplicationAwareInterconnect <a name="GoogleComputeInterconnectApplicationAwareInterconnect" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnect"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnect.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnect.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_compute_interconnect
+from cdktn_provider_google_beta import google_compute_interconnect
 
 googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnect(
   bandwidth_percentage_policy: GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy = None,
@@ -1872,20 +1872,20 @@ googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnect(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnect.property.bandwidthPercentagePolicy">bandwidth_percentage_policy</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy">GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy</a></code> | bandwidth_percentage_policy block. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnect.property.profileDescription">profile_description</a></code> | <code>str</code> | A description for the AAI profile on this interconnect. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnect.property.shapeAveragePercentage">shape_average_percentage</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage">GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage</a>]</code> | shape_average_percentage block. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnect.property.strictPriorityPolicy">strict_priority_policy</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicy">GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicy</a></code> | strict_priority_policy block. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnect.property.bandwidthPercentagePolicy">bandwidth_percentage_policy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy">GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy</a></code> | bandwidth_percentage_policy block. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnect.property.profileDescription">profile_description</a></code> | <code>str</code> | A description for the AAI profile on this interconnect. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnect.property.shapeAveragePercentage">shape_average_percentage</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage">GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage</a>]</code> | shape_average_percentage block. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnect.property.strictPriorityPolicy">strict_priority_policy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicy">GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicy</a></code> | strict_priority_policy block. |
 
 ---
 
-##### `bandwidth_percentage_policy`<sup>Optional</sup> <a name="bandwidth_percentage_policy" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnect.property.bandwidthPercentagePolicy"></a>
+##### `bandwidth_percentage_policy`<sup>Optional</sup> <a name="bandwidth_percentage_policy" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnect.property.bandwidthPercentagePolicy"></a>
 
 ```python
 bandwidth_percentage_policy: GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy">GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy">GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy</a>
 
 bandwidth_percentage_policy block.
 
@@ -1893,7 +1893,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `profile_description`<sup>Optional</sup> <a name="profile_description" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnect.property.profileDescription"></a>
+##### `profile_description`<sup>Optional</sup> <a name="profile_description" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnect.property.profileDescription"></a>
 
 ```python
 profile_description: str
@@ -1907,13 +1907,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `shape_average_percentage`<sup>Optional</sup> <a name="shape_average_percentage" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnect.property.shapeAveragePercentage"></a>
+##### `shape_average_percentage`<sup>Optional</sup> <a name="shape_average_percentage" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnect.property.shapeAveragePercentage"></a>
 
 ```python
 shape_average_percentage: IResolvable | typing.List[GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage]
 ```
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage">GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage</a>]
+- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage">GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage</a>]
 
 shape_average_percentage block.
 
@@ -1921,13 +1921,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `strict_priority_policy`<sup>Optional</sup> <a name="strict_priority_policy" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnect.property.strictPriorityPolicy"></a>
+##### `strict_priority_policy`<sup>Optional</sup> <a name="strict_priority_policy" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnect.property.strictPriorityPolicy"></a>
 
 ```python
 strict_priority_policy: GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicy
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicy">GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicy</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicy">GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicy</a>
 
 strict_priority_policy block.
 
@@ -1935,12 +1935,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-### GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy <a name="GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy"></a>
+### GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy <a name="GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_compute_interconnect
+from cdktn_provider_google_beta import google_compute_interconnect
 
 googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy(
   bandwidth_percentage: IResolvable | typing.List[GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage] = None
@@ -1951,17 +1951,17 @@ googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectB
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy.property.bandwidthPercentage">bandwidth_percentage</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage">GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage</a>]</code> | bandwidth_percentage block. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy.property.bandwidthPercentage">bandwidth_percentage</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage">GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage</a>]</code> | bandwidth_percentage block. |
 
 ---
 
-##### `bandwidth_percentage`<sup>Optional</sup> <a name="bandwidth_percentage" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy.property.bandwidthPercentage"></a>
+##### `bandwidth_percentage`<sup>Optional</sup> <a name="bandwidth_percentage" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy.property.bandwidthPercentage"></a>
 
 ```python
 bandwidth_percentage: IResolvable | typing.List[GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage]
 ```
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage">GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage</a>]
+- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage">GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage</a>]
 
 bandwidth_percentage block.
 
@@ -1969,12 +1969,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-### GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage <a name="GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage"></a>
+### GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage <a name="GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_compute_interconnect
+from cdktn_provider_google_beta import google_compute_interconnect
 
 googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage(
   percentage: typing.Union[int, float] = None,
@@ -1986,12 +1986,12 @@ googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectB
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage.property.percentage">percentage</a></code> | <code>typing.Union[int, float]</code> | Bandwidth percentage for a specific traffic class. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage.property.trafficClass">traffic_class</a></code> | <code>str</code> | Enum representing the various traffic classes offered by AAI. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage.property.percentage">percentage</a></code> | <code>typing.Union[int, float]</code> | Bandwidth percentage for a specific traffic class. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage.property.trafficClass">traffic_class</a></code> | <code>str</code> | Enum representing the various traffic classes offered by AAI. |
 
 ---
 
-##### `percentage`<sup>Optional</sup> <a name="percentage" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage.property.percentage"></a>
+##### `percentage`<sup>Optional</sup> <a name="percentage" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage.property.percentage"></a>
 
 ```python
 percentage: typing.Union[int, float]
@@ -2005,7 +2005,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `traffic_class`<sup>Optional</sup> <a name="traffic_class" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage.property.trafficClass"></a>
+##### `traffic_class`<sup>Optional</sup> <a name="traffic_class" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage.property.trafficClass"></a>
 
 ```python
 traffic_class: str
@@ -2021,12 +2021,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-### GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage <a name="GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage"></a>
+### GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage <a name="GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_compute_interconnect
+from cdktn_provider_google_beta import google_compute_interconnect
 
 googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage(
   percentage: typing.Union[int, float] = None,
@@ -2038,12 +2038,12 @@ googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectS
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage.property.percentage">percentage</a></code> | <code>typing.Union[int, float]</code> | Bandwidth percentage for a specific traffic class. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage.property.trafficClass">traffic_class</a></code> | <code>str</code> | Enum representing the various traffic classes offered by AAI. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage.property.percentage">percentage</a></code> | <code>typing.Union[int, float]</code> | Bandwidth percentage for a specific traffic class. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage.property.trafficClass">traffic_class</a></code> | <code>str</code> | Enum representing the various traffic classes offered by AAI. |
 
 ---
 
-##### `percentage`<sup>Optional</sup> <a name="percentage" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage.property.percentage"></a>
+##### `percentage`<sup>Optional</sup> <a name="percentage" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage.property.percentage"></a>
 
 ```python
 percentage: typing.Union[int, float]
@@ -2057,7 +2057,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `traffic_class`<sup>Optional</sup> <a name="traffic_class" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage.property.trafficClass"></a>
+##### `traffic_class`<sup>Optional</sup> <a name="traffic_class" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage.property.trafficClass"></a>
 
 ```python
 traffic_class: str
@@ -2073,34 +2073,34 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-### GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicy <a name="GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicy" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicy"></a>
+### GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicy <a name="GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicy" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicy"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicy.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicy.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_compute_interconnect
+from cdktn_provider_google_beta import google_compute_interconnect
 
 googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicy()
 ```
 
 
-### GoogleComputeInterconnectCircuitInfos <a name="GoogleComputeInterconnectCircuitInfos" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfos"></a>
+### GoogleComputeInterconnectCircuitInfos <a name="GoogleComputeInterconnectCircuitInfos" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfos"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfos.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfos.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_compute_interconnect
+from cdktn_provider_google_beta import google_compute_interconnect
 
 googleComputeInterconnect.GoogleComputeInterconnectCircuitInfos()
 ```
 
 
-### GoogleComputeInterconnectConfig <a name="GoogleComputeInterconnectConfig" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig"></a>
+### GoogleComputeInterconnectConfig <a name="GoogleComputeInterconnectConfig" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_compute_interconnect
+from cdktn_provider_google_beta import google_compute_interconnect
 
 googleComputeInterconnect.GoogleComputeInterconnectConfig(
   connection: SSHProvisionerConnection | WinrmProvisionerConnection = None,
@@ -2136,36 +2136,36 @@ googleComputeInterconnect.GoogleComputeInterconnectConfig(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.interconnectType">interconnect_type</a></code> | <code>str</code> | Type of interconnect. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.linkType">link_type</a></code> | <code>str</code> | Type of link requested. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.location">location</a></code> | <code>str</code> | URL of the InterconnectLocation object that represents where this connection is to be provisioned. Specifies the location inside Google's Networks. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.name">name</a></code> | <code>str</code> | Name of the resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.requestedLinkCount">requested_link_count</a></code> | <code>typing.Union[int, float]</code> | Target number of physical links in the link bundle, as requested by the customer. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.aaiEnabled">aai_enabled</a></code> | <code>bool \| cdktf.IResolvable</code> | Enable or disable the Application Aware Interconnect(AAI) feature on this interconnect. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.adminEnabled">admin_enabled</a></code> | <code>bool \| cdktf.IResolvable</code> | Administrative status of the interconnect. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.applicationAwareInterconnect">application_aware_interconnect</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnect">GoogleComputeInterconnectApplicationAwareInterconnect</a></code> | application_aware_interconnect block. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.customerName">customer_name</a></code> | <code>str</code> | Customer name, to put in the Letter of Authorization as the party authorized to request a crossconnect. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.description">description</a></code> | <code>str</code> | An optional description of this resource. Provide this property when you create the resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_interconnect#id GoogleComputeInterconnect#id}. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.labels">labels</a></code> | <code>typing.Mapping[str]</code> | Labels for this resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.macsec">macsec</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsec">GoogleComputeInterconnectMacsec</a></code> | macsec block. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.macsecEnabled">macsec_enabled</a></code> | <code>bool \| cdktf.IResolvable</code> | Enable or disable MACsec on this Interconnect connection. MACsec enablement fails if the MACsec object is not specified. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.nocContactEmail">noc_contact_email</a></code> | <code>str</code> | Email address to contact the customer NOC for operations and maintenance notifications regarding this Interconnect. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_interconnect#project GoogleComputeInterconnect#project}. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.remoteLocation">remote_location</a></code> | <code>str</code> | Indicates that this is a Cross-Cloud Interconnect. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.requestedFeatures">requested_features</a></code> | <code>typing.List[str]</code> | interconnects.list of features requested for this Interconnect connection. Options: IF_MACSEC ( If specified then the connection is created on MACsec capable hardware ports. If not specified, the default value is false, which allocates non-MACsec capable ports first if available). Note that MACSEC is still technically allowed for compatibility reasons, but it does not work with the API, and will be removed in an upcoming major version. Possible values: ["MACSEC", "CROSS_SITE_NETWORK", "IF_MACSEC"]. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeouts">GoogleComputeInterconnectTimeouts</a></code> | timeouts block. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.interconnectType">interconnect_type</a></code> | <code>str</code> | Type of interconnect. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.linkType">link_type</a></code> | <code>str</code> | Type of link requested. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.location">location</a></code> | <code>str</code> | URL of the InterconnectLocation object that represents where this connection is to be provisioned. Specifies the location inside Google's Networks. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.name">name</a></code> | <code>str</code> | Name of the resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.requestedLinkCount">requested_link_count</a></code> | <code>typing.Union[int, float]</code> | Target number of physical links in the link bundle, as requested by the customer. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.aaiEnabled">aai_enabled</a></code> | <code>bool \| cdktf.IResolvable</code> | Enable or disable the Application Aware Interconnect(AAI) feature on this interconnect. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.adminEnabled">admin_enabled</a></code> | <code>bool \| cdktf.IResolvable</code> | Administrative status of the interconnect. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.applicationAwareInterconnect">application_aware_interconnect</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnect">GoogleComputeInterconnectApplicationAwareInterconnect</a></code> | application_aware_interconnect block. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.customerName">customer_name</a></code> | <code>str</code> | Customer name, to put in the Letter of Authorization as the party authorized to request a crossconnect. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.description">description</a></code> | <code>str</code> | An optional description of this resource. Provide this property when you create the resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_interconnect#id GoogleComputeInterconnect#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.labels">labels</a></code> | <code>typing.Mapping[str]</code> | Labels for this resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.macsec">macsec</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsec">GoogleComputeInterconnectMacsec</a></code> | macsec block. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.macsecEnabled">macsec_enabled</a></code> | <code>bool \| cdktf.IResolvable</code> | Enable or disable MACsec on this Interconnect connection. MACsec enablement fails if the MACsec object is not specified. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.nocContactEmail">noc_contact_email</a></code> | <code>str</code> | Email address to contact the customer NOC for operations and maintenance notifications regarding this Interconnect. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_interconnect#project GoogleComputeInterconnect#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.remoteLocation">remote_location</a></code> | <code>str</code> | Indicates that this is a Cross-Cloud Interconnect. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.requestedFeatures">requested_features</a></code> | <code>typing.List[str]</code> | interconnects.list of features requested for this Interconnect connection. Options: IF_MACSEC ( If specified then the connection is created on MACsec capable hardware ports. If not specified, the default value is false, which allocates non-MACsec capable ports first if available). Note that MACSEC is still technically allowed for compatibility reasons, but it does not work with the API, and will be removed in an upcoming major version. Possible values: ["MACSEC", "CROSS_SITE_NETWORK", "IF_MACSEC"]. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeouts">GoogleComputeInterconnectTimeouts</a></code> | timeouts block. |
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.connection"></a>
 
 ```python
 connection: SSHProvisionerConnection | WinrmProvisionerConnection
@@ -2175,7 +2175,7 @@ connection: SSHProvisionerConnection | WinrmProvisionerConnection
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.count"></a>
 
 ```python
 count: typing.Union[int, float] | TerraformCount
@@ -2185,7 +2185,7 @@ count: typing.Union[int, float] | TerraformCount
 
 ---
 
-##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.dependsOn"></a>
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.dependsOn"></a>
 
 ```python
 depends_on: typing.List[ITerraformDependable]
@@ -2195,7 +2195,7 @@ depends_on: typing.List[ITerraformDependable]
 
 ---
 
-##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.forEach"></a>
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.forEach"></a>
 
 ```python
 for_each: ITerraformIterator
@@ -2205,7 +2205,7 @@ for_each: ITerraformIterator
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.lifecycle"></a>
 
 ```python
 lifecycle: TerraformResourceLifecycle
@@ -2215,7 +2215,7 @@ lifecycle: TerraformResourceLifecycle
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.provider"></a>
 
 ```python
 provider: TerraformProvider
@@ -2225,7 +2225,7 @@ provider: TerraformProvider
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.provisioners"></a>
 
 ```python
 provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner]
@@ -2235,7 +2235,7 @@ provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecPro
 
 ---
 
-##### `interconnect_type`<sup>Required</sup> <a name="interconnect_type" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.interconnectType"></a>
+##### `interconnect_type`<sup>Required</sup> <a name="interconnect_type" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.interconnectType"></a>
 
 ```python
 interconnect_type: str
@@ -2255,7 +2255,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `link_type`<sup>Required</sup> <a name="link_type" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.linkType"></a>
+##### `link_type`<sup>Required</sup> <a name="link_type" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.linkType"></a>
 
 ```python
 link_type: str
@@ -2276,7 +2276,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `location`<sup>Required</sup> <a name="location" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.location"></a>
+##### `location`<sup>Required</sup> <a name="location" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.location"></a>
 
 ```python
 location: str
@@ -2290,7 +2290,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `name`<sup>Required</sup> <a name="name" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.name"></a>
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.name"></a>
 
 ```python
 name: str
@@ -2310,7 +2310,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `requested_link_count`<sup>Required</sup> <a name="requested_link_count" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.requestedLinkCount"></a>
+##### `requested_link_count`<sup>Required</sup> <a name="requested_link_count" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.requestedLinkCount"></a>
 
 ```python
 requested_link_count: typing.Union[int, float]
@@ -2324,7 +2324,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `aai_enabled`<sup>Optional</sup> <a name="aai_enabled" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.aaiEnabled"></a>
+##### `aai_enabled`<sup>Optional</sup> <a name="aai_enabled" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.aaiEnabled"></a>
 
 ```python
 aai_enabled: bool | IResolvable
@@ -2338,7 +2338,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `admin_enabled`<sup>Optional</sup> <a name="admin_enabled" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.adminEnabled"></a>
+##### `admin_enabled`<sup>Optional</sup> <a name="admin_enabled" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.adminEnabled"></a>
 
 ```python
 admin_enabled: bool | IResolvable
@@ -2356,13 +2356,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `application_aware_interconnect`<sup>Optional</sup> <a name="application_aware_interconnect" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.applicationAwareInterconnect"></a>
+##### `application_aware_interconnect`<sup>Optional</sup> <a name="application_aware_interconnect" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.applicationAwareInterconnect"></a>
 
 ```python
 application_aware_interconnect: GoogleComputeInterconnectApplicationAwareInterconnect
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnect">GoogleComputeInterconnectApplicationAwareInterconnect</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnect">GoogleComputeInterconnectApplicationAwareInterconnect</a>
 
 application_aware_interconnect block.
 
@@ -2370,7 +2370,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `customer_name`<sup>Optional</sup> <a name="customer_name" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.customerName"></a>
+##### `customer_name`<sup>Optional</sup> <a name="customer_name" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.customerName"></a>
 
 ```python
 customer_name: str
@@ -2387,7 +2387,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `description`<sup>Optional</sup> <a name="description" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.description"></a>
+##### `description`<sup>Optional</sup> <a name="description" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.description"></a>
 
 ```python
 description: str
@@ -2401,7 +2401,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `id`<sup>Optional</sup> <a name="id" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.id"></a>
+##### `id`<sup>Optional</sup> <a name="id" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.id"></a>
 
 ```python
 id: str
@@ -2416,7 +2416,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 ---
 
-##### `labels`<sup>Optional</sup> <a name="labels" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.labels"></a>
+##### `labels`<sup>Optional</sup> <a name="labels" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.labels"></a>
 
 ```python
 labels: typing.Mapping[str]
@@ -2436,13 +2436,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `macsec`<sup>Optional</sup> <a name="macsec" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.macsec"></a>
+##### `macsec`<sup>Optional</sup> <a name="macsec" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.macsec"></a>
 
 ```python
 macsec: GoogleComputeInterconnectMacsec
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsec">GoogleComputeInterconnectMacsec</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsec">GoogleComputeInterconnectMacsec</a>
 
 macsec block.
 
@@ -2450,7 +2450,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `macsec_enabled`<sup>Optional</sup> <a name="macsec_enabled" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.macsecEnabled"></a>
+##### `macsec_enabled`<sup>Optional</sup> <a name="macsec_enabled" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.macsecEnabled"></a>
 
 ```python
 macsec_enabled: bool | IResolvable
@@ -2464,7 +2464,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `noc_contact_email`<sup>Optional</sup> <a name="noc_contact_email" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.nocContactEmail"></a>
+##### `noc_contact_email`<sup>Optional</sup> <a name="noc_contact_email" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.nocContactEmail"></a>
 
 ```python
 noc_contact_email: str
@@ -2483,7 +2483,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `project`<sup>Optional</sup> <a name="project" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.project"></a>
+##### `project`<sup>Optional</sup> <a name="project" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.project"></a>
 
 ```python
 project: str
@@ -2495,7 +2495,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `remote_location`<sup>Optional</sup> <a name="remote_location" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.remoteLocation"></a>
+##### `remote_location`<sup>Optional</sup> <a name="remote_location" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.remoteLocation"></a>
 
 ```python
 remote_location: str
@@ -2512,7 +2512,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `requested_features`<sup>Optional</sup> <a name="requested_features" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.requestedFeatures"></a>
+##### `requested_features`<sup>Optional</sup> <a name="requested_features" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.requestedFeatures"></a>
 
 ```python
 requested_features: typing.List[str]
@@ -2526,13 +2526,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `timeouts`<sup>Optional</sup> <a name="timeouts" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.timeouts"></a>
+##### `timeouts`<sup>Optional</sup> <a name="timeouts" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.property.timeouts"></a>
 
 ```python
 timeouts: GoogleComputeInterconnectTimeouts
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeouts">GoogleComputeInterconnectTimeouts</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeouts">GoogleComputeInterconnectTimeouts</a>
 
 timeouts block.
 
@@ -2540,23 +2540,23 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-### GoogleComputeInterconnectExpectedOutages <a name="GoogleComputeInterconnectExpectedOutages" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutages"></a>
+### GoogleComputeInterconnectExpectedOutages <a name="GoogleComputeInterconnectExpectedOutages" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutages"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutages.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutages.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_compute_interconnect
+from cdktn_provider_google_beta import google_compute_interconnect
 
 googleComputeInterconnect.GoogleComputeInterconnectExpectedOutages()
 ```
 
 
-### GoogleComputeInterconnectMacsec <a name="GoogleComputeInterconnectMacsec" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsec"></a>
+### GoogleComputeInterconnectMacsec <a name="GoogleComputeInterconnectMacsec" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsec"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsec.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsec.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_compute_interconnect
+from cdktn_provider_google_beta import google_compute_interconnect
 
 googleComputeInterconnect.GoogleComputeInterconnectMacsec(
   pre_shared_keys: IResolvable | typing.List[GoogleComputeInterconnectMacsecPreSharedKeys],
@@ -2568,18 +2568,18 @@ googleComputeInterconnect.GoogleComputeInterconnectMacsec(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsec.property.preSharedKeys">pre_shared_keys</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeys">GoogleComputeInterconnectMacsecPreSharedKeys</a>]</code> | pre_shared_keys block. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsec.property.failOpen">fail_open</a></code> | <code>bool \| cdktf.IResolvable</code> | If set to true, the Interconnect connection is configured with a should-secure MACsec security policy, that allows the Google router to fallback to cleartext traffic if the MKA session cannot be established. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsec.property.preSharedKeys">pre_shared_keys</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeys">GoogleComputeInterconnectMacsecPreSharedKeys</a>]</code> | pre_shared_keys block. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsec.property.failOpen">fail_open</a></code> | <code>bool \| cdktf.IResolvable</code> | If set to true, the Interconnect connection is configured with a should-secure MACsec security policy, that allows the Google router to fallback to cleartext traffic if the MKA session cannot be established. |
 
 ---
 
-##### `pre_shared_keys`<sup>Required</sup> <a name="pre_shared_keys" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsec.property.preSharedKeys"></a>
+##### `pre_shared_keys`<sup>Required</sup> <a name="pre_shared_keys" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsec.property.preSharedKeys"></a>
 
 ```python
 pre_shared_keys: IResolvable | typing.List[GoogleComputeInterconnectMacsecPreSharedKeys]
 ```
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeys">GoogleComputeInterconnectMacsecPreSharedKeys</a>]
+- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeys">GoogleComputeInterconnectMacsecPreSharedKeys</a>]
 
 pre_shared_keys block.
 
@@ -2587,7 +2587,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `fail_open`<sup>Optional</sup> <a name="fail_open" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsec.property.failOpen"></a>
+##### `fail_open`<sup>Optional</sup> <a name="fail_open" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsec.property.failOpen"></a>
 
 ```python
 fail_open: bool | IResolvable
@@ -2605,12 +2605,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-### GoogleComputeInterconnectMacsecPreSharedKeys <a name="GoogleComputeInterconnectMacsecPreSharedKeys" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeys"></a>
+### GoogleComputeInterconnectMacsecPreSharedKeys <a name="GoogleComputeInterconnectMacsecPreSharedKeys" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeys"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeys.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeys.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_compute_interconnect
+from cdktn_provider_google_beta import google_compute_interconnect
 
 googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeys(
   name: str,
@@ -2623,13 +2623,13 @@ googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeys(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeys.property.name">name</a></code> | <code>str</code> | A name for this pre-shared key. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeys.property.failOpen">fail_open</a></code> | <code>bool \| cdktf.IResolvable</code> | If set to true, the Interconnect connection is configured with a should-secure MACsec security policy, that allows the Google router to fallback to cleartext traffic if the MKA session cannot be established. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeys.property.startTime">start_time</a></code> | <code>str</code> | A RFC3339 timestamp on or after which the key is valid. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeys.property.name">name</a></code> | <code>str</code> | A name for this pre-shared key. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeys.property.failOpen">fail_open</a></code> | <code>bool \| cdktf.IResolvable</code> | If set to true, the Interconnect connection is configured with a should-secure MACsec security policy, that allows the Google router to fallback to cleartext traffic if the MKA session cannot be established. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeys.property.startTime">start_time</a></code> | <code>str</code> | A RFC3339 timestamp on or after which the key is valid. |
 
 ---
 
-##### `name`<sup>Required</sup> <a name="name" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeys.property.name"></a>
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeys.property.name"></a>
 
 ```python
 name: str
@@ -2649,7 +2649,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `fail_open`<sup>Optional</sup> <a name="fail_open" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeys.property.failOpen"></a>
+##### `fail_open`<sup>Optional</sup> <a name="fail_open" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeys.property.failOpen"></a>
 
 ```python
 fail_open: bool | IResolvable
@@ -2667,7 +2667,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `start_time`<sup>Optional</sup> <a name="start_time" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeys.property.startTime"></a>
+##### `start_time`<sup>Optional</sup> <a name="start_time" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeys.property.startTime"></a>
 
 ```python
 start_time: str
@@ -2687,12 +2687,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-### GoogleComputeInterconnectTimeouts <a name="GoogleComputeInterconnectTimeouts" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeouts"></a>
+### GoogleComputeInterconnectTimeouts <a name="GoogleComputeInterconnectTimeouts" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeouts"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeouts.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeouts.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_compute_interconnect
+from cdktn_provider_google_beta import google_compute_interconnect
 
 googleComputeInterconnect.GoogleComputeInterconnectTimeouts(
   create: str = None,
@@ -2705,13 +2705,13 @@ googleComputeInterconnect.GoogleComputeInterconnectTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_interconnect#create GoogleComputeInterconnect#create}. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_interconnect#delete GoogleComputeInterconnect#delete}. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_interconnect#update GoogleComputeInterconnect#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_interconnect#create GoogleComputeInterconnect#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_interconnect#delete GoogleComputeInterconnect#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_interconnect#update GoogleComputeInterconnect#update}. |
 
 ---
 
-##### `create`<sup>Optional</sup> <a name="create" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeouts.property.create"></a>
+##### `create`<sup>Optional</sup> <a name="create" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeouts.property.create"></a>
 
 ```python
 create: str
@@ -2723,7 +2723,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `delete`<sup>Optional</sup> <a name="delete" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeouts.property.delete"></a>
+##### `delete`<sup>Optional</sup> <a name="delete" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeouts.property.delete"></a>
 
 ```python
 delete: str
@@ -2735,7 +2735,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `update`<sup>Optional</sup> <a name="update" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeouts.property.update"></a>
+##### `update`<sup>Optional</sup> <a name="update" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeouts.property.update"></a>
 
 ```python
 update: str
@@ -2749,12 +2749,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ## Classes <a name="Classes" id="Classes"></a>
 
-### GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList <a name="GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList"></a>
+### GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList <a name="GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_compute_interconnect
+from cdktn_provider_google_beta import google_compute_interconnect
 
 googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList(
   terraform_resource: IInterpolatingParent,
@@ -2765,13 +2765,13 @@ googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectB
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
 
 ---
 
-##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.Initializer.parameter.terraformResource"></a>
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.Initializer.parameter.terraformResource"></a>
 
 - *Type:* cdktf.IInterpolatingParent
 
@@ -2779,7 +2779,7 @@ The parent resource.
 
 ---
 
-##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.Initializer.parameter.terraformAttribute"></a>
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
@@ -2787,7 +2787,7 @@ The attribute on the parent resource this class is referencing.
 
 ---
 
-##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.Initializer.parameter.wrapsSet"></a>
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.Initializer.parameter.wrapsSet"></a>
 
 - *Type:* bool
 
@@ -2799,15 +2799,15 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.computeFqn">compute_fqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.get">get</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.get">get</a></code> | *No description.* |
 
 ---
 
-##### `all_with_map_key` <a name="all_with_map_key" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.allWithMapKey"></a>
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.allWithMapKey"></a>
 
 ```python
 def all_with_map_key(
@@ -2819,19 +2819,19 @@ Creating an iterator for this complex list.
 
 The list will be converted into a map with the mapKeyAttributeName as the key.
 
-###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.allWithMapKey.parameter.mapKeyAttributeName"></a>
 
 - *Type:* str
 
 ---
 
-##### `compute_fqn` <a name="compute_fqn" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.computeFqn"></a>
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.computeFqn"></a>
 
 ```python
 def compute_fqn() -> str
 ```
 
-##### `resolve` <a name="resolve" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.resolve"></a>
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.resolve"></a>
 
 ```python
 def resolve(
@@ -2841,13 +2841,13 @@ def resolve(
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.resolve.parameter._context"></a>
 
 - *Type:* cdktf.IResolveContext
 
 ---
 
-##### `to_string` <a name="to_string" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.toString"></a>
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.toString"></a>
 
 ```python
 def to_string() -> str
@@ -2857,7 +2857,7 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `get` <a name="get" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.get"></a>
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.get"></a>
 
 ```python
 def get(
@@ -2865,7 +2865,7 @@ def get(
 ) -> GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference
 ```
 
-###### `index`<sup>Required</sup> <a name="index" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.get.parameter.index"></a>
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.get.parameter.index"></a>
 
 - *Type:* typing.Union[int, float]
 
@@ -2878,13 +2878,13 @@ the index of the item to return.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.property.internalValue">internal_value</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage">GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage</a>]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.property.internalValue">internal_value</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage">GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage</a>]</code> | *No description.* |
 
 ---
 
-##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.property.creationStack"></a>
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.property.creationStack"></a>
 
 ```python
 creation_stack: typing.List[str]
@@ -2898,7 +2898,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.property.fqn"></a>
 
 ```python
 fqn: str
@@ -2908,23 +2908,23 @@ fqn: str
 
 ---
 
-##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.property.internalValue"></a>
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.property.internalValue"></a>
 
 ```python
 internal_value: IResolvable | typing.List[GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage]
 ```
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage">GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage</a>]
+- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage">GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage</a>]
 
 ---
 
 
-### GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference <a name="GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference"></a>
+### GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference <a name="GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_compute_interconnect
+from cdktn_provider_google_beta import google_compute_interconnect
 
 googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference(
   terraform_resource: IInterpolatingParent,
@@ -2936,14 +2936,14 @@ googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectB
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
 
 ---
 
-##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.Initializer.parameter.terraformResource"></a>
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.Initializer.parameter.terraformResource"></a>
 
 - *Type:* cdktf.IInterpolatingParent
 
@@ -2951,7 +2951,7 @@ The parent resource.
 
 ---
 
-##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.Initializer.parameter.terraformAttribute"></a>
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
@@ -2959,7 +2959,7 @@ The attribute on the parent resource this class is referencing.
 
 ---
 
-##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.Initializer.parameter.complexObjectIndex"></a>
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.Initializer.parameter.complexObjectIndex"></a>
 
 - *Type:* typing.Union[int, float]
 
@@ -2967,7 +2967,7 @@ the index of this item in the list.
 
 ---
 
-##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
 
 - *Type:* bool
 
@@ -2979,31 +2979,31 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.resetPercentage">reset_percentage</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.resetTrafficClass">reset_traffic_class</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.resetPercentage">reset_percentage</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.resetTrafficClass">reset_traffic_class</a></code> | *No description.* |
 
 ---
 
-##### `compute_fqn` <a name="compute_fqn" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.computeFqn"></a>
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.computeFqn"></a>
 
 ```python
 def compute_fqn() -> str
 ```
 
-##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getAnyMapAttribute"></a>
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getAnyMapAttribute"></a>
 
 ```python
 def get_any_map_attribute(
@@ -3011,13 +3011,13 @@ def get_any_map_attribute(
 ) -> typing.Mapping[typing.Any]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getBooleanAttribute"></a>
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getBooleanAttribute"></a>
 
 ```python
 def get_boolean_attribute(
@@ -3025,13 +3025,13 @@ def get_boolean_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getBooleanMapAttribute"></a>
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getBooleanMapAttribute"></a>
 
 ```python
 def get_boolean_map_attribute(
@@ -3039,13 +3039,13 @@ def get_boolean_map_attribute(
 ) -> typing.Mapping[bool]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_list_attribute` <a name="get_list_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getListAttribute"></a>
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getListAttribute"></a>
 
 ```python
 def get_list_attribute(
@@ -3053,13 +3053,13 @@ def get_list_attribute(
 ) -> typing.List[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_attribute` <a name="get_number_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getNumberAttribute"></a>
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getNumberAttribute"></a>
 
 ```python
 def get_number_attribute(
@@ -3067,13 +3067,13 @@ def get_number_attribute(
 ) -> typing.Union[int, float]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getNumberListAttribute"></a>
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getNumberListAttribute"></a>
 
 ```python
 def get_number_list_attribute(
@@ -3081,13 +3081,13 @@ def get_number_list_attribute(
 ) -> typing.List[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getNumberMapAttribute"></a>
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getNumberMapAttribute"></a>
 
 ```python
 def get_number_map_attribute(
@@ -3095,13 +3095,13 @@ def get_number_map_attribute(
 ) -> typing.Mapping[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_attribute` <a name="get_string_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getStringAttribute"></a>
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getStringAttribute"></a>
 
 ```python
 def get_string_attribute(
@@ -3109,13 +3109,13 @@ def get_string_attribute(
 ) -> str
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getStringMapAttribute"></a>
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getStringMapAttribute"></a>
 
 ```python
 def get_string_map_attribute(
@@ -3123,13 +3123,13 @@ def get_string_map_attribute(
 ) -> typing.Mapping[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.interpolationForAttribute"></a>
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.interpolationForAttribute"></a>
 
 ```python
 def interpolation_for_attribute(
@@ -3137,13 +3137,13 @@ def interpolation_for_attribute(
 ) -> IResolvable
 ```
 
-###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.interpolationForAttribute.parameter.property"></a>
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.interpolationForAttribute.parameter.property"></a>
 
 - *Type:* str
 
 ---
 
-##### `resolve` <a name="resolve" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.resolve"></a>
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.resolve"></a>
 
 ```python
 def resolve(
@@ -3153,13 +3153,13 @@ def resolve(
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.resolve.parameter._context"></a>
 
 - *Type:* cdktf.IResolveContext
 
 ---
 
-##### `to_string` <a name="to_string" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.toString"></a>
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.toString"></a>
 
 ```python
 def to_string() -> str
@@ -3169,13 +3169,13 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `reset_percentage` <a name="reset_percentage" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.resetPercentage"></a>
+##### `reset_percentage` <a name="reset_percentage" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.resetPercentage"></a>
 
 ```python
 def reset_percentage() -> None
 ```
 
-##### `reset_traffic_class` <a name="reset_traffic_class" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.resetTrafficClass"></a>
+##### `reset_traffic_class` <a name="reset_traffic_class" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.resetTrafficClass"></a>
 
 ```python
 def reset_traffic_class() -> None
@@ -3186,17 +3186,17 @@ def reset_traffic_class() -> None
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.property.percentageInput">percentage_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.property.trafficClassInput">traffic_class_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.property.percentage">percentage</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.property.trafficClass">traffic_class</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.property.internalValue">internal_value</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage">GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.property.percentageInput">percentage_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.property.trafficClassInput">traffic_class_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.property.percentage">percentage</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.property.trafficClass">traffic_class</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.property.internalValue">internal_value</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage">GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage</a></code> | *No description.* |
 
 ---
 
-##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.property.creationStack"></a>
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.property.creationStack"></a>
 
 ```python
 creation_stack: typing.List[str]
@@ -3210,7 +3210,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.property.fqn"></a>
 
 ```python
 fqn: str
@@ -3220,7 +3220,7 @@ fqn: str
 
 ---
 
-##### `percentage_input`<sup>Optional</sup> <a name="percentage_input" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.property.percentageInput"></a>
+##### `percentage_input`<sup>Optional</sup> <a name="percentage_input" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.property.percentageInput"></a>
 
 ```python
 percentage_input: typing.Union[int, float]
@@ -3230,7 +3230,7 @@ percentage_input: typing.Union[int, float]
 
 ---
 
-##### `traffic_class_input`<sup>Optional</sup> <a name="traffic_class_input" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.property.trafficClassInput"></a>
+##### `traffic_class_input`<sup>Optional</sup> <a name="traffic_class_input" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.property.trafficClassInput"></a>
 
 ```python
 traffic_class_input: str
@@ -3240,7 +3240,7 @@ traffic_class_input: str
 
 ---
 
-##### `percentage`<sup>Required</sup> <a name="percentage" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.property.percentage"></a>
+##### `percentage`<sup>Required</sup> <a name="percentage" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.property.percentage"></a>
 
 ```python
 percentage: typing.Union[int, float]
@@ -3250,7 +3250,7 @@ percentage: typing.Union[int, float]
 
 ---
 
-##### `traffic_class`<sup>Required</sup> <a name="traffic_class" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.property.trafficClass"></a>
+##### `traffic_class`<sup>Required</sup> <a name="traffic_class" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.property.trafficClass"></a>
 
 ```python
 traffic_class: str
@@ -3260,23 +3260,23 @@ traffic_class: str
 
 ---
 
-##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.property.internalValue"></a>
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.property.internalValue"></a>
 
 ```python
 internal_value: IResolvable | GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage">GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage</a>
+- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage">GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage</a>
 
 ---
 
 
-### GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference <a name="GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference"></a>
+### GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference <a name="GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_compute_interconnect
+from cdktn_provider_google_beta import google_compute_interconnect
 
 googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference(
   terraform_resource: IInterpolatingParent,
@@ -3286,12 +3286,12 @@ googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectB
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
-##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.Initializer.parameter.terraformResource"></a>
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.Initializer.parameter.terraformResource"></a>
 
 - *Type:* cdktf.IInterpolatingParent
 
@@ -3299,7 +3299,7 @@ The parent resource.
 
 ---
 
-##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.Initializer.parameter.terraformAttribute"></a>
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
@@ -3311,31 +3311,31 @@ The attribute on the parent resource this class is referencing.
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.putBandwidthPercentage">put_bandwidth_percentage</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.resetBandwidthPercentage">reset_bandwidth_percentage</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.putBandwidthPercentage">put_bandwidth_percentage</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.resetBandwidthPercentage">reset_bandwidth_percentage</a></code> | *No description.* |
 
 ---
 
-##### `compute_fqn` <a name="compute_fqn" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.computeFqn"></a>
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.computeFqn"></a>
 
 ```python
 def compute_fqn() -> str
 ```
 
-##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getAnyMapAttribute"></a>
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getAnyMapAttribute"></a>
 
 ```python
 def get_any_map_attribute(
@@ -3343,13 +3343,13 @@ def get_any_map_attribute(
 ) -> typing.Mapping[typing.Any]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getBooleanAttribute"></a>
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getBooleanAttribute"></a>
 
 ```python
 def get_boolean_attribute(
@@ -3357,13 +3357,13 @@ def get_boolean_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getBooleanMapAttribute"></a>
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getBooleanMapAttribute"></a>
 
 ```python
 def get_boolean_map_attribute(
@@ -3371,13 +3371,13 @@ def get_boolean_map_attribute(
 ) -> typing.Mapping[bool]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_list_attribute` <a name="get_list_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getListAttribute"></a>
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getListAttribute"></a>
 
 ```python
 def get_list_attribute(
@@ -3385,13 +3385,13 @@ def get_list_attribute(
 ) -> typing.List[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_attribute` <a name="get_number_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getNumberAttribute"></a>
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getNumberAttribute"></a>
 
 ```python
 def get_number_attribute(
@@ -3399,13 +3399,13 @@ def get_number_attribute(
 ) -> typing.Union[int, float]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getNumberListAttribute"></a>
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getNumberListAttribute"></a>
 
 ```python
 def get_number_list_attribute(
@@ -3413,13 +3413,13 @@ def get_number_list_attribute(
 ) -> typing.List[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getNumberMapAttribute"></a>
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getNumberMapAttribute"></a>
 
 ```python
 def get_number_map_attribute(
@@ -3427,13 +3427,13 @@ def get_number_map_attribute(
 ) -> typing.Mapping[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_attribute` <a name="get_string_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getStringAttribute"></a>
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getStringAttribute"></a>
 
 ```python
 def get_string_attribute(
@@ -3441,13 +3441,13 @@ def get_string_attribute(
 ) -> str
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getStringMapAttribute"></a>
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getStringMapAttribute"></a>
 
 ```python
 def get_string_map_attribute(
@@ -3455,13 +3455,13 @@ def get_string_map_attribute(
 ) -> typing.Mapping[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.interpolationForAttribute"></a>
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.interpolationForAttribute"></a>
 
 ```python
 def interpolation_for_attribute(
@@ -3469,13 +3469,13 @@ def interpolation_for_attribute(
 ) -> IResolvable
 ```
 
-###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.interpolationForAttribute.parameter.property"></a>
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.interpolationForAttribute.parameter.property"></a>
 
 - *Type:* str
 
 ---
 
-##### `resolve` <a name="resolve" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.resolve"></a>
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.resolve"></a>
 
 ```python
 def resolve(
@@ -3485,13 +3485,13 @@ def resolve(
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.resolve.parameter._context"></a>
 
 - *Type:* cdktf.IResolveContext
 
 ---
 
-##### `to_string` <a name="to_string" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.toString"></a>
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.toString"></a>
 
 ```python
 def to_string() -> str
@@ -3501,7 +3501,7 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `put_bandwidth_percentage` <a name="put_bandwidth_percentage" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.putBandwidthPercentage"></a>
+##### `put_bandwidth_percentage` <a name="put_bandwidth_percentage" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.putBandwidthPercentage"></a>
 
 ```python
 def put_bandwidth_percentage(
@@ -3509,13 +3509,13 @@ def put_bandwidth_percentage(
 ) -> None
 ```
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.putBandwidthPercentage.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.putBandwidthPercentage.parameter.value"></a>
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage">GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage</a>]
+- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage">GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage</a>]
 
 ---
 
-##### `reset_bandwidth_percentage` <a name="reset_bandwidth_percentage" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.resetBandwidthPercentage"></a>
+##### `reset_bandwidth_percentage` <a name="reset_bandwidth_percentage" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.resetBandwidthPercentage"></a>
 
 ```python
 def reset_bandwidth_percentage() -> None
@@ -3526,15 +3526,15 @@ def reset_bandwidth_percentage() -> None
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.property.bandwidthPercentage">bandwidth_percentage</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList">GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.property.bandwidthPercentageInput">bandwidth_percentage_input</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage">GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage</a>]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy">GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.property.bandwidthPercentage">bandwidth_percentage</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList">GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.property.bandwidthPercentageInput">bandwidth_percentage_input</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage">GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage</a>]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy">GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy</a></code> | *No description.* |
 
 ---
 
-##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.property.creationStack"></a>
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.property.creationStack"></a>
 
 ```python
 creation_stack: typing.List[str]
@@ -3548,7 +3548,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.property.fqn"></a>
 
 ```python
 fqn: str
@@ -3558,43 +3558,43 @@ fqn: str
 
 ---
 
-##### `bandwidth_percentage`<sup>Required</sup> <a name="bandwidth_percentage" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.property.bandwidthPercentage"></a>
+##### `bandwidth_percentage`<sup>Required</sup> <a name="bandwidth_percentage" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.property.bandwidthPercentage"></a>
 
 ```python
 bandwidth_percentage: GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList">GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList">GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList</a>
 
 ---
 
-##### `bandwidth_percentage_input`<sup>Optional</sup> <a name="bandwidth_percentage_input" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.property.bandwidthPercentageInput"></a>
+##### `bandwidth_percentage_input`<sup>Optional</sup> <a name="bandwidth_percentage_input" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.property.bandwidthPercentageInput"></a>
 
 ```python
 bandwidth_percentage_input: IResolvable | typing.List[GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage]
 ```
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage">GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage</a>]
+- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage">GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage</a>]
 
 ---
 
-##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.property.internalValue"></a>
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.property.internalValue"></a>
 
 ```python
 internal_value: GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy">GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy">GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy</a>
 
 ---
 
 
-### GoogleComputeInterconnectApplicationAwareInterconnectOutputReference <a name="GoogleComputeInterconnectApplicationAwareInterconnectOutputReference" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference"></a>
+### GoogleComputeInterconnectApplicationAwareInterconnectOutputReference <a name="GoogleComputeInterconnectApplicationAwareInterconnectOutputReference" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_compute_interconnect
+from cdktn_provider_google_beta import google_compute_interconnect
 
 googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference(
   terraform_resource: IInterpolatingParent,
@@ -3604,12 +3604,12 @@ googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectO
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
-##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.Initializer.parameter.terraformResource"></a>
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.Initializer.parameter.terraformResource"></a>
 
 - *Type:* cdktf.IInterpolatingParent
 
@@ -3617,7 +3617,7 @@ The parent resource.
 
 ---
 
-##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.Initializer.parameter.terraformAttribute"></a>
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
@@ -3629,36 +3629,36 @@ The attribute on the parent resource this class is referencing.
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.putBandwidthPercentagePolicy">put_bandwidth_percentage_policy</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.putShapeAveragePercentage">put_shape_average_percentage</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.putStrictPriorityPolicy">put_strict_priority_policy</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.resetBandwidthPercentagePolicy">reset_bandwidth_percentage_policy</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.resetProfileDescription">reset_profile_description</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.resetShapeAveragePercentage">reset_shape_average_percentage</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.resetStrictPriorityPolicy">reset_strict_priority_policy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.putBandwidthPercentagePolicy">put_bandwidth_percentage_policy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.putShapeAveragePercentage">put_shape_average_percentage</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.putStrictPriorityPolicy">put_strict_priority_policy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.resetBandwidthPercentagePolicy">reset_bandwidth_percentage_policy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.resetProfileDescription">reset_profile_description</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.resetShapeAveragePercentage">reset_shape_average_percentage</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.resetStrictPriorityPolicy">reset_strict_priority_policy</a></code> | *No description.* |
 
 ---
 
-##### `compute_fqn` <a name="compute_fqn" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.computeFqn"></a>
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.computeFqn"></a>
 
 ```python
 def compute_fqn() -> str
 ```
 
-##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getAnyMapAttribute"></a>
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getAnyMapAttribute"></a>
 
 ```python
 def get_any_map_attribute(
@@ -3666,13 +3666,13 @@ def get_any_map_attribute(
 ) -> typing.Mapping[typing.Any]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getBooleanAttribute"></a>
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getBooleanAttribute"></a>
 
 ```python
 def get_boolean_attribute(
@@ -3680,13 +3680,13 @@ def get_boolean_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getBooleanMapAttribute"></a>
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getBooleanMapAttribute"></a>
 
 ```python
 def get_boolean_map_attribute(
@@ -3694,13 +3694,13 @@ def get_boolean_map_attribute(
 ) -> typing.Mapping[bool]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_list_attribute` <a name="get_list_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getListAttribute"></a>
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getListAttribute"></a>
 
 ```python
 def get_list_attribute(
@@ -3708,13 +3708,13 @@ def get_list_attribute(
 ) -> typing.List[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_attribute` <a name="get_number_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getNumberAttribute"></a>
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getNumberAttribute"></a>
 
 ```python
 def get_number_attribute(
@@ -3722,13 +3722,13 @@ def get_number_attribute(
 ) -> typing.Union[int, float]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getNumberListAttribute"></a>
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getNumberListAttribute"></a>
 
 ```python
 def get_number_list_attribute(
@@ -3736,13 +3736,13 @@ def get_number_list_attribute(
 ) -> typing.List[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getNumberMapAttribute"></a>
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getNumberMapAttribute"></a>
 
 ```python
 def get_number_map_attribute(
@@ -3750,13 +3750,13 @@ def get_number_map_attribute(
 ) -> typing.Mapping[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_attribute` <a name="get_string_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getStringAttribute"></a>
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getStringAttribute"></a>
 
 ```python
 def get_string_attribute(
@@ -3764,13 +3764,13 @@ def get_string_attribute(
 ) -> str
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getStringMapAttribute"></a>
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getStringMapAttribute"></a>
 
 ```python
 def get_string_map_attribute(
@@ -3778,13 +3778,13 @@ def get_string_map_attribute(
 ) -> typing.Mapping[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.interpolationForAttribute"></a>
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.interpolationForAttribute"></a>
 
 ```python
 def interpolation_for_attribute(
@@ -3792,13 +3792,13 @@ def interpolation_for_attribute(
 ) -> IResolvable
 ```
 
-###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.interpolationForAttribute.parameter.property"></a>
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.interpolationForAttribute.parameter.property"></a>
 
 - *Type:* str
 
 ---
 
-##### `resolve` <a name="resolve" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.resolve"></a>
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.resolve"></a>
 
 ```python
 def resolve(
@@ -3808,13 +3808,13 @@ def resolve(
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.resolve.parameter._context"></a>
 
 - *Type:* cdktf.IResolveContext
 
 ---
 
-##### `to_string` <a name="to_string" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.toString"></a>
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.toString"></a>
 
 ```python
 def to_string() -> str
@@ -3824,7 +3824,7 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `put_bandwidth_percentage_policy` <a name="put_bandwidth_percentage_policy" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.putBandwidthPercentagePolicy"></a>
+##### `put_bandwidth_percentage_policy` <a name="put_bandwidth_percentage_policy" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.putBandwidthPercentagePolicy"></a>
 
 ```python
 def put_bandwidth_percentage_policy(
@@ -3832,9 +3832,9 @@ def put_bandwidth_percentage_policy(
 ) -> None
 ```
 
-###### `bandwidth_percentage`<sup>Optional</sup> <a name="bandwidth_percentage" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.putBandwidthPercentagePolicy.parameter.bandwidthPercentage"></a>
+###### `bandwidth_percentage`<sup>Optional</sup> <a name="bandwidth_percentage" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.putBandwidthPercentagePolicy.parameter.bandwidthPercentage"></a>
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage">GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage</a>]
+- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage">GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage</a>]
 
 bandwidth_percentage block.
 
@@ -3842,7 +3842,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `put_shape_average_percentage` <a name="put_shape_average_percentage" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.putShapeAveragePercentage"></a>
+##### `put_shape_average_percentage` <a name="put_shape_average_percentage" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.putShapeAveragePercentage"></a>
 
 ```python
 def put_shape_average_percentage(
@@ -3850,37 +3850,37 @@ def put_shape_average_percentage(
 ) -> None
 ```
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.putShapeAveragePercentage.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.putShapeAveragePercentage.parameter.value"></a>
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage">GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage</a>]
+- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage">GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage</a>]
 
 ---
 
-##### `put_strict_priority_policy` <a name="put_strict_priority_policy" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.putStrictPriorityPolicy"></a>
+##### `put_strict_priority_policy` <a name="put_strict_priority_policy" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.putStrictPriorityPolicy"></a>
 
 ```python
 def put_strict_priority_policy() -> None
 ```
 
-##### `reset_bandwidth_percentage_policy` <a name="reset_bandwidth_percentage_policy" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.resetBandwidthPercentagePolicy"></a>
+##### `reset_bandwidth_percentage_policy` <a name="reset_bandwidth_percentage_policy" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.resetBandwidthPercentagePolicy"></a>
 
 ```python
 def reset_bandwidth_percentage_policy() -> None
 ```
 
-##### `reset_profile_description` <a name="reset_profile_description" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.resetProfileDescription"></a>
+##### `reset_profile_description` <a name="reset_profile_description" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.resetProfileDescription"></a>
 
 ```python
 def reset_profile_description() -> None
 ```
 
-##### `reset_shape_average_percentage` <a name="reset_shape_average_percentage" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.resetShapeAveragePercentage"></a>
+##### `reset_shape_average_percentage` <a name="reset_shape_average_percentage" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.resetShapeAveragePercentage"></a>
 
 ```python
 def reset_shape_average_percentage() -> None
 ```
 
-##### `reset_strict_priority_policy` <a name="reset_strict_priority_policy" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.resetStrictPriorityPolicy"></a>
+##### `reset_strict_priority_policy` <a name="reset_strict_priority_policy" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.resetStrictPriorityPolicy"></a>
 
 ```python
 def reset_strict_priority_policy() -> None
@@ -3891,21 +3891,21 @@ def reset_strict_priority_policy() -> None
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.property.bandwidthPercentagePolicy">bandwidth_percentage_policy</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference">GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.property.shapeAveragePercentage">shape_average_percentage</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList">GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.property.strictPriorityPolicy">strict_priority_policy</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference">GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.property.bandwidthPercentagePolicyInput">bandwidth_percentage_policy_input</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy">GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.property.profileDescriptionInput">profile_description_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.property.shapeAveragePercentageInput">shape_average_percentage_input</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage">GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage</a>]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.property.strictPriorityPolicyInput">strict_priority_policy_input</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicy">GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicy</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.property.profileDescription">profile_description</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnect">GoogleComputeInterconnectApplicationAwareInterconnect</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.property.bandwidthPercentagePolicy">bandwidth_percentage_policy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference">GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.property.shapeAveragePercentage">shape_average_percentage</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList">GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.property.strictPriorityPolicy">strict_priority_policy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference">GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.property.bandwidthPercentagePolicyInput">bandwidth_percentage_policy_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy">GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.property.profileDescriptionInput">profile_description_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.property.shapeAveragePercentageInput">shape_average_percentage_input</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage">GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage</a>]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.property.strictPriorityPolicyInput">strict_priority_policy_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicy">GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.property.profileDescription">profile_description</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnect">GoogleComputeInterconnectApplicationAwareInterconnect</a></code> | *No description.* |
 
 ---
 
-##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.property.creationStack"></a>
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.property.creationStack"></a>
 
 ```python
 creation_stack: typing.List[str]
@@ -3919,7 +3919,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.property.fqn"></a>
 
 ```python
 fqn: str
@@ -3929,47 +3929,47 @@ fqn: str
 
 ---
 
-##### `bandwidth_percentage_policy`<sup>Required</sup> <a name="bandwidth_percentage_policy" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.property.bandwidthPercentagePolicy"></a>
+##### `bandwidth_percentage_policy`<sup>Required</sup> <a name="bandwidth_percentage_policy" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.property.bandwidthPercentagePolicy"></a>
 
 ```python
 bandwidth_percentage_policy: GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference">GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference">GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference</a>
 
 ---
 
-##### `shape_average_percentage`<sup>Required</sup> <a name="shape_average_percentage" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.property.shapeAveragePercentage"></a>
+##### `shape_average_percentage`<sup>Required</sup> <a name="shape_average_percentage" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.property.shapeAveragePercentage"></a>
 
 ```python
 shape_average_percentage: GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList">GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList">GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList</a>
 
 ---
 
-##### `strict_priority_policy`<sup>Required</sup> <a name="strict_priority_policy" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.property.strictPriorityPolicy"></a>
+##### `strict_priority_policy`<sup>Required</sup> <a name="strict_priority_policy" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.property.strictPriorityPolicy"></a>
 
 ```python
 strict_priority_policy: GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference">GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference">GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference</a>
 
 ---
 
-##### `bandwidth_percentage_policy_input`<sup>Optional</sup> <a name="bandwidth_percentage_policy_input" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.property.bandwidthPercentagePolicyInput"></a>
+##### `bandwidth_percentage_policy_input`<sup>Optional</sup> <a name="bandwidth_percentage_policy_input" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.property.bandwidthPercentagePolicyInput"></a>
 
 ```python
 bandwidth_percentage_policy_input: GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy">GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy">GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy</a>
 
 ---
 
-##### `profile_description_input`<sup>Optional</sup> <a name="profile_description_input" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.property.profileDescriptionInput"></a>
+##### `profile_description_input`<sup>Optional</sup> <a name="profile_description_input" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.property.profileDescriptionInput"></a>
 
 ```python
 profile_description_input: str
@@ -3979,27 +3979,27 @@ profile_description_input: str
 
 ---
 
-##### `shape_average_percentage_input`<sup>Optional</sup> <a name="shape_average_percentage_input" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.property.shapeAveragePercentageInput"></a>
+##### `shape_average_percentage_input`<sup>Optional</sup> <a name="shape_average_percentage_input" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.property.shapeAveragePercentageInput"></a>
 
 ```python
 shape_average_percentage_input: IResolvable | typing.List[GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage]
 ```
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage">GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage</a>]
+- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage">GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage</a>]
 
 ---
 
-##### `strict_priority_policy_input`<sup>Optional</sup> <a name="strict_priority_policy_input" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.property.strictPriorityPolicyInput"></a>
+##### `strict_priority_policy_input`<sup>Optional</sup> <a name="strict_priority_policy_input" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.property.strictPriorityPolicyInput"></a>
 
 ```python
 strict_priority_policy_input: GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicy
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicy">GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicy</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicy">GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicy</a>
 
 ---
 
-##### `profile_description`<sup>Required</sup> <a name="profile_description" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.property.profileDescription"></a>
+##### `profile_description`<sup>Required</sup> <a name="profile_description" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.property.profileDescription"></a>
 
 ```python
 profile_description: str
@@ -4009,23 +4009,23 @@ profile_description: str
 
 ---
 
-##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.property.internalValue"></a>
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.property.internalValue"></a>
 
 ```python
 internal_value: GoogleComputeInterconnectApplicationAwareInterconnect
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnect">GoogleComputeInterconnectApplicationAwareInterconnect</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnect">GoogleComputeInterconnectApplicationAwareInterconnect</a>
 
 ---
 
 
-### GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList <a name="GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList"></a>
+### GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList <a name="GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_compute_interconnect
+from cdktn_provider_google_beta import google_compute_interconnect
 
 googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList(
   terraform_resource: IInterpolatingParent,
@@ -4036,13 +4036,13 @@ googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectS
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
 
 ---
 
-##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.Initializer.parameter.terraformResource"></a>
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.Initializer.parameter.terraformResource"></a>
 
 - *Type:* cdktf.IInterpolatingParent
 
@@ -4050,7 +4050,7 @@ The parent resource.
 
 ---
 
-##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.Initializer.parameter.terraformAttribute"></a>
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
@@ -4058,7 +4058,7 @@ The attribute on the parent resource this class is referencing.
 
 ---
 
-##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.Initializer.parameter.wrapsSet"></a>
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.Initializer.parameter.wrapsSet"></a>
 
 - *Type:* bool
 
@@ -4070,15 +4070,15 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.computeFqn">compute_fqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.get">get</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.get">get</a></code> | *No description.* |
 
 ---
 
-##### `all_with_map_key` <a name="all_with_map_key" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.allWithMapKey"></a>
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.allWithMapKey"></a>
 
 ```python
 def all_with_map_key(
@@ -4090,19 +4090,19 @@ Creating an iterator for this complex list.
 
 The list will be converted into a map with the mapKeyAttributeName as the key.
 
-###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.allWithMapKey.parameter.mapKeyAttributeName"></a>
 
 - *Type:* str
 
 ---
 
-##### `compute_fqn` <a name="compute_fqn" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.computeFqn"></a>
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.computeFqn"></a>
 
 ```python
 def compute_fqn() -> str
 ```
 
-##### `resolve` <a name="resolve" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.resolve"></a>
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.resolve"></a>
 
 ```python
 def resolve(
@@ -4112,13 +4112,13 @@ def resolve(
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.resolve.parameter._context"></a>
 
 - *Type:* cdktf.IResolveContext
 
 ---
 
-##### `to_string` <a name="to_string" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.toString"></a>
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.toString"></a>
 
 ```python
 def to_string() -> str
@@ -4128,7 +4128,7 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `get` <a name="get" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.get"></a>
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.get"></a>
 
 ```python
 def get(
@@ -4136,7 +4136,7 @@ def get(
 ) -> GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference
 ```
 
-###### `index`<sup>Required</sup> <a name="index" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.get.parameter.index"></a>
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.get.parameter.index"></a>
 
 - *Type:* typing.Union[int, float]
 
@@ -4149,13 +4149,13 @@ the index of the item to return.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.property.internalValue">internal_value</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage">GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage</a>]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.property.internalValue">internal_value</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage">GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage</a>]</code> | *No description.* |
 
 ---
 
-##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.property.creationStack"></a>
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.property.creationStack"></a>
 
 ```python
 creation_stack: typing.List[str]
@@ -4169,7 +4169,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.property.fqn"></a>
 
 ```python
 fqn: str
@@ -4179,23 +4179,23 @@ fqn: str
 
 ---
 
-##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.property.internalValue"></a>
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.property.internalValue"></a>
 
 ```python
 internal_value: IResolvable | typing.List[GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage]
 ```
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage">GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage</a>]
+- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage">GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage</a>]
 
 ---
 
 
-### GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference <a name="GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference"></a>
+### GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference <a name="GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_compute_interconnect
+from cdktn_provider_google_beta import google_compute_interconnect
 
 googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference(
   terraform_resource: IInterpolatingParent,
@@ -4207,14 +4207,14 @@ googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectS
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
 
 ---
 
-##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.Initializer.parameter.terraformResource"></a>
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.Initializer.parameter.terraformResource"></a>
 
 - *Type:* cdktf.IInterpolatingParent
 
@@ -4222,7 +4222,7 @@ The parent resource.
 
 ---
 
-##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.Initializer.parameter.terraformAttribute"></a>
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
@@ -4230,7 +4230,7 @@ The attribute on the parent resource this class is referencing.
 
 ---
 
-##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.Initializer.parameter.complexObjectIndex"></a>
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.Initializer.parameter.complexObjectIndex"></a>
 
 - *Type:* typing.Union[int, float]
 
@@ -4238,7 +4238,7 @@ the index of this item in the list.
 
 ---
 
-##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
 
 - *Type:* bool
 
@@ -4250,31 +4250,31 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.resetPercentage">reset_percentage</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.resetTrafficClass">reset_traffic_class</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.resetPercentage">reset_percentage</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.resetTrafficClass">reset_traffic_class</a></code> | *No description.* |
 
 ---
 
-##### `compute_fqn` <a name="compute_fqn" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.computeFqn"></a>
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.computeFqn"></a>
 
 ```python
 def compute_fqn() -> str
 ```
 
-##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getAnyMapAttribute"></a>
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getAnyMapAttribute"></a>
 
 ```python
 def get_any_map_attribute(
@@ -4282,13 +4282,13 @@ def get_any_map_attribute(
 ) -> typing.Mapping[typing.Any]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getBooleanAttribute"></a>
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getBooleanAttribute"></a>
 
 ```python
 def get_boolean_attribute(
@@ -4296,13 +4296,13 @@ def get_boolean_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getBooleanMapAttribute"></a>
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getBooleanMapAttribute"></a>
 
 ```python
 def get_boolean_map_attribute(
@@ -4310,13 +4310,13 @@ def get_boolean_map_attribute(
 ) -> typing.Mapping[bool]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_list_attribute` <a name="get_list_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getListAttribute"></a>
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getListAttribute"></a>
 
 ```python
 def get_list_attribute(
@@ -4324,13 +4324,13 @@ def get_list_attribute(
 ) -> typing.List[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_attribute` <a name="get_number_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getNumberAttribute"></a>
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getNumberAttribute"></a>
 
 ```python
 def get_number_attribute(
@@ -4338,13 +4338,13 @@ def get_number_attribute(
 ) -> typing.Union[int, float]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getNumberListAttribute"></a>
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getNumberListAttribute"></a>
 
 ```python
 def get_number_list_attribute(
@@ -4352,13 +4352,13 @@ def get_number_list_attribute(
 ) -> typing.List[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getNumberMapAttribute"></a>
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getNumberMapAttribute"></a>
 
 ```python
 def get_number_map_attribute(
@@ -4366,13 +4366,13 @@ def get_number_map_attribute(
 ) -> typing.Mapping[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_attribute` <a name="get_string_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getStringAttribute"></a>
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getStringAttribute"></a>
 
 ```python
 def get_string_attribute(
@@ -4380,13 +4380,13 @@ def get_string_attribute(
 ) -> str
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getStringMapAttribute"></a>
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getStringMapAttribute"></a>
 
 ```python
 def get_string_map_attribute(
@@ -4394,13 +4394,13 @@ def get_string_map_attribute(
 ) -> typing.Mapping[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.interpolationForAttribute"></a>
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.interpolationForAttribute"></a>
 
 ```python
 def interpolation_for_attribute(
@@ -4408,13 +4408,13 @@ def interpolation_for_attribute(
 ) -> IResolvable
 ```
 
-###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.interpolationForAttribute.parameter.property"></a>
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.interpolationForAttribute.parameter.property"></a>
 
 - *Type:* str
 
 ---
 
-##### `resolve` <a name="resolve" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.resolve"></a>
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.resolve"></a>
 
 ```python
 def resolve(
@@ -4424,13 +4424,13 @@ def resolve(
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.resolve.parameter._context"></a>
 
 - *Type:* cdktf.IResolveContext
 
 ---
 
-##### `to_string` <a name="to_string" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.toString"></a>
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.toString"></a>
 
 ```python
 def to_string() -> str
@@ -4440,13 +4440,13 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `reset_percentage` <a name="reset_percentage" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.resetPercentage"></a>
+##### `reset_percentage` <a name="reset_percentage" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.resetPercentage"></a>
 
 ```python
 def reset_percentage() -> None
 ```
 
-##### `reset_traffic_class` <a name="reset_traffic_class" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.resetTrafficClass"></a>
+##### `reset_traffic_class` <a name="reset_traffic_class" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.resetTrafficClass"></a>
 
 ```python
 def reset_traffic_class() -> None
@@ -4457,17 +4457,17 @@ def reset_traffic_class() -> None
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.property.percentageInput">percentage_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.property.trafficClassInput">traffic_class_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.property.percentage">percentage</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.property.trafficClass">traffic_class</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.property.internalValue">internal_value</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage">GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.property.percentageInput">percentage_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.property.trafficClassInput">traffic_class_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.property.percentage">percentage</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.property.trafficClass">traffic_class</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.property.internalValue">internal_value</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage">GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage</a></code> | *No description.* |
 
 ---
 
-##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.property.creationStack"></a>
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.property.creationStack"></a>
 
 ```python
 creation_stack: typing.List[str]
@@ -4481,7 +4481,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.property.fqn"></a>
 
 ```python
 fqn: str
@@ -4491,7 +4491,7 @@ fqn: str
 
 ---
 
-##### `percentage_input`<sup>Optional</sup> <a name="percentage_input" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.property.percentageInput"></a>
+##### `percentage_input`<sup>Optional</sup> <a name="percentage_input" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.property.percentageInput"></a>
 
 ```python
 percentage_input: typing.Union[int, float]
@@ -4501,7 +4501,7 @@ percentage_input: typing.Union[int, float]
 
 ---
 
-##### `traffic_class_input`<sup>Optional</sup> <a name="traffic_class_input" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.property.trafficClassInput"></a>
+##### `traffic_class_input`<sup>Optional</sup> <a name="traffic_class_input" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.property.trafficClassInput"></a>
 
 ```python
 traffic_class_input: str
@@ -4511,7 +4511,7 @@ traffic_class_input: str
 
 ---
 
-##### `percentage`<sup>Required</sup> <a name="percentage" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.property.percentage"></a>
+##### `percentage`<sup>Required</sup> <a name="percentage" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.property.percentage"></a>
 
 ```python
 percentage: typing.Union[int, float]
@@ -4521,7 +4521,7 @@ percentage: typing.Union[int, float]
 
 ---
 
-##### `traffic_class`<sup>Required</sup> <a name="traffic_class" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.property.trafficClass"></a>
+##### `traffic_class`<sup>Required</sup> <a name="traffic_class" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.property.trafficClass"></a>
 
 ```python
 traffic_class: str
@@ -4531,23 +4531,23 @@ traffic_class: str
 
 ---
 
-##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.property.internalValue"></a>
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.property.internalValue"></a>
 
 ```python
 internal_value: IResolvable | GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage">GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage</a>
+- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage">GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage</a>
 
 ---
 
 
-### GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference <a name="GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference"></a>
+### GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference <a name="GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_compute_interconnect
+from cdktn_provider_google_beta import google_compute_interconnect
 
 googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference(
   terraform_resource: IInterpolatingParent,
@@ -4557,12 +4557,12 @@ googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectS
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
-##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.Initializer.parameter.terraformResource"></a>
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.Initializer.parameter.terraformResource"></a>
 
 - *Type:* cdktf.IInterpolatingParent
 
@@ -4570,7 +4570,7 @@ The parent resource.
 
 ---
 
-##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.Initializer.parameter.terraformAttribute"></a>
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
@@ -4582,29 +4582,29 @@ The attribute on the parent resource this class is referencing.
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
 
 ---
 
-##### `compute_fqn` <a name="compute_fqn" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.computeFqn"></a>
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.computeFqn"></a>
 
 ```python
 def compute_fqn() -> str
 ```
 
-##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getAnyMapAttribute"></a>
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getAnyMapAttribute"></a>
 
 ```python
 def get_any_map_attribute(
@@ -4612,13 +4612,13 @@ def get_any_map_attribute(
 ) -> typing.Mapping[typing.Any]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getBooleanAttribute"></a>
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getBooleanAttribute"></a>
 
 ```python
 def get_boolean_attribute(
@@ -4626,13 +4626,13 @@ def get_boolean_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getBooleanMapAttribute"></a>
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getBooleanMapAttribute"></a>
 
 ```python
 def get_boolean_map_attribute(
@@ -4640,13 +4640,13 @@ def get_boolean_map_attribute(
 ) -> typing.Mapping[bool]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_list_attribute` <a name="get_list_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getListAttribute"></a>
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getListAttribute"></a>
 
 ```python
 def get_list_attribute(
@@ -4654,13 +4654,13 @@ def get_list_attribute(
 ) -> typing.List[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_attribute` <a name="get_number_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getNumberAttribute"></a>
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getNumberAttribute"></a>
 
 ```python
 def get_number_attribute(
@@ -4668,13 +4668,13 @@ def get_number_attribute(
 ) -> typing.Union[int, float]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getNumberListAttribute"></a>
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getNumberListAttribute"></a>
 
 ```python
 def get_number_list_attribute(
@@ -4682,13 +4682,13 @@ def get_number_list_attribute(
 ) -> typing.List[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getNumberMapAttribute"></a>
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getNumberMapAttribute"></a>
 
 ```python
 def get_number_map_attribute(
@@ -4696,13 +4696,13 @@ def get_number_map_attribute(
 ) -> typing.Mapping[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_attribute` <a name="get_string_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getStringAttribute"></a>
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getStringAttribute"></a>
 
 ```python
 def get_string_attribute(
@@ -4710,13 +4710,13 @@ def get_string_attribute(
 ) -> str
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getStringMapAttribute"></a>
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getStringMapAttribute"></a>
 
 ```python
 def get_string_map_attribute(
@@ -4724,13 +4724,13 @@ def get_string_map_attribute(
 ) -> typing.Mapping[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.interpolationForAttribute"></a>
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.interpolationForAttribute"></a>
 
 ```python
 def interpolation_for_attribute(
@@ -4738,13 +4738,13 @@ def interpolation_for_attribute(
 ) -> IResolvable
 ```
 
-###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.interpolationForAttribute.parameter.property"></a>
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.interpolationForAttribute.parameter.property"></a>
 
 - *Type:* str
 
 ---
 
-##### `resolve` <a name="resolve" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.resolve"></a>
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.resolve"></a>
 
 ```python
 def resolve(
@@ -4754,13 +4754,13 @@ def resolve(
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.resolve.parameter._context"></a>
 
 - *Type:* cdktf.IResolveContext
 
 ---
 
-##### `to_string` <a name="to_string" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.toString"></a>
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.toString"></a>
 
 ```python
 def to_string() -> str
@@ -4775,13 +4775,13 @@ Returns a reversible string representation.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicy">GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicy">GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicy</a></code> | *No description.* |
 
 ---
 
-##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.property.creationStack"></a>
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.property.creationStack"></a>
 
 ```python
 creation_stack: typing.List[str]
@@ -4795,7 +4795,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.property.fqn"></a>
 
 ```python
 fqn: str
@@ -4805,23 +4805,23 @@ fqn: str
 
 ---
 
-##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.property.internalValue"></a>
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.property.internalValue"></a>
 
 ```python
 internal_value: GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicy
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicy">GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicy</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicy">GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicy</a>
 
 ---
 
 
-### GoogleComputeInterconnectCircuitInfosList <a name="GoogleComputeInterconnectCircuitInfosList" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList"></a>
+### GoogleComputeInterconnectCircuitInfosList <a name="GoogleComputeInterconnectCircuitInfosList" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_compute_interconnect
+from cdktn_provider_google_beta import google_compute_interconnect
 
 googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList(
   terraform_resource: IInterpolatingParent,
@@ -4832,13 +4832,13 @@ googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
 
 ---
 
-##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.Initializer.parameter.terraformResource"></a>
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.Initializer.parameter.terraformResource"></a>
 
 - *Type:* cdktf.IInterpolatingParent
 
@@ -4846,7 +4846,7 @@ The parent resource.
 
 ---
 
-##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.Initializer.parameter.terraformAttribute"></a>
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
@@ -4854,7 +4854,7 @@ The attribute on the parent resource this class is referencing.
 
 ---
 
-##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.Initializer.parameter.wrapsSet"></a>
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.Initializer.parameter.wrapsSet"></a>
 
 - *Type:* bool
 
@@ -4866,15 +4866,15 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.computeFqn">compute_fqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.get">get</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.get">get</a></code> | *No description.* |
 
 ---
 
-##### `all_with_map_key` <a name="all_with_map_key" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.allWithMapKey"></a>
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.allWithMapKey"></a>
 
 ```python
 def all_with_map_key(
@@ -4886,19 +4886,19 @@ Creating an iterator for this complex list.
 
 The list will be converted into a map with the mapKeyAttributeName as the key.
 
-###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.allWithMapKey.parameter.mapKeyAttributeName"></a>
 
 - *Type:* str
 
 ---
 
-##### `compute_fqn` <a name="compute_fqn" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.computeFqn"></a>
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.computeFqn"></a>
 
 ```python
 def compute_fqn() -> str
 ```
 
-##### `resolve` <a name="resolve" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.resolve"></a>
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.resolve"></a>
 
 ```python
 def resolve(
@@ -4908,13 +4908,13 @@ def resolve(
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.resolve.parameter._context"></a>
 
 - *Type:* cdktf.IResolveContext
 
 ---
 
-##### `to_string` <a name="to_string" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.toString"></a>
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.toString"></a>
 
 ```python
 def to_string() -> str
@@ -4924,7 +4924,7 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `get` <a name="get" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.get"></a>
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.get"></a>
 
 ```python
 def get(
@@ -4932,7 +4932,7 @@ def get(
 ) -> GoogleComputeInterconnectCircuitInfosOutputReference
 ```
 
-###### `index`<sup>Required</sup> <a name="index" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.get.parameter.index"></a>
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.get.parameter.index"></a>
 
 - *Type:* typing.Union[int, float]
 
@@ -4945,12 +4945,12 @@ the index of the item to return.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
 
 ---
 
-##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.property.creationStack"></a>
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.property.creationStack"></a>
 
 ```python
 creation_stack: typing.List[str]
@@ -4964,7 +4964,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.property.fqn"></a>
 
 ```python
 fqn: str
@@ -4975,12 +4975,12 @@ fqn: str
 ---
 
 
-### GoogleComputeInterconnectCircuitInfosOutputReference <a name="GoogleComputeInterconnectCircuitInfosOutputReference" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference"></a>
+### GoogleComputeInterconnectCircuitInfosOutputReference <a name="GoogleComputeInterconnectCircuitInfosOutputReference" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_compute_interconnect
+from cdktn_provider_google_beta import google_compute_interconnect
 
 googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference(
   terraform_resource: IInterpolatingParent,
@@ -4992,14 +4992,14 @@ googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
 
 ---
 
-##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.Initializer.parameter.terraformResource"></a>
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.Initializer.parameter.terraformResource"></a>
 
 - *Type:* cdktf.IInterpolatingParent
 
@@ -5007,7 +5007,7 @@ The parent resource.
 
 ---
 
-##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.Initializer.parameter.terraformAttribute"></a>
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
@@ -5015,7 +5015,7 @@ The attribute on the parent resource this class is referencing.
 
 ---
 
-##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.Initializer.parameter.complexObjectIndex"></a>
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.Initializer.parameter.complexObjectIndex"></a>
 
 - *Type:* typing.Union[int, float]
 
@@ -5023,7 +5023,7 @@ the index of this item in the list.
 
 ---
 
-##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
 
 - *Type:* bool
 
@@ -5035,29 +5035,29 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
 
 ---
 
-##### `compute_fqn` <a name="compute_fqn" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.computeFqn"></a>
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.computeFqn"></a>
 
 ```python
 def compute_fqn() -> str
 ```
 
-##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getAnyMapAttribute"></a>
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getAnyMapAttribute"></a>
 
 ```python
 def get_any_map_attribute(
@@ -5065,13 +5065,13 @@ def get_any_map_attribute(
 ) -> typing.Mapping[typing.Any]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getBooleanAttribute"></a>
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getBooleanAttribute"></a>
 
 ```python
 def get_boolean_attribute(
@@ -5079,13 +5079,13 @@ def get_boolean_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getBooleanMapAttribute"></a>
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getBooleanMapAttribute"></a>
 
 ```python
 def get_boolean_map_attribute(
@@ -5093,13 +5093,13 @@ def get_boolean_map_attribute(
 ) -> typing.Mapping[bool]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_list_attribute` <a name="get_list_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getListAttribute"></a>
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getListAttribute"></a>
 
 ```python
 def get_list_attribute(
@@ -5107,13 +5107,13 @@ def get_list_attribute(
 ) -> typing.List[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_attribute` <a name="get_number_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getNumberAttribute"></a>
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getNumberAttribute"></a>
 
 ```python
 def get_number_attribute(
@@ -5121,13 +5121,13 @@ def get_number_attribute(
 ) -> typing.Union[int, float]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getNumberListAttribute"></a>
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getNumberListAttribute"></a>
 
 ```python
 def get_number_list_attribute(
@@ -5135,13 +5135,13 @@ def get_number_list_attribute(
 ) -> typing.List[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getNumberMapAttribute"></a>
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getNumberMapAttribute"></a>
 
 ```python
 def get_number_map_attribute(
@@ -5149,13 +5149,13 @@ def get_number_map_attribute(
 ) -> typing.Mapping[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_attribute` <a name="get_string_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getStringAttribute"></a>
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getStringAttribute"></a>
 
 ```python
 def get_string_attribute(
@@ -5163,13 +5163,13 @@ def get_string_attribute(
 ) -> str
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getStringMapAttribute"></a>
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getStringMapAttribute"></a>
 
 ```python
 def get_string_map_attribute(
@@ -5177,13 +5177,13 @@ def get_string_map_attribute(
 ) -> typing.Mapping[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.interpolationForAttribute"></a>
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.interpolationForAttribute"></a>
 
 ```python
 def interpolation_for_attribute(
@@ -5191,13 +5191,13 @@ def interpolation_for_attribute(
 ) -> IResolvable
 ```
 
-###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.interpolationForAttribute.parameter.property"></a>
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.interpolationForAttribute.parameter.property"></a>
 
 - *Type:* str
 
 ---
 
-##### `resolve` <a name="resolve" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.resolve"></a>
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.resolve"></a>
 
 ```python
 def resolve(
@@ -5207,13 +5207,13 @@ def resolve(
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.resolve.parameter._context"></a>
 
 - *Type:* cdktf.IResolveContext
 
 ---
 
-##### `to_string` <a name="to_string" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.toString"></a>
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.toString"></a>
 
 ```python
 def to_string() -> str
@@ -5228,16 +5228,16 @@ Returns a reversible string representation.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.property.customerDemarcId">customer_demarc_id</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.property.googleCircuitId">google_circuit_id</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.property.googleDemarcId">google_demarc_id</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfos">GoogleComputeInterconnectCircuitInfos</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.property.customerDemarcId">customer_demarc_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.property.googleCircuitId">google_circuit_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.property.googleDemarcId">google_demarc_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfos">GoogleComputeInterconnectCircuitInfos</a></code> | *No description.* |
 
 ---
 
-##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.property.creationStack"></a>
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.property.creationStack"></a>
 
 ```python
 creation_stack: typing.List[str]
@@ -5251,7 +5251,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.property.fqn"></a>
 
 ```python
 fqn: str
@@ -5261,7 +5261,7 @@ fqn: str
 
 ---
 
-##### `customer_demarc_id`<sup>Required</sup> <a name="customer_demarc_id" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.property.customerDemarcId"></a>
+##### `customer_demarc_id`<sup>Required</sup> <a name="customer_demarc_id" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.property.customerDemarcId"></a>
 
 ```python
 customer_demarc_id: str
@@ -5271,7 +5271,7 @@ customer_demarc_id: str
 
 ---
 
-##### `google_circuit_id`<sup>Required</sup> <a name="google_circuit_id" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.property.googleCircuitId"></a>
+##### `google_circuit_id`<sup>Required</sup> <a name="google_circuit_id" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.property.googleCircuitId"></a>
 
 ```python
 google_circuit_id: str
@@ -5281,7 +5281,7 @@ google_circuit_id: str
 
 ---
 
-##### `google_demarc_id`<sup>Required</sup> <a name="google_demarc_id" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.property.googleDemarcId"></a>
+##### `google_demarc_id`<sup>Required</sup> <a name="google_demarc_id" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.property.googleDemarcId"></a>
 
 ```python
 google_demarc_id: str
@@ -5291,23 +5291,23 @@ google_demarc_id: str
 
 ---
 
-##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.property.internalValue"></a>
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.property.internalValue"></a>
 
 ```python
 internal_value: GoogleComputeInterconnectCircuitInfos
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfos">GoogleComputeInterconnectCircuitInfos</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfos">GoogleComputeInterconnectCircuitInfos</a>
 
 ---
 
 
-### GoogleComputeInterconnectExpectedOutagesList <a name="GoogleComputeInterconnectExpectedOutagesList" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList"></a>
+### GoogleComputeInterconnectExpectedOutagesList <a name="GoogleComputeInterconnectExpectedOutagesList" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_compute_interconnect
+from cdktn_provider_google_beta import google_compute_interconnect
 
 googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList(
   terraform_resource: IInterpolatingParent,
@@ -5318,13 +5318,13 @@ googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
 
 ---
 
-##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.Initializer.parameter.terraformResource"></a>
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.Initializer.parameter.terraformResource"></a>
 
 - *Type:* cdktf.IInterpolatingParent
 
@@ -5332,7 +5332,7 @@ The parent resource.
 
 ---
 
-##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.Initializer.parameter.terraformAttribute"></a>
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
@@ -5340,7 +5340,7 @@ The attribute on the parent resource this class is referencing.
 
 ---
 
-##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.Initializer.parameter.wrapsSet"></a>
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.Initializer.parameter.wrapsSet"></a>
 
 - *Type:* bool
 
@@ -5352,15 +5352,15 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.computeFqn">compute_fqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.get">get</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.get">get</a></code> | *No description.* |
 
 ---
 
-##### `all_with_map_key` <a name="all_with_map_key" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.allWithMapKey"></a>
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.allWithMapKey"></a>
 
 ```python
 def all_with_map_key(
@@ -5372,19 +5372,19 @@ Creating an iterator for this complex list.
 
 The list will be converted into a map with the mapKeyAttributeName as the key.
 
-###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.allWithMapKey.parameter.mapKeyAttributeName"></a>
 
 - *Type:* str
 
 ---
 
-##### `compute_fqn` <a name="compute_fqn" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.computeFqn"></a>
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.computeFqn"></a>
 
 ```python
 def compute_fqn() -> str
 ```
 
-##### `resolve` <a name="resolve" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.resolve"></a>
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.resolve"></a>
 
 ```python
 def resolve(
@@ -5394,13 +5394,13 @@ def resolve(
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.resolve.parameter._context"></a>
 
 - *Type:* cdktf.IResolveContext
 
 ---
 
-##### `to_string` <a name="to_string" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.toString"></a>
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.toString"></a>
 
 ```python
 def to_string() -> str
@@ -5410,7 +5410,7 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `get` <a name="get" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.get"></a>
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.get"></a>
 
 ```python
 def get(
@@ -5418,7 +5418,7 @@ def get(
 ) -> GoogleComputeInterconnectExpectedOutagesOutputReference
 ```
 
-###### `index`<sup>Required</sup> <a name="index" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.get.parameter.index"></a>
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.get.parameter.index"></a>
 
 - *Type:* typing.Union[int, float]
 
@@ -5431,12 +5431,12 @@ the index of the item to return.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
 
 ---
 
-##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.property.creationStack"></a>
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.property.creationStack"></a>
 
 ```python
 creation_stack: typing.List[str]
@@ -5450,7 +5450,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.property.fqn"></a>
 
 ```python
 fqn: str
@@ -5461,12 +5461,12 @@ fqn: str
 ---
 
 
-### GoogleComputeInterconnectExpectedOutagesOutputReference <a name="GoogleComputeInterconnectExpectedOutagesOutputReference" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference"></a>
+### GoogleComputeInterconnectExpectedOutagesOutputReference <a name="GoogleComputeInterconnectExpectedOutagesOutputReference" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_compute_interconnect
+from cdktn_provider_google_beta import google_compute_interconnect
 
 googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference(
   terraform_resource: IInterpolatingParent,
@@ -5478,14 +5478,14 @@ googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReferenc
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
 
 ---
 
-##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.Initializer.parameter.terraformResource"></a>
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.Initializer.parameter.terraformResource"></a>
 
 - *Type:* cdktf.IInterpolatingParent
 
@@ -5493,7 +5493,7 @@ The parent resource.
 
 ---
 
-##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.Initializer.parameter.terraformAttribute"></a>
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
@@ -5501,7 +5501,7 @@ The attribute on the parent resource this class is referencing.
 
 ---
 
-##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.Initializer.parameter.complexObjectIndex"></a>
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.Initializer.parameter.complexObjectIndex"></a>
 
 - *Type:* typing.Union[int, float]
 
@@ -5509,7 +5509,7 @@ the index of this item in the list.
 
 ---
 
-##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
 
 - *Type:* bool
 
@@ -5521,29 +5521,29 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
 
 ---
 
-##### `compute_fqn` <a name="compute_fqn" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.computeFqn"></a>
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.computeFqn"></a>
 
 ```python
 def compute_fqn() -> str
 ```
 
-##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getAnyMapAttribute"></a>
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getAnyMapAttribute"></a>
 
 ```python
 def get_any_map_attribute(
@@ -5551,13 +5551,13 @@ def get_any_map_attribute(
 ) -> typing.Mapping[typing.Any]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getBooleanAttribute"></a>
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getBooleanAttribute"></a>
 
 ```python
 def get_boolean_attribute(
@@ -5565,13 +5565,13 @@ def get_boolean_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getBooleanMapAttribute"></a>
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getBooleanMapAttribute"></a>
 
 ```python
 def get_boolean_map_attribute(
@@ -5579,13 +5579,13 @@ def get_boolean_map_attribute(
 ) -> typing.Mapping[bool]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_list_attribute` <a name="get_list_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getListAttribute"></a>
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getListAttribute"></a>
 
 ```python
 def get_list_attribute(
@@ -5593,13 +5593,13 @@ def get_list_attribute(
 ) -> typing.List[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_attribute` <a name="get_number_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getNumberAttribute"></a>
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getNumberAttribute"></a>
 
 ```python
 def get_number_attribute(
@@ -5607,13 +5607,13 @@ def get_number_attribute(
 ) -> typing.Union[int, float]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getNumberListAttribute"></a>
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getNumberListAttribute"></a>
 
 ```python
 def get_number_list_attribute(
@@ -5621,13 +5621,13 @@ def get_number_list_attribute(
 ) -> typing.List[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getNumberMapAttribute"></a>
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getNumberMapAttribute"></a>
 
 ```python
 def get_number_map_attribute(
@@ -5635,13 +5635,13 @@ def get_number_map_attribute(
 ) -> typing.Mapping[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_attribute` <a name="get_string_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getStringAttribute"></a>
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getStringAttribute"></a>
 
 ```python
 def get_string_attribute(
@@ -5649,13 +5649,13 @@ def get_string_attribute(
 ) -> str
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getStringMapAttribute"></a>
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getStringMapAttribute"></a>
 
 ```python
 def get_string_map_attribute(
@@ -5663,13 +5663,13 @@ def get_string_map_attribute(
 ) -> typing.Mapping[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.interpolationForAttribute"></a>
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.interpolationForAttribute"></a>
 
 ```python
 def interpolation_for_attribute(
@@ -5677,13 +5677,13 @@ def interpolation_for_attribute(
 ) -> IResolvable
 ```
 
-###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.interpolationForAttribute.parameter.property"></a>
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.interpolationForAttribute.parameter.property"></a>
 
 - *Type:* str
 
 ---
 
-##### `resolve` <a name="resolve" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.resolve"></a>
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.resolve"></a>
 
 ```python
 def resolve(
@@ -5693,13 +5693,13 @@ def resolve(
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.resolve.parameter._context"></a>
 
 - *Type:* cdktf.IResolveContext
 
 ---
 
-##### `to_string` <a name="to_string" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.toString"></a>
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.toString"></a>
 
 ```python
 def to_string() -> str
@@ -5714,21 +5714,21 @@ Returns a reversible string representation.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.property.affectedCircuits">affected_circuits</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.property.description">description</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.property.endTime">end_time</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.property.issueType">issue_type</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.property.source">source</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.property.startTime">start_time</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.property.state">state</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutages">GoogleComputeInterconnectExpectedOutages</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.property.affectedCircuits">affected_circuits</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.property.description">description</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.property.endTime">end_time</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.property.issueType">issue_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.property.source">source</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.property.startTime">start_time</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.property.state">state</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutages">GoogleComputeInterconnectExpectedOutages</a></code> | *No description.* |
 
 ---
 
-##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.property.creationStack"></a>
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.property.creationStack"></a>
 
 ```python
 creation_stack: typing.List[str]
@@ -5742,7 +5742,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.property.fqn"></a>
 
 ```python
 fqn: str
@@ -5752,7 +5752,7 @@ fqn: str
 
 ---
 
-##### `affected_circuits`<sup>Required</sup> <a name="affected_circuits" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.property.affectedCircuits"></a>
+##### `affected_circuits`<sup>Required</sup> <a name="affected_circuits" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.property.affectedCircuits"></a>
 
 ```python
 affected_circuits: typing.List[str]
@@ -5762,7 +5762,7 @@ affected_circuits: typing.List[str]
 
 ---
 
-##### `description`<sup>Required</sup> <a name="description" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.property.description"></a>
+##### `description`<sup>Required</sup> <a name="description" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.property.description"></a>
 
 ```python
 description: str
@@ -5772,7 +5772,7 @@ description: str
 
 ---
 
-##### `end_time`<sup>Required</sup> <a name="end_time" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.property.endTime"></a>
+##### `end_time`<sup>Required</sup> <a name="end_time" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.property.endTime"></a>
 
 ```python
 end_time: str
@@ -5782,7 +5782,7 @@ end_time: str
 
 ---
 
-##### `issue_type`<sup>Required</sup> <a name="issue_type" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.property.issueType"></a>
+##### `issue_type`<sup>Required</sup> <a name="issue_type" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.property.issueType"></a>
 
 ```python
 issue_type: str
@@ -5792,7 +5792,7 @@ issue_type: str
 
 ---
 
-##### `name`<sup>Required</sup> <a name="name" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.property.name"></a>
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.property.name"></a>
 
 ```python
 name: str
@@ -5802,7 +5802,7 @@ name: str
 
 ---
 
-##### `source`<sup>Required</sup> <a name="source" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.property.source"></a>
+##### `source`<sup>Required</sup> <a name="source" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.property.source"></a>
 
 ```python
 source: str
@@ -5812,7 +5812,7 @@ source: str
 
 ---
 
-##### `start_time`<sup>Required</sup> <a name="start_time" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.property.startTime"></a>
+##### `start_time`<sup>Required</sup> <a name="start_time" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.property.startTime"></a>
 
 ```python
 start_time: str
@@ -5822,7 +5822,7 @@ start_time: str
 
 ---
 
-##### `state`<sup>Required</sup> <a name="state" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.property.state"></a>
+##### `state`<sup>Required</sup> <a name="state" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.property.state"></a>
 
 ```python
 state: str
@@ -5832,23 +5832,23 @@ state: str
 
 ---
 
-##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.property.internalValue"></a>
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.property.internalValue"></a>
 
 ```python
 internal_value: GoogleComputeInterconnectExpectedOutages
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutages">GoogleComputeInterconnectExpectedOutages</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutages">GoogleComputeInterconnectExpectedOutages</a>
 
 ---
 
 
-### GoogleComputeInterconnectMacsecOutputReference <a name="GoogleComputeInterconnectMacsecOutputReference" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference"></a>
+### GoogleComputeInterconnectMacsecOutputReference <a name="GoogleComputeInterconnectMacsecOutputReference" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_compute_interconnect
+from cdktn_provider_google_beta import google_compute_interconnect
 
 googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference(
   terraform_resource: IInterpolatingParent,
@@ -5858,12 +5858,12 @@ googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
-##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.Initializer.parameter.terraformResource"></a>
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.Initializer.parameter.terraformResource"></a>
 
 - *Type:* cdktf.IInterpolatingParent
 
@@ -5871,7 +5871,7 @@ The parent resource.
 
 ---
 
-##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.Initializer.parameter.terraformAttribute"></a>
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
@@ -5883,31 +5883,31 @@ The attribute on the parent resource this class is referencing.
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.putPreSharedKeys">put_pre_shared_keys</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.resetFailOpen">reset_fail_open</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.putPreSharedKeys">put_pre_shared_keys</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.resetFailOpen">reset_fail_open</a></code> | *No description.* |
 
 ---
 
-##### `compute_fqn` <a name="compute_fqn" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.computeFqn"></a>
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.computeFqn"></a>
 
 ```python
 def compute_fqn() -> str
 ```
 
-##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getAnyMapAttribute"></a>
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getAnyMapAttribute"></a>
 
 ```python
 def get_any_map_attribute(
@@ -5915,13 +5915,13 @@ def get_any_map_attribute(
 ) -> typing.Mapping[typing.Any]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getBooleanAttribute"></a>
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getBooleanAttribute"></a>
 
 ```python
 def get_boolean_attribute(
@@ -5929,13 +5929,13 @@ def get_boolean_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getBooleanMapAttribute"></a>
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getBooleanMapAttribute"></a>
 
 ```python
 def get_boolean_map_attribute(
@@ -5943,13 +5943,13 @@ def get_boolean_map_attribute(
 ) -> typing.Mapping[bool]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_list_attribute` <a name="get_list_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getListAttribute"></a>
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getListAttribute"></a>
 
 ```python
 def get_list_attribute(
@@ -5957,13 +5957,13 @@ def get_list_attribute(
 ) -> typing.List[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_attribute` <a name="get_number_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getNumberAttribute"></a>
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getNumberAttribute"></a>
 
 ```python
 def get_number_attribute(
@@ -5971,13 +5971,13 @@ def get_number_attribute(
 ) -> typing.Union[int, float]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getNumberListAttribute"></a>
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getNumberListAttribute"></a>
 
 ```python
 def get_number_list_attribute(
@@ -5985,13 +5985,13 @@ def get_number_list_attribute(
 ) -> typing.List[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getNumberMapAttribute"></a>
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getNumberMapAttribute"></a>
 
 ```python
 def get_number_map_attribute(
@@ -5999,13 +5999,13 @@ def get_number_map_attribute(
 ) -> typing.Mapping[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_attribute` <a name="get_string_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getStringAttribute"></a>
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getStringAttribute"></a>
 
 ```python
 def get_string_attribute(
@@ -6013,13 +6013,13 @@ def get_string_attribute(
 ) -> str
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getStringMapAttribute"></a>
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getStringMapAttribute"></a>
 
 ```python
 def get_string_map_attribute(
@@ -6027,13 +6027,13 @@ def get_string_map_attribute(
 ) -> typing.Mapping[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.interpolationForAttribute"></a>
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.interpolationForAttribute"></a>
 
 ```python
 def interpolation_for_attribute(
@@ -6041,13 +6041,13 @@ def interpolation_for_attribute(
 ) -> IResolvable
 ```
 
-###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.interpolationForAttribute.parameter.property"></a>
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.interpolationForAttribute.parameter.property"></a>
 
 - *Type:* str
 
 ---
 
-##### `resolve` <a name="resolve" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.resolve"></a>
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.resolve"></a>
 
 ```python
 def resolve(
@@ -6057,13 +6057,13 @@ def resolve(
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.resolve.parameter._context"></a>
 
 - *Type:* cdktf.IResolveContext
 
 ---
 
-##### `to_string` <a name="to_string" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.toString"></a>
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.toString"></a>
 
 ```python
 def to_string() -> str
@@ -6073,7 +6073,7 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `put_pre_shared_keys` <a name="put_pre_shared_keys" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.putPreSharedKeys"></a>
+##### `put_pre_shared_keys` <a name="put_pre_shared_keys" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.putPreSharedKeys"></a>
 
 ```python
 def put_pre_shared_keys(
@@ -6081,13 +6081,13 @@ def put_pre_shared_keys(
 ) -> None
 ```
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.putPreSharedKeys.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.putPreSharedKeys.parameter.value"></a>
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeys">GoogleComputeInterconnectMacsecPreSharedKeys</a>]
+- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeys">GoogleComputeInterconnectMacsecPreSharedKeys</a>]
 
 ---
 
-##### `reset_fail_open` <a name="reset_fail_open" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.resetFailOpen"></a>
+##### `reset_fail_open` <a name="reset_fail_open" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.resetFailOpen"></a>
 
 ```python
 def reset_fail_open() -> None
@@ -6098,17 +6098,17 @@ def reset_fail_open() -> None
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.property.preSharedKeys">pre_shared_keys</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList">GoogleComputeInterconnectMacsecPreSharedKeysList</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.property.failOpenInput">fail_open_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.property.preSharedKeysInput">pre_shared_keys_input</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeys">GoogleComputeInterconnectMacsecPreSharedKeys</a>]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.property.failOpen">fail_open</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsec">GoogleComputeInterconnectMacsec</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.property.preSharedKeys">pre_shared_keys</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList">GoogleComputeInterconnectMacsecPreSharedKeysList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.property.failOpenInput">fail_open_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.property.preSharedKeysInput">pre_shared_keys_input</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeys">GoogleComputeInterconnectMacsecPreSharedKeys</a>]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.property.failOpen">fail_open</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsec">GoogleComputeInterconnectMacsec</a></code> | *No description.* |
 
 ---
 
-##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.property.creationStack"></a>
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.property.creationStack"></a>
 
 ```python
 creation_stack: typing.List[str]
@@ -6122,7 +6122,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.property.fqn"></a>
 
 ```python
 fqn: str
@@ -6132,17 +6132,17 @@ fqn: str
 
 ---
 
-##### `pre_shared_keys`<sup>Required</sup> <a name="pre_shared_keys" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.property.preSharedKeys"></a>
+##### `pre_shared_keys`<sup>Required</sup> <a name="pre_shared_keys" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.property.preSharedKeys"></a>
 
 ```python
 pre_shared_keys: GoogleComputeInterconnectMacsecPreSharedKeysList
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList">GoogleComputeInterconnectMacsecPreSharedKeysList</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList">GoogleComputeInterconnectMacsecPreSharedKeysList</a>
 
 ---
 
-##### `fail_open_input`<sup>Optional</sup> <a name="fail_open_input" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.property.failOpenInput"></a>
+##### `fail_open_input`<sup>Optional</sup> <a name="fail_open_input" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.property.failOpenInput"></a>
 
 ```python
 fail_open_input: bool | IResolvable
@@ -6152,17 +6152,17 @@ fail_open_input: bool | IResolvable
 
 ---
 
-##### `pre_shared_keys_input`<sup>Optional</sup> <a name="pre_shared_keys_input" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.property.preSharedKeysInput"></a>
+##### `pre_shared_keys_input`<sup>Optional</sup> <a name="pre_shared_keys_input" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.property.preSharedKeysInput"></a>
 
 ```python
 pre_shared_keys_input: IResolvable | typing.List[GoogleComputeInterconnectMacsecPreSharedKeys]
 ```
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeys">GoogleComputeInterconnectMacsecPreSharedKeys</a>]
+- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeys">GoogleComputeInterconnectMacsecPreSharedKeys</a>]
 
 ---
 
-##### `fail_open`<sup>Required</sup> <a name="fail_open" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.property.failOpen"></a>
+##### `fail_open`<sup>Required</sup> <a name="fail_open" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.property.failOpen"></a>
 
 ```python
 fail_open: bool | IResolvable
@@ -6172,23 +6172,23 @@ fail_open: bool | IResolvable
 
 ---
 
-##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.property.internalValue"></a>
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.property.internalValue"></a>
 
 ```python
 internal_value: GoogleComputeInterconnectMacsec
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsec">GoogleComputeInterconnectMacsec</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsec">GoogleComputeInterconnectMacsec</a>
 
 ---
 
 
-### GoogleComputeInterconnectMacsecPreSharedKeysList <a name="GoogleComputeInterconnectMacsecPreSharedKeysList" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList"></a>
+### GoogleComputeInterconnectMacsecPreSharedKeysList <a name="GoogleComputeInterconnectMacsecPreSharedKeysList" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_compute_interconnect
+from cdktn_provider_google_beta import google_compute_interconnect
 
 googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList(
   terraform_resource: IInterpolatingParent,
@@ -6199,13 +6199,13 @@ googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
 
 ---
 
-##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.Initializer.parameter.terraformResource"></a>
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.Initializer.parameter.terraformResource"></a>
 
 - *Type:* cdktf.IInterpolatingParent
 
@@ -6213,7 +6213,7 @@ The parent resource.
 
 ---
 
-##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.Initializer.parameter.terraformAttribute"></a>
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
@@ -6221,7 +6221,7 @@ The attribute on the parent resource this class is referencing.
 
 ---
 
-##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.Initializer.parameter.wrapsSet"></a>
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.Initializer.parameter.wrapsSet"></a>
 
 - *Type:* bool
 
@@ -6233,15 +6233,15 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.computeFqn">compute_fqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.get">get</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.get">get</a></code> | *No description.* |
 
 ---
 
-##### `all_with_map_key` <a name="all_with_map_key" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.allWithMapKey"></a>
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.allWithMapKey"></a>
 
 ```python
 def all_with_map_key(
@@ -6253,19 +6253,19 @@ Creating an iterator for this complex list.
 
 The list will be converted into a map with the mapKeyAttributeName as the key.
 
-###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.allWithMapKey.parameter.mapKeyAttributeName"></a>
 
 - *Type:* str
 
 ---
 
-##### `compute_fqn` <a name="compute_fqn" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.computeFqn"></a>
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.computeFqn"></a>
 
 ```python
 def compute_fqn() -> str
 ```
 
-##### `resolve` <a name="resolve" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.resolve"></a>
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.resolve"></a>
 
 ```python
 def resolve(
@@ -6275,13 +6275,13 @@ def resolve(
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.resolve.parameter._context"></a>
 
 - *Type:* cdktf.IResolveContext
 
 ---
 
-##### `to_string` <a name="to_string" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.toString"></a>
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.toString"></a>
 
 ```python
 def to_string() -> str
@@ -6291,7 +6291,7 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `get` <a name="get" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.get"></a>
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.get"></a>
 
 ```python
 def get(
@@ -6299,7 +6299,7 @@ def get(
 ) -> GoogleComputeInterconnectMacsecPreSharedKeysOutputReference
 ```
 
-###### `index`<sup>Required</sup> <a name="index" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.get.parameter.index"></a>
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.get.parameter.index"></a>
 
 - *Type:* typing.Union[int, float]
 
@@ -6312,13 +6312,13 @@ the index of the item to return.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.property.internalValue">internal_value</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeys">GoogleComputeInterconnectMacsecPreSharedKeys</a>]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.property.internalValue">internal_value</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeys">GoogleComputeInterconnectMacsecPreSharedKeys</a>]</code> | *No description.* |
 
 ---
 
-##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.property.creationStack"></a>
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.property.creationStack"></a>
 
 ```python
 creation_stack: typing.List[str]
@@ -6332,7 +6332,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.property.fqn"></a>
 
 ```python
 fqn: str
@@ -6342,23 +6342,23 @@ fqn: str
 
 ---
 
-##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.property.internalValue"></a>
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.property.internalValue"></a>
 
 ```python
 internal_value: IResolvable | typing.List[GoogleComputeInterconnectMacsecPreSharedKeys]
 ```
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeys">GoogleComputeInterconnectMacsecPreSharedKeys</a>]
+- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeys">GoogleComputeInterconnectMacsecPreSharedKeys</a>]
 
 ---
 
 
-### GoogleComputeInterconnectMacsecPreSharedKeysOutputReference <a name="GoogleComputeInterconnectMacsecPreSharedKeysOutputReference" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference"></a>
+### GoogleComputeInterconnectMacsecPreSharedKeysOutputReference <a name="GoogleComputeInterconnectMacsecPreSharedKeysOutputReference" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_compute_interconnect
+from cdktn_provider_google_beta import google_compute_interconnect
 
 googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference(
   terraform_resource: IInterpolatingParent,
@@ -6370,14 +6370,14 @@ googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputRefe
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
 
 ---
 
-##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.Initializer.parameter.terraformResource"></a>
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.Initializer.parameter.terraformResource"></a>
 
 - *Type:* cdktf.IInterpolatingParent
 
@@ -6385,7 +6385,7 @@ The parent resource.
 
 ---
 
-##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.Initializer.parameter.terraformAttribute"></a>
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
@@ -6393,7 +6393,7 @@ The attribute on the parent resource this class is referencing.
 
 ---
 
-##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.Initializer.parameter.complexObjectIndex"></a>
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.Initializer.parameter.complexObjectIndex"></a>
 
 - *Type:* typing.Union[int, float]
 
@@ -6401,7 +6401,7 @@ the index of this item in the list.
 
 ---
 
-##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
 
 - *Type:* bool
 
@@ -6413,31 +6413,31 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.resetFailOpen">reset_fail_open</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.resetStartTime">reset_start_time</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.resetFailOpen">reset_fail_open</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.resetStartTime">reset_start_time</a></code> | *No description.* |
 
 ---
 
-##### `compute_fqn` <a name="compute_fqn" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.computeFqn"></a>
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.computeFqn"></a>
 
 ```python
 def compute_fqn() -> str
 ```
 
-##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getAnyMapAttribute"></a>
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getAnyMapAttribute"></a>
 
 ```python
 def get_any_map_attribute(
@@ -6445,13 +6445,13 @@ def get_any_map_attribute(
 ) -> typing.Mapping[typing.Any]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getBooleanAttribute"></a>
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getBooleanAttribute"></a>
 
 ```python
 def get_boolean_attribute(
@@ -6459,13 +6459,13 @@ def get_boolean_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getBooleanMapAttribute"></a>
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getBooleanMapAttribute"></a>
 
 ```python
 def get_boolean_map_attribute(
@@ -6473,13 +6473,13 @@ def get_boolean_map_attribute(
 ) -> typing.Mapping[bool]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_list_attribute` <a name="get_list_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getListAttribute"></a>
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getListAttribute"></a>
 
 ```python
 def get_list_attribute(
@@ -6487,13 +6487,13 @@ def get_list_attribute(
 ) -> typing.List[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_attribute` <a name="get_number_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getNumberAttribute"></a>
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getNumberAttribute"></a>
 
 ```python
 def get_number_attribute(
@@ -6501,13 +6501,13 @@ def get_number_attribute(
 ) -> typing.Union[int, float]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getNumberListAttribute"></a>
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getNumberListAttribute"></a>
 
 ```python
 def get_number_list_attribute(
@@ -6515,13 +6515,13 @@ def get_number_list_attribute(
 ) -> typing.List[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getNumberMapAttribute"></a>
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getNumberMapAttribute"></a>
 
 ```python
 def get_number_map_attribute(
@@ -6529,13 +6529,13 @@ def get_number_map_attribute(
 ) -> typing.Mapping[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_attribute` <a name="get_string_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getStringAttribute"></a>
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getStringAttribute"></a>
 
 ```python
 def get_string_attribute(
@@ -6543,13 +6543,13 @@ def get_string_attribute(
 ) -> str
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getStringMapAttribute"></a>
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getStringMapAttribute"></a>
 
 ```python
 def get_string_map_attribute(
@@ -6557,13 +6557,13 @@ def get_string_map_attribute(
 ) -> typing.Mapping[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.interpolationForAttribute"></a>
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.interpolationForAttribute"></a>
 
 ```python
 def interpolation_for_attribute(
@@ -6571,13 +6571,13 @@ def interpolation_for_attribute(
 ) -> IResolvable
 ```
 
-###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.interpolationForAttribute.parameter.property"></a>
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.interpolationForAttribute.parameter.property"></a>
 
 - *Type:* str
 
 ---
 
-##### `resolve` <a name="resolve" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.resolve"></a>
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.resolve"></a>
 
 ```python
 def resolve(
@@ -6587,13 +6587,13 @@ def resolve(
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.resolve.parameter._context"></a>
 
 - *Type:* cdktf.IResolveContext
 
 ---
 
-##### `to_string` <a name="to_string" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.toString"></a>
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.toString"></a>
 
 ```python
 def to_string() -> str
@@ -6603,13 +6603,13 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `reset_fail_open` <a name="reset_fail_open" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.resetFailOpen"></a>
+##### `reset_fail_open` <a name="reset_fail_open" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.resetFailOpen"></a>
 
 ```python
 def reset_fail_open() -> None
 ```
 
-##### `reset_start_time` <a name="reset_start_time" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.resetStartTime"></a>
+##### `reset_start_time` <a name="reset_start_time" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.resetStartTime"></a>
 
 ```python
 def reset_start_time() -> None
@@ -6620,19 +6620,19 @@ def reset_start_time() -> None
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.property.failOpenInput">fail_open_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.property.nameInput">name_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.property.startTimeInput">start_time_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.property.failOpen">fail_open</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.property.startTime">start_time</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.property.internalValue">internal_value</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeys">GoogleComputeInterconnectMacsecPreSharedKeys</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.property.failOpenInput">fail_open_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.property.nameInput">name_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.property.startTimeInput">start_time_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.property.failOpen">fail_open</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.property.startTime">start_time</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.property.internalValue">internal_value</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeys">GoogleComputeInterconnectMacsecPreSharedKeys</a></code> | *No description.* |
 
 ---
 
-##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.property.creationStack"></a>
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.property.creationStack"></a>
 
 ```python
 creation_stack: typing.List[str]
@@ -6646,7 +6646,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.property.fqn"></a>
 
 ```python
 fqn: str
@@ -6656,7 +6656,7 @@ fqn: str
 
 ---
 
-##### `fail_open_input`<sup>Optional</sup> <a name="fail_open_input" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.property.failOpenInput"></a>
+##### `fail_open_input`<sup>Optional</sup> <a name="fail_open_input" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.property.failOpenInput"></a>
 
 ```python
 fail_open_input: bool | IResolvable
@@ -6666,7 +6666,7 @@ fail_open_input: bool | IResolvable
 
 ---
 
-##### `name_input`<sup>Optional</sup> <a name="name_input" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.property.nameInput"></a>
+##### `name_input`<sup>Optional</sup> <a name="name_input" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.property.nameInput"></a>
 
 ```python
 name_input: str
@@ -6676,7 +6676,7 @@ name_input: str
 
 ---
 
-##### `start_time_input`<sup>Optional</sup> <a name="start_time_input" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.property.startTimeInput"></a>
+##### `start_time_input`<sup>Optional</sup> <a name="start_time_input" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.property.startTimeInput"></a>
 
 ```python
 start_time_input: str
@@ -6686,7 +6686,7 @@ start_time_input: str
 
 ---
 
-##### `fail_open`<sup>Required</sup> <a name="fail_open" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.property.failOpen"></a>
+##### `fail_open`<sup>Required</sup> <a name="fail_open" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.property.failOpen"></a>
 
 ```python
 fail_open: bool | IResolvable
@@ -6696,7 +6696,7 @@ fail_open: bool | IResolvable
 
 ---
 
-##### `name`<sup>Required</sup> <a name="name" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.property.name"></a>
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.property.name"></a>
 
 ```python
 name: str
@@ -6706,7 +6706,7 @@ name: str
 
 ---
 
-##### `start_time`<sup>Required</sup> <a name="start_time" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.property.startTime"></a>
+##### `start_time`<sup>Required</sup> <a name="start_time" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.property.startTime"></a>
 
 ```python
 start_time: str
@@ -6716,23 +6716,23 @@ start_time: str
 
 ---
 
-##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.property.internalValue"></a>
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.property.internalValue"></a>
 
 ```python
 internal_value: IResolvable | GoogleComputeInterconnectMacsecPreSharedKeys
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeys">GoogleComputeInterconnectMacsecPreSharedKeys</a>
+- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeys">GoogleComputeInterconnectMacsecPreSharedKeys</a>
 
 ---
 
 
-### GoogleComputeInterconnectTimeoutsOutputReference <a name="GoogleComputeInterconnectTimeoutsOutputReference" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference"></a>
+### GoogleComputeInterconnectTimeoutsOutputReference <a name="GoogleComputeInterconnectTimeoutsOutputReference" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_compute_interconnect
+from cdktn_provider_google_beta import google_compute_interconnect
 
 googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference(
   terraform_resource: IInterpolatingParent,
@@ -6742,12 +6742,12 @@ googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
-##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.Initializer.parameter.terraformResource"></a>
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.Initializer.parameter.terraformResource"></a>
 
 - *Type:* cdktf.IInterpolatingParent
 
@@ -6755,7 +6755,7 @@ The parent resource.
 
 ---
 
-##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.Initializer.parameter.terraformAttribute"></a>
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
@@ -6767,32 +6767,32 @@ The attribute on the parent resource this class is referencing.
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.resetCreate">reset_create</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.resetDelete">reset_delete</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.resetUpdate">reset_update</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.resetCreate">reset_create</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.resetDelete">reset_delete</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.resetUpdate">reset_update</a></code> | *No description.* |
 
 ---
 
-##### `compute_fqn` <a name="compute_fqn" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.computeFqn"></a>
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.computeFqn"></a>
 
 ```python
 def compute_fqn() -> str
 ```
 
-##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getAnyMapAttribute"></a>
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getAnyMapAttribute"></a>
 
 ```python
 def get_any_map_attribute(
@@ -6800,13 +6800,13 @@ def get_any_map_attribute(
 ) -> typing.Mapping[typing.Any]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getBooleanAttribute"></a>
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getBooleanAttribute"></a>
 
 ```python
 def get_boolean_attribute(
@@ -6814,13 +6814,13 @@ def get_boolean_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getBooleanMapAttribute"></a>
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getBooleanMapAttribute"></a>
 
 ```python
 def get_boolean_map_attribute(
@@ -6828,13 +6828,13 @@ def get_boolean_map_attribute(
 ) -> typing.Mapping[bool]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_list_attribute` <a name="get_list_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getListAttribute"></a>
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getListAttribute"></a>
 
 ```python
 def get_list_attribute(
@@ -6842,13 +6842,13 @@ def get_list_attribute(
 ) -> typing.List[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_attribute` <a name="get_number_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getNumberAttribute"></a>
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getNumberAttribute"></a>
 
 ```python
 def get_number_attribute(
@@ -6856,13 +6856,13 @@ def get_number_attribute(
 ) -> typing.Union[int, float]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getNumberListAttribute"></a>
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getNumberListAttribute"></a>
 
 ```python
 def get_number_list_attribute(
@@ -6870,13 +6870,13 @@ def get_number_list_attribute(
 ) -> typing.List[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getNumberMapAttribute"></a>
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getNumberMapAttribute"></a>
 
 ```python
 def get_number_map_attribute(
@@ -6884,13 +6884,13 @@ def get_number_map_attribute(
 ) -> typing.Mapping[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_attribute` <a name="get_string_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getStringAttribute"></a>
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getStringAttribute"></a>
 
 ```python
 def get_string_attribute(
@@ -6898,13 +6898,13 @@ def get_string_attribute(
 ) -> str
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getStringMapAttribute"></a>
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getStringMapAttribute"></a>
 
 ```python
 def get_string_map_attribute(
@@ -6912,13 +6912,13 @@ def get_string_map_attribute(
 ) -> typing.Mapping[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.interpolationForAttribute"></a>
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.interpolationForAttribute"></a>
 
 ```python
 def interpolation_for_attribute(
@@ -6926,13 +6926,13 @@ def interpolation_for_attribute(
 ) -> IResolvable
 ```
 
-###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.interpolationForAttribute.parameter.property"></a>
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.interpolationForAttribute.parameter.property"></a>
 
 - *Type:* str
 
 ---
 
-##### `resolve` <a name="resolve" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.resolve"></a>
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.resolve"></a>
 
 ```python
 def resolve(
@@ -6942,13 +6942,13 @@ def resolve(
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.resolve.parameter._context"></a>
 
 - *Type:* cdktf.IResolveContext
 
 ---
 
-##### `to_string` <a name="to_string" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.toString"></a>
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.toString"></a>
 
 ```python
 def to_string() -> str
@@ -6958,19 +6958,19 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `reset_create` <a name="reset_create" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.resetCreate"></a>
+##### `reset_create` <a name="reset_create" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.resetCreate"></a>
 
 ```python
 def reset_create() -> None
 ```
 
-##### `reset_delete` <a name="reset_delete" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.resetDelete"></a>
+##### `reset_delete` <a name="reset_delete" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.resetDelete"></a>
 
 ```python
 def reset_delete() -> None
 ```
 
-##### `reset_update` <a name="reset_update" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.resetUpdate"></a>
+##### `reset_update` <a name="reset_update" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.resetUpdate"></a>
 
 ```python
 def reset_update() -> None
@@ -6981,19 +6981,19 @@ def reset_update() -> None
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.property.createInput">create_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.property.deleteInput">delete_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.property.updateInput">update_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.property.create">create</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.property.delete">delete</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.property.update">update</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.property.internalValue">internal_value</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeouts">GoogleComputeInterconnectTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.property.createInput">create_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.property.deleteInput">delete_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.property.updateInput">update_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.property.create">create</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.property.delete">delete</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.property.update">update</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.property.internalValue">internal_value</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeouts">GoogleComputeInterconnectTimeouts</a></code> | *No description.* |
 
 ---
 
-##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.property.creationStack"></a>
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.property.creationStack"></a>
 
 ```python
 creation_stack: typing.List[str]
@@ -7007,7 +7007,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.property.fqn"></a>
 
 ```python
 fqn: str
@@ -7017,7 +7017,7 @@ fqn: str
 
 ---
 
-##### `create_input`<sup>Optional</sup> <a name="create_input" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.property.createInput"></a>
+##### `create_input`<sup>Optional</sup> <a name="create_input" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.property.createInput"></a>
 
 ```python
 create_input: str
@@ -7027,7 +7027,7 @@ create_input: str
 
 ---
 
-##### `delete_input`<sup>Optional</sup> <a name="delete_input" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.property.deleteInput"></a>
+##### `delete_input`<sup>Optional</sup> <a name="delete_input" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.property.deleteInput"></a>
 
 ```python
 delete_input: str
@@ -7037,7 +7037,7 @@ delete_input: str
 
 ---
 
-##### `update_input`<sup>Optional</sup> <a name="update_input" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.property.updateInput"></a>
+##### `update_input`<sup>Optional</sup> <a name="update_input" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.property.updateInput"></a>
 
 ```python
 update_input: str
@@ -7047,7 +7047,7 @@ update_input: str
 
 ---
 
-##### `create`<sup>Required</sup> <a name="create" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.property.create"></a>
+##### `create`<sup>Required</sup> <a name="create" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.property.create"></a>
 
 ```python
 create: str
@@ -7057,7 +7057,7 @@ create: str
 
 ---
 
-##### `delete`<sup>Required</sup> <a name="delete" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.property.delete"></a>
+##### `delete`<sup>Required</sup> <a name="delete" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.property.delete"></a>
 
 ```python
 delete: str
@@ -7067,7 +7067,7 @@ delete: str
 
 ---
 
-##### `update`<sup>Required</sup> <a name="update" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.property.update"></a>
+##### `update`<sup>Required</sup> <a name="update" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.property.update"></a>
 
 ```python
 update: str
@@ -7077,13 +7077,13 @@ update: str
 
 ---
 
-##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.property.internalValue"></a>
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.property.internalValue"></a>
 
 ```python
 internal_value: IResolvable | GoogleComputeInterconnectTimeouts
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeouts">GoogleComputeInterconnectTimeouts</a>
+- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeouts">GoogleComputeInterconnectTimeouts</a>
 
 ---
 

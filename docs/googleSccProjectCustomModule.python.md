@@ -1,15 +1,15 @@
-# `googleSccProjectCustomModule` Submodule <a name="`googleSccProjectCustomModule` Submodule" id="@cdktf/provider-google-beta.googleSccProjectCustomModule"></a>
+# `googleSccProjectCustomModule` Submodule <a name="`googleSccProjectCustomModule` Submodule" id="@cdktn/provider-google-beta.googleSccProjectCustomModule"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
 
-### GoogleSccProjectCustomModule <a name="GoogleSccProjectCustomModule" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule"></a>
+### GoogleSccProjectCustomModule <a name="GoogleSccProjectCustomModule" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule"></a>
 
 Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_project_custom_module google_scc_project_custom_module}.
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_scc_project_custom_module
+from cdktn_provider_google_beta import google_scc_project_custom_module
 
 googleSccProjectCustomModule.GoogleSccProjectCustomModule(
   scope: Construct,
@@ -32,25 +32,25 @@ googleSccProjectCustomModule.GoogleSccProjectCustomModule(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.id">id</a></code> | <code>str</code> | The scoped construct ID. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.customConfig">custom_config</a></code> | <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig">GoogleSccProjectCustomModuleCustomConfig</a></code> | custom_config block. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.displayName">display_name</a></code> | <code>str</code> | The display name of the Security Health Analytics custom module. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.enablementState">enablement_state</a></code> | <code>str</code> | The enablement state of the custom module. Possible values: ["ENABLED", "DISABLED"]. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_project_custom_module#id GoogleSccProjectCustomModule#id}. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_project_custom_module#project GoogleSccProjectCustomModule#project}. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeouts">GoogleSccProjectCustomModuleTimeouts</a></code> | timeouts block. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.id">id</a></code> | <code>str</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.customConfig">custom_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig">GoogleSccProjectCustomModuleCustomConfig</a></code> | custom_config block. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.displayName">display_name</a></code> | <code>str</code> | The display name of the Security Health Analytics custom module. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.enablementState">enablement_state</a></code> | <code>str</code> | The enablement state of the custom module. Possible values: ["ENABLED", "DISABLED"]. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_project_custom_module#id GoogleSccProjectCustomModule#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_project_custom_module#project GoogleSccProjectCustomModule#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeouts">GoogleSccProjectCustomModuleTimeouts</a></code> | timeouts block. |
 
 ---
 
-##### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.scope"></a>
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
@@ -58,7 +58,7 @@ The scope in which to define this construct.
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.id"></a>
 
 - *Type:* str
 
@@ -68,51 +68,51 @@ Must be unique amongst siblings in the same scope
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.connection"></a>
 
 - *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.count"></a>
 
 - *Type:* typing.Union[int, float] | cdktf.TerraformCount
 
 ---
 
-##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.dependsOn"></a>
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.dependsOn"></a>
 
 - *Type:* typing.List[cdktf.ITerraformDependable]
 
 ---
 
-##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.forEach"></a>
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.forEach"></a>
 
 - *Type:* cdktf.ITerraformIterator
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.lifecycle"></a>
 
 - *Type:* cdktf.TerraformResourceLifecycle
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.provisioners"></a>
 
 - *Type:* typing.List[cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner]
 
 ---
 
-##### `custom_config`<sup>Required</sup> <a name="custom_config" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.customConfig"></a>
+##### `custom_config`<sup>Required</sup> <a name="custom_config" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.customConfig"></a>
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig">GoogleSccProjectCustomModuleCustomConfig</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig">GoogleSccProjectCustomModuleCustomConfig</a>
 
 custom_config block.
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `display_name`<sup>Required</sup> <a name="display_name" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.displayName"></a>
+##### `display_name`<sup>Required</sup> <a name="display_name" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.displayName"></a>
 
 - *Type:* str
 
@@ -136,7 +136,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `enablement_state`<sup>Required</sup> <a name="enablement_state" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.enablementState"></a>
+##### `enablement_state`<sup>Required</sup> <a name="enablement_state" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.enablementState"></a>
 
 - *Type:* str
 
@@ -146,7 +146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `id`<sup>Optional</sup> <a name="id" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.id"></a>
+##### `id`<sup>Optional</sup> <a name="id" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.id"></a>
 
 - *Type:* str
 
@@ -157,7 +157,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 ---
 
-##### `project`<sup>Optional</sup> <a name="project" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.project"></a>
+##### `project`<sup>Optional</sup> <a name="project" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.project"></a>
 
 - *Type:* str
 
@@ -165,9 +165,9 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `timeouts`<sup>Optional</sup> <a name="timeouts" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.timeouts"></a>
+##### `timeouts`<sup>Optional</sup> <a name="timeouts" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.timeouts"></a>
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeouts">GoogleSccProjectCustomModuleTimeouts</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeouts">GoogleSccProjectCustomModuleTimeouts</a>
 
 timeouts block.
 
@@ -179,38 +179,38 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.toString">to_string</a></code> | Returns a string representation of this construct. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.addOverride">add_override</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.overrideLogicalId">override_logical_id</a></code> | Overrides the auto-generated logical ID with a specific ID. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.resetOverrideLogicalId">reset_override_logical_id</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.toHclTerraform">to_hcl_terraform</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.toMetadata">to_metadata</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.toTerraform">to_terraform</a></code> | Adds this resource to the terraform JSON output. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.addMoveTarget">add_move_target</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getListAttribute">get_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getStringAttribute">get_string_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.hasResourceMove">has_resource_move</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.importFrom">import_from</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.moveFromId">move_from_id</a></code> | Move the resource corresponding to "id" to this resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.putCustomConfig">put_custom_config</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.putTimeouts">put_timeouts</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.resetId">reset_id</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.resetProject">reset_project</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.resetTimeouts">reset_timeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.toString">to_string</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.addOverride">add_override</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.overrideLogicalId">override_logical_id</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.resetOverrideLogicalId">reset_override_logical_id</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.toHclTerraform">to_hcl_terraform</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.toMetadata">to_metadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.toTerraform">to_terraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.addMoveTarget">add_move_target</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.hasResourceMove">has_resource_move</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.importFrom">import_from</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.moveFromId">move_from_id</a></code> | Move the resource corresponding to "id" to this resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.putCustomConfig">put_custom_config</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.putTimeouts">put_timeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.resetId">reset_id</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.resetProject">reset_project</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.resetTimeouts">reset_timeouts</a></code> | *No description.* |
 
 ---
 
-##### `to_string` <a name="to_string" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.toString"></a>
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.toString"></a>
 
 ```python
 def to_string() -> str
@@ -218,7 +218,7 @@ def to_string() -> str
 
 Returns a string representation of this construct.
 
-##### `add_override` <a name="add_override" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.addOverride"></a>
+##### `add_override` <a name="add_override" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.addOverride"></a>
 
 ```python
 def add_override(
@@ -227,19 +227,19 @@ def add_override(
 ) -> None
 ```
 
-###### `path`<sup>Required</sup> <a name="path" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.addOverride.parameter.path"></a>
+###### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.addOverride.parameter.path"></a>
 
 - *Type:* str
 
 ---
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.addOverride.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.addOverride.parameter.value"></a>
 
 - *Type:* typing.Any
 
 ---
 
-##### `override_logical_id` <a name="override_logical_id" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.overrideLogicalId"></a>
+##### `override_logical_id` <a name="override_logical_id" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.overrideLogicalId"></a>
 
 ```python
 def override_logical_id(
@@ -249,7 +249,7 @@ def override_logical_id(
 
 Overrides the auto-generated logical ID with a specific ID.
 
-###### `new_logical_id`<sup>Required</sup> <a name="new_logical_id" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.overrideLogicalId.parameter.newLogicalId"></a>
+###### `new_logical_id`<sup>Required</sup> <a name="new_logical_id" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.overrideLogicalId.parameter.newLogicalId"></a>
 
 - *Type:* str
 
@@ -257,7 +257,7 @@ The new logical ID to use for this stack element.
 
 ---
 
-##### `reset_override_logical_id` <a name="reset_override_logical_id" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.resetOverrideLogicalId"></a>
+##### `reset_override_logical_id` <a name="reset_override_logical_id" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.resetOverrideLogicalId"></a>
 
 ```python
 def reset_override_logical_id() -> None
@@ -265,19 +265,19 @@ def reset_override_logical_id() -> None
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
 
-##### `to_hcl_terraform` <a name="to_hcl_terraform" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.toHclTerraform"></a>
+##### `to_hcl_terraform` <a name="to_hcl_terraform" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.toHclTerraform"></a>
 
 ```python
 def to_hcl_terraform() -> typing.Any
 ```
 
-##### `to_metadata` <a name="to_metadata" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.toMetadata"></a>
+##### `to_metadata` <a name="to_metadata" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.toMetadata"></a>
 
 ```python
 def to_metadata() -> typing.Any
 ```
 
-##### `to_terraform` <a name="to_terraform" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.toTerraform"></a>
+##### `to_terraform` <a name="to_terraform" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.toTerraform"></a>
 
 ```python
 def to_terraform() -> typing.Any
@@ -285,7 +285,7 @@ def to_terraform() -> typing.Any
 
 Adds this resource to the terraform JSON output.
 
-##### `add_move_target` <a name="add_move_target" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.addMoveTarget"></a>
+##### `add_move_target` <a name="add_move_target" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.addMoveTarget"></a>
 
 ```python
 def add_move_target(
@@ -295,7 +295,7 @@ def add_move_target(
 
 Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 
-###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.addMoveTarget.parameter.moveTarget"></a>
+###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.addMoveTarget.parameter.moveTarget"></a>
 
 - *Type:* str
 
@@ -303,7 +303,7 @@ The string move target that will correspond to this resource.
 
 ---
 
-##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getAnyMapAttribute"></a>
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getAnyMapAttribute"></a>
 
 ```python
 def get_any_map_attribute(
@@ -311,13 +311,13 @@ def get_any_map_attribute(
 ) -> typing.Mapping[typing.Any]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getBooleanAttribute"></a>
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getBooleanAttribute"></a>
 
 ```python
 def get_boolean_attribute(
@@ -325,13 +325,13 @@ def get_boolean_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getBooleanMapAttribute"></a>
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getBooleanMapAttribute"></a>
 
 ```python
 def get_boolean_map_attribute(
@@ -339,13 +339,13 @@ def get_boolean_map_attribute(
 ) -> typing.Mapping[bool]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_list_attribute` <a name="get_list_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getListAttribute"></a>
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getListAttribute"></a>
 
 ```python
 def get_list_attribute(
@@ -353,13 +353,13 @@ def get_list_attribute(
 ) -> typing.List[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_attribute` <a name="get_number_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getNumberAttribute"></a>
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getNumberAttribute"></a>
 
 ```python
 def get_number_attribute(
@@ -367,13 +367,13 @@ def get_number_attribute(
 ) -> typing.Union[int, float]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getNumberListAttribute"></a>
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getNumberListAttribute"></a>
 
 ```python
 def get_number_list_attribute(
@@ -381,13 +381,13 @@ def get_number_list_attribute(
 ) -> typing.List[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getNumberMapAttribute"></a>
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getNumberMapAttribute"></a>
 
 ```python
 def get_number_map_attribute(
@@ -395,13 +395,13 @@ def get_number_map_attribute(
 ) -> typing.Mapping[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_attribute` <a name="get_string_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getStringAttribute"></a>
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getStringAttribute"></a>
 
 ```python
 def get_string_attribute(
@@ -409,13 +409,13 @@ def get_string_attribute(
 ) -> str
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getStringMapAttribute"></a>
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getStringMapAttribute"></a>
 
 ```python
 def get_string_map_attribute(
@@ -423,19 +423,19 @@ def get_string_map_attribute(
 ) -> typing.Mapping[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `has_resource_move` <a name="has_resource_move" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.hasResourceMove"></a>
+##### `has_resource_move` <a name="has_resource_move" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.hasResourceMove"></a>
 
 ```python
 def has_resource_move() -> TerraformResourceMoveByTarget | TerraformResourceMoveById
 ```
 
-##### `import_from` <a name="import_from" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.importFrom"></a>
+##### `import_from` <a name="import_from" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.importFrom"></a>
 
 ```python
 def import_from(
@@ -444,19 +444,19 @@ def import_from(
 ) -> None
 ```
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.importFrom.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.importFrom.parameter.id"></a>
 
 - *Type:* str
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.importFrom.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.importFrom.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
 ---
 
-##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.interpolationForAttribute"></a>
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.interpolationForAttribute"></a>
 
 ```python
 def interpolation_for_attribute(
@@ -464,13 +464,13 @@ def interpolation_for_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.interpolationForAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.interpolationForAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `move_from_id` <a name="move_from_id" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.moveFromId"></a>
+##### `move_from_id` <a name="move_from_id" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.moveFromId"></a>
 
 ```python
 def move_from_id(
@@ -482,7 +482,7 @@ Move the resource corresponding to "id" to this resource.
 
 Note that the resource being moved from must be marked as moved using it's instance function.
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.moveFromId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.moveFromId.parameter.id"></a>
 
 - *Type:* str
 
@@ -490,7 +490,7 @@ Full id of resource being moved from, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `move_to` <a name="move_to" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.moveTo"></a>
+##### `move_to` <a name="move_to" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.moveTo"></a>
 
 ```python
 def move_to(
@@ -501,7 +501,7 @@ def move_to(
 
 Moves this resource to the target resource given by moveTarget.
 
-###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.moveTo.parameter.moveTarget"></a>
+###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.moveTo.parameter.moveTarget"></a>
 
 - *Type:* str
 
@@ -509,7 +509,7 @@ The previously set user defined string set by .addMoveTarget() corresponding to 
 
 ---
 
-###### `index`<sup>Optional</sup> <a name="index" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.moveTo.parameter.index"></a>
+###### `index`<sup>Optional</sup> <a name="index" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.moveTo.parameter.index"></a>
 
 - *Type:* str | typing.Union[int, float]
 
@@ -517,7 +517,7 @@ Optional The index corresponding to the key the resource is to appear in the for
 
 ---
 
-##### `move_to_id` <a name="move_to_id" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.moveToId"></a>
+##### `move_to_id` <a name="move_to_id" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.moveToId"></a>
 
 ```python
 def move_to_id(
@@ -527,7 +527,7 @@ def move_to_id(
 
 Moves this resource to the resource corresponding to "id".
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.moveToId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.moveToId.parameter.id"></a>
 
 - *Type:* str
 
@@ -535,7 +535,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `put_custom_config` <a name="put_custom_config" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.putCustomConfig"></a>
+##### `put_custom_config` <a name="put_custom_config" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.putCustomConfig"></a>
 
 ```python
 def put_custom_config(
@@ -548,9 +548,9 @@ def put_custom_config(
 ) -> None
 ```
 
-###### `predicate`<sup>Required</sup> <a name="predicate" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.putCustomConfig.parameter.predicate"></a>
+###### `predicate`<sup>Required</sup> <a name="predicate" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.putCustomConfig.parameter.predicate"></a>
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicate">GoogleSccProjectCustomModuleCustomConfigPredicate</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicate">GoogleSccProjectCustomModuleCustomConfigPredicate</a>
 
 predicate block.
 
@@ -558,7 +558,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-###### `recommendation`<sup>Required</sup> <a name="recommendation" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.putCustomConfig.parameter.recommendation"></a>
+###### `recommendation`<sup>Required</sup> <a name="recommendation" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.putCustomConfig.parameter.recommendation"></a>
 
 - *Type:* str
 
@@ -571,9 +571,9 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-###### `resource_selector`<sup>Required</sup> <a name="resource_selector" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.putCustomConfig.parameter.resourceSelector"></a>
+###### `resource_selector`<sup>Required</sup> <a name="resource_selector" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.putCustomConfig.parameter.resourceSelector"></a>
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelector">GoogleSccProjectCustomModuleCustomConfigResourceSelector</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelector">GoogleSccProjectCustomModuleCustomConfigResourceSelector</a>
 
 resource_selector block.
 
@@ -581,7 +581,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-###### `severity`<sup>Required</sup> <a name="severity" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.putCustomConfig.parameter.severity"></a>
+###### `severity`<sup>Required</sup> <a name="severity" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.putCustomConfig.parameter.severity"></a>
 
 - *Type:* str
 
@@ -591,9 +591,9 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-###### `custom_output`<sup>Optional</sup> <a name="custom_output" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.putCustomConfig.parameter.customOutput"></a>
+###### `custom_output`<sup>Optional</sup> <a name="custom_output" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.putCustomConfig.parameter.customOutput"></a>
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutput">GoogleSccProjectCustomModuleCustomConfigCustomOutput</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutput">GoogleSccProjectCustomModuleCustomConfigCustomOutput</a>
 
 custom_output block.
 
@@ -601,7 +601,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-###### `description`<sup>Optional</sup> <a name="description" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.putCustomConfig.parameter.description"></a>
+###### `description`<sup>Optional</sup> <a name="description" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.putCustomConfig.parameter.description"></a>
 
 - *Type:* str
 
@@ -614,7 +614,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `put_timeouts` <a name="put_timeouts" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.putTimeouts"></a>
+##### `put_timeouts` <a name="put_timeouts" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.putTimeouts"></a>
 
 ```python
 def put_timeouts(
@@ -624,7 +624,7 @@ def put_timeouts(
 ) -> None
 ```
 
-###### `create`<sup>Optional</sup> <a name="create" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.putTimeouts.parameter.create"></a>
+###### `create`<sup>Optional</sup> <a name="create" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.putTimeouts.parameter.create"></a>
 
 - *Type:* str
 
@@ -632,7 +632,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-###### `delete`<sup>Optional</sup> <a name="delete" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.putTimeouts.parameter.delete"></a>
+###### `delete`<sup>Optional</sup> <a name="delete" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.putTimeouts.parameter.delete"></a>
 
 - *Type:* str
 
@@ -640,7 +640,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-###### `update`<sup>Optional</sup> <a name="update" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.putTimeouts.parameter.update"></a>
+###### `update`<sup>Optional</sup> <a name="update" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.putTimeouts.parameter.update"></a>
 
 - *Type:* str
 
@@ -648,19 +648,19 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `reset_id` <a name="reset_id" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.resetId"></a>
+##### `reset_id` <a name="reset_id" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.resetId"></a>
 
 ```python
 def reset_id() -> None
 ```
 
-##### `reset_project` <a name="reset_project" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.resetProject"></a>
+##### `reset_project` <a name="reset_project" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.resetProject"></a>
 
 ```python
 def reset_project() -> None
 ```
 
-##### `reset_timeouts` <a name="reset_timeouts" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.resetTimeouts"></a>
+##### `reset_timeouts` <a name="reset_timeouts" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.resetTimeouts"></a>
 
 ```python
 def reset_timeouts() -> None
@@ -670,17 +670,17 @@ def reset_timeouts() -> None
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.isConstruct">is_construct</a></code> | Checks if `x` is a construct. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.isTerraformElement">is_terraform_element</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.isTerraformResource">is_terraform_resource</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.generateConfigForImport">generate_config_for_import</a></code> | Generates CDKTF code for importing a GoogleSccProjectCustomModule resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.isConstruct">is_construct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.isTerraformElement">is_terraform_element</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.isTerraformResource">is_terraform_resource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.generateConfigForImport">generate_config_for_import</a></code> | Generates CDKTF code for importing a GoogleSccProjectCustomModule resource upon running "cdktf plan <stack-name>". |
 
 ---
 
-##### `is_construct` <a name="is_construct" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.isConstruct"></a>
+##### `is_construct` <a name="is_construct" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.isConstruct"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_scc_project_custom_module
+from cdktn_provider_google_beta import google_scc_project_custom_module
 
 googleSccProjectCustomModule.GoogleSccProjectCustomModule.is_construct(
   x: typing.Any
@@ -703,7 +703,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.isConstruct.parameter.x"></a>
 
 - *Type:* typing.Any
 
@@ -711,42 +711,42 @@ Any object.
 
 ---
 
-##### `is_terraform_element` <a name="is_terraform_element" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.isTerraformElement"></a>
+##### `is_terraform_element` <a name="is_terraform_element" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.isTerraformElement"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_scc_project_custom_module
+from cdktn_provider_google_beta import google_scc_project_custom_module
 
 googleSccProjectCustomModule.GoogleSccProjectCustomModule.is_terraform_element(
   x: typing.Any
 )
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.isTerraformElement.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.isTerraformElement.parameter.x"></a>
 
 - *Type:* typing.Any
 
 ---
 
-##### `is_terraform_resource` <a name="is_terraform_resource" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.isTerraformResource"></a>
+##### `is_terraform_resource` <a name="is_terraform_resource" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.isTerraformResource"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_scc_project_custom_module
+from cdktn_provider_google_beta import google_scc_project_custom_module
 
 googleSccProjectCustomModule.GoogleSccProjectCustomModule.is_terraform_resource(
   x: typing.Any
 )
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.isTerraformResource.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.isTerraformResource.parameter.x"></a>
 
 - *Type:* typing.Any
 
 ---
 
-##### `generate_config_for_import` <a name="generate_config_for_import" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.generateConfigForImport"></a>
+##### `generate_config_for_import` <a name="generate_config_for_import" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.generateConfigForImport"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_scc_project_custom_module
+from cdktn_provider_google_beta import google_scc_project_custom_module
 
 googleSccProjectCustomModule.GoogleSccProjectCustomModule.generate_config_for_import(
   scope: Construct,
@@ -758,7 +758,7 @@ googleSccProjectCustomModule.GoogleSccProjectCustomModule.generate_config_for_im
 
 Generates CDKTF code for importing a GoogleSccProjectCustomModule resource upon running "cdktf plan <stack-name>".
 
-###### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.generateConfigForImport.parameter.scope"></a>
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.generateConfigForImport.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
@@ -766,7 +766,7 @@ The scope in which to define this construct.
 
 ---
 
-###### `import_to_id`<sup>Required</sup> <a name="import_to_id" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.generateConfigForImport.parameter.importToId"></a>
+###### `import_to_id`<sup>Required</sup> <a name="import_to_id" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.generateConfigForImport.parameter.importToId"></a>
 
 - *Type:* str
 
@@ -774,7 +774,7 @@ The construct id used in the generated config for the GoogleSccProjectCustomModu
 
 ---
 
-###### `import_from_id`<sup>Required</sup> <a name="import_from_id" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.generateConfigForImport.parameter.importFromId"></a>
+###### `import_from_id`<sup>Required</sup> <a name="import_from_id" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.generateConfigForImport.parameter.importFromId"></a>
 
 - *Type:* str
 
@@ -784,7 +784,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.generateConfigForImport.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.generateConfigForImport.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
@@ -796,40 +796,40 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.cdktfStack">cdktf_stack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.friendlyUniqueId">friendly_unique_id</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.terraformMetaArguments">terraform_meta_arguments</a></code> | <code>typing.Mapping[typing.Any]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.terraformResourceType">terraform_resource_type</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.terraformGeneratorMetadata">terraform_generator_metadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.dependsOn">depends_on</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.ancestorModule">ancestor_module</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.customConfig">custom_config</a></code> | <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference">GoogleSccProjectCustomModuleCustomConfigOutputReference</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.lastEditor">last_editor</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.name">name</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.timeouts">timeouts</a></code> | <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference">GoogleSccProjectCustomModuleTimeoutsOutputReference</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.updateTime">update_time</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.customConfigInput">custom_config_input</a></code> | <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig">GoogleSccProjectCustomModuleCustomConfig</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.displayNameInput">display_name_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.enablementStateInput">enablement_state_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.projectInput">project_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.timeoutsInput">timeouts_input</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeouts">GoogleSccProjectCustomModuleTimeouts</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.displayName">display_name</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.enablementState">enablement_state</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.id">id</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.project">project</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.cdktfStack">cdktf_stack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.friendlyUniqueId">friendly_unique_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.terraformMetaArguments">terraform_meta_arguments</a></code> | <code>typing.Mapping[typing.Any]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.terraformResourceType">terraform_resource_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.terraformGeneratorMetadata">terraform_generator_metadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.dependsOn">depends_on</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.ancestorModule">ancestor_module</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.customConfig">custom_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference">GoogleSccProjectCustomModuleCustomConfigOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.lastEditor">last_editor</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.name">name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference">GoogleSccProjectCustomModuleTimeoutsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.updateTime">update_time</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.customConfigInput">custom_config_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig">GoogleSccProjectCustomModuleCustomConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.displayNameInput">display_name_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.enablementStateInput">enablement_state_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.projectInput">project_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.timeoutsInput">timeouts_input</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeouts">GoogleSccProjectCustomModuleTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.displayName">display_name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.enablementState">enablement_state</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.id">id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.project">project</a></code> | <code>str</code> | *No description.* |
 
 ---
 
-##### `node`<sup>Required</sup> <a name="node" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.node"></a>
+##### `node`<sup>Required</sup> <a name="node" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.node"></a>
 
 ```python
 node: Node
@@ -841,7 +841,7 @@ The tree node.
 
 ---
 
-##### `cdktf_stack`<sup>Required</sup> <a name="cdktf_stack" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.cdktfStack"></a>
+##### `cdktf_stack`<sup>Required</sup> <a name="cdktf_stack" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.cdktfStack"></a>
 
 ```python
 cdktf_stack: TerraformStack
@@ -851,7 +851,7 @@ cdktf_stack: TerraformStack
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.fqn"></a>
 
 ```python
 fqn: str
@@ -861,7 +861,7 @@ fqn: str
 
 ---
 
-##### `friendly_unique_id`<sup>Required</sup> <a name="friendly_unique_id" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.friendlyUniqueId"></a>
+##### `friendly_unique_id`<sup>Required</sup> <a name="friendly_unique_id" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.friendlyUniqueId"></a>
 
 ```python
 friendly_unique_id: str
@@ -871,7 +871,7 @@ friendly_unique_id: str
 
 ---
 
-##### `terraform_meta_arguments`<sup>Required</sup> <a name="terraform_meta_arguments" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.terraformMetaArguments"></a>
+##### `terraform_meta_arguments`<sup>Required</sup> <a name="terraform_meta_arguments" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.terraformMetaArguments"></a>
 
 ```python
 terraform_meta_arguments: typing.Mapping[typing.Any]
@@ -881,7 +881,7 @@ terraform_meta_arguments: typing.Mapping[typing.Any]
 
 ---
 
-##### `terraform_resource_type`<sup>Required</sup> <a name="terraform_resource_type" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.terraformResourceType"></a>
+##### `terraform_resource_type`<sup>Required</sup> <a name="terraform_resource_type" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.terraformResourceType"></a>
 
 ```python
 terraform_resource_type: str
@@ -891,7 +891,7 @@ terraform_resource_type: str
 
 ---
 
-##### `terraform_generator_metadata`<sup>Optional</sup> <a name="terraform_generator_metadata" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.terraformGeneratorMetadata"></a>
+##### `terraform_generator_metadata`<sup>Optional</sup> <a name="terraform_generator_metadata" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.terraformGeneratorMetadata"></a>
 
 ```python
 terraform_generator_metadata: TerraformProviderGeneratorMetadata
@@ -901,7 +901,7 @@ terraform_generator_metadata: TerraformProviderGeneratorMetadata
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.connection"></a>
 
 ```python
 connection: SSHProvisionerConnection | WinrmProvisionerConnection
@@ -911,7 +911,7 @@ connection: SSHProvisionerConnection | WinrmProvisionerConnection
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.count"></a>
 
 ```python
 count: typing.Union[int, float] | TerraformCount
@@ -921,7 +921,7 @@ count: typing.Union[int, float] | TerraformCount
 
 ---
 
-##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.dependsOn"></a>
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.dependsOn"></a>
 
 ```python
 depends_on: typing.List[str]
@@ -931,7 +931,7 @@ depends_on: typing.List[str]
 
 ---
 
-##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.forEach"></a>
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.forEach"></a>
 
 ```python
 for_each: ITerraformIterator
@@ -941,7 +941,7 @@ for_each: ITerraformIterator
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.lifecycle"></a>
 
 ```python
 lifecycle: TerraformResourceLifecycle
@@ -951,7 +951,7 @@ lifecycle: TerraformResourceLifecycle
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.provider"></a>
 
 ```python
 provider: TerraformProvider
@@ -961,7 +961,7 @@ provider: TerraformProvider
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.provisioners"></a>
 
 ```python
 provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner]
@@ -971,7 +971,7 @@ provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecPro
 
 ---
 
-##### `ancestor_module`<sup>Required</sup> <a name="ancestor_module" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.ancestorModule"></a>
+##### `ancestor_module`<sup>Required</sup> <a name="ancestor_module" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.ancestorModule"></a>
 
 ```python
 ancestor_module: str
@@ -981,17 +981,17 @@ ancestor_module: str
 
 ---
 
-##### `custom_config`<sup>Required</sup> <a name="custom_config" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.customConfig"></a>
+##### `custom_config`<sup>Required</sup> <a name="custom_config" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.customConfig"></a>
 
 ```python
 custom_config: GoogleSccProjectCustomModuleCustomConfigOutputReference
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference">GoogleSccProjectCustomModuleCustomConfigOutputReference</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference">GoogleSccProjectCustomModuleCustomConfigOutputReference</a>
 
 ---
 
-##### `last_editor`<sup>Required</sup> <a name="last_editor" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.lastEditor"></a>
+##### `last_editor`<sup>Required</sup> <a name="last_editor" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.lastEditor"></a>
 
 ```python
 last_editor: str
@@ -1001,7 +1001,7 @@ last_editor: str
 
 ---
 
-##### `name`<sup>Required</sup> <a name="name" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.name"></a>
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.name"></a>
 
 ```python
 name: str
@@ -1011,17 +1011,17 @@ name: str
 
 ---
 
-##### `timeouts`<sup>Required</sup> <a name="timeouts" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.timeouts"></a>
+##### `timeouts`<sup>Required</sup> <a name="timeouts" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.timeouts"></a>
 
 ```python
 timeouts: GoogleSccProjectCustomModuleTimeoutsOutputReference
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference">GoogleSccProjectCustomModuleTimeoutsOutputReference</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference">GoogleSccProjectCustomModuleTimeoutsOutputReference</a>
 
 ---
 
-##### `update_time`<sup>Required</sup> <a name="update_time" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.updateTime"></a>
+##### `update_time`<sup>Required</sup> <a name="update_time" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.updateTime"></a>
 
 ```python
 update_time: str
@@ -1031,17 +1031,17 @@ update_time: str
 
 ---
 
-##### `custom_config_input`<sup>Optional</sup> <a name="custom_config_input" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.customConfigInput"></a>
+##### `custom_config_input`<sup>Optional</sup> <a name="custom_config_input" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.customConfigInput"></a>
 
 ```python
 custom_config_input: GoogleSccProjectCustomModuleCustomConfig
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig">GoogleSccProjectCustomModuleCustomConfig</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig">GoogleSccProjectCustomModuleCustomConfig</a>
 
 ---
 
-##### `display_name_input`<sup>Optional</sup> <a name="display_name_input" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.displayNameInput"></a>
+##### `display_name_input`<sup>Optional</sup> <a name="display_name_input" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.displayNameInput"></a>
 
 ```python
 display_name_input: str
@@ -1051,7 +1051,7 @@ display_name_input: str
 
 ---
 
-##### `enablement_state_input`<sup>Optional</sup> <a name="enablement_state_input" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.enablementStateInput"></a>
+##### `enablement_state_input`<sup>Optional</sup> <a name="enablement_state_input" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.enablementStateInput"></a>
 
 ```python
 enablement_state_input: str
@@ -1061,7 +1061,7 @@ enablement_state_input: str
 
 ---
 
-##### `id_input`<sup>Optional</sup> <a name="id_input" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.idInput"></a>
+##### `id_input`<sup>Optional</sup> <a name="id_input" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.idInput"></a>
 
 ```python
 id_input: str
@@ -1071,7 +1071,7 @@ id_input: str
 
 ---
 
-##### `project_input`<sup>Optional</sup> <a name="project_input" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.projectInput"></a>
+##### `project_input`<sup>Optional</sup> <a name="project_input" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.projectInput"></a>
 
 ```python
 project_input: str
@@ -1081,17 +1081,17 @@ project_input: str
 
 ---
 
-##### `timeouts_input`<sup>Optional</sup> <a name="timeouts_input" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.timeoutsInput"></a>
+##### `timeouts_input`<sup>Optional</sup> <a name="timeouts_input" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.timeoutsInput"></a>
 
 ```python
 timeouts_input: IResolvable | GoogleSccProjectCustomModuleTimeouts
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeouts">GoogleSccProjectCustomModuleTimeouts</a>
+- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeouts">GoogleSccProjectCustomModuleTimeouts</a>
 
 ---
 
-##### `display_name`<sup>Required</sup> <a name="display_name" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.displayName"></a>
+##### `display_name`<sup>Required</sup> <a name="display_name" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.displayName"></a>
 
 ```python
 display_name: str
@@ -1101,7 +1101,7 @@ display_name: str
 
 ---
 
-##### `enablement_state`<sup>Required</sup> <a name="enablement_state" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.enablementState"></a>
+##### `enablement_state`<sup>Required</sup> <a name="enablement_state" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.enablementState"></a>
 
 ```python
 enablement_state: str
@@ -1111,7 +1111,7 @@ enablement_state: str
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.id"></a>
 
 ```python
 id: str
@@ -1121,7 +1121,7 @@ id: str
 
 ---
 
-##### `project`<sup>Required</sup> <a name="project" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.project"></a>
+##### `project`<sup>Required</sup> <a name="project" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.project"></a>
 
 ```python
 project: str
@@ -1135,11 +1135,11 @@ project: str
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.tfResourceType">tfResourceType</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.tfResourceType">tfResourceType</a></code> | <code>str</code> | *No description.* |
 
 ---
 
-##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.tfResourceType"></a>
+##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.tfResourceType"></a>
 
 ```python
 tfResourceType: str
@@ -1151,12 +1151,12 @@ tfResourceType: str
 
 ## Structs <a name="Structs" id="Structs"></a>
 
-### GoogleSccProjectCustomModuleConfig <a name="GoogleSccProjectCustomModuleConfig" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig"></a>
+### GoogleSccProjectCustomModuleConfig <a name="GoogleSccProjectCustomModuleConfig" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_scc_project_custom_module
+from cdktn_provider_google_beta import google_scc_project_custom_module
 
 googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig(
   connection: SSHProvisionerConnection | WinrmProvisionerConnection = None,
@@ -1179,23 +1179,23 @@ googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.customConfig">custom_config</a></code> | <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig">GoogleSccProjectCustomModuleCustomConfig</a></code> | custom_config block. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.displayName">display_name</a></code> | <code>str</code> | The display name of the Security Health Analytics custom module. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.enablementState">enablement_state</a></code> | <code>str</code> | The enablement state of the custom module. Possible values: ["ENABLED", "DISABLED"]. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_project_custom_module#id GoogleSccProjectCustomModule#id}. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_project_custom_module#project GoogleSccProjectCustomModule#project}. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeouts">GoogleSccProjectCustomModuleTimeouts</a></code> | timeouts block. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.customConfig">custom_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig">GoogleSccProjectCustomModuleCustomConfig</a></code> | custom_config block. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.displayName">display_name</a></code> | <code>str</code> | The display name of the Security Health Analytics custom module. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.enablementState">enablement_state</a></code> | <code>str</code> | The enablement state of the custom module. Possible values: ["ENABLED", "DISABLED"]. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_project_custom_module#id GoogleSccProjectCustomModule#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_project_custom_module#project GoogleSccProjectCustomModule#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeouts">GoogleSccProjectCustomModuleTimeouts</a></code> | timeouts block. |
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.connection"></a>
 
 ```python
 connection: SSHProvisionerConnection | WinrmProvisionerConnection
@@ -1205,7 +1205,7 @@ connection: SSHProvisionerConnection | WinrmProvisionerConnection
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.count"></a>
 
 ```python
 count: typing.Union[int, float] | TerraformCount
@@ -1215,7 +1215,7 @@ count: typing.Union[int, float] | TerraformCount
 
 ---
 
-##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.dependsOn"></a>
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.dependsOn"></a>
 
 ```python
 depends_on: typing.List[ITerraformDependable]
@@ -1225,7 +1225,7 @@ depends_on: typing.List[ITerraformDependable]
 
 ---
 
-##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.forEach"></a>
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.forEach"></a>
 
 ```python
 for_each: ITerraformIterator
@@ -1235,7 +1235,7 @@ for_each: ITerraformIterator
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.lifecycle"></a>
 
 ```python
 lifecycle: TerraformResourceLifecycle
@@ -1245,7 +1245,7 @@ lifecycle: TerraformResourceLifecycle
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.provider"></a>
 
 ```python
 provider: TerraformProvider
@@ -1255,7 +1255,7 @@ provider: TerraformProvider
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.provisioners"></a>
 
 ```python
 provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner]
@@ -1265,13 +1265,13 @@ provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecPro
 
 ---
 
-##### `custom_config`<sup>Required</sup> <a name="custom_config" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.customConfig"></a>
+##### `custom_config`<sup>Required</sup> <a name="custom_config" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.customConfig"></a>
 
 ```python
 custom_config: GoogleSccProjectCustomModuleCustomConfig
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig">GoogleSccProjectCustomModuleCustomConfig</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig">GoogleSccProjectCustomModuleCustomConfig</a>
 
 custom_config block.
 
@@ -1279,7 +1279,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `display_name`<sup>Required</sup> <a name="display_name" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.displayName"></a>
+##### `display_name`<sup>Required</sup> <a name="display_name" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.displayName"></a>
 
 ```python
 display_name: str
@@ -1299,7 +1299,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `enablement_state`<sup>Required</sup> <a name="enablement_state" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.enablementState"></a>
+##### `enablement_state`<sup>Required</sup> <a name="enablement_state" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.enablementState"></a>
 
 ```python
 enablement_state: str
@@ -1313,7 +1313,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `id`<sup>Optional</sup> <a name="id" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.id"></a>
+##### `id`<sup>Optional</sup> <a name="id" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.id"></a>
 
 ```python
 id: str
@@ -1328,7 +1328,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 ---
 
-##### `project`<sup>Optional</sup> <a name="project" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.project"></a>
+##### `project`<sup>Optional</sup> <a name="project" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.project"></a>
 
 ```python
 project: str
@@ -1340,13 +1340,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `timeouts`<sup>Optional</sup> <a name="timeouts" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.timeouts"></a>
+##### `timeouts`<sup>Optional</sup> <a name="timeouts" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.timeouts"></a>
 
 ```python
 timeouts: GoogleSccProjectCustomModuleTimeouts
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeouts">GoogleSccProjectCustomModuleTimeouts</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeouts">GoogleSccProjectCustomModuleTimeouts</a>
 
 timeouts block.
 
@@ -1354,12 +1354,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-### GoogleSccProjectCustomModuleCustomConfig <a name="GoogleSccProjectCustomModuleCustomConfig" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig"></a>
+### GoogleSccProjectCustomModuleCustomConfig <a name="GoogleSccProjectCustomModuleCustomConfig" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_scc_project_custom_module
+from cdktn_provider_google_beta import google_scc_project_custom_module
 
 googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig(
   predicate: GoogleSccProjectCustomModuleCustomConfigPredicate,
@@ -1375,22 +1375,22 @@ googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig.property.predicate">predicate</a></code> | <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicate">GoogleSccProjectCustomModuleCustomConfigPredicate</a></code> | predicate block. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig.property.recommendation">recommendation</a></code> | <code>str</code> | An explanation of the recommended steps that security teams can take to resolve the detected issue. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig.property.resourceSelector">resource_selector</a></code> | <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelector">GoogleSccProjectCustomModuleCustomConfigResourceSelector</a></code> | resource_selector block. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig.property.severity">severity</a></code> | <code>str</code> | The severity to assign to findings generated by the module. Possible values: ["CRITICAL", "HIGH", "MEDIUM", "LOW"]. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig.property.customOutput">custom_output</a></code> | <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutput">GoogleSccProjectCustomModuleCustomConfigCustomOutput</a></code> | custom_output block. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig.property.description">description</a></code> | <code>str</code> | Text that describes the vulnerability or misconfiguration that the custom module detects. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig.property.predicate">predicate</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicate">GoogleSccProjectCustomModuleCustomConfigPredicate</a></code> | predicate block. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig.property.recommendation">recommendation</a></code> | <code>str</code> | An explanation of the recommended steps that security teams can take to resolve the detected issue. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig.property.resourceSelector">resource_selector</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelector">GoogleSccProjectCustomModuleCustomConfigResourceSelector</a></code> | resource_selector block. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig.property.severity">severity</a></code> | <code>str</code> | The severity to assign to findings generated by the module. Possible values: ["CRITICAL", "HIGH", "MEDIUM", "LOW"]. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig.property.customOutput">custom_output</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutput">GoogleSccProjectCustomModuleCustomConfigCustomOutput</a></code> | custom_output block. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig.property.description">description</a></code> | <code>str</code> | Text that describes the vulnerability or misconfiguration that the custom module detects. |
 
 ---
 
-##### `predicate`<sup>Required</sup> <a name="predicate" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig.property.predicate"></a>
+##### `predicate`<sup>Required</sup> <a name="predicate" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig.property.predicate"></a>
 
 ```python
 predicate: GoogleSccProjectCustomModuleCustomConfigPredicate
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicate">GoogleSccProjectCustomModuleCustomConfigPredicate</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicate">GoogleSccProjectCustomModuleCustomConfigPredicate</a>
 
 predicate block.
 
@@ -1398,7 +1398,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `recommendation`<sup>Required</sup> <a name="recommendation" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig.property.recommendation"></a>
+##### `recommendation`<sup>Required</sup> <a name="recommendation" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig.property.recommendation"></a>
 
 ```python
 recommendation: str
@@ -1415,13 +1415,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `resource_selector`<sup>Required</sup> <a name="resource_selector" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig.property.resourceSelector"></a>
+##### `resource_selector`<sup>Required</sup> <a name="resource_selector" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig.property.resourceSelector"></a>
 
 ```python
 resource_selector: GoogleSccProjectCustomModuleCustomConfigResourceSelector
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelector">GoogleSccProjectCustomModuleCustomConfigResourceSelector</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelector">GoogleSccProjectCustomModuleCustomConfigResourceSelector</a>
 
 resource_selector block.
 
@@ -1429,7 +1429,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `severity`<sup>Required</sup> <a name="severity" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig.property.severity"></a>
+##### `severity`<sup>Required</sup> <a name="severity" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig.property.severity"></a>
 
 ```python
 severity: str
@@ -1443,13 +1443,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `custom_output`<sup>Optional</sup> <a name="custom_output" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig.property.customOutput"></a>
+##### `custom_output`<sup>Optional</sup> <a name="custom_output" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig.property.customOutput"></a>
 
 ```python
 custom_output: GoogleSccProjectCustomModuleCustomConfigCustomOutput
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutput">GoogleSccProjectCustomModuleCustomConfigCustomOutput</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutput">GoogleSccProjectCustomModuleCustomConfigCustomOutput</a>
 
 custom_output block.
 
@@ -1457,7 +1457,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `description`<sup>Optional</sup> <a name="description" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig.property.description"></a>
+##### `description`<sup>Optional</sup> <a name="description" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig.property.description"></a>
 
 ```python
 description: str
@@ -1474,12 +1474,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-### GoogleSccProjectCustomModuleCustomConfigCustomOutput <a name="GoogleSccProjectCustomModuleCustomConfigCustomOutput" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutput"></a>
+### GoogleSccProjectCustomModuleCustomConfigCustomOutput <a name="GoogleSccProjectCustomModuleCustomConfigCustomOutput" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutput"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutput.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutput.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_scc_project_custom_module
+from cdktn_provider_google_beta import google_scc_project_custom_module
 
 googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutput(
   properties: IResolvable | typing.List[GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties] = None
@@ -1490,17 +1490,17 @@ googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutpu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutput.property.properties">properties</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties">GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties</a>]</code> | properties block. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutput.property.properties">properties</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties">GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties</a>]</code> | properties block. |
 
 ---
 
-##### `properties`<sup>Optional</sup> <a name="properties" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutput.property.properties"></a>
+##### `properties`<sup>Optional</sup> <a name="properties" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutput.property.properties"></a>
 
 ```python
 properties: IResolvable | typing.List[GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties]
 ```
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties">GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties</a>]
+- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties">GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties</a>]
 
 properties block.
 
@@ -1508,12 +1508,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-### GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties <a name="GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties"></a>
+### GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties <a name="GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_scc_project_custom_module
+from cdktn_provider_google_beta import google_scc_project_custom_module
 
 googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties(
   name: str = None,
@@ -1525,12 +1525,12 @@ googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutpu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties.property.name">name</a></code> | <code>str</code> | Name of the property for the custom output. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties.property.valueExpression">value_expression</a></code> | <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression">GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression</a></code> | value_expression block. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties.property.name">name</a></code> | <code>str</code> | Name of the property for the custom output. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties.property.valueExpression">value_expression</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression">GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression</a></code> | value_expression block. |
 
 ---
 
-##### `name`<sup>Optional</sup> <a name="name" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties.property.name"></a>
+##### `name`<sup>Optional</sup> <a name="name" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties.property.name"></a>
 
 ```python
 name: str
@@ -1544,13 +1544,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `value_expression`<sup>Optional</sup> <a name="value_expression" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties.property.valueExpression"></a>
+##### `value_expression`<sup>Optional</sup> <a name="value_expression" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties.property.valueExpression"></a>
 
 ```python
 value_expression: GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression">GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression">GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression</a>
 
 value_expression block.
 
@@ -1558,12 +1558,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-### GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression <a name="GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression"></a>
+### GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression <a name="GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_scc_project_custom_module
+from cdktn_provider_google_beta import google_scc_project_custom_module
 
 googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression(
   expression: str,
@@ -1577,14 +1577,14 @@ googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutpu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression.property.expression">expression</a></code> | <code>str</code> | Textual representation of an expression in Common Expression Language syntax. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression.property.description">description</a></code> | <code>str</code> | Description of the expression. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression.property.location">location</a></code> | <code>str</code> | String indicating the location of the expression for error reporting, e.g. a file name and a position in the file. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression.property.title">title</a></code> | <code>str</code> | Title for the expression, i.e. a short string describing its purpose. This can be used e.g. in UIs which allow to enter the expression. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression.property.expression">expression</a></code> | <code>str</code> | Textual representation of an expression in Common Expression Language syntax. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression.property.description">description</a></code> | <code>str</code> | Description of the expression. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression.property.location">location</a></code> | <code>str</code> | String indicating the location of the expression for error reporting, e.g. a file name and a position in the file. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression.property.title">title</a></code> | <code>str</code> | Title for the expression, i.e. a short string describing its purpose. This can be used e.g. in UIs which allow to enter the expression. |
 
 ---
 
-##### `expression`<sup>Required</sup> <a name="expression" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression.property.expression"></a>
+##### `expression`<sup>Required</sup> <a name="expression" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression.property.expression"></a>
 
 ```python
 expression: str
@@ -1598,7 +1598,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `description`<sup>Optional</sup> <a name="description" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression.property.description"></a>
+##### `description`<sup>Optional</sup> <a name="description" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression.property.description"></a>
 
 ```python
 description: str
@@ -1615,7 +1615,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `location`<sup>Optional</sup> <a name="location" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression.property.location"></a>
+##### `location`<sup>Optional</sup> <a name="location" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression.property.location"></a>
 
 ```python
 location: str
@@ -1629,7 +1629,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `title`<sup>Optional</sup> <a name="title" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression.property.title"></a>
+##### `title`<sup>Optional</sup> <a name="title" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression.property.title"></a>
 
 ```python
 title: str
@@ -1643,12 +1643,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-### GoogleSccProjectCustomModuleCustomConfigPredicate <a name="GoogleSccProjectCustomModuleCustomConfigPredicate" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicate"></a>
+### GoogleSccProjectCustomModuleCustomConfigPredicate <a name="GoogleSccProjectCustomModuleCustomConfigPredicate" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicate"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicate.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicate.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_scc_project_custom_module
+from cdktn_provider_google_beta import google_scc_project_custom_module
 
 googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicate(
   expression: str,
@@ -1662,14 +1662,14 @@ googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicate(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicate.property.expression">expression</a></code> | <code>str</code> | Textual representation of an expression in Common Expression Language syntax. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicate.property.description">description</a></code> | <code>str</code> | Description of the expression. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicate.property.location">location</a></code> | <code>str</code> | String indicating the location of the expression for error reporting, e.g. a file name and a position in the file. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicate.property.title">title</a></code> | <code>str</code> | Title for the expression, i.e. a short string describing its purpose. This can be used e.g. in UIs which allow to enter the expression. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicate.property.expression">expression</a></code> | <code>str</code> | Textual representation of an expression in Common Expression Language syntax. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicate.property.description">description</a></code> | <code>str</code> | Description of the expression. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicate.property.location">location</a></code> | <code>str</code> | String indicating the location of the expression for error reporting, e.g. a file name and a position in the file. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicate.property.title">title</a></code> | <code>str</code> | Title for the expression, i.e. a short string describing its purpose. This can be used e.g. in UIs which allow to enter the expression. |
 
 ---
 
-##### `expression`<sup>Required</sup> <a name="expression" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicate.property.expression"></a>
+##### `expression`<sup>Required</sup> <a name="expression" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicate.property.expression"></a>
 
 ```python
 expression: str
@@ -1683,7 +1683,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `description`<sup>Optional</sup> <a name="description" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicate.property.description"></a>
+##### `description`<sup>Optional</sup> <a name="description" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicate.property.description"></a>
 
 ```python
 description: str
@@ -1700,7 +1700,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `location`<sup>Optional</sup> <a name="location" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicate.property.location"></a>
+##### `location`<sup>Optional</sup> <a name="location" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicate.property.location"></a>
 
 ```python
 location: str
@@ -1714,7 +1714,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `title`<sup>Optional</sup> <a name="title" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicate.property.title"></a>
+##### `title`<sup>Optional</sup> <a name="title" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicate.property.title"></a>
 
 ```python
 title: str
@@ -1728,12 +1728,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-### GoogleSccProjectCustomModuleCustomConfigResourceSelector <a name="GoogleSccProjectCustomModuleCustomConfigResourceSelector" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelector"></a>
+### GoogleSccProjectCustomModuleCustomConfigResourceSelector <a name="GoogleSccProjectCustomModuleCustomConfigResourceSelector" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelector"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelector.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelector.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_scc_project_custom_module
+from cdktn_provider_google_beta import google_scc_project_custom_module
 
 googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelector(
   resource_types: typing.List[str]
@@ -1744,11 +1744,11 @@ googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSel
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelector.property.resourceTypes">resource_types</a></code> | <code>typing.List[str]</code> | The resource types to run the detector on. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelector.property.resourceTypes">resource_types</a></code> | <code>typing.List[str]</code> | The resource types to run the detector on. |
 
 ---
 
-##### `resource_types`<sup>Required</sup> <a name="resource_types" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelector.property.resourceTypes"></a>
+##### `resource_types`<sup>Required</sup> <a name="resource_types" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelector.property.resourceTypes"></a>
 
 ```python
 resource_types: typing.List[str]
@@ -1762,12 +1762,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-### GoogleSccProjectCustomModuleTimeouts <a name="GoogleSccProjectCustomModuleTimeouts" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeouts"></a>
+### GoogleSccProjectCustomModuleTimeouts <a name="GoogleSccProjectCustomModuleTimeouts" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeouts"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeouts.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeouts.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_scc_project_custom_module
+from cdktn_provider_google_beta import google_scc_project_custom_module
 
 googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeouts(
   create: str = None,
@@ -1780,13 +1780,13 @@ googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_project_custom_module#create GoogleSccProjectCustomModule#create}. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_project_custom_module#delete GoogleSccProjectCustomModule#delete}. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_project_custom_module#update GoogleSccProjectCustomModule#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_project_custom_module#create GoogleSccProjectCustomModule#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_project_custom_module#delete GoogleSccProjectCustomModule#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_project_custom_module#update GoogleSccProjectCustomModule#update}. |
 
 ---
 
-##### `create`<sup>Optional</sup> <a name="create" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeouts.property.create"></a>
+##### `create`<sup>Optional</sup> <a name="create" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeouts.property.create"></a>
 
 ```python
 create: str
@@ -1798,7 +1798,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `delete`<sup>Optional</sup> <a name="delete" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeouts.property.delete"></a>
+##### `delete`<sup>Optional</sup> <a name="delete" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeouts.property.delete"></a>
 
 ```python
 delete: str
@@ -1810,7 +1810,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `update`<sup>Optional</sup> <a name="update" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeouts.property.update"></a>
+##### `update`<sup>Optional</sup> <a name="update" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeouts.property.update"></a>
 
 ```python
 update: str
@@ -1824,12 +1824,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ## Classes <a name="Classes" id="Classes"></a>
 
-### GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference <a name="GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference"></a>
+### GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference <a name="GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_scc_project_custom_module
+from cdktn_provider_google_beta import google_scc_project_custom_module
 
 googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference(
   terraform_resource: IInterpolatingParent,
@@ -1839,12 +1839,12 @@ googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutpu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
-##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.Initializer.parameter.terraformResource"></a>
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.Initializer.parameter.terraformResource"></a>
 
 - *Type:* cdktf.IInterpolatingParent
 
@@ -1852,7 +1852,7 @@ The parent resource.
 
 ---
 
-##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.Initializer.parameter.terraformAttribute"></a>
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
@@ -1864,31 +1864,31 @@ The attribute on the parent resource this class is referencing.
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.putProperties">put_properties</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.resetProperties">reset_properties</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.putProperties">put_properties</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.resetProperties">reset_properties</a></code> | *No description.* |
 
 ---
 
-##### `compute_fqn` <a name="compute_fqn" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.computeFqn"></a>
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.computeFqn"></a>
 
 ```python
 def compute_fqn() -> str
 ```
 
-##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getAnyMapAttribute"></a>
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getAnyMapAttribute"></a>
 
 ```python
 def get_any_map_attribute(
@@ -1896,13 +1896,13 @@ def get_any_map_attribute(
 ) -> typing.Mapping[typing.Any]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getBooleanAttribute"></a>
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getBooleanAttribute"></a>
 
 ```python
 def get_boolean_attribute(
@@ -1910,13 +1910,13 @@ def get_boolean_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getBooleanMapAttribute"></a>
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getBooleanMapAttribute"></a>
 
 ```python
 def get_boolean_map_attribute(
@@ -1924,13 +1924,13 @@ def get_boolean_map_attribute(
 ) -> typing.Mapping[bool]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_list_attribute` <a name="get_list_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getListAttribute"></a>
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getListAttribute"></a>
 
 ```python
 def get_list_attribute(
@@ -1938,13 +1938,13 @@ def get_list_attribute(
 ) -> typing.List[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_attribute` <a name="get_number_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getNumberAttribute"></a>
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getNumberAttribute"></a>
 
 ```python
 def get_number_attribute(
@@ -1952,13 +1952,13 @@ def get_number_attribute(
 ) -> typing.Union[int, float]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getNumberListAttribute"></a>
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getNumberListAttribute"></a>
 
 ```python
 def get_number_list_attribute(
@@ -1966,13 +1966,13 @@ def get_number_list_attribute(
 ) -> typing.List[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getNumberMapAttribute"></a>
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getNumberMapAttribute"></a>
 
 ```python
 def get_number_map_attribute(
@@ -1980,13 +1980,13 @@ def get_number_map_attribute(
 ) -> typing.Mapping[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_attribute` <a name="get_string_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getStringAttribute"></a>
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getStringAttribute"></a>
 
 ```python
 def get_string_attribute(
@@ -1994,13 +1994,13 @@ def get_string_attribute(
 ) -> str
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getStringMapAttribute"></a>
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getStringMapAttribute"></a>
 
 ```python
 def get_string_map_attribute(
@@ -2008,13 +2008,13 @@ def get_string_map_attribute(
 ) -> typing.Mapping[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.interpolationForAttribute"></a>
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.interpolationForAttribute"></a>
 
 ```python
 def interpolation_for_attribute(
@@ -2022,13 +2022,13 @@ def interpolation_for_attribute(
 ) -> IResolvable
 ```
 
-###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.interpolationForAttribute.parameter.property"></a>
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.interpolationForAttribute.parameter.property"></a>
 
 - *Type:* str
 
 ---
 
-##### `resolve` <a name="resolve" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.resolve"></a>
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.resolve"></a>
 
 ```python
 def resolve(
@@ -2038,13 +2038,13 @@ def resolve(
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.resolve.parameter._context"></a>
 
 - *Type:* cdktf.IResolveContext
 
 ---
 
-##### `to_string` <a name="to_string" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.toString"></a>
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.toString"></a>
 
 ```python
 def to_string() -> str
@@ -2054,7 +2054,7 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `put_properties` <a name="put_properties" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.putProperties"></a>
+##### `put_properties` <a name="put_properties" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.putProperties"></a>
 
 ```python
 def put_properties(
@@ -2062,13 +2062,13 @@ def put_properties(
 ) -> None
 ```
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.putProperties.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.putProperties.parameter.value"></a>
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties">GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties</a>]
+- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties">GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties</a>]
 
 ---
 
-##### `reset_properties` <a name="reset_properties" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.resetProperties"></a>
+##### `reset_properties` <a name="reset_properties" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.resetProperties"></a>
 
 ```python
 def reset_properties() -> None
@@ -2079,15 +2079,15 @@ def reset_properties() -> None
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.property.properties">properties</a></code> | <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList">GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.property.propertiesInput">properties_input</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties">GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties</a>]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutput">GoogleSccProjectCustomModuleCustomConfigCustomOutput</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.property.properties">properties</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList">GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.property.propertiesInput">properties_input</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties">GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties</a>]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutput">GoogleSccProjectCustomModuleCustomConfigCustomOutput</a></code> | *No description.* |
 
 ---
 
-##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.property.creationStack"></a>
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.property.creationStack"></a>
 
 ```python
 creation_stack: typing.List[str]
@@ -2101,7 +2101,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.property.fqn"></a>
 
 ```python
 fqn: str
@@ -2111,43 +2111,43 @@ fqn: str
 
 ---
 
-##### `properties`<sup>Required</sup> <a name="properties" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.property.properties"></a>
+##### `properties`<sup>Required</sup> <a name="properties" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.property.properties"></a>
 
 ```python
 properties: GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList">GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList">GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList</a>
 
 ---
 
-##### `properties_input`<sup>Optional</sup> <a name="properties_input" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.property.propertiesInput"></a>
+##### `properties_input`<sup>Optional</sup> <a name="properties_input" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.property.propertiesInput"></a>
 
 ```python
 properties_input: IResolvable | typing.List[GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties]
 ```
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties">GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties</a>]
+- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties">GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties</a>]
 
 ---
 
-##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.property.internalValue"></a>
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference.property.internalValue"></a>
 
 ```python
 internal_value: GoogleSccProjectCustomModuleCustomConfigCustomOutput
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutput">GoogleSccProjectCustomModuleCustomConfigCustomOutput</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutput">GoogleSccProjectCustomModuleCustomConfigCustomOutput</a>
 
 ---
 
 
-### GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList <a name="GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList"></a>
+### GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList <a name="GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_scc_project_custom_module
+from cdktn_provider_google_beta import google_scc_project_custom_module
 
 googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList(
   terraform_resource: IInterpolatingParent,
@@ -2158,13 +2158,13 @@ googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutpu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
 
 ---
 
-##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.Initializer.parameter.terraformResource"></a>
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.Initializer.parameter.terraformResource"></a>
 
 - *Type:* cdktf.IInterpolatingParent
 
@@ -2172,7 +2172,7 @@ The parent resource.
 
 ---
 
-##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.Initializer.parameter.terraformAttribute"></a>
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
@@ -2180,7 +2180,7 @@ The attribute on the parent resource this class is referencing.
 
 ---
 
-##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.Initializer.parameter.wrapsSet"></a>
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.Initializer.parameter.wrapsSet"></a>
 
 - *Type:* bool
 
@@ -2192,15 +2192,15 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.computeFqn">compute_fqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.get">get</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.get">get</a></code> | *No description.* |
 
 ---
 
-##### `all_with_map_key` <a name="all_with_map_key" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.allWithMapKey"></a>
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.allWithMapKey"></a>
 
 ```python
 def all_with_map_key(
@@ -2212,19 +2212,19 @@ Creating an iterator for this complex list.
 
 The list will be converted into a map with the mapKeyAttributeName as the key.
 
-###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.allWithMapKey.parameter.mapKeyAttributeName"></a>
 
 - *Type:* str
 
 ---
 
-##### `compute_fqn` <a name="compute_fqn" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.computeFqn"></a>
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.computeFqn"></a>
 
 ```python
 def compute_fqn() -> str
 ```
 
-##### `resolve` <a name="resolve" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.resolve"></a>
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.resolve"></a>
 
 ```python
 def resolve(
@@ -2234,13 +2234,13 @@ def resolve(
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.resolve.parameter._context"></a>
 
 - *Type:* cdktf.IResolveContext
 
 ---
 
-##### `to_string` <a name="to_string" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.toString"></a>
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.toString"></a>
 
 ```python
 def to_string() -> str
@@ -2250,7 +2250,7 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `get` <a name="get" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.get"></a>
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.get"></a>
 
 ```python
 def get(
@@ -2258,7 +2258,7 @@ def get(
 ) -> GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference
 ```
 
-###### `index`<sup>Required</sup> <a name="index" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.get.parameter.index"></a>
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.get.parameter.index"></a>
 
 - *Type:* typing.Union[int, float]
 
@@ -2271,13 +2271,13 @@ the index of the item to return.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.property.internalValue">internal_value</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties">GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties</a>]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.property.internalValue">internal_value</a></code> | <code>cdktf.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties">GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties</a>]</code> | *No description.* |
 
 ---
 
-##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.property.creationStack"></a>
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.property.creationStack"></a>
 
 ```python
 creation_stack: typing.List[str]
@@ -2291,7 +2291,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.property.fqn"></a>
 
 ```python
 fqn: str
@@ -2301,23 +2301,23 @@ fqn: str
 
 ---
 
-##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.property.internalValue"></a>
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesList.property.internalValue"></a>
 
 ```python
 internal_value: IResolvable | typing.List[GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties]
 ```
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties">GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties</a>]
+- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties">GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties</a>]
 
 ---
 
 
-### GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference <a name="GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference"></a>
+### GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference <a name="GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_scc_project_custom_module
+from cdktn_provider_google_beta import google_scc_project_custom_module
 
 googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference(
   terraform_resource: IInterpolatingParent,
@@ -2329,14 +2329,14 @@ googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutpu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
 
 ---
 
-##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.Initializer.parameter.terraformResource"></a>
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.Initializer.parameter.terraformResource"></a>
 
 - *Type:* cdktf.IInterpolatingParent
 
@@ -2344,7 +2344,7 @@ The parent resource.
 
 ---
 
-##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.Initializer.parameter.terraformAttribute"></a>
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
@@ -2352,7 +2352,7 @@ The attribute on the parent resource this class is referencing.
 
 ---
 
-##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.Initializer.parameter.complexObjectIndex"></a>
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.Initializer.parameter.complexObjectIndex"></a>
 
 - *Type:* typing.Union[int, float]
 
@@ -2360,7 +2360,7 @@ the index of this item in the list.
 
 ---
 
-##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
 
 - *Type:* bool
 
@@ -2372,32 +2372,32 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.putValueExpression">put_value_expression</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.resetName">reset_name</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.resetValueExpression">reset_value_expression</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.putValueExpression">put_value_expression</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.resetName">reset_name</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.resetValueExpression">reset_value_expression</a></code> | *No description.* |
 
 ---
 
-##### `compute_fqn` <a name="compute_fqn" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.computeFqn"></a>
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.computeFqn"></a>
 
 ```python
 def compute_fqn() -> str
 ```
 
-##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getAnyMapAttribute"></a>
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getAnyMapAttribute"></a>
 
 ```python
 def get_any_map_attribute(
@@ -2405,13 +2405,13 @@ def get_any_map_attribute(
 ) -> typing.Mapping[typing.Any]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getBooleanAttribute"></a>
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getBooleanAttribute"></a>
 
 ```python
 def get_boolean_attribute(
@@ -2419,13 +2419,13 @@ def get_boolean_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getBooleanMapAttribute"></a>
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getBooleanMapAttribute"></a>
 
 ```python
 def get_boolean_map_attribute(
@@ -2433,13 +2433,13 @@ def get_boolean_map_attribute(
 ) -> typing.Mapping[bool]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_list_attribute` <a name="get_list_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getListAttribute"></a>
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getListAttribute"></a>
 
 ```python
 def get_list_attribute(
@@ -2447,13 +2447,13 @@ def get_list_attribute(
 ) -> typing.List[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_attribute` <a name="get_number_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getNumberAttribute"></a>
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getNumberAttribute"></a>
 
 ```python
 def get_number_attribute(
@@ -2461,13 +2461,13 @@ def get_number_attribute(
 ) -> typing.Union[int, float]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getNumberListAttribute"></a>
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getNumberListAttribute"></a>
 
 ```python
 def get_number_list_attribute(
@@ -2475,13 +2475,13 @@ def get_number_list_attribute(
 ) -> typing.List[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getNumberMapAttribute"></a>
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getNumberMapAttribute"></a>
 
 ```python
 def get_number_map_attribute(
@@ -2489,13 +2489,13 @@ def get_number_map_attribute(
 ) -> typing.Mapping[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_attribute` <a name="get_string_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getStringAttribute"></a>
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getStringAttribute"></a>
 
 ```python
 def get_string_attribute(
@@ -2503,13 +2503,13 @@ def get_string_attribute(
 ) -> str
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getStringMapAttribute"></a>
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getStringMapAttribute"></a>
 
 ```python
 def get_string_map_attribute(
@@ -2517,13 +2517,13 @@ def get_string_map_attribute(
 ) -> typing.Mapping[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.interpolationForAttribute"></a>
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.interpolationForAttribute"></a>
 
 ```python
 def interpolation_for_attribute(
@@ -2531,13 +2531,13 @@ def interpolation_for_attribute(
 ) -> IResolvable
 ```
 
-###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.interpolationForAttribute.parameter.property"></a>
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.interpolationForAttribute.parameter.property"></a>
 
 - *Type:* str
 
 ---
 
-##### `resolve` <a name="resolve" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.resolve"></a>
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.resolve"></a>
 
 ```python
 def resolve(
@@ -2547,13 +2547,13 @@ def resolve(
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.resolve.parameter._context"></a>
 
 - *Type:* cdktf.IResolveContext
 
 ---
 
-##### `to_string` <a name="to_string" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.toString"></a>
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.toString"></a>
 
 ```python
 def to_string() -> str
@@ -2563,7 +2563,7 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `put_value_expression` <a name="put_value_expression" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.putValueExpression"></a>
+##### `put_value_expression` <a name="put_value_expression" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.putValueExpression"></a>
 
 ```python
 def put_value_expression(
@@ -2574,7 +2574,7 @@ def put_value_expression(
 ) -> None
 ```
 
-###### `expression`<sup>Required</sup> <a name="expression" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.putValueExpression.parameter.expression"></a>
+###### `expression`<sup>Required</sup> <a name="expression" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.putValueExpression.parameter.expression"></a>
 
 - *Type:* str
 
@@ -2584,7 +2584,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-###### `description`<sup>Optional</sup> <a name="description" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.putValueExpression.parameter.description"></a>
+###### `description`<sup>Optional</sup> <a name="description" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.putValueExpression.parameter.description"></a>
 
 - *Type:* str
 
@@ -2597,7 +2597,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-###### `location`<sup>Optional</sup> <a name="location" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.putValueExpression.parameter.location"></a>
+###### `location`<sup>Optional</sup> <a name="location" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.putValueExpression.parameter.location"></a>
 
 - *Type:* str
 
@@ -2607,7 +2607,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-###### `title`<sup>Optional</sup> <a name="title" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.putValueExpression.parameter.title"></a>
+###### `title`<sup>Optional</sup> <a name="title" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.putValueExpression.parameter.title"></a>
 
 - *Type:* str
 
@@ -2617,13 +2617,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `reset_name` <a name="reset_name" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.resetName"></a>
+##### `reset_name` <a name="reset_name" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.resetName"></a>
 
 ```python
 def reset_name() -> None
 ```
 
-##### `reset_value_expression` <a name="reset_value_expression" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.resetValueExpression"></a>
+##### `reset_value_expression` <a name="reset_value_expression" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.resetValueExpression"></a>
 
 ```python
 def reset_value_expression() -> None
@@ -2634,17 +2634,17 @@ def reset_value_expression() -> None
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.property.valueExpression">value_expression</a></code> | <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference">GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.property.nameInput">name_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.property.valueExpressionInput">value_expression_input</a></code> | <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression">GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.property.internalValue">internal_value</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties">GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.property.valueExpression">value_expression</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference">GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.property.nameInput">name_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.property.valueExpressionInput">value_expression_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression">GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.property.internalValue">internal_value</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties">GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties</a></code> | *No description.* |
 
 ---
 
-##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.property.creationStack"></a>
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.property.creationStack"></a>
 
 ```python
 creation_stack: typing.List[str]
@@ -2658,7 +2658,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.property.fqn"></a>
 
 ```python
 fqn: str
@@ -2668,17 +2668,17 @@ fqn: str
 
 ---
 
-##### `value_expression`<sup>Required</sup> <a name="value_expression" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.property.valueExpression"></a>
+##### `value_expression`<sup>Required</sup> <a name="value_expression" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.property.valueExpression"></a>
 
 ```python
 value_expression: GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference">GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference">GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference</a>
 
 ---
 
-##### `name_input`<sup>Optional</sup> <a name="name_input" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.property.nameInput"></a>
+##### `name_input`<sup>Optional</sup> <a name="name_input" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.property.nameInput"></a>
 
 ```python
 name_input: str
@@ -2688,17 +2688,17 @@ name_input: str
 
 ---
 
-##### `value_expression_input`<sup>Optional</sup> <a name="value_expression_input" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.property.valueExpressionInput"></a>
+##### `value_expression_input`<sup>Optional</sup> <a name="value_expression_input" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.property.valueExpressionInput"></a>
 
 ```python
 value_expression_input: GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression">GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression">GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression</a>
 
 ---
 
-##### `name`<sup>Required</sup> <a name="name" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.property.name"></a>
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.property.name"></a>
 
 ```python
 name: str
@@ -2708,23 +2708,23 @@ name: str
 
 ---
 
-##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.property.internalValue"></a>
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesOutputReference.property.internalValue"></a>
 
 ```python
 internal_value: IResolvable | GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties">GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties</a>
+- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties">GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties</a>
 
 ---
 
 
-### GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference <a name="GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference"></a>
+### GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference <a name="GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_scc_project_custom_module
+from cdktn_provider_google_beta import google_scc_project_custom_module
 
 googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference(
   terraform_resource: IInterpolatingParent,
@@ -2734,12 +2734,12 @@ googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutpu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
-##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.Initializer.parameter.terraformResource"></a>
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.Initializer.parameter.terraformResource"></a>
 
 - *Type:* cdktf.IInterpolatingParent
 
@@ -2747,7 +2747,7 @@ The parent resource.
 
 ---
 
-##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.Initializer.parameter.terraformAttribute"></a>
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
@@ -2759,32 +2759,32 @@ The attribute on the parent resource this class is referencing.
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.resetDescription">reset_description</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.resetLocation">reset_location</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.resetTitle">reset_title</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.resetDescription">reset_description</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.resetLocation">reset_location</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.resetTitle">reset_title</a></code> | *No description.* |
 
 ---
 
-##### `compute_fqn` <a name="compute_fqn" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.computeFqn"></a>
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.computeFqn"></a>
 
 ```python
 def compute_fqn() -> str
 ```
 
-##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getAnyMapAttribute"></a>
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getAnyMapAttribute"></a>
 
 ```python
 def get_any_map_attribute(
@@ -2792,13 +2792,13 @@ def get_any_map_attribute(
 ) -> typing.Mapping[typing.Any]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getBooleanAttribute"></a>
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getBooleanAttribute"></a>
 
 ```python
 def get_boolean_attribute(
@@ -2806,13 +2806,13 @@ def get_boolean_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getBooleanMapAttribute"></a>
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getBooleanMapAttribute"></a>
 
 ```python
 def get_boolean_map_attribute(
@@ -2820,13 +2820,13 @@ def get_boolean_map_attribute(
 ) -> typing.Mapping[bool]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_list_attribute` <a name="get_list_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getListAttribute"></a>
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getListAttribute"></a>
 
 ```python
 def get_list_attribute(
@@ -2834,13 +2834,13 @@ def get_list_attribute(
 ) -> typing.List[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_attribute` <a name="get_number_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getNumberAttribute"></a>
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getNumberAttribute"></a>
 
 ```python
 def get_number_attribute(
@@ -2848,13 +2848,13 @@ def get_number_attribute(
 ) -> typing.Union[int, float]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getNumberListAttribute"></a>
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getNumberListAttribute"></a>
 
 ```python
 def get_number_list_attribute(
@@ -2862,13 +2862,13 @@ def get_number_list_attribute(
 ) -> typing.List[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getNumberMapAttribute"></a>
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getNumberMapAttribute"></a>
 
 ```python
 def get_number_map_attribute(
@@ -2876,13 +2876,13 @@ def get_number_map_attribute(
 ) -> typing.Mapping[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_attribute` <a name="get_string_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getStringAttribute"></a>
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getStringAttribute"></a>
 
 ```python
 def get_string_attribute(
@@ -2890,13 +2890,13 @@ def get_string_attribute(
 ) -> str
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getStringMapAttribute"></a>
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getStringMapAttribute"></a>
 
 ```python
 def get_string_map_attribute(
@@ -2904,13 +2904,13 @@ def get_string_map_attribute(
 ) -> typing.Mapping[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.interpolationForAttribute"></a>
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.interpolationForAttribute"></a>
 
 ```python
 def interpolation_for_attribute(
@@ -2918,13 +2918,13 @@ def interpolation_for_attribute(
 ) -> IResolvable
 ```
 
-###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.interpolationForAttribute.parameter.property"></a>
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.interpolationForAttribute.parameter.property"></a>
 
 - *Type:* str
 
 ---
 
-##### `resolve` <a name="resolve" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.resolve"></a>
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.resolve"></a>
 
 ```python
 def resolve(
@@ -2934,13 +2934,13 @@ def resolve(
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.resolve.parameter._context"></a>
 
 - *Type:* cdktf.IResolveContext
 
 ---
 
-##### `to_string` <a name="to_string" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.toString"></a>
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.toString"></a>
 
 ```python
 def to_string() -> str
@@ -2950,19 +2950,19 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `reset_description` <a name="reset_description" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.resetDescription"></a>
+##### `reset_description` <a name="reset_description" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.resetDescription"></a>
 
 ```python
 def reset_description() -> None
 ```
 
-##### `reset_location` <a name="reset_location" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.resetLocation"></a>
+##### `reset_location` <a name="reset_location" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.resetLocation"></a>
 
 ```python
 def reset_location() -> None
 ```
 
-##### `reset_title` <a name="reset_title" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.resetTitle"></a>
+##### `reset_title` <a name="reset_title" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.resetTitle"></a>
 
 ```python
 def reset_title() -> None
@@ -2973,21 +2973,21 @@ def reset_title() -> None
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.property.descriptionInput">description_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.property.expressionInput">expression_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.property.locationInput">location_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.property.titleInput">title_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.property.description">description</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.property.expression">expression</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.property.location">location</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.property.title">title</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression">GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.property.descriptionInput">description_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.property.expressionInput">expression_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.property.locationInput">location_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.property.titleInput">title_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.property.description">description</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.property.expression">expression</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.property.location">location</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.property.title">title</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression">GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression</a></code> | *No description.* |
 
 ---
 
-##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.property.creationStack"></a>
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.property.creationStack"></a>
 
 ```python
 creation_stack: typing.List[str]
@@ -3001,7 +3001,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.property.fqn"></a>
 
 ```python
 fqn: str
@@ -3011,7 +3011,7 @@ fqn: str
 
 ---
 
-##### `description_input`<sup>Optional</sup> <a name="description_input" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.property.descriptionInput"></a>
+##### `description_input`<sup>Optional</sup> <a name="description_input" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.property.descriptionInput"></a>
 
 ```python
 description_input: str
@@ -3021,7 +3021,7 @@ description_input: str
 
 ---
 
-##### `expression_input`<sup>Optional</sup> <a name="expression_input" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.property.expressionInput"></a>
+##### `expression_input`<sup>Optional</sup> <a name="expression_input" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.property.expressionInput"></a>
 
 ```python
 expression_input: str
@@ -3031,7 +3031,7 @@ expression_input: str
 
 ---
 
-##### `location_input`<sup>Optional</sup> <a name="location_input" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.property.locationInput"></a>
+##### `location_input`<sup>Optional</sup> <a name="location_input" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.property.locationInput"></a>
 
 ```python
 location_input: str
@@ -3041,7 +3041,7 @@ location_input: str
 
 ---
 
-##### `title_input`<sup>Optional</sup> <a name="title_input" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.property.titleInput"></a>
+##### `title_input`<sup>Optional</sup> <a name="title_input" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.property.titleInput"></a>
 
 ```python
 title_input: str
@@ -3051,7 +3051,7 @@ title_input: str
 
 ---
 
-##### `description`<sup>Required</sup> <a name="description" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.property.description"></a>
+##### `description`<sup>Required</sup> <a name="description" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.property.description"></a>
 
 ```python
 description: str
@@ -3061,7 +3061,7 @@ description: str
 
 ---
 
-##### `expression`<sup>Required</sup> <a name="expression" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.property.expression"></a>
+##### `expression`<sup>Required</sup> <a name="expression" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.property.expression"></a>
 
 ```python
 expression: str
@@ -3071,7 +3071,7 @@ expression: str
 
 ---
 
-##### `location`<sup>Required</sup> <a name="location" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.property.location"></a>
+##### `location`<sup>Required</sup> <a name="location" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.property.location"></a>
 
 ```python
 location: str
@@ -3081,7 +3081,7 @@ location: str
 
 ---
 
-##### `title`<sup>Required</sup> <a name="title" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.property.title"></a>
+##### `title`<sup>Required</sup> <a name="title" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.property.title"></a>
 
 ```python
 title: str
@@ -3091,23 +3091,23 @@ title: str
 
 ---
 
-##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.property.internalValue"></a>
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpressionOutputReference.property.internalValue"></a>
 
 ```python
 internal_value: GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression">GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression">GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpression</a>
 
 ---
 
 
-### GoogleSccProjectCustomModuleCustomConfigOutputReference <a name="GoogleSccProjectCustomModuleCustomConfigOutputReference" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference"></a>
+### GoogleSccProjectCustomModuleCustomConfigOutputReference <a name="GoogleSccProjectCustomModuleCustomConfigOutputReference" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_scc_project_custom_module
+from cdktn_provider_google_beta import google_scc_project_custom_module
 
 googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference(
   terraform_resource: IInterpolatingParent,
@@ -3117,12 +3117,12 @@ googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputRefer
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
-##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.Initializer.parameter.terraformResource"></a>
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.Initializer.parameter.terraformResource"></a>
 
 - *Type:* cdktf.IInterpolatingParent
 
@@ -3130,7 +3130,7 @@ The parent resource.
 
 ---
 
-##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
@@ -3142,34 +3142,34 @@ The attribute on the parent resource this class is referencing.
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.putCustomOutput">put_custom_output</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.putPredicate">put_predicate</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.putResourceSelector">put_resource_selector</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.resetCustomOutput">reset_custom_output</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.resetDescription">reset_description</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.putCustomOutput">put_custom_output</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.putPredicate">put_predicate</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.putResourceSelector">put_resource_selector</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.resetCustomOutput">reset_custom_output</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.resetDescription">reset_description</a></code> | *No description.* |
 
 ---
 
-##### `compute_fqn` <a name="compute_fqn" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.computeFqn"></a>
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.computeFqn"></a>
 
 ```python
 def compute_fqn() -> str
 ```
 
-##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getAnyMapAttribute"></a>
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getAnyMapAttribute"></a>
 
 ```python
 def get_any_map_attribute(
@@ -3177,13 +3177,13 @@ def get_any_map_attribute(
 ) -> typing.Mapping[typing.Any]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getBooleanAttribute"></a>
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getBooleanAttribute"></a>
 
 ```python
 def get_boolean_attribute(
@@ -3191,13 +3191,13 @@ def get_boolean_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getBooleanMapAttribute"></a>
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getBooleanMapAttribute"></a>
 
 ```python
 def get_boolean_map_attribute(
@@ -3205,13 +3205,13 @@ def get_boolean_map_attribute(
 ) -> typing.Mapping[bool]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_list_attribute` <a name="get_list_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getListAttribute"></a>
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getListAttribute"></a>
 
 ```python
 def get_list_attribute(
@@ -3219,13 +3219,13 @@ def get_list_attribute(
 ) -> typing.List[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_attribute` <a name="get_number_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getNumberAttribute"></a>
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getNumberAttribute"></a>
 
 ```python
 def get_number_attribute(
@@ -3233,13 +3233,13 @@ def get_number_attribute(
 ) -> typing.Union[int, float]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getNumberListAttribute"></a>
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getNumberListAttribute"></a>
 
 ```python
 def get_number_list_attribute(
@@ -3247,13 +3247,13 @@ def get_number_list_attribute(
 ) -> typing.List[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getNumberMapAttribute"></a>
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getNumberMapAttribute"></a>
 
 ```python
 def get_number_map_attribute(
@@ -3261,13 +3261,13 @@ def get_number_map_attribute(
 ) -> typing.Mapping[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_attribute` <a name="get_string_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getStringAttribute"></a>
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getStringAttribute"></a>
 
 ```python
 def get_string_attribute(
@@ -3275,13 +3275,13 @@ def get_string_attribute(
 ) -> str
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getStringMapAttribute"></a>
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getStringMapAttribute"></a>
 
 ```python
 def get_string_map_attribute(
@@ -3289,13 +3289,13 @@ def get_string_map_attribute(
 ) -> typing.Mapping[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.interpolationForAttribute"></a>
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.interpolationForAttribute"></a>
 
 ```python
 def interpolation_for_attribute(
@@ -3303,13 +3303,13 @@ def interpolation_for_attribute(
 ) -> IResolvable
 ```
 
-###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.interpolationForAttribute.parameter.property"></a>
 
 - *Type:* str
 
 ---
 
-##### `resolve` <a name="resolve" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.resolve"></a>
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.resolve"></a>
 
 ```python
 def resolve(
@@ -3319,13 +3319,13 @@ def resolve(
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.resolve.parameter._context"></a>
 
 - *Type:* cdktf.IResolveContext
 
 ---
 
-##### `to_string` <a name="to_string" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.toString"></a>
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.toString"></a>
 
 ```python
 def to_string() -> str
@@ -3335,7 +3335,7 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `put_custom_output` <a name="put_custom_output" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.putCustomOutput"></a>
+##### `put_custom_output` <a name="put_custom_output" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.putCustomOutput"></a>
 
 ```python
 def put_custom_output(
@@ -3343,9 +3343,9 @@ def put_custom_output(
 ) -> None
 ```
 
-###### `properties`<sup>Optional</sup> <a name="properties" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.putCustomOutput.parameter.properties"></a>
+###### `properties`<sup>Optional</sup> <a name="properties" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.putCustomOutput.parameter.properties"></a>
 
-- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties">GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties</a>]
+- *Type:* cdktf.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties">GoogleSccProjectCustomModuleCustomConfigCustomOutputProperties</a>]
 
 properties block.
 
@@ -3353,7 +3353,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `put_predicate` <a name="put_predicate" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.putPredicate"></a>
+##### `put_predicate` <a name="put_predicate" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.putPredicate"></a>
 
 ```python
 def put_predicate(
@@ -3364,7 +3364,7 @@ def put_predicate(
 ) -> None
 ```
 
-###### `expression`<sup>Required</sup> <a name="expression" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.putPredicate.parameter.expression"></a>
+###### `expression`<sup>Required</sup> <a name="expression" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.putPredicate.parameter.expression"></a>
 
 - *Type:* str
 
@@ -3374,7 +3374,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-###### `description`<sup>Optional</sup> <a name="description" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.putPredicate.parameter.description"></a>
+###### `description`<sup>Optional</sup> <a name="description" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.putPredicate.parameter.description"></a>
 
 - *Type:* str
 
@@ -3387,7 +3387,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-###### `location`<sup>Optional</sup> <a name="location" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.putPredicate.parameter.location"></a>
+###### `location`<sup>Optional</sup> <a name="location" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.putPredicate.parameter.location"></a>
 
 - *Type:* str
 
@@ -3397,7 +3397,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-###### `title`<sup>Optional</sup> <a name="title" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.putPredicate.parameter.title"></a>
+###### `title`<sup>Optional</sup> <a name="title" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.putPredicate.parameter.title"></a>
 
 - *Type:* str
 
@@ -3407,7 +3407,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `put_resource_selector` <a name="put_resource_selector" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.putResourceSelector"></a>
+##### `put_resource_selector` <a name="put_resource_selector" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.putResourceSelector"></a>
 
 ```python
 def put_resource_selector(
@@ -3415,7 +3415,7 @@ def put_resource_selector(
 ) -> None
 ```
 
-###### `resource_types`<sup>Required</sup> <a name="resource_types" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.putResourceSelector.parameter.resourceTypes"></a>
+###### `resource_types`<sup>Required</sup> <a name="resource_types" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.putResourceSelector.parameter.resourceTypes"></a>
 
 - *Type:* typing.List[str]
 
@@ -3425,13 +3425,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `reset_custom_output` <a name="reset_custom_output" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.resetCustomOutput"></a>
+##### `reset_custom_output` <a name="reset_custom_output" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.resetCustomOutput"></a>
 
 ```python
 def reset_custom_output() -> None
 ```
 
-##### `reset_description` <a name="reset_description" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.resetDescription"></a>
+##### `reset_description` <a name="reset_description" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.resetDescription"></a>
 
 ```python
 def reset_description() -> None
@@ -3442,25 +3442,25 @@ def reset_description() -> None
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.customOutput">custom_output</a></code> | <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference">GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.predicate">predicate</a></code> | <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference">GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.resourceSelector">resource_selector</a></code> | <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference">GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.customOutputInput">custom_output_input</a></code> | <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutput">GoogleSccProjectCustomModuleCustomConfigCustomOutput</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.descriptionInput">description_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.predicateInput">predicate_input</a></code> | <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicate">GoogleSccProjectCustomModuleCustomConfigPredicate</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.recommendationInput">recommendation_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.resourceSelectorInput">resource_selector_input</a></code> | <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelector">GoogleSccProjectCustomModuleCustomConfigResourceSelector</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.severityInput">severity_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.description">description</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.recommendation">recommendation</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.severity">severity</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig">GoogleSccProjectCustomModuleCustomConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.customOutput">custom_output</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference">GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.predicate">predicate</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference">GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.resourceSelector">resource_selector</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference">GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.customOutputInput">custom_output_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutput">GoogleSccProjectCustomModuleCustomConfigCustomOutput</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.descriptionInput">description_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.predicateInput">predicate_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicate">GoogleSccProjectCustomModuleCustomConfigPredicate</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.recommendationInput">recommendation_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.resourceSelectorInput">resource_selector_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelector">GoogleSccProjectCustomModuleCustomConfigResourceSelector</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.severityInput">severity_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.description">description</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.recommendation">recommendation</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.severity">severity</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig">GoogleSccProjectCustomModuleCustomConfig</a></code> | *No description.* |
 
 ---
 
-##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.creationStack"></a>
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.creationStack"></a>
 
 ```python
 creation_stack: typing.List[str]
@@ -3474,7 +3474,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.fqn"></a>
 
 ```python
 fqn: str
@@ -3484,47 +3484,47 @@ fqn: str
 
 ---
 
-##### `custom_output`<sup>Required</sup> <a name="custom_output" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.customOutput"></a>
+##### `custom_output`<sup>Required</sup> <a name="custom_output" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.customOutput"></a>
 
 ```python
 custom_output: GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference">GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference">GoogleSccProjectCustomModuleCustomConfigCustomOutputOutputReference</a>
 
 ---
 
-##### `predicate`<sup>Required</sup> <a name="predicate" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.predicate"></a>
+##### `predicate`<sup>Required</sup> <a name="predicate" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.predicate"></a>
 
 ```python
 predicate: GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference">GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference">GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference</a>
 
 ---
 
-##### `resource_selector`<sup>Required</sup> <a name="resource_selector" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.resourceSelector"></a>
+##### `resource_selector`<sup>Required</sup> <a name="resource_selector" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.resourceSelector"></a>
 
 ```python
 resource_selector: GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference">GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference">GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference</a>
 
 ---
 
-##### `custom_output_input`<sup>Optional</sup> <a name="custom_output_input" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.customOutputInput"></a>
+##### `custom_output_input`<sup>Optional</sup> <a name="custom_output_input" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.customOutputInput"></a>
 
 ```python
 custom_output_input: GoogleSccProjectCustomModuleCustomConfigCustomOutput
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutput">GoogleSccProjectCustomModuleCustomConfigCustomOutput</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigCustomOutput">GoogleSccProjectCustomModuleCustomConfigCustomOutput</a>
 
 ---
 
-##### `description_input`<sup>Optional</sup> <a name="description_input" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.descriptionInput"></a>
+##### `description_input`<sup>Optional</sup> <a name="description_input" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.descriptionInput"></a>
 
 ```python
 description_input: str
@@ -3534,17 +3534,17 @@ description_input: str
 
 ---
 
-##### `predicate_input`<sup>Optional</sup> <a name="predicate_input" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.predicateInput"></a>
+##### `predicate_input`<sup>Optional</sup> <a name="predicate_input" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.predicateInput"></a>
 
 ```python
 predicate_input: GoogleSccProjectCustomModuleCustomConfigPredicate
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicate">GoogleSccProjectCustomModuleCustomConfigPredicate</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicate">GoogleSccProjectCustomModuleCustomConfigPredicate</a>
 
 ---
 
-##### `recommendation_input`<sup>Optional</sup> <a name="recommendation_input" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.recommendationInput"></a>
+##### `recommendation_input`<sup>Optional</sup> <a name="recommendation_input" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.recommendationInput"></a>
 
 ```python
 recommendation_input: str
@@ -3554,17 +3554,17 @@ recommendation_input: str
 
 ---
 
-##### `resource_selector_input`<sup>Optional</sup> <a name="resource_selector_input" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.resourceSelectorInput"></a>
+##### `resource_selector_input`<sup>Optional</sup> <a name="resource_selector_input" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.resourceSelectorInput"></a>
 
 ```python
 resource_selector_input: GoogleSccProjectCustomModuleCustomConfigResourceSelector
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelector">GoogleSccProjectCustomModuleCustomConfigResourceSelector</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelector">GoogleSccProjectCustomModuleCustomConfigResourceSelector</a>
 
 ---
 
-##### `severity_input`<sup>Optional</sup> <a name="severity_input" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.severityInput"></a>
+##### `severity_input`<sup>Optional</sup> <a name="severity_input" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.severityInput"></a>
 
 ```python
 severity_input: str
@@ -3574,7 +3574,7 @@ severity_input: str
 
 ---
 
-##### `description`<sup>Required</sup> <a name="description" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.description"></a>
+##### `description`<sup>Required</sup> <a name="description" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.description"></a>
 
 ```python
 description: str
@@ -3584,7 +3584,7 @@ description: str
 
 ---
 
-##### `recommendation`<sup>Required</sup> <a name="recommendation" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.recommendation"></a>
+##### `recommendation`<sup>Required</sup> <a name="recommendation" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.recommendation"></a>
 
 ```python
 recommendation: str
@@ -3594,7 +3594,7 @@ recommendation: str
 
 ---
 
-##### `severity`<sup>Required</sup> <a name="severity" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.severity"></a>
+##### `severity`<sup>Required</sup> <a name="severity" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.severity"></a>
 
 ```python
 severity: str
@@ -3604,23 +3604,23 @@ severity: str
 
 ---
 
-##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.internalValue"></a>
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigOutputReference.property.internalValue"></a>
 
 ```python
 internal_value: GoogleSccProjectCustomModuleCustomConfig
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig">GoogleSccProjectCustomModuleCustomConfig</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig">GoogleSccProjectCustomModuleCustomConfig</a>
 
 ---
 
 
-### GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference <a name="GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference"></a>
+### GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference <a name="GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_scc_project_custom_module
+from cdktn_provider_google_beta import google_scc_project_custom_module
 
 googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference(
   terraform_resource: IInterpolatingParent,
@@ -3630,12 +3630,12 @@ googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
-##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.Initializer.parameter.terraformResource"></a>
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.Initializer.parameter.terraformResource"></a>
 
 - *Type:* cdktf.IInterpolatingParent
 
@@ -3643,7 +3643,7 @@ The parent resource.
 
 ---
 
-##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.Initializer.parameter.terraformAttribute"></a>
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
@@ -3655,32 +3655,32 @@ The attribute on the parent resource this class is referencing.
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.resetDescription">reset_description</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.resetLocation">reset_location</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.resetTitle">reset_title</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.resetDescription">reset_description</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.resetLocation">reset_location</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.resetTitle">reset_title</a></code> | *No description.* |
 
 ---
 
-##### `compute_fqn` <a name="compute_fqn" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.computeFqn"></a>
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.computeFqn"></a>
 
 ```python
 def compute_fqn() -> str
 ```
 
-##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getAnyMapAttribute"></a>
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getAnyMapAttribute"></a>
 
 ```python
 def get_any_map_attribute(
@@ -3688,13 +3688,13 @@ def get_any_map_attribute(
 ) -> typing.Mapping[typing.Any]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getBooleanAttribute"></a>
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getBooleanAttribute"></a>
 
 ```python
 def get_boolean_attribute(
@@ -3702,13 +3702,13 @@ def get_boolean_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getBooleanMapAttribute"></a>
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getBooleanMapAttribute"></a>
 
 ```python
 def get_boolean_map_attribute(
@@ -3716,13 +3716,13 @@ def get_boolean_map_attribute(
 ) -> typing.Mapping[bool]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_list_attribute` <a name="get_list_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getListAttribute"></a>
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getListAttribute"></a>
 
 ```python
 def get_list_attribute(
@@ -3730,13 +3730,13 @@ def get_list_attribute(
 ) -> typing.List[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_attribute` <a name="get_number_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getNumberAttribute"></a>
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getNumberAttribute"></a>
 
 ```python
 def get_number_attribute(
@@ -3744,13 +3744,13 @@ def get_number_attribute(
 ) -> typing.Union[int, float]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getNumberListAttribute"></a>
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getNumberListAttribute"></a>
 
 ```python
 def get_number_list_attribute(
@@ -3758,13 +3758,13 @@ def get_number_list_attribute(
 ) -> typing.List[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getNumberMapAttribute"></a>
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getNumberMapAttribute"></a>
 
 ```python
 def get_number_map_attribute(
@@ -3772,13 +3772,13 @@ def get_number_map_attribute(
 ) -> typing.Mapping[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_attribute` <a name="get_string_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getStringAttribute"></a>
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getStringAttribute"></a>
 
 ```python
 def get_string_attribute(
@@ -3786,13 +3786,13 @@ def get_string_attribute(
 ) -> str
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getStringMapAttribute"></a>
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getStringMapAttribute"></a>
 
 ```python
 def get_string_map_attribute(
@@ -3800,13 +3800,13 @@ def get_string_map_attribute(
 ) -> typing.Mapping[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.interpolationForAttribute"></a>
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.interpolationForAttribute"></a>
 
 ```python
 def interpolation_for_attribute(
@@ -3814,13 +3814,13 @@ def interpolation_for_attribute(
 ) -> IResolvable
 ```
 
-###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.interpolationForAttribute.parameter.property"></a>
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.interpolationForAttribute.parameter.property"></a>
 
 - *Type:* str
 
 ---
 
-##### `resolve` <a name="resolve" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.resolve"></a>
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.resolve"></a>
 
 ```python
 def resolve(
@@ -3830,13 +3830,13 @@ def resolve(
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.resolve.parameter._context"></a>
 
 - *Type:* cdktf.IResolveContext
 
 ---
 
-##### `to_string` <a name="to_string" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.toString"></a>
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.toString"></a>
 
 ```python
 def to_string() -> str
@@ -3846,19 +3846,19 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `reset_description` <a name="reset_description" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.resetDescription"></a>
+##### `reset_description` <a name="reset_description" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.resetDescription"></a>
 
 ```python
 def reset_description() -> None
 ```
 
-##### `reset_location` <a name="reset_location" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.resetLocation"></a>
+##### `reset_location` <a name="reset_location" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.resetLocation"></a>
 
 ```python
 def reset_location() -> None
 ```
 
-##### `reset_title` <a name="reset_title" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.resetTitle"></a>
+##### `reset_title` <a name="reset_title" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.resetTitle"></a>
 
 ```python
 def reset_title() -> None
@@ -3869,21 +3869,21 @@ def reset_title() -> None
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.property.descriptionInput">description_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.property.expressionInput">expression_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.property.locationInput">location_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.property.titleInput">title_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.property.description">description</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.property.expression">expression</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.property.location">location</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.property.title">title</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicate">GoogleSccProjectCustomModuleCustomConfigPredicate</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.property.descriptionInput">description_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.property.expressionInput">expression_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.property.locationInput">location_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.property.titleInput">title_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.property.description">description</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.property.expression">expression</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.property.location">location</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.property.title">title</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicate">GoogleSccProjectCustomModuleCustomConfigPredicate</a></code> | *No description.* |
 
 ---
 
-##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.property.creationStack"></a>
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.property.creationStack"></a>
 
 ```python
 creation_stack: typing.List[str]
@@ -3897,7 +3897,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.property.fqn"></a>
 
 ```python
 fqn: str
@@ -3907,7 +3907,7 @@ fqn: str
 
 ---
 
-##### `description_input`<sup>Optional</sup> <a name="description_input" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.property.descriptionInput"></a>
+##### `description_input`<sup>Optional</sup> <a name="description_input" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.property.descriptionInput"></a>
 
 ```python
 description_input: str
@@ -3917,7 +3917,7 @@ description_input: str
 
 ---
 
-##### `expression_input`<sup>Optional</sup> <a name="expression_input" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.property.expressionInput"></a>
+##### `expression_input`<sup>Optional</sup> <a name="expression_input" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.property.expressionInput"></a>
 
 ```python
 expression_input: str
@@ -3927,7 +3927,7 @@ expression_input: str
 
 ---
 
-##### `location_input`<sup>Optional</sup> <a name="location_input" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.property.locationInput"></a>
+##### `location_input`<sup>Optional</sup> <a name="location_input" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.property.locationInput"></a>
 
 ```python
 location_input: str
@@ -3937,7 +3937,7 @@ location_input: str
 
 ---
 
-##### `title_input`<sup>Optional</sup> <a name="title_input" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.property.titleInput"></a>
+##### `title_input`<sup>Optional</sup> <a name="title_input" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.property.titleInput"></a>
 
 ```python
 title_input: str
@@ -3947,7 +3947,7 @@ title_input: str
 
 ---
 
-##### `description`<sup>Required</sup> <a name="description" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.property.description"></a>
+##### `description`<sup>Required</sup> <a name="description" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.property.description"></a>
 
 ```python
 description: str
@@ -3957,7 +3957,7 @@ description: str
 
 ---
 
-##### `expression`<sup>Required</sup> <a name="expression" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.property.expression"></a>
+##### `expression`<sup>Required</sup> <a name="expression" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.property.expression"></a>
 
 ```python
 expression: str
@@ -3967,7 +3967,7 @@ expression: str
 
 ---
 
-##### `location`<sup>Required</sup> <a name="location" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.property.location"></a>
+##### `location`<sup>Required</sup> <a name="location" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.property.location"></a>
 
 ```python
 location: str
@@ -3977,7 +3977,7 @@ location: str
 
 ---
 
-##### `title`<sup>Required</sup> <a name="title" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.property.title"></a>
+##### `title`<sup>Required</sup> <a name="title" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.property.title"></a>
 
 ```python
 title: str
@@ -3987,23 +3987,23 @@ title: str
 
 ---
 
-##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.property.internalValue"></a>
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicateOutputReference.property.internalValue"></a>
 
 ```python
 internal_value: GoogleSccProjectCustomModuleCustomConfigPredicate
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicate">GoogleSccProjectCustomModuleCustomConfigPredicate</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigPredicate">GoogleSccProjectCustomModuleCustomConfigPredicate</a>
 
 ---
 
 
-### GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference <a name="GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference"></a>
+### GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference <a name="GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_scc_project_custom_module
+from cdktn_provider_google_beta import google_scc_project_custom_module
 
 googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference(
   terraform_resource: IInterpolatingParent,
@@ -4013,12 +4013,12 @@ googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSel
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
-##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.Initializer.parameter.terraformResource"></a>
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.Initializer.parameter.terraformResource"></a>
 
 - *Type:* cdktf.IInterpolatingParent
 
@@ -4026,7 +4026,7 @@ The parent resource.
 
 ---
 
-##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.Initializer.parameter.terraformAttribute"></a>
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
@@ -4038,29 +4038,29 @@ The attribute on the parent resource this class is referencing.
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
 
 ---
 
-##### `compute_fqn` <a name="compute_fqn" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.computeFqn"></a>
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.computeFqn"></a>
 
 ```python
 def compute_fqn() -> str
 ```
 
-##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getAnyMapAttribute"></a>
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getAnyMapAttribute"></a>
 
 ```python
 def get_any_map_attribute(
@@ -4068,13 +4068,13 @@ def get_any_map_attribute(
 ) -> typing.Mapping[typing.Any]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getBooleanAttribute"></a>
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getBooleanAttribute"></a>
 
 ```python
 def get_boolean_attribute(
@@ -4082,13 +4082,13 @@ def get_boolean_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getBooleanMapAttribute"></a>
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getBooleanMapAttribute"></a>
 
 ```python
 def get_boolean_map_attribute(
@@ -4096,13 +4096,13 @@ def get_boolean_map_attribute(
 ) -> typing.Mapping[bool]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_list_attribute` <a name="get_list_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getListAttribute"></a>
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getListAttribute"></a>
 
 ```python
 def get_list_attribute(
@@ -4110,13 +4110,13 @@ def get_list_attribute(
 ) -> typing.List[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_attribute` <a name="get_number_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getNumberAttribute"></a>
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getNumberAttribute"></a>
 
 ```python
 def get_number_attribute(
@@ -4124,13 +4124,13 @@ def get_number_attribute(
 ) -> typing.Union[int, float]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getNumberListAttribute"></a>
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getNumberListAttribute"></a>
 
 ```python
 def get_number_list_attribute(
@@ -4138,13 +4138,13 @@ def get_number_list_attribute(
 ) -> typing.List[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getNumberMapAttribute"></a>
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getNumberMapAttribute"></a>
 
 ```python
 def get_number_map_attribute(
@@ -4152,13 +4152,13 @@ def get_number_map_attribute(
 ) -> typing.Mapping[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_attribute` <a name="get_string_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getStringAttribute"></a>
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getStringAttribute"></a>
 
 ```python
 def get_string_attribute(
@@ -4166,13 +4166,13 @@ def get_string_attribute(
 ) -> str
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getStringMapAttribute"></a>
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getStringMapAttribute"></a>
 
 ```python
 def get_string_map_attribute(
@@ -4180,13 +4180,13 @@ def get_string_map_attribute(
 ) -> typing.Mapping[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.interpolationForAttribute"></a>
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.interpolationForAttribute"></a>
 
 ```python
 def interpolation_for_attribute(
@@ -4194,13 +4194,13 @@ def interpolation_for_attribute(
 ) -> IResolvable
 ```
 
-###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.interpolationForAttribute.parameter.property"></a>
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.interpolationForAttribute.parameter.property"></a>
 
 - *Type:* str
 
 ---
 
-##### `resolve` <a name="resolve" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.resolve"></a>
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.resolve"></a>
 
 ```python
 def resolve(
@@ -4210,13 +4210,13 @@ def resolve(
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.resolve.parameter._context"></a>
 
 - *Type:* cdktf.IResolveContext
 
 ---
 
-##### `to_string` <a name="to_string" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.toString"></a>
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.toString"></a>
 
 ```python
 def to_string() -> str
@@ -4231,15 +4231,15 @@ Returns a reversible string representation.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.property.resourceTypesInput">resource_types_input</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.property.resourceTypes">resource_types</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelector">GoogleSccProjectCustomModuleCustomConfigResourceSelector</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.property.resourceTypesInput">resource_types_input</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.property.resourceTypes">resource_types</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelector">GoogleSccProjectCustomModuleCustomConfigResourceSelector</a></code> | *No description.* |
 
 ---
 
-##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.property.creationStack"></a>
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.property.creationStack"></a>
 
 ```python
 creation_stack: typing.List[str]
@@ -4253,7 +4253,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.property.fqn"></a>
 
 ```python
 fqn: str
@@ -4263,7 +4263,7 @@ fqn: str
 
 ---
 
-##### `resource_types_input`<sup>Optional</sup> <a name="resource_types_input" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.property.resourceTypesInput"></a>
+##### `resource_types_input`<sup>Optional</sup> <a name="resource_types_input" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.property.resourceTypesInput"></a>
 
 ```python
 resource_types_input: typing.List[str]
@@ -4273,7 +4273,7 @@ resource_types_input: typing.List[str]
 
 ---
 
-##### `resource_types`<sup>Required</sup> <a name="resource_types" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.property.resourceTypes"></a>
+##### `resource_types`<sup>Required</sup> <a name="resource_types" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.property.resourceTypes"></a>
 
 ```python
 resource_types: typing.List[str]
@@ -4283,23 +4283,23 @@ resource_types: typing.List[str]
 
 ---
 
-##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.property.internalValue"></a>
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelectorOutputReference.property.internalValue"></a>
 
 ```python
 internal_value: GoogleSccProjectCustomModuleCustomConfigResourceSelector
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelector">GoogleSccProjectCustomModuleCustomConfigResourceSelector</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfigResourceSelector">GoogleSccProjectCustomModuleCustomConfigResourceSelector</a>
 
 ---
 
 
-### GoogleSccProjectCustomModuleTimeoutsOutputReference <a name="GoogleSccProjectCustomModuleTimeoutsOutputReference" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference"></a>
+### GoogleSccProjectCustomModuleTimeoutsOutputReference <a name="GoogleSccProjectCustomModuleTimeoutsOutputReference" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_scc_project_custom_module
+from cdktn_provider_google_beta import google_scc_project_custom_module
 
 googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference(
   terraform_resource: IInterpolatingParent,
@@ -4309,12 +4309,12 @@ googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
-##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.Initializer.parameter.terraformResource"></a>
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.Initializer.parameter.terraformResource"></a>
 
 - *Type:* cdktf.IInterpolatingParent
 
@@ -4322,7 +4322,7 @@ The parent resource.
 
 ---
 
-##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.Initializer.parameter.terraformAttribute"></a>
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
@@ -4334,32 +4334,32 @@ The attribute on the parent resource this class is referencing.
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.resetCreate">reset_create</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.resetDelete">reset_delete</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.resetUpdate">reset_update</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.resetCreate">reset_create</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.resetDelete">reset_delete</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.resetUpdate">reset_update</a></code> | *No description.* |
 
 ---
 
-##### `compute_fqn` <a name="compute_fqn" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.computeFqn"></a>
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.computeFqn"></a>
 
 ```python
 def compute_fqn() -> str
 ```
 
-##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getAnyMapAttribute"></a>
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getAnyMapAttribute"></a>
 
 ```python
 def get_any_map_attribute(
@@ -4367,13 +4367,13 @@ def get_any_map_attribute(
 ) -> typing.Mapping[typing.Any]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getBooleanAttribute"></a>
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getBooleanAttribute"></a>
 
 ```python
 def get_boolean_attribute(
@@ -4381,13 +4381,13 @@ def get_boolean_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getBooleanMapAttribute"></a>
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getBooleanMapAttribute"></a>
 
 ```python
 def get_boolean_map_attribute(
@@ -4395,13 +4395,13 @@ def get_boolean_map_attribute(
 ) -> typing.Mapping[bool]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_list_attribute` <a name="get_list_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getListAttribute"></a>
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getListAttribute"></a>
 
 ```python
 def get_list_attribute(
@@ -4409,13 +4409,13 @@ def get_list_attribute(
 ) -> typing.List[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_attribute` <a name="get_number_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getNumberAttribute"></a>
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getNumberAttribute"></a>
 
 ```python
 def get_number_attribute(
@@ -4423,13 +4423,13 @@ def get_number_attribute(
 ) -> typing.Union[int, float]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getNumberListAttribute"></a>
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getNumberListAttribute"></a>
 
 ```python
 def get_number_list_attribute(
@@ -4437,13 +4437,13 @@ def get_number_list_attribute(
 ) -> typing.List[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getNumberMapAttribute"></a>
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getNumberMapAttribute"></a>
 
 ```python
 def get_number_map_attribute(
@@ -4451,13 +4451,13 @@ def get_number_map_attribute(
 ) -> typing.Mapping[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_attribute` <a name="get_string_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getStringAttribute"></a>
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getStringAttribute"></a>
 
 ```python
 def get_string_attribute(
@@ -4465,13 +4465,13 @@ def get_string_attribute(
 ) -> str
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getStringMapAttribute"></a>
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getStringMapAttribute"></a>
 
 ```python
 def get_string_map_attribute(
@@ -4479,13 +4479,13 @@ def get_string_map_attribute(
 ) -> typing.Mapping[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.interpolationForAttribute"></a>
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.interpolationForAttribute"></a>
 
 ```python
 def interpolation_for_attribute(
@@ -4493,13 +4493,13 @@ def interpolation_for_attribute(
 ) -> IResolvable
 ```
 
-###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.interpolationForAttribute.parameter.property"></a>
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.interpolationForAttribute.parameter.property"></a>
 
 - *Type:* str
 
 ---
 
-##### `resolve` <a name="resolve" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.resolve"></a>
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.resolve"></a>
 
 ```python
 def resolve(
@@ -4509,13 +4509,13 @@ def resolve(
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.resolve.parameter._context"></a>
 
 - *Type:* cdktf.IResolveContext
 
 ---
 
-##### `to_string` <a name="to_string" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.toString"></a>
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.toString"></a>
 
 ```python
 def to_string() -> str
@@ -4525,19 +4525,19 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `reset_create` <a name="reset_create" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.resetCreate"></a>
+##### `reset_create` <a name="reset_create" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.resetCreate"></a>
 
 ```python
 def reset_create() -> None
 ```
 
-##### `reset_delete` <a name="reset_delete" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.resetDelete"></a>
+##### `reset_delete` <a name="reset_delete" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.resetDelete"></a>
 
 ```python
 def reset_delete() -> None
 ```
 
-##### `reset_update` <a name="reset_update" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.resetUpdate"></a>
+##### `reset_update` <a name="reset_update" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.resetUpdate"></a>
 
 ```python
 def reset_update() -> None
@@ -4548,19 +4548,19 @@ def reset_update() -> None
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.property.createInput">create_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.property.deleteInput">delete_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.property.updateInput">update_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.property.create">create</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.property.delete">delete</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.property.update">update</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.property.internalValue">internal_value</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeouts">GoogleSccProjectCustomModuleTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.property.createInput">create_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.property.deleteInput">delete_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.property.updateInput">update_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.property.create">create</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.property.delete">delete</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.property.update">update</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.property.internalValue">internal_value</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeouts">GoogleSccProjectCustomModuleTimeouts</a></code> | *No description.* |
 
 ---
 
-##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.property.creationStack"></a>
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.property.creationStack"></a>
 
 ```python
 creation_stack: typing.List[str]
@@ -4574,7 +4574,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.property.fqn"></a>
 
 ```python
 fqn: str
@@ -4584,7 +4584,7 @@ fqn: str
 
 ---
 
-##### `create_input`<sup>Optional</sup> <a name="create_input" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.property.createInput"></a>
+##### `create_input`<sup>Optional</sup> <a name="create_input" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.property.createInput"></a>
 
 ```python
 create_input: str
@@ -4594,7 +4594,7 @@ create_input: str
 
 ---
 
-##### `delete_input`<sup>Optional</sup> <a name="delete_input" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.property.deleteInput"></a>
+##### `delete_input`<sup>Optional</sup> <a name="delete_input" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.property.deleteInput"></a>
 
 ```python
 delete_input: str
@@ -4604,7 +4604,7 @@ delete_input: str
 
 ---
 
-##### `update_input`<sup>Optional</sup> <a name="update_input" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.property.updateInput"></a>
+##### `update_input`<sup>Optional</sup> <a name="update_input" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.property.updateInput"></a>
 
 ```python
 update_input: str
@@ -4614,7 +4614,7 @@ update_input: str
 
 ---
 
-##### `create`<sup>Required</sup> <a name="create" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.property.create"></a>
+##### `create`<sup>Required</sup> <a name="create" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.property.create"></a>
 
 ```python
 create: str
@@ -4624,7 +4624,7 @@ create: str
 
 ---
 
-##### `delete`<sup>Required</sup> <a name="delete" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.property.delete"></a>
+##### `delete`<sup>Required</sup> <a name="delete" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.property.delete"></a>
 
 ```python
 delete: str
@@ -4634,7 +4634,7 @@ delete: str
 
 ---
 
-##### `update`<sup>Required</sup> <a name="update" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.property.update"></a>
+##### `update`<sup>Required</sup> <a name="update" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.property.update"></a>
 
 ```python
 update: str
@@ -4644,13 +4644,13 @@ update: str
 
 ---
 
-##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.property.internalValue"></a>
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference.property.internalValue"></a>
 
 ```python
 internal_value: IResolvable | GoogleSccProjectCustomModuleTimeouts
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeouts">GoogleSccProjectCustomModuleTimeouts</a>
+- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeouts">GoogleSccProjectCustomModuleTimeouts</a>
 
 ---
 

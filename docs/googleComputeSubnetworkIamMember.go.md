@@ -1,28 +1,28 @@
-# `googleComputeSubnetworkIamMember` Submodule <a name="`googleComputeSubnetworkIamMember` Submodule" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember"></a>
+# `googleComputeSubnetworkIamMember` Submodule <a name="`googleComputeSubnetworkIamMember` Submodule" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
 
-### GoogleComputeSubnetworkIamMember <a name="GoogleComputeSubnetworkIamMember" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember"></a>
+### GoogleComputeSubnetworkIamMember <a name="GoogleComputeSubnetworkIamMember" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember"></a>
 
 Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork_iam_member google_compute_subnetwork_iam_member}.
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecomputesubnetworkiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputesubnetworkiammember"
 
 googlecomputesubnetworkiammember.NewGoogleComputeSubnetworkIamMember(scope Construct, id *string, config GoogleComputeSubnetworkIamMemberConfig) GoogleComputeSubnetworkIamMember
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.Initializer.parameter.scope">scope</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Construct</code> | The scope in which to define this construct. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.Initializer.parameter.id">id</a></code> | <code>*string</code> | The scoped construct ID. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig">GoogleComputeSubnetworkIamMemberConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.Initializer.parameter.scope">scope</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.Initializer.parameter.id">id</a></code> | <code>*string</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig">GoogleComputeSubnetworkIamMemberConfig</a></code> | *No description.* |
 
 ---
 
-##### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.Initializer.parameter.scope"></a>
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.Initializer.parameter.scope"></a>
 
 - *Type:* github.com/aws/constructs-go/constructs/v10.Construct
 
@@ -30,7 +30,7 @@ The scope in which to define this construct.
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.Initializer.parameter.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.Initializer.parameter.id"></a>
 
 - *Type:* *string
 
@@ -40,9 +40,9 @@ Must be unique amongst siblings in the same scope
 
 ---
 
-##### `config`<sup>Required</sup> <a name="config" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.Initializer.parameter.config"></a>
+##### `config`<sup>Required</sup> <a name="config" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.Initializer.parameter.config"></a>
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig">GoogleComputeSubnetworkIamMemberConfig</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig">GoogleComputeSubnetworkIamMemberConfig</a>
 
 ---
 
@@ -50,38 +50,38 @@ Must be unique amongst siblings in the same scope
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.toString">ToString</a></code> | Returns a string representation of this construct. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.addOverride">AddOverride</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.overrideLogicalId">OverrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.resetOverrideLogicalId">ResetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.toHclTerraform">ToHclTerraform</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.toMetadata">ToMetadata</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.toTerraform">ToTerraform</a></code> | Adds this resource to the terraform JSON output. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.addMoveTarget">AddMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getListAttribute">GetListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.hasResourceMove">HasResourceMove</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.importFrom">ImportFrom</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.moveFromId">MoveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.putCondition">PutCondition</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.resetCondition">ResetCondition</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.resetId">ResetId</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.resetProject">ResetProject</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.resetRegion">ResetRegion</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.toString">ToString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.addOverride">AddOverride</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.overrideLogicalId">OverrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.resetOverrideLogicalId">ResetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.toHclTerraform">ToHclTerraform</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.toMetadata">ToMetadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.toTerraform">ToTerraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.addMoveTarget">AddMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.hasResourceMove">HasResourceMove</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.importFrom">ImportFrom</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.moveFromId">MoveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.putCondition">PutCondition</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.resetCondition">ResetCondition</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.resetId">ResetId</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.resetProject">ResetProject</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.resetRegion">ResetRegion</a></code> | *No description.* |
 
 ---
 
-##### `ToString` <a name="ToString" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.toString"></a>
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.toString"></a>
 
 ```go
 func ToString() *string
@@ -89,25 +89,25 @@ func ToString() *string
 
 Returns a string representation of this construct.
 
-##### `AddOverride` <a name="AddOverride" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.addOverride"></a>
+##### `AddOverride` <a name="AddOverride" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.addOverride"></a>
 
 ```go
 func AddOverride(path *string, value interface{})
 ```
 
-###### `path`<sup>Required</sup> <a name="path" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.addOverride.parameter.path"></a>
+###### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.addOverride.parameter.path"></a>
 
 - *Type:* *string
 
 ---
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.addOverride.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.addOverride.parameter.value"></a>
 
 - *Type:* interface{}
 
 ---
 
-##### `OverrideLogicalId` <a name="OverrideLogicalId" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.overrideLogicalId"></a>
+##### `OverrideLogicalId` <a name="OverrideLogicalId" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.overrideLogicalId"></a>
 
 ```go
 func OverrideLogicalId(newLogicalId *string)
@@ -115,7 +115,7 @@ func OverrideLogicalId(newLogicalId *string)
 
 Overrides the auto-generated logical ID with a specific ID.
 
-###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.overrideLogicalId.parameter.newLogicalId"></a>
+###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.overrideLogicalId.parameter.newLogicalId"></a>
 
 - *Type:* *string
 
@@ -123,7 +123,7 @@ The new logical ID to use for this stack element.
 
 ---
 
-##### `ResetOverrideLogicalId` <a name="ResetOverrideLogicalId" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.resetOverrideLogicalId"></a>
+##### `ResetOverrideLogicalId` <a name="ResetOverrideLogicalId" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.resetOverrideLogicalId"></a>
 
 ```go
 func ResetOverrideLogicalId()
@@ -131,19 +131,19 @@ func ResetOverrideLogicalId()
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
 
-##### `ToHclTerraform` <a name="ToHclTerraform" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.toHclTerraform"></a>
+##### `ToHclTerraform` <a name="ToHclTerraform" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.toHclTerraform"></a>
 
 ```go
 func ToHclTerraform() interface{}
 ```
 
-##### `ToMetadata` <a name="ToMetadata" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.toMetadata"></a>
+##### `ToMetadata` <a name="ToMetadata" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.toMetadata"></a>
 
 ```go
 func ToMetadata() interface{}
 ```
 
-##### `ToTerraform` <a name="ToTerraform" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.toTerraform"></a>
+##### `ToTerraform` <a name="ToTerraform" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.toTerraform"></a>
 
 ```go
 func ToTerraform() interface{}
@@ -151,7 +151,7 @@ func ToTerraform() interface{}
 
 Adds this resource to the terraform JSON output.
 
-##### `AddMoveTarget` <a name="AddMoveTarget" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.addMoveTarget"></a>
+##### `AddMoveTarget` <a name="AddMoveTarget" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.addMoveTarget"></a>
 
 ```go
 func AddMoveTarget(moveTarget *string)
@@ -159,7 +159,7 @@ func AddMoveTarget(moveTarget *string)
 
 Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 
-###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.addMoveTarget.parameter.moveTarget"></a>
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.addMoveTarget.parameter.moveTarget"></a>
 
 - *Type:* *string
 
@@ -167,151 +167,151 @@ The string move target that will correspond to this resource.
 
 ---
 
-##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getAnyMapAttribute"></a>
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getAnyMapAttribute"></a>
 
 ```go
 func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getBooleanAttribute"></a>
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getBooleanAttribute"></a>
 
 ```go
 func GetBooleanAttribute(terraformAttribute *string) IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getBooleanMapAttribute"></a>
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getBooleanMapAttribute"></a>
 
 ```go
 func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetListAttribute` <a name="GetListAttribute" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getListAttribute"></a>
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getListAttribute"></a>
 
 ```go
 func GetListAttribute(terraformAttribute *string) *[]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getNumberAttribute"></a>
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getNumberAttribute"></a>
 
 ```go
 func GetNumberAttribute(terraformAttribute *string) *f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getNumberListAttribute"></a>
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getNumberListAttribute"></a>
 
 ```go
 func GetNumberListAttribute(terraformAttribute *string) *[]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getNumberMapAttribute"></a>
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getNumberMapAttribute"></a>
 
 ```go
 func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getStringAttribute"></a>
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getStringAttribute"></a>
 
 ```go
 func GetStringAttribute(terraformAttribute *string) *string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getStringMapAttribute"></a>
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getStringMapAttribute"></a>
 
 ```go
 func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `HasResourceMove` <a name="HasResourceMove" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.hasResourceMove"></a>
+##### `HasResourceMove` <a name="HasResourceMove" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.hasResourceMove"></a>
 
 ```go
 func HasResourceMove() interface{}
 ```
 
-##### `ImportFrom` <a name="ImportFrom" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.importFrom"></a>
+##### `ImportFrom` <a name="ImportFrom" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.importFrom"></a>
 
 ```go
 func ImportFrom(id *string, provider TerraformProvider)
 ```
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.importFrom.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.importFrom.parameter.id"></a>
 
 - *Type:* *string
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.importFrom.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.importFrom.parameter.provider"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider
 
 ---
 
-##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.interpolationForAttribute"></a>
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.interpolationForAttribute"></a>
 
 ```go
 func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.interpolationForAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.interpolationForAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `MoveFromId` <a name="MoveFromId" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.moveFromId"></a>
+##### `MoveFromId` <a name="MoveFromId" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.moveFromId"></a>
 
 ```go
 func MoveFromId(id *string)
@@ -321,7 +321,7 @@ Move the resource corresponding to "id" to this resource.
 
 Note that the resource being moved from must be marked as moved using it's instance function.
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.moveFromId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.moveFromId.parameter.id"></a>
 
 - *Type:* *string
 
@@ -329,7 +329,7 @@ Full id of resource being moved from, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `MoveTo` <a name="MoveTo" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.moveTo"></a>
+##### `MoveTo` <a name="MoveTo" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.moveTo"></a>
 
 ```go
 func MoveTo(moveTarget *string, index interface{})
@@ -337,7 +337,7 @@ func MoveTo(moveTarget *string, index interface{})
 
 Moves this resource to the target resource given by moveTarget.
 
-###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.moveTo.parameter.moveTarget"></a>
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.moveTo.parameter.moveTarget"></a>
 
 - *Type:* *string
 
@@ -345,7 +345,7 @@ The previously set user defined string set by .addMoveTarget() corresponding to 
 
 ---
 
-###### `index`<sup>Optional</sup> <a name="index" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.moveTo.parameter.index"></a>
+###### `index`<sup>Optional</sup> <a name="index" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.moveTo.parameter.index"></a>
 
 - *Type:* interface{}
 
@@ -353,7 +353,7 @@ Optional The index corresponding to the key the resource is to appear in the for
 
 ---
 
-##### `MoveToId` <a name="MoveToId" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.moveToId"></a>
+##### `MoveToId` <a name="MoveToId" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.moveToId"></a>
 
 ```go
 func MoveToId(id *string)
@@ -361,7 +361,7 @@ func MoveToId(id *string)
 
 Moves this resource to the resource corresponding to "id".
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.moveToId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.moveToId.parameter.id"></a>
 
 - *Type:* *string
 
@@ -369,37 +369,37 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `PutCondition` <a name="PutCondition" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.putCondition"></a>
+##### `PutCondition` <a name="PutCondition" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.putCondition"></a>
 
 ```go
 func PutCondition(value GoogleComputeSubnetworkIamMemberCondition)
 ```
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.putCondition.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.putCondition.parameter.value"></a>
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberCondition">GoogleComputeSubnetworkIamMemberCondition</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberCondition">GoogleComputeSubnetworkIamMemberCondition</a>
 
 ---
 
-##### `ResetCondition` <a name="ResetCondition" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.resetCondition"></a>
+##### `ResetCondition` <a name="ResetCondition" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.resetCondition"></a>
 
 ```go
 func ResetCondition()
 ```
 
-##### `ResetId` <a name="ResetId" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.resetId"></a>
+##### `ResetId` <a name="ResetId" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.resetId"></a>
 
 ```go
 func ResetId()
 ```
 
-##### `ResetProject` <a name="ResetProject" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.resetProject"></a>
+##### `ResetProject` <a name="ResetProject" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.resetProject"></a>
 
 ```go
 func ResetProject()
 ```
 
-##### `ResetRegion` <a name="ResetRegion" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.resetRegion"></a>
+##### `ResetRegion` <a name="ResetRegion" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.resetRegion"></a>
 
 ```go
 func ResetRegion()
@@ -409,17 +409,17 @@ func ResetRegion()
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.isConstruct">IsConstruct</a></code> | Checks if `x` is a construct. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.isTerraformElement">IsTerraformElement</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.isTerraformResource">IsTerraformResource</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.generateConfigForImport">GenerateConfigForImport</a></code> | Generates CDKTF code for importing a GoogleComputeSubnetworkIamMember resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.isConstruct">IsConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.isTerraformElement">IsTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.isTerraformResource">IsTerraformResource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.generateConfigForImport">GenerateConfigForImport</a></code> | Generates CDKTF code for importing a GoogleComputeSubnetworkIamMember resource upon running "cdktf plan <stack-name>". |
 
 ---
 
-##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.isConstruct"></a>
+##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecomputesubnetworkiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputesubnetworkiammember"
 
 googlecomputesubnetworkiammember.GoogleComputeSubnetworkIamMember_IsConstruct(x interface{}) *bool
 ```
@@ -440,7 +440,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.isConstruct.parameter.x"></a>
 
 - *Type:* interface{}
 
@@ -448,45 +448,45 @@ Any object.
 
 ---
 
-##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.isTerraformElement"></a>
+##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecomputesubnetworkiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputesubnetworkiammember"
 
 googlecomputesubnetworkiammember.GoogleComputeSubnetworkIamMember_IsTerraformElement(x interface{}) *bool
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.isTerraformElement.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.isTerraformElement.parameter.x"></a>
 
 - *Type:* interface{}
 
 ---
 
-##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.isTerraformResource"></a>
+##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecomputesubnetworkiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputesubnetworkiammember"
 
 googlecomputesubnetworkiammember.GoogleComputeSubnetworkIamMember_IsTerraformResource(x interface{}) *bool
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.isTerraformResource.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.isTerraformResource.parameter.x"></a>
 
 - *Type:* interface{}
 
 ---
 
-##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.generateConfigForImport"></a>
+##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecomputesubnetworkiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputesubnetworkiammember"
 
 googlecomputesubnetworkiammember.GoogleComputeSubnetworkIamMember_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
 
 Generates CDKTF code for importing a GoogleComputeSubnetworkIamMember resource upon running "cdktf plan <stack-name>".
 
-###### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.generateConfigForImport.parameter.scope"></a>
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.generateConfigForImport.parameter.scope"></a>
 
 - *Type:* github.com/aws/constructs-go/constructs/v10.Construct
 
@@ -494,7 +494,7 @@ The scope in which to define this construct.
 
 ---
 
-###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.generateConfigForImport.parameter.importToId"></a>
+###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.generateConfigForImport.parameter.importToId"></a>
 
 - *Type:* *string
 
@@ -502,7 +502,7 @@ The construct id used in the generated config for the GoogleComputeSubnetworkIam
 
 ---
 
-###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.generateConfigForImport.parameter.importFromId"></a>
+###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.generateConfigForImport.parameter.importFromId"></a>
 
 - *Type:* *string
 
@@ -512,7 +512,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.generateConfigForImport.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.generateConfigForImport.parameter.provider"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider
 
@@ -524,39 +524,39 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.node">Node</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Node</code> | The tree node. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.cdktfStack">CdktfStack</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformStack</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.friendlyUniqueId">FriendlyUniqueId</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.terraformMetaArguments">TerraformMetaArguments</a></code> | <code>*map[string]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.terraformResourceType">TerraformResourceType</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.dependsOn">DependsOn</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.condition">Condition</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference">GoogleComputeSubnetworkIamMemberConditionOutputReference</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.etag">Etag</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.conditionInput">ConditionInput</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberCondition">GoogleComputeSubnetworkIamMemberCondition</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.memberInput">MemberInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.projectInput">ProjectInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.regionInput">RegionInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.roleInput">RoleInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.subnetworkInput">SubnetworkInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.id">Id</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.member">Member</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.project">Project</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.region">Region</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.role">Role</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.subnetwork">Subnetwork</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.node">Node</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.cdktfStack">CdktfStack</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.friendlyUniqueId">FriendlyUniqueId</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.terraformMetaArguments">TerraformMetaArguments</a></code> | <code>*map[string]interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.terraformResourceType">TerraformResourceType</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.dependsOn">DependsOn</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.condition">Condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference">GoogleComputeSubnetworkIamMemberConditionOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.etag">Etag</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.conditionInput">ConditionInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberCondition">GoogleComputeSubnetworkIamMemberCondition</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.memberInput">MemberInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.projectInput">ProjectInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.regionInput">RegionInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.roleInput">RoleInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.subnetworkInput">SubnetworkInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.id">Id</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.member">Member</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.project">Project</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.region">Region</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.role">Role</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.subnetwork">Subnetwork</a></code> | <code>*string</code> | *No description.* |
 
 ---
 
-##### `Node`<sup>Required</sup> <a name="Node" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.node"></a>
+##### `Node`<sup>Required</sup> <a name="Node" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.node"></a>
 
 ```go
 func Node() Node
@@ -568,7 +568,7 @@ The tree node.
 
 ---
 
-##### `CdktfStack`<sup>Required</sup> <a name="CdktfStack" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.cdktfStack"></a>
+##### `CdktfStack`<sup>Required</sup> <a name="CdktfStack" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.cdktfStack"></a>
 
 ```go
 func CdktfStack() TerraformStack
@@ -578,7 +578,7 @@ func CdktfStack() TerraformStack
 
 ---
 
-##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.fqn"></a>
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.fqn"></a>
 
 ```go
 func Fqn() *string
@@ -588,7 +588,7 @@ func Fqn() *string
 
 ---
 
-##### `FriendlyUniqueId`<sup>Required</sup> <a name="FriendlyUniqueId" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.friendlyUniqueId"></a>
+##### `FriendlyUniqueId`<sup>Required</sup> <a name="FriendlyUniqueId" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.friendlyUniqueId"></a>
 
 ```go
 func FriendlyUniqueId() *string
@@ -598,7 +598,7 @@ func FriendlyUniqueId() *string
 
 ---
 
-##### `TerraformMetaArguments`<sup>Required</sup> <a name="TerraformMetaArguments" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.terraformMetaArguments"></a>
+##### `TerraformMetaArguments`<sup>Required</sup> <a name="TerraformMetaArguments" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.terraformMetaArguments"></a>
 
 ```go
 func TerraformMetaArguments() *map[string]interface{}
@@ -608,7 +608,7 @@ func TerraformMetaArguments() *map[string]interface{}
 
 ---
 
-##### `TerraformResourceType`<sup>Required</sup> <a name="TerraformResourceType" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.terraformResourceType"></a>
+##### `TerraformResourceType`<sup>Required</sup> <a name="TerraformResourceType" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.terraformResourceType"></a>
 
 ```go
 func TerraformResourceType() *string
@@ -618,7 +618,7 @@ func TerraformResourceType() *string
 
 ---
 
-##### `TerraformGeneratorMetadata`<sup>Optional</sup> <a name="TerraformGeneratorMetadata" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.terraformGeneratorMetadata"></a>
+##### `TerraformGeneratorMetadata`<sup>Optional</sup> <a name="TerraformGeneratorMetadata" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.terraformGeneratorMetadata"></a>
 
 ```go
 func TerraformGeneratorMetadata() TerraformProviderGeneratorMetadata
@@ -628,7 +628,7 @@ func TerraformGeneratorMetadata() TerraformProviderGeneratorMetadata
 
 ---
 
-##### `Connection`<sup>Optional</sup> <a name="Connection" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.connection"></a>
+##### `Connection`<sup>Optional</sup> <a name="Connection" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.connection"></a>
 
 ```go
 func Connection() interface{}
@@ -638,7 +638,7 @@ func Connection() interface{}
 
 ---
 
-##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.count"></a>
+##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.count"></a>
 
 ```go
 func Count() interface{}
@@ -648,7 +648,7 @@ func Count() interface{}
 
 ---
 
-##### `DependsOn`<sup>Optional</sup> <a name="DependsOn" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.dependsOn"></a>
+##### `DependsOn`<sup>Optional</sup> <a name="DependsOn" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.dependsOn"></a>
 
 ```go
 func DependsOn() *[]*string
@@ -658,7 +658,7 @@ func DependsOn() *[]*string
 
 ---
 
-##### `ForEach`<sup>Optional</sup> <a name="ForEach" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.forEach"></a>
+##### `ForEach`<sup>Optional</sup> <a name="ForEach" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.forEach"></a>
 
 ```go
 func ForEach() ITerraformIterator
@@ -668,7 +668,7 @@ func ForEach() ITerraformIterator
 
 ---
 
-##### `Lifecycle`<sup>Optional</sup> <a name="Lifecycle" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.lifecycle"></a>
+##### `Lifecycle`<sup>Optional</sup> <a name="Lifecycle" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.lifecycle"></a>
 
 ```go
 func Lifecycle() TerraformResourceLifecycle
@@ -678,7 +678,7 @@ func Lifecycle() TerraformResourceLifecycle
 
 ---
 
-##### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.provider"></a>
+##### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.provider"></a>
 
 ```go
 func Provider() TerraformProvider
@@ -688,7 +688,7 @@ func Provider() TerraformProvider
 
 ---
 
-##### `Provisioners`<sup>Optional</sup> <a name="Provisioners" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.provisioners"></a>
+##### `Provisioners`<sup>Optional</sup> <a name="Provisioners" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.provisioners"></a>
 
 ```go
 func Provisioners() *[]interface{}
@@ -698,17 +698,17 @@ func Provisioners() *[]interface{}
 
 ---
 
-##### `Condition`<sup>Required</sup> <a name="Condition" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.condition"></a>
+##### `Condition`<sup>Required</sup> <a name="Condition" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.condition"></a>
 
 ```go
 func Condition() GoogleComputeSubnetworkIamMemberConditionOutputReference
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference">GoogleComputeSubnetworkIamMemberConditionOutputReference</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference">GoogleComputeSubnetworkIamMemberConditionOutputReference</a>
 
 ---
 
-##### `Etag`<sup>Required</sup> <a name="Etag" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.etag"></a>
+##### `Etag`<sup>Required</sup> <a name="Etag" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.etag"></a>
 
 ```go
 func Etag() *string
@@ -718,17 +718,17 @@ func Etag() *string
 
 ---
 
-##### `ConditionInput`<sup>Optional</sup> <a name="ConditionInput" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.conditionInput"></a>
+##### `ConditionInput`<sup>Optional</sup> <a name="ConditionInput" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.conditionInput"></a>
 
 ```go
 func ConditionInput() GoogleComputeSubnetworkIamMemberCondition
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberCondition">GoogleComputeSubnetworkIamMemberCondition</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberCondition">GoogleComputeSubnetworkIamMemberCondition</a>
 
 ---
 
-##### `IdInput`<sup>Optional</sup> <a name="IdInput" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.idInput"></a>
+##### `IdInput`<sup>Optional</sup> <a name="IdInput" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.idInput"></a>
 
 ```go
 func IdInput() *string
@@ -738,7 +738,7 @@ func IdInput() *string
 
 ---
 
-##### `MemberInput`<sup>Optional</sup> <a name="MemberInput" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.memberInput"></a>
+##### `MemberInput`<sup>Optional</sup> <a name="MemberInput" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.memberInput"></a>
 
 ```go
 func MemberInput() *string
@@ -748,7 +748,7 @@ func MemberInput() *string
 
 ---
 
-##### `ProjectInput`<sup>Optional</sup> <a name="ProjectInput" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.projectInput"></a>
+##### `ProjectInput`<sup>Optional</sup> <a name="ProjectInput" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.projectInput"></a>
 
 ```go
 func ProjectInput() *string
@@ -758,7 +758,7 @@ func ProjectInput() *string
 
 ---
 
-##### `RegionInput`<sup>Optional</sup> <a name="RegionInput" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.regionInput"></a>
+##### `RegionInput`<sup>Optional</sup> <a name="RegionInput" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.regionInput"></a>
 
 ```go
 func RegionInput() *string
@@ -768,7 +768,7 @@ func RegionInput() *string
 
 ---
 
-##### `RoleInput`<sup>Optional</sup> <a name="RoleInput" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.roleInput"></a>
+##### `RoleInput`<sup>Optional</sup> <a name="RoleInput" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.roleInput"></a>
 
 ```go
 func RoleInput() *string
@@ -778,7 +778,7 @@ func RoleInput() *string
 
 ---
 
-##### `SubnetworkInput`<sup>Optional</sup> <a name="SubnetworkInput" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.subnetworkInput"></a>
+##### `SubnetworkInput`<sup>Optional</sup> <a name="SubnetworkInput" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.subnetworkInput"></a>
 
 ```go
 func SubnetworkInput() *string
@@ -788,7 +788,7 @@ func SubnetworkInput() *string
 
 ---
 
-##### `Id`<sup>Required</sup> <a name="Id" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.id"></a>
+##### `Id`<sup>Required</sup> <a name="Id" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.id"></a>
 
 ```go
 func Id() *string
@@ -798,7 +798,7 @@ func Id() *string
 
 ---
 
-##### `Member`<sup>Required</sup> <a name="Member" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.member"></a>
+##### `Member`<sup>Required</sup> <a name="Member" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.member"></a>
 
 ```go
 func Member() *string
@@ -808,7 +808,7 @@ func Member() *string
 
 ---
 
-##### `Project`<sup>Required</sup> <a name="Project" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.project"></a>
+##### `Project`<sup>Required</sup> <a name="Project" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.project"></a>
 
 ```go
 func Project() *string
@@ -818,7 +818,7 @@ func Project() *string
 
 ---
 
-##### `Region`<sup>Required</sup> <a name="Region" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.region"></a>
+##### `Region`<sup>Required</sup> <a name="Region" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.region"></a>
 
 ```go
 func Region() *string
@@ -828,7 +828,7 @@ func Region() *string
 
 ---
 
-##### `Role`<sup>Required</sup> <a name="Role" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.role"></a>
+##### `Role`<sup>Required</sup> <a name="Role" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.role"></a>
 
 ```go
 func Role() *string
@@ -838,7 +838,7 @@ func Role() *string
 
 ---
 
-##### `Subnetwork`<sup>Required</sup> <a name="Subnetwork" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.subnetwork"></a>
+##### `Subnetwork`<sup>Required</sup> <a name="Subnetwork" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.subnetwork"></a>
 
 ```go
 func Subnetwork() *string
@@ -852,11 +852,11 @@ func Subnetwork() *string
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.tfResourceType">TfResourceType</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.tfResourceType">TfResourceType</a></code> | <code>*string</code> | *No description.* |
 
 ---
 
-##### `TfResourceType`<sup>Required</sup> <a name="TfResourceType" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.tfResourceType"></a>
+##### `TfResourceType`<sup>Required</sup> <a name="TfResourceType" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMember.property.tfResourceType"></a>
 
 ```go
 func TfResourceType() *string
@@ -868,12 +868,12 @@ func TfResourceType() *string
 
 ## Structs <a name="Structs" id="Structs"></a>
 
-### GoogleComputeSubnetworkIamMemberCondition <a name="GoogleComputeSubnetworkIamMemberCondition" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberCondition"></a>
+### GoogleComputeSubnetworkIamMemberCondition <a name="GoogleComputeSubnetworkIamMemberCondition" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberCondition"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberCondition.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecomputesubnetworkiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputesubnetworkiammember"
 
 &googlecomputesubnetworkiammember.GoogleComputeSubnetworkIamMemberCondition {
 	Expression: *string,
@@ -886,13 +886,13 @@ import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecompu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork_iam_member#expression GoogleComputeSubnetworkIamMember#expression}. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork_iam_member#title GoogleComputeSubnetworkIamMember#title}. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork_iam_member#description GoogleComputeSubnetworkIamMember#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork_iam_member#expression GoogleComputeSubnetworkIamMember#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork_iam_member#title GoogleComputeSubnetworkIamMember#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork_iam_member#description GoogleComputeSubnetworkIamMember#description}. |
 
 ---
 
-##### `Expression`<sup>Required</sup> <a name="Expression" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberCondition.property.expression"></a>
+##### `Expression`<sup>Required</sup> <a name="Expression" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberCondition.property.expression"></a>
 
 ```go
 Expression *string
@@ -904,7 +904,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `Title`<sup>Required</sup> <a name="Title" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberCondition.property.title"></a>
+##### `Title`<sup>Required</sup> <a name="Title" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberCondition.property.title"></a>
 
 ```go
 Title *string
@@ -916,7 +916,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `Description`<sup>Optional</sup> <a name="Description" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberCondition.property.description"></a>
+##### `Description`<sup>Optional</sup> <a name="Description" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberCondition.property.description"></a>
 
 ```go
 Description *string
@@ -928,12 +928,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-### GoogleComputeSubnetworkIamMemberConfig <a name="GoogleComputeSubnetworkIamMemberConfig" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig"></a>
+### GoogleComputeSubnetworkIamMemberConfig <a name="GoogleComputeSubnetworkIamMemberConfig" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecomputesubnetworkiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputesubnetworkiammember"
 
 &googlecomputesubnetworkiammember.GoogleComputeSubnetworkIamMemberConfig {
 	Connection: interface{},
@@ -946,7 +946,7 @@ import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecompu
 	Member: *string,
 	Role: *string,
 	Subnetwork: *string,
-	Condition: github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberCondition,
+	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberCondition,
 	Id: *string,
 	Project: *string,
 	Region: *string,
@@ -957,24 +957,24 @@ import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecompu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.dependsOn">DependsOn</a></code> | <code>*[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.member">Member</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork_iam_member#member GoogleComputeSubnetworkIamMember#member}. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork_iam_member#role GoogleComputeSubnetworkIamMember#role}. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.subnetwork">Subnetwork</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork_iam_member#subnetwork GoogleComputeSubnetworkIamMember#subnetwork}. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.condition">Condition</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberCondition">GoogleComputeSubnetworkIamMemberCondition</a></code> | condition block. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork_iam_member#id GoogleComputeSubnetworkIamMember#id}. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork_iam_member#project GoogleComputeSubnetworkIamMember#project}. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.region">Region</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork_iam_member#region GoogleComputeSubnetworkIamMember#region}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.dependsOn">DependsOn</a></code> | <code>*[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.member">Member</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork_iam_member#member GoogleComputeSubnetworkIamMember#member}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork_iam_member#role GoogleComputeSubnetworkIamMember#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.subnetwork">Subnetwork</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork_iam_member#subnetwork GoogleComputeSubnetworkIamMember#subnetwork}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.condition">Condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberCondition">GoogleComputeSubnetworkIamMemberCondition</a></code> | condition block. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork_iam_member#id GoogleComputeSubnetworkIamMember#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork_iam_member#project GoogleComputeSubnetworkIamMember#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.region">Region</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_subnetwork_iam_member#region GoogleComputeSubnetworkIamMember#region}. |
 
 ---
 
-##### `Connection`<sup>Optional</sup> <a name="Connection" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.connection"></a>
+##### `Connection`<sup>Optional</sup> <a name="Connection" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.connection"></a>
 
 ```go
 Connection interface{}
@@ -984,7 +984,7 @@ Connection interface{}
 
 ---
 
-##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.count"></a>
+##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.count"></a>
 
 ```go
 Count interface{}
@@ -994,7 +994,7 @@ Count interface{}
 
 ---
 
-##### `DependsOn`<sup>Optional</sup> <a name="DependsOn" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.dependsOn"></a>
+##### `DependsOn`<sup>Optional</sup> <a name="DependsOn" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.dependsOn"></a>
 
 ```go
 DependsOn *[]ITerraformDependable
@@ -1004,7 +1004,7 @@ DependsOn *[]ITerraformDependable
 
 ---
 
-##### `ForEach`<sup>Optional</sup> <a name="ForEach" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.forEach"></a>
+##### `ForEach`<sup>Optional</sup> <a name="ForEach" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.forEach"></a>
 
 ```go
 ForEach ITerraformIterator
@@ -1014,7 +1014,7 @@ ForEach ITerraformIterator
 
 ---
 
-##### `Lifecycle`<sup>Optional</sup> <a name="Lifecycle" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.lifecycle"></a>
+##### `Lifecycle`<sup>Optional</sup> <a name="Lifecycle" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.lifecycle"></a>
 
 ```go
 Lifecycle TerraformResourceLifecycle
@@ -1024,7 +1024,7 @@ Lifecycle TerraformResourceLifecycle
 
 ---
 
-##### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.provider"></a>
+##### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.provider"></a>
 
 ```go
 Provider TerraformProvider
@@ -1034,7 +1034,7 @@ Provider TerraformProvider
 
 ---
 
-##### `Provisioners`<sup>Optional</sup> <a name="Provisioners" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.provisioners"></a>
+##### `Provisioners`<sup>Optional</sup> <a name="Provisioners" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.provisioners"></a>
 
 ```go
 Provisioners *[]interface{}
@@ -1044,7 +1044,7 @@ Provisioners *[]interface{}
 
 ---
 
-##### `Member`<sup>Required</sup> <a name="Member" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.member"></a>
+##### `Member`<sup>Required</sup> <a name="Member" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.member"></a>
 
 ```go
 Member *string
@@ -1056,7 +1056,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `Role`<sup>Required</sup> <a name="Role" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.role"></a>
+##### `Role`<sup>Required</sup> <a name="Role" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.role"></a>
 
 ```go
 Role *string
@@ -1068,7 +1068,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `Subnetwork`<sup>Required</sup> <a name="Subnetwork" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.subnetwork"></a>
+##### `Subnetwork`<sup>Required</sup> <a name="Subnetwork" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.subnetwork"></a>
 
 ```go
 Subnetwork *string
@@ -1080,13 +1080,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `Condition`<sup>Optional</sup> <a name="Condition" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.condition"></a>
+##### `Condition`<sup>Optional</sup> <a name="Condition" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.condition"></a>
 
 ```go
 Condition GoogleComputeSubnetworkIamMemberCondition
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberCondition">GoogleComputeSubnetworkIamMemberCondition</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberCondition">GoogleComputeSubnetworkIamMemberCondition</a>
 
 condition block.
 
@@ -1094,7 +1094,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `Id`<sup>Optional</sup> <a name="Id" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.id"></a>
+##### `Id`<sup>Optional</sup> <a name="Id" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.id"></a>
 
 ```go
 Id *string
@@ -1109,7 +1109,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 ---
 
-##### `Project`<sup>Optional</sup> <a name="Project" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.project"></a>
+##### `Project`<sup>Optional</sup> <a name="Project" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.project"></a>
 
 ```go
 Project *string
@@ -1121,7 +1121,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `Region`<sup>Optional</sup> <a name="Region" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.region"></a>
+##### `Region`<sup>Optional</sup> <a name="Region" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConfig.property.region"></a>
 
 ```go
 Region *string
@@ -1135,24 +1135,24 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ## Classes <a name="Classes" id="Classes"></a>
 
-### GoogleComputeSubnetworkIamMemberConditionOutputReference <a name="GoogleComputeSubnetworkIamMemberConditionOutputReference" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference"></a>
+### GoogleComputeSubnetworkIamMemberConditionOutputReference <a name="GoogleComputeSubnetworkIamMemberConditionOutputReference" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecomputesubnetworkiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputesubnetworkiammember"
 
 googlecomputesubnetworkiammember.NewGoogleComputeSubnetworkIamMemberConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeSubnetworkIamMemberConditionOutputReference
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
-##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.Initializer.parameter.terraformResource"></a>
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.Initializer.parameter.terraformResource"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent
 
@@ -1160,7 +1160,7 @@ The parent resource.
 
 ---
 
-##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.Initializer.parameter.terraformAttribute"></a>
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
@@ -1172,150 +1172,150 @@ The attribute on the parent resource this class is referencing.
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.resetDescription">ResetDescription</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.resetDescription">ResetDescription</a></code> | *No description.* |
 
 ---
 
-##### `ComputeFqn` <a name="ComputeFqn" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.computeFqn"></a>
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.computeFqn"></a>
 
 ```go
 func ComputeFqn() *string
 ```
 
-##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getAnyMapAttribute"></a>
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getAnyMapAttribute"></a>
 
 ```go
 func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getBooleanAttribute"></a>
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getBooleanAttribute"></a>
 
 ```go
 func GetBooleanAttribute(terraformAttribute *string) IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getBooleanMapAttribute"></a>
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getBooleanMapAttribute"></a>
 
 ```go
 func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetListAttribute` <a name="GetListAttribute" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getListAttribute"></a>
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getListAttribute"></a>
 
 ```go
 func GetListAttribute(terraformAttribute *string) *[]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getNumberAttribute"></a>
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getNumberAttribute"></a>
 
 ```go
 func GetNumberAttribute(terraformAttribute *string) *f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getNumberListAttribute"></a>
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getNumberListAttribute"></a>
 
 ```go
 func GetNumberListAttribute(terraformAttribute *string) *[]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getNumberMapAttribute"></a>
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getNumberMapAttribute"></a>
 
 ```go
 func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getStringAttribute"></a>
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getStringAttribute"></a>
 
 ```go
 func GetStringAttribute(terraformAttribute *string) *string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getStringMapAttribute"></a>
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getStringMapAttribute"></a>
 
 ```go
 func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.interpolationForAttribute"></a>
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.interpolationForAttribute"></a>
 
 ```go
 func InterpolationForAttribute(property *string) IResolvable
 ```
 
-###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.interpolationForAttribute.parameter.property"></a>
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.interpolationForAttribute.parameter.property"></a>
 
 - *Type:* *string
 
 ---
 
-##### `Resolve` <a name="Resolve" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.resolve"></a>
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.resolve"></a>
 
 ```go
 func Resolve(_context IResolveContext) interface{}
@@ -1323,13 +1323,13 @@ func Resolve(_context IResolveContext) interface{}
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.resolve.parameter._context"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolveContext
 
 ---
 
-##### `ToString` <a name="ToString" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.toString"></a>
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.toString"></a>
 
 ```go
 func ToString() *string
@@ -1339,7 +1339,7 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `ResetDescription` <a name="ResetDescription" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.resetDescription"></a>
+##### `ResetDescription` <a name="ResetDescription" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.resetDescription"></a>
 
 ```go
 func ResetDescription()
@@ -1350,19 +1350,19 @@ func ResetDescription()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.property.descriptionInput">DescriptionInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.property.expressionInput">ExpressionInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.property.titleInput">TitleInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.property.description">Description</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.property.expression">Expression</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.property.title">Title</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberCondition">GoogleComputeSubnetworkIamMemberCondition</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.property.descriptionInput">DescriptionInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.property.expressionInput">ExpressionInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.property.titleInput">TitleInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.property.description">Description</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.property.expression">Expression</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.property.title">Title</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberCondition">GoogleComputeSubnetworkIamMemberCondition</a></code> | *No description.* |
 
 ---
 
-##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.property.creationStack"></a>
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.property.creationStack"></a>
 
 ```go
 func CreationStack() *[]*string
@@ -1376,7 +1376,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.property.fqn"></a>
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.property.fqn"></a>
 
 ```go
 func Fqn() *string
@@ -1386,7 +1386,7 @@ func Fqn() *string
 
 ---
 
-##### `DescriptionInput`<sup>Optional</sup> <a name="DescriptionInput" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.property.descriptionInput"></a>
+##### `DescriptionInput`<sup>Optional</sup> <a name="DescriptionInput" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.property.descriptionInput"></a>
 
 ```go
 func DescriptionInput() *string
@@ -1396,7 +1396,7 @@ func DescriptionInput() *string
 
 ---
 
-##### `ExpressionInput`<sup>Optional</sup> <a name="ExpressionInput" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.property.expressionInput"></a>
+##### `ExpressionInput`<sup>Optional</sup> <a name="ExpressionInput" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.property.expressionInput"></a>
 
 ```go
 func ExpressionInput() *string
@@ -1406,7 +1406,7 @@ func ExpressionInput() *string
 
 ---
 
-##### `TitleInput`<sup>Optional</sup> <a name="TitleInput" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.property.titleInput"></a>
+##### `TitleInput`<sup>Optional</sup> <a name="TitleInput" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.property.titleInput"></a>
 
 ```go
 func TitleInput() *string
@@ -1416,7 +1416,7 @@ func TitleInput() *string
 
 ---
 
-##### `Description`<sup>Required</sup> <a name="Description" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.property.description"></a>
+##### `Description`<sup>Required</sup> <a name="Description" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.property.description"></a>
 
 ```go
 func Description() *string
@@ -1426,7 +1426,7 @@ func Description() *string
 
 ---
 
-##### `Expression`<sup>Required</sup> <a name="Expression" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.property.expression"></a>
+##### `Expression`<sup>Required</sup> <a name="Expression" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.property.expression"></a>
 
 ```go
 func Expression() *string
@@ -1436,7 +1436,7 @@ func Expression() *string
 
 ---
 
-##### `Title`<sup>Required</sup> <a name="Title" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.property.title"></a>
+##### `Title`<sup>Required</sup> <a name="Title" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.property.title"></a>
 
 ```go
 func Title() *string
@@ -1446,13 +1446,13 @@ func Title() *string
 
 ---
 
-##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.property.internalValue"></a>
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberConditionOutputReference.property.internalValue"></a>
 
 ```go
 func InternalValue() GoogleComputeSubnetworkIamMemberCondition
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberCondition">GoogleComputeSubnetworkIamMemberCondition</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleComputeSubnetworkIamMember.GoogleComputeSubnetworkIamMemberCondition">GoogleComputeSubnetworkIamMemberCondition</a>
 
 ---
 

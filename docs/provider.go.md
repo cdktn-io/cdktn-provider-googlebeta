@@ -1,28 +1,28 @@
-# `provider` Submodule <a name="`provider` Submodule" id="@cdktf/provider-google-beta.provider"></a>
+# `provider` Submodule <a name="`provider` Submodule" id="@cdktn/provider-google-beta.provider"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
 
-### GoogleBetaProvider <a name="GoogleBetaProvider" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider"></a>
+### GoogleBetaProvider <a name="GoogleBetaProvider" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider"></a>
 
 Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs google-beta}.
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/provider"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/provider"
 
 provider.NewGoogleBetaProvider(scope Construct, id *string, config GoogleBetaProviderConfig) GoogleBetaProvider
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.Initializer.parameter.scope">scope</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Construct</code> | The scope in which to define this construct. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.Initializer.parameter.id">id</a></code> | <code>*string</code> | The scoped construct ID. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig">GoogleBetaProviderConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.Initializer.parameter.scope">scope</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.Initializer.parameter.id">id</a></code> | <code>*string</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig">GoogleBetaProviderConfig</a></code> | *No description.* |
 
 ---
 
-##### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.Initializer.parameter.scope"></a>
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.Initializer.parameter.scope"></a>
 
 - *Type:* github.com/aws/constructs-go/constructs/v10.Construct
 
@@ -30,7 +30,7 @@ The scope in which to define this construct.
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.Initializer.parameter.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.Initializer.parameter.id"></a>
 
 - *Type:* *string
 
@@ -40,9 +40,9 @@ Must be unique amongst siblings in the same scope
 
 ---
 
-##### `config`<sup>Optional</sup> <a name="config" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.Initializer.parameter.config"></a>
+##### `config`<sup>Optional</sup> <a name="config" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.Initializer.parameter.config"></a>
 
-- *Type:* <a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig">GoogleBetaProviderConfig</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig">GoogleBetaProviderConfig</a>
 
 ---
 
@@ -50,210 +50,210 @@ Must be unique amongst siblings in the same scope
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.toString">ToString</a></code> | Returns a string representation of this construct. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.addOverride">AddOverride</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.overrideLogicalId">OverrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetOverrideLogicalId">ResetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.toHclTerraform">ToHclTerraform</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.toMetadata">ToMetadata</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.toTerraform">ToTerraform</a></code> | Adds this resource to the terraform JSON output. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetAccessApprovalCustomEndpoint">ResetAccessApprovalCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetAccessContextManagerCustomEndpoint">ResetAccessContextManagerCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetAccessToken">ResetAccessToken</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetActiveDirectoryCustomEndpoint">ResetActiveDirectoryCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetAddTerraformAttributionLabel">ResetAddTerraformAttributionLabel</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetAlias">ResetAlias</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetAlloydbCustomEndpoint">ResetAlloydbCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetApiGatewayCustomEndpoint">ResetApiGatewayCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetApigeeCustomEndpoint">ResetApigeeCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetApihubCustomEndpoint">ResetApihubCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetApikeysCustomEndpoint">ResetApikeysCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetAppEngineCustomEndpoint">ResetAppEngineCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetApphubCustomEndpoint">ResetApphubCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetArtifactRegistryCustomEndpoint">ResetArtifactRegistryCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetAssuredWorkloadsCustomEndpoint">ResetAssuredWorkloadsCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetBackupDrCustomEndpoint">ResetBackupDrCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetBatching">ResetBatching</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetBeyondcorpCustomEndpoint">ResetBeyondcorpCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetBiglakeCustomEndpoint">ResetBiglakeCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetBigqueryAnalyticsHubCustomEndpoint">ResetBigqueryAnalyticsHubCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetBigqueryConnectionCustomEndpoint">ResetBigqueryConnectionCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetBigQueryCustomEndpoint">ResetBigQueryCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetBigqueryDatapolicyCustomEndpoint">ResetBigqueryDatapolicyCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetBigqueryDataTransferCustomEndpoint">ResetBigqueryDataTransferCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetBigqueryReservationCustomEndpoint">ResetBigqueryReservationCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetBigtableCustomEndpoint">ResetBigtableCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetBillingCustomEndpoint">ResetBillingCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetBillingProject">ResetBillingProject</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetBinaryAuthorizationCustomEndpoint">ResetBinaryAuthorizationCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetBlockchainNodeEngineCustomEndpoint">ResetBlockchainNodeEngineCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetCertificateManagerCustomEndpoint">ResetCertificateManagerCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetChronicleCustomEndpoint">ResetChronicleCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetCloudAssetCustomEndpoint">ResetCloudAssetCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetCloudBillingCustomEndpoint">ResetCloudBillingCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetCloudBuildCustomEndpoint">ResetCloudBuildCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetCloudbuildv2CustomEndpoint">ResetCloudbuildv2CustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetClouddeployCustomEndpoint">ResetClouddeployCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetClouddomainsCustomEndpoint">ResetClouddomainsCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetCloudfunctions2CustomEndpoint">ResetCloudfunctions2CustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetCloudFunctionsCustomEndpoint">ResetCloudFunctionsCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetCloudIdentityCustomEndpoint">ResetCloudIdentityCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetCloudIdsCustomEndpoint">ResetCloudIdsCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetCloudQuotasCustomEndpoint">ResetCloudQuotasCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetCloudResourceManagerCustomEndpoint">ResetCloudResourceManagerCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetCloudRunCustomEndpoint">ResetCloudRunCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetCloudRunV2CustomEndpoint">ResetCloudRunV2CustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetCloudSchedulerCustomEndpoint">ResetCloudSchedulerCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetCloudTasksCustomEndpoint">ResetCloudTasksCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetColabCustomEndpoint">ResetColabCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetComposerCustomEndpoint">ResetComposerCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetComputeCustomEndpoint">ResetComputeCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetContactCenterInsightsCustomEndpoint">ResetContactCenterInsightsCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetContainerAnalysisCustomEndpoint">ResetContainerAnalysisCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetContainerAttachedCustomEndpoint">ResetContainerAttachedCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetContainerAwsCustomEndpoint">ResetContainerAwsCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetContainerAzureCustomEndpoint">ResetContainerAzureCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetContainerCustomEndpoint">ResetContainerCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetCoreBillingCustomEndpoint">ResetCoreBillingCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetCredentials">ResetCredentials</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetDatabaseMigrationServiceCustomEndpoint">ResetDatabaseMigrationServiceCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetDataCatalogCustomEndpoint">ResetDataCatalogCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetDataflowCustomEndpoint">ResetDataflowCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetDataformCustomEndpoint">ResetDataformCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetDataFusionCustomEndpoint">ResetDataFusionCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetDataLossPreventionCustomEndpoint">ResetDataLossPreventionCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetDataPipelineCustomEndpoint">ResetDataPipelineCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetDataplexCustomEndpoint">ResetDataplexCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetDataprocCustomEndpoint">ResetDataprocCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetDataprocGdcCustomEndpoint">ResetDataprocGdcCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetDataprocMetastoreCustomEndpoint">ResetDataprocMetastoreCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetDatastreamCustomEndpoint">ResetDatastreamCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetDefaultLabels">ResetDefaultLabels</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetDeploymentManagerCustomEndpoint">ResetDeploymentManagerCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetDeveloperConnectCustomEndpoint">ResetDeveloperConnectCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetDialogflowCustomEndpoint">ResetDialogflowCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetDialogflowCxCustomEndpoint">ResetDialogflowCxCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetDiscoveryEngineCustomEndpoint">ResetDiscoveryEngineCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetDnsCustomEndpoint">ResetDnsCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetDocumentAiCustomEndpoint">ResetDocumentAiCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetDocumentAiWarehouseCustomEndpoint">ResetDocumentAiWarehouseCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetEdgecontainerCustomEndpoint">ResetEdgecontainerCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetEdgenetworkCustomEndpoint">ResetEdgenetworkCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetEssentialContactsCustomEndpoint">ResetEssentialContactsCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetEventarcCustomEndpoint">ResetEventarcCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetExternalCredentials">ResetExternalCredentials</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetFilestoreCustomEndpoint">ResetFilestoreCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetFirebaseAppCheckCustomEndpoint">ResetFirebaseAppCheckCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetFirebaseAppHostingCustomEndpoint">ResetFirebaseAppHostingCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetFirebaseCustomEndpoint">ResetFirebaseCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetFirebaseDatabaseCustomEndpoint">ResetFirebaseDatabaseCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetFirebaseDataConnectCustomEndpoint">ResetFirebaseDataConnectCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetFirebaseExtensionsCustomEndpoint">ResetFirebaseExtensionsCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetFirebaseHostingCustomEndpoint">ResetFirebaseHostingCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetFirebaserulesCustomEndpoint">ResetFirebaserulesCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetFirebaseStorageCustomEndpoint">ResetFirebaseStorageCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetFirestoreCustomEndpoint">ResetFirestoreCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetGeminiCustomEndpoint">ResetGeminiCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetGkeBackupCustomEndpoint">ResetGkeBackupCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetGkeHub2CustomEndpoint">ResetGkeHub2CustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetGkeHubCustomEndpoint">ResetGkeHubCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetGkeonpremCustomEndpoint">ResetGkeonpremCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetHealthcareCustomEndpoint">ResetHealthcareCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetIam2CustomEndpoint">ResetIam2CustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetIam3CustomEndpoint">ResetIam3CustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetIamBetaCustomEndpoint">ResetIamBetaCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetIamCredentialsCustomEndpoint">ResetIamCredentialsCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetIamCustomEndpoint">ResetIamCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetIamWorkforcePoolCustomEndpoint">ResetIamWorkforcePoolCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetIapCustomEndpoint">ResetIapCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetIdentityPlatformCustomEndpoint">ResetIdentityPlatformCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetImpersonateServiceAccount">ResetImpersonateServiceAccount</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetImpersonateServiceAccountDelegates">ResetImpersonateServiceAccountDelegates</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetIntegrationConnectorsCustomEndpoint">ResetIntegrationConnectorsCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetIntegrationsCustomEndpoint">ResetIntegrationsCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetKmsCustomEndpoint">ResetKmsCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetLoggingCustomEndpoint">ResetLoggingCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetLookerCustomEndpoint">ResetLookerCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetLustreCustomEndpoint">ResetLustreCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetManagedKafkaCustomEndpoint">ResetManagedKafkaCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetMemcacheCustomEndpoint">ResetMemcacheCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetMemorystoreCustomEndpoint">ResetMemorystoreCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetMigrationCenterCustomEndpoint">ResetMigrationCenterCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetMlEngineCustomEndpoint">ResetMlEngineCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetModelArmorCustomEndpoint">ResetModelArmorCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetModelArmorGlobalCustomEndpoint">ResetModelArmorGlobalCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetMonitoringCustomEndpoint">ResetMonitoringCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetNetappCustomEndpoint">ResetNetappCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetNetworkConnectivityCustomEndpoint">ResetNetworkConnectivityCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetNetworkManagementCustomEndpoint">ResetNetworkManagementCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetNetworkSecurityCustomEndpoint">ResetNetworkSecurityCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetNetworkServicesCustomEndpoint">ResetNetworkServicesCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetNotebooksCustomEndpoint">ResetNotebooksCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetOracleDatabaseCustomEndpoint">ResetOracleDatabaseCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetOrgPolicyCustomEndpoint">ResetOrgPolicyCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetOsConfigCustomEndpoint">ResetOsConfigCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetOsConfigV2CustomEndpoint">ResetOsConfigV2CustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetOsLoginCustomEndpoint">ResetOsLoginCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetParallelstoreCustomEndpoint">ResetParallelstoreCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetParameterManagerCustomEndpoint">ResetParameterManagerCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetParameterManagerRegionalCustomEndpoint">ResetParameterManagerRegionalCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetPrivatecaCustomEndpoint">ResetPrivatecaCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetPrivilegedAccessManagerCustomEndpoint">ResetPrivilegedAccessManagerCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetProject">ResetProject</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetPublicCaCustomEndpoint">ResetPublicCaCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetPubsubCustomEndpoint">ResetPubsubCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetPubsubLiteCustomEndpoint">ResetPubsubLiteCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetRecaptchaEnterpriseCustomEndpoint">ResetRecaptchaEnterpriseCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetRedisCustomEndpoint">ResetRedisCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetRegion">ResetRegion</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetRequestReason">ResetRequestReason</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetRequestTimeout">ResetRequestTimeout</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetResourceManager3CustomEndpoint">ResetResourceManager3CustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetResourceManagerCustomEndpoint">ResetResourceManagerCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetResourceManagerV3CustomEndpoint">ResetResourceManagerV3CustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetRuntimeconfigCustomEndpoint">ResetRuntimeconfigCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetRuntimeConfigCustomEndpoint">ResetRuntimeConfigCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetScopes">ResetScopes</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetSecretManagerCustomEndpoint">ResetSecretManagerCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetSecretManagerRegionalCustomEndpoint">ResetSecretManagerRegionalCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetSecureSourceManagerCustomEndpoint">ResetSecureSourceManagerCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetSecurityCenterCustomEndpoint">ResetSecurityCenterCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetSecurityCenterManagementCustomEndpoint">ResetSecurityCenterManagementCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetSecurityCenterV2CustomEndpoint">ResetSecurityCenterV2CustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetSecuritypostureCustomEndpoint">ResetSecuritypostureCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetSecurityScannerCustomEndpoint">ResetSecurityScannerCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetServiceDirectoryCustomEndpoint">ResetServiceDirectoryCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetServiceManagementCustomEndpoint">ResetServiceManagementCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetServiceNetworkingCustomEndpoint">ResetServiceNetworkingCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetServiceUsageCustomEndpoint">ResetServiceUsageCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetSiteVerificationCustomEndpoint">ResetSiteVerificationCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetSourceRepoCustomEndpoint">ResetSourceRepoCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetSpannerCustomEndpoint">ResetSpannerCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetSqlCustomEndpoint">ResetSqlCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetStorageBatchOperationsCustomEndpoint">ResetStorageBatchOperationsCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetStorageControlCustomEndpoint">ResetStorageControlCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetStorageCustomEndpoint">ResetStorageCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetStorageInsightsCustomEndpoint">ResetStorageInsightsCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetStorageTransferCustomEndpoint">ResetStorageTransferCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetTagsCustomEndpoint">ResetTagsCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetTagsLocationCustomEndpoint">ResetTagsLocationCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetTerraformAttributionLabelAdditionStrategy">ResetTerraformAttributionLabelAdditionStrategy</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetTpuCustomEndpoint">ResetTpuCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetTpuV2CustomEndpoint">ResetTpuV2CustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetTranscoderCustomEndpoint">ResetTranscoderCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetUniverseDomain">ResetUniverseDomain</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetUserProjectOverride">ResetUserProjectOverride</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetVertexAiCustomEndpoint">ResetVertexAiCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetVmwareengineCustomEndpoint">ResetVmwareengineCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetVpcAccessCustomEndpoint">ResetVpcAccessCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetWorkbenchCustomEndpoint">ResetWorkbenchCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetWorkflowsCustomEndpoint">ResetWorkflowsCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetWorkstationsCustomEndpoint">ResetWorkstationsCustomEndpoint</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetZone">ResetZone</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.toString">ToString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.addOverride">AddOverride</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.overrideLogicalId">OverrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetOverrideLogicalId">ResetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.toHclTerraform">ToHclTerraform</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.toMetadata">ToMetadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.toTerraform">ToTerraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetAccessApprovalCustomEndpoint">ResetAccessApprovalCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetAccessContextManagerCustomEndpoint">ResetAccessContextManagerCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetAccessToken">ResetAccessToken</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetActiveDirectoryCustomEndpoint">ResetActiveDirectoryCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetAddTerraformAttributionLabel">ResetAddTerraformAttributionLabel</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetAlias">ResetAlias</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetAlloydbCustomEndpoint">ResetAlloydbCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetApiGatewayCustomEndpoint">ResetApiGatewayCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetApigeeCustomEndpoint">ResetApigeeCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetApihubCustomEndpoint">ResetApihubCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetApikeysCustomEndpoint">ResetApikeysCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetAppEngineCustomEndpoint">ResetAppEngineCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetApphubCustomEndpoint">ResetApphubCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetArtifactRegistryCustomEndpoint">ResetArtifactRegistryCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetAssuredWorkloadsCustomEndpoint">ResetAssuredWorkloadsCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetBackupDrCustomEndpoint">ResetBackupDrCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetBatching">ResetBatching</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetBeyondcorpCustomEndpoint">ResetBeyondcorpCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetBiglakeCustomEndpoint">ResetBiglakeCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetBigqueryAnalyticsHubCustomEndpoint">ResetBigqueryAnalyticsHubCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetBigqueryConnectionCustomEndpoint">ResetBigqueryConnectionCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetBigQueryCustomEndpoint">ResetBigQueryCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetBigqueryDatapolicyCustomEndpoint">ResetBigqueryDatapolicyCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetBigqueryDataTransferCustomEndpoint">ResetBigqueryDataTransferCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetBigqueryReservationCustomEndpoint">ResetBigqueryReservationCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetBigtableCustomEndpoint">ResetBigtableCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetBillingCustomEndpoint">ResetBillingCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetBillingProject">ResetBillingProject</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetBinaryAuthorizationCustomEndpoint">ResetBinaryAuthorizationCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetBlockchainNodeEngineCustomEndpoint">ResetBlockchainNodeEngineCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetCertificateManagerCustomEndpoint">ResetCertificateManagerCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetChronicleCustomEndpoint">ResetChronicleCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetCloudAssetCustomEndpoint">ResetCloudAssetCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetCloudBillingCustomEndpoint">ResetCloudBillingCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetCloudBuildCustomEndpoint">ResetCloudBuildCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetCloudbuildv2CustomEndpoint">ResetCloudbuildv2CustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetClouddeployCustomEndpoint">ResetClouddeployCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetClouddomainsCustomEndpoint">ResetClouddomainsCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetCloudfunctions2CustomEndpoint">ResetCloudfunctions2CustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetCloudFunctionsCustomEndpoint">ResetCloudFunctionsCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetCloudIdentityCustomEndpoint">ResetCloudIdentityCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetCloudIdsCustomEndpoint">ResetCloudIdsCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetCloudQuotasCustomEndpoint">ResetCloudQuotasCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetCloudResourceManagerCustomEndpoint">ResetCloudResourceManagerCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetCloudRunCustomEndpoint">ResetCloudRunCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetCloudRunV2CustomEndpoint">ResetCloudRunV2CustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetCloudSchedulerCustomEndpoint">ResetCloudSchedulerCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetCloudTasksCustomEndpoint">ResetCloudTasksCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetColabCustomEndpoint">ResetColabCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetComposerCustomEndpoint">ResetComposerCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetComputeCustomEndpoint">ResetComputeCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetContactCenterInsightsCustomEndpoint">ResetContactCenterInsightsCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetContainerAnalysisCustomEndpoint">ResetContainerAnalysisCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetContainerAttachedCustomEndpoint">ResetContainerAttachedCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetContainerAwsCustomEndpoint">ResetContainerAwsCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetContainerAzureCustomEndpoint">ResetContainerAzureCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetContainerCustomEndpoint">ResetContainerCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetCoreBillingCustomEndpoint">ResetCoreBillingCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetCredentials">ResetCredentials</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetDatabaseMigrationServiceCustomEndpoint">ResetDatabaseMigrationServiceCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetDataCatalogCustomEndpoint">ResetDataCatalogCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetDataflowCustomEndpoint">ResetDataflowCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetDataformCustomEndpoint">ResetDataformCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetDataFusionCustomEndpoint">ResetDataFusionCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetDataLossPreventionCustomEndpoint">ResetDataLossPreventionCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetDataPipelineCustomEndpoint">ResetDataPipelineCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetDataplexCustomEndpoint">ResetDataplexCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetDataprocCustomEndpoint">ResetDataprocCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetDataprocGdcCustomEndpoint">ResetDataprocGdcCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetDataprocMetastoreCustomEndpoint">ResetDataprocMetastoreCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetDatastreamCustomEndpoint">ResetDatastreamCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetDefaultLabels">ResetDefaultLabels</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetDeploymentManagerCustomEndpoint">ResetDeploymentManagerCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetDeveloperConnectCustomEndpoint">ResetDeveloperConnectCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetDialogflowCustomEndpoint">ResetDialogflowCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetDialogflowCxCustomEndpoint">ResetDialogflowCxCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetDiscoveryEngineCustomEndpoint">ResetDiscoveryEngineCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetDnsCustomEndpoint">ResetDnsCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetDocumentAiCustomEndpoint">ResetDocumentAiCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetDocumentAiWarehouseCustomEndpoint">ResetDocumentAiWarehouseCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetEdgecontainerCustomEndpoint">ResetEdgecontainerCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetEdgenetworkCustomEndpoint">ResetEdgenetworkCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetEssentialContactsCustomEndpoint">ResetEssentialContactsCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetEventarcCustomEndpoint">ResetEventarcCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetExternalCredentials">ResetExternalCredentials</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetFilestoreCustomEndpoint">ResetFilestoreCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetFirebaseAppCheckCustomEndpoint">ResetFirebaseAppCheckCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetFirebaseAppHostingCustomEndpoint">ResetFirebaseAppHostingCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetFirebaseCustomEndpoint">ResetFirebaseCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetFirebaseDatabaseCustomEndpoint">ResetFirebaseDatabaseCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetFirebaseDataConnectCustomEndpoint">ResetFirebaseDataConnectCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetFirebaseExtensionsCustomEndpoint">ResetFirebaseExtensionsCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetFirebaseHostingCustomEndpoint">ResetFirebaseHostingCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetFirebaserulesCustomEndpoint">ResetFirebaserulesCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetFirebaseStorageCustomEndpoint">ResetFirebaseStorageCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetFirestoreCustomEndpoint">ResetFirestoreCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetGeminiCustomEndpoint">ResetGeminiCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetGkeBackupCustomEndpoint">ResetGkeBackupCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetGkeHub2CustomEndpoint">ResetGkeHub2CustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetGkeHubCustomEndpoint">ResetGkeHubCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetGkeonpremCustomEndpoint">ResetGkeonpremCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetHealthcareCustomEndpoint">ResetHealthcareCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetIam2CustomEndpoint">ResetIam2CustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetIam3CustomEndpoint">ResetIam3CustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetIamBetaCustomEndpoint">ResetIamBetaCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetIamCredentialsCustomEndpoint">ResetIamCredentialsCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetIamCustomEndpoint">ResetIamCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetIamWorkforcePoolCustomEndpoint">ResetIamWorkforcePoolCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetIapCustomEndpoint">ResetIapCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetIdentityPlatformCustomEndpoint">ResetIdentityPlatformCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetImpersonateServiceAccount">ResetImpersonateServiceAccount</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetImpersonateServiceAccountDelegates">ResetImpersonateServiceAccountDelegates</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetIntegrationConnectorsCustomEndpoint">ResetIntegrationConnectorsCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetIntegrationsCustomEndpoint">ResetIntegrationsCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetKmsCustomEndpoint">ResetKmsCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetLoggingCustomEndpoint">ResetLoggingCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetLookerCustomEndpoint">ResetLookerCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetLustreCustomEndpoint">ResetLustreCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetManagedKafkaCustomEndpoint">ResetManagedKafkaCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetMemcacheCustomEndpoint">ResetMemcacheCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetMemorystoreCustomEndpoint">ResetMemorystoreCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetMigrationCenterCustomEndpoint">ResetMigrationCenterCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetMlEngineCustomEndpoint">ResetMlEngineCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetModelArmorCustomEndpoint">ResetModelArmorCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetModelArmorGlobalCustomEndpoint">ResetModelArmorGlobalCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetMonitoringCustomEndpoint">ResetMonitoringCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetNetappCustomEndpoint">ResetNetappCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetNetworkConnectivityCustomEndpoint">ResetNetworkConnectivityCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetNetworkManagementCustomEndpoint">ResetNetworkManagementCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetNetworkSecurityCustomEndpoint">ResetNetworkSecurityCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetNetworkServicesCustomEndpoint">ResetNetworkServicesCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetNotebooksCustomEndpoint">ResetNotebooksCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetOracleDatabaseCustomEndpoint">ResetOracleDatabaseCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetOrgPolicyCustomEndpoint">ResetOrgPolicyCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetOsConfigCustomEndpoint">ResetOsConfigCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetOsConfigV2CustomEndpoint">ResetOsConfigV2CustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetOsLoginCustomEndpoint">ResetOsLoginCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetParallelstoreCustomEndpoint">ResetParallelstoreCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetParameterManagerCustomEndpoint">ResetParameterManagerCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetParameterManagerRegionalCustomEndpoint">ResetParameterManagerRegionalCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetPrivatecaCustomEndpoint">ResetPrivatecaCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetPrivilegedAccessManagerCustomEndpoint">ResetPrivilegedAccessManagerCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetProject">ResetProject</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetPublicCaCustomEndpoint">ResetPublicCaCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetPubsubCustomEndpoint">ResetPubsubCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetPubsubLiteCustomEndpoint">ResetPubsubLiteCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetRecaptchaEnterpriseCustomEndpoint">ResetRecaptchaEnterpriseCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetRedisCustomEndpoint">ResetRedisCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetRegion">ResetRegion</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetRequestReason">ResetRequestReason</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetRequestTimeout">ResetRequestTimeout</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetResourceManager3CustomEndpoint">ResetResourceManager3CustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetResourceManagerCustomEndpoint">ResetResourceManagerCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetResourceManagerV3CustomEndpoint">ResetResourceManagerV3CustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetRuntimeconfigCustomEndpoint">ResetRuntimeconfigCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetRuntimeConfigCustomEndpoint">ResetRuntimeConfigCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetScopes">ResetScopes</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetSecretManagerCustomEndpoint">ResetSecretManagerCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetSecretManagerRegionalCustomEndpoint">ResetSecretManagerRegionalCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetSecureSourceManagerCustomEndpoint">ResetSecureSourceManagerCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetSecurityCenterCustomEndpoint">ResetSecurityCenterCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetSecurityCenterManagementCustomEndpoint">ResetSecurityCenterManagementCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetSecurityCenterV2CustomEndpoint">ResetSecurityCenterV2CustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetSecuritypostureCustomEndpoint">ResetSecuritypostureCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetSecurityScannerCustomEndpoint">ResetSecurityScannerCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetServiceDirectoryCustomEndpoint">ResetServiceDirectoryCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetServiceManagementCustomEndpoint">ResetServiceManagementCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetServiceNetworkingCustomEndpoint">ResetServiceNetworkingCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetServiceUsageCustomEndpoint">ResetServiceUsageCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetSiteVerificationCustomEndpoint">ResetSiteVerificationCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetSourceRepoCustomEndpoint">ResetSourceRepoCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetSpannerCustomEndpoint">ResetSpannerCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetSqlCustomEndpoint">ResetSqlCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetStorageBatchOperationsCustomEndpoint">ResetStorageBatchOperationsCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetStorageControlCustomEndpoint">ResetStorageControlCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetStorageCustomEndpoint">ResetStorageCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetStorageInsightsCustomEndpoint">ResetStorageInsightsCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetStorageTransferCustomEndpoint">ResetStorageTransferCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetTagsCustomEndpoint">ResetTagsCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetTagsLocationCustomEndpoint">ResetTagsLocationCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetTerraformAttributionLabelAdditionStrategy">ResetTerraformAttributionLabelAdditionStrategy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetTpuCustomEndpoint">ResetTpuCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetTpuV2CustomEndpoint">ResetTpuV2CustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetTranscoderCustomEndpoint">ResetTranscoderCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetUniverseDomain">ResetUniverseDomain</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetUserProjectOverride">ResetUserProjectOverride</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetVertexAiCustomEndpoint">ResetVertexAiCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetVmwareengineCustomEndpoint">ResetVmwareengineCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetVpcAccessCustomEndpoint">ResetVpcAccessCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetWorkbenchCustomEndpoint">ResetWorkbenchCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetWorkflowsCustomEndpoint">ResetWorkflowsCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetWorkstationsCustomEndpoint">ResetWorkstationsCustomEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetZone">ResetZone</a></code> | *No description.* |
 
 ---
 
-##### `ToString` <a name="ToString" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.toString"></a>
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.toString"></a>
 
 ```go
 func ToString() *string
@@ -261,25 +261,25 @@ func ToString() *string
 
 Returns a string representation of this construct.
 
-##### `AddOverride` <a name="AddOverride" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.addOverride"></a>
+##### `AddOverride` <a name="AddOverride" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.addOverride"></a>
 
 ```go
 func AddOverride(path *string, value interface{})
 ```
 
-###### `path`<sup>Required</sup> <a name="path" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.addOverride.parameter.path"></a>
+###### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.addOverride.parameter.path"></a>
 
 - *Type:* *string
 
 ---
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.addOverride.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.addOverride.parameter.value"></a>
 
 - *Type:* interface{}
 
 ---
 
-##### `OverrideLogicalId` <a name="OverrideLogicalId" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.overrideLogicalId"></a>
+##### `OverrideLogicalId` <a name="OverrideLogicalId" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.overrideLogicalId"></a>
 
 ```go
 func OverrideLogicalId(newLogicalId *string)
@@ -287,7 +287,7 @@ func OverrideLogicalId(newLogicalId *string)
 
 Overrides the auto-generated logical ID with a specific ID.
 
-###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.overrideLogicalId.parameter.newLogicalId"></a>
+###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.overrideLogicalId.parameter.newLogicalId"></a>
 
 - *Type:* *string
 
@@ -295,7 +295,7 @@ The new logical ID to use for this stack element.
 
 ---
 
-##### `ResetOverrideLogicalId` <a name="ResetOverrideLogicalId" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetOverrideLogicalId"></a>
+##### `ResetOverrideLogicalId` <a name="ResetOverrideLogicalId" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetOverrideLogicalId"></a>
 
 ```go
 func ResetOverrideLogicalId()
@@ -303,19 +303,19 @@ func ResetOverrideLogicalId()
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
 
-##### `ToHclTerraform` <a name="ToHclTerraform" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.toHclTerraform"></a>
+##### `ToHclTerraform` <a name="ToHclTerraform" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.toHclTerraform"></a>
 
 ```go
 func ToHclTerraform() interface{}
 ```
 
-##### `ToMetadata` <a name="ToMetadata" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.toMetadata"></a>
+##### `ToMetadata` <a name="ToMetadata" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.toMetadata"></a>
 
 ```go
 func ToMetadata() interface{}
 ```
 
-##### `ToTerraform` <a name="ToTerraform" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.toTerraform"></a>
+##### `ToTerraform` <a name="ToTerraform" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.toTerraform"></a>
 
 ```go
 func ToTerraform() interface{}
@@ -323,1159 +323,1159 @@ func ToTerraform() interface{}
 
 Adds this resource to the terraform JSON output.
 
-##### `ResetAccessApprovalCustomEndpoint` <a name="ResetAccessApprovalCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetAccessApprovalCustomEndpoint"></a>
+##### `ResetAccessApprovalCustomEndpoint` <a name="ResetAccessApprovalCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetAccessApprovalCustomEndpoint"></a>
 
 ```go
 func ResetAccessApprovalCustomEndpoint()
 ```
 
-##### `ResetAccessContextManagerCustomEndpoint` <a name="ResetAccessContextManagerCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetAccessContextManagerCustomEndpoint"></a>
+##### `ResetAccessContextManagerCustomEndpoint` <a name="ResetAccessContextManagerCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetAccessContextManagerCustomEndpoint"></a>
 
 ```go
 func ResetAccessContextManagerCustomEndpoint()
 ```
 
-##### `ResetAccessToken` <a name="ResetAccessToken" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetAccessToken"></a>
+##### `ResetAccessToken` <a name="ResetAccessToken" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetAccessToken"></a>
 
 ```go
 func ResetAccessToken()
 ```
 
-##### `ResetActiveDirectoryCustomEndpoint` <a name="ResetActiveDirectoryCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetActiveDirectoryCustomEndpoint"></a>
+##### `ResetActiveDirectoryCustomEndpoint` <a name="ResetActiveDirectoryCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetActiveDirectoryCustomEndpoint"></a>
 
 ```go
 func ResetActiveDirectoryCustomEndpoint()
 ```
 
-##### `ResetAddTerraformAttributionLabel` <a name="ResetAddTerraformAttributionLabel" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetAddTerraformAttributionLabel"></a>
+##### `ResetAddTerraformAttributionLabel` <a name="ResetAddTerraformAttributionLabel" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetAddTerraformAttributionLabel"></a>
 
 ```go
 func ResetAddTerraformAttributionLabel()
 ```
 
-##### `ResetAlias` <a name="ResetAlias" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetAlias"></a>
+##### `ResetAlias` <a name="ResetAlias" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetAlias"></a>
 
 ```go
 func ResetAlias()
 ```
 
-##### `ResetAlloydbCustomEndpoint` <a name="ResetAlloydbCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetAlloydbCustomEndpoint"></a>
+##### `ResetAlloydbCustomEndpoint` <a name="ResetAlloydbCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetAlloydbCustomEndpoint"></a>
 
 ```go
 func ResetAlloydbCustomEndpoint()
 ```
 
-##### `ResetApiGatewayCustomEndpoint` <a name="ResetApiGatewayCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetApiGatewayCustomEndpoint"></a>
+##### `ResetApiGatewayCustomEndpoint` <a name="ResetApiGatewayCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetApiGatewayCustomEndpoint"></a>
 
 ```go
 func ResetApiGatewayCustomEndpoint()
 ```
 
-##### `ResetApigeeCustomEndpoint` <a name="ResetApigeeCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetApigeeCustomEndpoint"></a>
+##### `ResetApigeeCustomEndpoint` <a name="ResetApigeeCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetApigeeCustomEndpoint"></a>
 
 ```go
 func ResetApigeeCustomEndpoint()
 ```
 
-##### `ResetApihubCustomEndpoint` <a name="ResetApihubCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetApihubCustomEndpoint"></a>
+##### `ResetApihubCustomEndpoint` <a name="ResetApihubCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetApihubCustomEndpoint"></a>
 
 ```go
 func ResetApihubCustomEndpoint()
 ```
 
-##### `ResetApikeysCustomEndpoint` <a name="ResetApikeysCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetApikeysCustomEndpoint"></a>
+##### `ResetApikeysCustomEndpoint` <a name="ResetApikeysCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetApikeysCustomEndpoint"></a>
 
 ```go
 func ResetApikeysCustomEndpoint()
 ```
 
-##### `ResetAppEngineCustomEndpoint` <a name="ResetAppEngineCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetAppEngineCustomEndpoint"></a>
+##### `ResetAppEngineCustomEndpoint` <a name="ResetAppEngineCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetAppEngineCustomEndpoint"></a>
 
 ```go
 func ResetAppEngineCustomEndpoint()
 ```
 
-##### `ResetApphubCustomEndpoint` <a name="ResetApphubCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetApphubCustomEndpoint"></a>
+##### `ResetApphubCustomEndpoint` <a name="ResetApphubCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetApphubCustomEndpoint"></a>
 
 ```go
 func ResetApphubCustomEndpoint()
 ```
 
-##### `ResetArtifactRegistryCustomEndpoint` <a name="ResetArtifactRegistryCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetArtifactRegistryCustomEndpoint"></a>
+##### `ResetArtifactRegistryCustomEndpoint` <a name="ResetArtifactRegistryCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetArtifactRegistryCustomEndpoint"></a>
 
 ```go
 func ResetArtifactRegistryCustomEndpoint()
 ```
 
-##### `ResetAssuredWorkloadsCustomEndpoint` <a name="ResetAssuredWorkloadsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetAssuredWorkloadsCustomEndpoint"></a>
+##### `ResetAssuredWorkloadsCustomEndpoint` <a name="ResetAssuredWorkloadsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetAssuredWorkloadsCustomEndpoint"></a>
 
 ```go
 func ResetAssuredWorkloadsCustomEndpoint()
 ```
 
-##### `ResetBackupDrCustomEndpoint` <a name="ResetBackupDrCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetBackupDrCustomEndpoint"></a>
+##### `ResetBackupDrCustomEndpoint` <a name="ResetBackupDrCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetBackupDrCustomEndpoint"></a>
 
 ```go
 func ResetBackupDrCustomEndpoint()
 ```
 
-##### `ResetBatching` <a name="ResetBatching" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetBatching"></a>
+##### `ResetBatching` <a name="ResetBatching" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetBatching"></a>
 
 ```go
 func ResetBatching()
 ```
 
-##### `ResetBeyondcorpCustomEndpoint` <a name="ResetBeyondcorpCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetBeyondcorpCustomEndpoint"></a>
+##### `ResetBeyondcorpCustomEndpoint` <a name="ResetBeyondcorpCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetBeyondcorpCustomEndpoint"></a>
 
 ```go
 func ResetBeyondcorpCustomEndpoint()
 ```
 
-##### `ResetBiglakeCustomEndpoint` <a name="ResetBiglakeCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetBiglakeCustomEndpoint"></a>
+##### `ResetBiglakeCustomEndpoint` <a name="ResetBiglakeCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetBiglakeCustomEndpoint"></a>
 
 ```go
 func ResetBiglakeCustomEndpoint()
 ```
 
-##### `ResetBigqueryAnalyticsHubCustomEndpoint` <a name="ResetBigqueryAnalyticsHubCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetBigqueryAnalyticsHubCustomEndpoint"></a>
+##### `ResetBigqueryAnalyticsHubCustomEndpoint` <a name="ResetBigqueryAnalyticsHubCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetBigqueryAnalyticsHubCustomEndpoint"></a>
 
 ```go
 func ResetBigqueryAnalyticsHubCustomEndpoint()
 ```
 
-##### `ResetBigqueryConnectionCustomEndpoint` <a name="ResetBigqueryConnectionCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetBigqueryConnectionCustomEndpoint"></a>
+##### `ResetBigqueryConnectionCustomEndpoint` <a name="ResetBigqueryConnectionCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetBigqueryConnectionCustomEndpoint"></a>
 
 ```go
 func ResetBigqueryConnectionCustomEndpoint()
 ```
 
-##### `ResetBigQueryCustomEndpoint` <a name="ResetBigQueryCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetBigQueryCustomEndpoint"></a>
+##### `ResetBigQueryCustomEndpoint` <a name="ResetBigQueryCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetBigQueryCustomEndpoint"></a>
 
 ```go
 func ResetBigQueryCustomEndpoint()
 ```
 
-##### `ResetBigqueryDatapolicyCustomEndpoint` <a name="ResetBigqueryDatapolicyCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetBigqueryDatapolicyCustomEndpoint"></a>
+##### `ResetBigqueryDatapolicyCustomEndpoint` <a name="ResetBigqueryDatapolicyCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetBigqueryDatapolicyCustomEndpoint"></a>
 
 ```go
 func ResetBigqueryDatapolicyCustomEndpoint()
 ```
 
-##### `ResetBigqueryDataTransferCustomEndpoint` <a name="ResetBigqueryDataTransferCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetBigqueryDataTransferCustomEndpoint"></a>
+##### `ResetBigqueryDataTransferCustomEndpoint` <a name="ResetBigqueryDataTransferCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetBigqueryDataTransferCustomEndpoint"></a>
 
 ```go
 func ResetBigqueryDataTransferCustomEndpoint()
 ```
 
-##### `ResetBigqueryReservationCustomEndpoint` <a name="ResetBigqueryReservationCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetBigqueryReservationCustomEndpoint"></a>
+##### `ResetBigqueryReservationCustomEndpoint` <a name="ResetBigqueryReservationCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetBigqueryReservationCustomEndpoint"></a>
 
 ```go
 func ResetBigqueryReservationCustomEndpoint()
 ```
 
-##### `ResetBigtableCustomEndpoint` <a name="ResetBigtableCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetBigtableCustomEndpoint"></a>
+##### `ResetBigtableCustomEndpoint` <a name="ResetBigtableCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetBigtableCustomEndpoint"></a>
 
 ```go
 func ResetBigtableCustomEndpoint()
 ```
 
-##### `ResetBillingCustomEndpoint` <a name="ResetBillingCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetBillingCustomEndpoint"></a>
+##### `ResetBillingCustomEndpoint` <a name="ResetBillingCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetBillingCustomEndpoint"></a>
 
 ```go
 func ResetBillingCustomEndpoint()
 ```
 
-##### `ResetBillingProject` <a name="ResetBillingProject" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetBillingProject"></a>
+##### `ResetBillingProject` <a name="ResetBillingProject" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetBillingProject"></a>
 
 ```go
 func ResetBillingProject()
 ```
 
-##### `ResetBinaryAuthorizationCustomEndpoint` <a name="ResetBinaryAuthorizationCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetBinaryAuthorizationCustomEndpoint"></a>
+##### `ResetBinaryAuthorizationCustomEndpoint` <a name="ResetBinaryAuthorizationCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetBinaryAuthorizationCustomEndpoint"></a>
 
 ```go
 func ResetBinaryAuthorizationCustomEndpoint()
 ```
 
-##### `ResetBlockchainNodeEngineCustomEndpoint` <a name="ResetBlockchainNodeEngineCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetBlockchainNodeEngineCustomEndpoint"></a>
+##### `ResetBlockchainNodeEngineCustomEndpoint` <a name="ResetBlockchainNodeEngineCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetBlockchainNodeEngineCustomEndpoint"></a>
 
 ```go
 func ResetBlockchainNodeEngineCustomEndpoint()
 ```
 
-##### `ResetCertificateManagerCustomEndpoint` <a name="ResetCertificateManagerCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetCertificateManagerCustomEndpoint"></a>
+##### `ResetCertificateManagerCustomEndpoint` <a name="ResetCertificateManagerCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetCertificateManagerCustomEndpoint"></a>
 
 ```go
 func ResetCertificateManagerCustomEndpoint()
 ```
 
-##### `ResetChronicleCustomEndpoint` <a name="ResetChronicleCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetChronicleCustomEndpoint"></a>
+##### `ResetChronicleCustomEndpoint` <a name="ResetChronicleCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetChronicleCustomEndpoint"></a>
 
 ```go
 func ResetChronicleCustomEndpoint()
 ```
 
-##### `ResetCloudAssetCustomEndpoint` <a name="ResetCloudAssetCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetCloudAssetCustomEndpoint"></a>
+##### `ResetCloudAssetCustomEndpoint` <a name="ResetCloudAssetCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetCloudAssetCustomEndpoint"></a>
 
 ```go
 func ResetCloudAssetCustomEndpoint()
 ```
 
-##### `ResetCloudBillingCustomEndpoint` <a name="ResetCloudBillingCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetCloudBillingCustomEndpoint"></a>
+##### `ResetCloudBillingCustomEndpoint` <a name="ResetCloudBillingCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetCloudBillingCustomEndpoint"></a>
 
 ```go
 func ResetCloudBillingCustomEndpoint()
 ```
 
-##### `ResetCloudBuildCustomEndpoint` <a name="ResetCloudBuildCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetCloudBuildCustomEndpoint"></a>
+##### `ResetCloudBuildCustomEndpoint` <a name="ResetCloudBuildCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetCloudBuildCustomEndpoint"></a>
 
 ```go
 func ResetCloudBuildCustomEndpoint()
 ```
 
-##### `ResetCloudbuildv2CustomEndpoint` <a name="ResetCloudbuildv2CustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetCloudbuildv2CustomEndpoint"></a>
+##### `ResetCloudbuildv2CustomEndpoint` <a name="ResetCloudbuildv2CustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetCloudbuildv2CustomEndpoint"></a>
 
 ```go
 func ResetCloudbuildv2CustomEndpoint()
 ```
 
-##### `ResetClouddeployCustomEndpoint` <a name="ResetClouddeployCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetClouddeployCustomEndpoint"></a>
+##### `ResetClouddeployCustomEndpoint` <a name="ResetClouddeployCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetClouddeployCustomEndpoint"></a>
 
 ```go
 func ResetClouddeployCustomEndpoint()
 ```
 
-##### `ResetClouddomainsCustomEndpoint` <a name="ResetClouddomainsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetClouddomainsCustomEndpoint"></a>
+##### `ResetClouddomainsCustomEndpoint` <a name="ResetClouddomainsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetClouddomainsCustomEndpoint"></a>
 
 ```go
 func ResetClouddomainsCustomEndpoint()
 ```
 
-##### `ResetCloudfunctions2CustomEndpoint` <a name="ResetCloudfunctions2CustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetCloudfunctions2CustomEndpoint"></a>
+##### `ResetCloudfunctions2CustomEndpoint` <a name="ResetCloudfunctions2CustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetCloudfunctions2CustomEndpoint"></a>
 
 ```go
 func ResetCloudfunctions2CustomEndpoint()
 ```
 
-##### `ResetCloudFunctionsCustomEndpoint` <a name="ResetCloudFunctionsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetCloudFunctionsCustomEndpoint"></a>
+##### `ResetCloudFunctionsCustomEndpoint` <a name="ResetCloudFunctionsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetCloudFunctionsCustomEndpoint"></a>
 
 ```go
 func ResetCloudFunctionsCustomEndpoint()
 ```
 
-##### `ResetCloudIdentityCustomEndpoint` <a name="ResetCloudIdentityCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetCloudIdentityCustomEndpoint"></a>
+##### `ResetCloudIdentityCustomEndpoint` <a name="ResetCloudIdentityCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetCloudIdentityCustomEndpoint"></a>
 
 ```go
 func ResetCloudIdentityCustomEndpoint()
 ```
 
-##### `ResetCloudIdsCustomEndpoint` <a name="ResetCloudIdsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetCloudIdsCustomEndpoint"></a>
+##### `ResetCloudIdsCustomEndpoint` <a name="ResetCloudIdsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetCloudIdsCustomEndpoint"></a>
 
 ```go
 func ResetCloudIdsCustomEndpoint()
 ```
 
-##### `ResetCloudQuotasCustomEndpoint` <a name="ResetCloudQuotasCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetCloudQuotasCustomEndpoint"></a>
+##### `ResetCloudQuotasCustomEndpoint` <a name="ResetCloudQuotasCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetCloudQuotasCustomEndpoint"></a>
 
 ```go
 func ResetCloudQuotasCustomEndpoint()
 ```
 
-##### `ResetCloudResourceManagerCustomEndpoint` <a name="ResetCloudResourceManagerCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetCloudResourceManagerCustomEndpoint"></a>
+##### `ResetCloudResourceManagerCustomEndpoint` <a name="ResetCloudResourceManagerCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetCloudResourceManagerCustomEndpoint"></a>
 
 ```go
 func ResetCloudResourceManagerCustomEndpoint()
 ```
 
-##### `ResetCloudRunCustomEndpoint` <a name="ResetCloudRunCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetCloudRunCustomEndpoint"></a>
+##### `ResetCloudRunCustomEndpoint` <a name="ResetCloudRunCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetCloudRunCustomEndpoint"></a>
 
 ```go
 func ResetCloudRunCustomEndpoint()
 ```
 
-##### `ResetCloudRunV2CustomEndpoint` <a name="ResetCloudRunV2CustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetCloudRunV2CustomEndpoint"></a>
+##### `ResetCloudRunV2CustomEndpoint` <a name="ResetCloudRunV2CustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetCloudRunV2CustomEndpoint"></a>
 
 ```go
 func ResetCloudRunV2CustomEndpoint()
 ```
 
-##### `ResetCloudSchedulerCustomEndpoint` <a name="ResetCloudSchedulerCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetCloudSchedulerCustomEndpoint"></a>
+##### `ResetCloudSchedulerCustomEndpoint` <a name="ResetCloudSchedulerCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetCloudSchedulerCustomEndpoint"></a>
 
 ```go
 func ResetCloudSchedulerCustomEndpoint()
 ```
 
-##### `ResetCloudTasksCustomEndpoint` <a name="ResetCloudTasksCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetCloudTasksCustomEndpoint"></a>
+##### `ResetCloudTasksCustomEndpoint` <a name="ResetCloudTasksCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetCloudTasksCustomEndpoint"></a>
 
 ```go
 func ResetCloudTasksCustomEndpoint()
 ```
 
-##### `ResetColabCustomEndpoint` <a name="ResetColabCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetColabCustomEndpoint"></a>
+##### `ResetColabCustomEndpoint` <a name="ResetColabCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetColabCustomEndpoint"></a>
 
 ```go
 func ResetColabCustomEndpoint()
 ```
 
-##### `ResetComposerCustomEndpoint` <a name="ResetComposerCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetComposerCustomEndpoint"></a>
+##### `ResetComposerCustomEndpoint` <a name="ResetComposerCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetComposerCustomEndpoint"></a>
 
 ```go
 func ResetComposerCustomEndpoint()
 ```
 
-##### `ResetComputeCustomEndpoint` <a name="ResetComputeCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetComputeCustomEndpoint"></a>
+##### `ResetComputeCustomEndpoint` <a name="ResetComputeCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetComputeCustomEndpoint"></a>
 
 ```go
 func ResetComputeCustomEndpoint()
 ```
 
-##### `ResetContactCenterInsightsCustomEndpoint` <a name="ResetContactCenterInsightsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetContactCenterInsightsCustomEndpoint"></a>
+##### `ResetContactCenterInsightsCustomEndpoint` <a name="ResetContactCenterInsightsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetContactCenterInsightsCustomEndpoint"></a>
 
 ```go
 func ResetContactCenterInsightsCustomEndpoint()
 ```
 
-##### `ResetContainerAnalysisCustomEndpoint` <a name="ResetContainerAnalysisCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetContainerAnalysisCustomEndpoint"></a>
+##### `ResetContainerAnalysisCustomEndpoint` <a name="ResetContainerAnalysisCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetContainerAnalysisCustomEndpoint"></a>
 
 ```go
 func ResetContainerAnalysisCustomEndpoint()
 ```
 
-##### `ResetContainerAttachedCustomEndpoint` <a name="ResetContainerAttachedCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetContainerAttachedCustomEndpoint"></a>
+##### `ResetContainerAttachedCustomEndpoint` <a name="ResetContainerAttachedCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetContainerAttachedCustomEndpoint"></a>
 
 ```go
 func ResetContainerAttachedCustomEndpoint()
 ```
 
-##### `ResetContainerAwsCustomEndpoint` <a name="ResetContainerAwsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetContainerAwsCustomEndpoint"></a>
+##### `ResetContainerAwsCustomEndpoint` <a name="ResetContainerAwsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetContainerAwsCustomEndpoint"></a>
 
 ```go
 func ResetContainerAwsCustomEndpoint()
 ```
 
-##### `ResetContainerAzureCustomEndpoint` <a name="ResetContainerAzureCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetContainerAzureCustomEndpoint"></a>
+##### `ResetContainerAzureCustomEndpoint` <a name="ResetContainerAzureCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetContainerAzureCustomEndpoint"></a>
 
 ```go
 func ResetContainerAzureCustomEndpoint()
 ```
 
-##### `ResetContainerCustomEndpoint` <a name="ResetContainerCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetContainerCustomEndpoint"></a>
+##### `ResetContainerCustomEndpoint` <a name="ResetContainerCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetContainerCustomEndpoint"></a>
 
 ```go
 func ResetContainerCustomEndpoint()
 ```
 
-##### `ResetCoreBillingCustomEndpoint` <a name="ResetCoreBillingCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetCoreBillingCustomEndpoint"></a>
+##### `ResetCoreBillingCustomEndpoint` <a name="ResetCoreBillingCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetCoreBillingCustomEndpoint"></a>
 
 ```go
 func ResetCoreBillingCustomEndpoint()
 ```
 
-##### `ResetCredentials` <a name="ResetCredentials" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetCredentials"></a>
+##### `ResetCredentials` <a name="ResetCredentials" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetCredentials"></a>
 
 ```go
 func ResetCredentials()
 ```
 
-##### `ResetDatabaseMigrationServiceCustomEndpoint` <a name="ResetDatabaseMigrationServiceCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetDatabaseMigrationServiceCustomEndpoint"></a>
+##### `ResetDatabaseMigrationServiceCustomEndpoint` <a name="ResetDatabaseMigrationServiceCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetDatabaseMigrationServiceCustomEndpoint"></a>
 
 ```go
 func ResetDatabaseMigrationServiceCustomEndpoint()
 ```
 
-##### `ResetDataCatalogCustomEndpoint` <a name="ResetDataCatalogCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetDataCatalogCustomEndpoint"></a>
+##### `ResetDataCatalogCustomEndpoint` <a name="ResetDataCatalogCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetDataCatalogCustomEndpoint"></a>
 
 ```go
 func ResetDataCatalogCustomEndpoint()
 ```
 
-##### `ResetDataflowCustomEndpoint` <a name="ResetDataflowCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetDataflowCustomEndpoint"></a>
+##### `ResetDataflowCustomEndpoint` <a name="ResetDataflowCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetDataflowCustomEndpoint"></a>
 
 ```go
 func ResetDataflowCustomEndpoint()
 ```
 
-##### `ResetDataformCustomEndpoint` <a name="ResetDataformCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetDataformCustomEndpoint"></a>
+##### `ResetDataformCustomEndpoint` <a name="ResetDataformCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetDataformCustomEndpoint"></a>
 
 ```go
 func ResetDataformCustomEndpoint()
 ```
 
-##### `ResetDataFusionCustomEndpoint` <a name="ResetDataFusionCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetDataFusionCustomEndpoint"></a>
+##### `ResetDataFusionCustomEndpoint` <a name="ResetDataFusionCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetDataFusionCustomEndpoint"></a>
 
 ```go
 func ResetDataFusionCustomEndpoint()
 ```
 
-##### `ResetDataLossPreventionCustomEndpoint` <a name="ResetDataLossPreventionCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetDataLossPreventionCustomEndpoint"></a>
+##### `ResetDataLossPreventionCustomEndpoint` <a name="ResetDataLossPreventionCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetDataLossPreventionCustomEndpoint"></a>
 
 ```go
 func ResetDataLossPreventionCustomEndpoint()
 ```
 
-##### `ResetDataPipelineCustomEndpoint` <a name="ResetDataPipelineCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetDataPipelineCustomEndpoint"></a>
+##### `ResetDataPipelineCustomEndpoint` <a name="ResetDataPipelineCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetDataPipelineCustomEndpoint"></a>
 
 ```go
 func ResetDataPipelineCustomEndpoint()
 ```
 
-##### `ResetDataplexCustomEndpoint` <a name="ResetDataplexCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetDataplexCustomEndpoint"></a>
+##### `ResetDataplexCustomEndpoint` <a name="ResetDataplexCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetDataplexCustomEndpoint"></a>
 
 ```go
 func ResetDataplexCustomEndpoint()
 ```
 
-##### `ResetDataprocCustomEndpoint` <a name="ResetDataprocCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetDataprocCustomEndpoint"></a>
+##### `ResetDataprocCustomEndpoint` <a name="ResetDataprocCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetDataprocCustomEndpoint"></a>
 
 ```go
 func ResetDataprocCustomEndpoint()
 ```
 
-##### `ResetDataprocGdcCustomEndpoint` <a name="ResetDataprocGdcCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetDataprocGdcCustomEndpoint"></a>
+##### `ResetDataprocGdcCustomEndpoint` <a name="ResetDataprocGdcCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetDataprocGdcCustomEndpoint"></a>
 
 ```go
 func ResetDataprocGdcCustomEndpoint()
 ```
 
-##### `ResetDataprocMetastoreCustomEndpoint` <a name="ResetDataprocMetastoreCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetDataprocMetastoreCustomEndpoint"></a>
+##### `ResetDataprocMetastoreCustomEndpoint` <a name="ResetDataprocMetastoreCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetDataprocMetastoreCustomEndpoint"></a>
 
 ```go
 func ResetDataprocMetastoreCustomEndpoint()
 ```
 
-##### `ResetDatastreamCustomEndpoint` <a name="ResetDatastreamCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetDatastreamCustomEndpoint"></a>
+##### `ResetDatastreamCustomEndpoint` <a name="ResetDatastreamCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetDatastreamCustomEndpoint"></a>
 
 ```go
 func ResetDatastreamCustomEndpoint()
 ```
 
-##### `ResetDefaultLabels` <a name="ResetDefaultLabels" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetDefaultLabels"></a>
+##### `ResetDefaultLabels` <a name="ResetDefaultLabels" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetDefaultLabels"></a>
 
 ```go
 func ResetDefaultLabels()
 ```
 
-##### `ResetDeploymentManagerCustomEndpoint` <a name="ResetDeploymentManagerCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetDeploymentManagerCustomEndpoint"></a>
+##### `ResetDeploymentManagerCustomEndpoint` <a name="ResetDeploymentManagerCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetDeploymentManagerCustomEndpoint"></a>
 
 ```go
 func ResetDeploymentManagerCustomEndpoint()
 ```
 
-##### `ResetDeveloperConnectCustomEndpoint` <a name="ResetDeveloperConnectCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetDeveloperConnectCustomEndpoint"></a>
+##### `ResetDeveloperConnectCustomEndpoint` <a name="ResetDeveloperConnectCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetDeveloperConnectCustomEndpoint"></a>
 
 ```go
 func ResetDeveloperConnectCustomEndpoint()
 ```
 
-##### `ResetDialogflowCustomEndpoint` <a name="ResetDialogflowCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetDialogflowCustomEndpoint"></a>
+##### `ResetDialogflowCustomEndpoint` <a name="ResetDialogflowCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetDialogflowCustomEndpoint"></a>
 
 ```go
 func ResetDialogflowCustomEndpoint()
 ```
 
-##### `ResetDialogflowCxCustomEndpoint` <a name="ResetDialogflowCxCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetDialogflowCxCustomEndpoint"></a>
+##### `ResetDialogflowCxCustomEndpoint` <a name="ResetDialogflowCxCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetDialogflowCxCustomEndpoint"></a>
 
 ```go
 func ResetDialogflowCxCustomEndpoint()
 ```
 
-##### `ResetDiscoveryEngineCustomEndpoint` <a name="ResetDiscoveryEngineCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetDiscoveryEngineCustomEndpoint"></a>
+##### `ResetDiscoveryEngineCustomEndpoint` <a name="ResetDiscoveryEngineCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetDiscoveryEngineCustomEndpoint"></a>
 
 ```go
 func ResetDiscoveryEngineCustomEndpoint()
 ```
 
-##### `ResetDnsCustomEndpoint` <a name="ResetDnsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetDnsCustomEndpoint"></a>
+##### `ResetDnsCustomEndpoint` <a name="ResetDnsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetDnsCustomEndpoint"></a>
 
 ```go
 func ResetDnsCustomEndpoint()
 ```
 
-##### `ResetDocumentAiCustomEndpoint` <a name="ResetDocumentAiCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetDocumentAiCustomEndpoint"></a>
+##### `ResetDocumentAiCustomEndpoint` <a name="ResetDocumentAiCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetDocumentAiCustomEndpoint"></a>
 
 ```go
 func ResetDocumentAiCustomEndpoint()
 ```
 
-##### `ResetDocumentAiWarehouseCustomEndpoint` <a name="ResetDocumentAiWarehouseCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetDocumentAiWarehouseCustomEndpoint"></a>
+##### `ResetDocumentAiWarehouseCustomEndpoint` <a name="ResetDocumentAiWarehouseCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetDocumentAiWarehouseCustomEndpoint"></a>
 
 ```go
 func ResetDocumentAiWarehouseCustomEndpoint()
 ```
 
-##### `ResetEdgecontainerCustomEndpoint` <a name="ResetEdgecontainerCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetEdgecontainerCustomEndpoint"></a>
+##### `ResetEdgecontainerCustomEndpoint` <a name="ResetEdgecontainerCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetEdgecontainerCustomEndpoint"></a>
 
 ```go
 func ResetEdgecontainerCustomEndpoint()
 ```
 
-##### `ResetEdgenetworkCustomEndpoint` <a name="ResetEdgenetworkCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetEdgenetworkCustomEndpoint"></a>
+##### `ResetEdgenetworkCustomEndpoint` <a name="ResetEdgenetworkCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetEdgenetworkCustomEndpoint"></a>
 
 ```go
 func ResetEdgenetworkCustomEndpoint()
 ```
 
-##### `ResetEssentialContactsCustomEndpoint` <a name="ResetEssentialContactsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetEssentialContactsCustomEndpoint"></a>
+##### `ResetEssentialContactsCustomEndpoint` <a name="ResetEssentialContactsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetEssentialContactsCustomEndpoint"></a>
 
 ```go
 func ResetEssentialContactsCustomEndpoint()
 ```
 
-##### `ResetEventarcCustomEndpoint` <a name="ResetEventarcCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetEventarcCustomEndpoint"></a>
+##### `ResetEventarcCustomEndpoint` <a name="ResetEventarcCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetEventarcCustomEndpoint"></a>
 
 ```go
 func ResetEventarcCustomEndpoint()
 ```
 
-##### `ResetExternalCredentials` <a name="ResetExternalCredentials" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetExternalCredentials"></a>
+##### `ResetExternalCredentials` <a name="ResetExternalCredentials" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetExternalCredentials"></a>
 
 ```go
 func ResetExternalCredentials()
 ```
 
-##### `ResetFilestoreCustomEndpoint` <a name="ResetFilestoreCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetFilestoreCustomEndpoint"></a>
+##### `ResetFilestoreCustomEndpoint` <a name="ResetFilestoreCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetFilestoreCustomEndpoint"></a>
 
 ```go
 func ResetFilestoreCustomEndpoint()
 ```
 
-##### `ResetFirebaseAppCheckCustomEndpoint` <a name="ResetFirebaseAppCheckCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetFirebaseAppCheckCustomEndpoint"></a>
+##### `ResetFirebaseAppCheckCustomEndpoint` <a name="ResetFirebaseAppCheckCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetFirebaseAppCheckCustomEndpoint"></a>
 
 ```go
 func ResetFirebaseAppCheckCustomEndpoint()
 ```
 
-##### `ResetFirebaseAppHostingCustomEndpoint` <a name="ResetFirebaseAppHostingCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetFirebaseAppHostingCustomEndpoint"></a>
+##### `ResetFirebaseAppHostingCustomEndpoint` <a name="ResetFirebaseAppHostingCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetFirebaseAppHostingCustomEndpoint"></a>
 
 ```go
 func ResetFirebaseAppHostingCustomEndpoint()
 ```
 
-##### `ResetFirebaseCustomEndpoint` <a name="ResetFirebaseCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetFirebaseCustomEndpoint"></a>
+##### `ResetFirebaseCustomEndpoint` <a name="ResetFirebaseCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetFirebaseCustomEndpoint"></a>
 
 ```go
 func ResetFirebaseCustomEndpoint()
 ```
 
-##### `ResetFirebaseDatabaseCustomEndpoint` <a name="ResetFirebaseDatabaseCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetFirebaseDatabaseCustomEndpoint"></a>
+##### `ResetFirebaseDatabaseCustomEndpoint` <a name="ResetFirebaseDatabaseCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetFirebaseDatabaseCustomEndpoint"></a>
 
 ```go
 func ResetFirebaseDatabaseCustomEndpoint()
 ```
 
-##### `ResetFirebaseDataConnectCustomEndpoint` <a name="ResetFirebaseDataConnectCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetFirebaseDataConnectCustomEndpoint"></a>
+##### `ResetFirebaseDataConnectCustomEndpoint` <a name="ResetFirebaseDataConnectCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetFirebaseDataConnectCustomEndpoint"></a>
 
 ```go
 func ResetFirebaseDataConnectCustomEndpoint()
 ```
 
-##### `ResetFirebaseExtensionsCustomEndpoint` <a name="ResetFirebaseExtensionsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetFirebaseExtensionsCustomEndpoint"></a>
+##### `ResetFirebaseExtensionsCustomEndpoint` <a name="ResetFirebaseExtensionsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetFirebaseExtensionsCustomEndpoint"></a>
 
 ```go
 func ResetFirebaseExtensionsCustomEndpoint()
 ```
 
-##### `ResetFirebaseHostingCustomEndpoint` <a name="ResetFirebaseHostingCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetFirebaseHostingCustomEndpoint"></a>
+##### `ResetFirebaseHostingCustomEndpoint` <a name="ResetFirebaseHostingCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetFirebaseHostingCustomEndpoint"></a>
 
 ```go
 func ResetFirebaseHostingCustomEndpoint()
 ```
 
-##### `ResetFirebaserulesCustomEndpoint` <a name="ResetFirebaserulesCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetFirebaserulesCustomEndpoint"></a>
+##### `ResetFirebaserulesCustomEndpoint` <a name="ResetFirebaserulesCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetFirebaserulesCustomEndpoint"></a>
 
 ```go
 func ResetFirebaserulesCustomEndpoint()
 ```
 
-##### `ResetFirebaseStorageCustomEndpoint` <a name="ResetFirebaseStorageCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetFirebaseStorageCustomEndpoint"></a>
+##### `ResetFirebaseStorageCustomEndpoint` <a name="ResetFirebaseStorageCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetFirebaseStorageCustomEndpoint"></a>
 
 ```go
 func ResetFirebaseStorageCustomEndpoint()
 ```
 
-##### `ResetFirestoreCustomEndpoint` <a name="ResetFirestoreCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetFirestoreCustomEndpoint"></a>
+##### `ResetFirestoreCustomEndpoint` <a name="ResetFirestoreCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetFirestoreCustomEndpoint"></a>
 
 ```go
 func ResetFirestoreCustomEndpoint()
 ```
 
-##### `ResetGeminiCustomEndpoint` <a name="ResetGeminiCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetGeminiCustomEndpoint"></a>
+##### `ResetGeminiCustomEndpoint` <a name="ResetGeminiCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetGeminiCustomEndpoint"></a>
 
 ```go
 func ResetGeminiCustomEndpoint()
 ```
 
-##### `ResetGkeBackupCustomEndpoint` <a name="ResetGkeBackupCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetGkeBackupCustomEndpoint"></a>
+##### `ResetGkeBackupCustomEndpoint` <a name="ResetGkeBackupCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetGkeBackupCustomEndpoint"></a>
 
 ```go
 func ResetGkeBackupCustomEndpoint()
 ```
 
-##### `ResetGkeHub2CustomEndpoint` <a name="ResetGkeHub2CustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetGkeHub2CustomEndpoint"></a>
+##### `ResetGkeHub2CustomEndpoint` <a name="ResetGkeHub2CustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetGkeHub2CustomEndpoint"></a>
 
 ```go
 func ResetGkeHub2CustomEndpoint()
 ```
 
-##### `ResetGkeHubCustomEndpoint` <a name="ResetGkeHubCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetGkeHubCustomEndpoint"></a>
+##### `ResetGkeHubCustomEndpoint` <a name="ResetGkeHubCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetGkeHubCustomEndpoint"></a>
 
 ```go
 func ResetGkeHubCustomEndpoint()
 ```
 
-##### `ResetGkeonpremCustomEndpoint` <a name="ResetGkeonpremCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetGkeonpremCustomEndpoint"></a>
+##### `ResetGkeonpremCustomEndpoint` <a name="ResetGkeonpremCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetGkeonpremCustomEndpoint"></a>
 
 ```go
 func ResetGkeonpremCustomEndpoint()
 ```
 
-##### `ResetHealthcareCustomEndpoint` <a name="ResetHealthcareCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetHealthcareCustomEndpoint"></a>
+##### `ResetHealthcareCustomEndpoint` <a name="ResetHealthcareCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetHealthcareCustomEndpoint"></a>
 
 ```go
 func ResetHealthcareCustomEndpoint()
 ```
 
-##### `ResetIam2CustomEndpoint` <a name="ResetIam2CustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetIam2CustomEndpoint"></a>
+##### `ResetIam2CustomEndpoint` <a name="ResetIam2CustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetIam2CustomEndpoint"></a>
 
 ```go
 func ResetIam2CustomEndpoint()
 ```
 
-##### `ResetIam3CustomEndpoint` <a name="ResetIam3CustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetIam3CustomEndpoint"></a>
+##### `ResetIam3CustomEndpoint` <a name="ResetIam3CustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetIam3CustomEndpoint"></a>
 
 ```go
 func ResetIam3CustomEndpoint()
 ```
 
-##### `ResetIamBetaCustomEndpoint` <a name="ResetIamBetaCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetIamBetaCustomEndpoint"></a>
+##### `ResetIamBetaCustomEndpoint` <a name="ResetIamBetaCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetIamBetaCustomEndpoint"></a>
 
 ```go
 func ResetIamBetaCustomEndpoint()
 ```
 
-##### `ResetIamCredentialsCustomEndpoint` <a name="ResetIamCredentialsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetIamCredentialsCustomEndpoint"></a>
+##### `ResetIamCredentialsCustomEndpoint` <a name="ResetIamCredentialsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetIamCredentialsCustomEndpoint"></a>
 
 ```go
 func ResetIamCredentialsCustomEndpoint()
 ```
 
-##### `ResetIamCustomEndpoint` <a name="ResetIamCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetIamCustomEndpoint"></a>
+##### `ResetIamCustomEndpoint` <a name="ResetIamCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetIamCustomEndpoint"></a>
 
 ```go
 func ResetIamCustomEndpoint()
 ```
 
-##### `ResetIamWorkforcePoolCustomEndpoint` <a name="ResetIamWorkforcePoolCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetIamWorkforcePoolCustomEndpoint"></a>
+##### `ResetIamWorkforcePoolCustomEndpoint` <a name="ResetIamWorkforcePoolCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetIamWorkforcePoolCustomEndpoint"></a>
 
 ```go
 func ResetIamWorkforcePoolCustomEndpoint()
 ```
 
-##### `ResetIapCustomEndpoint` <a name="ResetIapCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetIapCustomEndpoint"></a>
+##### `ResetIapCustomEndpoint` <a name="ResetIapCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetIapCustomEndpoint"></a>
 
 ```go
 func ResetIapCustomEndpoint()
 ```
 
-##### `ResetIdentityPlatformCustomEndpoint` <a name="ResetIdentityPlatformCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetIdentityPlatformCustomEndpoint"></a>
+##### `ResetIdentityPlatformCustomEndpoint` <a name="ResetIdentityPlatformCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetIdentityPlatformCustomEndpoint"></a>
 
 ```go
 func ResetIdentityPlatformCustomEndpoint()
 ```
 
-##### `ResetImpersonateServiceAccount` <a name="ResetImpersonateServiceAccount" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetImpersonateServiceAccount"></a>
+##### `ResetImpersonateServiceAccount` <a name="ResetImpersonateServiceAccount" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetImpersonateServiceAccount"></a>
 
 ```go
 func ResetImpersonateServiceAccount()
 ```
 
-##### `ResetImpersonateServiceAccountDelegates` <a name="ResetImpersonateServiceAccountDelegates" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetImpersonateServiceAccountDelegates"></a>
+##### `ResetImpersonateServiceAccountDelegates` <a name="ResetImpersonateServiceAccountDelegates" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetImpersonateServiceAccountDelegates"></a>
 
 ```go
 func ResetImpersonateServiceAccountDelegates()
 ```
 
-##### `ResetIntegrationConnectorsCustomEndpoint` <a name="ResetIntegrationConnectorsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetIntegrationConnectorsCustomEndpoint"></a>
+##### `ResetIntegrationConnectorsCustomEndpoint` <a name="ResetIntegrationConnectorsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetIntegrationConnectorsCustomEndpoint"></a>
 
 ```go
 func ResetIntegrationConnectorsCustomEndpoint()
 ```
 
-##### `ResetIntegrationsCustomEndpoint` <a name="ResetIntegrationsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetIntegrationsCustomEndpoint"></a>
+##### `ResetIntegrationsCustomEndpoint` <a name="ResetIntegrationsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetIntegrationsCustomEndpoint"></a>
 
 ```go
 func ResetIntegrationsCustomEndpoint()
 ```
 
-##### `ResetKmsCustomEndpoint` <a name="ResetKmsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetKmsCustomEndpoint"></a>
+##### `ResetKmsCustomEndpoint` <a name="ResetKmsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetKmsCustomEndpoint"></a>
 
 ```go
 func ResetKmsCustomEndpoint()
 ```
 
-##### `ResetLoggingCustomEndpoint` <a name="ResetLoggingCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetLoggingCustomEndpoint"></a>
+##### `ResetLoggingCustomEndpoint` <a name="ResetLoggingCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetLoggingCustomEndpoint"></a>
 
 ```go
 func ResetLoggingCustomEndpoint()
 ```
 
-##### `ResetLookerCustomEndpoint` <a name="ResetLookerCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetLookerCustomEndpoint"></a>
+##### `ResetLookerCustomEndpoint` <a name="ResetLookerCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetLookerCustomEndpoint"></a>
 
 ```go
 func ResetLookerCustomEndpoint()
 ```
 
-##### `ResetLustreCustomEndpoint` <a name="ResetLustreCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetLustreCustomEndpoint"></a>
+##### `ResetLustreCustomEndpoint` <a name="ResetLustreCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetLustreCustomEndpoint"></a>
 
 ```go
 func ResetLustreCustomEndpoint()
 ```
 
-##### `ResetManagedKafkaCustomEndpoint` <a name="ResetManagedKafkaCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetManagedKafkaCustomEndpoint"></a>
+##### `ResetManagedKafkaCustomEndpoint` <a name="ResetManagedKafkaCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetManagedKafkaCustomEndpoint"></a>
 
 ```go
 func ResetManagedKafkaCustomEndpoint()
 ```
 
-##### `ResetMemcacheCustomEndpoint` <a name="ResetMemcacheCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetMemcacheCustomEndpoint"></a>
+##### `ResetMemcacheCustomEndpoint` <a name="ResetMemcacheCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetMemcacheCustomEndpoint"></a>
 
 ```go
 func ResetMemcacheCustomEndpoint()
 ```
 
-##### `ResetMemorystoreCustomEndpoint` <a name="ResetMemorystoreCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetMemorystoreCustomEndpoint"></a>
+##### `ResetMemorystoreCustomEndpoint` <a name="ResetMemorystoreCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetMemorystoreCustomEndpoint"></a>
 
 ```go
 func ResetMemorystoreCustomEndpoint()
 ```
 
-##### `ResetMigrationCenterCustomEndpoint` <a name="ResetMigrationCenterCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetMigrationCenterCustomEndpoint"></a>
+##### `ResetMigrationCenterCustomEndpoint` <a name="ResetMigrationCenterCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetMigrationCenterCustomEndpoint"></a>
 
 ```go
 func ResetMigrationCenterCustomEndpoint()
 ```
 
-##### `ResetMlEngineCustomEndpoint` <a name="ResetMlEngineCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetMlEngineCustomEndpoint"></a>
+##### `ResetMlEngineCustomEndpoint` <a name="ResetMlEngineCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetMlEngineCustomEndpoint"></a>
 
 ```go
 func ResetMlEngineCustomEndpoint()
 ```
 
-##### `ResetModelArmorCustomEndpoint` <a name="ResetModelArmorCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetModelArmorCustomEndpoint"></a>
+##### `ResetModelArmorCustomEndpoint` <a name="ResetModelArmorCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetModelArmorCustomEndpoint"></a>
 
 ```go
 func ResetModelArmorCustomEndpoint()
 ```
 
-##### `ResetModelArmorGlobalCustomEndpoint` <a name="ResetModelArmorGlobalCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetModelArmorGlobalCustomEndpoint"></a>
+##### `ResetModelArmorGlobalCustomEndpoint` <a name="ResetModelArmorGlobalCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetModelArmorGlobalCustomEndpoint"></a>
 
 ```go
 func ResetModelArmorGlobalCustomEndpoint()
 ```
 
-##### `ResetMonitoringCustomEndpoint` <a name="ResetMonitoringCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetMonitoringCustomEndpoint"></a>
+##### `ResetMonitoringCustomEndpoint` <a name="ResetMonitoringCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetMonitoringCustomEndpoint"></a>
 
 ```go
 func ResetMonitoringCustomEndpoint()
 ```
 
-##### `ResetNetappCustomEndpoint` <a name="ResetNetappCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetNetappCustomEndpoint"></a>
+##### `ResetNetappCustomEndpoint` <a name="ResetNetappCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetNetappCustomEndpoint"></a>
 
 ```go
 func ResetNetappCustomEndpoint()
 ```
 
-##### `ResetNetworkConnectivityCustomEndpoint` <a name="ResetNetworkConnectivityCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetNetworkConnectivityCustomEndpoint"></a>
+##### `ResetNetworkConnectivityCustomEndpoint` <a name="ResetNetworkConnectivityCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetNetworkConnectivityCustomEndpoint"></a>
 
 ```go
 func ResetNetworkConnectivityCustomEndpoint()
 ```
 
-##### `ResetNetworkManagementCustomEndpoint` <a name="ResetNetworkManagementCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetNetworkManagementCustomEndpoint"></a>
+##### `ResetNetworkManagementCustomEndpoint` <a name="ResetNetworkManagementCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetNetworkManagementCustomEndpoint"></a>
 
 ```go
 func ResetNetworkManagementCustomEndpoint()
 ```
 
-##### `ResetNetworkSecurityCustomEndpoint` <a name="ResetNetworkSecurityCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetNetworkSecurityCustomEndpoint"></a>
+##### `ResetNetworkSecurityCustomEndpoint` <a name="ResetNetworkSecurityCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetNetworkSecurityCustomEndpoint"></a>
 
 ```go
 func ResetNetworkSecurityCustomEndpoint()
 ```
 
-##### `ResetNetworkServicesCustomEndpoint` <a name="ResetNetworkServicesCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetNetworkServicesCustomEndpoint"></a>
+##### `ResetNetworkServicesCustomEndpoint` <a name="ResetNetworkServicesCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetNetworkServicesCustomEndpoint"></a>
 
 ```go
 func ResetNetworkServicesCustomEndpoint()
 ```
 
-##### `ResetNotebooksCustomEndpoint` <a name="ResetNotebooksCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetNotebooksCustomEndpoint"></a>
+##### `ResetNotebooksCustomEndpoint` <a name="ResetNotebooksCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetNotebooksCustomEndpoint"></a>
 
 ```go
 func ResetNotebooksCustomEndpoint()
 ```
 
-##### `ResetOracleDatabaseCustomEndpoint` <a name="ResetOracleDatabaseCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetOracleDatabaseCustomEndpoint"></a>
+##### `ResetOracleDatabaseCustomEndpoint` <a name="ResetOracleDatabaseCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetOracleDatabaseCustomEndpoint"></a>
 
 ```go
 func ResetOracleDatabaseCustomEndpoint()
 ```
 
-##### `ResetOrgPolicyCustomEndpoint` <a name="ResetOrgPolicyCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetOrgPolicyCustomEndpoint"></a>
+##### `ResetOrgPolicyCustomEndpoint` <a name="ResetOrgPolicyCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetOrgPolicyCustomEndpoint"></a>
 
 ```go
 func ResetOrgPolicyCustomEndpoint()
 ```
 
-##### `ResetOsConfigCustomEndpoint` <a name="ResetOsConfigCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetOsConfigCustomEndpoint"></a>
+##### `ResetOsConfigCustomEndpoint` <a name="ResetOsConfigCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetOsConfigCustomEndpoint"></a>
 
 ```go
 func ResetOsConfigCustomEndpoint()
 ```
 
-##### `ResetOsConfigV2CustomEndpoint` <a name="ResetOsConfigV2CustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetOsConfigV2CustomEndpoint"></a>
+##### `ResetOsConfigV2CustomEndpoint` <a name="ResetOsConfigV2CustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetOsConfigV2CustomEndpoint"></a>
 
 ```go
 func ResetOsConfigV2CustomEndpoint()
 ```
 
-##### `ResetOsLoginCustomEndpoint` <a name="ResetOsLoginCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetOsLoginCustomEndpoint"></a>
+##### `ResetOsLoginCustomEndpoint` <a name="ResetOsLoginCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetOsLoginCustomEndpoint"></a>
 
 ```go
 func ResetOsLoginCustomEndpoint()
 ```
 
-##### `ResetParallelstoreCustomEndpoint` <a name="ResetParallelstoreCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetParallelstoreCustomEndpoint"></a>
+##### `ResetParallelstoreCustomEndpoint` <a name="ResetParallelstoreCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetParallelstoreCustomEndpoint"></a>
 
 ```go
 func ResetParallelstoreCustomEndpoint()
 ```
 
-##### `ResetParameterManagerCustomEndpoint` <a name="ResetParameterManagerCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetParameterManagerCustomEndpoint"></a>
+##### `ResetParameterManagerCustomEndpoint` <a name="ResetParameterManagerCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetParameterManagerCustomEndpoint"></a>
 
 ```go
 func ResetParameterManagerCustomEndpoint()
 ```
 
-##### `ResetParameterManagerRegionalCustomEndpoint` <a name="ResetParameterManagerRegionalCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetParameterManagerRegionalCustomEndpoint"></a>
+##### `ResetParameterManagerRegionalCustomEndpoint` <a name="ResetParameterManagerRegionalCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetParameterManagerRegionalCustomEndpoint"></a>
 
 ```go
 func ResetParameterManagerRegionalCustomEndpoint()
 ```
 
-##### `ResetPrivatecaCustomEndpoint` <a name="ResetPrivatecaCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetPrivatecaCustomEndpoint"></a>
+##### `ResetPrivatecaCustomEndpoint` <a name="ResetPrivatecaCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetPrivatecaCustomEndpoint"></a>
 
 ```go
 func ResetPrivatecaCustomEndpoint()
 ```
 
-##### `ResetPrivilegedAccessManagerCustomEndpoint` <a name="ResetPrivilegedAccessManagerCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetPrivilegedAccessManagerCustomEndpoint"></a>
+##### `ResetPrivilegedAccessManagerCustomEndpoint` <a name="ResetPrivilegedAccessManagerCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetPrivilegedAccessManagerCustomEndpoint"></a>
 
 ```go
 func ResetPrivilegedAccessManagerCustomEndpoint()
 ```
 
-##### `ResetProject` <a name="ResetProject" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetProject"></a>
+##### `ResetProject` <a name="ResetProject" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetProject"></a>
 
 ```go
 func ResetProject()
 ```
 
-##### `ResetPublicCaCustomEndpoint` <a name="ResetPublicCaCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetPublicCaCustomEndpoint"></a>
+##### `ResetPublicCaCustomEndpoint` <a name="ResetPublicCaCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetPublicCaCustomEndpoint"></a>
 
 ```go
 func ResetPublicCaCustomEndpoint()
 ```
 
-##### `ResetPubsubCustomEndpoint` <a name="ResetPubsubCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetPubsubCustomEndpoint"></a>
+##### `ResetPubsubCustomEndpoint` <a name="ResetPubsubCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetPubsubCustomEndpoint"></a>
 
 ```go
 func ResetPubsubCustomEndpoint()
 ```
 
-##### `ResetPubsubLiteCustomEndpoint` <a name="ResetPubsubLiteCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetPubsubLiteCustomEndpoint"></a>
+##### `ResetPubsubLiteCustomEndpoint` <a name="ResetPubsubLiteCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetPubsubLiteCustomEndpoint"></a>
 
 ```go
 func ResetPubsubLiteCustomEndpoint()
 ```
 
-##### `ResetRecaptchaEnterpriseCustomEndpoint` <a name="ResetRecaptchaEnterpriseCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetRecaptchaEnterpriseCustomEndpoint"></a>
+##### `ResetRecaptchaEnterpriseCustomEndpoint` <a name="ResetRecaptchaEnterpriseCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetRecaptchaEnterpriseCustomEndpoint"></a>
 
 ```go
 func ResetRecaptchaEnterpriseCustomEndpoint()
 ```
 
-##### `ResetRedisCustomEndpoint` <a name="ResetRedisCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetRedisCustomEndpoint"></a>
+##### `ResetRedisCustomEndpoint` <a name="ResetRedisCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetRedisCustomEndpoint"></a>
 
 ```go
 func ResetRedisCustomEndpoint()
 ```
 
-##### `ResetRegion` <a name="ResetRegion" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetRegion"></a>
+##### `ResetRegion` <a name="ResetRegion" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetRegion"></a>
 
 ```go
 func ResetRegion()
 ```
 
-##### `ResetRequestReason` <a name="ResetRequestReason" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetRequestReason"></a>
+##### `ResetRequestReason` <a name="ResetRequestReason" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetRequestReason"></a>
 
 ```go
 func ResetRequestReason()
 ```
 
-##### `ResetRequestTimeout` <a name="ResetRequestTimeout" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetRequestTimeout"></a>
+##### `ResetRequestTimeout` <a name="ResetRequestTimeout" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetRequestTimeout"></a>
 
 ```go
 func ResetRequestTimeout()
 ```
 
-##### `ResetResourceManager3CustomEndpoint` <a name="ResetResourceManager3CustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetResourceManager3CustomEndpoint"></a>
+##### `ResetResourceManager3CustomEndpoint` <a name="ResetResourceManager3CustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetResourceManager3CustomEndpoint"></a>
 
 ```go
 func ResetResourceManager3CustomEndpoint()
 ```
 
-##### `ResetResourceManagerCustomEndpoint` <a name="ResetResourceManagerCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetResourceManagerCustomEndpoint"></a>
+##### `ResetResourceManagerCustomEndpoint` <a name="ResetResourceManagerCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetResourceManagerCustomEndpoint"></a>
 
 ```go
 func ResetResourceManagerCustomEndpoint()
 ```
 
-##### `ResetResourceManagerV3CustomEndpoint` <a name="ResetResourceManagerV3CustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetResourceManagerV3CustomEndpoint"></a>
+##### `ResetResourceManagerV3CustomEndpoint` <a name="ResetResourceManagerV3CustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetResourceManagerV3CustomEndpoint"></a>
 
 ```go
 func ResetResourceManagerV3CustomEndpoint()
 ```
 
-##### `ResetRuntimeconfigCustomEndpoint` <a name="ResetRuntimeconfigCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetRuntimeconfigCustomEndpoint"></a>
+##### `ResetRuntimeconfigCustomEndpoint` <a name="ResetRuntimeconfigCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetRuntimeconfigCustomEndpoint"></a>
 
 ```go
 func ResetRuntimeconfigCustomEndpoint()
 ```
 
-##### `ResetRuntimeConfigCustomEndpoint` <a name="ResetRuntimeConfigCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetRuntimeConfigCustomEndpoint"></a>
+##### `ResetRuntimeConfigCustomEndpoint` <a name="ResetRuntimeConfigCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetRuntimeConfigCustomEndpoint"></a>
 
 ```go
 func ResetRuntimeConfigCustomEndpoint()
 ```
 
-##### `ResetScopes` <a name="ResetScopes" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetScopes"></a>
+##### `ResetScopes` <a name="ResetScopes" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetScopes"></a>
 
 ```go
 func ResetScopes()
 ```
 
-##### `ResetSecretManagerCustomEndpoint` <a name="ResetSecretManagerCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetSecretManagerCustomEndpoint"></a>
+##### `ResetSecretManagerCustomEndpoint` <a name="ResetSecretManagerCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetSecretManagerCustomEndpoint"></a>
 
 ```go
 func ResetSecretManagerCustomEndpoint()
 ```
 
-##### `ResetSecretManagerRegionalCustomEndpoint` <a name="ResetSecretManagerRegionalCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetSecretManagerRegionalCustomEndpoint"></a>
+##### `ResetSecretManagerRegionalCustomEndpoint` <a name="ResetSecretManagerRegionalCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetSecretManagerRegionalCustomEndpoint"></a>
 
 ```go
 func ResetSecretManagerRegionalCustomEndpoint()
 ```
 
-##### `ResetSecureSourceManagerCustomEndpoint` <a name="ResetSecureSourceManagerCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetSecureSourceManagerCustomEndpoint"></a>
+##### `ResetSecureSourceManagerCustomEndpoint` <a name="ResetSecureSourceManagerCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetSecureSourceManagerCustomEndpoint"></a>
 
 ```go
 func ResetSecureSourceManagerCustomEndpoint()
 ```
 
-##### `ResetSecurityCenterCustomEndpoint` <a name="ResetSecurityCenterCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetSecurityCenterCustomEndpoint"></a>
+##### `ResetSecurityCenterCustomEndpoint` <a name="ResetSecurityCenterCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetSecurityCenterCustomEndpoint"></a>
 
 ```go
 func ResetSecurityCenterCustomEndpoint()
 ```
 
-##### `ResetSecurityCenterManagementCustomEndpoint` <a name="ResetSecurityCenterManagementCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetSecurityCenterManagementCustomEndpoint"></a>
+##### `ResetSecurityCenterManagementCustomEndpoint` <a name="ResetSecurityCenterManagementCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetSecurityCenterManagementCustomEndpoint"></a>
 
 ```go
 func ResetSecurityCenterManagementCustomEndpoint()
 ```
 
-##### `ResetSecurityCenterV2CustomEndpoint` <a name="ResetSecurityCenterV2CustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetSecurityCenterV2CustomEndpoint"></a>
+##### `ResetSecurityCenterV2CustomEndpoint` <a name="ResetSecurityCenterV2CustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetSecurityCenterV2CustomEndpoint"></a>
 
 ```go
 func ResetSecurityCenterV2CustomEndpoint()
 ```
 
-##### `ResetSecuritypostureCustomEndpoint` <a name="ResetSecuritypostureCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetSecuritypostureCustomEndpoint"></a>
+##### `ResetSecuritypostureCustomEndpoint` <a name="ResetSecuritypostureCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetSecuritypostureCustomEndpoint"></a>
 
 ```go
 func ResetSecuritypostureCustomEndpoint()
 ```
 
-##### `ResetSecurityScannerCustomEndpoint` <a name="ResetSecurityScannerCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetSecurityScannerCustomEndpoint"></a>
+##### `ResetSecurityScannerCustomEndpoint` <a name="ResetSecurityScannerCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetSecurityScannerCustomEndpoint"></a>
 
 ```go
 func ResetSecurityScannerCustomEndpoint()
 ```
 
-##### `ResetServiceDirectoryCustomEndpoint` <a name="ResetServiceDirectoryCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetServiceDirectoryCustomEndpoint"></a>
+##### `ResetServiceDirectoryCustomEndpoint` <a name="ResetServiceDirectoryCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetServiceDirectoryCustomEndpoint"></a>
 
 ```go
 func ResetServiceDirectoryCustomEndpoint()
 ```
 
-##### `ResetServiceManagementCustomEndpoint` <a name="ResetServiceManagementCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetServiceManagementCustomEndpoint"></a>
+##### `ResetServiceManagementCustomEndpoint` <a name="ResetServiceManagementCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetServiceManagementCustomEndpoint"></a>
 
 ```go
 func ResetServiceManagementCustomEndpoint()
 ```
 
-##### `ResetServiceNetworkingCustomEndpoint` <a name="ResetServiceNetworkingCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetServiceNetworkingCustomEndpoint"></a>
+##### `ResetServiceNetworkingCustomEndpoint` <a name="ResetServiceNetworkingCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetServiceNetworkingCustomEndpoint"></a>
 
 ```go
 func ResetServiceNetworkingCustomEndpoint()
 ```
 
-##### `ResetServiceUsageCustomEndpoint` <a name="ResetServiceUsageCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetServiceUsageCustomEndpoint"></a>
+##### `ResetServiceUsageCustomEndpoint` <a name="ResetServiceUsageCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetServiceUsageCustomEndpoint"></a>
 
 ```go
 func ResetServiceUsageCustomEndpoint()
 ```
 
-##### `ResetSiteVerificationCustomEndpoint` <a name="ResetSiteVerificationCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetSiteVerificationCustomEndpoint"></a>
+##### `ResetSiteVerificationCustomEndpoint` <a name="ResetSiteVerificationCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetSiteVerificationCustomEndpoint"></a>
 
 ```go
 func ResetSiteVerificationCustomEndpoint()
 ```
 
-##### `ResetSourceRepoCustomEndpoint` <a name="ResetSourceRepoCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetSourceRepoCustomEndpoint"></a>
+##### `ResetSourceRepoCustomEndpoint` <a name="ResetSourceRepoCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetSourceRepoCustomEndpoint"></a>
 
 ```go
 func ResetSourceRepoCustomEndpoint()
 ```
 
-##### `ResetSpannerCustomEndpoint` <a name="ResetSpannerCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetSpannerCustomEndpoint"></a>
+##### `ResetSpannerCustomEndpoint` <a name="ResetSpannerCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetSpannerCustomEndpoint"></a>
 
 ```go
 func ResetSpannerCustomEndpoint()
 ```
 
-##### `ResetSqlCustomEndpoint` <a name="ResetSqlCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetSqlCustomEndpoint"></a>
+##### `ResetSqlCustomEndpoint` <a name="ResetSqlCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetSqlCustomEndpoint"></a>
 
 ```go
 func ResetSqlCustomEndpoint()
 ```
 
-##### `ResetStorageBatchOperationsCustomEndpoint` <a name="ResetStorageBatchOperationsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetStorageBatchOperationsCustomEndpoint"></a>
+##### `ResetStorageBatchOperationsCustomEndpoint` <a name="ResetStorageBatchOperationsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetStorageBatchOperationsCustomEndpoint"></a>
 
 ```go
 func ResetStorageBatchOperationsCustomEndpoint()
 ```
 
-##### `ResetStorageControlCustomEndpoint` <a name="ResetStorageControlCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetStorageControlCustomEndpoint"></a>
+##### `ResetStorageControlCustomEndpoint` <a name="ResetStorageControlCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetStorageControlCustomEndpoint"></a>
 
 ```go
 func ResetStorageControlCustomEndpoint()
 ```
 
-##### `ResetStorageCustomEndpoint` <a name="ResetStorageCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetStorageCustomEndpoint"></a>
+##### `ResetStorageCustomEndpoint` <a name="ResetStorageCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetStorageCustomEndpoint"></a>
 
 ```go
 func ResetStorageCustomEndpoint()
 ```
 
-##### `ResetStorageInsightsCustomEndpoint` <a name="ResetStorageInsightsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetStorageInsightsCustomEndpoint"></a>
+##### `ResetStorageInsightsCustomEndpoint` <a name="ResetStorageInsightsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetStorageInsightsCustomEndpoint"></a>
 
 ```go
 func ResetStorageInsightsCustomEndpoint()
 ```
 
-##### `ResetStorageTransferCustomEndpoint` <a name="ResetStorageTransferCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetStorageTransferCustomEndpoint"></a>
+##### `ResetStorageTransferCustomEndpoint` <a name="ResetStorageTransferCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetStorageTransferCustomEndpoint"></a>
 
 ```go
 func ResetStorageTransferCustomEndpoint()
 ```
 
-##### `ResetTagsCustomEndpoint` <a name="ResetTagsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetTagsCustomEndpoint"></a>
+##### `ResetTagsCustomEndpoint` <a name="ResetTagsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetTagsCustomEndpoint"></a>
 
 ```go
 func ResetTagsCustomEndpoint()
 ```
 
-##### `ResetTagsLocationCustomEndpoint` <a name="ResetTagsLocationCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetTagsLocationCustomEndpoint"></a>
+##### `ResetTagsLocationCustomEndpoint` <a name="ResetTagsLocationCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetTagsLocationCustomEndpoint"></a>
 
 ```go
 func ResetTagsLocationCustomEndpoint()
 ```
 
-##### `ResetTerraformAttributionLabelAdditionStrategy` <a name="ResetTerraformAttributionLabelAdditionStrategy" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetTerraformAttributionLabelAdditionStrategy"></a>
+##### `ResetTerraformAttributionLabelAdditionStrategy` <a name="ResetTerraformAttributionLabelAdditionStrategy" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetTerraformAttributionLabelAdditionStrategy"></a>
 
 ```go
 func ResetTerraformAttributionLabelAdditionStrategy()
 ```
 
-##### `ResetTpuCustomEndpoint` <a name="ResetTpuCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetTpuCustomEndpoint"></a>
+##### `ResetTpuCustomEndpoint` <a name="ResetTpuCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetTpuCustomEndpoint"></a>
 
 ```go
 func ResetTpuCustomEndpoint()
 ```
 
-##### `ResetTpuV2CustomEndpoint` <a name="ResetTpuV2CustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetTpuV2CustomEndpoint"></a>
+##### `ResetTpuV2CustomEndpoint` <a name="ResetTpuV2CustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetTpuV2CustomEndpoint"></a>
 
 ```go
 func ResetTpuV2CustomEndpoint()
 ```
 
-##### `ResetTranscoderCustomEndpoint` <a name="ResetTranscoderCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetTranscoderCustomEndpoint"></a>
+##### `ResetTranscoderCustomEndpoint` <a name="ResetTranscoderCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetTranscoderCustomEndpoint"></a>
 
 ```go
 func ResetTranscoderCustomEndpoint()
 ```
 
-##### `ResetUniverseDomain` <a name="ResetUniverseDomain" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetUniverseDomain"></a>
+##### `ResetUniverseDomain` <a name="ResetUniverseDomain" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetUniverseDomain"></a>
 
 ```go
 func ResetUniverseDomain()
 ```
 
-##### `ResetUserProjectOverride` <a name="ResetUserProjectOverride" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetUserProjectOverride"></a>
+##### `ResetUserProjectOverride` <a name="ResetUserProjectOverride" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetUserProjectOverride"></a>
 
 ```go
 func ResetUserProjectOverride()
 ```
 
-##### `ResetVertexAiCustomEndpoint` <a name="ResetVertexAiCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetVertexAiCustomEndpoint"></a>
+##### `ResetVertexAiCustomEndpoint` <a name="ResetVertexAiCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetVertexAiCustomEndpoint"></a>
 
 ```go
 func ResetVertexAiCustomEndpoint()
 ```
 
-##### `ResetVmwareengineCustomEndpoint` <a name="ResetVmwareengineCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetVmwareengineCustomEndpoint"></a>
+##### `ResetVmwareengineCustomEndpoint` <a name="ResetVmwareengineCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetVmwareengineCustomEndpoint"></a>
 
 ```go
 func ResetVmwareengineCustomEndpoint()
 ```
 
-##### `ResetVpcAccessCustomEndpoint` <a name="ResetVpcAccessCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetVpcAccessCustomEndpoint"></a>
+##### `ResetVpcAccessCustomEndpoint` <a name="ResetVpcAccessCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetVpcAccessCustomEndpoint"></a>
 
 ```go
 func ResetVpcAccessCustomEndpoint()
 ```
 
-##### `ResetWorkbenchCustomEndpoint` <a name="ResetWorkbenchCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetWorkbenchCustomEndpoint"></a>
+##### `ResetWorkbenchCustomEndpoint` <a name="ResetWorkbenchCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetWorkbenchCustomEndpoint"></a>
 
 ```go
 func ResetWorkbenchCustomEndpoint()
 ```
 
-##### `ResetWorkflowsCustomEndpoint` <a name="ResetWorkflowsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetWorkflowsCustomEndpoint"></a>
+##### `ResetWorkflowsCustomEndpoint` <a name="ResetWorkflowsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetWorkflowsCustomEndpoint"></a>
 
 ```go
 func ResetWorkflowsCustomEndpoint()
 ```
 
-##### `ResetWorkstationsCustomEndpoint` <a name="ResetWorkstationsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetWorkstationsCustomEndpoint"></a>
+##### `ResetWorkstationsCustomEndpoint` <a name="ResetWorkstationsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetWorkstationsCustomEndpoint"></a>
 
 ```go
 func ResetWorkstationsCustomEndpoint()
 ```
 
-##### `ResetZone` <a name="ResetZone" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.resetZone"></a>
+##### `ResetZone` <a name="ResetZone" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.resetZone"></a>
 
 ```go
 func ResetZone()
@@ -1485,17 +1485,17 @@ func ResetZone()
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.isConstruct">IsConstruct</a></code> | Checks if `x` is a construct. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.isTerraformElement">IsTerraformElement</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.isTerraformProvider">IsTerraformProvider</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.generateConfigForImport">GenerateConfigForImport</a></code> | Generates CDKTF code for importing a GoogleBetaProvider resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.isConstruct">IsConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.isTerraformElement">IsTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.isTerraformProvider">IsTerraformProvider</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.generateConfigForImport">GenerateConfigForImport</a></code> | Generates CDKTF code for importing a GoogleBetaProvider resource upon running "cdktf plan <stack-name>". |
 
 ---
 
-##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.isConstruct"></a>
+##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/provider"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/provider"
 
 provider.GoogleBetaProvider_IsConstruct(x interface{}) *bool
 ```
@@ -1516,7 +1516,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.isConstruct.parameter.x"></a>
 
 - *Type:* interface{}
 
@@ -1524,45 +1524,45 @@ Any object.
 
 ---
 
-##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.isTerraformElement"></a>
+##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/provider"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/provider"
 
 provider.GoogleBetaProvider_IsTerraformElement(x interface{}) *bool
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.isTerraformElement.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.isTerraformElement.parameter.x"></a>
 
 - *Type:* interface{}
 
 ---
 
-##### `IsTerraformProvider` <a name="IsTerraformProvider" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.isTerraformProvider"></a>
+##### `IsTerraformProvider` <a name="IsTerraformProvider" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.isTerraformProvider"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/provider"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/provider"
 
 provider.GoogleBetaProvider_IsTerraformProvider(x interface{}) *bool
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.isTerraformProvider.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.isTerraformProvider.parameter.x"></a>
 
 - *Type:* interface{}
 
 ---
 
-##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.generateConfigForImport"></a>
+##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/provider"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/provider"
 
 provider.GoogleBetaProvider_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
 
 Generates CDKTF code for importing a GoogleBetaProvider resource upon running "cdktf plan <stack-name>".
 
-###### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.generateConfigForImport.parameter.scope"></a>
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.generateConfigForImport.parameter.scope"></a>
 
 - *Type:* github.com/aws/constructs-go/constructs/v10.Construct
 
@@ -1570,7 +1570,7 @@ The scope in which to define this construct.
 
 ---
 
-###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.generateConfigForImport.parameter.importToId"></a>
+###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.generateConfigForImport.parameter.importToId"></a>
 
 - *Type:* *string
 
@@ -1578,7 +1578,7 @@ The construct id used in the generated config for the GoogleBetaProvider to impo
 
 ---
 
-###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.generateConfigForImport.parameter.importFromId"></a>
+###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.generateConfigForImport.parameter.importFromId"></a>
 
 - *Type:* *string
 
@@ -1588,7 +1588,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.generateConfigForImport.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.generateConfigForImport.parameter.provider"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider
 
@@ -1600,404 +1600,404 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.node">Node</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Node</code> | The tree node. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cdktfStack">CdktfStack</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformStack</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.friendlyUniqueId">FriendlyUniqueId</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.metaAttributes">MetaAttributes</a></code> | <code>*map[string]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.terraformResourceType">TerraformResourceType</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.terraformProviderSource">TerraformProviderSource</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.alias">Alias</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.accessApprovalCustomEndpointInput">AccessApprovalCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.accessContextManagerCustomEndpointInput">AccessContextManagerCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.accessTokenInput">AccessTokenInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.activeDirectoryCustomEndpointInput">ActiveDirectoryCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.addTerraformAttributionLabelInput">AddTerraformAttributionLabelInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.aliasInput">AliasInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.alloydbCustomEndpointInput">AlloydbCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.apiGatewayCustomEndpointInput">ApiGatewayCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.apigeeCustomEndpointInput">ApigeeCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.apihubCustomEndpointInput">ApihubCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.apikeysCustomEndpointInput">ApikeysCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.appEngineCustomEndpointInput">AppEngineCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.apphubCustomEndpointInput">ApphubCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.artifactRegistryCustomEndpointInput">ArtifactRegistryCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.assuredWorkloadsCustomEndpointInput">AssuredWorkloadsCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.backupDrCustomEndpointInput">BackupDrCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.batchingInput">BatchingInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.beyondcorpCustomEndpointInput">BeyondcorpCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.biglakeCustomEndpointInput">BiglakeCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.bigqueryAnalyticsHubCustomEndpointInput">BigqueryAnalyticsHubCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.bigqueryConnectionCustomEndpointInput">BigqueryConnectionCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.bigQueryCustomEndpointInput">BigQueryCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.bigqueryDatapolicyCustomEndpointInput">BigqueryDatapolicyCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.bigqueryDataTransferCustomEndpointInput">BigqueryDataTransferCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.bigqueryReservationCustomEndpointInput">BigqueryReservationCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.bigtableCustomEndpointInput">BigtableCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.billingCustomEndpointInput">BillingCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.billingProjectInput">BillingProjectInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.binaryAuthorizationCustomEndpointInput">BinaryAuthorizationCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.blockchainNodeEngineCustomEndpointInput">BlockchainNodeEngineCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.certificateManagerCustomEndpointInput">CertificateManagerCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.chronicleCustomEndpointInput">ChronicleCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudAssetCustomEndpointInput">CloudAssetCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudBillingCustomEndpointInput">CloudBillingCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudBuildCustomEndpointInput">CloudBuildCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudbuildv2CustomEndpointInput">Cloudbuildv2CustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.clouddeployCustomEndpointInput">ClouddeployCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.clouddomainsCustomEndpointInput">ClouddomainsCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudfunctions2CustomEndpointInput">Cloudfunctions2CustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudFunctionsCustomEndpointInput">CloudFunctionsCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudIdentityCustomEndpointInput">CloudIdentityCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudIdsCustomEndpointInput">CloudIdsCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudQuotasCustomEndpointInput">CloudQuotasCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudResourceManagerCustomEndpointInput">CloudResourceManagerCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudRunCustomEndpointInput">CloudRunCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudRunV2CustomEndpointInput">CloudRunV2CustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudSchedulerCustomEndpointInput">CloudSchedulerCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudTasksCustomEndpointInput">CloudTasksCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.colabCustomEndpointInput">ColabCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.composerCustomEndpointInput">ComposerCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.computeCustomEndpointInput">ComputeCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.contactCenterInsightsCustomEndpointInput">ContactCenterInsightsCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.containerAnalysisCustomEndpointInput">ContainerAnalysisCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.containerAttachedCustomEndpointInput">ContainerAttachedCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.containerAwsCustomEndpointInput">ContainerAwsCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.containerAzureCustomEndpointInput">ContainerAzureCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.containerCustomEndpointInput">ContainerCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.coreBillingCustomEndpointInput">CoreBillingCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.credentialsInput">CredentialsInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.databaseMigrationServiceCustomEndpointInput">DatabaseMigrationServiceCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dataCatalogCustomEndpointInput">DataCatalogCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dataflowCustomEndpointInput">DataflowCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dataformCustomEndpointInput">DataformCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dataFusionCustomEndpointInput">DataFusionCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dataLossPreventionCustomEndpointInput">DataLossPreventionCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dataPipelineCustomEndpointInput">DataPipelineCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dataplexCustomEndpointInput">DataplexCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dataprocCustomEndpointInput">DataprocCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dataprocGdcCustomEndpointInput">DataprocGdcCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dataprocMetastoreCustomEndpointInput">DataprocMetastoreCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.datastreamCustomEndpointInput">DatastreamCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.defaultLabelsInput">DefaultLabelsInput</a></code> | <code>*map[string]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.deploymentManagerCustomEndpointInput">DeploymentManagerCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.developerConnectCustomEndpointInput">DeveloperConnectCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dialogflowCustomEndpointInput">DialogflowCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dialogflowCxCustomEndpointInput">DialogflowCxCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.discoveryEngineCustomEndpointInput">DiscoveryEngineCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dnsCustomEndpointInput">DnsCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.documentAiCustomEndpointInput">DocumentAiCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.documentAiWarehouseCustomEndpointInput">DocumentAiWarehouseCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.edgecontainerCustomEndpointInput">EdgecontainerCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.edgenetworkCustomEndpointInput">EdgenetworkCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.essentialContactsCustomEndpointInput">EssentialContactsCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.eventarcCustomEndpointInput">EventarcCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.externalCredentialsInput">ExternalCredentialsInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.filestoreCustomEndpointInput">FilestoreCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.firebaseAppCheckCustomEndpointInput">FirebaseAppCheckCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.firebaseAppHostingCustomEndpointInput">FirebaseAppHostingCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.firebaseCustomEndpointInput">FirebaseCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.firebaseDatabaseCustomEndpointInput">FirebaseDatabaseCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.firebaseDataConnectCustomEndpointInput">FirebaseDataConnectCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.firebaseExtensionsCustomEndpointInput">FirebaseExtensionsCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.firebaseHostingCustomEndpointInput">FirebaseHostingCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.firebaserulesCustomEndpointInput">FirebaserulesCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.firebaseStorageCustomEndpointInput">FirebaseStorageCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.firestoreCustomEndpointInput">FirestoreCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.geminiCustomEndpointInput">GeminiCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.gkeBackupCustomEndpointInput">GkeBackupCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.gkeHub2CustomEndpointInput">GkeHub2CustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.gkeHubCustomEndpointInput">GkeHubCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.gkeonpremCustomEndpointInput">GkeonpremCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.healthcareCustomEndpointInput">HealthcareCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.iam2CustomEndpointInput">Iam2CustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.iam3CustomEndpointInput">Iam3CustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.iamBetaCustomEndpointInput">IamBetaCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.iamCredentialsCustomEndpointInput">IamCredentialsCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.iamCustomEndpointInput">IamCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.iamWorkforcePoolCustomEndpointInput">IamWorkforcePoolCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.iapCustomEndpointInput">IapCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.identityPlatformCustomEndpointInput">IdentityPlatformCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.impersonateServiceAccountDelegatesInput">ImpersonateServiceAccountDelegatesInput</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.impersonateServiceAccountInput">ImpersonateServiceAccountInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.integrationConnectorsCustomEndpointInput">IntegrationConnectorsCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.integrationsCustomEndpointInput">IntegrationsCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.kmsCustomEndpointInput">KmsCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.loggingCustomEndpointInput">LoggingCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.lookerCustomEndpointInput">LookerCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.lustreCustomEndpointInput">LustreCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.managedKafkaCustomEndpointInput">ManagedKafkaCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.memcacheCustomEndpointInput">MemcacheCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.memorystoreCustomEndpointInput">MemorystoreCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.migrationCenterCustomEndpointInput">MigrationCenterCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.mlEngineCustomEndpointInput">MlEngineCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.modelArmorCustomEndpointInput">ModelArmorCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.modelArmorGlobalCustomEndpointInput">ModelArmorGlobalCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.monitoringCustomEndpointInput">MonitoringCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.netappCustomEndpointInput">NetappCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.networkConnectivityCustomEndpointInput">NetworkConnectivityCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.networkManagementCustomEndpointInput">NetworkManagementCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.networkSecurityCustomEndpointInput">NetworkSecurityCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.networkServicesCustomEndpointInput">NetworkServicesCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.notebooksCustomEndpointInput">NotebooksCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.oracleDatabaseCustomEndpointInput">OracleDatabaseCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.orgPolicyCustomEndpointInput">OrgPolicyCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.osConfigCustomEndpointInput">OsConfigCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.osConfigV2CustomEndpointInput">OsConfigV2CustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.osLoginCustomEndpointInput">OsLoginCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.parallelstoreCustomEndpointInput">ParallelstoreCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.parameterManagerCustomEndpointInput">ParameterManagerCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.parameterManagerRegionalCustomEndpointInput">ParameterManagerRegionalCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.privatecaCustomEndpointInput">PrivatecaCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.privilegedAccessManagerCustomEndpointInput">PrivilegedAccessManagerCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.projectInput">ProjectInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.publicCaCustomEndpointInput">PublicCaCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.pubsubCustomEndpointInput">PubsubCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.pubsubLiteCustomEndpointInput">PubsubLiteCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.recaptchaEnterpriseCustomEndpointInput">RecaptchaEnterpriseCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.redisCustomEndpointInput">RedisCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.regionInput">RegionInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.requestReasonInput">RequestReasonInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.requestTimeoutInput">RequestTimeoutInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.resourceManager3CustomEndpointInput">ResourceManager3CustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.resourceManagerCustomEndpointInput">ResourceManagerCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.resourceManagerV3CustomEndpointInput">ResourceManagerV3CustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.runtimeconfigCustomEndpointInput">RuntimeconfigCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.runtimeConfigCustomEndpointInput">RuntimeConfigCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.scopesInput">ScopesInput</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.secretManagerCustomEndpointInput">SecretManagerCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.secretManagerRegionalCustomEndpointInput">SecretManagerRegionalCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.secureSourceManagerCustomEndpointInput">SecureSourceManagerCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.securityCenterCustomEndpointInput">SecurityCenterCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.securityCenterManagementCustomEndpointInput">SecurityCenterManagementCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.securityCenterV2CustomEndpointInput">SecurityCenterV2CustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.securitypostureCustomEndpointInput">SecuritypostureCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.securityScannerCustomEndpointInput">SecurityScannerCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.serviceDirectoryCustomEndpointInput">ServiceDirectoryCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.serviceManagementCustomEndpointInput">ServiceManagementCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.serviceNetworkingCustomEndpointInput">ServiceNetworkingCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.serviceUsageCustomEndpointInput">ServiceUsageCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.siteVerificationCustomEndpointInput">SiteVerificationCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.sourceRepoCustomEndpointInput">SourceRepoCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.spannerCustomEndpointInput">SpannerCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.sqlCustomEndpointInput">SqlCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.storageBatchOperationsCustomEndpointInput">StorageBatchOperationsCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.storageControlCustomEndpointInput">StorageControlCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.storageCustomEndpointInput">StorageCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.storageInsightsCustomEndpointInput">StorageInsightsCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.storageTransferCustomEndpointInput">StorageTransferCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.tagsCustomEndpointInput">TagsCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.tagsLocationCustomEndpointInput">TagsLocationCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.terraformAttributionLabelAdditionStrategyInput">TerraformAttributionLabelAdditionStrategyInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.tpuCustomEndpointInput">TpuCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.tpuV2CustomEndpointInput">TpuV2CustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.transcoderCustomEndpointInput">TranscoderCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.universeDomainInput">UniverseDomainInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.userProjectOverrideInput">UserProjectOverrideInput</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.vertexAiCustomEndpointInput">VertexAiCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.vmwareengineCustomEndpointInput">VmwareengineCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.vpcAccessCustomEndpointInput">VpcAccessCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.workbenchCustomEndpointInput">WorkbenchCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.workflowsCustomEndpointInput">WorkflowsCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.workstationsCustomEndpointInput">WorkstationsCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.zoneInput">ZoneInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.accessApprovalCustomEndpoint">AccessApprovalCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.accessContextManagerCustomEndpoint">AccessContextManagerCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.accessToken">AccessToken</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.activeDirectoryCustomEndpoint">ActiveDirectoryCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.addTerraformAttributionLabel">AddTerraformAttributionLabel</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.alloydbCustomEndpoint">AlloydbCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.apiGatewayCustomEndpoint">ApiGatewayCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.apigeeCustomEndpoint">ApigeeCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.apihubCustomEndpoint">ApihubCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.apikeysCustomEndpoint">ApikeysCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.appEngineCustomEndpoint">AppEngineCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.apphubCustomEndpoint">ApphubCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.artifactRegistryCustomEndpoint">ArtifactRegistryCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.assuredWorkloadsCustomEndpoint">AssuredWorkloadsCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.backupDrCustomEndpoint">BackupDrCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.batching">Batching</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.beyondcorpCustomEndpoint">BeyondcorpCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.biglakeCustomEndpoint">BiglakeCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.bigqueryAnalyticsHubCustomEndpoint">BigqueryAnalyticsHubCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.bigqueryConnectionCustomEndpoint">BigqueryConnectionCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.bigQueryCustomEndpoint">BigQueryCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.bigqueryDatapolicyCustomEndpoint">BigqueryDatapolicyCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.bigqueryDataTransferCustomEndpoint">BigqueryDataTransferCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.bigqueryReservationCustomEndpoint">BigqueryReservationCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.bigtableCustomEndpoint">BigtableCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.billingCustomEndpoint">BillingCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.billingProject">BillingProject</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.binaryAuthorizationCustomEndpoint">BinaryAuthorizationCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.blockchainNodeEngineCustomEndpoint">BlockchainNodeEngineCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.certificateManagerCustomEndpoint">CertificateManagerCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.chronicleCustomEndpoint">ChronicleCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudAssetCustomEndpoint">CloudAssetCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudBillingCustomEndpoint">CloudBillingCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudBuildCustomEndpoint">CloudBuildCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudbuildv2CustomEndpoint">Cloudbuildv2CustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.clouddeployCustomEndpoint">ClouddeployCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.clouddomainsCustomEndpoint">ClouddomainsCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudfunctions2CustomEndpoint">Cloudfunctions2CustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudFunctionsCustomEndpoint">CloudFunctionsCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudIdentityCustomEndpoint">CloudIdentityCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudIdsCustomEndpoint">CloudIdsCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudQuotasCustomEndpoint">CloudQuotasCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudResourceManagerCustomEndpoint">CloudResourceManagerCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudRunCustomEndpoint">CloudRunCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudRunV2CustomEndpoint">CloudRunV2CustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudSchedulerCustomEndpoint">CloudSchedulerCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudTasksCustomEndpoint">CloudTasksCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.colabCustomEndpoint">ColabCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.composerCustomEndpoint">ComposerCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.computeCustomEndpoint">ComputeCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.contactCenterInsightsCustomEndpoint">ContactCenterInsightsCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.containerAnalysisCustomEndpoint">ContainerAnalysisCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.containerAttachedCustomEndpoint">ContainerAttachedCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.containerAwsCustomEndpoint">ContainerAwsCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.containerAzureCustomEndpoint">ContainerAzureCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.containerCustomEndpoint">ContainerCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.coreBillingCustomEndpoint">CoreBillingCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.credentials">Credentials</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.databaseMigrationServiceCustomEndpoint">DatabaseMigrationServiceCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dataCatalogCustomEndpoint">DataCatalogCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dataflowCustomEndpoint">DataflowCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dataformCustomEndpoint">DataformCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dataFusionCustomEndpoint">DataFusionCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dataLossPreventionCustomEndpoint">DataLossPreventionCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dataPipelineCustomEndpoint">DataPipelineCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dataplexCustomEndpoint">DataplexCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dataprocCustomEndpoint">DataprocCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dataprocGdcCustomEndpoint">DataprocGdcCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dataprocMetastoreCustomEndpoint">DataprocMetastoreCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.datastreamCustomEndpoint">DatastreamCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.defaultLabels">DefaultLabels</a></code> | <code>*map[string]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.deploymentManagerCustomEndpoint">DeploymentManagerCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.developerConnectCustomEndpoint">DeveloperConnectCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dialogflowCustomEndpoint">DialogflowCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dialogflowCxCustomEndpoint">DialogflowCxCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.discoveryEngineCustomEndpoint">DiscoveryEngineCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dnsCustomEndpoint">DnsCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.documentAiCustomEndpoint">DocumentAiCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.documentAiWarehouseCustomEndpoint">DocumentAiWarehouseCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.edgecontainerCustomEndpoint">EdgecontainerCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.edgenetworkCustomEndpoint">EdgenetworkCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.essentialContactsCustomEndpoint">EssentialContactsCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.eventarcCustomEndpoint">EventarcCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.externalCredentials">ExternalCredentials</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.filestoreCustomEndpoint">FilestoreCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.firebaseAppCheckCustomEndpoint">FirebaseAppCheckCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.firebaseAppHostingCustomEndpoint">FirebaseAppHostingCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.firebaseCustomEndpoint">FirebaseCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.firebaseDatabaseCustomEndpoint">FirebaseDatabaseCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.firebaseDataConnectCustomEndpoint">FirebaseDataConnectCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.firebaseExtensionsCustomEndpoint">FirebaseExtensionsCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.firebaseHostingCustomEndpoint">FirebaseHostingCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.firebaserulesCustomEndpoint">FirebaserulesCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.firebaseStorageCustomEndpoint">FirebaseStorageCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.firestoreCustomEndpoint">FirestoreCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.geminiCustomEndpoint">GeminiCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.gkeBackupCustomEndpoint">GkeBackupCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.gkeHub2CustomEndpoint">GkeHub2CustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.gkeHubCustomEndpoint">GkeHubCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.gkeonpremCustomEndpoint">GkeonpremCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.healthcareCustomEndpoint">HealthcareCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.iam2CustomEndpoint">Iam2CustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.iam3CustomEndpoint">Iam3CustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.iamBetaCustomEndpoint">IamBetaCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.iamCredentialsCustomEndpoint">IamCredentialsCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.iamCustomEndpoint">IamCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.iamWorkforcePoolCustomEndpoint">IamWorkforcePoolCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.iapCustomEndpoint">IapCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.identityPlatformCustomEndpoint">IdentityPlatformCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.impersonateServiceAccount">ImpersonateServiceAccount</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.impersonateServiceAccountDelegates">ImpersonateServiceAccountDelegates</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.integrationConnectorsCustomEndpoint">IntegrationConnectorsCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.integrationsCustomEndpoint">IntegrationsCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.kmsCustomEndpoint">KmsCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.loggingCustomEndpoint">LoggingCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.lookerCustomEndpoint">LookerCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.lustreCustomEndpoint">LustreCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.managedKafkaCustomEndpoint">ManagedKafkaCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.memcacheCustomEndpoint">MemcacheCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.memorystoreCustomEndpoint">MemorystoreCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.migrationCenterCustomEndpoint">MigrationCenterCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.mlEngineCustomEndpoint">MlEngineCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.modelArmorCustomEndpoint">ModelArmorCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.modelArmorGlobalCustomEndpoint">ModelArmorGlobalCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.monitoringCustomEndpoint">MonitoringCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.netappCustomEndpoint">NetappCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.networkConnectivityCustomEndpoint">NetworkConnectivityCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.networkManagementCustomEndpoint">NetworkManagementCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.networkSecurityCustomEndpoint">NetworkSecurityCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.networkServicesCustomEndpoint">NetworkServicesCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.notebooksCustomEndpoint">NotebooksCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.oracleDatabaseCustomEndpoint">OracleDatabaseCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.orgPolicyCustomEndpoint">OrgPolicyCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.osConfigCustomEndpoint">OsConfigCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.osConfigV2CustomEndpoint">OsConfigV2CustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.osLoginCustomEndpoint">OsLoginCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.parallelstoreCustomEndpoint">ParallelstoreCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.parameterManagerCustomEndpoint">ParameterManagerCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.parameterManagerRegionalCustomEndpoint">ParameterManagerRegionalCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.privatecaCustomEndpoint">PrivatecaCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.privilegedAccessManagerCustomEndpoint">PrivilegedAccessManagerCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.project">Project</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.publicCaCustomEndpoint">PublicCaCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.pubsubCustomEndpoint">PubsubCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.pubsubLiteCustomEndpoint">PubsubLiteCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.recaptchaEnterpriseCustomEndpoint">RecaptchaEnterpriseCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.redisCustomEndpoint">RedisCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.region">Region</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.requestReason">RequestReason</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.requestTimeout">RequestTimeout</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.resourceManager3CustomEndpoint">ResourceManager3CustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.resourceManagerCustomEndpoint">ResourceManagerCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.resourceManagerV3CustomEndpoint">ResourceManagerV3CustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.runtimeconfigCustomEndpoint">RuntimeconfigCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.runtimeConfigCustomEndpoint">RuntimeConfigCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.scopes">Scopes</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.secretManagerCustomEndpoint">SecretManagerCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.secretManagerRegionalCustomEndpoint">SecretManagerRegionalCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.secureSourceManagerCustomEndpoint">SecureSourceManagerCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.securityCenterCustomEndpoint">SecurityCenterCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.securityCenterManagementCustomEndpoint">SecurityCenterManagementCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.securityCenterV2CustomEndpoint">SecurityCenterV2CustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.securitypostureCustomEndpoint">SecuritypostureCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.securityScannerCustomEndpoint">SecurityScannerCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.serviceDirectoryCustomEndpoint">ServiceDirectoryCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.serviceManagementCustomEndpoint">ServiceManagementCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.serviceNetworkingCustomEndpoint">ServiceNetworkingCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.serviceUsageCustomEndpoint">ServiceUsageCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.siteVerificationCustomEndpoint">SiteVerificationCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.sourceRepoCustomEndpoint">SourceRepoCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.spannerCustomEndpoint">SpannerCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.sqlCustomEndpoint">SqlCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.storageBatchOperationsCustomEndpoint">StorageBatchOperationsCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.storageControlCustomEndpoint">StorageControlCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.storageCustomEndpoint">StorageCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.storageInsightsCustomEndpoint">StorageInsightsCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.storageTransferCustomEndpoint">StorageTransferCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.tagsCustomEndpoint">TagsCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.tagsLocationCustomEndpoint">TagsLocationCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.terraformAttributionLabelAdditionStrategy">TerraformAttributionLabelAdditionStrategy</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.tpuCustomEndpoint">TpuCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.tpuV2CustomEndpoint">TpuV2CustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.transcoderCustomEndpoint">TranscoderCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.universeDomain">UniverseDomain</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.userProjectOverride">UserProjectOverride</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.vertexAiCustomEndpoint">VertexAiCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.vmwareengineCustomEndpoint">VmwareengineCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.vpcAccessCustomEndpoint">VpcAccessCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.workbenchCustomEndpoint">WorkbenchCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.workflowsCustomEndpoint">WorkflowsCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.workstationsCustomEndpoint">WorkstationsCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.zone">Zone</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.node">Node</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cdktfStack">CdktfStack</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.friendlyUniqueId">FriendlyUniqueId</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.metaAttributes">MetaAttributes</a></code> | <code>*map[string]interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.terraformResourceType">TerraformResourceType</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.terraformProviderSource">TerraformProviderSource</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.alias">Alias</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.accessApprovalCustomEndpointInput">AccessApprovalCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.accessContextManagerCustomEndpointInput">AccessContextManagerCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.accessTokenInput">AccessTokenInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.activeDirectoryCustomEndpointInput">ActiveDirectoryCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.addTerraformAttributionLabelInput">AddTerraformAttributionLabelInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.aliasInput">AliasInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.alloydbCustomEndpointInput">AlloydbCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.apiGatewayCustomEndpointInput">ApiGatewayCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.apigeeCustomEndpointInput">ApigeeCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.apihubCustomEndpointInput">ApihubCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.apikeysCustomEndpointInput">ApikeysCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.appEngineCustomEndpointInput">AppEngineCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.apphubCustomEndpointInput">ApphubCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.artifactRegistryCustomEndpointInput">ArtifactRegistryCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.assuredWorkloadsCustomEndpointInput">AssuredWorkloadsCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.backupDrCustomEndpointInput">BackupDrCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.batchingInput">BatchingInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.beyondcorpCustomEndpointInput">BeyondcorpCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.biglakeCustomEndpointInput">BiglakeCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.bigqueryAnalyticsHubCustomEndpointInput">BigqueryAnalyticsHubCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.bigqueryConnectionCustomEndpointInput">BigqueryConnectionCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.bigQueryCustomEndpointInput">BigQueryCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.bigqueryDatapolicyCustomEndpointInput">BigqueryDatapolicyCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.bigqueryDataTransferCustomEndpointInput">BigqueryDataTransferCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.bigqueryReservationCustomEndpointInput">BigqueryReservationCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.bigtableCustomEndpointInput">BigtableCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.billingCustomEndpointInput">BillingCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.billingProjectInput">BillingProjectInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.binaryAuthorizationCustomEndpointInput">BinaryAuthorizationCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.blockchainNodeEngineCustomEndpointInput">BlockchainNodeEngineCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.certificateManagerCustomEndpointInput">CertificateManagerCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.chronicleCustomEndpointInput">ChronicleCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudAssetCustomEndpointInput">CloudAssetCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudBillingCustomEndpointInput">CloudBillingCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudBuildCustomEndpointInput">CloudBuildCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudbuildv2CustomEndpointInput">Cloudbuildv2CustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.clouddeployCustomEndpointInput">ClouddeployCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.clouddomainsCustomEndpointInput">ClouddomainsCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudfunctions2CustomEndpointInput">Cloudfunctions2CustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudFunctionsCustomEndpointInput">CloudFunctionsCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudIdentityCustomEndpointInput">CloudIdentityCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudIdsCustomEndpointInput">CloudIdsCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudQuotasCustomEndpointInput">CloudQuotasCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudResourceManagerCustomEndpointInput">CloudResourceManagerCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudRunCustomEndpointInput">CloudRunCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudRunV2CustomEndpointInput">CloudRunV2CustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudSchedulerCustomEndpointInput">CloudSchedulerCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudTasksCustomEndpointInput">CloudTasksCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.colabCustomEndpointInput">ColabCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.composerCustomEndpointInput">ComposerCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.computeCustomEndpointInput">ComputeCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.contactCenterInsightsCustomEndpointInput">ContactCenterInsightsCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.containerAnalysisCustomEndpointInput">ContainerAnalysisCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.containerAttachedCustomEndpointInput">ContainerAttachedCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.containerAwsCustomEndpointInput">ContainerAwsCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.containerAzureCustomEndpointInput">ContainerAzureCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.containerCustomEndpointInput">ContainerCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.coreBillingCustomEndpointInput">CoreBillingCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.credentialsInput">CredentialsInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.databaseMigrationServiceCustomEndpointInput">DatabaseMigrationServiceCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dataCatalogCustomEndpointInput">DataCatalogCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dataflowCustomEndpointInput">DataflowCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dataformCustomEndpointInput">DataformCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dataFusionCustomEndpointInput">DataFusionCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dataLossPreventionCustomEndpointInput">DataLossPreventionCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dataPipelineCustomEndpointInput">DataPipelineCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dataplexCustomEndpointInput">DataplexCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dataprocCustomEndpointInput">DataprocCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dataprocGdcCustomEndpointInput">DataprocGdcCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dataprocMetastoreCustomEndpointInput">DataprocMetastoreCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.datastreamCustomEndpointInput">DatastreamCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.defaultLabelsInput">DefaultLabelsInput</a></code> | <code>*map[string]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.deploymentManagerCustomEndpointInput">DeploymentManagerCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.developerConnectCustomEndpointInput">DeveloperConnectCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dialogflowCustomEndpointInput">DialogflowCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dialogflowCxCustomEndpointInput">DialogflowCxCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.discoveryEngineCustomEndpointInput">DiscoveryEngineCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dnsCustomEndpointInput">DnsCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.documentAiCustomEndpointInput">DocumentAiCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.documentAiWarehouseCustomEndpointInput">DocumentAiWarehouseCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.edgecontainerCustomEndpointInput">EdgecontainerCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.edgenetworkCustomEndpointInput">EdgenetworkCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.essentialContactsCustomEndpointInput">EssentialContactsCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.eventarcCustomEndpointInput">EventarcCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.externalCredentialsInput">ExternalCredentialsInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.filestoreCustomEndpointInput">FilestoreCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.firebaseAppCheckCustomEndpointInput">FirebaseAppCheckCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.firebaseAppHostingCustomEndpointInput">FirebaseAppHostingCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.firebaseCustomEndpointInput">FirebaseCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.firebaseDatabaseCustomEndpointInput">FirebaseDatabaseCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.firebaseDataConnectCustomEndpointInput">FirebaseDataConnectCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.firebaseExtensionsCustomEndpointInput">FirebaseExtensionsCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.firebaseHostingCustomEndpointInput">FirebaseHostingCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.firebaserulesCustomEndpointInput">FirebaserulesCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.firebaseStorageCustomEndpointInput">FirebaseStorageCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.firestoreCustomEndpointInput">FirestoreCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.geminiCustomEndpointInput">GeminiCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.gkeBackupCustomEndpointInput">GkeBackupCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.gkeHub2CustomEndpointInput">GkeHub2CustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.gkeHubCustomEndpointInput">GkeHubCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.gkeonpremCustomEndpointInput">GkeonpremCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.healthcareCustomEndpointInput">HealthcareCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.iam2CustomEndpointInput">Iam2CustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.iam3CustomEndpointInput">Iam3CustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.iamBetaCustomEndpointInput">IamBetaCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.iamCredentialsCustomEndpointInput">IamCredentialsCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.iamCustomEndpointInput">IamCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.iamWorkforcePoolCustomEndpointInput">IamWorkforcePoolCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.iapCustomEndpointInput">IapCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.identityPlatformCustomEndpointInput">IdentityPlatformCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.impersonateServiceAccountDelegatesInput">ImpersonateServiceAccountDelegatesInput</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.impersonateServiceAccountInput">ImpersonateServiceAccountInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.integrationConnectorsCustomEndpointInput">IntegrationConnectorsCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.integrationsCustomEndpointInput">IntegrationsCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.kmsCustomEndpointInput">KmsCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.loggingCustomEndpointInput">LoggingCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.lookerCustomEndpointInput">LookerCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.lustreCustomEndpointInput">LustreCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.managedKafkaCustomEndpointInput">ManagedKafkaCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.memcacheCustomEndpointInput">MemcacheCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.memorystoreCustomEndpointInput">MemorystoreCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.migrationCenterCustomEndpointInput">MigrationCenterCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.mlEngineCustomEndpointInput">MlEngineCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.modelArmorCustomEndpointInput">ModelArmorCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.modelArmorGlobalCustomEndpointInput">ModelArmorGlobalCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.monitoringCustomEndpointInput">MonitoringCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.netappCustomEndpointInput">NetappCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.networkConnectivityCustomEndpointInput">NetworkConnectivityCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.networkManagementCustomEndpointInput">NetworkManagementCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.networkSecurityCustomEndpointInput">NetworkSecurityCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.networkServicesCustomEndpointInput">NetworkServicesCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.notebooksCustomEndpointInput">NotebooksCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.oracleDatabaseCustomEndpointInput">OracleDatabaseCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.orgPolicyCustomEndpointInput">OrgPolicyCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.osConfigCustomEndpointInput">OsConfigCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.osConfigV2CustomEndpointInput">OsConfigV2CustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.osLoginCustomEndpointInput">OsLoginCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.parallelstoreCustomEndpointInput">ParallelstoreCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.parameterManagerCustomEndpointInput">ParameterManagerCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.parameterManagerRegionalCustomEndpointInput">ParameterManagerRegionalCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.privatecaCustomEndpointInput">PrivatecaCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.privilegedAccessManagerCustomEndpointInput">PrivilegedAccessManagerCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.projectInput">ProjectInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.publicCaCustomEndpointInput">PublicCaCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.pubsubCustomEndpointInput">PubsubCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.pubsubLiteCustomEndpointInput">PubsubLiteCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.recaptchaEnterpriseCustomEndpointInput">RecaptchaEnterpriseCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.redisCustomEndpointInput">RedisCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.regionInput">RegionInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.requestReasonInput">RequestReasonInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.requestTimeoutInput">RequestTimeoutInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.resourceManager3CustomEndpointInput">ResourceManager3CustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.resourceManagerCustomEndpointInput">ResourceManagerCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.resourceManagerV3CustomEndpointInput">ResourceManagerV3CustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.runtimeconfigCustomEndpointInput">RuntimeconfigCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.runtimeConfigCustomEndpointInput">RuntimeConfigCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.scopesInput">ScopesInput</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.secretManagerCustomEndpointInput">SecretManagerCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.secretManagerRegionalCustomEndpointInput">SecretManagerRegionalCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.secureSourceManagerCustomEndpointInput">SecureSourceManagerCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.securityCenterCustomEndpointInput">SecurityCenterCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.securityCenterManagementCustomEndpointInput">SecurityCenterManagementCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.securityCenterV2CustomEndpointInput">SecurityCenterV2CustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.securitypostureCustomEndpointInput">SecuritypostureCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.securityScannerCustomEndpointInput">SecurityScannerCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.serviceDirectoryCustomEndpointInput">ServiceDirectoryCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.serviceManagementCustomEndpointInput">ServiceManagementCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.serviceNetworkingCustomEndpointInput">ServiceNetworkingCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.serviceUsageCustomEndpointInput">ServiceUsageCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.siteVerificationCustomEndpointInput">SiteVerificationCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.sourceRepoCustomEndpointInput">SourceRepoCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.spannerCustomEndpointInput">SpannerCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.sqlCustomEndpointInput">SqlCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.storageBatchOperationsCustomEndpointInput">StorageBatchOperationsCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.storageControlCustomEndpointInput">StorageControlCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.storageCustomEndpointInput">StorageCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.storageInsightsCustomEndpointInput">StorageInsightsCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.storageTransferCustomEndpointInput">StorageTransferCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.tagsCustomEndpointInput">TagsCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.tagsLocationCustomEndpointInput">TagsLocationCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.terraformAttributionLabelAdditionStrategyInput">TerraformAttributionLabelAdditionStrategyInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.tpuCustomEndpointInput">TpuCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.tpuV2CustomEndpointInput">TpuV2CustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.transcoderCustomEndpointInput">TranscoderCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.universeDomainInput">UniverseDomainInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.userProjectOverrideInput">UserProjectOverrideInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.vertexAiCustomEndpointInput">VertexAiCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.vmwareengineCustomEndpointInput">VmwareengineCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.vpcAccessCustomEndpointInput">VpcAccessCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.workbenchCustomEndpointInput">WorkbenchCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.workflowsCustomEndpointInput">WorkflowsCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.workstationsCustomEndpointInput">WorkstationsCustomEndpointInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.zoneInput">ZoneInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.accessApprovalCustomEndpoint">AccessApprovalCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.accessContextManagerCustomEndpoint">AccessContextManagerCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.accessToken">AccessToken</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.activeDirectoryCustomEndpoint">ActiveDirectoryCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.addTerraformAttributionLabel">AddTerraformAttributionLabel</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.alloydbCustomEndpoint">AlloydbCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.apiGatewayCustomEndpoint">ApiGatewayCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.apigeeCustomEndpoint">ApigeeCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.apihubCustomEndpoint">ApihubCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.apikeysCustomEndpoint">ApikeysCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.appEngineCustomEndpoint">AppEngineCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.apphubCustomEndpoint">ApphubCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.artifactRegistryCustomEndpoint">ArtifactRegistryCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.assuredWorkloadsCustomEndpoint">AssuredWorkloadsCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.backupDrCustomEndpoint">BackupDrCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.batching">Batching</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.beyondcorpCustomEndpoint">BeyondcorpCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.biglakeCustomEndpoint">BiglakeCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.bigqueryAnalyticsHubCustomEndpoint">BigqueryAnalyticsHubCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.bigqueryConnectionCustomEndpoint">BigqueryConnectionCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.bigQueryCustomEndpoint">BigQueryCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.bigqueryDatapolicyCustomEndpoint">BigqueryDatapolicyCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.bigqueryDataTransferCustomEndpoint">BigqueryDataTransferCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.bigqueryReservationCustomEndpoint">BigqueryReservationCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.bigtableCustomEndpoint">BigtableCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.billingCustomEndpoint">BillingCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.billingProject">BillingProject</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.binaryAuthorizationCustomEndpoint">BinaryAuthorizationCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.blockchainNodeEngineCustomEndpoint">BlockchainNodeEngineCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.certificateManagerCustomEndpoint">CertificateManagerCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.chronicleCustomEndpoint">ChronicleCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudAssetCustomEndpoint">CloudAssetCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudBillingCustomEndpoint">CloudBillingCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudBuildCustomEndpoint">CloudBuildCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudbuildv2CustomEndpoint">Cloudbuildv2CustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.clouddeployCustomEndpoint">ClouddeployCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.clouddomainsCustomEndpoint">ClouddomainsCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudfunctions2CustomEndpoint">Cloudfunctions2CustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudFunctionsCustomEndpoint">CloudFunctionsCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudIdentityCustomEndpoint">CloudIdentityCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudIdsCustomEndpoint">CloudIdsCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudQuotasCustomEndpoint">CloudQuotasCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudResourceManagerCustomEndpoint">CloudResourceManagerCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudRunCustomEndpoint">CloudRunCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudRunV2CustomEndpoint">CloudRunV2CustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudSchedulerCustomEndpoint">CloudSchedulerCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudTasksCustomEndpoint">CloudTasksCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.colabCustomEndpoint">ColabCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.composerCustomEndpoint">ComposerCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.computeCustomEndpoint">ComputeCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.contactCenterInsightsCustomEndpoint">ContactCenterInsightsCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.containerAnalysisCustomEndpoint">ContainerAnalysisCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.containerAttachedCustomEndpoint">ContainerAttachedCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.containerAwsCustomEndpoint">ContainerAwsCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.containerAzureCustomEndpoint">ContainerAzureCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.containerCustomEndpoint">ContainerCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.coreBillingCustomEndpoint">CoreBillingCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.credentials">Credentials</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.databaseMigrationServiceCustomEndpoint">DatabaseMigrationServiceCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dataCatalogCustomEndpoint">DataCatalogCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dataflowCustomEndpoint">DataflowCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dataformCustomEndpoint">DataformCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dataFusionCustomEndpoint">DataFusionCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dataLossPreventionCustomEndpoint">DataLossPreventionCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dataPipelineCustomEndpoint">DataPipelineCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dataplexCustomEndpoint">DataplexCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dataprocCustomEndpoint">DataprocCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dataprocGdcCustomEndpoint">DataprocGdcCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dataprocMetastoreCustomEndpoint">DataprocMetastoreCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.datastreamCustomEndpoint">DatastreamCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.defaultLabels">DefaultLabels</a></code> | <code>*map[string]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.deploymentManagerCustomEndpoint">DeploymentManagerCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.developerConnectCustomEndpoint">DeveloperConnectCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dialogflowCustomEndpoint">DialogflowCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dialogflowCxCustomEndpoint">DialogflowCxCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.discoveryEngineCustomEndpoint">DiscoveryEngineCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dnsCustomEndpoint">DnsCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.documentAiCustomEndpoint">DocumentAiCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.documentAiWarehouseCustomEndpoint">DocumentAiWarehouseCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.edgecontainerCustomEndpoint">EdgecontainerCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.edgenetworkCustomEndpoint">EdgenetworkCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.essentialContactsCustomEndpoint">EssentialContactsCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.eventarcCustomEndpoint">EventarcCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.externalCredentials">ExternalCredentials</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.filestoreCustomEndpoint">FilestoreCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.firebaseAppCheckCustomEndpoint">FirebaseAppCheckCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.firebaseAppHostingCustomEndpoint">FirebaseAppHostingCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.firebaseCustomEndpoint">FirebaseCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.firebaseDatabaseCustomEndpoint">FirebaseDatabaseCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.firebaseDataConnectCustomEndpoint">FirebaseDataConnectCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.firebaseExtensionsCustomEndpoint">FirebaseExtensionsCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.firebaseHostingCustomEndpoint">FirebaseHostingCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.firebaserulesCustomEndpoint">FirebaserulesCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.firebaseStorageCustomEndpoint">FirebaseStorageCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.firestoreCustomEndpoint">FirestoreCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.geminiCustomEndpoint">GeminiCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.gkeBackupCustomEndpoint">GkeBackupCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.gkeHub2CustomEndpoint">GkeHub2CustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.gkeHubCustomEndpoint">GkeHubCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.gkeonpremCustomEndpoint">GkeonpremCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.healthcareCustomEndpoint">HealthcareCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.iam2CustomEndpoint">Iam2CustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.iam3CustomEndpoint">Iam3CustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.iamBetaCustomEndpoint">IamBetaCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.iamCredentialsCustomEndpoint">IamCredentialsCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.iamCustomEndpoint">IamCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.iamWorkforcePoolCustomEndpoint">IamWorkforcePoolCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.iapCustomEndpoint">IapCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.identityPlatformCustomEndpoint">IdentityPlatformCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.impersonateServiceAccount">ImpersonateServiceAccount</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.impersonateServiceAccountDelegates">ImpersonateServiceAccountDelegates</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.integrationConnectorsCustomEndpoint">IntegrationConnectorsCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.integrationsCustomEndpoint">IntegrationsCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.kmsCustomEndpoint">KmsCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.loggingCustomEndpoint">LoggingCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.lookerCustomEndpoint">LookerCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.lustreCustomEndpoint">LustreCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.managedKafkaCustomEndpoint">ManagedKafkaCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.memcacheCustomEndpoint">MemcacheCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.memorystoreCustomEndpoint">MemorystoreCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.migrationCenterCustomEndpoint">MigrationCenterCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.mlEngineCustomEndpoint">MlEngineCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.modelArmorCustomEndpoint">ModelArmorCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.modelArmorGlobalCustomEndpoint">ModelArmorGlobalCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.monitoringCustomEndpoint">MonitoringCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.netappCustomEndpoint">NetappCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.networkConnectivityCustomEndpoint">NetworkConnectivityCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.networkManagementCustomEndpoint">NetworkManagementCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.networkSecurityCustomEndpoint">NetworkSecurityCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.networkServicesCustomEndpoint">NetworkServicesCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.notebooksCustomEndpoint">NotebooksCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.oracleDatabaseCustomEndpoint">OracleDatabaseCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.orgPolicyCustomEndpoint">OrgPolicyCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.osConfigCustomEndpoint">OsConfigCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.osConfigV2CustomEndpoint">OsConfigV2CustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.osLoginCustomEndpoint">OsLoginCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.parallelstoreCustomEndpoint">ParallelstoreCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.parameterManagerCustomEndpoint">ParameterManagerCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.parameterManagerRegionalCustomEndpoint">ParameterManagerRegionalCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.privatecaCustomEndpoint">PrivatecaCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.privilegedAccessManagerCustomEndpoint">PrivilegedAccessManagerCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.project">Project</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.publicCaCustomEndpoint">PublicCaCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.pubsubCustomEndpoint">PubsubCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.pubsubLiteCustomEndpoint">PubsubLiteCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.recaptchaEnterpriseCustomEndpoint">RecaptchaEnterpriseCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.redisCustomEndpoint">RedisCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.region">Region</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.requestReason">RequestReason</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.requestTimeout">RequestTimeout</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.resourceManager3CustomEndpoint">ResourceManager3CustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.resourceManagerCustomEndpoint">ResourceManagerCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.resourceManagerV3CustomEndpoint">ResourceManagerV3CustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.runtimeconfigCustomEndpoint">RuntimeconfigCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.runtimeConfigCustomEndpoint">RuntimeConfigCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.scopes">Scopes</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.secretManagerCustomEndpoint">SecretManagerCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.secretManagerRegionalCustomEndpoint">SecretManagerRegionalCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.secureSourceManagerCustomEndpoint">SecureSourceManagerCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.securityCenterCustomEndpoint">SecurityCenterCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.securityCenterManagementCustomEndpoint">SecurityCenterManagementCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.securityCenterV2CustomEndpoint">SecurityCenterV2CustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.securitypostureCustomEndpoint">SecuritypostureCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.securityScannerCustomEndpoint">SecurityScannerCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.serviceDirectoryCustomEndpoint">ServiceDirectoryCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.serviceManagementCustomEndpoint">ServiceManagementCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.serviceNetworkingCustomEndpoint">ServiceNetworkingCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.serviceUsageCustomEndpoint">ServiceUsageCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.siteVerificationCustomEndpoint">SiteVerificationCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.sourceRepoCustomEndpoint">SourceRepoCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.spannerCustomEndpoint">SpannerCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.sqlCustomEndpoint">SqlCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.storageBatchOperationsCustomEndpoint">StorageBatchOperationsCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.storageControlCustomEndpoint">StorageControlCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.storageCustomEndpoint">StorageCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.storageInsightsCustomEndpoint">StorageInsightsCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.storageTransferCustomEndpoint">StorageTransferCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.tagsCustomEndpoint">TagsCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.tagsLocationCustomEndpoint">TagsLocationCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.terraformAttributionLabelAdditionStrategy">TerraformAttributionLabelAdditionStrategy</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.tpuCustomEndpoint">TpuCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.tpuV2CustomEndpoint">TpuV2CustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.transcoderCustomEndpoint">TranscoderCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.universeDomain">UniverseDomain</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.userProjectOverride">UserProjectOverride</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.vertexAiCustomEndpoint">VertexAiCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.vmwareengineCustomEndpoint">VmwareengineCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.vpcAccessCustomEndpoint">VpcAccessCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.workbenchCustomEndpoint">WorkbenchCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.workflowsCustomEndpoint">WorkflowsCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.workstationsCustomEndpoint">WorkstationsCustomEndpoint</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.zone">Zone</a></code> | <code>*string</code> | *No description.* |
 
 ---
 
-##### `Node`<sup>Required</sup> <a name="Node" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.node"></a>
+##### `Node`<sup>Required</sup> <a name="Node" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.node"></a>
 
 ```go
 func Node() Node
@@ -2009,7 +2009,7 @@ The tree node.
 
 ---
 
-##### `CdktfStack`<sup>Required</sup> <a name="CdktfStack" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cdktfStack"></a>
+##### `CdktfStack`<sup>Required</sup> <a name="CdktfStack" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cdktfStack"></a>
 
 ```go
 func CdktfStack() TerraformStack
@@ -2019,7 +2019,7 @@ func CdktfStack() TerraformStack
 
 ---
 
-##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.fqn"></a>
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.fqn"></a>
 
 ```go
 func Fqn() *string
@@ -2029,7 +2029,7 @@ func Fqn() *string
 
 ---
 
-##### `FriendlyUniqueId`<sup>Required</sup> <a name="FriendlyUniqueId" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.friendlyUniqueId"></a>
+##### `FriendlyUniqueId`<sup>Required</sup> <a name="FriendlyUniqueId" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.friendlyUniqueId"></a>
 
 ```go
 func FriendlyUniqueId() *string
@@ -2039,7 +2039,7 @@ func FriendlyUniqueId() *string
 
 ---
 
-##### `MetaAttributes`<sup>Required</sup> <a name="MetaAttributes" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.metaAttributes"></a>
+##### `MetaAttributes`<sup>Required</sup> <a name="MetaAttributes" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.metaAttributes"></a>
 
 ```go
 func MetaAttributes() *map[string]interface{}
@@ -2049,7 +2049,7 @@ func MetaAttributes() *map[string]interface{}
 
 ---
 
-##### `TerraformResourceType`<sup>Required</sup> <a name="TerraformResourceType" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.terraformResourceType"></a>
+##### `TerraformResourceType`<sup>Required</sup> <a name="TerraformResourceType" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.terraformResourceType"></a>
 
 ```go
 func TerraformResourceType() *string
@@ -2059,7 +2059,7 @@ func TerraformResourceType() *string
 
 ---
 
-##### `TerraformGeneratorMetadata`<sup>Optional</sup> <a name="TerraformGeneratorMetadata" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.terraformGeneratorMetadata"></a>
+##### `TerraformGeneratorMetadata`<sup>Optional</sup> <a name="TerraformGeneratorMetadata" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.terraformGeneratorMetadata"></a>
 
 ```go
 func TerraformGeneratorMetadata() TerraformProviderGeneratorMetadata
@@ -2069,7 +2069,7 @@ func TerraformGeneratorMetadata() TerraformProviderGeneratorMetadata
 
 ---
 
-##### `TerraformProviderSource`<sup>Optional</sup> <a name="TerraformProviderSource" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.terraformProviderSource"></a>
+##### `TerraformProviderSource`<sup>Optional</sup> <a name="TerraformProviderSource" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.terraformProviderSource"></a>
 
 ```go
 func TerraformProviderSource() *string
@@ -2079,7 +2079,7 @@ func TerraformProviderSource() *string
 
 ---
 
-##### `Alias`<sup>Optional</sup> <a name="Alias" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.alias"></a>
+##### `Alias`<sup>Optional</sup> <a name="Alias" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.alias"></a>
 
 ```go
 func Alias() *string
@@ -2089,7 +2089,7 @@ func Alias() *string
 
 ---
 
-##### `AccessApprovalCustomEndpointInput`<sup>Optional</sup> <a name="AccessApprovalCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.accessApprovalCustomEndpointInput"></a>
+##### `AccessApprovalCustomEndpointInput`<sup>Optional</sup> <a name="AccessApprovalCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.accessApprovalCustomEndpointInput"></a>
 
 ```go
 func AccessApprovalCustomEndpointInput() *string
@@ -2099,7 +2099,7 @@ func AccessApprovalCustomEndpointInput() *string
 
 ---
 
-##### `AccessContextManagerCustomEndpointInput`<sup>Optional</sup> <a name="AccessContextManagerCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.accessContextManagerCustomEndpointInput"></a>
+##### `AccessContextManagerCustomEndpointInput`<sup>Optional</sup> <a name="AccessContextManagerCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.accessContextManagerCustomEndpointInput"></a>
 
 ```go
 func AccessContextManagerCustomEndpointInput() *string
@@ -2109,7 +2109,7 @@ func AccessContextManagerCustomEndpointInput() *string
 
 ---
 
-##### `AccessTokenInput`<sup>Optional</sup> <a name="AccessTokenInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.accessTokenInput"></a>
+##### `AccessTokenInput`<sup>Optional</sup> <a name="AccessTokenInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.accessTokenInput"></a>
 
 ```go
 func AccessTokenInput() *string
@@ -2119,7 +2119,7 @@ func AccessTokenInput() *string
 
 ---
 
-##### `ActiveDirectoryCustomEndpointInput`<sup>Optional</sup> <a name="ActiveDirectoryCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.activeDirectoryCustomEndpointInput"></a>
+##### `ActiveDirectoryCustomEndpointInput`<sup>Optional</sup> <a name="ActiveDirectoryCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.activeDirectoryCustomEndpointInput"></a>
 
 ```go
 func ActiveDirectoryCustomEndpointInput() *string
@@ -2129,7 +2129,7 @@ func ActiveDirectoryCustomEndpointInput() *string
 
 ---
 
-##### `AddTerraformAttributionLabelInput`<sup>Optional</sup> <a name="AddTerraformAttributionLabelInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.addTerraformAttributionLabelInput"></a>
+##### `AddTerraformAttributionLabelInput`<sup>Optional</sup> <a name="AddTerraformAttributionLabelInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.addTerraformAttributionLabelInput"></a>
 
 ```go
 func AddTerraformAttributionLabelInput() interface{}
@@ -2139,7 +2139,7 @@ func AddTerraformAttributionLabelInput() interface{}
 
 ---
 
-##### `AliasInput`<sup>Optional</sup> <a name="AliasInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.aliasInput"></a>
+##### `AliasInput`<sup>Optional</sup> <a name="AliasInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.aliasInput"></a>
 
 ```go
 func AliasInput() *string
@@ -2149,7 +2149,7 @@ func AliasInput() *string
 
 ---
 
-##### `AlloydbCustomEndpointInput`<sup>Optional</sup> <a name="AlloydbCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.alloydbCustomEndpointInput"></a>
+##### `AlloydbCustomEndpointInput`<sup>Optional</sup> <a name="AlloydbCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.alloydbCustomEndpointInput"></a>
 
 ```go
 func AlloydbCustomEndpointInput() *string
@@ -2159,7 +2159,7 @@ func AlloydbCustomEndpointInput() *string
 
 ---
 
-##### `ApiGatewayCustomEndpointInput`<sup>Optional</sup> <a name="ApiGatewayCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.apiGatewayCustomEndpointInput"></a>
+##### `ApiGatewayCustomEndpointInput`<sup>Optional</sup> <a name="ApiGatewayCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.apiGatewayCustomEndpointInput"></a>
 
 ```go
 func ApiGatewayCustomEndpointInput() *string
@@ -2169,7 +2169,7 @@ func ApiGatewayCustomEndpointInput() *string
 
 ---
 
-##### `ApigeeCustomEndpointInput`<sup>Optional</sup> <a name="ApigeeCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.apigeeCustomEndpointInput"></a>
+##### `ApigeeCustomEndpointInput`<sup>Optional</sup> <a name="ApigeeCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.apigeeCustomEndpointInput"></a>
 
 ```go
 func ApigeeCustomEndpointInput() *string
@@ -2179,7 +2179,7 @@ func ApigeeCustomEndpointInput() *string
 
 ---
 
-##### `ApihubCustomEndpointInput`<sup>Optional</sup> <a name="ApihubCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.apihubCustomEndpointInput"></a>
+##### `ApihubCustomEndpointInput`<sup>Optional</sup> <a name="ApihubCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.apihubCustomEndpointInput"></a>
 
 ```go
 func ApihubCustomEndpointInput() *string
@@ -2189,7 +2189,7 @@ func ApihubCustomEndpointInput() *string
 
 ---
 
-##### `ApikeysCustomEndpointInput`<sup>Optional</sup> <a name="ApikeysCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.apikeysCustomEndpointInput"></a>
+##### `ApikeysCustomEndpointInput`<sup>Optional</sup> <a name="ApikeysCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.apikeysCustomEndpointInput"></a>
 
 ```go
 func ApikeysCustomEndpointInput() *string
@@ -2199,7 +2199,7 @@ func ApikeysCustomEndpointInput() *string
 
 ---
 
-##### `AppEngineCustomEndpointInput`<sup>Optional</sup> <a name="AppEngineCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.appEngineCustomEndpointInput"></a>
+##### `AppEngineCustomEndpointInput`<sup>Optional</sup> <a name="AppEngineCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.appEngineCustomEndpointInput"></a>
 
 ```go
 func AppEngineCustomEndpointInput() *string
@@ -2209,7 +2209,7 @@ func AppEngineCustomEndpointInput() *string
 
 ---
 
-##### `ApphubCustomEndpointInput`<sup>Optional</sup> <a name="ApphubCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.apphubCustomEndpointInput"></a>
+##### `ApphubCustomEndpointInput`<sup>Optional</sup> <a name="ApphubCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.apphubCustomEndpointInput"></a>
 
 ```go
 func ApphubCustomEndpointInput() *string
@@ -2219,7 +2219,7 @@ func ApphubCustomEndpointInput() *string
 
 ---
 
-##### `ArtifactRegistryCustomEndpointInput`<sup>Optional</sup> <a name="ArtifactRegistryCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.artifactRegistryCustomEndpointInput"></a>
+##### `ArtifactRegistryCustomEndpointInput`<sup>Optional</sup> <a name="ArtifactRegistryCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.artifactRegistryCustomEndpointInput"></a>
 
 ```go
 func ArtifactRegistryCustomEndpointInput() *string
@@ -2229,7 +2229,7 @@ func ArtifactRegistryCustomEndpointInput() *string
 
 ---
 
-##### `AssuredWorkloadsCustomEndpointInput`<sup>Optional</sup> <a name="AssuredWorkloadsCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.assuredWorkloadsCustomEndpointInput"></a>
+##### `AssuredWorkloadsCustomEndpointInput`<sup>Optional</sup> <a name="AssuredWorkloadsCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.assuredWorkloadsCustomEndpointInput"></a>
 
 ```go
 func AssuredWorkloadsCustomEndpointInput() *string
@@ -2239,7 +2239,7 @@ func AssuredWorkloadsCustomEndpointInput() *string
 
 ---
 
-##### `BackupDrCustomEndpointInput`<sup>Optional</sup> <a name="BackupDrCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.backupDrCustomEndpointInput"></a>
+##### `BackupDrCustomEndpointInput`<sup>Optional</sup> <a name="BackupDrCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.backupDrCustomEndpointInput"></a>
 
 ```go
 func BackupDrCustomEndpointInput() *string
@@ -2249,7 +2249,7 @@ func BackupDrCustomEndpointInput() *string
 
 ---
 
-##### `BatchingInput`<sup>Optional</sup> <a name="BatchingInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.batchingInput"></a>
+##### `BatchingInput`<sup>Optional</sup> <a name="BatchingInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.batchingInput"></a>
 
 ```go
 func BatchingInput() interface{}
@@ -2259,7 +2259,7 @@ func BatchingInput() interface{}
 
 ---
 
-##### `BeyondcorpCustomEndpointInput`<sup>Optional</sup> <a name="BeyondcorpCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.beyondcorpCustomEndpointInput"></a>
+##### `BeyondcorpCustomEndpointInput`<sup>Optional</sup> <a name="BeyondcorpCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.beyondcorpCustomEndpointInput"></a>
 
 ```go
 func BeyondcorpCustomEndpointInput() *string
@@ -2269,7 +2269,7 @@ func BeyondcorpCustomEndpointInput() *string
 
 ---
 
-##### `BiglakeCustomEndpointInput`<sup>Optional</sup> <a name="BiglakeCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.biglakeCustomEndpointInput"></a>
+##### `BiglakeCustomEndpointInput`<sup>Optional</sup> <a name="BiglakeCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.biglakeCustomEndpointInput"></a>
 
 ```go
 func BiglakeCustomEndpointInput() *string
@@ -2279,7 +2279,7 @@ func BiglakeCustomEndpointInput() *string
 
 ---
 
-##### `BigqueryAnalyticsHubCustomEndpointInput`<sup>Optional</sup> <a name="BigqueryAnalyticsHubCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.bigqueryAnalyticsHubCustomEndpointInput"></a>
+##### `BigqueryAnalyticsHubCustomEndpointInput`<sup>Optional</sup> <a name="BigqueryAnalyticsHubCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.bigqueryAnalyticsHubCustomEndpointInput"></a>
 
 ```go
 func BigqueryAnalyticsHubCustomEndpointInput() *string
@@ -2289,7 +2289,7 @@ func BigqueryAnalyticsHubCustomEndpointInput() *string
 
 ---
 
-##### `BigqueryConnectionCustomEndpointInput`<sup>Optional</sup> <a name="BigqueryConnectionCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.bigqueryConnectionCustomEndpointInput"></a>
+##### `BigqueryConnectionCustomEndpointInput`<sup>Optional</sup> <a name="BigqueryConnectionCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.bigqueryConnectionCustomEndpointInput"></a>
 
 ```go
 func BigqueryConnectionCustomEndpointInput() *string
@@ -2299,7 +2299,7 @@ func BigqueryConnectionCustomEndpointInput() *string
 
 ---
 
-##### `BigQueryCustomEndpointInput`<sup>Optional</sup> <a name="BigQueryCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.bigQueryCustomEndpointInput"></a>
+##### `BigQueryCustomEndpointInput`<sup>Optional</sup> <a name="BigQueryCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.bigQueryCustomEndpointInput"></a>
 
 ```go
 func BigQueryCustomEndpointInput() *string
@@ -2309,7 +2309,7 @@ func BigQueryCustomEndpointInput() *string
 
 ---
 
-##### `BigqueryDatapolicyCustomEndpointInput`<sup>Optional</sup> <a name="BigqueryDatapolicyCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.bigqueryDatapolicyCustomEndpointInput"></a>
+##### `BigqueryDatapolicyCustomEndpointInput`<sup>Optional</sup> <a name="BigqueryDatapolicyCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.bigqueryDatapolicyCustomEndpointInput"></a>
 
 ```go
 func BigqueryDatapolicyCustomEndpointInput() *string
@@ -2319,7 +2319,7 @@ func BigqueryDatapolicyCustomEndpointInput() *string
 
 ---
 
-##### `BigqueryDataTransferCustomEndpointInput`<sup>Optional</sup> <a name="BigqueryDataTransferCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.bigqueryDataTransferCustomEndpointInput"></a>
+##### `BigqueryDataTransferCustomEndpointInput`<sup>Optional</sup> <a name="BigqueryDataTransferCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.bigqueryDataTransferCustomEndpointInput"></a>
 
 ```go
 func BigqueryDataTransferCustomEndpointInput() *string
@@ -2329,7 +2329,7 @@ func BigqueryDataTransferCustomEndpointInput() *string
 
 ---
 
-##### `BigqueryReservationCustomEndpointInput`<sup>Optional</sup> <a name="BigqueryReservationCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.bigqueryReservationCustomEndpointInput"></a>
+##### `BigqueryReservationCustomEndpointInput`<sup>Optional</sup> <a name="BigqueryReservationCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.bigqueryReservationCustomEndpointInput"></a>
 
 ```go
 func BigqueryReservationCustomEndpointInput() *string
@@ -2339,7 +2339,7 @@ func BigqueryReservationCustomEndpointInput() *string
 
 ---
 
-##### `BigtableCustomEndpointInput`<sup>Optional</sup> <a name="BigtableCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.bigtableCustomEndpointInput"></a>
+##### `BigtableCustomEndpointInput`<sup>Optional</sup> <a name="BigtableCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.bigtableCustomEndpointInput"></a>
 
 ```go
 func BigtableCustomEndpointInput() *string
@@ -2349,7 +2349,7 @@ func BigtableCustomEndpointInput() *string
 
 ---
 
-##### `BillingCustomEndpointInput`<sup>Optional</sup> <a name="BillingCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.billingCustomEndpointInput"></a>
+##### `BillingCustomEndpointInput`<sup>Optional</sup> <a name="BillingCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.billingCustomEndpointInput"></a>
 
 ```go
 func BillingCustomEndpointInput() *string
@@ -2359,7 +2359,7 @@ func BillingCustomEndpointInput() *string
 
 ---
 
-##### `BillingProjectInput`<sup>Optional</sup> <a name="BillingProjectInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.billingProjectInput"></a>
+##### `BillingProjectInput`<sup>Optional</sup> <a name="BillingProjectInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.billingProjectInput"></a>
 
 ```go
 func BillingProjectInput() *string
@@ -2369,7 +2369,7 @@ func BillingProjectInput() *string
 
 ---
 
-##### `BinaryAuthorizationCustomEndpointInput`<sup>Optional</sup> <a name="BinaryAuthorizationCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.binaryAuthorizationCustomEndpointInput"></a>
+##### `BinaryAuthorizationCustomEndpointInput`<sup>Optional</sup> <a name="BinaryAuthorizationCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.binaryAuthorizationCustomEndpointInput"></a>
 
 ```go
 func BinaryAuthorizationCustomEndpointInput() *string
@@ -2379,7 +2379,7 @@ func BinaryAuthorizationCustomEndpointInput() *string
 
 ---
 
-##### `BlockchainNodeEngineCustomEndpointInput`<sup>Optional</sup> <a name="BlockchainNodeEngineCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.blockchainNodeEngineCustomEndpointInput"></a>
+##### `BlockchainNodeEngineCustomEndpointInput`<sup>Optional</sup> <a name="BlockchainNodeEngineCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.blockchainNodeEngineCustomEndpointInput"></a>
 
 ```go
 func BlockchainNodeEngineCustomEndpointInput() *string
@@ -2389,7 +2389,7 @@ func BlockchainNodeEngineCustomEndpointInput() *string
 
 ---
 
-##### `CertificateManagerCustomEndpointInput`<sup>Optional</sup> <a name="CertificateManagerCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.certificateManagerCustomEndpointInput"></a>
+##### `CertificateManagerCustomEndpointInput`<sup>Optional</sup> <a name="CertificateManagerCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.certificateManagerCustomEndpointInput"></a>
 
 ```go
 func CertificateManagerCustomEndpointInput() *string
@@ -2399,7 +2399,7 @@ func CertificateManagerCustomEndpointInput() *string
 
 ---
 
-##### `ChronicleCustomEndpointInput`<sup>Optional</sup> <a name="ChronicleCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.chronicleCustomEndpointInput"></a>
+##### `ChronicleCustomEndpointInput`<sup>Optional</sup> <a name="ChronicleCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.chronicleCustomEndpointInput"></a>
 
 ```go
 func ChronicleCustomEndpointInput() *string
@@ -2409,7 +2409,7 @@ func ChronicleCustomEndpointInput() *string
 
 ---
 
-##### `CloudAssetCustomEndpointInput`<sup>Optional</sup> <a name="CloudAssetCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudAssetCustomEndpointInput"></a>
+##### `CloudAssetCustomEndpointInput`<sup>Optional</sup> <a name="CloudAssetCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudAssetCustomEndpointInput"></a>
 
 ```go
 func CloudAssetCustomEndpointInput() *string
@@ -2419,7 +2419,7 @@ func CloudAssetCustomEndpointInput() *string
 
 ---
 
-##### `CloudBillingCustomEndpointInput`<sup>Optional</sup> <a name="CloudBillingCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudBillingCustomEndpointInput"></a>
+##### `CloudBillingCustomEndpointInput`<sup>Optional</sup> <a name="CloudBillingCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudBillingCustomEndpointInput"></a>
 
 ```go
 func CloudBillingCustomEndpointInput() *string
@@ -2429,7 +2429,7 @@ func CloudBillingCustomEndpointInput() *string
 
 ---
 
-##### `CloudBuildCustomEndpointInput`<sup>Optional</sup> <a name="CloudBuildCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudBuildCustomEndpointInput"></a>
+##### `CloudBuildCustomEndpointInput`<sup>Optional</sup> <a name="CloudBuildCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudBuildCustomEndpointInput"></a>
 
 ```go
 func CloudBuildCustomEndpointInput() *string
@@ -2439,7 +2439,7 @@ func CloudBuildCustomEndpointInput() *string
 
 ---
 
-##### `Cloudbuildv2CustomEndpointInput`<sup>Optional</sup> <a name="Cloudbuildv2CustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudbuildv2CustomEndpointInput"></a>
+##### `Cloudbuildv2CustomEndpointInput`<sup>Optional</sup> <a name="Cloudbuildv2CustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudbuildv2CustomEndpointInput"></a>
 
 ```go
 func Cloudbuildv2CustomEndpointInput() *string
@@ -2449,7 +2449,7 @@ func Cloudbuildv2CustomEndpointInput() *string
 
 ---
 
-##### `ClouddeployCustomEndpointInput`<sup>Optional</sup> <a name="ClouddeployCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.clouddeployCustomEndpointInput"></a>
+##### `ClouddeployCustomEndpointInput`<sup>Optional</sup> <a name="ClouddeployCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.clouddeployCustomEndpointInput"></a>
 
 ```go
 func ClouddeployCustomEndpointInput() *string
@@ -2459,7 +2459,7 @@ func ClouddeployCustomEndpointInput() *string
 
 ---
 
-##### `ClouddomainsCustomEndpointInput`<sup>Optional</sup> <a name="ClouddomainsCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.clouddomainsCustomEndpointInput"></a>
+##### `ClouddomainsCustomEndpointInput`<sup>Optional</sup> <a name="ClouddomainsCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.clouddomainsCustomEndpointInput"></a>
 
 ```go
 func ClouddomainsCustomEndpointInput() *string
@@ -2469,7 +2469,7 @@ func ClouddomainsCustomEndpointInput() *string
 
 ---
 
-##### `Cloudfunctions2CustomEndpointInput`<sup>Optional</sup> <a name="Cloudfunctions2CustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudfunctions2CustomEndpointInput"></a>
+##### `Cloudfunctions2CustomEndpointInput`<sup>Optional</sup> <a name="Cloudfunctions2CustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudfunctions2CustomEndpointInput"></a>
 
 ```go
 func Cloudfunctions2CustomEndpointInput() *string
@@ -2479,7 +2479,7 @@ func Cloudfunctions2CustomEndpointInput() *string
 
 ---
 
-##### `CloudFunctionsCustomEndpointInput`<sup>Optional</sup> <a name="CloudFunctionsCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudFunctionsCustomEndpointInput"></a>
+##### `CloudFunctionsCustomEndpointInput`<sup>Optional</sup> <a name="CloudFunctionsCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudFunctionsCustomEndpointInput"></a>
 
 ```go
 func CloudFunctionsCustomEndpointInput() *string
@@ -2489,7 +2489,7 @@ func CloudFunctionsCustomEndpointInput() *string
 
 ---
 
-##### `CloudIdentityCustomEndpointInput`<sup>Optional</sup> <a name="CloudIdentityCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudIdentityCustomEndpointInput"></a>
+##### `CloudIdentityCustomEndpointInput`<sup>Optional</sup> <a name="CloudIdentityCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudIdentityCustomEndpointInput"></a>
 
 ```go
 func CloudIdentityCustomEndpointInput() *string
@@ -2499,7 +2499,7 @@ func CloudIdentityCustomEndpointInput() *string
 
 ---
 
-##### `CloudIdsCustomEndpointInput`<sup>Optional</sup> <a name="CloudIdsCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudIdsCustomEndpointInput"></a>
+##### `CloudIdsCustomEndpointInput`<sup>Optional</sup> <a name="CloudIdsCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudIdsCustomEndpointInput"></a>
 
 ```go
 func CloudIdsCustomEndpointInput() *string
@@ -2509,7 +2509,7 @@ func CloudIdsCustomEndpointInput() *string
 
 ---
 
-##### `CloudQuotasCustomEndpointInput`<sup>Optional</sup> <a name="CloudQuotasCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudQuotasCustomEndpointInput"></a>
+##### `CloudQuotasCustomEndpointInput`<sup>Optional</sup> <a name="CloudQuotasCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudQuotasCustomEndpointInput"></a>
 
 ```go
 func CloudQuotasCustomEndpointInput() *string
@@ -2519,7 +2519,7 @@ func CloudQuotasCustomEndpointInput() *string
 
 ---
 
-##### `CloudResourceManagerCustomEndpointInput`<sup>Optional</sup> <a name="CloudResourceManagerCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudResourceManagerCustomEndpointInput"></a>
+##### `CloudResourceManagerCustomEndpointInput`<sup>Optional</sup> <a name="CloudResourceManagerCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudResourceManagerCustomEndpointInput"></a>
 
 ```go
 func CloudResourceManagerCustomEndpointInput() *string
@@ -2529,7 +2529,7 @@ func CloudResourceManagerCustomEndpointInput() *string
 
 ---
 
-##### `CloudRunCustomEndpointInput`<sup>Optional</sup> <a name="CloudRunCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudRunCustomEndpointInput"></a>
+##### `CloudRunCustomEndpointInput`<sup>Optional</sup> <a name="CloudRunCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudRunCustomEndpointInput"></a>
 
 ```go
 func CloudRunCustomEndpointInput() *string
@@ -2539,7 +2539,7 @@ func CloudRunCustomEndpointInput() *string
 
 ---
 
-##### `CloudRunV2CustomEndpointInput`<sup>Optional</sup> <a name="CloudRunV2CustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudRunV2CustomEndpointInput"></a>
+##### `CloudRunV2CustomEndpointInput`<sup>Optional</sup> <a name="CloudRunV2CustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudRunV2CustomEndpointInput"></a>
 
 ```go
 func CloudRunV2CustomEndpointInput() *string
@@ -2549,7 +2549,7 @@ func CloudRunV2CustomEndpointInput() *string
 
 ---
 
-##### `CloudSchedulerCustomEndpointInput`<sup>Optional</sup> <a name="CloudSchedulerCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudSchedulerCustomEndpointInput"></a>
+##### `CloudSchedulerCustomEndpointInput`<sup>Optional</sup> <a name="CloudSchedulerCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudSchedulerCustomEndpointInput"></a>
 
 ```go
 func CloudSchedulerCustomEndpointInput() *string
@@ -2559,7 +2559,7 @@ func CloudSchedulerCustomEndpointInput() *string
 
 ---
 
-##### `CloudTasksCustomEndpointInput`<sup>Optional</sup> <a name="CloudTasksCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudTasksCustomEndpointInput"></a>
+##### `CloudTasksCustomEndpointInput`<sup>Optional</sup> <a name="CloudTasksCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudTasksCustomEndpointInput"></a>
 
 ```go
 func CloudTasksCustomEndpointInput() *string
@@ -2569,7 +2569,7 @@ func CloudTasksCustomEndpointInput() *string
 
 ---
 
-##### `ColabCustomEndpointInput`<sup>Optional</sup> <a name="ColabCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.colabCustomEndpointInput"></a>
+##### `ColabCustomEndpointInput`<sup>Optional</sup> <a name="ColabCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.colabCustomEndpointInput"></a>
 
 ```go
 func ColabCustomEndpointInput() *string
@@ -2579,7 +2579,7 @@ func ColabCustomEndpointInput() *string
 
 ---
 
-##### `ComposerCustomEndpointInput`<sup>Optional</sup> <a name="ComposerCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.composerCustomEndpointInput"></a>
+##### `ComposerCustomEndpointInput`<sup>Optional</sup> <a name="ComposerCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.composerCustomEndpointInput"></a>
 
 ```go
 func ComposerCustomEndpointInput() *string
@@ -2589,7 +2589,7 @@ func ComposerCustomEndpointInput() *string
 
 ---
 
-##### `ComputeCustomEndpointInput`<sup>Optional</sup> <a name="ComputeCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.computeCustomEndpointInput"></a>
+##### `ComputeCustomEndpointInput`<sup>Optional</sup> <a name="ComputeCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.computeCustomEndpointInput"></a>
 
 ```go
 func ComputeCustomEndpointInput() *string
@@ -2599,7 +2599,7 @@ func ComputeCustomEndpointInput() *string
 
 ---
 
-##### `ContactCenterInsightsCustomEndpointInput`<sup>Optional</sup> <a name="ContactCenterInsightsCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.contactCenterInsightsCustomEndpointInput"></a>
+##### `ContactCenterInsightsCustomEndpointInput`<sup>Optional</sup> <a name="ContactCenterInsightsCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.contactCenterInsightsCustomEndpointInput"></a>
 
 ```go
 func ContactCenterInsightsCustomEndpointInput() *string
@@ -2609,7 +2609,7 @@ func ContactCenterInsightsCustomEndpointInput() *string
 
 ---
 
-##### `ContainerAnalysisCustomEndpointInput`<sup>Optional</sup> <a name="ContainerAnalysisCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.containerAnalysisCustomEndpointInput"></a>
+##### `ContainerAnalysisCustomEndpointInput`<sup>Optional</sup> <a name="ContainerAnalysisCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.containerAnalysisCustomEndpointInput"></a>
 
 ```go
 func ContainerAnalysisCustomEndpointInput() *string
@@ -2619,7 +2619,7 @@ func ContainerAnalysisCustomEndpointInput() *string
 
 ---
 
-##### `ContainerAttachedCustomEndpointInput`<sup>Optional</sup> <a name="ContainerAttachedCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.containerAttachedCustomEndpointInput"></a>
+##### `ContainerAttachedCustomEndpointInput`<sup>Optional</sup> <a name="ContainerAttachedCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.containerAttachedCustomEndpointInput"></a>
 
 ```go
 func ContainerAttachedCustomEndpointInput() *string
@@ -2629,7 +2629,7 @@ func ContainerAttachedCustomEndpointInput() *string
 
 ---
 
-##### `ContainerAwsCustomEndpointInput`<sup>Optional</sup> <a name="ContainerAwsCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.containerAwsCustomEndpointInput"></a>
+##### `ContainerAwsCustomEndpointInput`<sup>Optional</sup> <a name="ContainerAwsCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.containerAwsCustomEndpointInput"></a>
 
 ```go
 func ContainerAwsCustomEndpointInput() *string
@@ -2639,7 +2639,7 @@ func ContainerAwsCustomEndpointInput() *string
 
 ---
 
-##### `ContainerAzureCustomEndpointInput`<sup>Optional</sup> <a name="ContainerAzureCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.containerAzureCustomEndpointInput"></a>
+##### `ContainerAzureCustomEndpointInput`<sup>Optional</sup> <a name="ContainerAzureCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.containerAzureCustomEndpointInput"></a>
 
 ```go
 func ContainerAzureCustomEndpointInput() *string
@@ -2649,7 +2649,7 @@ func ContainerAzureCustomEndpointInput() *string
 
 ---
 
-##### `ContainerCustomEndpointInput`<sup>Optional</sup> <a name="ContainerCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.containerCustomEndpointInput"></a>
+##### `ContainerCustomEndpointInput`<sup>Optional</sup> <a name="ContainerCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.containerCustomEndpointInput"></a>
 
 ```go
 func ContainerCustomEndpointInput() *string
@@ -2659,7 +2659,7 @@ func ContainerCustomEndpointInput() *string
 
 ---
 
-##### `CoreBillingCustomEndpointInput`<sup>Optional</sup> <a name="CoreBillingCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.coreBillingCustomEndpointInput"></a>
+##### `CoreBillingCustomEndpointInput`<sup>Optional</sup> <a name="CoreBillingCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.coreBillingCustomEndpointInput"></a>
 
 ```go
 func CoreBillingCustomEndpointInput() *string
@@ -2669,7 +2669,7 @@ func CoreBillingCustomEndpointInput() *string
 
 ---
 
-##### `CredentialsInput`<sup>Optional</sup> <a name="CredentialsInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.credentialsInput"></a>
+##### `CredentialsInput`<sup>Optional</sup> <a name="CredentialsInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.credentialsInput"></a>
 
 ```go
 func CredentialsInput() *string
@@ -2679,7 +2679,7 @@ func CredentialsInput() *string
 
 ---
 
-##### `DatabaseMigrationServiceCustomEndpointInput`<sup>Optional</sup> <a name="DatabaseMigrationServiceCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.databaseMigrationServiceCustomEndpointInput"></a>
+##### `DatabaseMigrationServiceCustomEndpointInput`<sup>Optional</sup> <a name="DatabaseMigrationServiceCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.databaseMigrationServiceCustomEndpointInput"></a>
 
 ```go
 func DatabaseMigrationServiceCustomEndpointInput() *string
@@ -2689,7 +2689,7 @@ func DatabaseMigrationServiceCustomEndpointInput() *string
 
 ---
 
-##### `DataCatalogCustomEndpointInput`<sup>Optional</sup> <a name="DataCatalogCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dataCatalogCustomEndpointInput"></a>
+##### `DataCatalogCustomEndpointInput`<sup>Optional</sup> <a name="DataCatalogCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dataCatalogCustomEndpointInput"></a>
 
 ```go
 func DataCatalogCustomEndpointInput() *string
@@ -2699,7 +2699,7 @@ func DataCatalogCustomEndpointInput() *string
 
 ---
 
-##### `DataflowCustomEndpointInput`<sup>Optional</sup> <a name="DataflowCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dataflowCustomEndpointInput"></a>
+##### `DataflowCustomEndpointInput`<sup>Optional</sup> <a name="DataflowCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dataflowCustomEndpointInput"></a>
 
 ```go
 func DataflowCustomEndpointInput() *string
@@ -2709,7 +2709,7 @@ func DataflowCustomEndpointInput() *string
 
 ---
 
-##### `DataformCustomEndpointInput`<sup>Optional</sup> <a name="DataformCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dataformCustomEndpointInput"></a>
+##### `DataformCustomEndpointInput`<sup>Optional</sup> <a name="DataformCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dataformCustomEndpointInput"></a>
 
 ```go
 func DataformCustomEndpointInput() *string
@@ -2719,7 +2719,7 @@ func DataformCustomEndpointInput() *string
 
 ---
 
-##### `DataFusionCustomEndpointInput`<sup>Optional</sup> <a name="DataFusionCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dataFusionCustomEndpointInput"></a>
+##### `DataFusionCustomEndpointInput`<sup>Optional</sup> <a name="DataFusionCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dataFusionCustomEndpointInput"></a>
 
 ```go
 func DataFusionCustomEndpointInput() *string
@@ -2729,7 +2729,7 @@ func DataFusionCustomEndpointInput() *string
 
 ---
 
-##### `DataLossPreventionCustomEndpointInput`<sup>Optional</sup> <a name="DataLossPreventionCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dataLossPreventionCustomEndpointInput"></a>
+##### `DataLossPreventionCustomEndpointInput`<sup>Optional</sup> <a name="DataLossPreventionCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dataLossPreventionCustomEndpointInput"></a>
 
 ```go
 func DataLossPreventionCustomEndpointInput() *string
@@ -2739,7 +2739,7 @@ func DataLossPreventionCustomEndpointInput() *string
 
 ---
 
-##### `DataPipelineCustomEndpointInput`<sup>Optional</sup> <a name="DataPipelineCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dataPipelineCustomEndpointInput"></a>
+##### `DataPipelineCustomEndpointInput`<sup>Optional</sup> <a name="DataPipelineCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dataPipelineCustomEndpointInput"></a>
 
 ```go
 func DataPipelineCustomEndpointInput() *string
@@ -2749,7 +2749,7 @@ func DataPipelineCustomEndpointInput() *string
 
 ---
 
-##### `DataplexCustomEndpointInput`<sup>Optional</sup> <a name="DataplexCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dataplexCustomEndpointInput"></a>
+##### `DataplexCustomEndpointInput`<sup>Optional</sup> <a name="DataplexCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dataplexCustomEndpointInput"></a>
 
 ```go
 func DataplexCustomEndpointInput() *string
@@ -2759,7 +2759,7 @@ func DataplexCustomEndpointInput() *string
 
 ---
 
-##### `DataprocCustomEndpointInput`<sup>Optional</sup> <a name="DataprocCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dataprocCustomEndpointInput"></a>
+##### `DataprocCustomEndpointInput`<sup>Optional</sup> <a name="DataprocCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dataprocCustomEndpointInput"></a>
 
 ```go
 func DataprocCustomEndpointInput() *string
@@ -2769,7 +2769,7 @@ func DataprocCustomEndpointInput() *string
 
 ---
 
-##### `DataprocGdcCustomEndpointInput`<sup>Optional</sup> <a name="DataprocGdcCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dataprocGdcCustomEndpointInput"></a>
+##### `DataprocGdcCustomEndpointInput`<sup>Optional</sup> <a name="DataprocGdcCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dataprocGdcCustomEndpointInput"></a>
 
 ```go
 func DataprocGdcCustomEndpointInput() *string
@@ -2779,7 +2779,7 @@ func DataprocGdcCustomEndpointInput() *string
 
 ---
 
-##### `DataprocMetastoreCustomEndpointInput`<sup>Optional</sup> <a name="DataprocMetastoreCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dataprocMetastoreCustomEndpointInput"></a>
+##### `DataprocMetastoreCustomEndpointInput`<sup>Optional</sup> <a name="DataprocMetastoreCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dataprocMetastoreCustomEndpointInput"></a>
 
 ```go
 func DataprocMetastoreCustomEndpointInput() *string
@@ -2789,7 +2789,7 @@ func DataprocMetastoreCustomEndpointInput() *string
 
 ---
 
-##### `DatastreamCustomEndpointInput`<sup>Optional</sup> <a name="DatastreamCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.datastreamCustomEndpointInput"></a>
+##### `DatastreamCustomEndpointInput`<sup>Optional</sup> <a name="DatastreamCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.datastreamCustomEndpointInput"></a>
 
 ```go
 func DatastreamCustomEndpointInput() *string
@@ -2799,7 +2799,7 @@ func DatastreamCustomEndpointInput() *string
 
 ---
 
-##### `DefaultLabelsInput`<sup>Optional</sup> <a name="DefaultLabelsInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.defaultLabelsInput"></a>
+##### `DefaultLabelsInput`<sup>Optional</sup> <a name="DefaultLabelsInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.defaultLabelsInput"></a>
 
 ```go
 func DefaultLabelsInput() *map[string]*string
@@ -2809,7 +2809,7 @@ func DefaultLabelsInput() *map[string]*string
 
 ---
 
-##### `DeploymentManagerCustomEndpointInput`<sup>Optional</sup> <a name="DeploymentManagerCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.deploymentManagerCustomEndpointInput"></a>
+##### `DeploymentManagerCustomEndpointInput`<sup>Optional</sup> <a name="DeploymentManagerCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.deploymentManagerCustomEndpointInput"></a>
 
 ```go
 func DeploymentManagerCustomEndpointInput() *string
@@ -2819,7 +2819,7 @@ func DeploymentManagerCustomEndpointInput() *string
 
 ---
 
-##### `DeveloperConnectCustomEndpointInput`<sup>Optional</sup> <a name="DeveloperConnectCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.developerConnectCustomEndpointInput"></a>
+##### `DeveloperConnectCustomEndpointInput`<sup>Optional</sup> <a name="DeveloperConnectCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.developerConnectCustomEndpointInput"></a>
 
 ```go
 func DeveloperConnectCustomEndpointInput() *string
@@ -2829,7 +2829,7 @@ func DeveloperConnectCustomEndpointInput() *string
 
 ---
 
-##### `DialogflowCustomEndpointInput`<sup>Optional</sup> <a name="DialogflowCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dialogflowCustomEndpointInput"></a>
+##### `DialogflowCustomEndpointInput`<sup>Optional</sup> <a name="DialogflowCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dialogflowCustomEndpointInput"></a>
 
 ```go
 func DialogflowCustomEndpointInput() *string
@@ -2839,7 +2839,7 @@ func DialogflowCustomEndpointInput() *string
 
 ---
 
-##### `DialogflowCxCustomEndpointInput`<sup>Optional</sup> <a name="DialogflowCxCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dialogflowCxCustomEndpointInput"></a>
+##### `DialogflowCxCustomEndpointInput`<sup>Optional</sup> <a name="DialogflowCxCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dialogflowCxCustomEndpointInput"></a>
 
 ```go
 func DialogflowCxCustomEndpointInput() *string
@@ -2849,7 +2849,7 @@ func DialogflowCxCustomEndpointInput() *string
 
 ---
 
-##### `DiscoveryEngineCustomEndpointInput`<sup>Optional</sup> <a name="DiscoveryEngineCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.discoveryEngineCustomEndpointInput"></a>
+##### `DiscoveryEngineCustomEndpointInput`<sup>Optional</sup> <a name="DiscoveryEngineCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.discoveryEngineCustomEndpointInput"></a>
 
 ```go
 func DiscoveryEngineCustomEndpointInput() *string
@@ -2859,7 +2859,7 @@ func DiscoveryEngineCustomEndpointInput() *string
 
 ---
 
-##### `DnsCustomEndpointInput`<sup>Optional</sup> <a name="DnsCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dnsCustomEndpointInput"></a>
+##### `DnsCustomEndpointInput`<sup>Optional</sup> <a name="DnsCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dnsCustomEndpointInput"></a>
 
 ```go
 func DnsCustomEndpointInput() *string
@@ -2869,7 +2869,7 @@ func DnsCustomEndpointInput() *string
 
 ---
 
-##### `DocumentAiCustomEndpointInput`<sup>Optional</sup> <a name="DocumentAiCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.documentAiCustomEndpointInput"></a>
+##### `DocumentAiCustomEndpointInput`<sup>Optional</sup> <a name="DocumentAiCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.documentAiCustomEndpointInput"></a>
 
 ```go
 func DocumentAiCustomEndpointInput() *string
@@ -2879,7 +2879,7 @@ func DocumentAiCustomEndpointInput() *string
 
 ---
 
-##### `DocumentAiWarehouseCustomEndpointInput`<sup>Optional</sup> <a name="DocumentAiWarehouseCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.documentAiWarehouseCustomEndpointInput"></a>
+##### `DocumentAiWarehouseCustomEndpointInput`<sup>Optional</sup> <a name="DocumentAiWarehouseCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.documentAiWarehouseCustomEndpointInput"></a>
 
 ```go
 func DocumentAiWarehouseCustomEndpointInput() *string
@@ -2889,7 +2889,7 @@ func DocumentAiWarehouseCustomEndpointInput() *string
 
 ---
 
-##### `EdgecontainerCustomEndpointInput`<sup>Optional</sup> <a name="EdgecontainerCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.edgecontainerCustomEndpointInput"></a>
+##### `EdgecontainerCustomEndpointInput`<sup>Optional</sup> <a name="EdgecontainerCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.edgecontainerCustomEndpointInput"></a>
 
 ```go
 func EdgecontainerCustomEndpointInput() *string
@@ -2899,7 +2899,7 @@ func EdgecontainerCustomEndpointInput() *string
 
 ---
 
-##### `EdgenetworkCustomEndpointInput`<sup>Optional</sup> <a name="EdgenetworkCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.edgenetworkCustomEndpointInput"></a>
+##### `EdgenetworkCustomEndpointInput`<sup>Optional</sup> <a name="EdgenetworkCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.edgenetworkCustomEndpointInput"></a>
 
 ```go
 func EdgenetworkCustomEndpointInput() *string
@@ -2909,7 +2909,7 @@ func EdgenetworkCustomEndpointInput() *string
 
 ---
 
-##### `EssentialContactsCustomEndpointInput`<sup>Optional</sup> <a name="EssentialContactsCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.essentialContactsCustomEndpointInput"></a>
+##### `EssentialContactsCustomEndpointInput`<sup>Optional</sup> <a name="EssentialContactsCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.essentialContactsCustomEndpointInput"></a>
 
 ```go
 func EssentialContactsCustomEndpointInput() *string
@@ -2919,7 +2919,7 @@ func EssentialContactsCustomEndpointInput() *string
 
 ---
 
-##### `EventarcCustomEndpointInput`<sup>Optional</sup> <a name="EventarcCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.eventarcCustomEndpointInput"></a>
+##### `EventarcCustomEndpointInput`<sup>Optional</sup> <a name="EventarcCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.eventarcCustomEndpointInput"></a>
 
 ```go
 func EventarcCustomEndpointInput() *string
@@ -2929,7 +2929,7 @@ func EventarcCustomEndpointInput() *string
 
 ---
 
-##### `ExternalCredentialsInput`<sup>Optional</sup> <a name="ExternalCredentialsInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.externalCredentialsInput"></a>
+##### `ExternalCredentialsInput`<sup>Optional</sup> <a name="ExternalCredentialsInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.externalCredentialsInput"></a>
 
 ```go
 func ExternalCredentialsInput() interface{}
@@ -2939,7 +2939,7 @@ func ExternalCredentialsInput() interface{}
 
 ---
 
-##### `FilestoreCustomEndpointInput`<sup>Optional</sup> <a name="FilestoreCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.filestoreCustomEndpointInput"></a>
+##### `FilestoreCustomEndpointInput`<sup>Optional</sup> <a name="FilestoreCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.filestoreCustomEndpointInput"></a>
 
 ```go
 func FilestoreCustomEndpointInput() *string
@@ -2949,7 +2949,7 @@ func FilestoreCustomEndpointInput() *string
 
 ---
 
-##### `FirebaseAppCheckCustomEndpointInput`<sup>Optional</sup> <a name="FirebaseAppCheckCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.firebaseAppCheckCustomEndpointInput"></a>
+##### `FirebaseAppCheckCustomEndpointInput`<sup>Optional</sup> <a name="FirebaseAppCheckCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.firebaseAppCheckCustomEndpointInput"></a>
 
 ```go
 func FirebaseAppCheckCustomEndpointInput() *string
@@ -2959,7 +2959,7 @@ func FirebaseAppCheckCustomEndpointInput() *string
 
 ---
 
-##### `FirebaseAppHostingCustomEndpointInput`<sup>Optional</sup> <a name="FirebaseAppHostingCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.firebaseAppHostingCustomEndpointInput"></a>
+##### `FirebaseAppHostingCustomEndpointInput`<sup>Optional</sup> <a name="FirebaseAppHostingCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.firebaseAppHostingCustomEndpointInput"></a>
 
 ```go
 func FirebaseAppHostingCustomEndpointInput() *string
@@ -2969,7 +2969,7 @@ func FirebaseAppHostingCustomEndpointInput() *string
 
 ---
 
-##### `FirebaseCustomEndpointInput`<sup>Optional</sup> <a name="FirebaseCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.firebaseCustomEndpointInput"></a>
+##### `FirebaseCustomEndpointInput`<sup>Optional</sup> <a name="FirebaseCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.firebaseCustomEndpointInput"></a>
 
 ```go
 func FirebaseCustomEndpointInput() *string
@@ -2979,7 +2979,7 @@ func FirebaseCustomEndpointInput() *string
 
 ---
 
-##### `FirebaseDatabaseCustomEndpointInput`<sup>Optional</sup> <a name="FirebaseDatabaseCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.firebaseDatabaseCustomEndpointInput"></a>
+##### `FirebaseDatabaseCustomEndpointInput`<sup>Optional</sup> <a name="FirebaseDatabaseCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.firebaseDatabaseCustomEndpointInput"></a>
 
 ```go
 func FirebaseDatabaseCustomEndpointInput() *string
@@ -2989,7 +2989,7 @@ func FirebaseDatabaseCustomEndpointInput() *string
 
 ---
 
-##### `FirebaseDataConnectCustomEndpointInput`<sup>Optional</sup> <a name="FirebaseDataConnectCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.firebaseDataConnectCustomEndpointInput"></a>
+##### `FirebaseDataConnectCustomEndpointInput`<sup>Optional</sup> <a name="FirebaseDataConnectCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.firebaseDataConnectCustomEndpointInput"></a>
 
 ```go
 func FirebaseDataConnectCustomEndpointInput() *string
@@ -2999,7 +2999,7 @@ func FirebaseDataConnectCustomEndpointInput() *string
 
 ---
 
-##### `FirebaseExtensionsCustomEndpointInput`<sup>Optional</sup> <a name="FirebaseExtensionsCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.firebaseExtensionsCustomEndpointInput"></a>
+##### `FirebaseExtensionsCustomEndpointInput`<sup>Optional</sup> <a name="FirebaseExtensionsCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.firebaseExtensionsCustomEndpointInput"></a>
 
 ```go
 func FirebaseExtensionsCustomEndpointInput() *string
@@ -3009,7 +3009,7 @@ func FirebaseExtensionsCustomEndpointInput() *string
 
 ---
 
-##### `FirebaseHostingCustomEndpointInput`<sup>Optional</sup> <a name="FirebaseHostingCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.firebaseHostingCustomEndpointInput"></a>
+##### `FirebaseHostingCustomEndpointInput`<sup>Optional</sup> <a name="FirebaseHostingCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.firebaseHostingCustomEndpointInput"></a>
 
 ```go
 func FirebaseHostingCustomEndpointInput() *string
@@ -3019,7 +3019,7 @@ func FirebaseHostingCustomEndpointInput() *string
 
 ---
 
-##### `FirebaserulesCustomEndpointInput`<sup>Optional</sup> <a name="FirebaserulesCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.firebaserulesCustomEndpointInput"></a>
+##### `FirebaserulesCustomEndpointInput`<sup>Optional</sup> <a name="FirebaserulesCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.firebaserulesCustomEndpointInput"></a>
 
 ```go
 func FirebaserulesCustomEndpointInput() *string
@@ -3029,7 +3029,7 @@ func FirebaserulesCustomEndpointInput() *string
 
 ---
 
-##### `FirebaseStorageCustomEndpointInput`<sup>Optional</sup> <a name="FirebaseStorageCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.firebaseStorageCustomEndpointInput"></a>
+##### `FirebaseStorageCustomEndpointInput`<sup>Optional</sup> <a name="FirebaseStorageCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.firebaseStorageCustomEndpointInput"></a>
 
 ```go
 func FirebaseStorageCustomEndpointInput() *string
@@ -3039,7 +3039,7 @@ func FirebaseStorageCustomEndpointInput() *string
 
 ---
 
-##### `FirestoreCustomEndpointInput`<sup>Optional</sup> <a name="FirestoreCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.firestoreCustomEndpointInput"></a>
+##### `FirestoreCustomEndpointInput`<sup>Optional</sup> <a name="FirestoreCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.firestoreCustomEndpointInput"></a>
 
 ```go
 func FirestoreCustomEndpointInput() *string
@@ -3049,7 +3049,7 @@ func FirestoreCustomEndpointInput() *string
 
 ---
 
-##### `GeminiCustomEndpointInput`<sup>Optional</sup> <a name="GeminiCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.geminiCustomEndpointInput"></a>
+##### `GeminiCustomEndpointInput`<sup>Optional</sup> <a name="GeminiCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.geminiCustomEndpointInput"></a>
 
 ```go
 func GeminiCustomEndpointInput() *string
@@ -3059,7 +3059,7 @@ func GeminiCustomEndpointInput() *string
 
 ---
 
-##### `GkeBackupCustomEndpointInput`<sup>Optional</sup> <a name="GkeBackupCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.gkeBackupCustomEndpointInput"></a>
+##### `GkeBackupCustomEndpointInput`<sup>Optional</sup> <a name="GkeBackupCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.gkeBackupCustomEndpointInput"></a>
 
 ```go
 func GkeBackupCustomEndpointInput() *string
@@ -3069,7 +3069,7 @@ func GkeBackupCustomEndpointInput() *string
 
 ---
 
-##### `GkeHub2CustomEndpointInput`<sup>Optional</sup> <a name="GkeHub2CustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.gkeHub2CustomEndpointInput"></a>
+##### `GkeHub2CustomEndpointInput`<sup>Optional</sup> <a name="GkeHub2CustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.gkeHub2CustomEndpointInput"></a>
 
 ```go
 func GkeHub2CustomEndpointInput() *string
@@ -3079,7 +3079,7 @@ func GkeHub2CustomEndpointInput() *string
 
 ---
 
-##### `GkeHubCustomEndpointInput`<sup>Optional</sup> <a name="GkeHubCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.gkeHubCustomEndpointInput"></a>
+##### `GkeHubCustomEndpointInput`<sup>Optional</sup> <a name="GkeHubCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.gkeHubCustomEndpointInput"></a>
 
 ```go
 func GkeHubCustomEndpointInput() *string
@@ -3089,7 +3089,7 @@ func GkeHubCustomEndpointInput() *string
 
 ---
 
-##### `GkeonpremCustomEndpointInput`<sup>Optional</sup> <a name="GkeonpremCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.gkeonpremCustomEndpointInput"></a>
+##### `GkeonpremCustomEndpointInput`<sup>Optional</sup> <a name="GkeonpremCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.gkeonpremCustomEndpointInput"></a>
 
 ```go
 func GkeonpremCustomEndpointInput() *string
@@ -3099,7 +3099,7 @@ func GkeonpremCustomEndpointInput() *string
 
 ---
 
-##### `HealthcareCustomEndpointInput`<sup>Optional</sup> <a name="HealthcareCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.healthcareCustomEndpointInput"></a>
+##### `HealthcareCustomEndpointInput`<sup>Optional</sup> <a name="HealthcareCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.healthcareCustomEndpointInput"></a>
 
 ```go
 func HealthcareCustomEndpointInput() *string
@@ -3109,7 +3109,7 @@ func HealthcareCustomEndpointInput() *string
 
 ---
 
-##### `Iam2CustomEndpointInput`<sup>Optional</sup> <a name="Iam2CustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.iam2CustomEndpointInput"></a>
+##### `Iam2CustomEndpointInput`<sup>Optional</sup> <a name="Iam2CustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.iam2CustomEndpointInput"></a>
 
 ```go
 func Iam2CustomEndpointInput() *string
@@ -3119,7 +3119,7 @@ func Iam2CustomEndpointInput() *string
 
 ---
 
-##### `Iam3CustomEndpointInput`<sup>Optional</sup> <a name="Iam3CustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.iam3CustomEndpointInput"></a>
+##### `Iam3CustomEndpointInput`<sup>Optional</sup> <a name="Iam3CustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.iam3CustomEndpointInput"></a>
 
 ```go
 func Iam3CustomEndpointInput() *string
@@ -3129,7 +3129,7 @@ func Iam3CustomEndpointInput() *string
 
 ---
 
-##### `IamBetaCustomEndpointInput`<sup>Optional</sup> <a name="IamBetaCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.iamBetaCustomEndpointInput"></a>
+##### `IamBetaCustomEndpointInput`<sup>Optional</sup> <a name="IamBetaCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.iamBetaCustomEndpointInput"></a>
 
 ```go
 func IamBetaCustomEndpointInput() *string
@@ -3139,7 +3139,7 @@ func IamBetaCustomEndpointInput() *string
 
 ---
 
-##### `IamCredentialsCustomEndpointInput`<sup>Optional</sup> <a name="IamCredentialsCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.iamCredentialsCustomEndpointInput"></a>
+##### `IamCredentialsCustomEndpointInput`<sup>Optional</sup> <a name="IamCredentialsCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.iamCredentialsCustomEndpointInput"></a>
 
 ```go
 func IamCredentialsCustomEndpointInput() *string
@@ -3149,7 +3149,7 @@ func IamCredentialsCustomEndpointInput() *string
 
 ---
 
-##### `IamCustomEndpointInput`<sup>Optional</sup> <a name="IamCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.iamCustomEndpointInput"></a>
+##### `IamCustomEndpointInput`<sup>Optional</sup> <a name="IamCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.iamCustomEndpointInput"></a>
 
 ```go
 func IamCustomEndpointInput() *string
@@ -3159,7 +3159,7 @@ func IamCustomEndpointInput() *string
 
 ---
 
-##### `IamWorkforcePoolCustomEndpointInput`<sup>Optional</sup> <a name="IamWorkforcePoolCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.iamWorkforcePoolCustomEndpointInput"></a>
+##### `IamWorkforcePoolCustomEndpointInput`<sup>Optional</sup> <a name="IamWorkforcePoolCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.iamWorkforcePoolCustomEndpointInput"></a>
 
 ```go
 func IamWorkforcePoolCustomEndpointInput() *string
@@ -3169,7 +3169,7 @@ func IamWorkforcePoolCustomEndpointInput() *string
 
 ---
 
-##### `IapCustomEndpointInput`<sup>Optional</sup> <a name="IapCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.iapCustomEndpointInput"></a>
+##### `IapCustomEndpointInput`<sup>Optional</sup> <a name="IapCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.iapCustomEndpointInput"></a>
 
 ```go
 func IapCustomEndpointInput() *string
@@ -3179,7 +3179,7 @@ func IapCustomEndpointInput() *string
 
 ---
 
-##### `IdentityPlatformCustomEndpointInput`<sup>Optional</sup> <a name="IdentityPlatformCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.identityPlatformCustomEndpointInput"></a>
+##### `IdentityPlatformCustomEndpointInput`<sup>Optional</sup> <a name="IdentityPlatformCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.identityPlatformCustomEndpointInput"></a>
 
 ```go
 func IdentityPlatformCustomEndpointInput() *string
@@ -3189,7 +3189,7 @@ func IdentityPlatformCustomEndpointInput() *string
 
 ---
 
-##### `ImpersonateServiceAccountDelegatesInput`<sup>Optional</sup> <a name="ImpersonateServiceAccountDelegatesInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.impersonateServiceAccountDelegatesInput"></a>
+##### `ImpersonateServiceAccountDelegatesInput`<sup>Optional</sup> <a name="ImpersonateServiceAccountDelegatesInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.impersonateServiceAccountDelegatesInput"></a>
 
 ```go
 func ImpersonateServiceAccountDelegatesInput() *[]*string
@@ -3199,7 +3199,7 @@ func ImpersonateServiceAccountDelegatesInput() *[]*string
 
 ---
 
-##### `ImpersonateServiceAccountInput`<sup>Optional</sup> <a name="ImpersonateServiceAccountInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.impersonateServiceAccountInput"></a>
+##### `ImpersonateServiceAccountInput`<sup>Optional</sup> <a name="ImpersonateServiceAccountInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.impersonateServiceAccountInput"></a>
 
 ```go
 func ImpersonateServiceAccountInput() *string
@@ -3209,7 +3209,7 @@ func ImpersonateServiceAccountInput() *string
 
 ---
 
-##### `IntegrationConnectorsCustomEndpointInput`<sup>Optional</sup> <a name="IntegrationConnectorsCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.integrationConnectorsCustomEndpointInput"></a>
+##### `IntegrationConnectorsCustomEndpointInput`<sup>Optional</sup> <a name="IntegrationConnectorsCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.integrationConnectorsCustomEndpointInput"></a>
 
 ```go
 func IntegrationConnectorsCustomEndpointInput() *string
@@ -3219,7 +3219,7 @@ func IntegrationConnectorsCustomEndpointInput() *string
 
 ---
 
-##### `IntegrationsCustomEndpointInput`<sup>Optional</sup> <a name="IntegrationsCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.integrationsCustomEndpointInput"></a>
+##### `IntegrationsCustomEndpointInput`<sup>Optional</sup> <a name="IntegrationsCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.integrationsCustomEndpointInput"></a>
 
 ```go
 func IntegrationsCustomEndpointInput() *string
@@ -3229,7 +3229,7 @@ func IntegrationsCustomEndpointInput() *string
 
 ---
 
-##### `KmsCustomEndpointInput`<sup>Optional</sup> <a name="KmsCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.kmsCustomEndpointInput"></a>
+##### `KmsCustomEndpointInput`<sup>Optional</sup> <a name="KmsCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.kmsCustomEndpointInput"></a>
 
 ```go
 func KmsCustomEndpointInput() *string
@@ -3239,7 +3239,7 @@ func KmsCustomEndpointInput() *string
 
 ---
 
-##### `LoggingCustomEndpointInput`<sup>Optional</sup> <a name="LoggingCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.loggingCustomEndpointInput"></a>
+##### `LoggingCustomEndpointInput`<sup>Optional</sup> <a name="LoggingCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.loggingCustomEndpointInput"></a>
 
 ```go
 func LoggingCustomEndpointInput() *string
@@ -3249,7 +3249,7 @@ func LoggingCustomEndpointInput() *string
 
 ---
 
-##### `LookerCustomEndpointInput`<sup>Optional</sup> <a name="LookerCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.lookerCustomEndpointInput"></a>
+##### `LookerCustomEndpointInput`<sup>Optional</sup> <a name="LookerCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.lookerCustomEndpointInput"></a>
 
 ```go
 func LookerCustomEndpointInput() *string
@@ -3259,7 +3259,7 @@ func LookerCustomEndpointInput() *string
 
 ---
 
-##### `LustreCustomEndpointInput`<sup>Optional</sup> <a name="LustreCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.lustreCustomEndpointInput"></a>
+##### `LustreCustomEndpointInput`<sup>Optional</sup> <a name="LustreCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.lustreCustomEndpointInput"></a>
 
 ```go
 func LustreCustomEndpointInput() *string
@@ -3269,7 +3269,7 @@ func LustreCustomEndpointInput() *string
 
 ---
 
-##### `ManagedKafkaCustomEndpointInput`<sup>Optional</sup> <a name="ManagedKafkaCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.managedKafkaCustomEndpointInput"></a>
+##### `ManagedKafkaCustomEndpointInput`<sup>Optional</sup> <a name="ManagedKafkaCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.managedKafkaCustomEndpointInput"></a>
 
 ```go
 func ManagedKafkaCustomEndpointInput() *string
@@ -3279,7 +3279,7 @@ func ManagedKafkaCustomEndpointInput() *string
 
 ---
 
-##### `MemcacheCustomEndpointInput`<sup>Optional</sup> <a name="MemcacheCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.memcacheCustomEndpointInput"></a>
+##### `MemcacheCustomEndpointInput`<sup>Optional</sup> <a name="MemcacheCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.memcacheCustomEndpointInput"></a>
 
 ```go
 func MemcacheCustomEndpointInput() *string
@@ -3289,7 +3289,7 @@ func MemcacheCustomEndpointInput() *string
 
 ---
 
-##### `MemorystoreCustomEndpointInput`<sup>Optional</sup> <a name="MemorystoreCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.memorystoreCustomEndpointInput"></a>
+##### `MemorystoreCustomEndpointInput`<sup>Optional</sup> <a name="MemorystoreCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.memorystoreCustomEndpointInput"></a>
 
 ```go
 func MemorystoreCustomEndpointInput() *string
@@ -3299,7 +3299,7 @@ func MemorystoreCustomEndpointInput() *string
 
 ---
 
-##### `MigrationCenterCustomEndpointInput`<sup>Optional</sup> <a name="MigrationCenterCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.migrationCenterCustomEndpointInput"></a>
+##### `MigrationCenterCustomEndpointInput`<sup>Optional</sup> <a name="MigrationCenterCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.migrationCenterCustomEndpointInput"></a>
 
 ```go
 func MigrationCenterCustomEndpointInput() *string
@@ -3309,7 +3309,7 @@ func MigrationCenterCustomEndpointInput() *string
 
 ---
 
-##### `MlEngineCustomEndpointInput`<sup>Optional</sup> <a name="MlEngineCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.mlEngineCustomEndpointInput"></a>
+##### `MlEngineCustomEndpointInput`<sup>Optional</sup> <a name="MlEngineCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.mlEngineCustomEndpointInput"></a>
 
 ```go
 func MlEngineCustomEndpointInput() *string
@@ -3319,7 +3319,7 @@ func MlEngineCustomEndpointInput() *string
 
 ---
 
-##### `ModelArmorCustomEndpointInput`<sup>Optional</sup> <a name="ModelArmorCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.modelArmorCustomEndpointInput"></a>
+##### `ModelArmorCustomEndpointInput`<sup>Optional</sup> <a name="ModelArmorCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.modelArmorCustomEndpointInput"></a>
 
 ```go
 func ModelArmorCustomEndpointInput() *string
@@ -3329,7 +3329,7 @@ func ModelArmorCustomEndpointInput() *string
 
 ---
 
-##### `ModelArmorGlobalCustomEndpointInput`<sup>Optional</sup> <a name="ModelArmorGlobalCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.modelArmorGlobalCustomEndpointInput"></a>
+##### `ModelArmorGlobalCustomEndpointInput`<sup>Optional</sup> <a name="ModelArmorGlobalCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.modelArmorGlobalCustomEndpointInput"></a>
 
 ```go
 func ModelArmorGlobalCustomEndpointInput() *string
@@ -3339,7 +3339,7 @@ func ModelArmorGlobalCustomEndpointInput() *string
 
 ---
 
-##### `MonitoringCustomEndpointInput`<sup>Optional</sup> <a name="MonitoringCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.monitoringCustomEndpointInput"></a>
+##### `MonitoringCustomEndpointInput`<sup>Optional</sup> <a name="MonitoringCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.monitoringCustomEndpointInput"></a>
 
 ```go
 func MonitoringCustomEndpointInput() *string
@@ -3349,7 +3349,7 @@ func MonitoringCustomEndpointInput() *string
 
 ---
 
-##### `NetappCustomEndpointInput`<sup>Optional</sup> <a name="NetappCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.netappCustomEndpointInput"></a>
+##### `NetappCustomEndpointInput`<sup>Optional</sup> <a name="NetappCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.netappCustomEndpointInput"></a>
 
 ```go
 func NetappCustomEndpointInput() *string
@@ -3359,7 +3359,7 @@ func NetappCustomEndpointInput() *string
 
 ---
 
-##### `NetworkConnectivityCustomEndpointInput`<sup>Optional</sup> <a name="NetworkConnectivityCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.networkConnectivityCustomEndpointInput"></a>
+##### `NetworkConnectivityCustomEndpointInput`<sup>Optional</sup> <a name="NetworkConnectivityCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.networkConnectivityCustomEndpointInput"></a>
 
 ```go
 func NetworkConnectivityCustomEndpointInput() *string
@@ -3369,7 +3369,7 @@ func NetworkConnectivityCustomEndpointInput() *string
 
 ---
 
-##### `NetworkManagementCustomEndpointInput`<sup>Optional</sup> <a name="NetworkManagementCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.networkManagementCustomEndpointInput"></a>
+##### `NetworkManagementCustomEndpointInput`<sup>Optional</sup> <a name="NetworkManagementCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.networkManagementCustomEndpointInput"></a>
 
 ```go
 func NetworkManagementCustomEndpointInput() *string
@@ -3379,7 +3379,7 @@ func NetworkManagementCustomEndpointInput() *string
 
 ---
 
-##### `NetworkSecurityCustomEndpointInput`<sup>Optional</sup> <a name="NetworkSecurityCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.networkSecurityCustomEndpointInput"></a>
+##### `NetworkSecurityCustomEndpointInput`<sup>Optional</sup> <a name="NetworkSecurityCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.networkSecurityCustomEndpointInput"></a>
 
 ```go
 func NetworkSecurityCustomEndpointInput() *string
@@ -3389,7 +3389,7 @@ func NetworkSecurityCustomEndpointInput() *string
 
 ---
 
-##### `NetworkServicesCustomEndpointInput`<sup>Optional</sup> <a name="NetworkServicesCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.networkServicesCustomEndpointInput"></a>
+##### `NetworkServicesCustomEndpointInput`<sup>Optional</sup> <a name="NetworkServicesCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.networkServicesCustomEndpointInput"></a>
 
 ```go
 func NetworkServicesCustomEndpointInput() *string
@@ -3399,7 +3399,7 @@ func NetworkServicesCustomEndpointInput() *string
 
 ---
 
-##### `NotebooksCustomEndpointInput`<sup>Optional</sup> <a name="NotebooksCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.notebooksCustomEndpointInput"></a>
+##### `NotebooksCustomEndpointInput`<sup>Optional</sup> <a name="NotebooksCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.notebooksCustomEndpointInput"></a>
 
 ```go
 func NotebooksCustomEndpointInput() *string
@@ -3409,7 +3409,7 @@ func NotebooksCustomEndpointInput() *string
 
 ---
 
-##### `OracleDatabaseCustomEndpointInput`<sup>Optional</sup> <a name="OracleDatabaseCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.oracleDatabaseCustomEndpointInput"></a>
+##### `OracleDatabaseCustomEndpointInput`<sup>Optional</sup> <a name="OracleDatabaseCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.oracleDatabaseCustomEndpointInput"></a>
 
 ```go
 func OracleDatabaseCustomEndpointInput() *string
@@ -3419,7 +3419,7 @@ func OracleDatabaseCustomEndpointInput() *string
 
 ---
 
-##### `OrgPolicyCustomEndpointInput`<sup>Optional</sup> <a name="OrgPolicyCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.orgPolicyCustomEndpointInput"></a>
+##### `OrgPolicyCustomEndpointInput`<sup>Optional</sup> <a name="OrgPolicyCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.orgPolicyCustomEndpointInput"></a>
 
 ```go
 func OrgPolicyCustomEndpointInput() *string
@@ -3429,7 +3429,7 @@ func OrgPolicyCustomEndpointInput() *string
 
 ---
 
-##### `OsConfigCustomEndpointInput`<sup>Optional</sup> <a name="OsConfigCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.osConfigCustomEndpointInput"></a>
+##### `OsConfigCustomEndpointInput`<sup>Optional</sup> <a name="OsConfigCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.osConfigCustomEndpointInput"></a>
 
 ```go
 func OsConfigCustomEndpointInput() *string
@@ -3439,7 +3439,7 @@ func OsConfigCustomEndpointInput() *string
 
 ---
 
-##### `OsConfigV2CustomEndpointInput`<sup>Optional</sup> <a name="OsConfigV2CustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.osConfigV2CustomEndpointInput"></a>
+##### `OsConfigV2CustomEndpointInput`<sup>Optional</sup> <a name="OsConfigV2CustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.osConfigV2CustomEndpointInput"></a>
 
 ```go
 func OsConfigV2CustomEndpointInput() *string
@@ -3449,7 +3449,7 @@ func OsConfigV2CustomEndpointInput() *string
 
 ---
 
-##### `OsLoginCustomEndpointInput`<sup>Optional</sup> <a name="OsLoginCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.osLoginCustomEndpointInput"></a>
+##### `OsLoginCustomEndpointInput`<sup>Optional</sup> <a name="OsLoginCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.osLoginCustomEndpointInput"></a>
 
 ```go
 func OsLoginCustomEndpointInput() *string
@@ -3459,7 +3459,7 @@ func OsLoginCustomEndpointInput() *string
 
 ---
 
-##### `ParallelstoreCustomEndpointInput`<sup>Optional</sup> <a name="ParallelstoreCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.parallelstoreCustomEndpointInput"></a>
+##### `ParallelstoreCustomEndpointInput`<sup>Optional</sup> <a name="ParallelstoreCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.parallelstoreCustomEndpointInput"></a>
 
 ```go
 func ParallelstoreCustomEndpointInput() *string
@@ -3469,7 +3469,7 @@ func ParallelstoreCustomEndpointInput() *string
 
 ---
 
-##### `ParameterManagerCustomEndpointInput`<sup>Optional</sup> <a name="ParameterManagerCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.parameterManagerCustomEndpointInput"></a>
+##### `ParameterManagerCustomEndpointInput`<sup>Optional</sup> <a name="ParameterManagerCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.parameterManagerCustomEndpointInput"></a>
 
 ```go
 func ParameterManagerCustomEndpointInput() *string
@@ -3479,7 +3479,7 @@ func ParameterManagerCustomEndpointInput() *string
 
 ---
 
-##### `ParameterManagerRegionalCustomEndpointInput`<sup>Optional</sup> <a name="ParameterManagerRegionalCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.parameterManagerRegionalCustomEndpointInput"></a>
+##### `ParameterManagerRegionalCustomEndpointInput`<sup>Optional</sup> <a name="ParameterManagerRegionalCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.parameterManagerRegionalCustomEndpointInput"></a>
 
 ```go
 func ParameterManagerRegionalCustomEndpointInput() *string
@@ -3489,7 +3489,7 @@ func ParameterManagerRegionalCustomEndpointInput() *string
 
 ---
 
-##### `PrivatecaCustomEndpointInput`<sup>Optional</sup> <a name="PrivatecaCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.privatecaCustomEndpointInput"></a>
+##### `PrivatecaCustomEndpointInput`<sup>Optional</sup> <a name="PrivatecaCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.privatecaCustomEndpointInput"></a>
 
 ```go
 func PrivatecaCustomEndpointInput() *string
@@ -3499,7 +3499,7 @@ func PrivatecaCustomEndpointInput() *string
 
 ---
 
-##### `PrivilegedAccessManagerCustomEndpointInput`<sup>Optional</sup> <a name="PrivilegedAccessManagerCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.privilegedAccessManagerCustomEndpointInput"></a>
+##### `PrivilegedAccessManagerCustomEndpointInput`<sup>Optional</sup> <a name="PrivilegedAccessManagerCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.privilegedAccessManagerCustomEndpointInput"></a>
 
 ```go
 func PrivilegedAccessManagerCustomEndpointInput() *string
@@ -3509,7 +3509,7 @@ func PrivilegedAccessManagerCustomEndpointInput() *string
 
 ---
 
-##### `ProjectInput`<sup>Optional</sup> <a name="ProjectInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.projectInput"></a>
+##### `ProjectInput`<sup>Optional</sup> <a name="ProjectInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.projectInput"></a>
 
 ```go
 func ProjectInput() *string
@@ -3519,7 +3519,7 @@ func ProjectInput() *string
 
 ---
 
-##### `PublicCaCustomEndpointInput`<sup>Optional</sup> <a name="PublicCaCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.publicCaCustomEndpointInput"></a>
+##### `PublicCaCustomEndpointInput`<sup>Optional</sup> <a name="PublicCaCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.publicCaCustomEndpointInput"></a>
 
 ```go
 func PublicCaCustomEndpointInput() *string
@@ -3529,7 +3529,7 @@ func PublicCaCustomEndpointInput() *string
 
 ---
 
-##### `PubsubCustomEndpointInput`<sup>Optional</sup> <a name="PubsubCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.pubsubCustomEndpointInput"></a>
+##### `PubsubCustomEndpointInput`<sup>Optional</sup> <a name="PubsubCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.pubsubCustomEndpointInput"></a>
 
 ```go
 func PubsubCustomEndpointInput() *string
@@ -3539,7 +3539,7 @@ func PubsubCustomEndpointInput() *string
 
 ---
 
-##### `PubsubLiteCustomEndpointInput`<sup>Optional</sup> <a name="PubsubLiteCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.pubsubLiteCustomEndpointInput"></a>
+##### `PubsubLiteCustomEndpointInput`<sup>Optional</sup> <a name="PubsubLiteCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.pubsubLiteCustomEndpointInput"></a>
 
 ```go
 func PubsubLiteCustomEndpointInput() *string
@@ -3549,7 +3549,7 @@ func PubsubLiteCustomEndpointInput() *string
 
 ---
 
-##### `RecaptchaEnterpriseCustomEndpointInput`<sup>Optional</sup> <a name="RecaptchaEnterpriseCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.recaptchaEnterpriseCustomEndpointInput"></a>
+##### `RecaptchaEnterpriseCustomEndpointInput`<sup>Optional</sup> <a name="RecaptchaEnterpriseCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.recaptchaEnterpriseCustomEndpointInput"></a>
 
 ```go
 func RecaptchaEnterpriseCustomEndpointInput() *string
@@ -3559,7 +3559,7 @@ func RecaptchaEnterpriseCustomEndpointInput() *string
 
 ---
 
-##### `RedisCustomEndpointInput`<sup>Optional</sup> <a name="RedisCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.redisCustomEndpointInput"></a>
+##### `RedisCustomEndpointInput`<sup>Optional</sup> <a name="RedisCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.redisCustomEndpointInput"></a>
 
 ```go
 func RedisCustomEndpointInput() *string
@@ -3569,7 +3569,7 @@ func RedisCustomEndpointInput() *string
 
 ---
 
-##### `RegionInput`<sup>Optional</sup> <a name="RegionInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.regionInput"></a>
+##### `RegionInput`<sup>Optional</sup> <a name="RegionInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.regionInput"></a>
 
 ```go
 func RegionInput() *string
@@ -3579,7 +3579,7 @@ func RegionInput() *string
 
 ---
 
-##### `RequestReasonInput`<sup>Optional</sup> <a name="RequestReasonInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.requestReasonInput"></a>
+##### `RequestReasonInput`<sup>Optional</sup> <a name="RequestReasonInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.requestReasonInput"></a>
 
 ```go
 func RequestReasonInput() *string
@@ -3589,7 +3589,7 @@ func RequestReasonInput() *string
 
 ---
 
-##### `RequestTimeoutInput`<sup>Optional</sup> <a name="RequestTimeoutInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.requestTimeoutInput"></a>
+##### `RequestTimeoutInput`<sup>Optional</sup> <a name="RequestTimeoutInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.requestTimeoutInput"></a>
 
 ```go
 func RequestTimeoutInput() *string
@@ -3599,7 +3599,7 @@ func RequestTimeoutInput() *string
 
 ---
 
-##### `ResourceManager3CustomEndpointInput`<sup>Optional</sup> <a name="ResourceManager3CustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.resourceManager3CustomEndpointInput"></a>
+##### `ResourceManager3CustomEndpointInput`<sup>Optional</sup> <a name="ResourceManager3CustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.resourceManager3CustomEndpointInput"></a>
 
 ```go
 func ResourceManager3CustomEndpointInput() *string
@@ -3609,7 +3609,7 @@ func ResourceManager3CustomEndpointInput() *string
 
 ---
 
-##### `ResourceManagerCustomEndpointInput`<sup>Optional</sup> <a name="ResourceManagerCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.resourceManagerCustomEndpointInput"></a>
+##### `ResourceManagerCustomEndpointInput`<sup>Optional</sup> <a name="ResourceManagerCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.resourceManagerCustomEndpointInput"></a>
 
 ```go
 func ResourceManagerCustomEndpointInput() *string
@@ -3619,7 +3619,7 @@ func ResourceManagerCustomEndpointInput() *string
 
 ---
 
-##### `ResourceManagerV3CustomEndpointInput`<sup>Optional</sup> <a name="ResourceManagerV3CustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.resourceManagerV3CustomEndpointInput"></a>
+##### `ResourceManagerV3CustomEndpointInput`<sup>Optional</sup> <a name="ResourceManagerV3CustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.resourceManagerV3CustomEndpointInput"></a>
 
 ```go
 func ResourceManagerV3CustomEndpointInput() *string
@@ -3629,7 +3629,7 @@ func ResourceManagerV3CustomEndpointInput() *string
 
 ---
 
-##### `RuntimeconfigCustomEndpointInput`<sup>Optional</sup> <a name="RuntimeconfigCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.runtimeconfigCustomEndpointInput"></a>
+##### `RuntimeconfigCustomEndpointInput`<sup>Optional</sup> <a name="RuntimeconfigCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.runtimeconfigCustomEndpointInput"></a>
 
 ```go
 func RuntimeconfigCustomEndpointInput() *string
@@ -3639,7 +3639,7 @@ func RuntimeconfigCustomEndpointInput() *string
 
 ---
 
-##### `RuntimeConfigCustomEndpointInput`<sup>Optional</sup> <a name="RuntimeConfigCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.runtimeConfigCustomEndpointInput"></a>
+##### `RuntimeConfigCustomEndpointInput`<sup>Optional</sup> <a name="RuntimeConfigCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.runtimeConfigCustomEndpointInput"></a>
 
 ```go
 func RuntimeConfigCustomEndpointInput() *string
@@ -3649,7 +3649,7 @@ func RuntimeConfigCustomEndpointInput() *string
 
 ---
 
-##### `ScopesInput`<sup>Optional</sup> <a name="ScopesInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.scopesInput"></a>
+##### `ScopesInput`<sup>Optional</sup> <a name="ScopesInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.scopesInput"></a>
 
 ```go
 func ScopesInput() *[]*string
@@ -3659,7 +3659,7 @@ func ScopesInput() *[]*string
 
 ---
 
-##### `SecretManagerCustomEndpointInput`<sup>Optional</sup> <a name="SecretManagerCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.secretManagerCustomEndpointInput"></a>
+##### `SecretManagerCustomEndpointInput`<sup>Optional</sup> <a name="SecretManagerCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.secretManagerCustomEndpointInput"></a>
 
 ```go
 func SecretManagerCustomEndpointInput() *string
@@ -3669,7 +3669,7 @@ func SecretManagerCustomEndpointInput() *string
 
 ---
 
-##### `SecretManagerRegionalCustomEndpointInput`<sup>Optional</sup> <a name="SecretManagerRegionalCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.secretManagerRegionalCustomEndpointInput"></a>
+##### `SecretManagerRegionalCustomEndpointInput`<sup>Optional</sup> <a name="SecretManagerRegionalCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.secretManagerRegionalCustomEndpointInput"></a>
 
 ```go
 func SecretManagerRegionalCustomEndpointInput() *string
@@ -3679,7 +3679,7 @@ func SecretManagerRegionalCustomEndpointInput() *string
 
 ---
 
-##### `SecureSourceManagerCustomEndpointInput`<sup>Optional</sup> <a name="SecureSourceManagerCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.secureSourceManagerCustomEndpointInput"></a>
+##### `SecureSourceManagerCustomEndpointInput`<sup>Optional</sup> <a name="SecureSourceManagerCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.secureSourceManagerCustomEndpointInput"></a>
 
 ```go
 func SecureSourceManagerCustomEndpointInput() *string
@@ -3689,7 +3689,7 @@ func SecureSourceManagerCustomEndpointInput() *string
 
 ---
 
-##### `SecurityCenterCustomEndpointInput`<sup>Optional</sup> <a name="SecurityCenterCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.securityCenterCustomEndpointInput"></a>
+##### `SecurityCenterCustomEndpointInput`<sup>Optional</sup> <a name="SecurityCenterCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.securityCenterCustomEndpointInput"></a>
 
 ```go
 func SecurityCenterCustomEndpointInput() *string
@@ -3699,7 +3699,7 @@ func SecurityCenterCustomEndpointInput() *string
 
 ---
 
-##### `SecurityCenterManagementCustomEndpointInput`<sup>Optional</sup> <a name="SecurityCenterManagementCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.securityCenterManagementCustomEndpointInput"></a>
+##### `SecurityCenterManagementCustomEndpointInput`<sup>Optional</sup> <a name="SecurityCenterManagementCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.securityCenterManagementCustomEndpointInput"></a>
 
 ```go
 func SecurityCenterManagementCustomEndpointInput() *string
@@ -3709,7 +3709,7 @@ func SecurityCenterManagementCustomEndpointInput() *string
 
 ---
 
-##### `SecurityCenterV2CustomEndpointInput`<sup>Optional</sup> <a name="SecurityCenterV2CustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.securityCenterV2CustomEndpointInput"></a>
+##### `SecurityCenterV2CustomEndpointInput`<sup>Optional</sup> <a name="SecurityCenterV2CustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.securityCenterV2CustomEndpointInput"></a>
 
 ```go
 func SecurityCenterV2CustomEndpointInput() *string
@@ -3719,7 +3719,7 @@ func SecurityCenterV2CustomEndpointInput() *string
 
 ---
 
-##### `SecuritypostureCustomEndpointInput`<sup>Optional</sup> <a name="SecuritypostureCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.securitypostureCustomEndpointInput"></a>
+##### `SecuritypostureCustomEndpointInput`<sup>Optional</sup> <a name="SecuritypostureCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.securitypostureCustomEndpointInput"></a>
 
 ```go
 func SecuritypostureCustomEndpointInput() *string
@@ -3729,7 +3729,7 @@ func SecuritypostureCustomEndpointInput() *string
 
 ---
 
-##### `SecurityScannerCustomEndpointInput`<sup>Optional</sup> <a name="SecurityScannerCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.securityScannerCustomEndpointInput"></a>
+##### `SecurityScannerCustomEndpointInput`<sup>Optional</sup> <a name="SecurityScannerCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.securityScannerCustomEndpointInput"></a>
 
 ```go
 func SecurityScannerCustomEndpointInput() *string
@@ -3739,7 +3739,7 @@ func SecurityScannerCustomEndpointInput() *string
 
 ---
 
-##### `ServiceDirectoryCustomEndpointInput`<sup>Optional</sup> <a name="ServiceDirectoryCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.serviceDirectoryCustomEndpointInput"></a>
+##### `ServiceDirectoryCustomEndpointInput`<sup>Optional</sup> <a name="ServiceDirectoryCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.serviceDirectoryCustomEndpointInput"></a>
 
 ```go
 func ServiceDirectoryCustomEndpointInput() *string
@@ -3749,7 +3749,7 @@ func ServiceDirectoryCustomEndpointInput() *string
 
 ---
 
-##### `ServiceManagementCustomEndpointInput`<sup>Optional</sup> <a name="ServiceManagementCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.serviceManagementCustomEndpointInput"></a>
+##### `ServiceManagementCustomEndpointInput`<sup>Optional</sup> <a name="ServiceManagementCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.serviceManagementCustomEndpointInput"></a>
 
 ```go
 func ServiceManagementCustomEndpointInput() *string
@@ -3759,7 +3759,7 @@ func ServiceManagementCustomEndpointInput() *string
 
 ---
 
-##### `ServiceNetworkingCustomEndpointInput`<sup>Optional</sup> <a name="ServiceNetworkingCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.serviceNetworkingCustomEndpointInput"></a>
+##### `ServiceNetworkingCustomEndpointInput`<sup>Optional</sup> <a name="ServiceNetworkingCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.serviceNetworkingCustomEndpointInput"></a>
 
 ```go
 func ServiceNetworkingCustomEndpointInput() *string
@@ -3769,7 +3769,7 @@ func ServiceNetworkingCustomEndpointInput() *string
 
 ---
 
-##### `ServiceUsageCustomEndpointInput`<sup>Optional</sup> <a name="ServiceUsageCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.serviceUsageCustomEndpointInput"></a>
+##### `ServiceUsageCustomEndpointInput`<sup>Optional</sup> <a name="ServiceUsageCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.serviceUsageCustomEndpointInput"></a>
 
 ```go
 func ServiceUsageCustomEndpointInput() *string
@@ -3779,7 +3779,7 @@ func ServiceUsageCustomEndpointInput() *string
 
 ---
 
-##### `SiteVerificationCustomEndpointInput`<sup>Optional</sup> <a name="SiteVerificationCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.siteVerificationCustomEndpointInput"></a>
+##### `SiteVerificationCustomEndpointInput`<sup>Optional</sup> <a name="SiteVerificationCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.siteVerificationCustomEndpointInput"></a>
 
 ```go
 func SiteVerificationCustomEndpointInput() *string
@@ -3789,7 +3789,7 @@ func SiteVerificationCustomEndpointInput() *string
 
 ---
 
-##### `SourceRepoCustomEndpointInput`<sup>Optional</sup> <a name="SourceRepoCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.sourceRepoCustomEndpointInput"></a>
+##### `SourceRepoCustomEndpointInput`<sup>Optional</sup> <a name="SourceRepoCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.sourceRepoCustomEndpointInput"></a>
 
 ```go
 func SourceRepoCustomEndpointInput() *string
@@ -3799,7 +3799,7 @@ func SourceRepoCustomEndpointInput() *string
 
 ---
 
-##### `SpannerCustomEndpointInput`<sup>Optional</sup> <a name="SpannerCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.spannerCustomEndpointInput"></a>
+##### `SpannerCustomEndpointInput`<sup>Optional</sup> <a name="SpannerCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.spannerCustomEndpointInput"></a>
 
 ```go
 func SpannerCustomEndpointInput() *string
@@ -3809,7 +3809,7 @@ func SpannerCustomEndpointInput() *string
 
 ---
 
-##### `SqlCustomEndpointInput`<sup>Optional</sup> <a name="SqlCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.sqlCustomEndpointInput"></a>
+##### `SqlCustomEndpointInput`<sup>Optional</sup> <a name="SqlCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.sqlCustomEndpointInput"></a>
 
 ```go
 func SqlCustomEndpointInput() *string
@@ -3819,7 +3819,7 @@ func SqlCustomEndpointInput() *string
 
 ---
 
-##### `StorageBatchOperationsCustomEndpointInput`<sup>Optional</sup> <a name="StorageBatchOperationsCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.storageBatchOperationsCustomEndpointInput"></a>
+##### `StorageBatchOperationsCustomEndpointInput`<sup>Optional</sup> <a name="StorageBatchOperationsCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.storageBatchOperationsCustomEndpointInput"></a>
 
 ```go
 func StorageBatchOperationsCustomEndpointInput() *string
@@ -3829,7 +3829,7 @@ func StorageBatchOperationsCustomEndpointInput() *string
 
 ---
 
-##### `StorageControlCustomEndpointInput`<sup>Optional</sup> <a name="StorageControlCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.storageControlCustomEndpointInput"></a>
+##### `StorageControlCustomEndpointInput`<sup>Optional</sup> <a name="StorageControlCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.storageControlCustomEndpointInput"></a>
 
 ```go
 func StorageControlCustomEndpointInput() *string
@@ -3839,7 +3839,7 @@ func StorageControlCustomEndpointInput() *string
 
 ---
 
-##### `StorageCustomEndpointInput`<sup>Optional</sup> <a name="StorageCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.storageCustomEndpointInput"></a>
+##### `StorageCustomEndpointInput`<sup>Optional</sup> <a name="StorageCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.storageCustomEndpointInput"></a>
 
 ```go
 func StorageCustomEndpointInput() *string
@@ -3849,7 +3849,7 @@ func StorageCustomEndpointInput() *string
 
 ---
 
-##### `StorageInsightsCustomEndpointInput`<sup>Optional</sup> <a name="StorageInsightsCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.storageInsightsCustomEndpointInput"></a>
+##### `StorageInsightsCustomEndpointInput`<sup>Optional</sup> <a name="StorageInsightsCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.storageInsightsCustomEndpointInput"></a>
 
 ```go
 func StorageInsightsCustomEndpointInput() *string
@@ -3859,7 +3859,7 @@ func StorageInsightsCustomEndpointInput() *string
 
 ---
 
-##### `StorageTransferCustomEndpointInput`<sup>Optional</sup> <a name="StorageTransferCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.storageTransferCustomEndpointInput"></a>
+##### `StorageTransferCustomEndpointInput`<sup>Optional</sup> <a name="StorageTransferCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.storageTransferCustomEndpointInput"></a>
 
 ```go
 func StorageTransferCustomEndpointInput() *string
@@ -3869,7 +3869,7 @@ func StorageTransferCustomEndpointInput() *string
 
 ---
 
-##### `TagsCustomEndpointInput`<sup>Optional</sup> <a name="TagsCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.tagsCustomEndpointInput"></a>
+##### `TagsCustomEndpointInput`<sup>Optional</sup> <a name="TagsCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.tagsCustomEndpointInput"></a>
 
 ```go
 func TagsCustomEndpointInput() *string
@@ -3879,7 +3879,7 @@ func TagsCustomEndpointInput() *string
 
 ---
 
-##### `TagsLocationCustomEndpointInput`<sup>Optional</sup> <a name="TagsLocationCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.tagsLocationCustomEndpointInput"></a>
+##### `TagsLocationCustomEndpointInput`<sup>Optional</sup> <a name="TagsLocationCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.tagsLocationCustomEndpointInput"></a>
 
 ```go
 func TagsLocationCustomEndpointInput() *string
@@ -3889,7 +3889,7 @@ func TagsLocationCustomEndpointInput() *string
 
 ---
 
-##### `TerraformAttributionLabelAdditionStrategyInput`<sup>Optional</sup> <a name="TerraformAttributionLabelAdditionStrategyInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.terraformAttributionLabelAdditionStrategyInput"></a>
+##### `TerraformAttributionLabelAdditionStrategyInput`<sup>Optional</sup> <a name="TerraformAttributionLabelAdditionStrategyInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.terraformAttributionLabelAdditionStrategyInput"></a>
 
 ```go
 func TerraformAttributionLabelAdditionStrategyInput() *string
@@ -3899,7 +3899,7 @@ func TerraformAttributionLabelAdditionStrategyInput() *string
 
 ---
 
-##### `TpuCustomEndpointInput`<sup>Optional</sup> <a name="TpuCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.tpuCustomEndpointInput"></a>
+##### `TpuCustomEndpointInput`<sup>Optional</sup> <a name="TpuCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.tpuCustomEndpointInput"></a>
 
 ```go
 func TpuCustomEndpointInput() *string
@@ -3909,7 +3909,7 @@ func TpuCustomEndpointInput() *string
 
 ---
 
-##### `TpuV2CustomEndpointInput`<sup>Optional</sup> <a name="TpuV2CustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.tpuV2CustomEndpointInput"></a>
+##### `TpuV2CustomEndpointInput`<sup>Optional</sup> <a name="TpuV2CustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.tpuV2CustomEndpointInput"></a>
 
 ```go
 func TpuV2CustomEndpointInput() *string
@@ -3919,7 +3919,7 @@ func TpuV2CustomEndpointInput() *string
 
 ---
 
-##### `TranscoderCustomEndpointInput`<sup>Optional</sup> <a name="TranscoderCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.transcoderCustomEndpointInput"></a>
+##### `TranscoderCustomEndpointInput`<sup>Optional</sup> <a name="TranscoderCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.transcoderCustomEndpointInput"></a>
 
 ```go
 func TranscoderCustomEndpointInput() *string
@@ -3929,7 +3929,7 @@ func TranscoderCustomEndpointInput() *string
 
 ---
 
-##### `UniverseDomainInput`<sup>Optional</sup> <a name="UniverseDomainInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.universeDomainInput"></a>
+##### `UniverseDomainInput`<sup>Optional</sup> <a name="UniverseDomainInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.universeDomainInput"></a>
 
 ```go
 func UniverseDomainInput() *string
@@ -3939,7 +3939,7 @@ func UniverseDomainInput() *string
 
 ---
 
-##### `UserProjectOverrideInput`<sup>Optional</sup> <a name="UserProjectOverrideInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.userProjectOverrideInput"></a>
+##### `UserProjectOverrideInput`<sup>Optional</sup> <a name="UserProjectOverrideInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.userProjectOverrideInput"></a>
 
 ```go
 func UserProjectOverrideInput() interface{}
@@ -3949,7 +3949,7 @@ func UserProjectOverrideInput() interface{}
 
 ---
 
-##### `VertexAiCustomEndpointInput`<sup>Optional</sup> <a name="VertexAiCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.vertexAiCustomEndpointInput"></a>
+##### `VertexAiCustomEndpointInput`<sup>Optional</sup> <a name="VertexAiCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.vertexAiCustomEndpointInput"></a>
 
 ```go
 func VertexAiCustomEndpointInput() *string
@@ -3959,7 +3959,7 @@ func VertexAiCustomEndpointInput() *string
 
 ---
 
-##### `VmwareengineCustomEndpointInput`<sup>Optional</sup> <a name="VmwareengineCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.vmwareengineCustomEndpointInput"></a>
+##### `VmwareengineCustomEndpointInput`<sup>Optional</sup> <a name="VmwareengineCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.vmwareengineCustomEndpointInput"></a>
 
 ```go
 func VmwareengineCustomEndpointInput() *string
@@ -3969,7 +3969,7 @@ func VmwareengineCustomEndpointInput() *string
 
 ---
 
-##### `VpcAccessCustomEndpointInput`<sup>Optional</sup> <a name="VpcAccessCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.vpcAccessCustomEndpointInput"></a>
+##### `VpcAccessCustomEndpointInput`<sup>Optional</sup> <a name="VpcAccessCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.vpcAccessCustomEndpointInput"></a>
 
 ```go
 func VpcAccessCustomEndpointInput() *string
@@ -3979,7 +3979,7 @@ func VpcAccessCustomEndpointInput() *string
 
 ---
 
-##### `WorkbenchCustomEndpointInput`<sup>Optional</sup> <a name="WorkbenchCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.workbenchCustomEndpointInput"></a>
+##### `WorkbenchCustomEndpointInput`<sup>Optional</sup> <a name="WorkbenchCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.workbenchCustomEndpointInput"></a>
 
 ```go
 func WorkbenchCustomEndpointInput() *string
@@ -3989,7 +3989,7 @@ func WorkbenchCustomEndpointInput() *string
 
 ---
 
-##### `WorkflowsCustomEndpointInput`<sup>Optional</sup> <a name="WorkflowsCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.workflowsCustomEndpointInput"></a>
+##### `WorkflowsCustomEndpointInput`<sup>Optional</sup> <a name="WorkflowsCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.workflowsCustomEndpointInput"></a>
 
 ```go
 func WorkflowsCustomEndpointInput() *string
@@ -3999,7 +3999,7 @@ func WorkflowsCustomEndpointInput() *string
 
 ---
 
-##### `WorkstationsCustomEndpointInput`<sup>Optional</sup> <a name="WorkstationsCustomEndpointInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.workstationsCustomEndpointInput"></a>
+##### `WorkstationsCustomEndpointInput`<sup>Optional</sup> <a name="WorkstationsCustomEndpointInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.workstationsCustomEndpointInput"></a>
 
 ```go
 func WorkstationsCustomEndpointInput() *string
@@ -4009,7 +4009,7 @@ func WorkstationsCustomEndpointInput() *string
 
 ---
 
-##### `ZoneInput`<sup>Optional</sup> <a name="ZoneInput" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.zoneInput"></a>
+##### `ZoneInput`<sup>Optional</sup> <a name="ZoneInput" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.zoneInput"></a>
 
 ```go
 func ZoneInput() *string
@@ -4019,7 +4019,7 @@ func ZoneInput() *string
 
 ---
 
-##### `AccessApprovalCustomEndpoint`<sup>Optional</sup> <a name="AccessApprovalCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.accessApprovalCustomEndpoint"></a>
+##### `AccessApprovalCustomEndpoint`<sup>Optional</sup> <a name="AccessApprovalCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.accessApprovalCustomEndpoint"></a>
 
 ```go
 func AccessApprovalCustomEndpoint() *string
@@ -4029,7 +4029,7 @@ func AccessApprovalCustomEndpoint() *string
 
 ---
 
-##### `AccessContextManagerCustomEndpoint`<sup>Optional</sup> <a name="AccessContextManagerCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.accessContextManagerCustomEndpoint"></a>
+##### `AccessContextManagerCustomEndpoint`<sup>Optional</sup> <a name="AccessContextManagerCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.accessContextManagerCustomEndpoint"></a>
 
 ```go
 func AccessContextManagerCustomEndpoint() *string
@@ -4039,7 +4039,7 @@ func AccessContextManagerCustomEndpoint() *string
 
 ---
 
-##### `AccessToken`<sup>Optional</sup> <a name="AccessToken" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.accessToken"></a>
+##### `AccessToken`<sup>Optional</sup> <a name="AccessToken" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.accessToken"></a>
 
 ```go
 func AccessToken() *string
@@ -4049,7 +4049,7 @@ func AccessToken() *string
 
 ---
 
-##### `ActiveDirectoryCustomEndpoint`<sup>Optional</sup> <a name="ActiveDirectoryCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.activeDirectoryCustomEndpoint"></a>
+##### `ActiveDirectoryCustomEndpoint`<sup>Optional</sup> <a name="ActiveDirectoryCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.activeDirectoryCustomEndpoint"></a>
 
 ```go
 func ActiveDirectoryCustomEndpoint() *string
@@ -4059,7 +4059,7 @@ func ActiveDirectoryCustomEndpoint() *string
 
 ---
 
-##### `AddTerraformAttributionLabel`<sup>Optional</sup> <a name="AddTerraformAttributionLabel" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.addTerraformAttributionLabel"></a>
+##### `AddTerraformAttributionLabel`<sup>Optional</sup> <a name="AddTerraformAttributionLabel" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.addTerraformAttributionLabel"></a>
 
 ```go
 func AddTerraformAttributionLabel() interface{}
@@ -4069,7 +4069,7 @@ func AddTerraformAttributionLabel() interface{}
 
 ---
 
-##### `AlloydbCustomEndpoint`<sup>Optional</sup> <a name="AlloydbCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.alloydbCustomEndpoint"></a>
+##### `AlloydbCustomEndpoint`<sup>Optional</sup> <a name="AlloydbCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.alloydbCustomEndpoint"></a>
 
 ```go
 func AlloydbCustomEndpoint() *string
@@ -4079,7 +4079,7 @@ func AlloydbCustomEndpoint() *string
 
 ---
 
-##### `ApiGatewayCustomEndpoint`<sup>Optional</sup> <a name="ApiGatewayCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.apiGatewayCustomEndpoint"></a>
+##### `ApiGatewayCustomEndpoint`<sup>Optional</sup> <a name="ApiGatewayCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.apiGatewayCustomEndpoint"></a>
 
 ```go
 func ApiGatewayCustomEndpoint() *string
@@ -4089,7 +4089,7 @@ func ApiGatewayCustomEndpoint() *string
 
 ---
 
-##### `ApigeeCustomEndpoint`<sup>Optional</sup> <a name="ApigeeCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.apigeeCustomEndpoint"></a>
+##### `ApigeeCustomEndpoint`<sup>Optional</sup> <a name="ApigeeCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.apigeeCustomEndpoint"></a>
 
 ```go
 func ApigeeCustomEndpoint() *string
@@ -4099,7 +4099,7 @@ func ApigeeCustomEndpoint() *string
 
 ---
 
-##### `ApihubCustomEndpoint`<sup>Optional</sup> <a name="ApihubCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.apihubCustomEndpoint"></a>
+##### `ApihubCustomEndpoint`<sup>Optional</sup> <a name="ApihubCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.apihubCustomEndpoint"></a>
 
 ```go
 func ApihubCustomEndpoint() *string
@@ -4109,7 +4109,7 @@ func ApihubCustomEndpoint() *string
 
 ---
 
-##### `ApikeysCustomEndpoint`<sup>Optional</sup> <a name="ApikeysCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.apikeysCustomEndpoint"></a>
+##### `ApikeysCustomEndpoint`<sup>Optional</sup> <a name="ApikeysCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.apikeysCustomEndpoint"></a>
 
 ```go
 func ApikeysCustomEndpoint() *string
@@ -4119,7 +4119,7 @@ func ApikeysCustomEndpoint() *string
 
 ---
 
-##### `AppEngineCustomEndpoint`<sup>Optional</sup> <a name="AppEngineCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.appEngineCustomEndpoint"></a>
+##### `AppEngineCustomEndpoint`<sup>Optional</sup> <a name="AppEngineCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.appEngineCustomEndpoint"></a>
 
 ```go
 func AppEngineCustomEndpoint() *string
@@ -4129,7 +4129,7 @@ func AppEngineCustomEndpoint() *string
 
 ---
 
-##### `ApphubCustomEndpoint`<sup>Optional</sup> <a name="ApphubCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.apphubCustomEndpoint"></a>
+##### `ApphubCustomEndpoint`<sup>Optional</sup> <a name="ApphubCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.apphubCustomEndpoint"></a>
 
 ```go
 func ApphubCustomEndpoint() *string
@@ -4139,7 +4139,7 @@ func ApphubCustomEndpoint() *string
 
 ---
 
-##### `ArtifactRegistryCustomEndpoint`<sup>Optional</sup> <a name="ArtifactRegistryCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.artifactRegistryCustomEndpoint"></a>
+##### `ArtifactRegistryCustomEndpoint`<sup>Optional</sup> <a name="ArtifactRegistryCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.artifactRegistryCustomEndpoint"></a>
 
 ```go
 func ArtifactRegistryCustomEndpoint() *string
@@ -4149,7 +4149,7 @@ func ArtifactRegistryCustomEndpoint() *string
 
 ---
 
-##### `AssuredWorkloadsCustomEndpoint`<sup>Optional</sup> <a name="AssuredWorkloadsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.assuredWorkloadsCustomEndpoint"></a>
+##### `AssuredWorkloadsCustomEndpoint`<sup>Optional</sup> <a name="AssuredWorkloadsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.assuredWorkloadsCustomEndpoint"></a>
 
 ```go
 func AssuredWorkloadsCustomEndpoint() *string
@@ -4159,7 +4159,7 @@ func AssuredWorkloadsCustomEndpoint() *string
 
 ---
 
-##### `BackupDrCustomEndpoint`<sup>Optional</sup> <a name="BackupDrCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.backupDrCustomEndpoint"></a>
+##### `BackupDrCustomEndpoint`<sup>Optional</sup> <a name="BackupDrCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.backupDrCustomEndpoint"></a>
 
 ```go
 func BackupDrCustomEndpoint() *string
@@ -4169,7 +4169,7 @@ func BackupDrCustomEndpoint() *string
 
 ---
 
-##### `Batching`<sup>Optional</sup> <a name="Batching" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.batching"></a>
+##### `Batching`<sup>Optional</sup> <a name="Batching" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.batching"></a>
 
 ```go
 func Batching() interface{}
@@ -4179,7 +4179,7 @@ func Batching() interface{}
 
 ---
 
-##### `BeyondcorpCustomEndpoint`<sup>Optional</sup> <a name="BeyondcorpCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.beyondcorpCustomEndpoint"></a>
+##### `BeyondcorpCustomEndpoint`<sup>Optional</sup> <a name="BeyondcorpCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.beyondcorpCustomEndpoint"></a>
 
 ```go
 func BeyondcorpCustomEndpoint() *string
@@ -4189,7 +4189,7 @@ func BeyondcorpCustomEndpoint() *string
 
 ---
 
-##### `BiglakeCustomEndpoint`<sup>Optional</sup> <a name="BiglakeCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.biglakeCustomEndpoint"></a>
+##### `BiglakeCustomEndpoint`<sup>Optional</sup> <a name="BiglakeCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.biglakeCustomEndpoint"></a>
 
 ```go
 func BiglakeCustomEndpoint() *string
@@ -4199,7 +4199,7 @@ func BiglakeCustomEndpoint() *string
 
 ---
 
-##### `BigqueryAnalyticsHubCustomEndpoint`<sup>Optional</sup> <a name="BigqueryAnalyticsHubCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.bigqueryAnalyticsHubCustomEndpoint"></a>
+##### `BigqueryAnalyticsHubCustomEndpoint`<sup>Optional</sup> <a name="BigqueryAnalyticsHubCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.bigqueryAnalyticsHubCustomEndpoint"></a>
 
 ```go
 func BigqueryAnalyticsHubCustomEndpoint() *string
@@ -4209,7 +4209,7 @@ func BigqueryAnalyticsHubCustomEndpoint() *string
 
 ---
 
-##### `BigqueryConnectionCustomEndpoint`<sup>Optional</sup> <a name="BigqueryConnectionCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.bigqueryConnectionCustomEndpoint"></a>
+##### `BigqueryConnectionCustomEndpoint`<sup>Optional</sup> <a name="BigqueryConnectionCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.bigqueryConnectionCustomEndpoint"></a>
 
 ```go
 func BigqueryConnectionCustomEndpoint() *string
@@ -4219,7 +4219,7 @@ func BigqueryConnectionCustomEndpoint() *string
 
 ---
 
-##### `BigQueryCustomEndpoint`<sup>Optional</sup> <a name="BigQueryCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.bigQueryCustomEndpoint"></a>
+##### `BigQueryCustomEndpoint`<sup>Optional</sup> <a name="BigQueryCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.bigQueryCustomEndpoint"></a>
 
 ```go
 func BigQueryCustomEndpoint() *string
@@ -4229,7 +4229,7 @@ func BigQueryCustomEndpoint() *string
 
 ---
 
-##### `BigqueryDatapolicyCustomEndpoint`<sup>Optional</sup> <a name="BigqueryDatapolicyCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.bigqueryDatapolicyCustomEndpoint"></a>
+##### `BigqueryDatapolicyCustomEndpoint`<sup>Optional</sup> <a name="BigqueryDatapolicyCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.bigqueryDatapolicyCustomEndpoint"></a>
 
 ```go
 func BigqueryDatapolicyCustomEndpoint() *string
@@ -4239,7 +4239,7 @@ func BigqueryDatapolicyCustomEndpoint() *string
 
 ---
 
-##### `BigqueryDataTransferCustomEndpoint`<sup>Optional</sup> <a name="BigqueryDataTransferCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.bigqueryDataTransferCustomEndpoint"></a>
+##### `BigqueryDataTransferCustomEndpoint`<sup>Optional</sup> <a name="BigqueryDataTransferCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.bigqueryDataTransferCustomEndpoint"></a>
 
 ```go
 func BigqueryDataTransferCustomEndpoint() *string
@@ -4249,7 +4249,7 @@ func BigqueryDataTransferCustomEndpoint() *string
 
 ---
 
-##### `BigqueryReservationCustomEndpoint`<sup>Optional</sup> <a name="BigqueryReservationCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.bigqueryReservationCustomEndpoint"></a>
+##### `BigqueryReservationCustomEndpoint`<sup>Optional</sup> <a name="BigqueryReservationCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.bigqueryReservationCustomEndpoint"></a>
 
 ```go
 func BigqueryReservationCustomEndpoint() *string
@@ -4259,7 +4259,7 @@ func BigqueryReservationCustomEndpoint() *string
 
 ---
 
-##### `BigtableCustomEndpoint`<sup>Optional</sup> <a name="BigtableCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.bigtableCustomEndpoint"></a>
+##### `BigtableCustomEndpoint`<sup>Optional</sup> <a name="BigtableCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.bigtableCustomEndpoint"></a>
 
 ```go
 func BigtableCustomEndpoint() *string
@@ -4269,7 +4269,7 @@ func BigtableCustomEndpoint() *string
 
 ---
 
-##### `BillingCustomEndpoint`<sup>Optional</sup> <a name="BillingCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.billingCustomEndpoint"></a>
+##### `BillingCustomEndpoint`<sup>Optional</sup> <a name="BillingCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.billingCustomEndpoint"></a>
 
 ```go
 func BillingCustomEndpoint() *string
@@ -4279,7 +4279,7 @@ func BillingCustomEndpoint() *string
 
 ---
 
-##### `BillingProject`<sup>Optional</sup> <a name="BillingProject" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.billingProject"></a>
+##### `BillingProject`<sup>Optional</sup> <a name="BillingProject" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.billingProject"></a>
 
 ```go
 func BillingProject() *string
@@ -4289,7 +4289,7 @@ func BillingProject() *string
 
 ---
 
-##### `BinaryAuthorizationCustomEndpoint`<sup>Optional</sup> <a name="BinaryAuthorizationCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.binaryAuthorizationCustomEndpoint"></a>
+##### `BinaryAuthorizationCustomEndpoint`<sup>Optional</sup> <a name="BinaryAuthorizationCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.binaryAuthorizationCustomEndpoint"></a>
 
 ```go
 func BinaryAuthorizationCustomEndpoint() *string
@@ -4299,7 +4299,7 @@ func BinaryAuthorizationCustomEndpoint() *string
 
 ---
 
-##### `BlockchainNodeEngineCustomEndpoint`<sup>Optional</sup> <a name="BlockchainNodeEngineCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.blockchainNodeEngineCustomEndpoint"></a>
+##### `BlockchainNodeEngineCustomEndpoint`<sup>Optional</sup> <a name="BlockchainNodeEngineCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.blockchainNodeEngineCustomEndpoint"></a>
 
 ```go
 func BlockchainNodeEngineCustomEndpoint() *string
@@ -4309,7 +4309,7 @@ func BlockchainNodeEngineCustomEndpoint() *string
 
 ---
 
-##### `CertificateManagerCustomEndpoint`<sup>Optional</sup> <a name="CertificateManagerCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.certificateManagerCustomEndpoint"></a>
+##### `CertificateManagerCustomEndpoint`<sup>Optional</sup> <a name="CertificateManagerCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.certificateManagerCustomEndpoint"></a>
 
 ```go
 func CertificateManagerCustomEndpoint() *string
@@ -4319,7 +4319,7 @@ func CertificateManagerCustomEndpoint() *string
 
 ---
 
-##### `ChronicleCustomEndpoint`<sup>Optional</sup> <a name="ChronicleCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.chronicleCustomEndpoint"></a>
+##### `ChronicleCustomEndpoint`<sup>Optional</sup> <a name="ChronicleCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.chronicleCustomEndpoint"></a>
 
 ```go
 func ChronicleCustomEndpoint() *string
@@ -4329,7 +4329,7 @@ func ChronicleCustomEndpoint() *string
 
 ---
 
-##### `CloudAssetCustomEndpoint`<sup>Optional</sup> <a name="CloudAssetCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudAssetCustomEndpoint"></a>
+##### `CloudAssetCustomEndpoint`<sup>Optional</sup> <a name="CloudAssetCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudAssetCustomEndpoint"></a>
 
 ```go
 func CloudAssetCustomEndpoint() *string
@@ -4339,7 +4339,7 @@ func CloudAssetCustomEndpoint() *string
 
 ---
 
-##### `CloudBillingCustomEndpoint`<sup>Optional</sup> <a name="CloudBillingCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudBillingCustomEndpoint"></a>
+##### `CloudBillingCustomEndpoint`<sup>Optional</sup> <a name="CloudBillingCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudBillingCustomEndpoint"></a>
 
 ```go
 func CloudBillingCustomEndpoint() *string
@@ -4349,7 +4349,7 @@ func CloudBillingCustomEndpoint() *string
 
 ---
 
-##### `CloudBuildCustomEndpoint`<sup>Optional</sup> <a name="CloudBuildCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudBuildCustomEndpoint"></a>
+##### `CloudBuildCustomEndpoint`<sup>Optional</sup> <a name="CloudBuildCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudBuildCustomEndpoint"></a>
 
 ```go
 func CloudBuildCustomEndpoint() *string
@@ -4359,7 +4359,7 @@ func CloudBuildCustomEndpoint() *string
 
 ---
 
-##### `Cloudbuildv2CustomEndpoint`<sup>Optional</sup> <a name="Cloudbuildv2CustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudbuildv2CustomEndpoint"></a>
+##### `Cloudbuildv2CustomEndpoint`<sup>Optional</sup> <a name="Cloudbuildv2CustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudbuildv2CustomEndpoint"></a>
 
 ```go
 func Cloudbuildv2CustomEndpoint() *string
@@ -4369,7 +4369,7 @@ func Cloudbuildv2CustomEndpoint() *string
 
 ---
 
-##### `ClouddeployCustomEndpoint`<sup>Optional</sup> <a name="ClouddeployCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.clouddeployCustomEndpoint"></a>
+##### `ClouddeployCustomEndpoint`<sup>Optional</sup> <a name="ClouddeployCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.clouddeployCustomEndpoint"></a>
 
 ```go
 func ClouddeployCustomEndpoint() *string
@@ -4379,7 +4379,7 @@ func ClouddeployCustomEndpoint() *string
 
 ---
 
-##### `ClouddomainsCustomEndpoint`<sup>Optional</sup> <a name="ClouddomainsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.clouddomainsCustomEndpoint"></a>
+##### `ClouddomainsCustomEndpoint`<sup>Optional</sup> <a name="ClouddomainsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.clouddomainsCustomEndpoint"></a>
 
 ```go
 func ClouddomainsCustomEndpoint() *string
@@ -4389,7 +4389,7 @@ func ClouddomainsCustomEndpoint() *string
 
 ---
 
-##### `Cloudfunctions2CustomEndpoint`<sup>Optional</sup> <a name="Cloudfunctions2CustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudfunctions2CustomEndpoint"></a>
+##### `Cloudfunctions2CustomEndpoint`<sup>Optional</sup> <a name="Cloudfunctions2CustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudfunctions2CustomEndpoint"></a>
 
 ```go
 func Cloudfunctions2CustomEndpoint() *string
@@ -4399,7 +4399,7 @@ func Cloudfunctions2CustomEndpoint() *string
 
 ---
 
-##### `CloudFunctionsCustomEndpoint`<sup>Optional</sup> <a name="CloudFunctionsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudFunctionsCustomEndpoint"></a>
+##### `CloudFunctionsCustomEndpoint`<sup>Optional</sup> <a name="CloudFunctionsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudFunctionsCustomEndpoint"></a>
 
 ```go
 func CloudFunctionsCustomEndpoint() *string
@@ -4409,7 +4409,7 @@ func CloudFunctionsCustomEndpoint() *string
 
 ---
 
-##### `CloudIdentityCustomEndpoint`<sup>Optional</sup> <a name="CloudIdentityCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudIdentityCustomEndpoint"></a>
+##### `CloudIdentityCustomEndpoint`<sup>Optional</sup> <a name="CloudIdentityCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudIdentityCustomEndpoint"></a>
 
 ```go
 func CloudIdentityCustomEndpoint() *string
@@ -4419,7 +4419,7 @@ func CloudIdentityCustomEndpoint() *string
 
 ---
 
-##### `CloudIdsCustomEndpoint`<sup>Optional</sup> <a name="CloudIdsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudIdsCustomEndpoint"></a>
+##### `CloudIdsCustomEndpoint`<sup>Optional</sup> <a name="CloudIdsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudIdsCustomEndpoint"></a>
 
 ```go
 func CloudIdsCustomEndpoint() *string
@@ -4429,7 +4429,7 @@ func CloudIdsCustomEndpoint() *string
 
 ---
 
-##### `CloudQuotasCustomEndpoint`<sup>Optional</sup> <a name="CloudQuotasCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudQuotasCustomEndpoint"></a>
+##### `CloudQuotasCustomEndpoint`<sup>Optional</sup> <a name="CloudQuotasCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudQuotasCustomEndpoint"></a>
 
 ```go
 func CloudQuotasCustomEndpoint() *string
@@ -4439,7 +4439,7 @@ func CloudQuotasCustomEndpoint() *string
 
 ---
 
-##### `CloudResourceManagerCustomEndpoint`<sup>Optional</sup> <a name="CloudResourceManagerCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudResourceManagerCustomEndpoint"></a>
+##### `CloudResourceManagerCustomEndpoint`<sup>Optional</sup> <a name="CloudResourceManagerCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudResourceManagerCustomEndpoint"></a>
 
 ```go
 func CloudResourceManagerCustomEndpoint() *string
@@ -4449,7 +4449,7 @@ func CloudResourceManagerCustomEndpoint() *string
 
 ---
 
-##### `CloudRunCustomEndpoint`<sup>Optional</sup> <a name="CloudRunCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudRunCustomEndpoint"></a>
+##### `CloudRunCustomEndpoint`<sup>Optional</sup> <a name="CloudRunCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudRunCustomEndpoint"></a>
 
 ```go
 func CloudRunCustomEndpoint() *string
@@ -4459,7 +4459,7 @@ func CloudRunCustomEndpoint() *string
 
 ---
 
-##### `CloudRunV2CustomEndpoint`<sup>Optional</sup> <a name="CloudRunV2CustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudRunV2CustomEndpoint"></a>
+##### `CloudRunV2CustomEndpoint`<sup>Optional</sup> <a name="CloudRunV2CustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudRunV2CustomEndpoint"></a>
 
 ```go
 func CloudRunV2CustomEndpoint() *string
@@ -4469,7 +4469,7 @@ func CloudRunV2CustomEndpoint() *string
 
 ---
 
-##### `CloudSchedulerCustomEndpoint`<sup>Optional</sup> <a name="CloudSchedulerCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudSchedulerCustomEndpoint"></a>
+##### `CloudSchedulerCustomEndpoint`<sup>Optional</sup> <a name="CloudSchedulerCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudSchedulerCustomEndpoint"></a>
 
 ```go
 func CloudSchedulerCustomEndpoint() *string
@@ -4479,7 +4479,7 @@ func CloudSchedulerCustomEndpoint() *string
 
 ---
 
-##### `CloudTasksCustomEndpoint`<sup>Optional</sup> <a name="CloudTasksCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.cloudTasksCustomEndpoint"></a>
+##### `CloudTasksCustomEndpoint`<sup>Optional</sup> <a name="CloudTasksCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cloudTasksCustomEndpoint"></a>
 
 ```go
 func CloudTasksCustomEndpoint() *string
@@ -4489,7 +4489,7 @@ func CloudTasksCustomEndpoint() *string
 
 ---
 
-##### `ColabCustomEndpoint`<sup>Optional</sup> <a name="ColabCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.colabCustomEndpoint"></a>
+##### `ColabCustomEndpoint`<sup>Optional</sup> <a name="ColabCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.colabCustomEndpoint"></a>
 
 ```go
 func ColabCustomEndpoint() *string
@@ -4499,7 +4499,7 @@ func ColabCustomEndpoint() *string
 
 ---
 
-##### `ComposerCustomEndpoint`<sup>Optional</sup> <a name="ComposerCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.composerCustomEndpoint"></a>
+##### `ComposerCustomEndpoint`<sup>Optional</sup> <a name="ComposerCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.composerCustomEndpoint"></a>
 
 ```go
 func ComposerCustomEndpoint() *string
@@ -4509,7 +4509,7 @@ func ComposerCustomEndpoint() *string
 
 ---
 
-##### `ComputeCustomEndpoint`<sup>Optional</sup> <a name="ComputeCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.computeCustomEndpoint"></a>
+##### `ComputeCustomEndpoint`<sup>Optional</sup> <a name="ComputeCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.computeCustomEndpoint"></a>
 
 ```go
 func ComputeCustomEndpoint() *string
@@ -4519,7 +4519,7 @@ func ComputeCustomEndpoint() *string
 
 ---
 
-##### `ContactCenterInsightsCustomEndpoint`<sup>Optional</sup> <a name="ContactCenterInsightsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.contactCenterInsightsCustomEndpoint"></a>
+##### `ContactCenterInsightsCustomEndpoint`<sup>Optional</sup> <a name="ContactCenterInsightsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.contactCenterInsightsCustomEndpoint"></a>
 
 ```go
 func ContactCenterInsightsCustomEndpoint() *string
@@ -4529,7 +4529,7 @@ func ContactCenterInsightsCustomEndpoint() *string
 
 ---
 
-##### `ContainerAnalysisCustomEndpoint`<sup>Optional</sup> <a name="ContainerAnalysisCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.containerAnalysisCustomEndpoint"></a>
+##### `ContainerAnalysisCustomEndpoint`<sup>Optional</sup> <a name="ContainerAnalysisCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.containerAnalysisCustomEndpoint"></a>
 
 ```go
 func ContainerAnalysisCustomEndpoint() *string
@@ -4539,7 +4539,7 @@ func ContainerAnalysisCustomEndpoint() *string
 
 ---
 
-##### `ContainerAttachedCustomEndpoint`<sup>Optional</sup> <a name="ContainerAttachedCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.containerAttachedCustomEndpoint"></a>
+##### `ContainerAttachedCustomEndpoint`<sup>Optional</sup> <a name="ContainerAttachedCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.containerAttachedCustomEndpoint"></a>
 
 ```go
 func ContainerAttachedCustomEndpoint() *string
@@ -4549,7 +4549,7 @@ func ContainerAttachedCustomEndpoint() *string
 
 ---
 
-##### `ContainerAwsCustomEndpoint`<sup>Optional</sup> <a name="ContainerAwsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.containerAwsCustomEndpoint"></a>
+##### `ContainerAwsCustomEndpoint`<sup>Optional</sup> <a name="ContainerAwsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.containerAwsCustomEndpoint"></a>
 
 ```go
 func ContainerAwsCustomEndpoint() *string
@@ -4559,7 +4559,7 @@ func ContainerAwsCustomEndpoint() *string
 
 ---
 
-##### `ContainerAzureCustomEndpoint`<sup>Optional</sup> <a name="ContainerAzureCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.containerAzureCustomEndpoint"></a>
+##### `ContainerAzureCustomEndpoint`<sup>Optional</sup> <a name="ContainerAzureCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.containerAzureCustomEndpoint"></a>
 
 ```go
 func ContainerAzureCustomEndpoint() *string
@@ -4569,7 +4569,7 @@ func ContainerAzureCustomEndpoint() *string
 
 ---
 
-##### `ContainerCustomEndpoint`<sup>Optional</sup> <a name="ContainerCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.containerCustomEndpoint"></a>
+##### `ContainerCustomEndpoint`<sup>Optional</sup> <a name="ContainerCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.containerCustomEndpoint"></a>
 
 ```go
 func ContainerCustomEndpoint() *string
@@ -4579,7 +4579,7 @@ func ContainerCustomEndpoint() *string
 
 ---
 
-##### `CoreBillingCustomEndpoint`<sup>Optional</sup> <a name="CoreBillingCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.coreBillingCustomEndpoint"></a>
+##### `CoreBillingCustomEndpoint`<sup>Optional</sup> <a name="CoreBillingCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.coreBillingCustomEndpoint"></a>
 
 ```go
 func CoreBillingCustomEndpoint() *string
@@ -4589,7 +4589,7 @@ func CoreBillingCustomEndpoint() *string
 
 ---
 
-##### `Credentials`<sup>Optional</sup> <a name="Credentials" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.credentials"></a>
+##### `Credentials`<sup>Optional</sup> <a name="Credentials" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.credentials"></a>
 
 ```go
 func Credentials() *string
@@ -4599,7 +4599,7 @@ func Credentials() *string
 
 ---
 
-##### `DatabaseMigrationServiceCustomEndpoint`<sup>Optional</sup> <a name="DatabaseMigrationServiceCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.databaseMigrationServiceCustomEndpoint"></a>
+##### `DatabaseMigrationServiceCustomEndpoint`<sup>Optional</sup> <a name="DatabaseMigrationServiceCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.databaseMigrationServiceCustomEndpoint"></a>
 
 ```go
 func DatabaseMigrationServiceCustomEndpoint() *string
@@ -4609,7 +4609,7 @@ func DatabaseMigrationServiceCustomEndpoint() *string
 
 ---
 
-##### `DataCatalogCustomEndpoint`<sup>Optional</sup> <a name="DataCatalogCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dataCatalogCustomEndpoint"></a>
+##### `DataCatalogCustomEndpoint`<sup>Optional</sup> <a name="DataCatalogCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dataCatalogCustomEndpoint"></a>
 
 ```go
 func DataCatalogCustomEndpoint() *string
@@ -4619,7 +4619,7 @@ func DataCatalogCustomEndpoint() *string
 
 ---
 
-##### `DataflowCustomEndpoint`<sup>Optional</sup> <a name="DataflowCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dataflowCustomEndpoint"></a>
+##### `DataflowCustomEndpoint`<sup>Optional</sup> <a name="DataflowCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dataflowCustomEndpoint"></a>
 
 ```go
 func DataflowCustomEndpoint() *string
@@ -4629,7 +4629,7 @@ func DataflowCustomEndpoint() *string
 
 ---
 
-##### `DataformCustomEndpoint`<sup>Optional</sup> <a name="DataformCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dataformCustomEndpoint"></a>
+##### `DataformCustomEndpoint`<sup>Optional</sup> <a name="DataformCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dataformCustomEndpoint"></a>
 
 ```go
 func DataformCustomEndpoint() *string
@@ -4639,7 +4639,7 @@ func DataformCustomEndpoint() *string
 
 ---
 
-##### `DataFusionCustomEndpoint`<sup>Optional</sup> <a name="DataFusionCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dataFusionCustomEndpoint"></a>
+##### `DataFusionCustomEndpoint`<sup>Optional</sup> <a name="DataFusionCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dataFusionCustomEndpoint"></a>
 
 ```go
 func DataFusionCustomEndpoint() *string
@@ -4649,7 +4649,7 @@ func DataFusionCustomEndpoint() *string
 
 ---
 
-##### `DataLossPreventionCustomEndpoint`<sup>Optional</sup> <a name="DataLossPreventionCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dataLossPreventionCustomEndpoint"></a>
+##### `DataLossPreventionCustomEndpoint`<sup>Optional</sup> <a name="DataLossPreventionCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dataLossPreventionCustomEndpoint"></a>
 
 ```go
 func DataLossPreventionCustomEndpoint() *string
@@ -4659,7 +4659,7 @@ func DataLossPreventionCustomEndpoint() *string
 
 ---
 
-##### `DataPipelineCustomEndpoint`<sup>Optional</sup> <a name="DataPipelineCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dataPipelineCustomEndpoint"></a>
+##### `DataPipelineCustomEndpoint`<sup>Optional</sup> <a name="DataPipelineCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dataPipelineCustomEndpoint"></a>
 
 ```go
 func DataPipelineCustomEndpoint() *string
@@ -4669,7 +4669,7 @@ func DataPipelineCustomEndpoint() *string
 
 ---
 
-##### `DataplexCustomEndpoint`<sup>Optional</sup> <a name="DataplexCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dataplexCustomEndpoint"></a>
+##### `DataplexCustomEndpoint`<sup>Optional</sup> <a name="DataplexCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dataplexCustomEndpoint"></a>
 
 ```go
 func DataplexCustomEndpoint() *string
@@ -4679,7 +4679,7 @@ func DataplexCustomEndpoint() *string
 
 ---
 
-##### `DataprocCustomEndpoint`<sup>Optional</sup> <a name="DataprocCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dataprocCustomEndpoint"></a>
+##### `DataprocCustomEndpoint`<sup>Optional</sup> <a name="DataprocCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dataprocCustomEndpoint"></a>
 
 ```go
 func DataprocCustomEndpoint() *string
@@ -4689,7 +4689,7 @@ func DataprocCustomEndpoint() *string
 
 ---
 
-##### `DataprocGdcCustomEndpoint`<sup>Optional</sup> <a name="DataprocGdcCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dataprocGdcCustomEndpoint"></a>
+##### `DataprocGdcCustomEndpoint`<sup>Optional</sup> <a name="DataprocGdcCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dataprocGdcCustomEndpoint"></a>
 
 ```go
 func DataprocGdcCustomEndpoint() *string
@@ -4699,7 +4699,7 @@ func DataprocGdcCustomEndpoint() *string
 
 ---
 
-##### `DataprocMetastoreCustomEndpoint`<sup>Optional</sup> <a name="DataprocMetastoreCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dataprocMetastoreCustomEndpoint"></a>
+##### `DataprocMetastoreCustomEndpoint`<sup>Optional</sup> <a name="DataprocMetastoreCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dataprocMetastoreCustomEndpoint"></a>
 
 ```go
 func DataprocMetastoreCustomEndpoint() *string
@@ -4709,7 +4709,7 @@ func DataprocMetastoreCustomEndpoint() *string
 
 ---
 
-##### `DatastreamCustomEndpoint`<sup>Optional</sup> <a name="DatastreamCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.datastreamCustomEndpoint"></a>
+##### `DatastreamCustomEndpoint`<sup>Optional</sup> <a name="DatastreamCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.datastreamCustomEndpoint"></a>
 
 ```go
 func DatastreamCustomEndpoint() *string
@@ -4719,7 +4719,7 @@ func DatastreamCustomEndpoint() *string
 
 ---
 
-##### `DefaultLabels`<sup>Optional</sup> <a name="DefaultLabels" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.defaultLabels"></a>
+##### `DefaultLabels`<sup>Optional</sup> <a name="DefaultLabels" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.defaultLabels"></a>
 
 ```go
 func DefaultLabels() *map[string]*string
@@ -4729,7 +4729,7 @@ func DefaultLabels() *map[string]*string
 
 ---
 
-##### `DeploymentManagerCustomEndpoint`<sup>Optional</sup> <a name="DeploymentManagerCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.deploymentManagerCustomEndpoint"></a>
+##### `DeploymentManagerCustomEndpoint`<sup>Optional</sup> <a name="DeploymentManagerCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.deploymentManagerCustomEndpoint"></a>
 
 ```go
 func DeploymentManagerCustomEndpoint() *string
@@ -4739,7 +4739,7 @@ func DeploymentManagerCustomEndpoint() *string
 
 ---
 
-##### `DeveloperConnectCustomEndpoint`<sup>Optional</sup> <a name="DeveloperConnectCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.developerConnectCustomEndpoint"></a>
+##### `DeveloperConnectCustomEndpoint`<sup>Optional</sup> <a name="DeveloperConnectCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.developerConnectCustomEndpoint"></a>
 
 ```go
 func DeveloperConnectCustomEndpoint() *string
@@ -4749,7 +4749,7 @@ func DeveloperConnectCustomEndpoint() *string
 
 ---
 
-##### `DialogflowCustomEndpoint`<sup>Optional</sup> <a name="DialogflowCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dialogflowCustomEndpoint"></a>
+##### `DialogflowCustomEndpoint`<sup>Optional</sup> <a name="DialogflowCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dialogflowCustomEndpoint"></a>
 
 ```go
 func DialogflowCustomEndpoint() *string
@@ -4759,7 +4759,7 @@ func DialogflowCustomEndpoint() *string
 
 ---
 
-##### `DialogflowCxCustomEndpoint`<sup>Optional</sup> <a name="DialogflowCxCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dialogflowCxCustomEndpoint"></a>
+##### `DialogflowCxCustomEndpoint`<sup>Optional</sup> <a name="DialogflowCxCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dialogflowCxCustomEndpoint"></a>
 
 ```go
 func DialogflowCxCustomEndpoint() *string
@@ -4769,7 +4769,7 @@ func DialogflowCxCustomEndpoint() *string
 
 ---
 
-##### `DiscoveryEngineCustomEndpoint`<sup>Optional</sup> <a name="DiscoveryEngineCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.discoveryEngineCustomEndpoint"></a>
+##### `DiscoveryEngineCustomEndpoint`<sup>Optional</sup> <a name="DiscoveryEngineCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.discoveryEngineCustomEndpoint"></a>
 
 ```go
 func DiscoveryEngineCustomEndpoint() *string
@@ -4779,7 +4779,7 @@ func DiscoveryEngineCustomEndpoint() *string
 
 ---
 
-##### `DnsCustomEndpoint`<sup>Optional</sup> <a name="DnsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.dnsCustomEndpoint"></a>
+##### `DnsCustomEndpoint`<sup>Optional</sup> <a name="DnsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.dnsCustomEndpoint"></a>
 
 ```go
 func DnsCustomEndpoint() *string
@@ -4789,7 +4789,7 @@ func DnsCustomEndpoint() *string
 
 ---
 
-##### `DocumentAiCustomEndpoint`<sup>Optional</sup> <a name="DocumentAiCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.documentAiCustomEndpoint"></a>
+##### `DocumentAiCustomEndpoint`<sup>Optional</sup> <a name="DocumentAiCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.documentAiCustomEndpoint"></a>
 
 ```go
 func DocumentAiCustomEndpoint() *string
@@ -4799,7 +4799,7 @@ func DocumentAiCustomEndpoint() *string
 
 ---
 
-##### `DocumentAiWarehouseCustomEndpoint`<sup>Optional</sup> <a name="DocumentAiWarehouseCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.documentAiWarehouseCustomEndpoint"></a>
+##### `DocumentAiWarehouseCustomEndpoint`<sup>Optional</sup> <a name="DocumentAiWarehouseCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.documentAiWarehouseCustomEndpoint"></a>
 
 ```go
 func DocumentAiWarehouseCustomEndpoint() *string
@@ -4809,7 +4809,7 @@ func DocumentAiWarehouseCustomEndpoint() *string
 
 ---
 
-##### `EdgecontainerCustomEndpoint`<sup>Optional</sup> <a name="EdgecontainerCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.edgecontainerCustomEndpoint"></a>
+##### `EdgecontainerCustomEndpoint`<sup>Optional</sup> <a name="EdgecontainerCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.edgecontainerCustomEndpoint"></a>
 
 ```go
 func EdgecontainerCustomEndpoint() *string
@@ -4819,7 +4819,7 @@ func EdgecontainerCustomEndpoint() *string
 
 ---
 
-##### `EdgenetworkCustomEndpoint`<sup>Optional</sup> <a name="EdgenetworkCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.edgenetworkCustomEndpoint"></a>
+##### `EdgenetworkCustomEndpoint`<sup>Optional</sup> <a name="EdgenetworkCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.edgenetworkCustomEndpoint"></a>
 
 ```go
 func EdgenetworkCustomEndpoint() *string
@@ -4829,7 +4829,7 @@ func EdgenetworkCustomEndpoint() *string
 
 ---
 
-##### `EssentialContactsCustomEndpoint`<sup>Optional</sup> <a name="EssentialContactsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.essentialContactsCustomEndpoint"></a>
+##### `EssentialContactsCustomEndpoint`<sup>Optional</sup> <a name="EssentialContactsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.essentialContactsCustomEndpoint"></a>
 
 ```go
 func EssentialContactsCustomEndpoint() *string
@@ -4839,7 +4839,7 @@ func EssentialContactsCustomEndpoint() *string
 
 ---
 
-##### `EventarcCustomEndpoint`<sup>Optional</sup> <a name="EventarcCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.eventarcCustomEndpoint"></a>
+##### `EventarcCustomEndpoint`<sup>Optional</sup> <a name="EventarcCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.eventarcCustomEndpoint"></a>
 
 ```go
 func EventarcCustomEndpoint() *string
@@ -4849,7 +4849,7 @@ func EventarcCustomEndpoint() *string
 
 ---
 
-##### `ExternalCredentials`<sup>Optional</sup> <a name="ExternalCredentials" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.externalCredentials"></a>
+##### `ExternalCredentials`<sup>Optional</sup> <a name="ExternalCredentials" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.externalCredentials"></a>
 
 ```go
 func ExternalCredentials() interface{}
@@ -4859,7 +4859,7 @@ func ExternalCredentials() interface{}
 
 ---
 
-##### `FilestoreCustomEndpoint`<sup>Optional</sup> <a name="FilestoreCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.filestoreCustomEndpoint"></a>
+##### `FilestoreCustomEndpoint`<sup>Optional</sup> <a name="FilestoreCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.filestoreCustomEndpoint"></a>
 
 ```go
 func FilestoreCustomEndpoint() *string
@@ -4869,7 +4869,7 @@ func FilestoreCustomEndpoint() *string
 
 ---
 
-##### `FirebaseAppCheckCustomEndpoint`<sup>Optional</sup> <a name="FirebaseAppCheckCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.firebaseAppCheckCustomEndpoint"></a>
+##### `FirebaseAppCheckCustomEndpoint`<sup>Optional</sup> <a name="FirebaseAppCheckCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.firebaseAppCheckCustomEndpoint"></a>
 
 ```go
 func FirebaseAppCheckCustomEndpoint() *string
@@ -4879,7 +4879,7 @@ func FirebaseAppCheckCustomEndpoint() *string
 
 ---
 
-##### `FirebaseAppHostingCustomEndpoint`<sup>Optional</sup> <a name="FirebaseAppHostingCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.firebaseAppHostingCustomEndpoint"></a>
+##### `FirebaseAppHostingCustomEndpoint`<sup>Optional</sup> <a name="FirebaseAppHostingCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.firebaseAppHostingCustomEndpoint"></a>
 
 ```go
 func FirebaseAppHostingCustomEndpoint() *string
@@ -4889,7 +4889,7 @@ func FirebaseAppHostingCustomEndpoint() *string
 
 ---
 
-##### `FirebaseCustomEndpoint`<sup>Optional</sup> <a name="FirebaseCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.firebaseCustomEndpoint"></a>
+##### `FirebaseCustomEndpoint`<sup>Optional</sup> <a name="FirebaseCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.firebaseCustomEndpoint"></a>
 
 ```go
 func FirebaseCustomEndpoint() *string
@@ -4899,7 +4899,7 @@ func FirebaseCustomEndpoint() *string
 
 ---
 
-##### `FirebaseDatabaseCustomEndpoint`<sup>Optional</sup> <a name="FirebaseDatabaseCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.firebaseDatabaseCustomEndpoint"></a>
+##### `FirebaseDatabaseCustomEndpoint`<sup>Optional</sup> <a name="FirebaseDatabaseCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.firebaseDatabaseCustomEndpoint"></a>
 
 ```go
 func FirebaseDatabaseCustomEndpoint() *string
@@ -4909,7 +4909,7 @@ func FirebaseDatabaseCustomEndpoint() *string
 
 ---
 
-##### `FirebaseDataConnectCustomEndpoint`<sup>Optional</sup> <a name="FirebaseDataConnectCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.firebaseDataConnectCustomEndpoint"></a>
+##### `FirebaseDataConnectCustomEndpoint`<sup>Optional</sup> <a name="FirebaseDataConnectCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.firebaseDataConnectCustomEndpoint"></a>
 
 ```go
 func FirebaseDataConnectCustomEndpoint() *string
@@ -4919,7 +4919,7 @@ func FirebaseDataConnectCustomEndpoint() *string
 
 ---
 
-##### `FirebaseExtensionsCustomEndpoint`<sup>Optional</sup> <a name="FirebaseExtensionsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.firebaseExtensionsCustomEndpoint"></a>
+##### `FirebaseExtensionsCustomEndpoint`<sup>Optional</sup> <a name="FirebaseExtensionsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.firebaseExtensionsCustomEndpoint"></a>
 
 ```go
 func FirebaseExtensionsCustomEndpoint() *string
@@ -4929,7 +4929,7 @@ func FirebaseExtensionsCustomEndpoint() *string
 
 ---
 
-##### `FirebaseHostingCustomEndpoint`<sup>Optional</sup> <a name="FirebaseHostingCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.firebaseHostingCustomEndpoint"></a>
+##### `FirebaseHostingCustomEndpoint`<sup>Optional</sup> <a name="FirebaseHostingCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.firebaseHostingCustomEndpoint"></a>
 
 ```go
 func FirebaseHostingCustomEndpoint() *string
@@ -4939,7 +4939,7 @@ func FirebaseHostingCustomEndpoint() *string
 
 ---
 
-##### `FirebaserulesCustomEndpoint`<sup>Optional</sup> <a name="FirebaserulesCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.firebaserulesCustomEndpoint"></a>
+##### `FirebaserulesCustomEndpoint`<sup>Optional</sup> <a name="FirebaserulesCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.firebaserulesCustomEndpoint"></a>
 
 ```go
 func FirebaserulesCustomEndpoint() *string
@@ -4949,7 +4949,7 @@ func FirebaserulesCustomEndpoint() *string
 
 ---
 
-##### `FirebaseStorageCustomEndpoint`<sup>Optional</sup> <a name="FirebaseStorageCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.firebaseStorageCustomEndpoint"></a>
+##### `FirebaseStorageCustomEndpoint`<sup>Optional</sup> <a name="FirebaseStorageCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.firebaseStorageCustomEndpoint"></a>
 
 ```go
 func FirebaseStorageCustomEndpoint() *string
@@ -4959,7 +4959,7 @@ func FirebaseStorageCustomEndpoint() *string
 
 ---
 
-##### `FirestoreCustomEndpoint`<sup>Optional</sup> <a name="FirestoreCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.firestoreCustomEndpoint"></a>
+##### `FirestoreCustomEndpoint`<sup>Optional</sup> <a name="FirestoreCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.firestoreCustomEndpoint"></a>
 
 ```go
 func FirestoreCustomEndpoint() *string
@@ -4969,7 +4969,7 @@ func FirestoreCustomEndpoint() *string
 
 ---
 
-##### `GeminiCustomEndpoint`<sup>Optional</sup> <a name="GeminiCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.geminiCustomEndpoint"></a>
+##### `GeminiCustomEndpoint`<sup>Optional</sup> <a name="GeminiCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.geminiCustomEndpoint"></a>
 
 ```go
 func GeminiCustomEndpoint() *string
@@ -4979,7 +4979,7 @@ func GeminiCustomEndpoint() *string
 
 ---
 
-##### `GkeBackupCustomEndpoint`<sup>Optional</sup> <a name="GkeBackupCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.gkeBackupCustomEndpoint"></a>
+##### `GkeBackupCustomEndpoint`<sup>Optional</sup> <a name="GkeBackupCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.gkeBackupCustomEndpoint"></a>
 
 ```go
 func GkeBackupCustomEndpoint() *string
@@ -4989,7 +4989,7 @@ func GkeBackupCustomEndpoint() *string
 
 ---
 
-##### `GkeHub2CustomEndpoint`<sup>Optional</sup> <a name="GkeHub2CustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.gkeHub2CustomEndpoint"></a>
+##### `GkeHub2CustomEndpoint`<sup>Optional</sup> <a name="GkeHub2CustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.gkeHub2CustomEndpoint"></a>
 
 ```go
 func GkeHub2CustomEndpoint() *string
@@ -4999,7 +4999,7 @@ func GkeHub2CustomEndpoint() *string
 
 ---
 
-##### `GkeHubCustomEndpoint`<sup>Optional</sup> <a name="GkeHubCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.gkeHubCustomEndpoint"></a>
+##### `GkeHubCustomEndpoint`<sup>Optional</sup> <a name="GkeHubCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.gkeHubCustomEndpoint"></a>
 
 ```go
 func GkeHubCustomEndpoint() *string
@@ -5009,7 +5009,7 @@ func GkeHubCustomEndpoint() *string
 
 ---
 
-##### `GkeonpremCustomEndpoint`<sup>Optional</sup> <a name="GkeonpremCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.gkeonpremCustomEndpoint"></a>
+##### `GkeonpremCustomEndpoint`<sup>Optional</sup> <a name="GkeonpremCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.gkeonpremCustomEndpoint"></a>
 
 ```go
 func GkeonpremCustomEndpoint() *string
@@ -5019,7 +5019,7 @@ func GkeonpremCustomEndpoint() *string
 
 ---
 
-##### `HealthcareCustomEndpoint`<sup>Optional</sup> <a name="HealthcareCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.healthcareCustomEndpoint"></a>
+##### `HealthcareCustomEndpoint`<sup>Optional</sup> <a name="HealthcareCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.healthcareCustomEndpoint"></a>
 
 ```go
 func HealthcareCustomEndpoint() *string
@@ -5029,7 +5029,7 @@ func HealthcareCustomEndpoint() *string
 
 ---
 
-##### `Iam2CustomEndpoint`<sup>Optional</sup> <a name="Iam2CustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.iam2CustomEndpoint"></a>
+##### `Iam2CustomEndpoint`<sup>Optional</sup> <a name="Iam2CustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.iam2CustomEndpoint"></a>
 
 ```go
 func Iam2CustomEndpoint() *string
@@ -5039,7 +5039,7 @@ func Iam2CustomEndpoint() *string
 
 ---
 
-##### `Iam3CustomEndpoint`<sup>Optional</sup> <a name="Iam3CustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.iam3CustomEndpoint"></a>
+##### `Iam3CustomEndpoint`<sup>Optional</sup> <a name="Iam3CustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.iam3CustomEndpoint"></a>
 
 ```go
 func Iam3CustomEndpoint() *string
@@ -5049,7 +5049,7 @@ func Iam3CustomEndpoint() *string
 
 ---
 
-##### `IamBetaCustomEndpoint`<sup>Optional</sup> <a name="IamBetaCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.iamBetaCustomEndpoint"></a>
+##### `IamBetaCustomEndpoint`<sup>Optional</sup> <a name="IamBetaCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.iamBetaCustomEndpoint"></a>
 
 ```go
 func IamBetaCustomEndpoint() *string
@@ -5059,7 +5059,7 @@ func IamBetaCustomEndpoint() *string
 
 ---
 
-##### `IamCredentialsCustomEndpoint`<sup>Optional</sup> <a name="IamCredentialsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.iamCredentialsCustomEndpoint"></a>
+##### `IamCredentialsCustomEndpoint`<sup>Optional</sup> <a name="IamCredentialsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.iamCredentialsCustomEndpoint"></a>
 
 ```go
 func IamCredentialsCustomEndpoint() *string
@@ -5069,7 +5069,7 @@ func IamCredentialsCustomEndpoint() *string
 
 ---
 
-##### `IamCustomEndpoint`<sup>Optional</sup> <a name="IamCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.iamCustomEndpoint"></a>
+##### `IamCustomEndpoint`<sup>Optional</sup> <a name="IamCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.iamCustomEndpoint"></a>
 
 ```go
 func IamCustomEndpoint() *string
@@ -5079,7 +5079,7 @@ func IamCustomEndpoint() *string
 
 ---
 
-##### `IamWorkforcePoolCustomEndpoint`<sup>Optional</sup> <a name="IamWorkforcePoolCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.iamWorkforcePoolCustomEndpoint"></a>
+##### `IamWorkforcePoolCustomEndpoint`<sup>Optional</sup> <a name="IamWorkforcePoolCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.iamWorkforcePoolCustomEndpoint"></a>
 
 ```go
 func IamWorkforcePoolCustomEndpoint() *string
@@ -5089,7 +5089,7 @@ func IamWorkforcePoolCustomEndpoint() *string
 
 ---
 
-##### `IapCustomEndpoint`<sup>Optional</sup> <a name="IapCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.iapCustomEndpoint"></a>
+##### `IapCustomEndpoint`<sup>Optional</sup> <a name="IapCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.iapCustomEndpoint"></a>
 
 ```go
 func IapCustomEndpoint() *string
@@ -5099,7 +5099,7 @@ func IapCustomEndpoint() *string
 
 ---
 
-##### `IdentityPlatformCustomEndpoint`<sup>Optional</sup> <a name="IdentityPlatformCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.identityPlatformCustomEndpoint"></a>
+##### `IdentityPlatformCustomEndpoint`<sup>Optional</sup> <a name="IdentityPlatformCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.identityPlatformCustomEndpoint"></a>
 
 ```go
 func IdentityPlatformCustomEndpoint() *string
@@ -5109,7 +5109,7 @@ func IdentityPlatformCustomEndpoint() *string
 
 ---
 
-##### `ImpersonateServiceAccount`<sup>Optional</sup> <a name="ImpersonateServiceAccount" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.impersonateServiceAccount"></a>
+##### `ImpersonateServiceAccount`<sup>Optional</sup> <a name="ImpersonateServiceAccount" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.impersonateServiceAccount"></a>
 
 ```go
 func ImpersonateServiceAccount() *string
@@ -5119,7 +5119,7 @@ func ImpersonateServiceAccount() *string
 
 ---
 
-##### `ImpersonateServiceAccountDelegates`<sup>Optional</sup> <a name="ImpersonateServiceAccountDelegates" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.impersonateServiceAccountDelegates"></a>
+##### `ImpersonateServiceAccountDelegates`<sup>Optional</sup> <a name="ImpersonateServiceAccountDelegates" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.impersonateServiceAccountDelegates"></a>
 
 ```go
 func ImpersonateServiceAccountDelegates() *[]*string
@@ -5129,7 +5129,7 @@ func ImpersonateServiceAccountDelegates() *[]*string
 
 ---
 
-##### `IntegrationConnectorsCustomEndpoint`<sup>Optional</sup> <a name="IntegrationConnectorsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.integrationConnectorsCustomEndpoint"></a>
+##### `IntegrationConnectorsCustomEndpoint`<sup>Optional</sup> <a name="IntegrationConnectorsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.integrationConnectorsCustomEndpoint"></a>
 
 ```go
 func IntegrationConnectorsCustomEndpoint() *string
@@ -5139,7 +5139,7 @@ func IntegrationConnectorsCustomEndpoint() *string
 
 ---
 
-##### `IntegrationsCustomEndpoint`<sup>Optional</sup> <a name="IntegrationsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.integrationsCustomEndpoint"></a>
+##### `IntegrationsCustomEndpoint`<sup>Optional</sup> <a name="IntegrationsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.integrationsCustomEndpoint"></a>
 
 ```go
 func IntegrationsCustomEndpoint() *string
@@ -5149,7 +5149,7 @@ func IntegrationsCustomEndpoint() *string
 
 ---
 
-##### `KmsCustomEndpoint`<sup>Optional</sup> <a name="KmsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.kmsCustomEndpoint"></a>
+##### `KmsCustomEndpoint`<sup>Optional</sup> <a name="KmsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.kmsCustomEndpoint"></a>
 
 ```go
 func KmsCustomEndpoint() *string
@@ -5159,7 +5159,7 @@ func KmsCustomEndpoint() *string
 
 ---
 
-##### `LoggingCustomEndpoint`<sup>Optional</sup> <a name="LoggingCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.loggingCustomEndpoint"></a>
+##### `LoggingCustomEndpoint`<sup>Optional</sup> <a name="LoggingCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.loggingCustomEndpoint"></a>
 
 ```go
 func LoggingCustomEndpoint() *string
@@ -5169,7 +5169,7 @@ func LoggingCustomEndpoint() *string
 
 ---
 
-##### `LookerCustomEndpoint`<sup>Optional</sup> <a name="LookerCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.lookerCustomEndpoint"></a>
+##### `LookerCustomEndpoint`<sup>Optional</sup> <a name="LookerCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.lookerCustomEndpoint"></a>
 
 ```go
 func LookerCustomEndpoint() *string
@@ -5179,7 +5179,7 @@ func LookerCustomEndpoint() *string
 
 ---
 
-##### `LustreCustomEndpoint`<sup>Optional</sup> <a name="LustreCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.lustreCustomEndpoint"></a>
+##### `LustreCustomEndpoint`<sup>Optional</sup> <a name="LustreCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.lustreCustomEndpoint"></a>
 
 ```go
 func LustreCustomEndpoint() *string
@@ -5189,7 +5189,7 @@ func LustreCustomEndpoint() *string
 
 ---
 
-##### `ManagedKafkaCustomEndpoint`<sup>Optional</sup> <a name="ManagedKafkaCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.managedKafkaCustomEndpoint"></a>
+##### `ManagedKafkaCustomEndpoint`<sup>Optional</sup> <a name="ManagedKafkaCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.managedKafkaCustomEndpoint"></a>
 
 ```go
 func ManagedKafkaCustomEndpoint() *string
@@ -5199,7 +5199,7 @@ func ManagedKafkaCustomEndpoint() *string
 
 ---
 
-##### `MemcacheCustomEndpoint`<sup>Optional</sup> <a name="MemcacheCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.memcacheCustomEndpoint"></a>
+##### `MemcacheCustomEndpoint`<sup>Optional</sup> <a name="MemcacheCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.memcacheCustomEndpoint"></a>
 
 ```go
 func MemcacheCustomEndpoint() *string
@@ -5209,7 +5209,7 @@ func MemcacheCustomEndpoint() *string
 
 ---
 
-##### `MemorystoreCustomEndpoint`<sup>Optional</sup> <a name="MemorystoreCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.memorystoreCustomEndpoint"></a>
+##### `MemorystoreCustomEndpoint`<sup>Optional</sup> <a name="MemorystoreCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.memorystoreCustomEndpoint"></a>
 
 ```go
 func MemorystoreCustomEndpoint() *string
@@ -5219,7 +5219,7 @@ func MemorystoreCustomEndpoint() *string
 
 ---
 
-##### `MigrationCenterCustomEndpoint`<sup>Optional</sup> <a name="MigrationCenterCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.migrationCenterCustomEndpoint"></a>
+##### `MigrationCenterCustomEndpoint`<sup>Optional</sup> <a name="MigrationCenterCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.migrationCenterCustomEndpoint"></a>
 
 ```go
 func MigrationCenterCustomEndpoint() *string
@@ -5229,7 +5229,7 @@ func MigrationCenterCustomEndpoint() *string
 
 ---
 
-##### `MlEngineCustomEndpoint`<sup>Optional</sup> <a name="MlEngineCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.mlEngineCustomEndpoint"></a>
+##### `MlEngineCustomEndpoint`<sup>Optional</sup> <a name="MlEngineCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.mlEngineCustomEndpoint"></a>
 
 ```go
 func MlEngineCustomEndpoint() *string
@@ -5239,7 +5239,7 @@ func MlEngineCustomEndpoint() *string
 
 ---
 
-##### `ModelArmorCustomEndpoint`<sup>Optional</sup> <a name="ModelArmorCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.modelArmorCustomEndpoint"></a>
+##### `ModelArmorCustomEndpoint`<sup>Optional</sup> <a name="ModelArmorCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.modelArmorCustomEndpoint"></a>
 
 ```go
 func ModelArmorCustomEndpoint() *string
@@ -5249,7 +5249,7 @@ func ModelArmorCustomEndpoint() *string
 
 ---
 
-##### `ModelArmorGlobalCustomEndpoint`<sup>Optional</sup> <a name="ModelArmorGlobalCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.modelArmorGlobalCustomEndpoint"></a>
+##### `ModelArmorGlobalCustomEndpoint`<sup>Optional</sup> <a name="ModelArmorGlobalCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.modelArmorGlobalCustomEndpoint"></a>
 
 ```go
 func ModelArmorGlobalCustomEndpoint() *string
@@ -5259,7 +5259,7 @@ func ModelArmorGlobalCustomEndpoint() *string
 
 ---
 
-##### `MonitoringCustomEndpoint`<sup>Optional</sup> <a name="MonitoringCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.monitoringCustomEndpoint"></a>
+##### `MonitoringCustomEndpoint`<sup>Optional</sup> <a name="MonitoringCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.monitoringCustomEndpoint"></a>
 
 ```go
 func MonitoringCustomEndpoint() *string
@@ -5269,7 +5269,7 @@ func MonitoringCustomEndpoint() *string
 
 ---
 
-##### `NetappCustomEndpoint`<sup>Optional</sup> <a name="NetappCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.netappCustomEndpoint"></a>
+##### `NetappCustomEndpoint`<sup>Optional</sup> <a name="NetappCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.netappCustomEndpoint"></a>
 
 ```go
 func NetappCustomEndpoint() *string
@@ -5279,7 +5279,7 @@ func NetappCustomEndpoint() *string
 
 ---
 
-##### `NetworkConnectivityCustomEndpoint`<sup>Optional</sup> <a name="NetworkConnectivityCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.networkConnectivityCustomEndpoint"></a>
+##### `NetworkConnectivityCustomEndpoint`<sup>Optional</sup> <a name="NetworkConnectivityCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.networkConnectivityCustomEndpoint"></a>
 
 ```go
 func NetworkConnectivityCustomEndpoint() *string
@@ -5289,7 +5289,7 @@ func NetworkConnectivityCustomEndpoint() *string
 
 ---
 
-##### `NetworkManagementCustomEndpoint`<sup>Optional</sup> <a name="NetworkManagementCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.networkManagementCustomEndpoint"></a>
+##### `NetworkManagementCustomEndpoint`<sup>Optional</sup> <a name="NetworkManagementCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.networkManagementCustomEndpoint"></a>
 
 ```go
 func NetworkManagementCustomEndpoint() *string
@@ -5299,7 +5299,7 @@ func NetworkManagementCustomEndpoint() *string
 
 ---
 
-##### `NetworkSecurityCustomEndpoint`<sup>Optional</sup> <a name="NetworkSecurityCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.networkSecurityCustomEndpoint"></a>
+##### `NetworkSecurityCustomEndpoint`<sup>Optional</sup> <a name="NetworkSecurityCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.networkSecurityCustomEndpoint"></a>
 
 ```go
 func NetworkSecurityCustomEndpoint() *string
@@ -5309,7 +5309,7 @@ func NetworkSecurityCustomEndpoint() *string
 
 ---
 
-##### `NetworkServicesCustomEndpoint`<sup>Optional</sup> <a name="NetworkServicesCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.networkServicesCustomEndpoint"></a>
+##### `NetworkServicesCustomEndpoint`<sup>Optional</sup> <a name="NetworkServicesCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.networkServicesCustomEndpoint"></a>
 
 ```go
 func NetworkServicesCustomEndpoint() *string
@@ -5319,7 +5319,7 @@ func NetworkServicesCustomEndpoint() *string
 
 ---
 
-##### `NotebooksCustomEndpoint`<sup>Optional</sup> <a name="NotebooksCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.notebooksCustomEndpoint"></a>
+##### `NotebooksCustomEndpoint`<sup>Optional</sup> <a name="NotebooksCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.notebooksCustomEndpoint"></a>
 
 ```go
 func NotebooksCustomEndpoint() *string
@@ -5329,7 +5329,7 @@ func NotebooksCustomEndpoint() *string
 
 ---
 
-##### `OracleDatabaseCustomEndpoint`<sup>Optional</sup> <a name="OracleDatabaseCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.oracleDatabaseCustomEndpoint"></a>
+##### `OracleDatabaseCustomEndpoint`<sup>Optional</sup> <a name="OracleDatabaseCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.oracleDatabaseCustomEndpoint"></a>
 
 ```go
 func OracleDatabaseCustomEndpoint() *string
@@ -5339,7 +5339,7 @@ func OracleDatabaseCustomEndpoint() *string
 
 ---
 
-##### `OrgPolicyCustomEndpoint`<sup>Optional</sup> <a name="OrgPolicyCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.orgPolicyCustomEndpoint"></a>
+##### `OrgPolicyCustomEndpoint`<sup>Optional</sup> <a name="OrgPolicyCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.orgPolicyCustomEndpoint"></a>
 
 ```go
 func OrgPolicyCustomEndpoint() *string
@@ -5349,7 +5349,7 @@ func OrgPolicyCustomEndpoint() *string
 
 ---
 
-##### `OsConfigCustomEndpoint`<sup>Optional</sup> <a name="OsConfigCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.osConfigCustomEndpoint"></a>
+##### `OsConfigCustomEndpoint`<sup>Optional</sup> <a name="OsConfigCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.osConfigCustomEndpoint"></a>
 
 ```go
 func OsConfigCustomEndpoint() *string
@@ -5359,7 +5359,7 @@ func OsConfigCustomEndpoint() *string
 
 ---
 
-##### `OsConfigV2CustomEndpoint`<sup>Optional</sup> <a name="OsConfigV2CustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.osConfigV2CustomEndpoint"></a>
+##### `OsConfigV2CustomEndpoint`<sup>Optional</sup> <a name="OsConfigV2CustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.osConfigV2CustomEndpoint"></a>
 
 ```go
 func OsConfigV2CustomEndpoint() *string
@@ -5369,7 +5369,7 @@ func OsConfigV2CustomEndpoint() *string
 
 ---
 
-##### `OsLoginCustomEndpoint`<sup>Optional</sup> <a name="OsLoginCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.osLoginCustomEndpoint"></a>
+##### `OsLoginCustomEndpoint`<sup>Optional</sup> <a name="OsLoginCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.osLoginCustomEndpoint"></a>
 
 ```go
 func OsLoginCustomEndpoint() *string
@@ -5379,7 +5379,7 @@ func OsLoginCustomEndpoint() *string
 
 ---
 
-##### `ParallelstoreCustomEndpoint`<sup>Optional</sup> <a name="ParallelstoreCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.parallelstoreCustomEndpoint"></a>
+##### `ParallelstoreCustomEndpoint`<sup>Optional</sup> <a name="ParallelstoreCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.parallelstoreCustomEndpoint"></a>
 
 ```go
 func ParallelstoreCustomEndpoint() *string
@@ -5389,7 +5389,7 @@ func ParallelstoreCustomEndpoint() *string
 
 ---
 
-##### `ParameterManagerCustomEndpoint`<sup>Optional</sup> <a name="ParameterManagerCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.parameterManagerCustomEndpoint"></a>
+##### `ParameterManagerCustomEndpoint`<sup>Optional</sup> <a name="ParameterManagerCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.parameterManagerCustomEndpoint"></a>
 
 ```go
 func ParameterManagerCustomEndpoint() *string
@@ -5399,7 +5399,7 @@ func ParameterManagerCustomEndpoint() *string
 
 ---
 
-##### `ParameterManagerRegionalCustomEndpoint`<sup>Optional</sup> <a name="ParameterManagerRegionalCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.parameterManagerRegionalCustomEndpoint"></a>
+##### `ParameterManagerRegionalCustomEndpoint`<sup>Optional</sup> <a name="ParameterManagerRegionalCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.parameterManagerRegionalCustomEndpoint"></a>
 
 ```go
 func ParameterManagerRegionalCustomEndpoint() *string
@@ -5409,7 +5409,7 @@ func ParameterManagerRegionalCustomEndpoint() *string
 
 ---
 
-##### `PrivatecaCustomEndpoint`<sup>Optional</sup> <a name="PrivatecaCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.privatecaCustomEndpoint"></a>
+##### `PrivatecaCustomEndpoint`<sup>Optional</sup> <a name="PrivatecaCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.privatecaCustomEndpoint"></a>
 
 ```go
 func PrivatecaCustomEndpoint() *string
@@ -5419,7 +5419,7 @@ func PrivatecaCustomEndpoint() *string
 
 ---
 
-##### `PrivilegedAccessManagerCustomEndpoint`<sup>Optional</sup> <a name="PrivilegedAccessManagerCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.privilegedAccessManagerCustomEndpoint"></a>
+##### `PrivilegedAccessManagerCustomEndpoint`<sup>Optional</sup> <a name="PrivilegedAccessManagerCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.privilegedAccessManagerCustomEndpoint"></a>
 
 ```go
 func PrivilegedAccessManagerCustomEndpoint() *string
@@ -5429,7 +5429,7 @@ func PrivilegedAccessManagerCustomEndpoint() *string
 
 ---
 
-##### `Project`<sup>Optional</sup> <a name="Project" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.project"></a>
+##### `Project`<sup>Optional</sup> <a name="Project" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.project"></a>
 
 ```go
 func Project() *string
@@ -5439,7 +5439,7 @@ func Project() *string
 
 ---
 
-##### `PublicCaCustomEndpoint`<sup>Optional</sup> <a name="PublicCaCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.publicCaCustomEndpoint"></a>
+##### `PublicCaCustomEndpoint`<sup>Optional</sup> <a name="PublicCaCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.publicCaCustomEndpoint"></a>
 
 ```go
 func PublicCaCustomEndpoint() *string
@@ -5449,7 +5449,7 @@ func PublicCaCustomEndpoint() *string
 
 ---
 
-##### `PubsubCustomEndpoint`<sup>Optional</sup> <a name="PubsubCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.pubsubCustomEndpoint"></a>
+##### `PubsubCustomEndpoint`<sup>Optional</sup> <a name="PubsubCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.pubsubCustomEndpoint"></a>
 
 ```go
 func PubsubCustomEndpoint() *string
@@ -5459,7 +5459,7 @@ func PubsubCustomEndpoint() *string
 
 ---
 
-##### `PubsubLiteCustomEndpoint`<sup>Optional</sup> <a name="PubsubLiteCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.pubsubLiteCustomEndpoint"></a>
+##### `PubsubLiteCustomEndpoint`<sup>Optional</sup> <a name="PubsubLiteCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.pubsubLiteCustomEndpoint"></a>
 
 ```go
 func PubsubLiteCustomEndpoint() *string
@@ -5469,7 +5469,7 @@ func PubsubLiteCustomEndpoint() *string
 
 ---
 
-##### `RecaptchaEnterpriseCustomEndpoint`<sup>Optional</sup> <a name="RecaptchaEnterpriseCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.recaptchaEnterpriseCustomEndpoint"></a>
+##### `RecaptchaEnterpriseCustomEndpoint`<sup>Optional</sup> <a name="RecaptchaEnterpriseCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.recaptchaEnterpriseCustomEndpoint"></a>
 
 ```go
 func RecaptchaEnterpriseCustomEndpoint() *string
@@ -5479,7 +5479,7 @@ func RecaptchaEnterpriseCustomEndpoint() *string
 
 ---
 
-##### `RedisCustomEndpoint`<sup>Optional</sup> <a name="RedisCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.redisCustomEndpoint"></a>
+##### `RedisCustomEndpoint`<sup>Optional</sup> <a name="RedisCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.redisCustomEndpoint"></a>
 
 ```go
 func RedisCustomEndpoint() *string
@@ -5489,7 +5489,7 @@ func RedisCustomEndpoint() *string
 
 ---
 
-##### `Region`<sup>Optional</sup> <a name="Region" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.region"></a>
+##### `Region`<sup>Optional</sup> <a name="Region" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.region"></a>
 
 ```go
 func Region() *string
@@ -5499,7 +5499,7 @@ func Region() *string
 
 ---
 
-##### `RequestReason`<sup>Optional</sup> <a name="RequestReason" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.requestReason"></a>
+##### `RequestReason`<sup>Optional</sup> <a name="RequestReason" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.requestReason"></a>
 
 ```go
 func RequestReason() *string
@@ -5509,7 +5509,7 @@ func RequestReason() *string
 
 ---
 
-##### `RequestTimeout`<sup>Optional</sup> <a name="RequestTimeout" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.requestTimeout"></a>
+##### `RequestTimeout`<sup>Optional</sup> <a name="RequestTimeout" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.requestTimeout"></a>
 
 ```go
 func RequestTimeout() *string
@@ -5519,7 +5519,7 @@ func RequestTimeout() *string
 
 ---
 
-##### `ResourceManager3CustomEndpoint`<sup>Optional</sup> <a name="ResourceManager3CustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.resourceManager3CustomEndpoint"></a>
+##### `ResourceManager3CustomEndpoint`<sup>Optional</sup> <a name="ResourceManager3CustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.resourceManager3CustomEndpoint"></a>
 
 ```go
 func ResourceManager3CustomEndpoint() *string
@@ -5529,7 +5529,7 @@ func ResourceManager3CustomEndpoint() *string
 
 ---
 
-##### `ResourceManagerCustomEndpoint`<sup>Optional</sup> <a name="ResourceManagerCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.resourceManagerCustomEndpoint"></a>
+##### `ResourceManagerCustomEndpoint`<sup>Optional</sup> <a name="ResourceManagerCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.resourceManagerCustomEndpoint"></a>
 
 ```go
 func ResourceManagerCustomEndpoint() *string
@@ -5539,7 +5539,7 @@ func ResourceManagerCustomEndpoint() *string
 
 ---
 
-##### `ResourceManagerV3CustomEndpoint`<sup>Optional</sup> <a name="ResourceManagerV3CustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.resourceManagerV3CustomEndpoint"></a>
+##### `ResourceManagerV3CustomEndpoint`<sup>Optional</sup> <a name="ResourceManagerV3CustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.resourceManagerV3CustomEndpoint"></a>
 
 ```go
 func ResourceManagerV3CustomEndpoint() *string
@@ -5549,7 +5549,7 @@ func ResourceManagerV3CustomEndpoint() *string
 
 ---
 
-##### `RuntimeconfigCustomEndpoint`<sup>Optional</sup> <a name="RuntimeconfigCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.runtimeconfigCustomEndpoint"></a>
+##### `RuntimeconfigCustomEndpoint`<sup>Optional</sup> <a name="RuntimeconfigCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.runtimeconfigCustomEndpoint"></a>
 
 ```go
 func RuntimeconfigCustomEndpoint() *string
@@ -5559,7 +5559,7 @@ func RuntimeconfigCustomEndpoint() *string
 
 ---
 
-##### `RuntimeConfigCustomEndpoint`<sup>Optional</sup> <a name="RuntimeConfigCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.runtimeConfigCustomEndpoint"></a>
+##### `RuntimeConfigCustomEndpoint`<sup>Optional</sup> <a name="RuntimeConfigCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.runtimeConfigCustomEndpoint"></a>
 
 ```go
 func RuntimeConfigCustomEndpoint() *string
@@ -5569,7 +5569,7 @@ func RuntimeConfigCustomEndpoint() *string
 
 ---
 
-##### `Scopes`<sup>Optional</sup> <a name="Scopes" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.scopes"></a>
+##### `Scopes`<sup>Optional</sup> <a name="Scopes" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.scopes"></a>
 
 ```go
 func Scopes() *[]*string
@@ -5579,7 +5579,7 @@ func Scopes() *[]*string
 
 ---
 
-##### `SecretManagerCustomEndpoint`<sup>Optional</sup> <a name="SecretManagerCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.secretManagerCustomEndpoint"></a>
+##### `SecretManagerCustomEndpoint`<sup>Optional</sup> <a name="SecretManagerCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.secretManagerCustomEndpoint"></a>
 
 ```go
 func SecretManagerCustomEndpoint() *string
@@ -5589,7 +5589,7 @@ func SecretManagerCustomEndpoint() *string
 
 ---
 
-##### `SecretManagerRegionalCustomEndpoint`<sup>Optional</sup> <a name="SecretManagerRegionalCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.secretManagerRegionalCustomEndpoint"></a>
+##### `SecretManagerRegionalCustomEndpoint`<sup>Optional</sup> <a name="SecretManagerRegionalCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.secretManagerRegionalCustomEndpoint"></a>
 
 ```go
 func SecretManagerRegionalCustomEndpoint() *string
@@ -5599,7 +5599,7 @@ func SecretManagerRegionalCustomEndpoint() *string
 
 ---
 
-##### `SecureSourceManagerCustomEndpoint`<sup>Optional</sup> <a name="SecureSourceManagerCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.secureSourceManagerCustomEndpoint"></a>
+##### `SecureSourceManagerCustomEndpoint`<sup>Optional</sup> <a name="SecureSourceManagerCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.secureSourceManagerCustomEndpoint"></a>
 
 ```go
 func SecureSourceManagerCustomEndpoint() *string
@@ -5609,7 +5609,7 @@ func SecureSourceManagerCustomEndpoint() *string
 
 ---
 
-##### `SecurityCenterCustomEndpoint`<sup>Optional</sup> <a name="SecurityCenterCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.securityCenterCustomEndpoint"></a>
+##### `SecurityCenterCustomEndpoint`<sup>Optional</sup> <a name="SecurityCenterCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.securityCenterCustomEndpoint"></a>
 
 ```go
 func SecurityCenterCustomEndpoint() *string
@@ -5619,7 +5619,7 @@ func SecurityCenterCustomEndpoint() *string
 
 ---
 
-##### `SecurityCenterManagementCustomEndpoint`<sup>Optional</sup> <a name="SecurityCenterManagementCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.securityCenterManagementCustomEndpoint"></a>
+##### `SecurityCenterManagementCustomEndpoint`<sup>Optional</sup> <a name="SecurityCenterManagementCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.securityCenterManagementCustomEndpoint"></a>
 
 ```go
 func SecurityCenterManagementCustomEndpoint() *string
@@ -5629,7 +5629,7 @@ func SecurityCenterManagementCustomEndpoint() *string
 
 ---
 
-##### `SecurityCenterV2CustomEndpoint`<sup>Optional</sup> <a name="SecurityCenterV2CustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.securityCenterV2CustomEndpoint"></a>
+##### `SecurityCenterV2CustomEndpoint`<sup>Optional</sup> <a name="SecurityCenterV2CustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.securityCenterV2CustomEndpoint"></a>
 
 ```go
 func SecurityCenterV2CustomEndpoint() *string
@@ -5639,7 +5639,7 @@ func SecurityCenterV2CustomEndpoint() *string
 
 ---
 
-##### `SecuritypostureCustomEndpoint`<sup>Optional</sup> <a name="SecuritypostureCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.securitypostureCustomEndpoint"></a>
+##### `SecuritypostureCustomEndpoint`<sup>Optional</sup> <a name="SecuritypostureCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.securitypostureCustomEndpoint"></a>
 
 ```go
 func SecuritypostureCustomEndpoint() *string
@@ -5649,7 +5649,7 @@ func SecuritypostureCustomEndpoint() *string
 
 ---
 
-##### `SecurityScannerCustomEndpoint`<sup>Optional</sup> <a name="SecurityScannerCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.securityScannerCustomEndpoint"></a>
+##### `SecurityScannerCustomEndpoint`<sup>Optional</sup> <a name="SecurityScannerCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.securityScannerCustomEndpoint"></a>
 
 ```go
 func SecurityScannerCustomEndpoint() *string
@@ -5659,7 +5659,7 @@ func SecurityScannerCustomEndpoint() *string
 
 ---
 
-##### `ServiceDirectoryCustomEndpoint`<sup>Optional</sup> <a name="ServiceDirectoryCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.serviceDirectoryCustomEndpoint"></a>
+##### `ServiceDirectoryCustomEndpoint`<sup>Optional</sup> <a name="ServiceDirectoryCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.serviceDirectoryCustomEndpoint"></a>
 
 ```go
 func ServiceDirectoryCustomEndpoint() *string
@@ -5669,7 +5669,7 @@ func ServiceDirectoryCustomEndpoint() *string
 
 ---
 
-##### `ServiceManagementCustomEndpoint`<sup>Optional</sup> <a name="ServiceManagementCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.serviceManagementCustomEndpoint"></a>
+##### `ServiceManagementCustomEndpoint`<sup>Optional</sup> <a name="ServiceManagementCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.serviceManagementCustomEndpoint"></a>
 
 ```go
 func ServiceManagementCustomEndpoint() *string
@@ -5679,7 +5679,7 @@ func ServiceManagementCustomEndpoint() *string
 
 ---
 
-##### `ServiceNetworkingCustomEndpoint`<sup>Optional</sup> <a name="ServiceNetworkingCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.serviceNetworkingCustomEndpoint"></a>
+##### `ServiceNetworkingCustomEndpoint`<sup>Optional</sup> <a name="ServiceNetworkingCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.serviceNetworkingCustomEndpoint"></a>
 
 ```go
 func ServiceNetworkingCustomEndpoint() *string
@@ -5689,7 +5689,7 @@ func ServiceNetworkingCustomEndpoint() *string
 
 ---
 
-##### `ServiceUsageCustomEndpoint`<sup>Optional</sup> <a name="ServiceUsageCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.serviceUsageCustomEndpoint"></a>
+##### `ServiceUsageCustomEndpoint`<sup>Optional</sup> <a name="ServiceUsageCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.serviceUsageCustomEndpoint"></a>
 
 ```go
 func ServiceUsageCustomEndpoint() *string
@@ -5699,7 +5699,7 @@ func ServiceUsageCustomEndpoint() *string
 
 ---
 
-##### `SiteVerificationCustomEndpoint`<sup>Optional</sup> <a name="SiteVerificationCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.siteVerificationCustomEndpoint"></a>
+##### `SiteVerificationCustomEndpoint`<sup>Optional</sup> <a name="SiteVerificationCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.siteVerificationCustomEndpoint"></a>
 
 ```go
 func SiteVerificationCustomEndpoint() *string
@@ -5709,7 +5709,7 @@ func SiteVerificationCustomEndpoint() *string
 
 ---
 
-##### `SourceRepoCustomEndpoint`<sup>Optional</sup> <a name="SourceRepoCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.sourceRepoCustomEndpoint"></a>
+##### `SourceRepoCustomEndpoint`<sup>Optional</sup> <a name="SourceRepoCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.sourceRepoCustomEndpoint"></a>
 
 ```go
 func SourceRepoCustomEndpoint() *string
@@ -5719,7 +5719,7 @@ func SourceRepoCustomEndpoint() *string
 
 ---
 
-##### `SpannerCustomEndpoint`<sup>Optional</sup> <a name="SpannerCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.spannerCustomEndpoint"></a>
+##### `SpannerCustomEndpoint`<sup>Optional</sup> <a name="SpannerCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.spannerCustomEndpoint"></a>
 
 ```go
 func SpannerCustomEndpoint() *string
@@ -5729,7 +5729,7 @@ func SpannerCustomEndpoint() *string
 
 ---
 
-##### `SqlCustomEndpoint`<sup>Optional</sup> <a name="SqlCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.sqlCustomEndpoint"></a>
+##### `SqlCustomEndpoint`<sup>Optional</sup> <a name="SqlCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.sqlCustomEndpoint"></a>
 
 ```go
 func SqlCustomEndpoint() *string
@@ -5739,7 +5739,7 @@ func SqlCustomEndpoint() *string
 
 ---
 
-##### `StorageBatchOperationsCustomEndpoint`<sup>Optional</sup> <a name="StorageBatchOperationsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.storageBatchOperationsCustomEndpoint"></a>
+##### `StorageBatchOperationsCustomEndpoint`<sup>Optional</sup> <a name="StorageBatchOperationsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.storageBatchOperationsCustomEndpoint"></a>
 
 ```go
 func StorageBatchOperationsCustomEndpoint() *string
@@ -5749,7 +5749,7 @@ func StorageBatchOperationsCustomEndpoint() *string
 
 ---
 
-##### `StorageControlCustomEndpoint`<sup>Optional</sup> <a name="StorageControlCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.storageControlCustomEndpoint"></a>
+##### `StorageControlCustomEndpoint`<sup>Optional</sup> <a name="StorageControlCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.storageControlCustomEndpoint"></a>
 
 ```go
 func StorageControlCustomEndpoint() *string
@@ -5759,7 +5759,7 @@ func StorageControlCustomEndpoint() *string
 
 ---
 
-##### `StorageCustomEndpoint`<sup>Optional</sup> <a name="StorageCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.storageCustomEndpoint"></a>
+##### `StorageCustomEndpoint`<sup>Optional</sup> <a name="StorageCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.storageCustomEndpoint"></a>
 
 ```go
 func StorageCustomEndpoint() *string
@@ -5769,7 +5769,7 @@ func StorageCustomEndpoint() *string
 
 ---
 
-##### `StorageInsightsCustomEndpoint`<sup>Optional</sup> <a name="StorageInsightsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.storageInsightsCustomEndpoint"></a>
+##### `StorageInsightsCustomEndpoint`<sup>Optional</sup> <a name="StorageInsightsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.storageInsightsCustomEndpoint"></a>
 
 ```go
 func StorageInsightsCustomEndpoint() *string
@@ -5779,7 +5779,7 @@ func StorageInsightsCustomEndpoint() *string
 
 ---
 
-##### `StorageTransferCustomEndpoint`<sup>Optional</sup> <a name="StorageTransferCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.storageTransferCustomEndpoint"></a>
+##### `StorageTransferCustomEndpoint`<sup>Optional</sup> <a name="StorageTransferCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.storageTransferCustomEndpoint"></a>
 
 ```go
 func StorageTransferCustomEndpoint() *string
@@ -5789,7 +5789,7 @@ func StorageTransferCustomEndpoint() *string
 
 ---
 
-##### `TagsCustomEndpoint`<sup>Optional</sup> <a name="TagsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.tagsCustomEndpoint"></a>
+##### `TagsCustomEndpoint`<sup>Optional</sup> <a name="TagsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.tagsCustomEndpoint"></a>
 
 ```go
 func TagsCustomEndpoint() *string
@@ -5799,7 +5799,7 @@ func TagsCustomEndpoint() *string
 
 ---
 
-##### `TagsLocationCustomEndpoint`<sup>Optional</sup> <a name="TagsLocationCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.tagsLocationCustomEndpoint"></a>
+##### `TagsLocationCustomEndpoint`<sup>Optional</sup> <a name="TagsLocationCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.tagsLocationCustomEndpoint"></a>
 
 ```go
 func TagsLocationCustomEndpoint() *string
@@ -5809,7 +5809,7 @@ func TagsLocationCustomEndpoint() *string
 
 ---
 
-##### `TerraformAttributionLabelAdditionStrategy`<sup>Optional</sup> <a name="TerraformAttributionLabelAdditionStrategy" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.terraformAttributionLabelAdditionStrategy"></a>
+##### `TerraformAttributionLabelAdditionStrategy`<sup>Optional</sup> <a name="TerraformAttributionLabelAdditionStrategy" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.terraformAttributionLabelAdditionStrategy"></a>
 
 ```go
 func TerraformAttributionLabelAdditionStrategy() *string
@@ -5819,7 +5819,7 @@ func TerraformAttributionLabelAdditionStrategy() *string
 
 ---
 
-##### `TpuCustomEndpoint`<sup>Optional</sup> <a name="TpuCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.tpuCustomEndpoint"></a>
+##### `TpuCustomEndpoint`<sup>Optional</sup> <a name="TpuCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.tpuCustomEndpoint"></a>
 
 ```go
 func TpuCustomEndpoint() *string
@@ -5829,7 +5829,7 @@ func TpuCustomEndpoint() *string
 
 ---
 
-##### `TpuV2CustomEndpoint`<sup>Optional</sup> <a name="TpuV2CustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.tpuV2CustomEndpoint"></a>
+##### `TpuV2CustomEndpoint`<sup>Optional</sup> <a name="TpuV2CustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.tpuV2CustomEndpoint"></a>
 
 ```go
 func TpuV2CustomEndpoint() *string
@@ -5839,7 +5839,7 @@ func TpuV2CustomEndpoint() *string
 
 ---
 
-##### `TranscoderCustomEndpoint`<sup>Optional</sup> <a name="TranscoderCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.transcoderCustomEndpoint"></a>
+##### `TranscoderCustomEndpoint`<sup>Optional</sup> <a name="TranscoderCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.transcoderCustomEndpoint"></a>
 
 ```go
 func TranscoderCustomEndpoint() *string
@@ -5849,7 +5849,7 @@ func TranscoderCustomEndpoint() *string
 
 ---
 
-##### `UniverseDomain`<sup>Optional</sup> <a name="UniverseDomain" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.universeDomain"></a>
+##### `UniverseDomain`<sup>Optional</sup> <a name="UniverseDomain" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.universeDomain"></a>
 
 ```go
 func UniverseDomain() *string
@@ -5859,7 +5859,7 @@ func UniverseDomain() *string
 
 ---
 
-##### `UserProjectOverride`<sup>Optional</sup> <a name="UserProjectOverride" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.userProjectOverride"></a>
+##### `UserProjectOverride`<sup>Optional</sup> <a name="UserProjectOverride" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.userProjectOverride"></a>
 
 ```go
 func UserProjectOverride() interface{}
@@ -5869,7 +5869,7 @@ func UserProjectOverride() interface{}
 
 ---
 
-##### `VertexAiCustomEndpoint`<sup>Optional</sup> <a name="VertexAiCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.vertexAiCustomEndpoint"></a>
+##### `VertexAiCustomEndpoint`<sup>Optional</sup> <a name="VertexAiCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.vertexAiCustomEndpoint"></a>
 
 ```go
 func VertexAiCustomEndpoint() *string
@@ -5879,7 +5879,7 @@ func VertexAiCustomEndpoint() *string
 
 ---
 
-##### `VmwareengineCustomEndpoint`<sup>Optional</sup> <a name="VmwareengineCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.vmwareengineCustomEndpoint"></a>
+##### `VmwareengineCustomEndpoint`<sup>Optional</sup> <a name="VmwareengineCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.vmwareengineCustomEndpoint"></a>
 
 ```go
 func VmwareengineCustomEndpoint() *string
@@ -5889,7 +5889,7 @@ func VmwareengineCustomEndpoint() *string
 
 ---
 
-##### `VpcAccessCustomEndpoint`<sup>Optional</sup> <a name="VpcAccessCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.vpcAccessCustomEndpoint"></a>
+##### `VpcAccessCustomEndpoint`<sup>Optional</sup> <a name="VpcAccessCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.vpcAccessCustomEndpoint"></a>
 
 ```go
 func VpcAccessCustomEndpoint() *string
@@ -5899,7 +5899,7 @@ func VpcAccessCustomEndpoint() *string
 
 ---
 
-##### `WorkbenchCustomEndpoint`<sup>Optional</sup> <a name="WorkbenchCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.workbenchCustomEndpoint"></a>
+##### `WorkbenchCustomEndpoint`<sup>Optional</sup> <a name="WorkbenchCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.workbenchCustomEndpoint"></a>
 
 ```go
 func WorkbenchCustomEndpoint() *string
@@ -5909,7 +5909,7 @@ func WorkbenchCustomEndpoint() *string
 
 ---
 
-##### `WorkflowsCustomEndpoint`<sup>Optional</sup> <a name="WorkflowsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.workflowsCustomEndpoint"></a>
+##### `WorkflowsCustomEndpoint`<sup>Optional</sup> <a name="WorkflowsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.workflowsCustomEndpoint"></a>
 
 ```go
 func WorkflowsCustomEndpoint() *string
@@ -5919,7 +5919,7 @@ func WorkflowsCustomEndpoint() *string
 
 ---
 
-##### `WorkstationsCustomEndpoint`<sup>Optional</sup> <a name="WorkstationsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.workstationsCustomEndpoint"></a>
+##### `WorkstationsCustomEndpoint`<sup>Optional</sup> <a name="WorkstationsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.workstationsCustomEndpoint"></a>
 
 ```go
 func WorkstationsCustomEndpoint() *string
@@ -5929,7 +5929,7 @@ func WorkstationsCustomEndpoint() *string
 
 ---
 
-##### `Zone`<sup>Optional</sup> <a name="Zone" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.zone"></a>
+##### `Zone`<sup>Optional</sup> <a name="Zone" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.zone"></a>
 
 ```go
 func Zone() *string
@@ -5943,11 +5943,11 @@ func Zone() *string
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.tfResourceType">TfResourceType</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.tfResourceType">TfResourceType</a></code> | <code>*string</code> | *No description.* |
 
 ---
 
-##### `TfResourceType`<sup>Required</sup> <a name="TfResourceType" id="@cdktf/provider-google-beta.provider.GoogleBetaProvider.property.tfResourceType"></a>
+##### `TfResourceType`<sup>Required</sup> <a name="TfResourceType" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.tfResourceType"></a>
 
 ```go
 func TfResourceType() *string
@@ -5959,12 +5959,12 @@ func TfResourceType() *string
 
 ## Structs <a name="Structs" id="Structs"></a>
 
-### GoogleBetaProviderBatching <a name="GoogleBetaProviderBatching" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderBatching"></a>
+### GoogleBetaProviderBatching <a name="GoogleBetaProviderBatching" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderBatching"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderBatching.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderBatching.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/provider"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/provider"
 
 &provider.GoogleBetaProviderBatching {
 	EnableBatching: interface{},
@@ -5976,12 +5976,12 @@ import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/provider"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderBatching.property.enableBatching">EnableBatching</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#enable_batching GoogleBetaProvider#enable_batching}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderBatching.property.sendAfter">SendAfter</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#send_after GoogleBetaProvider#send_after}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderBatching.property.enableBatching">EnableBatching</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#enable_batching GoogleBetaProvider#enable_batching}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderBatching.property.sendAfter">SendAfter</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#send_after GoogleBetaProvider#send_after}. |
 
 ---
 
-##### `EnableBatching`<sup>Optional</sup> <a name="EnableBatching" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderBatching.property.enableBatching"></a>
+##### `EnableBatching`<sup>Optional</sup> <a name="EnableBatching" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderBatching.property.enableBatching"></a>
 
 ```go
 EnableBatching interface{}
@@ -5993,7 +5993,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `SendAfter`<sup>Optional</sup> <a name="SendAfter" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderBatching.property.sendAfter"></a>
+##### `SendAfter`<sup>Optional</sup> <a name="SendAfter" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderBatching.property.sendAfter"></a>
 
 ```go
 SendAfter *string
@@ -6005,12 +6005,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-### GoogleBetaProviderConfig <a name="GoogleBetaProviderConfig" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig"></a>
+### GoogleBetaProviderConfig <a name="GoogleBetaProviderConfig" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/provider"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/provider"
 
 &provider.GoogleBetaProviderConfig {
 	AccessApprovalCustomEndpoint: *string,
@@ -6213,203 +6213,203 @@ import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/provider"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.accessApprovalCustomEndpoint">AccessApprovalCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#access_approval_custom_endpoint GoogleBetaProvider#access_approval_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.accessContextManagerCustomEndpoint">AccessContextManagerCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#access_context_manager_custom_endpoint GoogleBetaProvider#access_context_manager_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.accessToken">AccessToken</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#access_token GoogleBetaProvider#access_token}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.activeDirectoryCustomEndpoint">ActiveDirectoryCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#active_directory_custom_endpoint GoogleBetaProvider#active_directory_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.addTerraformAttributionLabel">AddTerraformAttributionLabel</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#add_terraform_attribution_label GoogleBetaProvider#add_terraform_attribution_label}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.alias">Alias</a></code> | <code>*string</code> | Alias name. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.alloydbCustomEndpoint">AlloydbCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#alloydb_custom_endpoint GoogleBetaProvider#alloydb_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.apiGatewayCustomEndpoint">ApiGatewayCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#api_gateway_custom_endpoint GoogleBetaProvider#api_gateway_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.apigeeCustomEndpoint">ApigeeCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#apigee_custom_endpoint GoogleBetaProvider#apigee_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.apihubCustomEndpoint">ApihubCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#apihub_custom_endpoint GoogleBetaProvider#apihub_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.apikeysCustomEndpoint">ApikeysCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#apikeys_custom_endpoint GoogleBetaProvider#apikeys_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.appEngineCustomEndpoint">AppEngineCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#app_engine_custom_endpoint GoogleBetaProvider#app_engine_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.apphubCustomEndpoint">ApphubCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#apphub_custom_endpoint GoogleBetaProvider#apphub_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.artifactRegistryCustomEndpoint">ArtifactRegistryCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#artifact_registry_custom_endpoint GoogleBetaProvider#artifact_registry_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.assuredWorkloadsCustomEndpoint">AssuredWorkloadsCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#assured_workloads_custom_endpoint GoogleBetaProvider#assured_workloads_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.backupDrCustomEndpoint">BackupDrCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#backup_dr_custom_endpoint GoogleBetaProvider#backup_dr_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.batching">Batching</a></code> | <code>interface{}</code> | batching block. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.beyondcorpCustomEndpoint">BeyondcorpCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#beyondcorp_custom_endpoint GoogleBetaProvider#beyondcorp_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.biglakeCustomEndpoint">BiglakeCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#biglake_custom_endpoint GoogleBetaProvider#biglake_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.bigqueryAnalyticsHubCustomEndpoint">BigqueryAnalyticsHubCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#bigquery_analytics_hub_custom_endpoint GoogleBetaProvider#bigquery_analytics_hub_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.bigqueryConnectionCustomEndpoint">BigqueryConnectionCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#bigquery_connection_custom_endpoint GoogleBetaProvider#bigquery_connection_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.bigQueryCustomEndpoint">BigQueryCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#big_query_custom_endpoint GoogleBetaProvider#big_query_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.bigqueryDatapolicyCustomEndpoint">BigqueryDatapolicyCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#bigquery_datapolicy_custom_endpoint GoogleBetaProvider#bigquery_datapolicy_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.bigqueryDataTransferCustomEndpoint">BigqueryDataTransferCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#bigquery_data_transfer_custom_endpoint GoogleBetaProvider#bigquery_data_transfer_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.bigqueryReservationCustomEndpoint">BigqueryReservationCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#bigquery_reservation_custom_endpoint GoogleBetaProvider#bigquery_reservation_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.bigtableCustomEndpoint">BigtableCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#bigtable_custom_endpoint GoogleBetaProvider#bigtable_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.billingCustomEndpoint">BillingCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#billing_custom_endpoint GoogleBetaProvider#billing_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.billingProject">BillingProject</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#billing_project GoogleBetaProvider#billing_project}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.binaryAuthorizationCustomEndpoint">BinaryAuthorizationCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#binary_authorization_custom_endpoint GoogleBetaProvider#binary_authorization_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.blockchainNodeEngineCustomEndpoint">BlockchainNodeEngineCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#blockchain_node_engine_custom_endpoint GoogleBetaProvider#blockchain_node_engine_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.certificateManagerCustomEndpoint">CertificateManagerCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#certificate_manager_custom_endpoint GoogleBetaProvider#certificate_manager_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.chronicleCustomEndpoint">ChronicleCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#chronicle_custom_endpoint GoogleBetaProvider#chronicle_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudAssetCustomEndpoint">CloudAssetCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#cloud_asset_custom_endpoint GoogleBetaProvider#cloud_asset_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudBillingCustomEndpoint">CloudBillingCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#cloud_billing_custom_endpoint GoogleBetaProvider#cloud_billing_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudBuildCustomEndpoint">CloudBuildCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#cloud_build_custom_endpoint GoogleBetaProvider#cloud_build_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudbuildv2CustomEndpoint">Cloudbuildv2CustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#cloudbuildv2_custom_endpoint GoogleBetaProvider#cloudbuildv2_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.clouddeployCustomEndpoint">ClouddeployCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#clouddeploy_custom_endpoint GoogleBetaProvider#clouddeploy_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.clouddomainsCustomEndpoint">ClouddomainsCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#clouddomains_custom_endpoint GoogleBetaProvider#clouddomains_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudfunctions2CustomEndpoint">Cloudfunctions2CustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#cloudfunctions2_custom_endpoint GoogleBetaProvider#cloudfunctions2_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudFunctionsCustomEndpoint">CloudFunctionsCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#cloud_functions_custom_endpoint GoogleBetaProvider#cloud_functions_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudIdentityCustomEndpoint">CloudIdentityCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#cloud_identity_custom_endpoint GoogleBetaProvider#cloud_identity_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudIdsCustomEndpoint">CloudIdsCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#cloud_ids_custom_endpoint GoogleBetaProvider#cloud_ids_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudQuotasCustomEndpoint">CloudQuotasCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#cloud_quotas_custom_endpoint GoogleBetaProvider#cloud_quotas_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudResourceManagerCustomEndpoint">CloudResourceManagerCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#cloud_resource_manager_custom_endpoint GoogleBetaProvider#cloud_resource_manager_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudRunCustomEndpoint">CloudRunCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#cloud_run_custom_endpoint GoogleBetaProvider#cloud_run_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudRunV2CustomEndpoint">CloudRunV2CustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#cloud_run_v2_custom_endpoint GoogleBetaProvider#cloud_run_v2_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudSchedulerCustomEndpoint">CloudSchedulerCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#cloud_scheduler_custom_endpoint GoogleBetaProvider#cloud_scheduler_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudTasksCustomEndpoint">CloudTasksCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#cloud_tasks_custom_endpoint GoogleBetaProvider#cloud_tasks_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.colabCustomEndpoint">ColabCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#colab_custom_endpoint GoogleBetaProvider#colab_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.composerCustomEndpoint">ComposerCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#composer_custom_endpoint GoogleBetaProvider#composer_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.computeCustomEndpoint">ComputeCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#compute_custom_endpoint GoogleBetaProvider#compute_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.contactCenterInsightsCustomEndpoint">ContactCenterInsightsCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#contact_center_insights_custom_endpoint GoogleBetaProvider#contact_center_insights_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.containerAnalysisCustomEndpoint">ContainerAnalysisCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#container_analysis_custom_endpoint GoogleBetaProvider#container_analysis_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.containerAttachedCustomEndpoint">ContainerAttachedCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#container_attached_custom_endpoint GoogleBetaProvider#container_attached_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.containerAwsCustomEndpoint">ContainerAwsCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#container_aws_custom_endpoint GoogleBetaProvider#container_aws_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.containerAzureCustomEndpoint">ContainerAzureCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#container_azure_custom_endpoint GoogleBetaProvider#container_azure_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.containerCustomEndpoint">ContainerCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#container_custom_endpoint GoogleBetaProvider#container_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.coreBillingCustomEndpoint">CoreBillingCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#core_billing_custom_endpoint GoogleBetaProvider#core_billing_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.credentials">Credentials</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#credentials GoogleBetaProvider#credentials}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.databaseMigrationServiceCustomEndpoint">DatabaseMigrationServiceCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#database_migration_service_custom_endpoint GoogleBetaProvider#database_migration_service_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.dataCatalogCustomEndpoint">DataCatalogCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#data_catalog_custom_endpoint GoogleBetaProvider#data_catalog_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.dataflowCustomEndpoint">DataflowCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#dataflow_custom_endpoint GoogleBetaProvider#dataflow_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.dataformCustomEndpoint">DataformCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#dataform_custom_endpoint GoogleBetaProvider#dataform_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.dataFusionCustomEndpoint">DataFusionCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#data_fusion_custom_endpoint GoogleBetaProvider#data_fusion_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.dataLossPreventionCustomEndpoint">DataLossPreventionCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#data_loss_prevention_custom_endpoint GoogleBetaProvider#data_loss_prevention_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.dataPipelineCustomEndpoint">DataPipelineCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#data_pipeline_custom_endpoint GoogleBetaProvider#data_pipeline_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.dataplexCustomEndpoint">DataplexCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#dataplex_custom_endpoint GoogleBetaProvider#dataplex_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.dataprocCustomEndpoint">DataprocCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#dataproc_custom_endpoint GoogleBetaProvider#dataproc_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.dataprocGdcCustomEndpoint">DataprocGdcCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#dataproc_gdc_custom_endpoint GoogleBetaProvider#dataproc_gdc_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.dataprocMetastoreCustomEndpoint">DataprocMetastoreCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#dataproc_metastore_custom_endpoint GoogleBetaProvider#dataproc_metastore_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.datastreamCustomEndpoint">DatastreamCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#datastream_custom_endpoint GoogleBetaProvider#datastream_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.defaultLabels">DefaultLabels</a></code> | <code>*map[string]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#default_labels GoogleBetaProvider#default_labels}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.deploymentManagerCustomEndpoint">DeploymentManagerCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#deployment_manager_custom_endpoint GoogleBetaProvider#deployment_manager_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.developerConnectCustomEndpoint">DeveloperConnectCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#developer_connect_custom_endpoint GoogleBetaProvider#developer_connect_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.dialogflowCustomEndpoint">DialogflowCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#dialogflow_custom_endpoint GoogleBetaProvider#dialogflow_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.dialogflowCxCustomEndpoint">DialogflowCxCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#dialogflow_cx_custom_endpoint GoogleBetaProvider#dialogflow_cx_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.discoveryEngineCustomEndpoint">DiscoveryEngineCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#discovery_engine_custom_endpoint GoogleBetaProvider#discovery_engine_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.dnsCustomEndpoint">DnsCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#dns_custom_endpoint GoogleBetaProvider#dns_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.documentAiCustomEndpoint">DocumentAiCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#document_ai_custom_endpoint GoogleBetaProvider#document_ai_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.documentAiWarehouseCustomEndpoint">DocumentAiWarehouseCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#document_ai_warehouse_custom_endpoint GoogleBetaProvider#document_ai_warehouse_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.edgecontainerCustomEndpoint">EdgecontainerCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#edgecontainer_custom_endpoint GoogleBetaProvider#edgecontainer_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.edgenetworkCustomEndpoint">EdgenetworkCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#edgenetwork_custom_endpoint GoogleBetaProvider#edgenetwork_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.essentialContactsCustomEndpoint">EssentialContactsCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#essential_contacts_custom_endpoint GoogleBetaProvider#essential_contacts_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.eventarcCustomEndpoint">EventarcCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#eventarc_custom_endpoint GoogleBetaProvider#eventarc_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.externalCredentials">ExternalCredentials</a></code> | <code>interface{}</code> | external_credentials block. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.filestoreCustomEndpoint">FilestoreCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#filestore_custom_endpoint GoogleBetaProvider#filestore_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.firebaseAppCheckCustomEndpoint">FirebaseAppCheckCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#firebase_app_check_custom_endpoint GoogleBetaProvider#firebase_app_check_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.firebaseAppHostingCustomEndpoint">FirebaseAppHostingCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#firebase_app_hosting_custom_endpoint GoogleBetaProvider#firebase_app_hosting_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.firebaseCustomEndpoint">FirebaseCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#firebase_custom_endpoint GoogleBetaProvider#firebase_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.firebaseDatabaseCustomEndpoint">FirebaseDatabaseCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#firebase_database_custom_endpoint GoogleBetaProvider#firebase_database_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.firebaseDataConnectCustomEndpoint">FirebaseDataConnectCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#firebase_data_connect_custom_endpoint GoogleBetaProvider#firebase_data_connect_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.firebaseExtensionsCustomEndpoint">FirebaseExtensionsCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#firebase_extensions_custom_endpoint GoogleBetaProvider#firebase_extensions_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.firebaseHostingCustomEndpoint">FirebaseHostingCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#firebase_hosting_custom_endpoint GoogleBetaProvider#firebase_hosting_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.firebaserulesCustomEndpoint">FirebaserulesCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#firebaserules_custom_endpoint GoogleBetaProvider#firebaserules_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.firebaseStorageCustomEndpoint">FirebaseStorageCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#firebase_storage_custom_endpoint GoogleBetaProvider#firebase_storage_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.firestoreCustomEndpoint">FirestoreCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#firestore_custom_endpoint GoogleBetaProvider#firestore_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.geminiCustomEndpoint">GeminiCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#gemini_custom_endpoint GoogleBetaProvider#gemini_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.gkeBackupCustomEndpoint">GkeBackupCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#gke_backup_custom_endpoint GoogleBetaProvider#gke_backup_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.gkeHub2CustomEndpoint">GkeHub2CustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#gke_hub2_custom_endpoint GoogleBetaProvider#gke_hub2_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.gkeHubCustomEndpoint">GkeHubCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#gke_hub_custom_endpoint GoogleBetaProvider#gke_hub_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.gkeonpremCustomEndpoint">GkeonpremCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#gkeonprem_custom_endpoint GoogleBetaProvider#gkeonprem_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.healthcareCustomEndpoint">HealthcareCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#healthcare_custom_endpoint GoogleBetaProvider#healthcare_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.iam2CustomEndpoint">Iam2CustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#iam2_custom_endpoint GoogleBetaProvider#iam2_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.iam3CustomEndpoint">Iam3CustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#iam3_custom_endpoint GoogleBetaProvider#iam3_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.iamBetaCustomEndpoint">IamBetaCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#iam_beta_custom_endpoint GoogleBetaProvider#iam_beta_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.iamCredentialsCustomEndpoint">IamCredentialsCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#iam_credentials_custom_endpoint GoogleBetaProvider#iam_credentials_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.iamCustomEndpoint">IamCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#iam_custom_endpoint GoogleBetaProvider#iam_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.iamWorkforcePoolCustomEndpoint">IamWorkforcePoolCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#iam_workforce_pool_custom_endpoint GoogleBetaProvider#iam_workforce_pool_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.iapCustomEndpoint">IapCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#iap_custom_endpoint GoogleBetaProvider#iap_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.identityPlatformCustomEndpoint">IdentityPlatformCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#identity_platform_custom_endpoint GoogleBetaProvider#identity_platform_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.impersonateServiceAccount">ImpersonateServiceAccount</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#impersonate_service_account GoogleBetaProvider#impersonate_service_account}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.impersonateServiceAccountDelegates">ImpersonateServiceAccountDelegates</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#impersonate_service_account_delegates GoogleBetaProvider#impersonate_service_account_delegates}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.integrationConnectorsCustomEndpoint">IntegrationConnectorsCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#integration_connectors_custom_endpoint GoogleBetaProvider#integration_connectors_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.integrationsCustomEndpoint">IntegrationsCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#integrations_custom_endpoint GoogleBetaProvider#integrations_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.kmsCustomEndpoint">KmsCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#kms_custom_endpoint GoogleBetaProvider#kms_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.loggingCustomEndpoint">LoggingCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#logging_custom_endpoint GoogleBetaProvider#logging_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.lookerCustomEndpoint">LookerCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#looker_custom_endpoint GoogleBetaProvider#looker_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.lustreCustomEndpoint">LustreCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#lustre_custom_endpoint GoogleBetaProvider#lustre_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.managedKafkaCustomEndpoint">ManagedKafkaCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#managed_kafka_custom_endpoint GoogleBetaProvider#managed_kafka_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.memcacheCustomEndpoint">MemcacheCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#memcache_custom_endpoint GoogleBetaProvider#memcache_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.memorystoreCustomEndpoint">MemorystoreCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#memorystore_custom_endpoint GoogleBetaProvider#memorystore_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.migrationCenterCustomEndpoint">MigrationCenterCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#migration_center_custom_endpoint GoogleBetaProvider#migration_center_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.mlEngineCustomEndpoint">MlEngineCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#ml_engine_custom_endpoint GoogleBetaProvider#ml_engine_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.modelArmorCustomEndpoint">ModelArmorCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#model_armor_custom_endpoint GoogleBetaProvider#model_armor_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.modelArmorGlobalCustomEndpoint">ModelArmorGlobalCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#model_armor_global_custom_endpoint GoogleBetaProvider#model_armor_global_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.monitoringCustomEndpoint">MonitoringCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#monitoring_custom_endpoint GoogleBetaProvider#monitoring_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.netappCustomEndpoint">NetappCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#netapp_custom_endpoint GoogleBetaProvider#netapp_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.networkConnectivityCustomEndpoint">NetworkConnectivityCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#network_connectivity_custom_endpoint GoogleBetaProvider#network_connectivity_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.networkManagementCustomEndpoint">NetworkManagementCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#network_management_custom_endpoint GoogleBetaProvider#network_management_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.networkSecurityCustomEndpoint">NetworkSecurityCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#network_security_custom_endpoint GoogleBetaProvider#network_security_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.networkServicesCustomEndpoint">NetworkServicesCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#network_services_custom_endpoint GoogleBetaProvider#network_services_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.notebooksCustomEndpoint">NotebooksCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#notebooks_custom_endpoint GoogleBetaProvider#notebooks_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.oracleDatabaseCustomEndpoint">OracleDatabaseCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#oracle_database_custom_endpoint GoogleBetaProvider#oracle_database_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.orgPolicyCustomEndpoint">OrgPolicyCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#org_policy_custom_endpoint GoogleBetaProvider#org_policy_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.osConfigCustomEndpoint">OsConfigCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#os_config_custom_endpoint GoogleBetaProvider#os_config_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.osConfigV2CustomEndpoint">OsConfigV2CustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#os_config_v2_custom_endpoint GoogleBetaProvider#os_config_v2_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.osLoginCustomEndpoint">OsLoginCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#os_login_custom_endpoint GoogleBetaProvider#os_login_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.parallelstoreCustomEndpoint">ParallelstoreCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#parallelstore_custom_endpoint GoogleBetaProvider#parallelstore_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.parameterManagerCustomEndpoint">ParameterManagerCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#parameter_manager_custom_endpoint GoogleBetaProvider#parameter_manager_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.parameterManagerRegionalCustomEndpoint">ParameterManagerRegionalCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#parameter_manager_regional_custom_endpoint GoogleBetaProvider#parameter_manager_regional_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.privatecaCustomEndpoint">PrivatecaCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#privateca_custom_endpoint GoogleBetaProvider#privateca_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.privilegedAccessManagerCustomEndpoint">PrivilegedAccessManagerCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#privileged_access_manager_custom_endpoint GoogleBetaProvider#privileged_access_manager_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#project GoogleBetaProvider#project}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.publicCaCustomEndpoint">PublicCaCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#public_ca_custom_endpoint GoogleBetaProvider#public_ca_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.pubsubCustomEndpoint">PubsubCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#pubsub_custom_endpoint GoogleBetaProvider#pubsub_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.pubsubLiteCustomEndpoint">PubsubLiteCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#pubsub_lite_custom_endpoint GoogleBetaProvider#pubsub_lite_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.recaptchaEnterpriseCustomEndpoint">RecaptchaEnterpriseCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#recaptcha_enterprise_custom_endpoint GoogleBetaProvider#recaptcha_enterprise_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.redisCustomEndpoint">RedisCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#redis_custom_endpoint GoogleBetaProvider#redis_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.region">Region</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#region GoogleBetaProvider#region}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.requestReason">RequestReason</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#request_reason GoogleBetaProvider#request_reason}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.requestTimeout">RequestTimeout</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#request_timeout GoogleBetaProvider#request_timeout}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.resourceManager3CustomEndpoint">ResourceManager3CustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#resource_manager3_custom_endpoint GoogleBetaProvider#resource_manager3_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.resourceManagerCustomEndpoint">ResourceManagerCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#resource_manager_custom_endpoint GoogleBetaProvider#resource_manager_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.resourceManagerV3CustomEndpoint">ResourceManagerV3CustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#resource_manager_v3_custom_endpoint GoogleBetaProvider#resource_manager_v3_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.runtimeconfigCustomEndpoint">RuntimeconfigCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#runtimeconfig_custom_endpoint GoogleBetaProvider#runtimeconfig_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.runtimeConfigCustomEndpoint">RuntimeConfigCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#runtime_config_custom_endpoint GoogleBetaProvider#runtime_config_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.scopes">Scopes</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#scopes GoogleBetaProvider#scopes}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.secretManagerCustomEndpoint">SecretManagerCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#secret_manager_custom_endpoint GoogleBetaProvider#secret_manager_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.secretManagerRegionalCustomEndpoint">SecretManagerRegionalCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#secret_manager_regional_custom_endpoint GoogleBetaProvider#secret_manager_regional_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.secureSourceManagerCustomEndpoint">SecureSourceManagerCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#secure_source_manager_custom_endpoint GoogleBetaProvider#secure_source_manager_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.securityCenterCustomEndpoint">SecurityCenterCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#security_center_custom_endpoint GoogleBetaProvider#security_center_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.securityCenterManagementCustomEndpoint">SecurityCenterManagementCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#security_center_management_custom_endpoint GoogleBetaProvider#security_center_management_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.securityCenterV2CustomEndpoint">SecurityCenterV2CustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#security_center_v2_custom_endpoint GoogleBetaProvider#security_center_v2_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.securitypostureCustomEndpoint">SecuritypostureCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#securityposture_custom_endpoint GoogleBetaProvider#securityposture_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.securityScannerCustomEndpoint">SecurityScannerCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#security_scanner_custom_endpoint GoogleBetaProvider#security_scanner_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.serviceDirectoryCustomEndpoint">ServiceDirectoryCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#service_directory_custom_endpoint GoogleBetaProvider#service_directory_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.serviceManagementCustomEndpoint">ServiceManagementCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#service_management_custom_endpoint GoogleBetaProvider#service_management_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.serviceNetworkingCustomEndpoint">ServiceNetworkingCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#service_networking_custom_endpoint GoogleBetaProvider#service_networking_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.serviceUsageCustomEndpoint">ServiceUsageCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#service_usage_custom_endpoint GoogleBetaProvider#service_usage_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.siteVerificationCustomEndpoint">SiteVerificationCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#site_verification_custom_endpoint GoogleBetaProvider#site_verification_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.sourceRepoCustomEndpoint">SourceRepoCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#source_repo_custom_endpoint GoogleBetaProvider#source_repo_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.spannerCustomEndpoint">SpannerCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#spanner_custom_endpoint GoogleBetaProvider#spanner_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.sqlCustomEndpoint">SqlCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#sql_custom_endpoint GoogleBetaProvider#sql_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.storageBatchOperationsCustomEndpoint">StorageBatchOperationsCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#storage_batch_operations_custom_endpoint GoogleBetaProvider#storage_batch_operations_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.storageControlCustomEndpoint">StorageControlCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#storage_control_custom_endpoint GoogleBetaProvider#storage_control_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.storageCustomEndpoint">StorageCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#storage_custom_endpoint GoogleBetaProvider#storage_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.storageInsightsCustomEndpoint">StorageInsightsCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#storage_insights_custom_endpoint GoogleBetaProvider#storage_insights_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.storageTransferCustomEndpoint">StorageTransferCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#storage_transfer_custom_endpoint GoogleBetaProvider#storage_transfer_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.tagsCustomEndpoint">TagsCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#tags_custom_endpoint GoogleBetaProvider#tags_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.tagsLocationCustomEndpoint">TagsLocationCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#tags_location_custom_endpoint GoogleBetaProvider#tags_location_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.terraformAttributionLabelAdditionStrategy">TerraformAttributionLabelAdditionStrategy</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#terraform_attribution_label_addition_strategy GoogleBetaProvider#terraform_attribution_label_addition_strategy}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.tpuCustomEndpoint">TpuCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#tpu_custom_endpoint GoogleBetaProvider#tpu_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.tpuV2CustomEndpoint">TpuV2CustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#tpu_v2_custom_endpoint GoogleBetaProvider#tpu_v2_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.transcoderCustomEndpoint">TranscoderCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#transcoder_custom_endpoint GoogleBetaProvider#transcoder_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.universeDomain">UniverseDomain</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#universe_domain GoogleBetaProvider#universe_domain}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.userProjectOverride">UserProjectOverride</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#user_project_override GoogleBetaProvider#user_project_override}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.vertexAiCustomEndpoint">VertexAiCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#vertex_ai_custom_endpoint GoogleBetaProvider#vertex_ai_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.vmwareengineCustomEndpoint">VmwareengineCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#vmwareengine_custom_endpoint GoogleBetaProvider#vmwareengine_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.vpcAccessCustomEndpoint">VpcAccessCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#vpc_access_custom_endpoint GoogleBetaProvider#vpc_access_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.workbenchCustomEndpoint">WorkbenchCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#workbench_custom_endpoint GoogleBetaProvider#workbench_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.workflowsCustomEndpoint">WorkflowsCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#workflows_custom_endpoint GoogleBetaProvider#workflows_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.workstationsCustomEndpoint">WorkstationsCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#workstations_custom_endpoint GoogleBetaProvider#workstations_custom_endpoint}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.zone">Zone</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#zone GoogleBetaProvider#zone}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.accessApprovalCustomEndpoint">AccessApprovalCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#access_approval_custom_endpoint GoogleBetaProvider#access_approval_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.accessContextManagerCustomEndpoint">AccessContextManagerCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#access_context_manager_custom_endpoint GoogleBetaProvider#access_context_manager_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.accessToken">AccessToken</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#access_token GoogleBetaProvider#access_token}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.activeDirectoryCustomEndpoint">ActiveDirectoryCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#active_directory_custom_endpoint GoogleBetaProvider#active_directory_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.addTerraformAttributionLabel">AddTerraformAttributionLabel</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#add_terraform_attribution_label GoogleBetaProvider#add_terraform_attribution_label}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.alias">Alias</a></code> | <code>*string</code> | Alias name. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.alloydbCustomEndpoint">AlloydbCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#alloydb_custom_endpoint GoogleBetaProvider#alloydb_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.apiGatewayCustomEndpoint">ApiGatewayCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#api_gateway_custom_endpoint GoogleBetaProvider#api_gateway_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.apigeeCustomEndpoint">ApigeeCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#apigee_custom_endpoint GoogleBetaProvider#apigee_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.apihubCustomEndpoint">ApihubCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#apihub_custom_endpoint GoogleBetaProvider#apihub_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.apikeysCustomEndpoint">ApikeysCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#apikeys_custom_endpoint GoogleBetaProvider#apikeys_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.appEngineCustomEndpoint">AppEngineCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#app_engine_custom_endpoint GoogleBetaProvider#app_engine_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.apphubCustomEndpoint">ApphubCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#apphub_custom_endpoint GoogleBetaProvider#apphub_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.artifactRegistryCustomEndpoint">ArtifactRegistryCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#artifact_registry_custom_endpoint GoogleBetaProvider#artifact_registry_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.assuredWorkloadsCustomEndpoint">AssuredWorkloadsCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#assured_workloads_custom_endpoint GoogleBetaProvider#assured_workloads_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.backupDrCustomEndpoint">BackupDrCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#backup_dr_custom_endpoint GoogleBetaProvider#backup_dr_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.batching">Batching</a></code> | <code>interface{}</code> | batching block. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.beyondcorpCustomEndpoint">BeyondcorpCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#beyondcorp_custom_endpoint GoogleBetaProvider#beyondcorp_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.biglakeCustomEndpoint">BiglakeCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#biglake_custom_endpoint GoogleBetaProvider#biglake_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.bigqueryAnalyticsHubCustomEndpoint">BigqueryAnalyticsHubCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#bigquery_analytics_hub_custom_endpoint GoogleBetaProvider#bigquery_analytics_hub_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.bigqueryConnectionCustomEndpoint">BigqueryConnectionCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#bigquery_connection_custom_endpoint GoogleBetaProvider#bigquery_connection_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.bigQueryCustomEndpoint">BigQueryCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#big_query_custom_endpoint GoogleBetaProvider#big_query_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.bigqueryDatapolicyCustomEndpoint">BigqueryDatapolicyCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#bigquery_datapolicy_custom_endpoint GoogleBetaProvider#bigquery_datapolicy_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.bigqueryDataTransferCustomEndpoint">BigqueryDataTransferCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#bigquery_data_transfer_custom_endpoint GoogleBetaProvider#bigquery_data_transfer_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.bigqueryReservationCustomEndpoint">BigqueryReservationCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#bigquery_reservation_custom_endpoint GoogleBetaProvider#bigquery_reservation_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.bigtableCustomEndpoint">BigtableCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#bigtable_custom_endpoint GoogleBetaProvider#bigtable_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.billingCustomEndpoint">BillingCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#billing_custom_endpoint GoogleBetaProvider#billing_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.billingProject">BillingProject</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#billing_project GoogleBetaProvider#billing_project}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.binaryAuthorizationCustomEndpoint">BinaryAuthorizationCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#binary_authorization_custom_endpoint GoogleBetaProvider#binary_authorization_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.blockchainNodeEngineCustomEndpoint">BlockchainNodeEngineCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#blockchain_node_engine_custom_endpoint GoogleBetaProvider#blockchain_node_engine_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.certificateManagerCustomEndpoint">CertificateManagerCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#certificate_manager_custom_endpoint GoogleBetaProvider#certificate_manager_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.chronicleCustomEndpoint">ChronicleCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#chronicle_custom_endpoint GoogleBetaProvider#chronicle_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudAssetCustomEndpoint">CloudAssetCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#cloud_asset_custom_endpoint GoogleBetaProvider#cloud_asset_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudBillingCustomEndpoint">CloudBillingCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#cloud_billing_custom_endpoint GoogleBetaProvider#cloud_billing_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudBuildCustomEndpoint">CloudBuildCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#cloud_build_custom_endpoint GoogleBetaProvider#cloud_build_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudbuildv2CustomEndpoint">Cloudbuildv2CustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#cloudbuildv2_custom_endpoint GoogleBetaProvider#cloudbuildv2_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.clouddeployCustomEndpoint">ClouddeployCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#clouddeploy_custom_endpoint GoogleBetaProvider#clouddeploy_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.clouddomainsCustomEndpoint">ClouddomainsCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#clouddomains_custom_endpoint GoogleBetaProvider#clouddomains_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudfunctions2CustomEndpoint">Cloudfunctions2CustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#cloudfunctions2_custom_endpoint GoogleBetaProvider#cloudfunctions2_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudFunctionsCustomEndpoint">CloudFunctionsCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#cloud_functions_custom_endpoint GoogleBetaProvider#cloud_functions_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudIdentityCustomEndpoint">CloudIdentityCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#cloud_identity_custom_endpoint GoogleBetaProvider#cloud_identity_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudIdsCustomEndpoint">CloudIdsCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#cloud_ids_custom_endpoint GoogleBetaProvider#cloud_ids_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudQuotasCustomEndpoint">CloudQuotasCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#cloud_quotas_custom_endpoint GoogleBetaProvider#cloud_quotas_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudResourceManagerCustomEndpoint">CloudResourceManagerCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#cloud_resource_manager_custom_endpoint GoogleBetaProvider#cloud_resource_manager_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudRunCustomEndpoint">CloudRunCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#cloud_run_custom_endpoint GoogleBetaProvider#cloud_run_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudRunV2CustomEndpoint">CloudRunV2CustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#cloud_run_v2_custom_endpoint GoogleBetaProvider#cloud_run_v2_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudSchedulerCustomEndpoint">CloudSchedulerCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#cloud_scheduler_custom_endpoint GoogleBetaProvider#cloud_scheduler_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudTasksCustomEndpoint">CloudTasksCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#cloud_tasks_custom_endpoint GoogleBetaProvider#cloud_tasks_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.colabCustomEndpoint">ColabCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#colab_custom_endpoint GoogleBetaProvider#colab_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.composerCustomEndpoint">ComposerCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#composer_custom_endpoint GoogleBetaProvider#composer_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.computeCustomEndpoint">ComputeCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#compute_custom_endpoint GoogleBetaProvider#compute_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.contactCenterInsightsCustomEndpoint">ContactCenterInsightsCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#contact_center_insights_custom_endpoint GoogleBetaProvider#contact_center_insights_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.containerAnalysisCustomEndpoint">ContainerAnalysisCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#container_analysis_custom_endpoint GoogleBetaProvider#container_analysis_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.containerAttachedCustomEndpoint">ContainerAttachedCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#container_attached_custom_endpoint GoogleBetaProvider#container_attached_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.containerAwsCustomEndpoint">ContainerAwsCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#container_aws_custom_endpoint GoogleBetaProvider#container_aws_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.containerAzureCustomEndpoint">ContainerAzureCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#container_azure_custom_endpoint GoogleBetaProvider#container_azure_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.containerCustomEndpoint">ContainerCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#container_custom_endpoint GoogleBetaProvider#container_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.coreBillingCustomEndpoint">CoreBillingCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#core_billing_custom_endpoint GoogleBetaProvider#core_billing_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.credentials">Credentials</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#credentials GoogleBetaProvider#credentials}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.databaseMigrationServiceCustomEndpoint">DatabaseMigrationServiceCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#database_migration_service_custom_endpoint GoogleBetaProvider#database_migration_service_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.dataCatalogCustomEndpoint">DataCatalogCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#data_catalog_custom_endpoint GoogleBetaProvider#data_catalog_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.dataflowCustomEndpoint">DataflowCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#dataflow_custom_endpoint GoogleBetaProvider#dataflow_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.dataformCustomEndpoint">DataformCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#dataform_custom_endpoint GoogleBetaProvider#dataform_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.dataFusionCustomEndpoint">DataFusionCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#data_fusion_custom_endpoint GoogleBetaProvider#data_fusion_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.dataLossPreventionCustomEndpoint">DataLossPreventionCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#data_loss_prevention_custom_endpoint GoogleBetaProvider#data_loss_prevention_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.dataPipelineCustomEndpoint">DataPipelineCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#data_pipeline_custom_endpoint GoogleBetaProvider#data_pipeline_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.dataplexCustomEndpoint">DataplexCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#dataplex_custom_endpoint GoogleBetaProvider#dataplex_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.dataprocCustomEndpoint">DataprocCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#dataproc_custom_endpoint GoogleBetaProvider#dataproc_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.dataprocGdcCustomEndpoint">DataprocGdcCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#dataproc_gdc_custom_endpoint GoogleBetaProvider#dataproc_gdc_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.dataprocMetastoreCustomEndpoint">DataprocMetastoreCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#dataproc_metastore_custom_endpoint GoogleBetaProvider#dataproc_metastore_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.datastreamCustomEndpoint">DatastreamCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#datastream_custom_endpoint GoogleBetaProvider#datastream_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.defaultLabels">DefaultLabels</a></code> | <code>*map[string]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#default_labels GoogleBetaProvider#default_labels}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.deploymentManagerCustomEndpoint">DeploymentManagerCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#deployment_manager_custom_endpoint GoogleBetaProvider#deployment_manager_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.developerConnectCustomEndpoint">DeveloperConnectCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#developer_connect_custom_endpoint GoogleBetaProvider#developer_connect_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.dialogflowCustomEndpoint">DialogflowCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#dialogflow_custom_endpoint GoogleBetaProvider#dialogflow_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.dialogflowCxCustomEndpoint">DialogflowCxCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#dialogflow_cx_custom_endpoint GoogleBetaProvider#dialogflow_cx_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.discoveryEngineCustomEndpoint">DiscoveryEngineCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#discovery_engine_custom_endpoint GoogleBetaProvider#discovery_engine_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.dnsCustomEndpoint">DnsCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#dns_custom_endpoint GoogleBetaProvider#dns_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.documentAiCustomEndpoint">DocumentAiCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#document_ai_custom_endpoint GoogleBetaProvider#document_ai_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.documentAiWarehouseCustomEndpoint">DocumentAiWarehouseCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#document_ai_warehouse_custom_endpoint GoogleBetaProvider#document_ai_warehouse_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.edgecontainerCustomEndpoint">EdgecontainerCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#edgecontainer_custom_endpoint GoogleBetaProvider#edgecontainer_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.edgenetworkCustomEndpoint">EdgenetworkCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#edgenetwork_custom_endpoint GoogleBetaProvider#edgenetwork_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.essentialContactsCustomEndpoint">EssentialContactsCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#essential_contacts_custom_endpoint GoogleBetaProvider#essential_contacts_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.eventarcCustomEndpoint">EventarcCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#eventarc_custom_endpoint GoogleBetaProvider#eventarc_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.externalCredentials">ExternalCredentials</a></code> | <code>interface{}</code> | external_credentials block. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.filestoreCustomEndpoint">FilestoreCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#filestore_custom_endpoint GoogleBetaProvider#filestore_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.firebaseAppCheckCustomEndpoint">FirebaseAppCheckCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#firebase_app_check_custom_endpoint GoogleBetaProvider#firebase_app_check_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.firebaseAppHostingCustomEndpoint">FirebaseAppHostingCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#firebase_app_hosting_custom_endpoint GoogleBetaProvider#firebase_app_hosting_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.firebaseCustomEndpoint">FirebaseCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#firebase_custom_endpoint GoogleBetaProvider#firebase_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.firebaseDatabaseCustomEndpoint">FirebaseDatabaseCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#firebase_database_custom_endpoint GoogleBetaProvider#firebase_database_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.firebaseDataConnectCustomEndpoint">FirebaseDataConnectCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#firebase_data_connect_custom_endpoint GoogleBetaProvider#firebase_data_connect_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.firebaseExtensionsCustomEndpoint">FirebaseExtensionsCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#firebase_extensions_custom_endpoint GoogleBetaProvider#firebase_extensions_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.firebaseHostingCustomEndpoint">FirebaseHostingCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#firebase_hosting_custom_endpoint GoogleBetaProvider#firebase_hosting_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.firebaserulesCustomEndpoint">FirebaserulesCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#firebaserules_custom_endpoint GoogleBetaProvider#firebaserules_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.firebaseStorageCustomEndpoint">FirebaseStorageCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#firebase_storage_custom_endpoint GoogleBetaProvider#firebase_storage_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.firestoreCustomEndpoint">FirestoreCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#firestore_custom_endpoint GoogleBetaProvider#firestore_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.geminiCustomEndpoint">GeminiCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#gemini_custom_endpoint GoogleBetaProvider#gemini_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.gkeBackupCustomEndpoint">GkeBackupCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#gke_backup_custom_endpoint GoogleBetaProvider#gke_backup_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.gkeHub2CustomEndpoint">GkeHub2CustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#gke_hub2_custom_endpoint GoogleBetaProvider#gke_hub2_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.gkeHubCustomEndpoint">GkeHubCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#gke_hub_custom_endpoint GoogleBetaProvider#gke_hub_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.gkeonpremCustomEndpoint">GkeonpremCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#gkeonprem_custom_endpoint GoogleBetaProvider#gkeonprem_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.healthcareCustomEndpoint">HealthcareCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#healthcare_custom_endpoint GoogleBetaProvider#healthcare_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.iam2CustomEndpoint">Iam2CustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#iam2_custom_endpoint GoogleBetaProvider#iam2_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.iam3CustomEndpoint">Iam3CustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#iam3_custom_endpoint GoogleBetaProvider#iam3_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.iamBetaCustomEndpoint">IamBetaCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#iam_beta_custom_endpoint GoogleBetaProvider#iam_beta_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.iamCredentialsCustomEndpoint">IamCredentialsCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#iam_credentials_custom_endpoint GoogleBetaProvider#iam_credentials_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.iamCustomEndpoint">IamCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#iam_custom_endpoint GoogleBetaProvider#iam_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.iamWorkforcePoolCustomEndpoint">IamWorkforcePoolCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#iam_workforce_pool_custom_endpoint GoogleBetaProvider#iam_workforce_pool_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.iapCustomEndpoint">IapCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#iap_custom_endpoint GoogleBetaProvider#iap_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.identityPlatformCustomEndpoint">IdentityPlatformCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#identity_platform_custom_endpoint GoogleBetaProvider#identity_platform_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.impersonateServiceAccount">ImpersonateServiceAccount</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#impersonate_service_account GoogleBetaProvider#impersonate_service_account}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.impersonateServiceAccountDelegates">ImpersonateServiceAccountDelegates</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#impersonate_service_account_delegates GoogleBetaProvider#impersonate_service_account_delegates}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.integrationConnectorsCustomEndpoint">IntegrationConnectorsCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#integration_connectors_custom_endpoint GoogleBetaProvider#integration_connectors_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.integrationsCustomEndpoint">IntegrationsCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#integrations_custom_endpoint GoogleBetaProvider#integrations_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.kmsCustomEndpoint">KmsCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#kms_custom_endpoint GoogleBetaProvider#kms_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.loggingCustomEndpoint">LoggingCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#logging_custom_endpoint GoogleBetaProvider#logging_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.lookerCustomEndpoint">LookerCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#looker_custom_endpoint GoogleBetaProvider#looker_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.lustreCustomEndpoint">LustreCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#lustre_custom_endpoint GoogleBetaProvider#lustre_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.managedKafkaCustomEndpoint">ManagedKafkaCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#managed_kafka_custom_endpoint GoogleBetaProvider#managed_kafka_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.memcacheCustomEndpoint">MemcacheCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#memcache_custom_endpoint GoogleBetaProvider#memcache_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.memorystoreCustomEndpoint">MemorystoreCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#memorystore_custom_endpoint GoogleBetaProvider#memorystore_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.migrationCenterCustomEndpoint">MigrationCenterCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#migration_center_custom_endpoint GoogleBetaProvider#migration_center_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.mlEngineCustomEndpoint">MlEngineCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#ml_engine_custom_endpoint GoogleBetaProvider#ml_engine_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.modelArmorCustomEndpoint">ModelArmorCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#model_armor_custom_endpoint GoogleBetaProvider#model_armor_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.modelArmorGlobalCustomEndpoint">ModelArmorGlobalCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#model_armor_global_custom_endpoint GoogleBetaProvider#model_armor_global_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.monitoringCustomEndpoint">MonitoringCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#monitoring_custom_endpoint GoogleBetaProvider#monitoring_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.netappCustomEndpoint">NetappCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#netapp_custom_endpoint GoogleBetaProvider#netapp_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.networkConnectivityCustomEndpoint">NetworkConnectivityCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#network_connectivity_custom_endpoint GoogleBetaProvider#network_connectivity_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.networkManagementCustomEndpoint">NetworkManagementCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#network_management_custom_endpoint GoogleBetaProvider#network_management_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.networkSecurityCustomEndpoint">NetworkSecurityCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#network_security_custom_endpoint GoogleBetaProvider#network_security_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.networkServicesCustomEndpoint">NetworkServicesCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#network_services_custom_endpoint GoogleBetaProvider#network_services_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.notebooksCustomEndpoint">NotebooksCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#notebooks_custom_endpoint GoogleBetaProvider#notebooks_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.oracleDatabaseCustomEndpoint">OracleDatabaseCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#oracle_database_custom_endpoint GoogleBetaProvider#oracle_database_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.orgPolicyCustomEndpoint">OrgPolicyCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#org_policy_custom_endpoint GoogleBetaProvider#org_policy_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.osConfigCustomEndpoint">OsConfigCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#os_config_custom_endpoint GoogleBetaProvider#os_config_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.osConfigV2CustomEndpoint">OsConfigV2CustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#os_config_v2_custom_endpoint GoogleBetaProvider#os_config_v2_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.osLoginCustomEndpoint">OsLoginCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#os_login_custom_endpoint GoogleBetaProvider#os_login_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.parallelstoreCustomEndpoint">ParallelstoreCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#parallelstore_custom_endpoint GoogleBetaProvider#parallelstore_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.parameterManagerCustomEndpoint">ParameterManagerCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#parameter_manager_custom_endpoint GoogleBetaProvider#parameter_manager_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.parameterManagerRegionalCustomEndpoint">ParameterManagerRegionalCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#parameter_manager_regional_custom_endpoint GoogleBetaProvider#parameter_manager_regional_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.privatecaCustomEndpoint">PrivatecaCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#privateca_custom_endpoint GoogleBetaProvider#privateca_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.privilegedAccessManagerCustomEndpoint">PrivilegedAccessManagerCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#privileged_access_manager_custom_endpoint GoogleBetaProvider#privileged_access_manager_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#project GoogleBetaProvider#project}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.publicCaCustomEndpoint">PublicCaCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#public_ca_custom_endpoint GoogleBetaProvider#public_ca_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.pubsubCustomEndpoint">PubsubCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#pubsub_custom_endpoint GoogleBetaProvider#pubsub_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.pubsubLiteCustomEndpoint">PubsubLiteCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#pubsub_lite_custom_endpoint GoogleBetaProvider#pubsub_lite_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.recaptchaEnterpriseCustomEndpoint">RecaptchaEnterpriseCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#recaptcha_enterprise_custom_endpoint GoogleBetaProvider#recaptcha_enterprise_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.redisCustomEndpoint">RedisCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#redis_custom_endpoint GoogleBetaProvider#redis_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.region">Region</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#region GoogleBetaProvider#region}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.requestReason">RequestReason</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#request_reason GoogleBetaProvider#request_reason}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.requestTimeout">RequestTimeout</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#request_timeout GoogleBetaProvider#request_timeout}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.resourceManager3CustomEndpoint">ResourceManager3CustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#resource_manager3_custom_endpoint GoogleBetaProvider#resource_manager3_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.resourceManagerCustomEndpoint">ResourceManagerCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#resource_manager_custom_endpoint GoogleBetaProvider#resource_manager_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.resourceManagerV3CustomEndpoint">ResourceManagerV3CustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#resource_manager_v3_custom_endpoint GoogleBetaProvider#resource_manager_v3_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.runtimeconfigCustomEndpoint">RuntimeconfigCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#runtimeconfig_custom_endpoint GoogleBetaProvider#runtimeconfig_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.runtimeConfigCustomEndpoint">RuntimeConfigCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#runtime_config_custom_endpoint GoogleBetaProvider#runtime_config_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.scopes">Scopes</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#scopes GoogleBetaProvider#scopes}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.secretManagerCustomEndpoint">SecretManagerCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#secret_manager_custom_endpoint GoogleBetaProvider#secret_manager_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.secretManagerRegionalCustomEndpoint">SecretManagerRegionalCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#secret_manager_regional_custom_endpoint GoogleBetaProvider#secret_manager_regional_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.secureSourceManagerCustomEndpoint">SecureSourceManagerCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#secure_source_manager_custom_endpoint GoogleBetaProvider#secure_source_manager_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.securityCenterCustomEndpoint">SecurityCenterCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#security_center_custom_endpoint GoogleBetaProvider#security_center_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.securityCenterManagementCustomEndpoint">SecurityCenterManagementCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#security_center_management_custom_endpoint GoogleBetaProvider#security_center_management_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.securityCenterV2CustomEndpoint">SecurityCenterV2CustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#security_center_v2_custom_endpoint GoogleBetaProvider#security_center_v2_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.securitypostureCustomEndpoint">SecuritypostureCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#securityposture_custom_endpoint GoogleBetaProvider#securityposture_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.securityScannerCustomEndpoint">SecurityScannerCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#security_scanner_custom_endpoint GoogleBetaProvider#security_scanner_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.serviceDirectoryCustomEndpoint">ServiceDirectoryCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#service_directory_custom_endpoint GoogleBetaProvider#service_directory_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.serviceManagementCustomEndpoint">ServiceManagementCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#service_management_custom_endpoint GoogleBetaProvider#service_management_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.serviceNetworkingCustomEndpoint">ServiceNetworkingCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#service_networking_custom_endpoint GoogleBetaProvider#service_networking_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.serviceUsageCustomEndpoint">ServiceUsageCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#service_usage_custom_endpoint GoogleBetaProvider#service_usage_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.siteVerificationCustomEndpoint">SiteVerificationCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#site_verification_custom_endpoint GoogleBetaProvider#site_verification_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.sourceRepoCustomEndpoint">SourceRepoCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#source_repo_custom_endpoint GoogleBetaProvider#source_repo_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.spannerCustomEndpoint">SpannerCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#spanner_custom_endpoint GoogleBetaProvider#spanner_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.sqlCustomEndpoint">SqlCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#sql_custom_endpoint GoogleBetaProvider#sql_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.storageBatchOperationsCustomEndpoint">StorageBatchOperationsCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#storage_batch_operations_custom_endpoint GoogleBetaProvider#storage_batch_operations_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.storageControlCustomEndpoint">StorageControlCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#storage_control_custom_endpoint GoogleBetaProvider#storage_control_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.storageCustomEndpoint">StorageCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#storage_custom_endpoint GoogleBetaProvider#storage_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.storageInsightsCustomEndpoint">StorageInsightsCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#storage_insights_custom_endpoint GoogleBetaProvider#storage_insights_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.storageTransferCustomEndpoint">StorageTransferCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#storage_transfer_custom_endpoint GoogleBetaProvider#storage_transfer_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.tagsCustomEndpoint">TagsCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#tags_custom_endpoint GoogleBetaProvider#tags_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.tagsLocationCustomEndpoint">TagsLocationCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#tags_location_custom_endpoint GoogleBetaProvider#tags_location_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.terraformAttributionLabelAdditionStrategy">TerraformAttributionLabelAdditionStrategy</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#terraform_attribution_label_addition_strategy GoogleBetaProvider#terraform_attribution_label_addition_strategy}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.tpuCustomEndpoint">TpuCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#tpu_custom_endpoint GoogleBetaProvider#tpu_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.tpuV2CustomEndpoint">TpuV2CustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#tpu_v2_custom_endpoint GoogleBetaProvider#tpu_v2_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.transcoderCustomEndpoint">TranscoderCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#transcoder_custom_endpoint GoogleBetaProvider#transcoder_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.universeDomain">UniverseDomain</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#universe_domain GoogleBetaProvider#universe_domain}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.userProjectOverride">UserProjectOverride</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#user_project_override GoogleBetaProvider#user_project_override}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.vertexAiCustomEndpoint">VertexAiCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#vertex_ai_custom_endpoint GoogleBetaProvider#vertex_ai_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.vmwareengineCustomEndpoint">VmwareengineCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#vmwareengine_custom_endpoint GoogleBetaProvider#vmwareengine_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.vpcAccessCustomEndpoint">VpcAccessCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#vpc_access_custom_endpoint GoogleBetaProvider#vpc_access_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.workbenchCustomEndpoint">WorkbenchCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#workbench_custom_endpoint GoogleBetaProvider#workbench_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.workflowsCustomEndpoint">WorkflowsCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#workflows_custom_endpoint GoogleBetaProvider#workflows_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.workstationsCustomEndpoint">WorkstationsCustomEndpoint</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#workstations_custom_endpoint GoogleBetaProvider#workstations_custom_endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.zone">Zone</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#zone GoogleBetaProvider#zone}. |
 
 ---
 
-##### `AccessApprovalCustomEndpoint`<sup>Optional</sup> <a name="AccessApprovalCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.accessApprovalCustomEndpoint"></a>
+##### `AccessApprovalCustomEndpoint`<sup>Optional</sup> <a name="AccessApprovalCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.accessApprovalCustomEndpoint"></a>
 
 ```go
 AccessApprovalCustomEndpoint *string
@@ -6421,7 +6421,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `AccessContextManagerCustomEndpoint`<sup>Optional</sup> <a name="AccessContextManagerCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.accessContextManagerCustomEndpoint"></a>
+##### `AccessContextManagerCustomEndpoint`<sup>Optional</sup> <a name="AccessContextManagerCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.accessContextManagerCustomEndpoint"></a>
 
 ```go
 AccessContextManagerCustomEndpoint *string
@@ -6433,7 +6433,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `AccessToken`<sup>Optional</sup> <a name="AccessToken" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.accessToken"></a>
+##### `AccessToken`<sup>Optional</sup> <a name="AccessToken" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.accessToken"></a>
 
 ```go
 AccessToken *string
@@ -6445,7 +6445,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `ActiveDirectoryCustomEndpoint`<sup>Optional</sup> <a name="ActiveDirectoryCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.activeDirectoryCustomEndpoint"></a>
+##### `ActiveDirectoryCustomEndpoint`<sup>Optional</sup> <a name="ActiveDirectoryCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.activeDirectoryCustomEndpoint"></a>
 
 ```go
 ActiveDirectoryCustomEndpoint *string
@@ -6457,7 +6457,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `AddTerraformAttributionLabel`<sup>Optional</sup> <a name="AddTerraformAttributionLabel" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.addTerraformAttributionLabel"></a>
+##### `AddTerraformAttributionLabel`<sup>Optional</sup> <a name="AddTerraformAttributionLabel" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.addTerraformAttributionLabel"></a>
 
 ```go
 AddTerraformAttributionLabel interface{}
@@ -6469,7 +6469,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `Alias`<sup>Optional</sup> <a name="Alias" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.alias"></a>
+##### `Alias`<sup>Optional</sup> <a name="Alias" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.alias"></a>
 
 ```go
 Alias *string
@@ -6483,7 +6483,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `AlloydbCustomEndpoint`<sup>Optional</sup> <a name="AlloydbCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.alloydbCustomEndpoint"></a>
+##### `AlloydbCustomEndpoint`<sup>Optional</sup> <a name="AlloydbCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.alloydbCustomEndpoint"></a>
 
 ```go
 AlloydbCustomEndpoint *string
@@ -6495,7 +6495,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `ApiGatewayCustomEndpoint`<sup>Optional</sup> <a name="ApiGatewayCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.apiGatewayCustomEndpoint"></a>
+##### `ApiGatewayCustomEndpoint`<sup>Optional</sup> <a name="ApiGatewayCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.apiGatewayCustomEndpoint"></a>
 
 ```go
 ApiGatewayCustomEndpoint *string
@@ -6507,7 +6507,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `ApigeeCustomEndpoint`<sup>Optional</sup> <a name="ApigeeCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.apigeeCustomEndpoint"></a>
+##### `ApigeeCustomEndpoint`<sup>Optional</sup> <a name="ApigeeCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.apigeeCustomEndpoint"></a>
 
 ```go
 ApigeeCustomEndpoint *string
@@ -6519,7 +6519,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `ApihubCustomEndpoint`<sup>Optional</sup> <a name="ApihubCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.apihubCustomEndpoint"></a>
+##### `ApihubCustomEndpoint`<sup>Optional</sup> <a name="ApihubCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.apihubCustomEndpoint"></a>
 
 ```go
 ApihubCustomEndpoint *string
@@ -6531,7 +6531,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `ApikeysCustomEndpoint`<sup>Optional</sup> <a name="ApikeysCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.apikeysCustomEndpoint"></a>
+##### `ApikeysCustomEndpoint`<sup>Optional</sup> <a name="ApikeysCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.apikeysCustomEndpoint"></a>
 
 ```go
 ApikeysCustomEndpoint *string
@@ -6543,7 +6543,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `AppEngineCustomEndpoint`<sup>Optional</sup> <a name="AppEngineCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.appEngineCustomEndpoint"></a>
+##### `AppEngineCustomEndpoint`<sup>Optional</sup> <a name="AppEngineCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.appEngineCustomEndpoint"></a>
 
 ```go
 AppEngineCustomEndpoint *string
@@ -6555,7 +6555,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `ApphubCustomEndpoint`<sup>Optional</sup> <a name="ApphubCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.apphubCustomEndpoint"></a>
+##### `ApphubCustomEndpoint`<sup>Optional</sup> <a name="ApphubCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.apphubCustomEndpoint"></a>
 
 ```go
 ApphubCustomEndpoint *string
@@ -6567,7 +6567,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `ArtifactRegistryCustomEndpoint`<sup>Optional</sup> <a name="ArtifactRegistryCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.artifactRegistryCustomEndpoint"></a>
+##### `ArtifactRegistryCustomEndpoint`<sup>Optional</sup> <a name="ArtifactRegistryCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.artifactRegistryCustomEndpoint"></a>
 
 ```go
 ArtifactRegistryCustomEndpoint *string
@@ -6579,7 +6579,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `AssuredWorkloadsCustomEndpoint`<sup>Optional</sup> <a name="AssuredWorkloadsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.assuredWorkloadsCustomEndpoint"></a>
+##### `AssuredWorkloadsCustomEndpoint`<sup>Optional</sup> <a name="AssuredWorkloadsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.assuredWorkloadsCustomEndpoint"></a>
 
 ```go
 AssuredWorkloadsCustomEndpoint *string
@@ -6591,7 +6591,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `BackupDrCustomEndpoint`<sup>Optional</sup> <a name="BackupDrCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.backupDrCustomEndpoint"></a>
+##### `BackupDrCustomEndpoint`<sup>Optional</sup> <a name="BackupDrCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.backupDrCustomEndpoint"></a>
 
 ```go
 BackupDrCustomEndpoint *string
@@ -6603,7 +6603,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `Batching`<sup>Optional</sup> <a name="Batching" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.batching"></a>
+##### `Batching`<sup>Optional</sup> <a name="Batching" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.batching"></a>
 
 ```go
 Batching interface{}
@@ -6617,7 +6617,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `BeyondcorpCustomEndpoint`<sup>Optional</sup> <a name="BeyondcorpCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.beyondcorpCustomEndpoint"></a>
+##### `BeyondcorpCustomEndpoint`<sup>Optional</sup> <a name="BeyondcorpCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.beyondcorpCustomEndpoint"></a>
 
 ```go
 BeyondcorpCustomEndpoint *string
@@ -6629,7 +6629,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `BiglakeCustomEndpoint`<sup>Optional</sup> <a name="BiglakeCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.biglakeCustomEndpoint"></a>
+##### `BiglakeCustomEndpoint`<sup>Optional</sup> <a name="BiglakeCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.biglakeCustomEndpoint"></a>
 
 ```go
 BiglakeCustomEndpoint *string
@@ -6641,7 +6641,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `BigqueryAnalyticsHubCustomEndpoint`<sup>Optional</sup> <a name="BigqueryAnalyticsHubCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.bigqueryAnalyticsHubCustomEndpoint"></a>
+##### `BigqueryAnalyticsHubCustomEndpoint`<sup>Optional</sup> <a name="BigqueryAnalyticsHubCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.bigqueryAnalyticsHubCustomEndpoint"></a>
 
 ```go
 BigqueryAnalyticsHubCustomEndpoint *string
@@ -6653,7 +6653,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `BigqueryConnectionCustomEndpoint`<sup>Optional</sup> <a name="BigqueryConnectionCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.bigqueryConnectionCustomEndpoint"></a>
+##### `BigqueryConnectionCustomEndpoint`<sup>Optional</sup> <a name="BigqueryConnectionCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.bigqueryConnectionCustomEndpoint"></a>
 
 ```go
 BigqueryConnectionCustomEndpoint *string
@@ -6665,7 +6665,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `BigQueryCustomEndpoint`<sup>Optional</sup> <a name="BigQueryCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.bigQueryCustomEndpoint"></a>
+##### `BigQueryCustomEndpoint`<sup>Optional</sup> <a name="BigQueryCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.bigQueryCustomEndpoint"></a>
 
 ```go
 BigQueryCustomEndpoint *string
@@ -6677,7 +6677,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `BigqueryDatapolicyCustomEndpoint`<sup>Optional</sup> <a name="BigqueryDatapolicyCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.bigqueryDatapolicyCustomEndpoint"></a>
+##### `BigqueryDatapolicyCustomEndpoint`<sup>Optional</sup> <a name="BigqueryDatapolicyCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.bigqueryDatapolicyCustomEndpoint"></a>
 
 ```go
 BigqueryDatapolicyCustomEndpoint *string
@@ -6689,7 +6689,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `BigqueryDataTransferCustomEndpoint`<sup>Optional</sup> <a name="BigqueryDataTransferCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.bigqueryDataTransferCustomEndpoint"></a>
+##### `BigqueryDataTransferCustomEndpoint`<sup>Optional</sup> <a name="BigqueryDataTransferCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.bigqueryDataTransferCustomEndpoint"></a>
 
 ```go
 BigqueryDataTransferCustomEndpoint *string
@@ -6701,7 +6701,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `BigqueryReservationCustomEndpoint`<sup>Optional</sup> <a name="BigqueryReservationCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.bigqueryReservationCustomEndpoint"></a>
+##### `BigqueryReservationCustomEndpoint`<sup>Optional</sup> <a name="BigqueryReservationCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.bigqueryReservationCustomEndpoint"></a>
 
 ```go
 BigqueryReservationCustomEndpoint *string
@@ -6713,7 +6713,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `BigtableCustomEndpoint`<sup>Optional</sup> <a name="BigtableCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.bigtableCustomEndpoint"></a>
+##### `BigtableCustomEndpoint`<sup>Optional</sup> <a name="BigtableCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.bigtableCustomEndpoint"></a>
 
 ```go
 BigtableCustomEndpoint *string
@@ -6725,7 +6725,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `BillingCustomEndpoint`<sup>Optional</sup> <a name="BillingCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.billingCustomEndpoint"></a>
+##### `BillingCustomEndpoint`<sup>Optional</sup> <a name="BillingCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.billingCustomEndpoint"></a>
 
 ```go
 BillingCustomEndpoint *string
@@ -6737,7 +6737,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `BillingProject`<sup>Optional</sup> <a name="BillingProject" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.billingProject"></a>
+##### `BillingProject`<sup>Optional</sup> <a name="BillingProject" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.billingProject"></a>
 
 ```go
 BillingProject *string
@@ -6749,7 +6749,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `BinaryAuthorizationCustomEndpoint`<sup>Optional</sup> <a name="BinaryAuthorizationCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.binaryAuthorizationCustomEndpoint"></a>
+##### `BinaryAuthorizationCustomEndpoint`<sup>Optional</sup> <a name="BinaryAuthorizationCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.binaryAuthorizationCustomEndpoint"></a>
 
 ```go
 BinaryAuthorizationCustomEndpoint *string
@@ -6761,7 +6761,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `BlockchainNodeEngineCustomEndpoint`<sup>Optional</sup> <a name="BlockchainNodeEngineCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.blockchainNodeEngineCustomEndpoint"></a>
+##### `BlockchainNodeEngineCustomEndpoint`<sup>Optional</sup> <a name="BlockchainNodeEngineCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.blockchainNodeEngineCustomEndpoint"></a>
 
 ```go
 BlockchainNodeEngineCustomEndpoint *string
@@ -6773,7 +6773,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `CertificateManagerCustomEndpoint`<sup>Optional</sup> <a name="CertificateManagerCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.certificateManagerCustomEndpoint"></a>
+##### `CertificateManagerCustomEndpoint`<sup>Optional</sup> <a name="CertificateManagerCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.certificateManagerCustomEndpoint"></a>
 
 ```go
 CertificateManagerCustomEndpoint *string
@@ -6785,7 +6785,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `ChronicleCustomEndpoint`<sup>Optional</sup> <a name="ChronicleCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.chronicleCustomEndpoint"></a>
+##### `ChronicleCustomEndpoint`<sup>Optional</sup> <a name="ChronicleCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.chronicleCustomEndpoint"></a>
 
 ```go
 ChronicleCustomEndpoint *string
@@ -6797,7 +6797,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `CloudAssetCustomEndpoint`<sup>Optional</sup> <a name="CloudAssetCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudAssetCustomEndpoint"></a>
+##### `CloudAssetCustomEndpoint`<sup>Optional</sup> <a name="CloudAssetCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudAssetCustomEndpoint"></a>
 
 ```go
 CloudAssetCustomEndpoint *string
@@ -6809,7 +6809,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `CloudBillingCustomEndpoint`<sup>Optional</sup> <a name="CloudBillingCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudBillingCustomEndpoint"></a>
+##### `CloudBillingCustomEndpoint`<sup>Optional</sup> <a name="CloudBillingCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudBillingCustomEndpoint"></a>
 
 ```go
 CloudBillingCustomEndpoint *string
@@ -6821,7 +6821,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `CloudBuildCustomEndpoint`<sup>Optional</sup> <a name="CloudBuildCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudBuildCustomEndpoint"></a>
+##### `CloudBuildCustomEndpoint`<sup>Optional</sup> <a name="CloudBuildCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudBuildCustomEndpoint"></a>
 
 ```go
 CloudBuildCustomEndpoint *string
@@ -6833,7 +6833,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `Cloudbuildv2CustomEndpoint`<sup>Optional</sup> <a name="Cloudbuildv2CustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudbuildv2CustomEndpoint"></a>
+##### `Cloudbuildv2CustomEndpoint`<sup>Optional</sup> <a name="Cloudbuildv2CustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudbuildv2CustomEndpoint"></a>
 
 ```go
 Cloudbuildv2CustomEndpoint *string
@@ -6845,7 +6845,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `ClouddeployCustomEndpoint`<sup>Optional</sup> <a name="ClouddeployCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.clouddeployCustomEndpoint"></a>
+##### `ClouddeployCustomEndpoint`<sup>Optional</sup> <a name="ClouddeployCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.clouddeployCustomEndpoint"></a>
 
 ```go
 ClouddeployCustomEndpoint *string
@@ -6857,7 +6857,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `ClouddomainsCustomEndpoint`<sup>Optional</sup> <a name="ClouddomainsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.clouddomainsCustomEndpoint"></a>
+##### `ClouddomainsCustomEndpoint`<sup>Optional</sup> <a name="ClouddomainsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.clouddomainsCustomEndpoint"></a>
 
 ```go
 ClouddomainsCustomEndpoint *string
@@ -6869,7 +6869,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `Cloudfunctions2CustomEndpoint`<sup>Optional</sup> <a name="Cloudfunctions2CustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudfunctions2CustomEndpoint"></a>
+##### `Cloudfunctions2CustomEndpoint`<sup>Optional</sup> <a name="Cloudfunctions2CustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudfunctions2CustomEndpoint"></a>
 
 ```go
 Cloudfunctions2CustomEndpoint *string
@@ -6881,7 +6881,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `CloudFunctionsCustomEndpoint`<sup>Optional</sup> <a name="CloudFunctionsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudFunctionsCustomEndpoint"></a>
+##### `CloudFunctionsCustomEndpoint`<sup>Optional</sup> <a name="CloudFunctionsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudFunctionsCustomEndpoint"></a>
 
 ```go
 CloudFunctionsCustomEndpoint *string
@@ -6893,7 +6893,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `CloudIdentityCustomEndpoint`<sup>Optional</sup> <a name="CloudIdentityCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudIdentityCustomEndpoint"></a>
+##### `CloudIdentityCustomEndpoint`<sup>Optional</sup> <a name="CloudIdentityCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudIdentityCustomEndpoint"></a>
 
 ```go
 CloudIdentityCustomEndpoint *string
@@ -6905,7 +6905,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `CloudIdsCustomEndpoint`<sup>Optional</sup> <a name="CloudIdsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudIdsCustomEndpoint"></a>
+##### `CloudIdsCustomEndpoint`<sup>Optional</sup> <a name="CloudIdsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudIdsCustomEndpoint"></a>
 
 ```go
 CloudIdsCustomEndpoint *string
@@ -6917,7 +6917,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `CloudQuotasCustomEndpoint`<sup>Optional</sup> <a name="CloudQuotasCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudQuotasCustomEndpoint"></a>
+##### `CloudQuotasCustomEndpoint`<sup>Optional</sup> <a name="CloudQuotasCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudQuotasCustomEndpoint"></a>
 
 ```go
 CloudQuotasCustomEndpoint *string
@@ -6929,7 +6929,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `CloudResourceManagerCustomEndpoint`<sup>Optional</sup> <a name="CloudResourceManagerCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudResourceManagerCustomEndpoint"></a>
+##### `CloudResourceManagerCustomEndpoint`<sup>Optional</sup> <a name="CloudResourceManagerCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudResourceManagerCustomEndpoint"></a>
 
 ```go
 CloudResourceManagerCustomEndpoint *string
@@ -6941,7 +6941,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `CloudRunCustomEndpoint`<sup>Optional</sup> <a name="CloudRunCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudRunCustomEndpoint"></a>
+##### `CloudRunCustomEndpoint`<sup>Optional</sup> <a name="CloudRunCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudRunCustomEndpoint"></a>
 
 ```go
 CloudRunCustomEndpoint *string
@@ -6953,7 +6953,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `CloudRunV2CustomEndpoint`<sup>Optional</sup> <a name="CloudRunV2CustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudRunV2CustomEndpoint"></a>
+##### `CloudRunV2CustomEndpoint`<sup>Optional</sup> <a name="CloudRunV2CustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudRunV2CustomEndpoint"></a>
 
 ```go
 CloudRunV2CustomEndpoint *string
@@ -6965,7 +6965,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `CloudSchedulerCustomEndpoint`<sup>Optional</sup> <a name="CloudSchedulerCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudSchedulerCustomEndpoint"></a>
+##### `CloudSchedulerCustomEndpoint`<sup>Optional</sup> <a name="CloudSchedulerCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudSchedulerCustomEndpoint"></a>
 
 ```go
 CloudSchedulerCustomEndpoint *string
@@ -6977,7 +6977,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `CloudTasksCustomEndpoint`<sup>Optional</sup> <a name="CloudTasksCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudTasksCustomEndpoint"></a>
+##### `CloudTasksCustomEndpoint`<sup>Optional</sup> <a name="CloudTasksCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.cloudTasksCustomEndpoint"></a>
 
 ```go
 CloudTasksCustomEndpoint *string
@@ -6989,7 +6989,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `ColabCustomEndpoint`<sup>Optional</sup> <a name="ColabCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.colabCustomEndpoint"></a>
+##### `ColabCustomEndpoint`<sup>Optional</sup> <a name="ColabCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.colabCustomEndpoint"></a>
 
 ```go
 ColabCustomEndpoint *string
@@ -7001,7 +7001,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `ComposerCustomEndpoint`<sup>Optional</sup> <a name="ComposerCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.composerCustomEndpoint"></a>
+##### `ComposerCustomEndpoint`<sup>Optional</sup> <a name="ComposerCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.composerCustomEndpoint"></a>
 
 ```go
 ComposerCustomEndpoint *string
@@ -7013,7 +7013,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `ComputeCustomEndpoint`<sup>Optional</sup> <a name="ComputeCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.computeCustomEndpoint"></a>
+##### `ComputeCustomEndpoint`<sup>Optional</sup> <a name="ComputeCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.computeCustomEndpoint"></a>
 
 ```go
 ComputeCustomEndpoint *string
@@ -7025,7 +7025,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `ContactCenterInsightsCustomEndpoint`<sup>Optional</sup> <a name="ContactCenterInsightsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.contactCenterInsightsCustomEndpoint"></a>
+##### `ContactCenterInsightsCustomEndpoint`<sup>Optional</sup> <a name="ContactCenterInsightsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.contactCenterInsightsCustomEndpoint"></a>
 
 ```go
 ContactCenterInsightsCustomEndpoint *string
@@ -7037,7 +7037,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `ContainerAnalysisCustomEndpoint`<sup>Optional</sup> <a name="ContainerAnalysisCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.containerAnalysisCustomEndpoint"></a>
+##### `ContainerAnalysisCustomEndpoint`<sup>Optional</sup> <a name="ContainerAnalysisCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.containerAnalysisCustomEndpoint"></a>
 
 ```go
 ContainerAnalysisCustomEndpoint *string
@@ -7049,7 +7049,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `ContainerAttachedCustomEndpoint`<sup>Optional</sup> <a name="ContainerAttachedCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.containerAttachedCustomEndpoint"></a>
+##### `ContainerAttachedCustomEndpoint`<sup>Optional</sup> <a name="ContainerAttachedCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.containerAttachedCustomEndpoint"></a>
 
 ```go
 ContainerAttachedCustomEndpoint *string
@@ -7061,7 +7061,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `ContainerAwsCustomEndpoint`<sup>Optional</sup> <a name="ContainerAwsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.containerAwsCustomEndpoint"></a>
+##### `ContainerAwsCustomEndpoint`<sup>Optional</sup> <a name="ContainerAwsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.containerAwsCustomEndpoint"></a>
 
 ```go
 ContainerAwsCustomEndpoint *string
@@ -7073,7 +7073,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `ContainerAzureCustomEndpoint`<sup>Optional</sup> <a name="ContainerAzureCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.containerAzureCustomEndpoint"></a>
+##### `ContainerAzureCustomEndpoint`<sup>Optional</sup> <a name="ContainerAzureCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.containerAzureCustomEndpoint"></a>
 
 ```go
 ContainerAzureCustomEndpoint *string
@@ -7085,7 +7085,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `ContainerCustomEndpoint`<sup>Optional</sup> <a name="ContainerCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.containerCustomEndpoint"></a>
+##### `ContainerCustomEndpoint`<sup>Optional</sup> <a name="ContainerCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.containerCustomEndpoint"></a>
 
 ```go
 ContainerCustomEndpoint *string
@@ -7097,7 +7097,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `CoreBillingCustomEndpoint`<sup>Optional</sup> <a name="CoreBillingCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.coreBillingCustomEndpoint"></a>
+##### `CoreBillingCustomEndpoint`<sup>Optional</sup> <a name="CoreBillingCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.coreBillingCustomEndpoint"></a>
 
 ```go
 CoreBillingCustomEndpoint *string
@@ -7109,7 +7109,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `Credentials`<sup>Optional</sup> <a name="Credentials" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.credentials"></a>
+##### `Credentials`<sup>Optional</sup> <a name="Credentials" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.credentials"></a>
 
 ```go
 Credentials *string
@@ -7121,7 +7121,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `DatabaseMigrationServiceCustomEndpoint`<sup>Optional</sup> <a name="DatabaseMigrationServiceCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.databaseMigrationServiceCustomEndpoint"></a>
+##### `DatabaseMigrationServiceCustomEndpoint`<sup>Optional</sup> <a name="DatabaseMigrationServiceCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.databaseMigrationServiceCustomEndpoint"></a>
 
 ```go
 DatabaseMigrationServiceCustomEndpoint *string
@@ -7133,7 +7133,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `DataCatalogCustomEndpoint`<sup>Optional</sup> <a name="DataCatalogCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.dataCatalogCustomEndpoint"></a>
+##### `DataCatalogCustomEndpoint`<sup>Optional</sup> <a name="DataCatalogCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.dataCatalogCustomEndpoint"></a>
 
 ```go
 DataCatalogCustomEndpoint *string
@@ -7145,7 +7145,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `DataflowCustomEndpoint`<sup>Optional</sup> <a name="DataflowCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.dataflowCustomEndpoint"></a>
+##### `DataflowCustomEndpoint`<sup>Optional</sup> <a name="DataflowCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.dataflowCustomEndpoint"></a>
 
 ```go
 DataflowCustomEndpoint *string
@@ -7157,7 +7157,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `DataformCustomEndpoint`<sup>Optional</sup> <a name="DataformCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.dataformCustomEndpoint"></a>
+##### `DataformCustomEndpoint`<sup>Optional</sup> <a name="DataformCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.dataformCustomEndpoint"></a>
 
 ```go
 DataformCustomEndpoint *string
@@ -7169,7 +7169,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `DataFusionCustomEndpoint`<sup>Optional</sup> <a name="DataFusionCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.dataFusionCustomEndpoint"></a>
+##### `DataFusionCustomEndpoint`<sup>Optional</sup> <a name="DataFusionCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.dataFusionCustomEndpoint"></a>
 
 ```go
 DataFusionCustomEndpoint *string
@@ -7181,7 +7181,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `DataLossPreventionCustomEndpoint`<sup>Optional</sup> <a name="DataLossPreventionCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.dataLossPreventionCustomEndpoint"></a>
+##### `DataLossPreventionCustomEndpoint`<sup>Optional</sup> <a name="DataLossPreventionCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.dataLossPreventionCustomEndpoint"></a>
 
 ```go
 DataLossPreventionCustomEndpoint *string
@@ -7193,7 +7193,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `DataPipelineCustomEndpoint`<sup>Optional</sup> <a name="DataPipelineCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.dataPipelineCustomEndpoint"></a>
+##### `DataPipelineCustomEndpoint`<sup>Optional</sup> <a name="DataPipelineCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.dataPipelineCustomEndpoint"></a>
 
 ```go
 DataPipelineCustomEndpoint *string
@@ -7205,7 +7205,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `DataplexCustomEndpoint`<sup>Optional</sup> <a name="DataplexCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.dataplexCustomEndpoint"></a>
+##### `DataplexCustomEndpoint`<sup>Optional</sup> <a name="DataplexCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.dataplexCustomEndpoint"></a>
 
 ```go
 DataplexCustomEndpoint *string
@@ -7217,7 +7217,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `DataprocCustomEndpoint`<sup>Optional</sup> <a name="DataprocCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.dataprocCustomEndpoint"></a>
+##### `DataprocCustomEndpoint`<sup>Optional</sup> <a name="DataprocCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.dataprocCustomEndpoint"></a>
 
 ```go
 DataprocCustomEndpoint *string
@@ -7229,7 +7229,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `DataprocGdcCustomEndpoint`<sup>Optional</sup> <a name="DataprocGdcCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.dataprocGdcCustomEndpoint"></a>
+##### `DataprocGdcCustomEndpoint`<sup>Optional</sup> <a name="DataprocGdcCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.dataprocGdcCustomEndpoint"></a>
 
 ```go
 DataprocGdcCustomEndpoint *string
@@ -7241,7 +7241,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `DataprocMetastoreCustomEndpoint`<sup>Optional</sup> <a name="DataprocMetastoreCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.dataprocMetastoreCustomEndpoint"></a>
+##### `DataprocMetastoreCustomEndpoint`<sup>Optional</sup> <a name="DataprocMetastoreCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.dataprocMetastoreCustomEndpoint"></a>
 
 ```go
 DataprocMetastoreCustomEndpoint *string
@@ -7253,7 +7253,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `DatastreamCustomEndpoint`<sup>Optional</sup> <a name="DatastreamCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.datastreamCustomEndpoint"></a>
+##### `DatastreamCustomEndpoint`<sup>Optional</sup> <a name="DatastreamCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.datastreamCustomEndpoint"></a>
 
 ```go
 DatastreamCustomEndpoint *string
@@ -7265,7 +7265,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `DefaultLabels`<sup>Optional</sup> <a name="DefaultLabels" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.defaultLabels"></a>
+##### `DefaultLabels`<sup>Optional</sup> <a name="DefaultLabels" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.defaultLabels"></a>
 
 ```go
 DefaultLabels *map[string]*string
@@ -7277,7 +7277,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `DeploymentManagerCustomEndpoint`<sup>Optional</sup> <a name="DeploymentManagerCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.deploymentManagerCustomEndpoint"></a>
+##### `DeploymentManagerCustomEndpoint`<sup>Optional</sup> <a name="DeploymentManagerCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.deploymentManagerCustomEndpoint"></a>
 
 ```go
 DeploymentManagerCustomEndpoint *string
@@ -7289,7 +7289,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `DeveloperConnectCustomEndpoint`<sup>Optional</sup> <a name="DeveloperConnectCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.developerConnectCustomEndpoint"></a>
+##### `DeveloperConnectCustomEndpoint`<sup>Optional</sup> <a name="DeveloperConnectCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.developerConnectCustomEndpoint"></a>
 
 ```go
 DeveloperConnectCustomEndpoint *string
@@ -7301,7 +7301,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `DialogflowCustomEndpoint`<sup>Optional</sup> <a name="DialogflowCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.dialogflowCustomEndpoint"></a>
+##### `DialogflowCustomEndpoint`<sup>Optional</sup> <a name="DialogflowCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.dialogflowCustomEndpoint"></a>
 
 ```go
 DialogflowCustomEndpoint *string
@@ -7313,7 +7313,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `DialogflowCxCustomEndpoint`<sup>Optional</sup> <a name="DialogflowCxCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.dialogflowCxCustomEndpoint"></a>
+##### `DialogflowCxCustomEndpoint`<sup>Optional</sup> <a name="DialogflowCxCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.dialogflowCxCustomEndpoint"></a>
 
 ```go
 DialogflowCxCustomEndpoint *string
@@ -7325,7 +7325,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `DiscoveryEngineCustomEndpoint`<sup>Optional</sup> <a name="DiscoveryEngineCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.discoveryEngineCustomEndpoint"></a>
+##### `DiscoveryEngineCustomEndpoint`<sup>Optional</sup> <a name="DiscoveryEngineCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.discoveryEngineCustomEndpoint"></a>
 
 ```go
 DiscoveryEngineCustomEndpoint *string
@@ -7337,7 +7337,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `DnsCustomEndpoint`<sup>Optional</sup> <a name="DnsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.dnsCustomEndpoint"></a>
+##### `DnsCustomEndpoint`<sup>Optional</sup> <a name="DnsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.dnsCustomEndpoint"></a>
 
 ```go
 DnsCustomEndpoint *string
@@ -7349,7 +7349,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `DocumentAiCustomEndpoint`<sup>Optional</sup> <a name="DocumentAiCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.documentAiCustomEndpoint"></a>
+##### `DocumentAiCustomEndpoint`<sup>Optional</sup> <a name="DocumentAiCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.documentAiCustomEndpoint"></a>
 
 ```go
 DocumentAiCustomEndpoint *string
@@ -7361,7 +7361,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `DocumentAiWarehouseCustomEndpoint`<sup>Optional</sup> <a name="DocumentAiWarehouseCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.documentAiWarehouseCustomEndpoint"></a>
+##### `DocumentAiWarehouseCustomEndpoint`<sup>Optional</sup> <a name="DocumentAiWarehouseCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.documentAiWarehouseCustomEndpoint"></a>
 
 ```go
 DocumentAiWarehouseCustomEndpoint *string
@@ -7373,7 +7373,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `EdgecontainerCustomEndpoint`<sup>Optional</sup> <a name="EdgecontainerCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.edgecontainerCustomEndpoint"></a>
+##### `EdgecontainerCustomEndpoint`<sup>Optional</sup> <a name="EdgecontainerCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.edgecontainerCustomEndpoint"></a>
 
 ```go
 EdgecontainerCustomEndpoint *string
@@ -7385,7 +7385,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `EdgenetworkCustomEndpoint`<sup>Optional</sup> <a name="EdgenetworkCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.edgenetworkCustomEndpoint"></a>
+##### `EdgenetworkCustomEndpoint`<sup>Optional</sup> <a name="EdgenetworkCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.edgenetworkCustomEndpoint"></a>
 
 ```go
 EdgenetworkCustomEndpoint *string
@@ -7397,7 +7397,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `EssentialContactsCustomEndpoint`<sup>Optional</sup> <a name="EssentialContactsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.essentialContactsCustomEndpoint"></a>
+##### `EssentialContactsCustomEndpoint`<sup>Optional</sup> <a name="EssentialContactsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.essentialContactsCustomEndpoint"></a>
 
 ```go
 EssentialContactsCustomEndpoint *string
@@ -7409,7 +7409,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `EventarcCustomEndpoint`<sup>Optional</sup> <a name="EventarcCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.eventarcCustomEndpoint"></a>
+##### `EventarcCustomEndpoint`<sup>Optional</sup> <a name="EventarcCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.eventarcCustomEndpoint"></a>
 
 ```go
 EventarcCustomEndpoint *string
@@ -7421,7 +7421,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `ExternalCredentials`<sup>Optional</sup> <a name="ExternalCredentials" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.externalCredentials"></a>
+##### `ExternalCredentials`<sup>Optional</sup> <a name="ExternalCredentials" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.externalCredentials"></a>
 
 ```go
 ExternalCredentials interface{}
@@ -7435,7 +7435,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `FilestoreCustomEndpoint`<sup>Optional</sup> <a name="FilestoreCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.filestoreCustomEndpoint"></a>
+##### `FilestoreCustomEndpoint`<sup>Optional</sup> <a name="FilestoreCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.filestoreCustomEndpoint"></a>
 
 ```go
 FilestoreCustomEndpoint *string
@@ -7447,7 +7447,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `FirebaseAppCheckCustomEndpoint`<sup>Optional</sup> <a name="FirebaseAppCheckCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.firebaseAppCheckCustomEndpoint"></a>
+##### `FirebaseAppCheckCustomEndpoint`<sup>Optional</sup> <a name="FirebaseAppCheckCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.firebaseAppCheckCustomEndpoint"></a>
 
 ```go
 FirebaseAppCheckCustomEndpoint *string
@@ -7459,7 +7459,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `FirebaseAppHostingCustomEndpoint`<sup>Optional</sup> <a name="FirebaseAppHostingCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.firebaseAppHostingCustomEndpoint"></a>
+##### `FirebaseAppHostingCustomEndpoint`<sup>Optional</sup> <a name="FirebaseAppHostingCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.firebaseAppHostingCustomEndpoint"></a>
 
 ```go
 FirebaseAppHostingCustomEndpoint *string
@@ -7471,7 +7471,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `FirebaseCustomEndpoint`<sup>Optional</sup> <a name="FirebaseCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.firebaseCustomEndpoint"></a>
+##### `FirebaseCustomEndpoint`<sup>Optional</sup> <a name="FirebaseCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.firebaseCustomEndpoint"></a>
 
 ```go
 FirebaseCustomEndpoint *string
@@ -7483,7 +7483,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `FirebaseDatabaseCustomEndpoint`<sup>Optional</sup> <a name="FirebaseDatabaseCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.firebaseDatabaseCustomEndpoint"></a>
+##### `FirebaseDatabaseCustomEndpoint`<sup>Optional</sup> <a name="FirebaseDatabaseCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.firebaseDatabaseCustomEndpoint"></a>
 
 ```go
 FirebaseDatabaseCustomEndpoint *string
@@ -7495,7 +7495,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `FirebaseDataConnectCustomEndpoint`<sup>Optional</sup> <a name="FirebaseDataConnectCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.firebaseDataConnectCustomEndpoint"></a>
+##### `FirebaseDataConnectCustomEndpoint`<sup>Optional</sup> <a name="FirebaseDataConnectCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.firebaseDataConnectCustomEndpoint"></a>
 
 ```go
 FirebaseDataConnectCustomEndpoint *string
@@ -7507,7 +7507,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `FirebaseExtensionsCustomEndpoint`<sup>Optional</sup> <a name="FirebaseExtensionsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.firebaseExtensionsCustomEndpoint"></a>
+##### `FirebaseExtensionsCustomEndpoint`<sup>Optional</sup> <a name="FirebaseExtensionsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.firebaseExtensionsCustomEndpoint"></a>
 
 ```go
 FirebaseExtensionsCustomEndpoint *string
@@ -7519,7 +7519,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `FirebaseHostingCustomEndpoint`<sup>Optional</sup> <a name="FirebaseHostingCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.firebaseHostingCustomEndpoint"></a>
+##### `FirebaseHostingCustomEndpoint`<sup>Optional</sup> <a name="FirebaseHostingCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.firebaseHostingCustomEndpoint"></a>
 
 ```go
 FirebaseHostingCustomEndpoint *string
@@ -7531,7 +7531,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `FirebaserulesCustomEndpoint`<sup>Optional</sup> <a name="FirebaserulesCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.firebaserulesCustomEndpoint"></a>
+##### `FirebaserulesCustomEndpoint`<sup>Optional</sup> <a name="FirebaserulesCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.firebaserulesCustomEndpoint"></a>
 
 ```go
 FirebaserulesCustomEndpoint *string
@@ -7543,7 +7543,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `FirebaseStorageCustomEndpoint`<sup>Optional</sup> <a name="FirebaseStorageCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.firebaseStorageCustomEndpoint"></a>
+##### `FirebaseStorageCustomEndpoint`<sup>Optional</sup> <a name="FirebaseStorageCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.firebaseStorageCustomEndpoint"></a>
 
 ```go
 FirebaseStorageCustomEndpoint *string
@@ -7555,7 +7555,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `FirestoreCustomEndpoint`<sup>Optional</sup> <a name="FirestoreCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.firestoreCustomEndpoint"></a>
+##### `FirestoreCustomEndpoint`<sup>Optional</sup> <a name="FirestoreCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.firestoreCustomEndpoint"></a>
 
 ```go
 FirestoreCustomEndpoint *string
@@ -7567,7 +7567,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `GeminiCustomEndpoint`<sup>Optional</sup> <a name="GeminiCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.geminiCustomEndpoint"></a>
+##### `GeminiCustomEndpoint`<sup>Optional</sup> <a name="GeminiCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.geminiCustomEndpoint"></a>
 
 ```go
 GeminiCustomEndpoint *string
@@ -7579,7 +7579,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `GkeBackupCustomEndpoint`<sup>Optional</sup> <a name="GkeBackupCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.gkeBackupCustomEndpoint"></a>
+##### `GkeBackupCustomEndpoint`<sup>Optional</sup> <a name="GkeBackupCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.gkeBackupCustomEndpoint"></a>
 
 ```go
 GkeBackupCustomEndpoint *string
@@ -7591,7 +7591,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `GkeHub2CustomEndpoint`<sup>Optional</sup> <a name="GkeHub2CustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.gkeHub2CustomEndpoint"></a>
+##### `GkeHub2CustomEndpoint`<sup>Optional</sup> <a name="GkeHub2CustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.gkeHub2CustomEndpoint"></a>
 
 ```go
 GkeHub2CustomEndpoint *string
@@ -7603,7 +7603,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `GkeHubCustomEndpoint`<sup>Optional</sup> <a name="GkeHubCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.gkeHubCustomEndpoint"></a>
+##### `GkeHubCustomEndpoint`<sup>Optional</sup> <a name="GkeHubCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.gkeHubCustomEndpoint"></a>
 
 ```go
 GkeHubCustomEndpoint *string
@@ -7615,7 +7615,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `GkeonpremCustomEndpoint`<sup>Optional</sup> <a name="GkeonpremCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.gkeonpremCustomEndpoint"></a>
+##### `GkeonpremCustomEndpoint`<sup>Optional</sup> <a name="GkeonpremCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.gkeonpremCustomEndpoint"></a>
 
 ```go
 GkeonpremCustomEndpoint *string
@@ -7627,7 +7627,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `HealthcareCustomEndpoint`<sup>Optional</sup> <a name="HealthcareCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.healthcareCustomEndpoint"></a>
+##### `HealthcareCustomEndpoint`<sup>Optional</sup> <a name="HealthcareCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.healthcareCustomEndpoint"></a>
 
 ```go
 HealthcareCustomEndpoint *string
@@ -7639,7 +7639,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `Iam2CustomEndpoint`<sup>Optional</sup> <a name="Iam2CustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.iam2CustomEndpoint"></a>
+##### `Iam2CustomEndpoint`<sup>Optional</sup> <a name="Iam2CustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.iam2CustomEndpoint"></a>
 
 ```go
 Iam2CustomEndpoint *string
@@ -7651,7 +7651,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `Iam3CustomEndpoint`<sup>Optional</sup> <a name="Iam3CustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.iam3CustomEndpoint"></a>
+##### `Iam3CustomEndpoint`<sup>Optional</sup> <a name="Iam3CustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.iam3CustomEndpoint"></a>
 
 ```go
 Iam3CustomEndpoint *string
@@ -7663,7 +7663,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `IamBetaCustomEndpoint`<sup>Optional</sup> <a name="IamBetaCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.iamBetaCustomEndpoint"></a>
+##### `IamBetaCustomEndpoint`<sup>Optional</sup> <a name="IamBetaCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.iamBetaCustomEndpoint"></a>
 
 ```go
 IamBetaCustomEndpoint *string
@@ -7675,7 +7675,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `IamCredentialsCustomEndpoint`<sup>Optional</sup> <a name="IamCredentialsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.iamCredentialsCustomEndpoint"></a>
+##### `IamCredentialsCustomEndpoint`<sup>Optional</sup> <a name="IamCredentialsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.iamCredentialsCustomEndpoint"></a>
 
 ```go
 IamCredentialsCustomEndpoint *string
@@ -7687,7 +7687,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `IamCustomEndpoint`<sup>Optional</sup> <a name="IamCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.iamCustomEndpoint"></a>
+##### `IamCustomEndpoint`<sup>Optional</sup> <a name="IamCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.iamCustomEndpoint"></a>
 
 ```go
 IamCustomEndpoint *string
@@ -7699,7 +7699,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `IamWorkforcePoolCustomEndpoint`<sup>Optional</sup> <a name="IamWorkforcePoolCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.iamWorkforcePoolCustomEndpoint"></a>
+##### `IamWorkforcePoolCustomEndpoint`<sup>Optional</sup> <a name="IamWorkforcePoolCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.iamWorkforcePoolCustomEndpoint"></a>
 
 ```go
 IamWorkforcePoolCustomEndpoint *string
@@ -7711,7 +7711,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `IapCustomEndpoint`<sup>Optional</sup> <a name="IapCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.iapCustomEndpoint"></a>
+##### `IapCustomEndpoint`<sup>Optional</sup> <a name="IapCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.iapCustomEndpoint"></a>
 
 ```go
 IapCustomEndpoint *string
@@ -7723,7 +7723,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `IdentityPlatformCustomEndpoint`<sup>Optional</sup> <a name="IdentityPlatformCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.identityPlatformCustomEndpoint"></a>
+##### `IdentityPlatformCustomEndpoint`<sup>Optional</sup> <a name="IdentityPlatformCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.identityPlatformCustomEndpoint"></a>
 
 ```go
 IdentityPlatformCustomEndpoint *string
@@ -7735,7 +7735,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `ImpersonateServiceAccount`<sup>Optional</sup> <a name="ImpersonateServiceAccount" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.impersonateServiceAccount"></a>
+##### `ImpersonateServiceAccount`<sup>Optional</sup> <a name="ImpersonateServiceAccount" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.impersonateServiceAccount"></a>
 
 ```go
 ImpersonateServiceAccount *string
@@ -7747,7 +7747,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `ImpersonateServiceAccountDelegates`<sup>Optional</sup> <a name="ImpersonateServiceAccountDelegates" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.impersonateServiceAccountDelegates"></a>
+##### `ImpersonateServiceAccountDelegates`<sup>Optional</sup> <a name="ImpersonateServiceAccountDelegates" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.impersonateServiceAccountDelegates"></a>
 
 ```go
 ImpersonateServiceAccountDelegates *[]*string
@@ -7759,7 +7759,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `IntegrationConnectorsCustomEndpoint`<sup>Optional</sup> <a name="IntegrationConnectorsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.integrationConnectorsCustomEndpoint"></a>
+##### `IntegrationConnectorsCustomEndpoint`<sup>Optional</sup> <a name="IntegrationConnectorsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.integrationConnectorsCustomEndpoint"></a>
 
 ```go
 IntegrationConnectorsCustomEndpoint *string
@@ -7771,7 +7771,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `IntegrationsCustomEndpoint`<sup>Optional</sup> <a name="IntegrationsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.integrationsCustomEndpoint"></a>
+##### `IntegrationsCustomEndpoint`<sup>Optional</sup> <a name="IntegrationsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.integrationsCustomEndpoint"></a>
 
 ```go
 IntegrationsCustomEndpoint *string
@@ -7783,7 +7783,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `KmsCustomEndpoint`<sup>Optional</sup> <a name="KmsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.kmsCustomEndpoint"></a>
+##### `KmsCustomEndpoint`<sup>Optional</sup> <a name="KmsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.kmsCustomEndpoint"></a>
 
 ```go
 KmsCustomEndpoint *string
@@ -7795,7 +7795,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `LoggingCustomEndpoint`<sup>Optional</sup> <a name="LoggingCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.loggingCustomEndpoint"></a>
+##### `LoggingCustomEndpoint`<sup>Optional</sup> <a name="LoggingCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.loggingCustomEndpoint"></a>
 
 ```go
 LoggingCustomEndpoint *string
@@ -7807,7 +7807,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `LookerCustomEndpoint`<sup>Optional</sup> <a name="LookerCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.lookerCustomEndpoint"></a>
+##### `LookerCustomEndpoint`<sup>Optional</sup> <a name="LookerCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.lookerCustomEndpoint"></a>
 
 ```go
 LookerCustomEndpoint *string
@@ -7819,7 +7819,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `LustreCustomEndpoint`<sup>Optional</sup> <a name="LustreCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.lustreCustomEndpoint"></a>
+##### `LustreCustomEndpoint`<sup>Optional</sup> <a name="LustreCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.lustreCustomEndpoint"></a>
 
 ```go
 LustreCustomEndpoint *string
@@ -7831,7 +7831,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `ManagedKafkaCustomEndpoint`<sup>Optional</sup> <a name="ManagedKafkaCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.managedKafkaCustomEndpoint"></a>
+##### `ManagedKafkaCustomEndpoint`<sup>Optional</sup> <a name="ManagedKafkaCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.managedKafkaCustomEndpoint"></a>
 
 ```go
 ManagedKafkaCustomEndpoint *string
@@ -7843,7 +7843,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `MemcacheCustomEndpoint`<sup>Optional</sup> <a name="MemcacheCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.memcacheCustomEndpoint"></a>
+##### `MemcacheCustomEndpoint`<sup>Optional</sup> <a name="MemcacheCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.memcacheCustomEndpoint"></a>
 
 ```go
 MemcacheCustomEndpoint *string
@@ -7855,7 +7855,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `MemorystoreCustomEndpoint`<sup>Optional</sup> <a name="MemorystoreCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.memorystoreCustomEndpoint"></a>
+##### `MemorystoreCustomEndpoint`<sup>Optional</sup> <a name="MemorystoreCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.memorystoreCustomEndpoint"></a>
 
 ```go
 MemorystoreCustomEndpoint *string
@@ -7867,7 +7867,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `MigrationCenterCustomEndpoint`<sup>Optional</sup> <a name="MigrationCenterCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.migrationCenterCustomEndpoint"></a>
+##### `MigrationCenterCustomEndpoint`<sup>Optional</sup> <a name="MigrationCenterCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.migrationCenterCustomEndpoint"></a>
 
 ```go
 MigrationCenterCustomEndpoint *string
@@ -7879,7 +7879,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `MlEngineCustomEndpoint`<sup>Optional</sup> <a name="MlEngineCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.mlEngineCustomEndpoint"></a>
+##### `MlEngineCustomEndpoint`<sup>Optional</sup> <a name="MlEngineCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.mlEngineCustomEndpoint"></a>
 
 ```go
 MlEngineCustomEndpoint *string
@@ -7891,7 +7891,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `ModelArmorCustomEndpoint`<sup>Optional</sup> <a name="ModelArmorCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.modelArmorCustomEndpoint"></a>
+##### `ModelArmorCustomEndpoint`<sup>Optional</sup> <a name="ModelArmorCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.modelArmorCustomEndpoint"></a>
 
 ```go
 ModelArmorCustomEndpoint *string
@@ -7903,7 +7903,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `ModelArmorGlobalCustomEndpoint`<sup>Optional</sup> <a name="ModelArmorGlobalCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.modelArmorGlobalCustomEndpoint"></a>
+##### `ModelArmorGlobalCustomEndpoint`<sup>Optional</sup> <a name="ModelArmorGlobalCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.modelArmorGlobalCustomEndpoint"></a>
 
 ```go
 ModelArmorGlobalCustomEndpoint *string
@@ -7915,7 +7915,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `MonitoringCustomEndpoint`<sup>Optional</sup> <a name="MonitoringCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.monitoringCustomEndpoint"></a>
+##### `MonitoringCustomEndpoint`<sup>Optional</sup> <a name="MonitoringCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.monitoringCustomEndpoint"></a>
 
 ```go
 MonitoringCustomEndpoint *string
@@ -7927,7 +7927,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `NetappCustomEndpoint`<sup>Optional</sup> <a name="NetappCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.netappCustomEndpoint"></a>
+##### `NetappCustomEndpoint`<sup>Optional</sup> <a name="NetappCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.netappCustomEndpoint"></a>
 
 ```go
 NetappCustomEndpoint *string
@@ -7939,7 +7939,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `NetworkConnectivityCustomEndpoint`<sup>Optional</sup> <a name="NetworkConnectivityCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.networkConnectivityCustomEndpoint"></a>
+##### `NetworkConnectivityCustomEndpoint`<sup>Optional</sup> <a name="NetworkConnectivityCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.networkConnectivityCustomEndpoint"></a>
 
 ```go
 NetworkConnectivityCustomEndpoint *string
@@ -7951,7 +7951,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `NetworkManagementCustomEndpoint`<sup>Optional</sup> <a name="NetworkManagementCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.networkManagementCustomEndpoint"></a>
+##### `NetworkManagementCustomEndpoint`<sup>Optional</sup> <a name="NetworkManagementCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.networkManagementCustomEndpoint"></a>
 
 ```go
 NetworkManagementCustomEndpoint *string
@@ -7963,7 +7963,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `NetworkSecurityCustomEndpoint`<sup>Optional</sup> <a name="NetworkSecurityCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.networkSecurityCustomEndpoint"></a>
+##### `NetworkSecurityCustomEndpoint`<sup>Optional</sup> <a name="NetworkSecurityCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.networkSecurityCustomEndpoint"></a>
 
 ```go
 NetworkSecurityCustomEndpoint *string
@@ -7975,7 +7975,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `NetworkServicesCustomEndpoint`<sup>Optional</sup> <a name="NetworkServicesCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.networkServicesCustomEndpoint"></a>
+##### `NetworkServicesCustomEndpoint`<sup>Optional</sup> <a name="NetworkServicesCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.networkServicesCustomEndpoint"></a>
 
 ```go
 NetworkServicesCustomEndpoint *string
@@ -7987,7 +7987,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `NotebooksCustomEndpoint`<sup>Optional</sup> <a name="NotebooksCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.notebooksCustomEndpoint"></a>
+##### `NotebooksCustomEndpoint`<sup>Optional</sup> <a name="NotebooksCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.notebooksCustomEndpoint"></a>
 
 ```go
 NotebooksCustomEndpoint *string
@@ -7999,7 +7999,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `OracleDatabaseCustomEndpoint`<sup>Optional</sup> <a name="OracleDatabaseCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.oracleDatabaseCustomEndpoint"></a>
+##### `OracleDatabaseCustomEndpoint`<sup>Optional</sup> <a name="OracleDatabaseCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.oracleDatabaseCustomEndpoint"></a>
 
 ```go
 OracleDatabaseCustomEndpoint *string
@@ -8011,7 +8011,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `OrgPolicyCustomEndpoint`<sup>Optional</sup> <a name="OrgPolicyCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.orgPolicyCustomEndpoint"></a>
+##### `OrgPolicyCustomEndpoint`<sup>Optional</sup> <a name="OrgPolicyCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.orgPolicyCustomEndpoint"></a>
 
 ```go
 OrgPolicyCustomEndpoint *string
@@ -8023,7 +8023,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `OsConfigCustomEndpoint`<sup>Optional</sup> <a name="OsConfigCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.osConfigCustomEndpoint"></a>
+##### `OsConfigCustomEndpoint`<sup>Optional</sup> <a name="OsConfigCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.osConfigCustomEndpoint"></a>
 
 ```go
 OsConfigCustomEndpoint *string
@@ -8035,7 +8035,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `OsConfigV2CustomEndpoint`<sup>Optional</sup> <a name="OsConfigV2CustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.osConfigV2CustomEndpoint"></a>
+##### `OsConfigV2CustomEndpoint`<sup>Optional</sup> <a name="OsConfigV2CustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.osConfigV2CustomEndpoint"></a>
 
 ```go
 OsConfigV2CustomEndpoint *string
@@ -8047,7 +8047,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `OsLoginCustomEndpoint`<sup>Optional</sup> <a name="OsLoginCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.osLoginCustomEndpoint"></a>
+##### `OsLoginCustomEndpoint`<sup>Optional</sup> <a name="OsLoginCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.osLoginCustomEndpoint"></a>
 
 ```go
 OsLoginCustomEndpoint *string
@@ -8059,7 +8059,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `ParallelstoreCustomEndpoint`<sup>Optional</sup> <a name="ParallelstoreCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.parallelstoreCustomEndpoint"></a>
+##### `ParallelstoreCustomEndpoint`<sup>Optional</sup> <a name="ParallelstoreCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.parallelstoreCustomEndpoint"></a>
 
 ```go
 ParallelstoreCustomEndpoint *string
@@ -8071,7 +8071,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `ParameterManagerCustomEndpoint`<sup>Optional</sup> <a name="ParameterManagerCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.parameterManagerCustomEndpoint"></a>
+##### `ParameterManagerCustomEndpoint`<sup>Optional</sup> <a name="ParameterManagerCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.parameterManagerCustomEndpoint"></a>
 
 ```go
 ParameterManagerCustomEndpoint *string
@@ -8083,7 +8083,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `ParameterManagerRegionalCustomEndpoint`<sup>Optional</sup> <a name="ParameterManagerRegionalCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.parameterManagerRegionalCustomEndpoint"></a>
+##### `ParameterManagerRegionalCustomEndpoint`<sup>Optional</sup> <a name="ParameterManagerRegionalCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.parameterManagerRegionalCustomEndpoint"></a>
 
 ```go
 ParameterManagerRegionalCustomEndpoint *string
@@ -8095,7 +8095,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `PrivatecaCustomEndpoint`<sup>Optional</sup> <a name="PrivatecaCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.privatecaCustomEndpoint"></a>
+##### `PrivatecaCustomEndpoint`<sup>Optional</sup> <a name="PrivatecaCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.privatecaCustomEndpoint"></a>
 
 ```go
 PrivatecaCustomEndpoint *string
@@ -8107,7 +8107,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `PrivilegedAccessManagerCustomEndpoint`<sup>Optional</sup> <a name="PrivilegedAccessManagerCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.privilegedAccessManagerCustomEndpoint"></a>
+##### `PrivilegedAccessManagerCustomEndpoint`<sup>Optional</sup> <a name="PrivilegedAccessManagerCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.privilegedAccessManagerCustomEndpoint"></a>
 
 ```go
 PrivilegedAccessManagerCustomEndpoint *string
@@ -8119,7 +8119,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `Project`<sup>Optional</sup> <a name="Project" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.project"></a>
+##### `Project`<sup>Optional</sup> <a name="Project" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.project"></a>
 
 ```go
 Project *string
@@ -8131,7 +8131,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `PublicCaCustomEndpoint`<sup>Optional</sup> <a name="PublicCaCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.publicCaCustomEndpoint"></a>
+##### `PublicCaCustomEndpoint`<sup>Optional</sup> <a name="PublicCaCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.publicCaCustomEndpoint"></a>
 
 ```go
 PublicCaCustomEndpoint *string
@@ -8143,7 +8143,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `PubsubCustomEndpoint`<sup>Optional</sup> <a name="PubsubCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.pubsubCustomEndpoint"></a>
+##### `PubsubCustomEndpoint`<sup>Optional</sup> <a name="PubsubCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.pubsubCustomEndpoint"></a>
 
 ```go
 PubsubCustomEndpoint *string
@@ -8155,7 +8155,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `PubsubLiteCustomEndpoint`<sup>Optional</sup> <a name="PubsubLiteCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.pubsubLiteCustomEndpoint"></a>
+##### `PubsubLiteCustomEndpoint`<sup>Optional</sup> <a name="PubsubLiteCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.pubsubLiteCustomEndpoint"></a>
 
 ```go
 PubsubLiteCustomEndpoint *string
@@ -8167,7 +8167,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `RecaptchaEnterpriseCustomEndpoint`<sup>Optional</sup> <a name="RecaptchaEnterpriseCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.recaptchaEnterpriseCustomEndpoint"></a>
+##### `RecaptchaEnterpriseCustomEndpoint`<sup>Optional</sup> <a name="RecaptchaEnterpriseCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.recaptchaEnterpriseCustomEndpoint"></a>
 
 ```go
 RecaptchaEnterpriseCustomEndpoint *string
@@ -8179,7 +8179,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `RedisCustomEndpoint`<sup>Optional</sup> <a name="RedisCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.redisCustomEndpoint"></a>
+##### `RedisCustomEndpoint`<sup>Optional</sup> <a name="RedisCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.redisCustomEndpoint"></a>
 
 ```go
 RedisCustomEndpoint *string
@@ -8191,7 +8191,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `Region`<sup>Optional</sup> <a name="Region" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.region"></a>
+##### `Region`<sup>Optional</sup> <a name="Region" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.region"></a>
 
 ```go
 Region *string
@@ -8203,7 +8203,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `RequestReason`<sup>Optional</sup> <a name="RequestReason" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.requestReason"></a>
+##### `RequestReason`<sup>Optional</sup> <a name="RequestReason" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.requestReason"></a>
 
 ```go
 RequestReason *string
@@ -8215,7 +8215,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `RequestTimeout`<sup>Optional</sup> <a name="RequestTimeout" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.requestTimeout"></a>
+##### `RequestTimeout`<sup>Optional</sup> <a name="RequestTimeout" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.requestTimeout"></a>
 
 ```go
 RequestTimeout *string
@@ -8227,7 +8227,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `ResourceManager3CustomEndpoint`<sup>Optional</sup> <a name="ResourceManager3CustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.resourceManager3CustomEndpoint"></a>
+##### `ResourceManager3CustomEndpoint`<sup>Optional</sup> <a name="ResourceManager3CustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.resourceManager3CustomEndpoint"></a>
 
 ```go
 ResourceManager3CustomEndpoint *string
@@ -8239,7 +8239,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `ResourceManagerCustomEndpoint`<sup>Optional</sup> <a name="ResourceManagerCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.resourceManagerCustomEndpoint"></a>
+##### `ResourceManagerCustomEndpoint`<sup>Optional</sup> <a name="ResourceManagerCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.resourceManagerCustomEndpoint"></a>
 
 ```go
 ResourceManagerCustomEndpoint *string
@@ -8251,7 +8251,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `ResourceManagerV3CustomEndpoint`<sup>Optional</sup> <a name="ResourceManagerV3CustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.resourceManagerV3CustomEndpoint"></a>
+##### `ResourceManagerV3CustomEndpoint`<sup>Optional</sup> <a name="ResourceManagerV3CustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.resourceManagerV3CustomEndpoint"></a>
 
 ```go
 ResourceManagerV3CustomEndpoint *string
@@ -8263,7 +8263,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `RuntimeconfigCustomEndpoint`<sup>Optional</sup> <a name="RuntimeconfigCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.runtimeconfigCustomEndpoint"></a>
+##### `RuntimeconfigCustomEndpoint`<sup>Optional</sup> <a name="RuntimeconfigCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.runtimeconfigCustomEndpoint"></a>
 
 ```go
 RuntimeconfigCustomEndpoint *string
@@ -8275,7 +8275,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `RuntimeConfigCustomEndpoint`<sup>Optional</sup> <a name="RuntimeConfigCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.runtimeConfigCustomEndpoint"></a>
+##### `RuntimeConfigCustomEndpoint`<sup>Optional</sup> <a name="RuntimeConfigCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.runtimeConfigCustomEndpoint"></a>
 
 ```go
 RuntimeConfigCustomEndpoint *string
@@ -8287,7 +8287,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `Scopes`<sup>Optional</sup> <a name="Scopes" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.scopes"></a>
+##### `Scopes`<sup>Optional</sup> <a name="Scopes" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.scopes"></a>
 
 ```go
 Scopes *[]*string
@@ -8299,7 +8299,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `SecretManagerCustomEndpoint`<sup>Optional</sup> <a name="SecretManagerCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.secretManagerCustomEndpoint"></a>
+##### `SecretManagerCustomEndpoint`<sup>Optional</sup> <a name="SecretManagerCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.secretManagerCustomEndpoint"></a>
 
 ```go
 SecretManagerCustomEndpoint *string
@@ -8311,7 +8311,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `SecretManagerRegionalCustomEndpoint`<sup>Optional</sup> <a name="SecretManagerRegionalCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.secretManagerRegionalCustomEndpoint"></a>
+##### `SecretManagerRegionalCustomEndpoint`<sup>Optional</sup> <a name="SecretManagerRegionalCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.secretManagerRegionalCustomEndpoint"></a>
 
 ```go
 SecretManagerRegionalCustomEndpoint *string
@@ -8323,7 +8323,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `SecureSourceManagerCustomEndpoint`<sup>Optional</sup> <a name="SecureSourceManagerCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.secureSourceManagerCustomEndpoint"></a>
+##### `SecureSourceManagerCustomEndpoint`<sup>Optional</sup> <a name="SecureSourceManagerCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.secureSourceManagerCustomEndpoint"></a>
 
 ```go
 SecureSourceManagerCustomEndpoint *string
@@ -8335,7 +8335,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `SecurityCenterCustomEndpoint`<sup>Optional</sup> <a name="SecurityCenterCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.securityCenterCustomEndpoint"></a>
+##### `SecurityCenterCustomEndpoint`<sup>Optional</sup> <a name="SecurityCenterCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.securityCenterCustomEndpoint"></a>
 
 ```go
 SecurityCenterCustomEndpoint *string
@@ -8347,7 +8347,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `SecurityCenterManagementCustomEndpoint`<sup>Optional</sup> <a name="SecurityCenterManagementCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.securityCenterManagementCustomEndpoint"></a>
+##### `SecurityCenterManagementCustomEndpoint`<sup>Optional</sup> <a name="SecurityCenterManagementCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.securityCenterManagementCustomEndpoint"></a>
 
 ```go
 SecurityCenterManagementCustomEndpoint *string
@@ -8359,7 +8359,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `SecurityCenterV2CustomEndpoint`<sup>Optional</sup> <a name="SecurityCenterV2CustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.securityCenterV2CustomEndpoint"></a>
+##### `SecurityCenterV2CustomEndpoint`<sup>Optional</sup> <a name="SecurityCenterV2CustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.securityCenterV2CustomEndpoint"></a>
 
 ```go
 SecurityCenterV2CustomEndpoint *string
@@ -8371,7 +8371,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `SecuritypostureCustomEndpoint`<sup>Optional</sup> <a name="SecuritypostureCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.securitypostureCustomEndpoint"></a>
+##### `SecuritypostureCustomEndpoint`<sup>Optional</sup> <a name="SecuritypostureCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.securitypostureCustomEndpoint"></a>
 
 ```go
 SecuritypostureCustomEndpoint *string
@@ -8383,7 +8383,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `SecurityScannerCustomEndpoint`<sup>Optional</sup> <a name="SecurityScannerCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.securityScannerCustomEndpoint"></a>
+##### `SecurityScannerCustomEndpoint`<sup>Optional</sup> <a name="SecurityScannerCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.securityScannerCustomEndpoint"></a>
 
 ```go
 SecurityScannerCustomEndpoint *string
@@ -8395,7 +8395,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `ServiceDirectoryCustomEndpoint`<sup>Optional</sup> <a name="ServiceDirectoryCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.serviceDirectoryCustomEndpoint"></a>
+##### `ServiceDirectoryCustomEndpoint`<sup>Optional</sup> <a name="ServiceDirectoryCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.serviceDirectoryCustomEndpoint"></a>
 
 ```go
 ServiceDirectoryCustomEndpoint *string
@@ -8407,7 +8407,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `ServiceManagementCustomEndpoint`<sup>Optional</sup> <a name="ServiceManagementCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.serviceManagementCustomEndpoint"></a>
+##### `ServiceManagementCustomEndpoint`<sup>Optional</sup> <a name="ServiceManagementCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.serviceManagementCustomEndpoint"></a>
 
 ```go
 ServiceManagementCustomEndpoint *string
@@ -8419,7 +8419,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `ServiceNetworkingCustomEndpoint`<sup>Optional</sup> <a name="ServiceNetworkingCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.serviceNetworkingCustomEndpoint"></a>
+##### `ServiceNetworkingCustomEndpoint`<sup>Optional</sup> <a name="ServiceNetworkingCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.serviceNetworkingCustomEndpoint"></a>
 
 ```go
 ServiceNetworkingCustomEndpoint *string
@@ -8431,7 +8431,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `ServiceUsageCustomEndpoint`<sup>Optional</sup> <a name="ServiceUsageCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.serviceUsageCustomEndpoint"></a>
+##### `ServiceUsageCustomEndpoint`<sup>Optional</sup> <a name="ServiceUsageCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.serviceUsageCustomEndpoint"></a>
 
 ```go
 ServiceUsageCustomEndpoint *string
@@ -8443,7 +8443,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `SiteVerificationCustomEndpoint`<sup>Optional</sup> <a name="SiteVerificationCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.siteVerificationCustomEndpoint"></a>
+##### `SiteVerificationCustomEndpoint`<sup>Optional</sup> <a name="SiteVerificationCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.siteVerificationCustomEndpoint"></a>
 
 ```go
 SiteVerificationCustomEndpoint *string
@@ -8455,7 +8455,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `SourceRepoCustomEndpoint`<sup>Optional</sup> <a name="SourceRepoCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.sourceRepoCustomEndpoint"></a>
+##### `SourceRepoCustomEndpoint`<sup>Optional</sup> <a name="SourceRepoCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.sourceRepoCustomEndpoint"></a>
 
 ```go
 SourceRepoCustomEndpoint *string
@@ -8467,7 +8467,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `SpannerCustomEndpoint`<sup>Optional</sup> <a name="SpannerCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.spannerCustomEndpoint"></a>
+##### `SpannerCustomEndpoint`<sup>Optional</sup> <a name="SpannerCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.spannerCustomEndpoint"></a>
 
 ```go
 SpannerCustomEndpoint *string
@@ -8479,7 +8479,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `SqlCustomEndpoint`<sup>Optional</sup> <a name="SqlCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.sqlCustomEndpoint"></a>
+##### `SqlCustomEndpoint`<sup>Optional</sup> <a name="SqlCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.sqlCustomEndpoint"></a>
 
 ```go
 SqlCustomEndpoint *string
@@ -8491,7 +8491,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `StorageBatchOperationsCustomEndpoint`<sup>Optional</sup> <a name="StorageBatchOperationsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.storageBatchOperationsCustomEndpoint"></a>
+##### `StorageBatchOperationsCustomEndpoint`<sup>Optional</sup> <a name="StorageBatchOperationsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.storageBatchOperationsCustomEndpoint"></a>
 
 ```go
 StorageBatchOperationsCustomEndpoint *string
@@ -8503,7 +8503,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `StorageControlCustomEndpoint`<sup>Optional</sup> <a name="StorageControlCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.storageControlCustomEndpoint"></a>
+##### `StorageControlCustomEndpoint`<sup>Optional</sup> <a name="StorageControlCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.storageControlCustomEndpoint"></a>
 
 ```go
 StorageControlCustomEndpoint *string
@@ -8515,7 +8515,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `StorageCustomEndpoint`<sup>Optional</sup> <a name="StorageCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.storageCustomEndpoint"></a>
+##### `StorageCustomEndpoint`<sup>Optional</sup> <a name="StorageCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.storageCustomEndpoint"></a>
 
 ```go
 StorageCustomEndpoint *string
@@ -8527,7 +8527,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `StorageInsightsCustomEndpoint`<sup>Optional</sup> <a name="StorageInsightsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.storageInsightsCustomEndpoint"></a>
+##### `StorageInsightsCustomEndpoint`<sup>Optional</sup> <a name="StorageInsightsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.storageInsightsCustomEndpoint"></a>
 
 ```go
 StorageInsightsCustomEndpoint *string
@@ -8539,7 +8539,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `StorageTransferCustomEndpoint`<sup>Optional</sup> <a name="StorageTransferCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.storageTransferCustomEndpoint"></a>
+##### `StorageTransferCustomEndpoint`<sup>Optional</sup> <a name="StorageTransferCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.storageTransferCustomEndpoint"></a>
 
 ```go
 StorageTransferCustomEndpoint *string
@@ -8551,7 +8551,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `TagsCustomEndpoint`<sup>Optional</sup> <a name="TagsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.tagsCustomEndpoint"></a>
+##### `TagsCustomEndpoint`<sup>Optional</sup> <a name="TagsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.tagsCustomEndpoint"></a>
 
 ```go
 TagsCustomEndpoint *string
@@ -8563,7 +8563,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `TagsLocationCustomEndpoint`<sup>Optional</sup> <a name="TagsLocationCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.tagsLocationCustomEndpoint"></a>
+##### `TagsLocationCustomEndpoint`<sup>Optional</sup> <a name="TagsLocationCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.tagsLocationCustomEndpoint"></a>
 
 ```go
 TagsLocationCustomEndpoint *string
@@ -8575,7 +8575,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `TerraformAttributionLabelAdditionStrategy`<sup>Optional</sup> <a name="TerraformAttributionLabelAdditionStrategy" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.terraformAttributionLabelAdditionStrategy"></a>
+##### `TerraformAttributionLabelAdditionStrategy`<sup>Optional</sup> <a name="TerraformAttributionLabelAdditionStrategy" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.terraformAttributionLabelAdditionStrategy"></a>
 
 ```go
 TerraformAttributionLabelAdditionStrategy *string
@@ -8587,7 +8587,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `TpuCustomEndpoint`<sup>Optional</sup> <a name="TpuCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.tpuCustomEndpoint"></a>
+##### `TpuCustomEndpoint`<sup>Optional</sup> <a name="TpuCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.tpuCustomEndpoint"></a>
 
 ```go
 TpuCustomEndpoint *string
@@ -8599,7 +8599,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `TpuV2CustomEndpoint`<sup>Optional</sup> <a name="TpuV2CustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.tpuV2CustomEndpoint"></a>
+##### `TpuV2CustomEndpoint`<sup>Optional</sup> <a name="TpuV2CustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.tpuV2CustomEndpoint"></a>
 
 ```go
 TpuV2CustomEndpoint *string
@@ -8611,7 +8611,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `TranscoderCustomEndpoint`<sup>Optional</sup> <a name="TranscoderCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.transcoderCustomEndpoint"></a>
+##### `TranscoderCustomEndpoint`<sup>Optional</sup> <a name="TranscoderCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.transcoderCustomEndpoint"></a>
 
 ```go
 TranscoderCustomEndpoint *string
@@ -8623,7 +8623,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `UniverseDomain`<sup>Optional</sup> <a name="UniverseDomain" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.universeDomain"></a>
+##### `UniverseDomain`<sup>Optional</sup> <a name="UniverseDomain" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.universeDomain"></a>
 
 ```go
 UniverseDomain *string
@@ -8635,7 +8635,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `UserProjectOverride`<sup>Optional</sup> <a name="UserProjectOverride" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.userProjectOverride"></a>
+##### `UserProjectOverride`<sup>Optional</sup> <a name="UserProjectOverride" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.userProjectOverride"></a>
 
 ```go
 UserProjectOverride interface{}
@@ -8647,7 +8647,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `VertexAiCustomEndpoint`<sup>Optional</sup> <a name="VertexAiCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.vertexAiCustomEndpoint"></a>
+##### `VertexAiCustomEndpoint`<sup>Optional</sup> <a name="VertexAiCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.vertexAiCustomEndpoint"></a>
 
 ```go
 VertexAiCustomEndpoint *string
@@ -8659,7 +8659,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `VmwareengineCustomEndpoint`<sup>Optional</sup> <a name="VmwareengineCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.vmwareengineCustomEndpoint"></a>
+##### `VmwareengineCustomEndpoint`<sup>Optional</sup> <a name="VmwareengineCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.vmwareengineCustomEndpoint"></a>
 
 ```go
 VmwareengineCustomEndpoint *string
@@ -8671,7 +8671,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `VpcAccessCustomEndpoint`<sup>Optional</sup> <a name="VpcAccessCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.vpcAccessCustomEndpoint"></a>
+##### `VpcAccessCustomEndpoint`<sup>Optional</sup> <a name="VpcAccessCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.vpcAccessCustomEndpoint"></a>
 
 ```go
 VpcAccessCustomEndpoint *string
@@ -8683,7 +8683,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `WorkbenchCustomEndpoint`<sup>Optional</sup> <a name="WorkbenchCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.workbenchCustomEndpoint"></a>
+##### `WorkbenchCustomEndpoint`<sup>Optional</sup> <a name="WorkbenchCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.workbenchCustomEndpoint"></a>
 
 ```go
 WorkbenchCustomEndpoint *string
@@ -8695,7 +8695,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `WorkflowsCustomEndpoint`<sup>Optional</sup> <a name="WorkflowsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.workflowsCustomEndpoint"></a>
+##### `WorkflowsCustomEndpoint`<sup>Optional</sup> <a name="WorkflowsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.workflowsCustomEndpoint"></a>
 
 ```go
 WorkflowsCustomEndpoint *string
@@ -8707,7 +8707,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `WorkstationsCustomEndpoint`<sup>Optional</sup> <a name="WorkstationsCustomEndpoint" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.workstationsCustomEndpoint"></a>
+##### `WorkstationsCustomEndpoint`<sup>Optional</sup> <a name="WorkstationsCustomEndpoint" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.workstationsCustomEndpoint"></a>
 
 ```go
 WorkstationsCustomEndpoint *string
@@ -8719,7 +8719,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `Zone`<sup>Optional</sup> <a name="Zone" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderConfig.property.zone"></a>
+##### `Zone`<sup>Optional</sup> <a name="Zone" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.zone"></a>
 
 ```go
 Zone *string
@@ -8731,12 +8731,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-### GoogleBetaProviderExternalCredentials <a name="GoogleBetaProviderExternalCredentials" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderExternalCredentials"></a>
+### GoogleBetaProviderExternalCredentials <a name="GoogleBetaProviderExternalCredentials" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderExternalCredentials"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderExternalCredentials.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderExternalCredentials.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/provider"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/provider"
 
 &provider.GoogleBetaProviderExternalCredentials {
 	Audience: *string,
@@ -8749,13 +8749,13 @@ import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/provider"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderExternalCredentials.property.audience">Audience</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#audience GoogleBetaProvider#audience}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderExternalCredentials.property.identityToken">IdentityToken</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#identity_token GoogleBetaProvider#identity_token}. |
-| <code><a href="#@cdktf/provider-google-beta.provider.GoogleBetaProviderExternalCredentials.property.serviceAccountEmail">ServiceAccountEmail</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#service_account_email GoogleBetaProvider#service_account_email}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderExternalCredentials.property.audience">Audience</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#audience GoogleBetaProvider#audience}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderExternalCredentials.property.identityToken">IdentityToken</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#identity_token GoogleBetaProvider#identity_token}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderExternalCredentials.property.serviceAccountEmail">ServiceAccountEmail</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#service_account_email GoogleBetaProvider#service_account_email}. |
 
 ---
 
-##### `Audience`<sup>Required</sup> <a name="Audience" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderExternalCredentials.property.audience"></a>
+##### `Audience`<sup>Required</sup> <a name="Audience" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderExternalCredentials.property.audience"></a>
 
 ```go
 Audience *string
@@ -8767,7 +8767,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `IdentityToken`<sup>Required</sup> <a name="IdentityToken" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderExternalCredentials.property.identityToken"></a>
+##### `IdentityToken`<sup>Required</sup> <a name="IdentityToken" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderExternalCredentials.property.identityToken"></a>
 
 ```go
 IdentityToken *string
@@ -8779,7 +8779,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `ServiceAccountEmail`<sup>Required</sup> <a name="ServiceAccountEmail" id="@cdktf/provider-google-beta.provider.GoogleBetaProviderExternalCredentials.property.serviceAccountEmail"></a>
+##### `ServiceAccountEmail`<sup>Required</sup> <a name="ServiceAccountEmail" id="@cdktn/provider-google-beta.provider.GoogleBetaProviderExternalCredentials.property.serviceAccountEmail"></a>
 
 ```go
 ServiceAccountEmail *string

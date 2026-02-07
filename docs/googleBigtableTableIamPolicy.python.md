@@ -1,15 +1,15 @@
-# `googleBigtableTableIamPolicy` Submodule <a name="`googleBigtableTableIamPolicy` Submodule" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy"></a>
+# `googleBigtableTableIamPolicy` Submodule <a name="`googleBigtableTableIamPolicy` Submodule" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
 
-### GoogleBigtableTableIamPolicy <a name="GoogleBigtableTableIamPolicy" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy"></a>
+### GoogleBigtableTableIamPolicy <a name="GoogleBigtableTableIamPolicy" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy"></a>
 
 Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_policy google_bigtable_table_iam_policy}.
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_bigtable_table_iam_policy
+from cdktn_provider_google_beta import google_bigtable_table_iam_policy
 
 googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy(
   scope: Construct,
@@ -32,25 +32,25 @@ googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.id">id</a></code> | <code>str</code> | The scoped construct ID. |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.policyData">policy_data</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_policy#policy_data GoogleBigtableTableIamPolicy#policy_data}. |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.table">table</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_policy#table GoogleBigtableTableIamPolicy#table}. |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_policy#id GoogleBigtableTableIamPolicy#id}. |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.instance">instance</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_policy#instance GoogleBigtableTableIamPolicy#instance}. |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.instanceName">instance_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_policy#instance_name GoogleBigtableTableIamPolicy#instance_name}. |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_policy#project GoogleBigtableTableIamPolicy#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.id">id</a></code> | <code>str</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.policyData">policy_data</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_policy#policy_data GoogleBigtableTableIamPolicy#policy_data}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.table">table</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_policy#table GoogleBigtableTableIamPolicy#table}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_policy#id GoogleBigtableTableIamPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.instance">instance</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_policy#instance GoogleBigtableTableIamPolicy#instance}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.instanceName">instance_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_policy#instance_name GoogleBigtableTableIamPolicy#instance_name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_policy#project GoogleBigtableTableIamPolicy#project}. |
 
 ---
 
-##### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.scope"></a>
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
@@ -58,7 +58,7 @@ The scope in which to define this construct.
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.id"></a>
 
 - *Type:* str
 
@@ -68,49 +68,49 @@ Must be unique amongst siblings in the same scope
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.connection"></a>
 
 - *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.count"></a>
 
 - *Type:* typing.Union[int, float] | cdktf.TerraformCount
 
 ---
 
-##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.dependsOn"></a>
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.dependsOn"></a>
 
 - *Type:* typing.List[cdktf.ITerraformDependable]
 
 ---
 
-##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.forEach"></a>
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.forEach"></a>
 
 - *Type:* cdktf.ITerraformIterator
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.lifecycle"></a>
 
 - *Type:* cdktf.TerraformResourceLifecycle
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.provisioners"></a>
 
 - *Type:* typing.List[cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner]
 
 ---
 
-##### `policy_data`<sup>Required</sup> <a name="policy_data" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.policyData"></a>
+##### `policy_data`<sup>Required</sup> <a name="policy_data" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.policyData"></a>
 
 - *Type:* str
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `table`<sup>Required</sup> <a name="table" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.table"></a>
+##### `table`<sup>Required</sup> <a name="table" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.table"></a>
 
 - *Type:* str
 
@@ -126,7 +126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `id`<sup>Optional</sup> <a name="id" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.id"></a>
+##### `id`<sup>Optional</sup> <a name="id" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.id"></a>
 
 - *Type:* str
 
@@ -137,7 +137,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 ---
 
-##### `instance`<sup>Optional</sup> <a name="instance" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.instance"></a>
+##### `instance`<sup>Optional</sup> <a name="instance" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.instance"></a>
 
 - *Type:* str
 
@@ -145,7 +145,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `instance_name`<sup>Optional</sup> <a name="instance_name" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.instanceName"></a>
+##### `instance_name`<sup>Optional</sup> <a name="instance_name" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.instanceName"></a>
 
 - *Type:* str
 
@@ -153,7 +153,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `project`<sup>Optional</sup> <a name="project" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.project"></a>
+##### `project`<sup>Optional</sup> <a name="project" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.Initializer.parameter.project"></a>
 
 - *Type:* str
 
@@ -165,37 +165,37 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.toString">to_string</a></code> | Returns a string representation of this construct. |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.addOverride">add_override</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.overrideLogicalId">override_logical_id</a></code> | Overrides the auto-generated logical ID with a specific ID. |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.resetOverrideLogicalId">reset_override_logical_id</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.toHclTerraform">to_hcl_terraform</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.toMetadata">to_metadata</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.toTerraform">to_terraform</a></code> | Adds this resource to the terraform JSON output. |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.addMoveTarget">add_move_target</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getListAttribute">get_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getStringAttribute">get_string_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.hasResourceMove">has_resource_move</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.importFrom">import_from</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.moveFromId">move_from_id</a></code> | Move the resource corresponding to "id" to this resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.resetId">reset_id</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.resetInstance">reset_instance</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.resetInstanceName">reset_instance_name</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.resetProject">reset_project</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.toString">to_string</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.addOverride">add_override</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.overrideLogicalId">override_logical_id</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.resetOverrideLogicalId">reset_override_logical_id</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.toHclTerraform">to_hcl_terraform</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.toMetadata">to_metadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.toTerraform">to_terraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.addMoveTarget">add_move_target</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.hasResourceMove">has_resource_move</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.importFrom">import_from</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.moveFromId">move_from_id</a></code> | Move the resource corresponding to "id" to this resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.resetId">reset_id</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.resetInstance">reset_instance</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.resetInstanceName">reset_instance_name</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.resetProject">reset_project</a></code> | *No description.* |
 
 ---
 
-##### `to_string` <a name="to_string" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.toString"></a>
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.toString"></a>
 
 ```python
 def to_string() -> str
@@ -203,7 +203,7 @@ def to_string() -> str
 
 Returns a string representation of this construct.
 
-##### `add_override` <a name="add_override" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.addOverride"></a>
+##### `add_override` <a name="add_override" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.addOverride"></a>
 
 ```python
 def add_override(
@@ -212,19 +212,19 @@ def add_override(
 ) -> None
 ```
 
-###### `path`<sup>Required</sup> <a name="path" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.addOverride.parameter.path"></a>
+###### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.addOverride.parameter.path"></a>
 
 - *Type:* str
 
 ---
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.addOverride.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.addOverride.parameter.value"></a>
 
 - *Type:* typing.Any
 
 ---
 
-##### `override_logical_id` <a name="override_logical_id" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.overrideLogicalId"></a>
+##### `override_logical_id` <a name="override_logical_id" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.overrideLogicalId"></a>
 
 ```python
 def override_logical_id(
@@ -234,7 +234,7 @@ def override_logical_id(
 
 Overrides the auto-generated logical ID with a specific ID.
 
-###### `new_logical_id`<sup>Required</sup> <a name="new_logical_id" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.overrideLogicalId.parameter.newLogicalId"></a>
+###### `new_logical_id`<sup>Required</sup> <a name="new_logical_id" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.overrideLogicalId.parameter.newLogicalId"></a>
 
 - *Type:* str
 
@@ -242,7 +242,7 @@ The new logical ID to use for this stack element.
 
 ---
 
-##### `reset_override_logical_id` <a name="reset_override_logical_id" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.resetOverrideLogicalId"></a>
+##### `reset_override_logical_id` <a name="reset_override_logical_id" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.resetOverrideLogicalId"></a>
 
 ```python
 def reset_override_logical_id() -> None
@@ -250,19 +250,19 @@ def reset_override_logical_id() -> None
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
 
-##### `to_hcl_terraform` <a name="to_hcl_terraform" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.toHclTerraform"></a>
+##### `to_hcl_terraform` <a name="to_hcl_terraform" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.toHclTerraform"></a>
 
 ```python
 def to_hcl_terraform() -> typing.Any
 ```
 
-##### `to_metadata` <a name="to_metadata" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.toMetadata"></a>
+##### `to_metadata` <a name="to_metadata" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.toMetadata"></a>
 
 ```python
 def to_metadata() -> typing.Any
 ```
 
-##### `to_terraform` <a name="to_terraform" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.toTerraform"></a>
+##### `to_terraform` <a name="to_terraform" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.toTerraform"></a>
 
 ```python
 def to_terraform() -> typing.Any
@@ -270,7 +270,7 @@ def to_terraform() -> typing.Any
 
 Adds this resource to the terraform JSON output.
 
-##### `add_move_target` <a name="add_move_target" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.addMoveTarget"></a>
+##### `add_move_target` <a name="add_move_target" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.addMoveTarget"></a>
 
 ```python
 def add_move_target(
@@ -280,7 +280,7 @@ def add_move_target(
 
 Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 
-###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.addMoveTarget.parameter.moveTarget"></a>
+###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.addMoveTarget.parameter.moveTarget"></a>
 
 - *Type:* str
 
@@ -288,7 +288,7 @@ The string move target that will correspond to this resource.
 
 ---
 
-##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getAnyMapAttribute"></a>
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getAnyMapAttribute"></a>
 
 ```python
 def get_any_map_attribute(
@@ -296,13 +296,13 @@ def get_any_map_attribute(
 ) -> typing.Mapping[typing.Any]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getBooleanAttribute"></a>
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getBooleanAttribute"></a>
 
 ```python
 def get_boolean_attribute(
@@ -310,13 +310,13 @@ def get_boolean_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getBooleanMapAttribute"></a>
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getBooleanMapAttribute"></a>
 
 ```python
 def get_boolean_map_attribute(
@@ -324,13 +324,13 @@ def get_boolean_map_attribute(
 ) -> typing.Mapping[bool]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_list_attribute` <a name="get_list_attribute" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getListAttribute"></a>
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getListAttribute"></a>
 
 ```python
 def get_list_attribute(
@@ -338,13 +338,13 @@ def get_list_attribute(
 ) -> typing.List[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_attribute` <a name="get_number_attribute" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getNumberAttribute"></a>
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getNumberAttribute"></a>
 
 ```python
 def get_number_attribute(
@@ -352,13 +352,13 @@ def get_number_attribute(
 ) -> typing.Union[int, float]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getNumberListAttribute"></a>
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getNumberListAttribute"></a>
 
 ```python
 def get_number_list_attribute(
@@ -366,13 +366,13 @@ def get_number_list_attribute(
 ) -> typing.List[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getNumberMapAttribute"></a>
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getNumberMapAttribute"></a>
 
 ```python
 def get_number_map_attribute(
@@ -380,13 +380,13 @@ def get_number_map_attribute(
 ) -> typing.Mapping[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_attribute` <a name="get_string_attribute" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getStringAttribute"></a>
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getStringAttribute"></a>
 
 ```python
 def get_string_attribute(
@@ -394,13 +394,13 @@ def get_string_attribute(
 ) -> str
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getStringMapAttribute"></a>
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getStringMapAttribute"></a>
 
 ```python
 def get_string_map_attribute(
@@ -408,19 +408,19 @@ def get_string_map_attribute(
 ) -> typing.Mapping[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `has_resource_move` <a name="has_resource_move" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.hasResourceMove"></a>
+##### `has_resource_move` <a name="has_resource_move" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.hasResourceMove"></a>
 
 ```python
 def has_resource_move() -> TerraformResourceMoveByTarget | TerraformResourceMoveById
 ```
 
-##### `import_from` <a name="import_from" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.importFrom"></a>
+##### `import_from` <a name="import_from" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.importFrom"></a>
 
 ```python
 def import_from(
@@ -429,19 +429,19 @@ def import_from(
 ) -> None
 ```
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.importFrom.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.importFrom.parameter.id"></a>
 
 - *Type:* str
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.importFrom.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.importFrom.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
 ---
 
-##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.interpolationForAttribute"></a>
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.interpolationForAttribute"></a>
 
 ```python
 def interpolation_for_attribute(
@@ -449,13 +449,13 @@ def interpolation_for_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.interpolationForAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.interpolationForAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `move_from_id` <a name="move_from_id" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.moveFromId"></a>
+##### `move_from_id` <a name="move_from_id" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.moveFromId"></a>
 
 ```python
 def move_from_id(
@@ -467,7 +467,7 @@ Move the resource corresponding to "id" to this resource.
 
 Note that the resource being moved from must be marked as moved using it's instance function.
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.moveFromId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.moveFromId.parameter.id"></a>
 
 - *Type:* str
 
@@ -475,7 +475,7 @@ Full id of resource being moved from, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `move_to` <a name="move_to" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.moveTo"></a>
+##### `move_to` <a name="move_to" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.moveTo"></a>
 
 ```python
 def move_to(
@@ -486,7 +486,7 @@ def move_to(
 
 Moves this resource to the target resource given by moveTarget.
 
-###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.moveTo.parameter.moveTarget"></a>
+###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.moveTo.parameter.moveTarget"></a>
 
 - *Type:* str
 
@@ -494,7 +494,7 @@ The previously set user defined string set by .addMoveTarget() corresponding to 
 
 ---
 
-###### `index`<sup>Optional</sup> <a name="index" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.moveTo.parameter.index"></a>
+###### `index`<sup>Optional</sup> <a name="index" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.moveTo.parameter.index"></a>
 
 - *Type:* str | typing.Union[int, float]
 
@@ -502,7 +502,7 @@ Optional The index corresponding to the key the resource is to appear in the for
 
 ---
 
-##### `move_to_id` <a name="move_to_id" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.moveToId"></a>
+##### `move_to_id` <a name="move_to_id" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.moveToId"></a>
 
 ```python
 def move_to_id(
@@ -512,7 +512,7 @@ def move_to_id(
 
 Moves this resource to the resource corresponding to "id".
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.moveToId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.moveToId.parameter.id"></a>
 
 - *Type:* str
 
@@ -520,25 +520,25 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `reset_id` <a name="reset_id" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.resetId"></a>
+##### `reset_id` <a name="reset_id" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.resetId"></a>
 
 ```python
 def reset_id() -> None
 ```
 
-##### `reset_instance` <a name="reset_instance" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.resetInstance"></a>
+##### `reset_instance` <a name="reset_instance" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.resetInstance"></a>
 
 ```python
 def reset_instance() -> None
 ```
 
-##### `reset_instance_name` <a name="reset_instance_name" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.resetInstanceName"></a>
+##### `reset_instance_name` <a name="reset_instance_name" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.resetInstanceName"></a>
 
 ```python
 def reset_instance_name() -> None
 ```
 
-##### `reset_project` <a name="reset_project" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.resetProject"></a>
+##### `reset_project` <a name="reset_project" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.resetProject"></a>
 
 ```python
 def reset_project() -> None
@@ -548,17 +548,17 @@ def reset_project() -> None
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.isConstruct">is_construct</a></code> | Checks if `x` is a construct. |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.isTerraformElement">is_terraform_element</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.isTerraformResource">is_terraform_resource</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.generateConfigForImport">generate_config_for_import</a></code> | Generates CDKTF code for importing a GoogleBigtableTableIamPolicy resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.isConstruct">is_construct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.isTerraformElement">is_terraform_element</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.isTerraformResource">is_terraform_resource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.generateConfigForImport">generate_config_for_import</a></code> | Generates CDKTF code for importing a GoogleBigtableTableIamPolicy resource upon running "cdktf plan <stack-name>". |
 
 ---
 
-##### `is_construct` <a name="is_construct" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.isConstruct"></a>
+##### `is_construct` <a name="is_construct" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.isConstruct"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_bigtable_table_iam_policy
+from cdktn_provider_google_beta import google_bigtable_table_iam_policy
 
 googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.is_construct(
   x: typing.Any
@@ -581,7 +581,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.isConstruct.parameter.x"></a>
 
 - *Type:* typing.Any
 
@@ -589,42 +589,42 @@ Any object.
 
 ---
 
-##### `is_terraform_element` <a name="is_terraform_element" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.isTerraformElement"></a>
+##### `is_terraform_element` <a name="is_terraform_element" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.isTerraformElement"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_bigtable_table_iam_policy
+from cdktn_provider_google_beta import google_bigtable_table_iam_policy
 
 googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.is_terraform_element(
   x: typing.Any
 )
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.isTerraformElement.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.isTerraformElement.parameter.x"></a>
 
 - *Type:* typing.Any
 
 ---
 
-##### `is_terraform_resource` <a name="is_terraform_resource" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.isTerraformResource"></a>
+##### `is_terraform_resource` <a name="is_terraform_resource" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.isTerraformResource"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_bigtable_table_iam_policy
+from cdktn_provider_google_beta import google_bigtable_table_iam_policy
 
 googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.is_terraform_resource(
   x: typing.Any
 )
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.isTerraformResource.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.isTerraformResource.parameter.x"></a>
 
 - *Type:* typing.Any
 
 ---
 
-##### `generate_config_for_import` <a name="generate_config_for_import" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.generateConfigForImport"></a>
+##### `generate_config_for_import` <a name="generate_config_for_import" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.generateConfigForImport"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_bigtable_table_iam_policy
+from cdktn_provider_google_beta import google_bigtable_table_iam_policy
 
 googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.generate_config_for_import(
   scope: Construct,
@@ -636,7 +636,7 @@ googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.generate_config_for_im
 
 Generates CDKTF code for importing a GoogleBigtableTableIamPolicy resource upon running "cdktf plan <stack-name>".
 
-###### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.generateConfigForImport.parameter.scope"></a>
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.generateConfigForImport.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
@@ -644,7 +644,7 @@ The scope in which to define this construct.
 
 ---
 
-###### `import_to_id`<sup>Required</sup> <a name="import_to_id" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.generateConfigForImport.parameter.importToId"></a>
+###### `import_to_id`<sup>Required</sup> <a name="import_to_id" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.generateConfigForImport.parameter.importToId"></a>
 
 - *Type:* str
 
@@ -652,7 +652,7 @@ The construct id used in the generated config for the GoogleBigtableTableIamPoli
 
 ---
 
-###### `import_from_id`<sup>Required</sup> <a name="import_from_id" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.generateConfigForImport.parameter.importFromId"></a>
+###### `import_from_id`<sup>Required</sup> <a name="import_from_id" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.generateConfigForImport.parameter.importFromId"></a>
 
 - *Type:* str
 
@@ -662,7 +662,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.generateConfigForImport.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.generateConfigForImport.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
@@ -674,37 +674,37 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.cdktfStack">cdktf_stack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.friendlyUniqueId">friendly_unique_id</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.terraformMetaArguments">terraform_meta_arguments</a></code> | <code>typing.Mapping[typing.Any]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.terraformResourceType">terraform_resource_type</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.terraformGeneratorMetadata">terraform_generator_metadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.dependsOn">depends_on</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.etag">etag</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.instanceInput">instance_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.instanceNameInput">instance_name_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.policyDataInput">policy_data_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.projectInput">project_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.tableInput">table_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.id">id</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.instance">instance</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.instanceName">instance_name</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.policyData">policy_data</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.project">project</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.table">table</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.cdktfStack">cdktf_stack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.friendlyUniqueId">friendly_unique_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.terraformMetaArguments">terraform_meta_arguments</a></code> | <code>typing.Mapping[typing.Any]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.terraformResourceType">terraform_resource_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.terraformGeneratorMetadata">terraform_generator_metadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.dependsOn">depends_on</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.etag">etag</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.instanceInput">instance_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.instanceNameInput">instance_name_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.policyDataInput">policy_data_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.projectInput">project_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.tableInput">table_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.id">id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.instance">instance</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.instanceName">instance_name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.policyData">policy_data</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.project">project</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.table">table</a></code> | <code>str</code> | *No description.* |
 
 ---
 
-##### `node`<sup>Required</sup> <a name="node" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.node"></a>
+##### `node`<sup>Required</sup> <a name="node" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.node"></a>
 
 ```python
 node: Node
@@ -716,7 +716,7 @@ The tree node.
 
 ---
 
-##### `cdktf_stack`<sup>Required</sup> <a name="cdktf_stack" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.cdktfStack"></a>
+##### `cdktf_stack`<sup>Required</sup> <a name="cdktf_stack" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.cdktfStack"></a>
 
 ```python
 cdktf_stack: TerraformStack
@@ -726,7 +726,7 @@ cdktf_stack: TerraformStack
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.fqn"></a>
 
 ```python
 fqn: str
@@ -736,7 +736,7 @@ fqn: str
 
 ---
 
-##### `friendly_unique_id`<sup>Required</sup> <a name="friendly_unique_id" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.friendlyUniqueId"></a>
+##### `friendly_unique_id`<sup>Required</sup> <a name="friendly_unique_id" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.friendlyUniqueId"></a>
 
 ```python
 friendly_unique_id: str
@@ -746,7 +746,7 @@ friendly_unique_id: str
 
 ---
 
-##### `terraform_meta_arguments`<sup>Required</sup> <a name="terraform_meta_arguments" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.terraformMetaArguments"></a>
+##### `terraform_meta_arguments`<sup>Required</sup> <a name="terraform_meta_arguments" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.terraformMetaArguments"></a>
 
 ```python
 terraform_meta_arguments: typing.Mapping[typing.Any]
@@ -756,7 +756,7 @@ terraform_meta_arguments: typing.Mapping[typing.Any]
 
 ---
 
-##### `terraform_resource_type`<sup>Required</sup> <a name="terraform_resource_type" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.terraformResourceType"></a>
+##### `terraform_resource_type`<sup>Required</sup> <a name="terraform_resource_type" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.terraformResourceType"></a>
 
 ```python
 terraform_resource_type: str
@@ -766,7 +766,7 @@ terraform_resource_type: str
 
 ---
 
-##### `terraform_generator_metadata`<sup>Optional</sup> <a name="terraform_generator_metadata" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.terraformGeneratorMetadata"></a>
+##### `terraform_generator_metadata`<sup>Optional</sup> <a name="terraform_generator_metadata" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.terraformGeneratorMetadata"></a>
 
 ```python
 terraform_generator_metadata: TerraformProviderGeneratorMetadata
@@ -776,7 +776,7 @@ terraform_generator_metadata: TerraformProviderGeneratorMetadata
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.connection"></a>
 
 ```python
 connection: SSHProvisionerConnection | WinrmProvisionerConnection
@@ -786,7 +786,7 @@ connection: SSHProvisionerConnection | WinrmProvisionerConnection
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.count"></a>
 
 ```python
 count: typing.Union[int, float] | TerraformCount
@@ -796,7 +796,7 @@ count: typing.Union[int, float] | TerraformCount
 
 ---
 
-##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.dependsOn"></a>
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.dependsOn"></a>
 
 ```python
 depends_on: typing.List[str]
@@ -806,7 +806,7 @@ depends_on: typing.List[str]
 
 ---
 
-##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.forEach"></a>
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.forEach"></a>
 
 ```python
 for_each: ITerraformIterator
@@ -816,7 +816,7 @@ for_each: ITerraformIterator
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.lifecycle"></a>
 
 ```python
 lifecycle: TerraformResourceLifecycle
@@ -826,7 +826,7 @@ lifecycle: TerraformResourceLifecycle
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.provider"></a>
 
 ```python
 provider: TerraformProvider
@@ -836,7 +836,7 @@ provider: TerraformProvider
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.provisioners"></a>
 
 ```python
 provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner]
@@ -846,7 +846,7 @@ provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecPro
 
 ---
 
-##### `etag`<sup>Required</sup> <a name="etag" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.etag"></a>
+##### `etag`<sup>Required</sup> <a name="etag" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.etag"></a>
 
 ```python
 etag: str
@@ -856,7 +856,7 @@ etag: str
 
 ---
 
-##### `id_input`<sup>Optional</sup> <a name="id_input" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.idInput"></a>
+##### `id_input`<sup>Optional</sup> <a name="id_input" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.idInput"></a>
 
 ```python
 id_input: str
@@ -866,7 +866,7 @@ id_input: str
 
 ---
 
-##### `instance_input`<sup>Optional</sup> <a name="instance_input" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.instanceInput"></a>
+##### `instance_input`<sup>Optional</sup> <a name="instance_input" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.instanceInput"></a>
 
 ```python
 instance_input: str
@@ -876,7 +876,7 @@ instance_input: str
 
 ---
 
-##### `instance_name_input`<sup>Optional</sup> <a name="instance_name_input" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.instanceNameInput"></a>
+##### `instance_name_input`<sup>Optional</sup> <a name="instance_name_input" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.instanceNameInput"></a>
 
 ```python
 instance_name_input: str
@@ -886,7 +886,7 @@ instance_name_input: str
 
 ---
 
-##### `policy_data_input`<sup>Optional</sup> <a name="policy_data_input" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.policyDataInput"></a>
+##### `policy_data_input`<sup>Optional</sup> <a name="policy_data_input" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.policyDataInput"></a>
 
 ```python
 policy_data_input: str
@@ -896,7 +896,7 @@ policy_data_input: str
 
 ---
 
-##### `project_input`<sup>Optional</sup> <a name="project_input" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.projectInput"></a>
+##### `project_input`<sup>Optional</sup> <a name="project_input" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.projectInput"></a>
 
 ```python
 project_input: str
@@ -906,7 +906,7 @@ project_input: str
 
 ---
 
-##### `table_input`<sup>Optional</sup> <a name="table_input" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.tableInput"></a>
+##### `table_input`<sup>Optional</sup> <a name="table_input" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.tableInput"></a>
 
 ```python
 table_input: str
@@ -916,7 +916,7 @@ table_input: str
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.id"></a>
 
 ```python
 id: str
@@ -926,7 +926,7 @@ id: str
 
 ---
 
-##### `instance`<sup>Required</sup> <a name="instance" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.instance"></a>
+##### `instance`<sup>Required</sup> <a name="instance" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.instance"></a>
 
 ```python
 instance: str
@@ -936,7 +936,7 @@ instance: str
 
 ---
 
-##### `instance_name`<sup>Required</sup> <a name="instance_name" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.instanceName"></a>
+##### `instance_name`<sup>Required</sup> <a name="instance_name" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.instanceName"></a>
 
 ```python
 instance_name: str
@@ -946,7 +946,7 @@ instance_name: str
 
 ---
 
-##### `policy_data`<sup>Required</sup> <a name="policy_data" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.policyData"></a>
+##### `policy_data`<sup>Required</sup> <a name="policy_data" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.policyData"></a>
 
 ```python
 policy_data: str
@@ -956,7 +956,7 @@ policy_data: str
 
 ---
 
-##### `project`<sup>Required</sup> <a name="project" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.project"></a>
+##### `project`<sup>Required</sup> <a name="project" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.project"></a>
 
 ```python
 project: str
@@ -966,7 +966,7 @@ project: str
 
 ---
 
-##### `table`<sup>Required</sup> <a name="table" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.table"></a>
+##### `table`<sup>Required</sup> <a name="table" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.table"></a>
 
 ```python
 table: str
@@ -980,11 +980,11 @@ table: str
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.tfResourceType">tfResourceType</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.tfResourceType">tfResourceType</a></code> | <code>str</code> | *No description.* |
 
 ---
 
-##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.tfResourceType"></a>
+##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicy.property.tfResourceType"></a>
 
 ```python
 tfResourceType: str
@@ -996,12 +996,12 @@ tfResourceType: str
 
 ## Structs <a name="Structs" id="Structs"></a>
 
-### GoogleBigtableTableIamPolicyConfig <a name="GoogleBigtableTableIamPolicyConfig" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig"></a>
+### GoogleBigtableTableIamPolicyConfig <a name="GoogleBigtableTableIamPolicyConfig" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_bigtable_table_iam_policy
+from cdktn_provider_google_beta import google_bigtable_table_iam_policy
 
 googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig(
   connection: SSHProvisionerConnection | WinrmProvisionerConnection = None,
@@ -1024,23 +1024,23 @@ googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.policyData">policy_data</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_policy#policy_data GoogleBigtableTableIamPolicy#policy_data}. |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.table">table</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_policy#table GoogleBigtableTableIamPolicy#table}. |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_policy#id GoogleBigtableTableIamPolicy#id}. |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.instance">instance</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_policy#instance GoogleBigtableTableIamPolicy#instance}. |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.instanceName">instance_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_policy#instance_name GoogleBigtableTableIamPolicy#instance_name}. |
-| <code><a href="#@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_policy#project GoogleBigtableTableIamPolicy#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.policyData">policy_data</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_policy#policy_data GoogleBigtableTableIamPolicy#policy_data}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.table">table</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_policy#table GoogleBigtableTableIamPolicy#table}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_policy#id GoogleBigtableTableIamPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.instance">instance</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_policy#instance GoogleBigtableTableIamPolicy#instance}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.instanceName">instance_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_policy#instance_name GoogleBigtableTableIamPolicy#instance_name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_policy#project GoogleBigtableTableIamPolicy#project}. |
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.connection"></a>
 
 ```python
 connection: SSHProvisionerConnection | WinrmProvisionerConnection
@@ -1050,7 +1050,7 @@ connection: SSHProvisionerConnection | WinrmProvisionerConnection
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.count"></a>
 
 ```python
 count: typing.Union[int, float] | TerraformCount
@@ -1060,7 +1060,7 @@ count: typing.Union[int, float] | TerraformCount
 
 ---
 
-##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.dependsOn"></a>
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.dependsOn"></a>
 
 ```python
 depends_on: typing.List[ITerraformDependable]
@@ -1070,7 +1070,7 @@ depends_on: typing.List[ITerraformDependable]
 
 ---
 
-##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.forEach"></a>
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.forEach"></a>
 
 ```python
 for_each: ITerraformIterator
@@ -1080,7 +1080,7 @@ for_each: ITerraformIterator
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.lifecycle"></a>
 
 ```python
 lifecycle: TerraformResourceLifecycle
@@ -1090,7 +1090,7 @@ lifecycle: TerraformResourceLifecycle
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.provider"></a>
 
 ```python
 provider: TerraformProvider
@@ -1100,7 +1100,7 @@ provider: TerraformProvider
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.provisioners"></a>
 
 ```python
 provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner]
@@ -1110,7 +1110,7 @@ provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecPro
 
 ---
 
-##### `policy_data`<sup>Required</sup> <a name="policy_data" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.policyData"></a>
+##### `policy_data`<sup>Required</sup> <a name="policy_data" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.policyData"></a>
 
 ```python
 policy_data: str
@@ -1122,7 +1122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `table`<sup>Required</sup> <a name="table" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.table"></a>
+##### `table`<sup>Required</sup> <a name="table" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.table"></a>
 
 ```python
 table: str
@@ -1134,7 +1134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `id`<sup>Optional</sup> <a name="id" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.id"></a>
+##### `id`<sup>Optional</sup> <a name="id" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.id"></a>
 
 ```python
 id: str
@@ -1149,7 +1149,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 ---
 
-##### `instance`<sup>Optional</sup> <a name="instance" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.instance"></a>
+##### `instance`<sup>Optional</sup> <a name="instance" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.instance"></a>
 
 ```python
 instance: str
@@ -1161,7 +1161,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `instance_name`<sup>Optional</sup> <a name="instance_name" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.instanceName"></a>
+##### `instance_name`<sup>Optional</sup> <a name="instance_name" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.instanceName"></a>
 
 ```python
 instance_name: str
@@ -1173,7 +1173,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `project`<sup>Optional</sup> <a name="project" id="@cdktf/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.project"></a>
+##### `project`<sup>Optional</sup> <a name="project" id="@cdktn/provider-google-beta.googleBigtableTableIamPolicy.GoogleBigtableTableIamPolicyConfig.property.project"></a>
 
 ```python
 project: str

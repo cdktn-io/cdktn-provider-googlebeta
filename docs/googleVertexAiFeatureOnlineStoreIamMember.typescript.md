@@ -1,28 +1,28 @@
-# `googleVertexAiFeatureOnlineStoreIamMember` Submodule <a name="`googleVertexAiFeatureOnlineStoreIamMember` Submodule" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember"></a>
+# `googleVertexAiFeatureOnlineStoreIamMember` Submodule <a name="`googleVertexAiFeatureOnlineStoreIamMember` Submodule" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
 
-### GoogleVertexAiFeatureOnlineStoreIamMember <a name="GoogleVertexAiFeatureOnlineStoreIamMember" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember"></a>
+### GoogleVertexAiFeatureOnlineStoreIamMember <a name="GoogleVertexAiFeatureOnlineStoreIamMember" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember"></a>
 
 Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_online_store_iam_member google_vertex_ai_feature_online_store_iam_member}.
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.Initializer"></a>
 
 ```typescript
-import { googleVertexAiFeatureOnlineStoreIamMember } from '@cdktf/provider-google-beta'
+import { googleVertexAiFeatureOnlineStoreIamMember } from '@cdktn/provider-google-beta'
 
 new googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember(scope: Construct, id: string, config: GoogleVertexAiFeatureOnlineStoreIamMemberConfig)
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.Initializer.parameter.id">id</a></code> | <code>string</code> | The scoped construct ID. |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig">GoogleVertexAiFeatureOnlineStoreIamMemberConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.Initializer.parameter.id">id</a></code> | <code>string</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig">GoogleVertexAiFeatureOnlineStoreIamMemberConfig</a></code> | *No description.* |
 
 ---
 
-##### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.Initializer.parameter.scope"></a>
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.Initializer.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
@@ -30,7 +30,7 @@ The scope in which to define this construct.
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.Initializer.parameter.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.Initializer.parameter.id"></a>
 
 - *Type:* string
 
@@ -40,9 +40,9 @@ Must be unique amongst siblings in the same scope
 
 ---
 
-##### `config`<sup>Required</sup> <a name="config" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.Initializer.parameter.config"></a>
+##### `config`<sup>Required</sup> <a name="config" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.Initializer.parameter.config"></a>
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig">GoogleVertexAiFeatureOnlineStoreIamMemberConfig</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig">GoogleVertexAiFeatureOnlineStoreIamMemberConfig</a>
 
 ---
 
@@ -50,38 +50,38 @@ Must be unique amongst siblings in the same scope
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.toString">toString</a></code> | Returns a string representation of this construct. |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.addOverride">addOverride</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.overrideLogicalId">overrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.resetOverrideLogicalId">resetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.toHclTerraform">toHclTerraform</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.toMetadata">toMetadata</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.toTerraform">toTerraform</a></code> | Adds this resource to the terraform JSON output. |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.addMoveTarget">addMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getListAttribute">getListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getStringAttribute">getStringAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.hasResourceMove">hasResourceMove</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.importFrom">importFrom</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.moveFromId">moveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.putCondition">putCondition</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.resetCondition">resetCondition</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.resetId">resetId</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.resetProject">resetProject</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.resetRegion">resetRegion</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.toString">toString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.addOverride">addOverride</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.overrideLogicalId">overrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.resetOverrideLogicalId">resetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.toHclTerraform">toHclTerraform</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.toMetadata">toMetadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.toTerraform">toTerraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.addMoveTarget">addMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.hasResourceMove">hasResourceMove</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.importFrom">importFrom</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.moveFromId">moveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.putCondition">putCondition</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.resetCondition">resetCondition</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.resetId">resetId</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.resetProject">resetProject</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.resetRegion">resetRegion</a></code> | *No description.* |
 
 ---
 
-##### `toString` <a name="toString" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.toString"></a>
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.toString"></a>
 
 ```typescript
 public toString(): string
@@ -89,25 +89,25 @@ public toString(): string
 
 Returns a string representation of this construct.
 
-##### `addOverride` <a name="addOverride" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.addOverride"></a>
+##### `addOverride` <a name="addOverride" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.addOverride"></a>
 
 ```typescript
 public addOverride(path: string, value: any): void
 ```
 
-###### `path`<sup>Required</sup> <a name="path" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.addOverride.parameter.path"></a>
+###### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.addOverride.parameter.path"></a>
 
 - *Type:* string
 
 ---
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.addOverride.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.addOverride.parameter.value"></a>
 
 - *Type:* any
 
 ---
 
-##### `overrideLogicalId` <a name="overrideLogicalId" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.overrideLogicalId"></a>
+##### `overrideLogicalId` <a name="overrideLogicalId" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.overrideLogicalId"></a>
 
 ```typescript
 public overrideLogicalId(newLogicalId: string): void
@@ -115,7 +115,7 @@ public overrideLogicalId(newLogicalId: string): void
 
 Overrides the auto-generated logical ID with a specific ID.
 
-###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.overrideLogicalId.parameter.newLogicalId"></a>
+###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.overrideLogicalId.parameter.newLogicalId"></a>
 
 - *Type:* string
 
@@ -123,7 +123,7 @@ The new logical ID to use for this stack element.
 
 ---
 
-##### `resetOverrideLogicalId` <a name="resetOverrideLogicalId" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.resetOverrideLogicalId"></a>
+##### `resetOverrideLogicalId` <a name="resetOverrideLogicalId" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.resetOverrideLogicalId"></a>
 
 ```typescript
 public resetOverrideLogicalId(): void
@@ -131,19 +131,19 @@ public resetOverrideLogicalId(): void
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
 
-##### `toHclTerraform` <a name="toHclTerraform" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.toHclTerraform"></a>
+##### `toHclTerraform` <a name="toHclTerraform" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.toHclTerraform"></a>
 
 ```typescript
 public toHclTerraform(): any
 ```
 
-##### `toMetadata` <a name="toMetadata" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.toMetadata"></a>
+##### `toMetadata` <a name="toMetadata" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.toMetadata"></a>
 
 ```typescript
 public toMetadata(): any
 ```
 
-##### `toTerraform` <a name="toTerraform" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.toTerraform"></a>
+##### `toTerraform` <a name="toTerraform" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.toTerraform"></a>
 
 ```typescript
 public toTerraform(): any
@@ -151,7 +151,7 @@ public toTerraform(): any
 
 Adds this resource to the terraform JSON output.
 
-##### `addMoveTarget` <a name="addMoveTarget" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.addMoveTarget"></a>
+##### `addMoveTarget` <a name="addMoveTarget" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.addMoveTarget"></a>
 
 ```typescript
 public addMoveTarget(moveTarget: string): void
@@ -159,7 +159,7 @@ public addMoveTarget(moveTarget: string): void
 
 Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 
-###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.addMoveTarget.parameter.moveTarget"></a>
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.addMoveTarget.parameter.moveTarget"></a>
 
 - *Type:* string
 
@@ -167,151 +167,151 @@ The string move target that will correspond to this resource.
 
 ---
 
-##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getAnyMapAttribute"></a>
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getAnyMapAttribute"></a>
 
 ```typescript
 public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getBooleanAttribute"></a>
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getBooleanAttribute"></a>
 
 ```typescript
 public getBooleanAttribute(terraformAttribute: string): IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getBooleanMapAttribute"></a>
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getBooleanMapAttribute"></a>
 
 ```typescript
 public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getListAttribute` <a name="getListAttribute" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getListAttribute"></a>
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getListAttribute"></a>
 
 ```typescript
 public getListAttribute(terraformAttribute: string): string[]
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getNumberAttribute"></a>
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getNumberAttribute"></a>
 
 ```typescript
 public getNumberAttribute(terraformAttribute: string): number
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getNumberListAttribute"></a>
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getNumberListAttribute"></a>
 
 ```typescript
 public getNumberListAttribute(terraformAttribute: string): number[]
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getNumberMapAttribute"></a>
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getNumberMapAttribute"></a>
 
 ```typescript
 public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getStringAttribute` <a name="getStringAttribute" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getStringAttribute"></a>
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getStringAttribute"></a>
 
 ```typescript
 public getStringAttribute(terraformAttribute: string): string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getStringMapAttribute"></a>
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getStringMapAttribute"></a>
 
 ```typescript
 public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `hasResourceMove` <a name="hasResourceMove" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.hasResourceMove"></a>
+##### `hasResourceMove` <a name="hasResourceMove" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.hasResourceMove"></a>
 
 ```typescript
 public hasResourceMove(): TerraformResourceMoveByTarget | TerraformResourceMoveById
 ```
 
-##### `importFrom` <a name="importFrom" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.importFrom"></a>
+##### `importFrom` <a name="importFrom" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.importFrom"></a>
 
 ```typescript
 public importFrom(id: string, provider?: TerraformProvider): void
 ```
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.importFrom.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.importFrom.parameter.id"></a>
 
 - *Type:* string
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.importFrom.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.importFrom.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
 ---
 
-##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.interpolationForAttribute"></a>
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.interpolationForAttribute"></a>
 
 ```typescript
 public interpolationForAttribute(terraformAttribute: string): IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.interpolationForAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.interpolationForAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `moveFromId` <a name="moveFromId" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.moveFromId"></a>
+##### `moveFromId` <a name="moveFromId" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.moveFromId"></a>
 
 ```typescript
 public moveFromId(id: string): void
@@ -321,7 +321,7 @@ Move the resource corresponding to "id" to this resource.
 
 Note that the resource being moved from must be marked as moved using it's instance function.
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.moveFromId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.moveFromId.parameter.id"></a>
 
 - *Type:* string
 
@@ -329,7 +329,7 @@ Full id of resource being moved from, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `moveTo` <a name="moveTo" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.moveTo"></a>
+##### `moveTo` <a name="moveTo" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.moveTo"></a>
 
 ```typescript
 public moveTo(moveTarget: string, index?: string | number): void
@@ -337,7 +337,7 @@ public moveTo(moveTarget: string, index?: string | number): void
 
 Moves this resource to the target resource given by moveTarget.
 
-###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.moveTo.parameter.moveTarget"></a>
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.moveTo.parameter.moveTarget"></a>
 
 - *Type:* string
 
@@ -345,7 +345,7 @@ The previously set user defined string set by .addMoveTarget() corresponding to 
 
 ---
 
-###### `index`<sup>Optional</sup> <a name="index" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.moveTo.parameter.index"></a>
+###### `index`<sup>Optional</sup> <a name="index" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.moveTo.parameter.index"></a>
 
 - *Type:* string | number
 
@@ -353,7 +353,7 @@ Optional The index corresponding to the key the resource is to appear in the for
 
 ---
 
-##### `moveToId` <a name="moveToId" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.moveToId"></a>
+##### `moveToId` <a name="moveToId" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.moveToId"></a>
 
 ```typescript
 public moveToId(id: string): void
@@ -361,7 +361,7 @@ public moveToId(id: string): void
 
 Moves this resource to the resource corresponding to "id".
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.moveToId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.moveToId.parameter.id"></a>
 
 - *Type:* string
 
@@ -369,37 +369,37 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `putCondition` <a name="putCondition" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.putCondition"></a>
+##### `putCondition` <a name="putCondition" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.putCondition"></a>
 
 ```typescript
 public putCondition(value: GoogleVertexAiFeatureOnlineStoreIamMemberCondition): void
 ```
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.putCondition.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.putCondition.parameter.value"></a>
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberCondition">GoogleVertexAiFeatureOnlineStoreIamMemberCondition</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberCondition">GoogleVertexAiFeatureOnlineStoreIamMemberCondition</a>
 
 ---
 
-##### `resetCondition` <a name="resetCondition" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.resetCondition"></a>
+##### `resetCondition` <a name="resetCondition" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.resetCondition"></a>
 
 ```typescript
 public resetCondition(): void
 ```
 
-##### `resetId` <a name="resetId" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.resetId"></a>
+##### `resetId` <a name="resetId" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.resetId"></a>
 
 ```typescript
 public resetId(): void
 ```
 
-##### `resetProject` <a name="resetProject" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.resetProject"></a>
+##### `resetProject` <a name="resetProject" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.resetProject"></a>
 
 ```typescript
 public resetProject(): void
 ```
 
-##### `resetRegion` <a name="resetRegion" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.resetRegion"></a>
+##### `resetRegion` <a name="resetRegion" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.resetRegion"></a>
 
 ```typescript
 public resetRegion(): void
@@ -409,17 +409,17 @@ public resetRegion(): void
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.isTerraformElement">isTerraformElement</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.isTerraformResource">isTerraformResource</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTF code for importing a GoogleVertexAiFeatureOnlineStoreIamMember resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.isTerraformResource">isTerraformResource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTF code for importing a GoogleVertexAiFeatureOnlineStoreIamMember resource upon running "cdktf plan <stack-name>". |
 
 ---
 
-##### `isConstruct` <a name="isConstruct" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.isConstruct"></a>
+##### `isConstruct` <a name="isConstruct" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.isConstruct"></a>
 
 ```typescript
-import { googleVertexAiFeatureOnlineStoreIamMember } from '@cdktf/provider-google-beta'
+import { googleVertexAiFeatureOnlineStoreIamMember } from '@cdktn/provider-google-beta'
 
 googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.isConstruct(x: any)
 ```
@@ -440,7 +440,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.isConstruct.parameter.x"></a>
 
 - *Type:* any
 
@@ -448,45 +448,45 @@ Any object.
 
 ---
 
-##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.isTerraformElement"></a>
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.isTerraformElement"></a>
 
 ```typescript
-import { googleVertexAiFeatureOnlineStoreIamMember } from '@cdktf/provider-google-beta'
+import { googleVertexAiFeatureOnlineStoreIamMember } from '@cdktn/provider-google-beta'
 
 googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.isTerraformElement(x: any)
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.isTerraformElement.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.isTerraformElement.parameter.x"></a>
 
 - *Type:* any
 
 ---
 
-##### `isTerraformResource` <a name="isTerraformResource" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.isTerraformResource"></a>
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.isTerraformResource"></a>
 
 ```typescript
-import { googleVertexAiFeatureOnlineStoreIamMember } from '@cdktf/provider-google-beta'
+import { googleVertexAiFeatureOnlineStoreIamMember } from '@cdktn/provider-google-beta'
 
 googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.isTerraformResource(x: any)
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.isTerraformResource.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.isTerraformResource.parameter.x"></a>
 
 - *Type:* any
 
 ---
 
-##### `generateConfigForImport` <a name="generateConfigForImport" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.generateConfigForImport"></a>
+##### `generateConfigForImport` <a name="generateConfigForImport" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.generateConfigForImport"></a>
 
 ```typescript
-import { googleVertexAiFeatureOnlineStoreIamMember } from '@cdktf/provider-google-beta'
+import { googleVertexAiFeatureOnlineStoreIamMember } from '@cdktn/provider-google-beta'
 
 googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: TerraformProvider)
 ```
 
 Generates CDKTF code for importing a GoogleVertexAiFeatureOnlineStoreIamMember resource upon running "cdktf plan <stack-name>".
 
-###### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.generateConfigForImport.parameter.scope"></a>
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.generateConfigForImport.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
@@ -494,7 +494,7 @@ The scope in which to define this construct.
 
 ---
 
-###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.generateConfigForImport.parameter.importToId"></a>
+###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.generateConfigForImport.parameter.importToId"></a>
 
 - *Type:* string
 
@@ -502,7 +502,7 @@ The construct id used in the generated config for the GoogleVertexAiFeatureOnlin
 
 ---
 
-###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.generateConfigForImport.parameter.importFromId"></a>
+###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.generateConfigForImport.parameter.importFromId"></a>
 
 - *Type:* string
 
@@ -512,7 +512,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.generateConfigForImport.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.generateConfigForImport.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
@@ -524,39 +524,39 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.cdktfStack">cdktfStack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.terraformMetaArguments">terraformMetaArguments</a></code> | <code>{[ key: string ]: any}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.condition">condition</a></code> | <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference">GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.etag">etag</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.conditionInput">conditionInput</a></code> | <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberCondition">GoogleVertexAiFeatureOnlineStoreIamMemberCondition</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.featureOnlineStoreInput">featureOnlineStoreInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.memberInput">memberInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.projectInput">projectInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.regionInput">regionInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.roleInput">roleInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.featureOnlineStore">featureOnlineStore</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.id">id</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.member">member</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.project">project</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.region">region</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.role">role</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.cdktfStack">cdktfStack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.terraformMetaArguments">terraformMetaArguments</a></code> | <code>{[ key: string ]: any}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.condition">condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference">GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.etag">etag</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.conditionInput">conditionInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberCondition">GoogleVertexAiFeatureOnlineStoreIamMemberCondition</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.featureOnlineStoreInput">featureOnlineStoreInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.memberInput">memberInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.projectInput">projectInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.regionInput">regionInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.roleInput">roleInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.featureOnlineStore">featureOnlineStore</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.id">id</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.member">member</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.project">project</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.region">region</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.role">role</a></code> | <code>string</code> | *No description.* |
 
 ---
 
-##### `node`<sup>Required</sup> <a name="node" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.node"></a>
+##### `node`<sup>Required</sup> <a name="node" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.node"></a>
 
 ```typescript
 public readonly node: Node;
@@ -568,7 +568,7 @@ The tree node.
 
 ---
 
-##### `cdktfStack`<sup>Required</sup> <a name="cdktfStack" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.cdktfStack"></a>
+##### `cdktfStack`<sup>Required</sup> <a name="cdktfStack" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.cdktfStack"></a>
 
 ```typescript
 public readonly cdktfStack: TerraformStack;
@@ -578,7 +578,7 @@ public readonly cdktfStack: TerraformStack;
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.fqn"></a>
 
 ```typescript
 public readonly fqn: string;
@@ -588,7 +588,7 @@ public readonly fqn: string;
 
 ---
 
-##### `friendlyUniqueId`<sup>Required</sup> <a name="friendlyUniqueId" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.friendlyUniqueId"></a>
+##### `friendlyUniqueId`<sup>Required</sup> <a name="friendlyUniqueId" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.friendlyUniqueId"></a>
 
 ```typescript
 public readonly friendlyUniqueId: string;
@@ -598,7 +598,7 @@ public readonly friendlyUniqueId: string;
 
 ---
 
-##### `terraformMetaArguments`<sup>Required</sup> <a name="terraformMetaArguments" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.terraformMetaArguments"></a>
+##### `terraformMetaArguments`<sup>Required</sup> <a name="terraformMetaArguments" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.terraformMetaArguments"></a>
 
 ```typescript
 public readonly terraformMetaArguments: {[ key: string ]: any};
@@ -608,7 +608,7 @@ public readonly terraformMetaArguments: {[ key: string ]: any};
 
 ---
 
-##### `terraformResourceType`<sup>Required</sup> <a name="terraformResourceType" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.terraformResourceType"></a>
+##### `terraformResourceType`<sup>Required</sup> <a name="terraformResourceType" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.terraformResourceType"></a>
 
 ```typescript
 public readonly terraformResourceType: string;
@@ -618,7 +618,7 @@ public readonly terraformResourceType: string;
 
 ---
 
-##### `terraformGeneratorMetadata`<sup>Optional</sup> <a name="terraformGeneratorMetadata" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.terraformGeneratorMetadata"></a>
+##### `terraformGeneratorMetadata`<sup>Optional</sup> <a name="terraformGeneratorMetadata" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.terraformGeneratorMetadata"></a>
 
 ```typescript
 public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
@@ -628,7 +628,7 @@ public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.connection"></a>
 
 ```typescript
 public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
@@ -638,7 +638,7 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.count"></a>
 
 ```typescript
 public readonly count: number | TerraformCount;
@@ -648,7 +648,7 @@ public readonly count: number | TerraformCount;
 
 ---
 
-##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.dependsOn"></a>
+##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.dependsOn"></a>
 
 ```typescript
 public readonly dependsOn: string[];
@@ -658,7 +658,7 @@ public readonly dependsOn: string[];
 
 ---
 
-##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.forEach"></a>
+##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.forEach"></a>
 
 ```typescript
 public readonly forEach: ITerraformIterator;
@@ -668,7 +668,7 @@ public readonly forEach: ITerraformIterator;
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.lifecycle"></a>
 
 ```typescript
 public readonly lifecycle: TerraformResourceLifecycle;
@@ -678,7 +678,7 @@ public readonly lifecycle: TerraformResourceLifecycle;
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.provider"></a>
 
 ```typescript
 public readonly provider: TerraformProvider;
@@ -688,7 +688,7 @@ public readonly provider: TerraformProvider;
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.provisioners"></a>
 
 ```typescript
 public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
@@ -698,17 +698,17 @@ public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteEx
 
 ---
 
-##### `condition`<sup>Required</sup> <a name="condition" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.condition"></a>
+##### `condition`<sup>Required</sup> <a name="condition" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.condition"></a>
 
 ```typescript
 public readonly condition: GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference;
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference">GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference">GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference</a>
 
 ---
 
-##### `etag`<sup>Required</sup> <a name="etag" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.etag"></a>
+##### `etag`<sup>Required</sup> <a name="etag" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.etag"></a>
 
 ```typescript
 public readonly etag: string;
@@ -718,17 +718,17 @@ public readonly etag: string;
 
 ---
 
-##### `conditionInput`<sup>Optional</sup> <a name="conditionInput" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.conditionInput"></a>
+##### `conditionInput`<sup>Optional</sup> <a name="conditionInput" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.conditionInput"></a>
 
 ```typescript
 public readonly conditionInput: GoogleVertexAiFeatureOnlineStoreIamMemberCondition;
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberCondition">GoogleVertexAiFeatureOnlineStoreIamMemberCondition</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberCondition">GoogleVertexAiFeatureOnlineStoreIamMemberCondition</a>
 
 ---
 
-##### `featureOnlineStoreInput`<sup>Optional</sup> <a name="featureOnlineStoreInput" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.featureOnlineStoreInput"></a>
+##### `featureOnlineStoreInput`<sup>Optional</sup> <a name="featureOnlineStoreInput" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.featureOnlineStoreInput"></a>
 
 ```typescript
 public readonly featureOnlineStoreInput: string;
@@ -738,7 +738,7 @@ public readonly featureOnlineStoreInput: string;
 
 ---
 
-##### `idInput`<sup>Optional</sup> <a name="idInput" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.idInput"></a>
+##### `idInput`<sup>Optional</sup> <a name="idInput" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.idInput"></a>
 
 ```typescript
 public readonly idInput: string;
@@ -748,7 +748,7 @@ public readonly idInput: string;
 
 ---
 
-##### `memberInput`<sup>Optional</sup> <a name="memberInput" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.memberInput"></a>
+##### `memberInput`<sup>Optional</sup> <a name="memberInput" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.memberInput"></a>
 
 ```typescript
 public readonly memberInput: string;
@@ -758,7 +758,7 @@ public readonly memberInput: string;
 
 ---
 
-##### `projectInput`<sup>Optional</sup> <a name="projectInput" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.projectInput"></a>
+##### `projectInput`<sup>Optional</sup> <a name="projectInput" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.projectInput"></a>
 
 ```typescript
 public readonly projectInput: string;
@@ -768,7 +768,7 @@ public readonly projectInput: string;
 
 ---
 
-##### `regionInput`<sup>Optional</sup> <a name="regionInput" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.regionInput"></a>
+##### `regionInput`<sup>Optional</sup> <a name="regionInput" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.regionInput"></a>
 
 ```typescript
 public readonly regionInput: string;
@@ -778,7 +778,7 @@ public readonly regionInput: string;
 
 ---
 
-##### `roleInput`<sup>Optional</sup> <a name="roleInput" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.roleInput"></a>
+##### `roleInput`<sup>Optional</sup> <a name="roleInput" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.roleInput"></a>
 
 ```typescript
 public readonly roleInput: string;
@@ -788,7 +788,7 @@ public readonly roleInput: string;
 
 ---
 
-##### `featureOnlineStore`<sup>Required</sup> <a name="featureOnlineStore" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.featureOnlineStore"></a>
+##### `featureOnlineStore`<sup>Required</sup> <a name="featureOnlineStore" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.featureOnlineStore"></a>
 
 ```typescript
 public readonly featureOnlineStore: string;
@@ -798,7 +798,7 @@ public readonly featureOnlineStore: string;
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.id"></a>
 
 ```typescript
 public readonly id: string;
@@ -808,7 +808,7 @@ public readonly id: string;
 
 ---
 
-##### `member`<sup>Required</sup> <a name="member" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.member"></a>
+##### `member`<sup>Required</sup> <a name="member" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.member"></a>
 
 ```typescript
 public readonly member: string;
@@ -818,7 +818,7 @@ public readonly member: string;
 
 ---
 
-##### `project`<sup>Required</sup> <a name="project" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.project"></a>
+##### `project`<sup>Required</sup> <a name="project" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.project"></a>
 
 ```typescript
 public readonly project: string;
@@ -828,7 +828,7 @@ public readonly project: string;
 
 ---
 
-##### `region`<sup>Required</sup> <a name="region" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.region"></a>
+##### `region`<sup>Required</sup> <a name="region" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.region"></a>
 
 ```typescript
 public readonly region: string;
@@ -838,7 +838,7 @@ public readonly region: string;
 
 ---
 
-##### `role`<sup>Required</sup> <a name="role" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.role"></a>
+##### `role`<sup>Required</sup> <a name="role" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.role"></a>
 
 ```typescript
 public readonly role: string;
@@ -852,11 +852,11 @@ public readonly role: string;
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.tfResourceType">tfResourceType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.tfResourceType">tfResourceType</a></code> | <code>string</code> | *No description.* |
 
 ---
 
-##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.tfResourceType"></a>
+##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMember.property.tfResourceType"></a>
 
 ```typescript
 public readonly tfResourceType: string;
@@ -868,12 +868,12 @@ public readonly tfResourceType: string;
 
 ## Structs <a name="Structs" id="Structs"></a>
 
-### GoogleVertexAiFeatureOnlineStoreIamMemberCondition <a name="GoogleVertexAiFeatureOnlineStoreIamMemberCondition" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberCondition"></a>
+### GoogleVertexAiFeatureOnlineStoreIamMemberCondition <a name="GoogleVertexAiFeatureOnlineStoreIamMemberCondition" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberCondition"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberCondition.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberCondition.Initializer"></a>
 
 ```typescript
-import { googleVertexAiFeatureOnlineStoreIamMember } from '@cdktf/provider-google-beta'
+import { googleVertexAiFeatureOnlineStoreIamMember } from '@cdktn/provider-google-beta'
 
 const googleVertexAiFeatureOnlineStoreIamMemberCondition: googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberCondition = { ... }
 ```
@@ -882,13 +882,13 @@ const googleVertexAiFeatureOnlineStoreIamMemberCondition: googleVertexAiFeatureO
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberCondition.property.expression">expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_online_store_iam_member#expression GoogleVertexAiFeatureOnlineStoreIamMember#expression}. |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberCondition.property.title">title</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_online_store_iam_member#title GoogleVertexAiFeatureOnlineStoreIamMember#title}. |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberCondition.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_online_store_iam_member#description GoogleVertexAiFeatureOnlineStoreIamMember#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberCondition.property.expression">expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_online_store_iam_member#expression GoogleVertexAiFeatureOnlineStoreIamMember#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberCondition.property.title">title</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_online_store_iam_member#title GoogleVertexAiFeatureOnlineStoreIamMember#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberCondition.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_online_store_iam_member#description GoogleVertexAiFeatureOnlineStoreIamMember#description}. |
 
 ---
 
-##### `expression`<sup>Required</sup> <a name="expression" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberCondition.property.expression"></a>
+##### `expression`<sup>Required</sup> <a name="expression" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberCondition.property.expression"></a>
 
 ```typescript
 public readonly expression: string;
@@ -900,7 +900,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `title`<sup>Required</sup> <a name="title" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberCondition.property.title"></a>
+##### `title`<sup>Required</sup> <a name="title" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberCondition.property.title"></a>
 
 ```typescript
 public readonly title: string;
@@ -912,7 +912,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `description`<sup>Optional</sup> <a name="description" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberCondition.property.description"></a>
+##### `description`<sup>Optional</sup> <a name="description" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberCondition.property.description"></a>
 
 ```typescript
 public readonly description: string;
@@ -924,12 +924,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-### GoogleVertexAiFeatureOnlineStoreIamMemberConfig <a name="GoogleVertexAiFeatureOnlineStoreIamMemberConfig" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig"></a>
+### GoogleVertexAiFeatureOnlineStoreIamMemberConfig <a name="GoogleVertexAiFeatureOnlineStoreIamMemberConfig" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.Initializer"></a>
 
 ```typescript
-import { googleVertexAiFeatureOnlineStoreIamMember } from '@cdktf/provider-google-beta'
+import { googleVertexAiFeatureOnlineStoreIamMember } from '@cdktn/provider-google-beta'
 
 const googleVertexAiFeatureOnlineStoreIamMemberConfig: googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig = { ... }
 ```
@@ -938,24 +938,24 @@ const googleVertexAiFeatureOnlineStoreIamMemberConfig: googleVertexAiFeatureOnli
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.dependsOn">dependsOn</a></code> | <code>cdktf.ITerraformDependable[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.featureOnlineStore">featureOnlineStore</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_online_store_iam_member#feature_online_store GoogleVertexAiFeatureOnlineStoreIamMember#feature_online_store}. |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.member">member</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_online_store_iam_member#member GoogleVertexAiFeatureOnlineStoreIamMember#member}. |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.role">role</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_online_store_iam_member#role GoogleVertexAiFeatureOnlineStoreIamMember#role}. |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.condition">condition</a></code> | <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberCondition">GoogleVertexAiFeatureOnlineStoreIamMemberCondition</a></code> | condition block. |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_online_store_iam_member#id GoogleVertexAiFeatureOnlineStoreIamMember#id}. |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_online_store_iam_member#project GoogleVertexAiFeatureOnlineStoreIamMember#project}. |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.region">region</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_online_store_iam_member#region GoogleVertexAiFeatureOnlineStoreIamMember#region}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.dependsOn">dependsOn</a></code> | <code>cdktf.ITerraformDependable[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.featureOnlineStore">featureOnlineStore</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_online_store_iam_member#feature_online_store GoogleVertexAiFeatureOnlineStoreIamMember#feature_online_store}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.member">member</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_online_store_iam_member#member GoogleVertexAiFeatureOnlineStoreIamMember#member}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.role">role</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_online_store_iam_member#role GoogleVertexAiFeatureOnlineStoreIamMember#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.condition">condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberCondition">GoogleVertexAiFeatureOnlineStoreIamMemberCondition</a></code> | condition block. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_online_store_iam_member#id GoogleVertexAiFeatureOnlineStoreIamMember#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_online_store_iam_member#project GoogleVertexAiFeatureOnlineStoreIamMember#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.region">region</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_online_store_iam_member#region GoogleVertexAiFeatureOnlineStoreIamMember#region}. |
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.connection"></a>
 
 ```typescript
 public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
@@ -965,7 +965,7 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.count"></a>
 
 ```typescript
 public readonly count: number | TerraformCount;
@@ -975,7 +975,7 @@ public readonly count: number | TerraformCount;
 
 ---
 
-##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.dependsOn"></a>
+##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.dependsOn"></a>
 
 ```typescript
 public readonly dependsOn: ITerraformDependable[];
@@ -985,7 +985,7 @@ public readonly dependsOn: ITerraformDependable[];
 
 ---
 
-##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.forEach"></a>
+##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.forEach"></a>
 
 ```typescript
 public readonly forEach: ITerraformIterator;
@@ -995,7 +995,7 @@ public readonly forEach: ITerraformIterator;
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.lifecycle"></a>
 
 ```typescript
 public readonly lifecycle: TerraformResourceLifecycle;
@@ -1005,7 +1005,7 @@ public readonly lifecycle: TerraformResourceLifecycle;
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.provider"></a>
 
 ```typescript
 public readonly provider: TerraformProvider;
@@ -1015,7 +1015,7 @@ public readonly provider: TerraformProvider;
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.provisioners"></a>
 
 ```typescript
 public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
@@ -1025,7 +1025,7 @@ public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteEx
 
 ---
 
-##### `featureOnlineStore`<sup>Required</sup> <a name="featureOnlineStore" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.featureOnlineStore"></a>
+##### `featureOnlineStore`<sup>Required</sup> <a name="featureOnlineStore" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.featureOnlineStore"></a>
 
 ```typescript
 public readonly featureOnlineStore: string;
@@ -1037,7 +1037,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `member`<sup>Required</sup> <a name="member" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.member"></a>
+##### `member`<sup>Required</sup> <a name="member" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.member"></a>
 
 ```typescript
 public readonly member: string;
@@ -1049,7 +1049,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `role`<sup>Required</sup> <a name="role" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.role"></a>
+##### `role`<sup>Required</sup> <a name="role" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.role"></a>
 
 ```typescript
 public readonly role: string;
@@ -1061,13 +1061,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `condition`<sup>Optional</sup> <a name="condition" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.condition"></a>
+##### `condition`<sup>Optional</sup> <a name="condition" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.condition"></a>
 
 ```typescript
 public readonly condition: GoogleVertexAiFeatureOnlineStoreIamMemberCondition;
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberCondition">GoogleVertexAiFeatureOnlineStoreIamMemberCondition</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberCondition">GoogleVertexAiFeatureOnlineStoreIamMemberCondition</a>
 
 condition block.
 
@@ -1075,7 +1075,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `id`<sup>Optional</sup> <a name="id" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.id"></a>
+##### `id`<sup>Optional</sup> <a name="id" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.id"></a>
 
 ```typescript
 public readonly id: string;
@@ -1090,7 +1090,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 ---
 
-##### `project`<sup>Optional</sup> <a name="project" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.project"></a>
+##### `project`<sup>Optional</sup> <a name="project" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.project"></a>
 
 ```typescript
 public readonly project: string;
@@ -1102,7 +1102,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `region`<sup>Optional</sup> <a name="region" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.region"></a>
+##### `region`<sup>Optional</sup> <a name="region" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConfig.property.region"></a>
 
 ```typescript
 public readonly region: string;
@@ -1116,24 +1116,24 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ## Classes <a name="Classes" id="Classes"></a>
 
-### GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference <a name="GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference"></a>
+### GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference <a name="GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.Initializer"></a>
 
 ```typescript
-import { googleVertexAiFeatureOnlineStoreIamMember } from '@cdktf/provider-google-beta'
+import { googleVertexAiFeatureOnlineStoreIamMember } from '@cdktn/provider-google-beta'
 
 new googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
-##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.Initializer.parameter.terraformResource"></a>
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.Initializer.parameter.terraformResource"></a>
 
 - *Type:* cdktf.IInterpolatingParent
 
@@ -1141,7 +1141,7 @@ The parent resource.
 
 ---
 
-##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.Initializer.parameter.terraformAttribute"></a>
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
@@ -1153,150 +1153,150 @@ The attribute on the parent resource this class is referencing.
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.resetDescription">resetDescription</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.resetDescription">resetDescription</a></code> | *No description.* |
 
 ---
 
-##### `computeFqn` <a name="computeFqn" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.computeFqn"></a>
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.computeFqn"></a>
 
 ```typescript
 public computeFqn(): string
 ```
 
-##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getAnyMapAttribute"></a>
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getAnyMapAttribute"></a>
 
 ```typescript
 public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getBooleanAttribute"></a>
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getBooleanAttribute"></a>
 
 ```typescript
 public getBooleanAttribute(terraformAttribute: string): IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getBooleanMapAttribute"></a>
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getBooleanMapAttribute"></a>
 
 ```typescript
 public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getListAttribute` <a name="getListAttribute" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getListAttribute"></a>
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getListAttribute"></a>
 
 ```typescript
 public getListAttribute(terraformAttribute: string): string[]
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getNumberAttribute"></a>
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getNumberAttribute"></a>
 
 ```typescript
 public getNumberAttribute(terraformAttribute: string): number
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getNumberListAttribute"></a>
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getNumberListAttribute"></a>
 
 ```typescript
 public getNumberListAttribute(terraformAttribute: string): number[]
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getNumberMapAttribute"></a>
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getNumberMapAttribute"></a>
 
 ```typescript
 public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getStringAttribute` <a name="getStringAttribute" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getStringAttribute"></a>
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getStringAttribute"></a>
 
 ```typescript
 public getStringAttribute(terraformAttribute: string): string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getStringMapAttribute"></a>
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getStringMapAttribute"></a>
 
 ```typescript
 public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.interpolationForAttribute"></a>
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.interpolationForAttribute"></a>
 
 ```typescript
 public interpolationForAttribute(property: string): IResolvable
 ```
 
-###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.interpolationForAttribute.parameter.property"></a>
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.interpolationForAttribute.parameter.property"></a>
 
 - *Type:* string
 
 ---
 
-##### `resolve` <a name="resolve" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.resolve"></a>
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.resolve"></a>
 
 ```typescript
 public resolve(_context: IResolveContext): any
@@ -1304,13 +1304,13 @@ public resolve(_context: IResolveContext): any
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.resolve.parameter._context"></a>
 
 - *Type:* cdktf.IResolveContext
 
 ---
 
-##### `toString` <a name="toString" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.toString"></a>
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.toString"></a>
 
 ```typescript
 public toString(): string
@@ -1320,7 +1320,7 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `resetDescription` <a name="resetDescription" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.resetDescription"></a>
+##### `resetDescription` <a name="resetDescription" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.resetDescription"></a>
 
 ```typescript
 public resetDescription(): void
@@ -1331,19 +1331,19 @@ public resetDescription(): void
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.property.descriptionInput">descriptionInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.property.expressionInput">expressionInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.property.titleInput">titleInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.property.description">description</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.property.expression">expression</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.property.title">title</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberCondition">GoogleVertexAiFeatureOnlineStoreIamMemberCondition</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.property.descriptionInput">descriptionInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.property.expressionInput">expressionInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.property.titleInput">titleInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.property.description">description</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.property.expression">expression</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.property.title">title</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberCondition">GoogleVertexAiFeatureOnlineStoreIamMemberCondition</a></code> | *No description.* |
 
 ---
 
-##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.property.creationStack"></a>
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.property.creationStack"></a>
 
 ```typescript
 public readonly creationStack: string[];
@@ -1357,7 +1357,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.property.fqn"></a>
 
 ```typescript
 public readonly fqn: string;
@@ -1367,7 +1367,7 @@ public readonly fqn: string;
 
 ---
 
-##### `descriptionInput`<sup>Optional</sup> <a name="descriptionInput" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.property.descriptionInput"></a>
+##### `descriptionInput`<sup>Optional</sup> <a name="descriptionInput" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.property.descriptionInput"></a>
 
 ```typescript
 public readonly descriptionInput: string;
@@ -1377,7 +1377,7 @@ public readonly descriptionInput: string;
 
 ---
 
-##### `expressionInput`<sup>Optional</sup> <a name="expressionInput" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.property.expressionInput"></a>
+##### `expressionInput`<sup>Optional</sup> <a name="expressionInput" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.property.expressionInput"></a>
 
 ```typescript
 public readonly expressionInput: string;
@@ -1387,7 +1387,7 @@ public readonly expressionInput: string;
 
 ---
 
-##### `titleInput`<sup>Optional</sup> <a name="titleInput" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.property.titleInput"></a>
+##### `titleInput`<sup>Optional</sup> <a name="titleInput" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.property.titleInput"></a>
 
 ```typescript
 public readonly titleInput: string;
@@ -1397,7 +1397,7 @@ public readonly titleInput: string;
 
 ---
 
-##### `description`<sup>Required</sup> <a name="description" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.property.description"></a>
+##### `description`<sup>Required</sup> <a name="description" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.property.description"></a>
 
 ```typescript
 public readonly description: string;
@@ -1407,7 +1407,7 @@ public readonly description: string;
 
 ---
 
-##### `expression`<sup>Required</sup> <a name="expression" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.property.expression"></a>
+##### `expression`<sup>Required</sup> <a name="expression" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.property.expression"></a>
 
 ```typescript
 public readonly expression: string;
@@ -1417,7 +1417,7 @@ public readonly expression: string;
 
 ---
 
-##### `title`<sup>Required</sup> <a name="title" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.property.title"></a>
+##### `title`<sup>Required</sup> <a name="title" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.property.title"></a>
 
 ```typescript
 public readonly title: string;
@@ -1427,13 +1427,13 @@ public readonly title: string;
 
 ---
 
-##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.property.internalValue"></a>
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberConditionOutputReference.property.internalValue"></a>
 
 ```typescript
 public readonly internalValue: GoogleVertexAiFeatureOnlineStoreIamMemberCondition;
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberCondition">GoogleVertexAiFeatureOnlineStoreIamMemberCondition</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreIamMember.GoogleVertexAiFeatureOnlineStoreIamMemberCondition">GoogleVertexAiFeatureOnlineStoreIamMemberCondition</a>
 
 ---
 

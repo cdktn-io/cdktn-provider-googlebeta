@@ -1,28 +1,28 @@
-# `googleColabRuntimeTemplateIamMember` Submodule <a name="`googleColabRuntimeTemplateIamMember` Submodule" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember"></a>
+# `googleColabRuntimeTemplateIamMember` Submodule <a name="`googleColabRuntimeTemplateIamMember` Submodule" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
 
-### GoogleColabRuntimeTemplateIamMember <a name="GoogleColabRuntimeTemplateIamMember" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember"></a>
+### GoogleColabRuntimeTemplateIamMember <a name="GoogleColabRuntimeTemplateIamMember" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember"></a>
 
 Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template_iam_member google_colab_runtime_template_iam_member}.
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.Initializer"></a>
 
 ```typescript
-import { googleColabRuntimeTemplateIamMember } from '@cdktf/provider-google-beta'
+import { googleColabRuntimeTemplateIamMember } from '@cdktn/provider-google-beta'
 
 new googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember(scope: Construct, id: string, config: GoogleColabRuntimeTemplateIamMemberConfig)
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.Initializer.parameter.id">id</a></code> | <code>string</code> | The scoped construct ID. |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig">GoogleColabRuntimeTemplateIamMemberConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.Initializer.parameter.id">id</a></code> | <code>string</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig">GoogleColabRuntimeTemplateIamMemberConfig</a></code> | *No description.* |
 
 ---
 
-##### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.Initializer.parameter.scope"></a>
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.Initializer.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
@@ -30,7 +30,7 @@ The scope in which to define this construct.
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.Initializer.parameter.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.Initializer.parameter.id"></a>
 
 - *Type:* string
 
@@ -40,9 +40,9 @@ Must be unique amongst siblings in the same scope
 
 ---
 
-##### `config`<sup>Required</sup> <a name="config" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.Initializer.parameter.config"></a>
+##### `config`<sup>Required</sup> <a name="config" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.Initializer.parameter.config"></a>
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig">GoogleColabRuntimeTemplateIamMemberConfig</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig">GoogleColabRuntimeTemplateIamMemberConfig</a>
 
 ---
 
@@ -50,38 +50,38 @@ Must be unique amongst siblings in the same scope
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.toString">toString</a></code> | Returns a string representation of this construct. |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.addOverride">addOverride</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.overrideLogicalId">overrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.resetOverrideLogicalId">resetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.toHclTerraform">toHclTerraform</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.toMetadata">toMetadata</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.toTerraform">toTerraform</a></code> | Adds this resource to the terraform JSON output. |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.addMoveTarget">addMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getListAttribute">getListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getStringAttribute">getStringAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.hasResourceMove">hasResourceMove</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.importFrom">importFrom</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.moveFromId">moveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.putCondition">putCondition</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.resetCondition">resetCondition</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.resetId">resetId</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.resetLocation">resetLocation</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.resetProject">resetProject</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.toString">toString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.addOverride">addOverride</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.overrideLogicalId">overrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.resetOverrideLogicalId">resetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.toHclTerraform">toHclTerraform</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.toMetadata">toMetadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.toTerraform">toTerraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.addMoveTarget">addMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.hasResourceMove">hasResourceMove</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.importFrom">importFrom</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.moveFromId">moveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.putCondition">putCondition</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.resetCondition">resetCondition</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.resetId">resetId</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.resetLocation">resetLocation</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.resetProject">resetProject</a></code> | *No description.* |
 
 ---
 
-##### `toString` <a name="toString" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.toString"></a>
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.toString"></a>
 
 ```typescript
 public toString(): string
@@ -89,25 +89,25 @@ public toString(): string
 
 Returns a string representation of this construct.
 
-##### `addOverride` <a name="addOverride" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.addOverride"></a>
+##### `addOverride` <a name="addOverride" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.addOverride"></a>
 
 ```typescript
 public addOverride(path: string, value: any): void
 ```
 
-###### `path`<sup>Required</sup> <a name="path" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.addOverride.parameter.path"></a>
+###### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.addOverride.parameter.path"></a>
 
 - *Type:* string
 
 ---
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.addOverride.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.addOverride.parameter.value"></a>
 
 - *Type:* any
 
 ---
 
-##### `overrideLogicalId` <a name="overrideLogicalId" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.overrideLogicalId"></a>
+##### `overrideLogicalId` <a name="overrideLogicalId" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.overrideLogicalId"></a>
 
 ```typescript
 public overrideLogicalId(newLogicalId: string): void
@@ -115,7 +115,7 @@ public overrideLogicalId(newLogicalId: string): void
 
 Overrides the auto-generated logical ID with a specific ID.
 
-###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.overrideLogicalId.parameter.newLogicalId"></a>
+###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.overrideLogicalId.parameter.newLogicalId"></a>
 
 - *Type:* string
 
@@ -123,7 +123,7 @@ The new logical ID to use for this stack element.
 
 ---
 
-##### `resetOverrideLogicalId` <a name="resetOverrideLogicalId" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.resetOverrideLogicalId"></a>
+##### `resetOverrideLogicalId` <a name="resetOverrideLogicalId" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.resetOverrideLogicalId"></a>
 
 ```typescript
 public resetOverrideLogicalId(): void
@@ -131,19 +131,19 @@ public resetOverrideLogicalId(): void
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
 
-##### `toHclTerraform` <a name="toHclTerraform" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.toHclTerraform"></a>
+##### `toHclTerraform` <a name="toHclTerraform" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.toHclTerraform"></a>
 
 ```typescript
 public toHclTerraform(): any
 ```
 
-##### `toMetadata` <a name="toMetadata" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.toMetadata"></a>
+##### `toMetadata` <a name="toMetadata" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.toMetadata"></a>
 
 ```typescript
 public toMetadata(): any
 ```
 
-##### `toTerraform` <a name="toTerraform" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.toTerraform"></a>
+##### `toTerraform` <a name="toTerraform" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.toTerraform"></a>
 
 ```typescript
 public toTerraform(): any
@@ -151,7 +151,7 @@ public toTerraform(): any
 
 Adds this resource to the terraform JSON output.
 
-##### `addMoveTarget` <a name="addMoveTarget" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.addMoveTarget"></a>
+##### `addMoveTarget` <a name="addMoveTarget" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.addMoveTarget"></a>
 
 ```typescript
 public addMoveTarget(moveTarget: string): void
@@ -159,7 +159,7 @@ public addMoveTarget(moveTarget: string): void
 
 Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 
-###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.addMoveTarget.parameter.moveTarget"></a>
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.addMoveTarget.parameter.moveTarget"></a>
 
 - *Type:* string
 
@@ -167,151 +167,151 @@ The string move target that will correspond to this resource.
 
 ---
 
-##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getAnyMapAttribute"></a>
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getAnyMapAttribute"></a>
 
 ```typescript
 public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getBooleanAttribute"></a>
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getBooleanAttribute"></a>
 
 ```typescript
 public getBooleanAttribute(terraformAttribute: string): IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getBooleanMapAttribute"></a>
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getBooleanMapAttribute"></a>
 
 ```typescript
 public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getListAttribute` <a name="getListAttribute" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getListAttribute"></a>
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getListAttribute"></a>
 
 ```typescript
 public getListAttribute(terraformAttribute: string): string[]
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getNumberAttribute"></a>
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getNumberAttribute"></a>
 
 ```typescript
 public getNumberAttribute(terraformAttribute: string): number
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getNumberListAttribute"></a>
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getNumberListAttribute"></a>
 
 ```typescript
 public getNumberListAttribute(terraformAttribute: string): number[]
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getNumberMapAttribute"></a>
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getNumberMapAttribute"></a>
 
 ```typescript
 public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getStringAttribute` <a name="getStringAttribute" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getStringAttribute"></a>
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getStringAttribute"></a>
 
 ```typescript
 public getStringAttribute(terraformAttribute: string): string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getStringMapAttribute"></a>
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getStringMapAttribute"></a>
 
 ```typescript
 public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `hasResourceMove` <a name="hasResourceMove" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.hasResourceMove"></a>
+##### `hasResourceMove` <a name="hasResourceMove" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.hasResourceMove"></a>
 
 ```typescript
 public hasResourceMove(): TerraformResourceMoveByTarget | TerraformResourceMoveById
 ```
 
-##### `importFrom` <a name="importFrom" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.importFrom"></a>
+##### `importFrom` <a name="importFrom" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.importFrom"></a>
 
 ```typescript
 public importFrom(id: string, provider?: TerraformProvider): void
 ```
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.importFrom.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.importFrom.parameter.id"></a>
 
 - *Type:* string
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.importFrom.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.importFrom.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
 ---
 
-##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.interpolationForAttribute"></a>
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.interpolationForAttribute"></a>
 
 ```typescript
 public interpolationForAttribute(terraformAttribute: string): IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.interpolationForAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.interpolationForAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `moveFromId` <a name="moveFromId" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.moveFromId"></a>
+##### `moveFromId` <a name="moveFromId" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.moveFromId"></a>
 
 ```typescript
 public moveFromId(id: string): void
@@ -321,7 +321,7 @@ Move the resource corresponding to "id" to this resource.
 
 Note that the resource being moved from must be marked as moved using it's instance function.
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.moveFromId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.moveFromId.parameter.id"></a>
 
 - *Type:* string
 
@@ -329,7 +329,7 @@ Full id of resource being moved from, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `moveTo` <a name="moveTo" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.moveTo"></a>
+##### `moveTo` <a name="moveTo" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.moveTo"></a>
 
 ```typescript
 public moveTo(moveTarget: string, index?: string | number): void
@@ -337,7 +337,7 @@ public moveTo(moveTarget: string, index?: string | number): void
 
 Moves this resource to the target resource given by moveTarget.
 
-###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.moveTo.parameter.moveTarget"></a>
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.moveTo.parameter.moveTarget"></a>
 
 - *Type:* string
 
@@ -345,7 +345,7 @@ The previously set user defined string set by .addMoveTarget() corresponding to 
 
 ---
 
-###### `index`<sup>Optional</sup> <a name="index" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.moveTo.parameter.index"></a>
+###### `index`<sup>Optional</sup> <a name="index" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.moveTo.parameter.index"></a>
 
 - *Type:* string | number
 
@@ -353,7 +353,7 @@ Optional The index corresponding to the key the resource is to appear in the for
 
 ---
 
-##### `moveToId` <a name="moveToId" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.moveToId"></a>
+##### `moveToId` <a name="moveToId" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.moveToId"></a>
 
 ```typescript
 public moveToId(id: string): void
@@ -361,7 +361,7 @@ public moveToId(id: string): void
 
 Moves this resource to the resource corresponding to "id".
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.moveToId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.moveToId.parameter.id"></a>
 
 - *Type:* string
 
@@ -369,37 +369,37 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `putCondition` <a name="putCondition" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.putCondition"></a>
+##### `putCondition` <a name="putCondition" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.putCondition"></a>
 
 ```typescript
 public putCondition(value: GoogleColabRuntimeTemplateIamMemberCondition): void
 ```
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.putCondition.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.putCondition.parameter.value"></a>
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberCondition">GoogleColabRuntimeTemplateIamMemberCondition</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberCondition">GoogleColabRuntimeTemplateIamMemberCondition</a>
 
 ---
 
-##### `resetCondition` <a name="resetCondition" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.resetCondition"></a>
+##### `resetCondition` <a name="resetCondition" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.resetCondition"></a>
 
 ```typescript
 public resetCondition(): void
 ```
 
-##### `resetId` <a name="resetId" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.resetId"></a>
+##### `resetId` <a name="resetId" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.resetId"></a>
 
 ```typescript
 public resetId(): void
 ```
 
-##### `resetLocation` <a name="resetLocation" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.resetLocation"></a>
+##### `resetLocation` <a name="resetLocation" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.resetLocation"></a>
 
 ```typescript
 public resetLocation(): void
 ```
 
-##### `resetProject` <a name="resetProject" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.resetProject"></a>
+##### `resetProject` <a name="resetProject" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.resetProject"></a>
 
 ```typescript
 public resetProject(): void
@@ -409,17 +409,17 @@ public resetProject(): void
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.isTerraformElement">isTerraformElement</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.isTerraformResource">isTerraformResource</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTF code for importing a GoogleColabRuntimeTemplateIamMember resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.isTerraformResource">isTerraformResource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTF code for importing a GoogleColabRuntimeTemplateIamMember resource upon running "cdktf plan <stack-name>". |
 
 ---
 
-##### `isConstruct` <a name="isConstruct" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.isConstruct"></a>
+##### `isConstruct` <a name="isConstruct" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.isConstruct"></a>
 
 ```typescript
-import { googleColabRuntimeTemplateIamMember } from '@cdktf/provider-google-beta'
+import { googleColabRuntimeTemplateIamMember } from '@cdktn/provider-google-beta'
 
 googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.isConstruct(x: any)
 ```
@@ -440,7 +440,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.isConstruct.parameter.x"></a>
 
 - *Type:* any
 
@@ -448,45 +448,45 @@ Any object.
 
 ---
 
-##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.isTerraformElement"></a>
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.isTerraformElement"></a>
 
 ```typescript
-import { googleColabRuntimeTemplateIamMember } from '@cdktf/provider-google-beta'
+import { googleColabRuntimeTemplateIamMember } from '@cdktn/provider-google-beta'
 
 googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.isTerraformElement(x: any)
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.isTerraformElement.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.isTerraformElement.parameter.x"></a>
 
 - *Type:* any
 
 ---
 
-##### `isTerraformResource` <a name="isTerraformResource" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.isTerraformResource"></a>
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.isTerraformResource"></a>
 
 ```typescript
-import { googleColabRuntimeTemplateIamMember } from '@cdktf/provider-google-beta'
+import { googleColabRuntimeTemplateIamMember } from '@cdktn/provider-google-beta'
 
 googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.isTerraformResource(x: any)
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.isTerraformResource.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.isTerraformResource.parameter.x"></a>
 
 - *Type:* any
 
 ---
 
-##### `generateConfigForImport` <a name="generateConfigForImport" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.generateConfigForImport"></a>
+##### `generateConfigForImport` <a name="generateConfigForImport" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.generateConfigForImport"></a>
 
 ```typescript
-import { googleColabRuntimeTemplateIamMember } from '@cdktf/provider-google-beta'
+import { googleColabRuntimeTemplateIamMember } from '@cdktn/provider-google-beta'
 
 googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: TerraformProvider)
 ```
 
 Generates CDKTF code for importing a GoogleColabRuntimeTemplateIamMember resource upon running "cdktf plan <stack-name>".
 
-###### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.generateConfigForImport.parameter.scope"></a>
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.generateConfigForImport.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
@@ -494,7 +494,7 @@ The scope in which to define this construct.
 
 ---
 
-###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.generateConfigForImport.parameter.importToId"></a>
+###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.generateConfigForImport.parameter.importToId"></a>
 
 - *Type:* string
 
@@ -502,7 +502,7 @@ The construct id used in the generated config for the GoogleColabRuntimeTemplate
 
 ---
 
-###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.generateConfigForImport.parameter.importFromId"></a>
+###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.generateConfigForImport.parameter.importFromId"></a>
 
 - *Type:* string
 
@@ -512,7 +512,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.generateConfigForImport.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.generateConfigForImport.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
@@ -524,39 +524,39 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.cdktfStack">cdktfStack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.terraformMetaArguments">terraformMetaArguments</a></code> | <code>{[ key: string ]: any}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.condition">condition</a></code> | <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference">GoogleColabRuntimeTemplateIamMemberConditionOutputReference</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.etag">etag</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.conditionInput">conditionInput</a></code> | <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberCondition">GoogleColabRuntimeTemplateIamMemberCondition</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.locationInput">locationInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.memberInput">memberInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.projectInput">projectInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.roleInput">roleInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.runtimeTemplateInput">runtimeTemplateInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.id">id</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.location">location</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.member">member</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.project">project</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.role">role</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.runtimeTemplate">runtimeTemplate</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.cdktfStack">cdktfStack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.terraformMetaArguments">terraformMetaArguments</a></code> | <code>{[ key: string ]: any}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.condition">condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference">GoogleColabRuntimeTemplateIamMemberConditionOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.etag">etag</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.conditionInput">conditionInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberCondition">GoogleColabRuntimeTemplateIamMemberCondition</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.locationInput">locationInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.memberInput">memberInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.projectInput">projectInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.roleInput">roleInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.runtimeTemplateInput">runtimeTemplateInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.id">id</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.location">location</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.member">member</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.project">project</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.role">role</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.runtimeTemplate">runtimeTemplate</a></code> | <code>string</code> | *No description.* |
 
 ---
 
-##### `node`<sup>Required</sup> <a name="node" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.node"></a>
+##### `node`<sup>Required</sup> <a name="node" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.node"></a>
 
 ```typescript
 public readonly node: Node;
@@ -568,7 +568,7 @@ The tree node.
 
 ---
 
-##### `cdktfStack`<sup>Required</sup> <a name="cdktfStack" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.cdktfStack"></a>
+##### `cdktfStack`<sup>Required</sup> <a name="cdktfStack" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.cdktfStack"></a>
 
 ```typescript
 public readonly cdktfStack: TerraformStack;
@@ -578,7 +578,7 @@ public readonly cdktfStack: TerraformStack;
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.fqn"></a>
 
 ```typescript
 public readonly fqn: string;
@@ -588,7 +588,7 @@ public readonly fqn: string;
 
 ---
 
-##### `friendlyUniqueId`<sup>Required</sup> <a name="friendlyUniqueId" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.friendlyUniqueId"></a>
+##### `friendlyUniqueId`<sup>Required</sup> <a name="friendlyUniqueId" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.friendlyUniqueId"></a>
 
 ```typescript
 public readonly friendlyUniqueId: string;
@@ -598,7 +598,7 @@ public readonly friendlyUniqueId: string;
 
 ---
 
-##### `terraformMetaArguments`<sup>Required</sup> <a name="terraformMetaArguments" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.terraformMetaArguments"></a>
+##### `terraformMetaArguments`<sup>Required</sup> <a name="terraformMetaArguments" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.terraformMetaArguments"></a>
 
 ```typescript
 public readonly terraformMetaArguments: {[ key: string ]: any};
@@ -608,7 +608,7 @@ public readonly terraformMetaArguments: {[ key: string ]: any};
 
 ---
 
-##### `terraformResourceType`<sup>Required</sup> <a name="terraformResourceType" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.terraformResourceType"></a>
+##### `terraformResourceType`<sup>Required</sup> <a name="terraformResourceType" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.terraformResourceType"></a>
 
 ```typescript
 public readonly terraformResourceType: string;
@@ -618,7 +618,7 @@ public readonly terraformResourceType: string;
 
 ---
 
-##### `terraformGeneratorMetadata`<sup>Optional</sup> <a name="terraformGeneratorMetadata" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.terraformGeneratorMetadata"></a>
+##### `terraformGeneratorMetadata`<sup>Optional</sup> <a name="terraformGeneratorMetadata" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.terraformGeneratorMetadata"></a>
 
 ```typescript
 public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
@@ -628,7 +628,7 @@ public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.connection"></a>
 
 ```typescript
 public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
@@ -638,7 +638,7 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.count"></a>
 
 ```typescript
 public readonly count: number | TerraformCount;
@@ -648,7 +648,7 @@ public readonly count: number | TerraformCount;
 
 ---
 
-##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.dependsOn"></a>
+##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.dependsOn"></a>
 
 ```typescript
 public readonly dependsOn: string[];
@@ -658,7 +658,7 @@ public readonly dependsOn: string[];
 
 ---
 
-##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.forEach"></a>
+##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.forEach"></a>
 
 ```typescript
 public readonly forEach: ITerraformIterator;
@@ -668,7 +668,7 @@ public readonly forEach: ITerraformIterator;
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.lifecycle"></a>
 
 ```typescript
 public readonly lifecycle: TerraformResourceLifecycle;
@@ -678,7 +678,7 @@ public readonly lifecycle: TerraformResourceLifecycle;
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.provider"></a>
 
 ```typescript
 public readonly provider: TerraformProvider;
@@ -688,7 +688,7 @@ public readonly provider: TerraformProvider;
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.provisioners"></a>
 
 ```typescript
 public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
@@ -698,17 +698,17 @@ public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteEx
 
 ---
 
-##### `condition`<sup>Required</sup> <a name="condition" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.condition"></a>
+##### `condition`<sup>Required</sup> <a name="condition" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.condition"></a>
 
 ```typescript
 public readonly condition: GoogleColabRuntimeTemplateIamMemberConditionOutputReference;
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference">GoogleColabRuntimeTemplateIamMemberConditionOutputReference</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference">GoogleColabRuntimeTemplateIamMemberConditionOutputReference</a>
 
 ---
 
-##### `etag`<sup>Required</sup> <a name="etag" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.etag"></a>
+##### `etag`<sup>Required</sup> <a name="etag" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.etag"></a>
 
 ```typescript
 public readonly etag: string;
@@ -718,17 +718,17 @@ public readonly etag: string;
 
 ---
 
-##### `conditionInput`<sup>Optional</sup> <a name="conditionInput" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.conditionInput"></a>
+##### `conditionInput`<sup>Optional</sup> <a name="conditionInput" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.conditionInput"></a>
 
 ```typescript
 public readonly conditionInput: GoogleColabRuntimeTemplateIamMemberCondition;
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberCondition">GoogleColabRuntimeTemplateIamMemberCondition</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberCondition">GoogleColabRuntimeTemplateIamMemberCondition</a>
 
 ---
 
-##### `idInput`<sup>Optional</sup> <a name="idInput" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.idInput"></a>
+##### `idInput`<sup>Optional</sup> <a name="idInput" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.idInput"></a>
 
 ```typescript
 public readonly idInput: string;
@@ -738,7 +738,7 @@ public readonly idInput: string;
 
 ---
 
-##### `locationInput`<sup>Optional</sup> <a name="locationInput" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.locationInput"></a>
+##### `locationInput`<sup>Optional</sup> <a name="locationInput" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.locationInput"></a>
 
 ```typescript
 public readonly locationInput: string;
@@ -748,7 +748,7 @@ public readonly locationInput: string;
 
 ---
 
-##### `memberInput`<sup>Optional</sup> <a name="memberInput" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.memberInput"></a>
+##### `memberInput`<sup>Optional</sup> <a name="memberInput" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.memberInput"></a>
 
 ```typescript
 public readonly memberInput: string;
@@ -758,7 +758,7 @@ public readonly memberInput: string;
 
 ---
 
-##### `projectInput`<sup>Optional</sup> <a name="projectInput" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.projectInput"></a>
+##### `projectInput`<sup>Optional</sup> <a name="projectInput" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.projectInput"></a>
 
 ```typescript
 public readonly projectInput: string;
@@ -768,7 +768,7 @@ public readonly projectInput: string;
 
 ---
 
-##### `roleInput`<sup>Optional</sup> <a name="roleInput" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.roleInput"></a>
+##### `roleInput`<sup>Optional</sup> <a name="roleInput" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.roleInput"></a>
 
 ```typescript
 public readonly roleInput: string;
@@ -778,7 +778,7 @@ public readonly roleInput: string;
 
 ---
 
-##### `runtimeTemplateInput`<sup>Optional</sup> <a name="runtimeTemplateInput" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.runtimeTemplateInput"></a>
+##### `runtimeTemplateInput`<sup>Optional</sup> <a name="runtimeTemplateInput" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.runtimeTemplateInput"></a>
 
 ```typescript
 public readonly runtimeTemplateInput: string;
@@ -788,7 +788,7 @@ public readonly runtimeTemplateInput: string;
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.id"></a>
 
 ```typescript
 public readonly id: string;
@@ -798,7 +798,7 @@ public readonly id: string;
 
 ---
 
-##### `location`<sup>Required</sup> <a name="location" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.location"></a>
+##### `location`<sup>Required</sup> <a name="location" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.location"></a>
 
 ```typescript
 public readonly location: string;
@@ -808,7 +808,7 @@ public readonly location: string;
 
 ---
 
-##### `member`<sup>Required</sup> <a name="member" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.member"></a>
+##### `member`<sup>Required</sup> <a name="member" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.member"></a>
 
 ```typescript
 public readonly member: string;
@@ -818,7 +818,7 @@ public readonly member: string;
 
 ---
 
-##### `project`<sup>Required</sup> <a name="project" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.project"></a>
+##### `project`<sup>Required</sup> <a name="project" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.project"></a>
 
 ```typescript
 public readonly project: string;
@@ -828,7 +828,7 @@ public readonly project: string;
 
 ---
 
-##### `role`<sup>Required</sup> <a name="role" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.role"></a>
+##### `role`<sup>Required</sup> <a name="role" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.role"></a>
 
 ```typescript
 public readonly role: string;
@@ -838,7 +838,7 @@ public readonly role: string;
 
 ---
 
-##### `runtimeTemplate`<sup>Required</sup> <a name="runtimeTemplate" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.runtimeTemplate"></a>
+##### `runtimeTemplate`<sup>Required</sup> <a name="runtimeTemplate" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.runtimeTemplate"></a>
 
 ```typescript
 public readonly runtimeTemplate: string;
@@ -852,11 +852,11 @@ public readonly runtimeTemplate: string;
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.tfResourceType">tfResourceType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.tfResourceType">tfResourceType</a></code> | <code>string</code> | *No description.* |
 
 ---
 
-##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.tfResourceType"></a>
+##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMember.property.tfResourceType"></a>
 
 ```typescript
 public readonly tfResourceType: string;
@@ -868,12 +868,12 @@ public readonly tfResourceType: string;
 
 ## Structs <a name="Structs" id="Structs"></a>
 
-### GoogleColabRuntimeTemplateIamMemberCondition <a name="GoogleColabRuntimeTemplateIamMemberCondition" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberCondition"></a>
+### GoogleColabRuntimeTemplateIamMemberCondition <a name="GoogleColabRuntimeTemplateIamMemberCondition" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberCondition"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberCondition.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberCondition.Initializer"></a>
 
 ```typescript
-import { googleColabRuntimeTemplateIamMember } from '@cdktf/provider-google-beta'
+import { googleColabRuntimeTemplateIamMember } from '@cdktn/provider-google-beta'
 
 const googleColabRuntimeTemplateIamMemberCondition: googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberCondition = { ... }
 ```
@@ -882,13 +882,13 @@ const googleColabRuntimeTemplateIamMemberCondition: googleColabRuntimeTemplateIa
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberCondition.property.expression">expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template_iam_member#expression GoogleColabRuntimeTemplateIamMember#expression}. |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberCondition.property.title">title</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template_iam_member#title GoogleColabRuntimeTemplateIamMember#title}. |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberCondition.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template_iam_member#description GoogleColabRuntimeTemplateIamMember#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberCondition.property.expression">expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template_iam_member#expression GoogleColabRuntimeTemplateIamMember#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberCondition.property.title">title</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template_iam_member#title GoogleColabRuntimeTemplateIamMember#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberCondition.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template_iam_member#description GoogleColabRuntimeTemplateIamMember#description}. |
 
 ---
 
-##### `expression`<sup>Required</sup> <a name="expression" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberCondition.property.expression"></a>
+##### `expression`<sup>Required</sup> <a name="expression" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberCondition.property.expression"></a>
 
 ```typescript
 public readonly expression: string;
@@ -900,7 +900,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `title`<sup>Required</sup> <a name="title" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberCondition.property.title"></a>
+##### `title`<sup>Required</sup> <a name="title" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberCondition.property.title"></a>
 
 ```typescript
 public readonly title: string;
@@ -912,7 +912,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `description`<sup>Optional</sup> <a name="description" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberCondition.property.description"></a>
+##### `description`<sup>Optional</sup> <a name="description" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberCondition.property.description"></a>
 
 ```typescript
 public readonly description: string;
@@ -924,12 +924,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-### GoogleColabRuntimeTemplateIamMemberConfig <a name="GoogleColabRuntimeTemplateIamMemberConfig" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig"></a>
+### GoogleColabRuntimeTemplateIamMemberConfig <a name="GoogleColabRuntimeTemplateIamMemberConfig" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.Initializer"></a>
 
 ```typescript
-import { googleColabRuntimeTemplateIamMember } from '@cdktf/provider-google-beta'
+import { googleColabRuntimeTemplateIamMember } from '@cdktn/provider-google-beta'
 
 const googleColabRuntimeTemplateIamMemberConfig: googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig = { ... }
 ```
@@ -938,24 +938,24 @@ const googleColabRuntimeTemplateIamMemberConfig: googleColabRuntimeTemplateIamMe
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.dependsOn">dependsOn</a></code> | <code>cdktf.ITerraformDependable[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.member">member</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template_iam_member#member GoogleColabRuntimeTemplateIamMember#member}. |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.role">role</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template_iam_member#role GoogleColabRuntimeTemplateIamMember#role}. |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.runtimeTemplate">runtimeTemplate</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template_iam_member#runtime_template GoogleColabRuntimeTemplateIamMember#runtime_template}. |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.condition">condition</a></code> | <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberCondition">GoogleColabRuntimeTemplateIamMemberCondition</a></code> | condition block. |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template_iam_member#id GoogleColabRuntimeTemplateIamMember#id}. |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.location">location</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template_iam_member#location GoogleColabRuntimeTemplateIamMember#location}. |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template_iam_member#project GoogleColabRuntimeTemplateIamMember#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.dependsOn">dependsOn</a></code> | <code>cdktf.ITerraformDependable[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.member">member</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template_iam_member#member GoogleColabRuntimeTemplateIamMember#member}. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.role">role</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template_iam_member#role GoogleColabRuntimeTemplateIamMember#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.runtimeTemplate">runtimeTemplate</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template_iam_member#runtime_template GoogleColabRuntimeTemplateIamMember#runtime_template}. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.condition">condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberCondition">GoogleColabRuntimeTemplateIamMemberCondition</a></code> | condition block. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template_iam_member#id GoogleColabRuntimeTemplateIamMember#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.location">location</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template_iam_member#location GoogleColabRuntimeTemplateIamMember#location}. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_runtime_template_iam_member#project GoogleColabRuntimeTemplateIamMember#project}. |
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.connection"></a>
 
 ```typescript
 public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
@@ -965,7 +965,7 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.count"></a>
 
 ```typescript
 public readonly count: number | TerraformCount;
@@ -975,7 +975,7 @@ public readonly count: number | TerraformCount;
 
 ---
 
-##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.dependsOn"></a>
+##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.dependsOn"></a>
 
 ```typescript
 public readonly dependsOn: ITerraformDependable[];
@@ -985,7 +985,7 @@ public readonly dependsOn: ITerraformDependable[];
 
 ---
 
-##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.forEach"></a>
+##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.forEach"></a>
 
 ```typescript
 public readonly forEach: ITerraformIterator;
@@ -995,7 +995,7 @@ public readonly forEach: ITerraformIterator;
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.lifecycle"></a>
 
 ```typescript
 public readonly lifecycle: TerraformResourceLifecycle;
@@ -1005,7 +1005,7 @@ public readonly lifecycle: TerraformResourceLifecycle;
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.provider"></a>
 
 ```typescript
 public readonly provider: TerraformProvider;
@@ -1015,7 +1015,7 @@ public readonly provider: TerraformProvider;
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.provisioners"></a>
 
 ```typescript
 public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
@@ -1025,7 +1025,7 @@ public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteEx
 
 ---
 
-##### `member`<sup>Required</sup> <a name="member" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.member"></a>
+##### `member`<sup>Required</sup> <a name="member" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.member"></a>
 
 ```typescript
 public readonly member: string;
@@ -1037,7 +1037,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `role`<sup>Required</sup> <a name="role" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.role"></a>
+##### `role`<sup>Required</sup> <a name="role" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.role"></a>
 
 ```typescript
 public readonly role: string;
@@ -1049,7 +1049,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `runtimeTemplate`<sup>Required</sup> <a name="runtimeTemplate" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.runtimeTemplate"></a>
+##### `runtimeTemplate`<sup>Required</sup> <a name="runtimeTemplate" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.runtimeTemplate"></a>
 
 ```typescript
 public readonly runtimeTemplate: string;
@@ -1061,13 +1061,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `condition`<sup>Optional</sup> <a name="condition" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.condition"></a>
+##### `condition`<sup>Optional</sup> <a name="condition" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.condition"></a>
 
 ```typescript
 public readonly condition: GoogleColabRuntimeTemplateIamMemberCondition;
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberCondition">GoogleColabRuntimeTemplateIamMemberCondition</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberCondition">GoogleColabRuntimeTemplateIamMemberCondition</a>
 
 condition block.
 
@@ -1075,7 +1075,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `id`<sup>Optional</sup> <a name="id" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.id"></a>
+##### `id`<sup>Optional</sup> <a name="id" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.id"></a>
 
 ```typescript
 public readonly id: string;
@@ -1090,7 +1090,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 ---
 
-##### `location`<sup>Optional</sup> <a name="location" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.location"></a>
+##### `location`<sup>Optional</sup> <a name="location" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.location"></a>
 
 ```typescript
 public readonly location: string;
@@ -1102,7 +1102,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `project`<sup>Optional</sup> <a name="project" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.project"></a>
+##### `project`<sup>Optional</sup> <a name="project" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConfig.property.project"></a>
 
 ```typescript
 public readonly project: string;
@@ -1116,24 +1116,24 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ## Classes <a name="Classes" id="Classes"></a>
 
-### GoogleColabRuntimeTemplateIamMemberConditionOutputReference <a name="GoogleColabRuntimeTemplateIamMemberConditionOutputReference" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference"></a>
+### GoogleColabRuntimeTemplateIamMemberConditionOutputReference <a name="GoogleColabRuntimeTemplateIamMemberConditionOutputReference" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.Initializer"></a>
 
 ```typescript
-import { googleColabRuntimeTemplateIamMember } from '@cdktf/provider-google-beta'
+import { googleColabRuntimeTemplateIamMember } from '@cdktn/provider-google-beta'
 
 new googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
-##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.Initializer.parameter.terraformResource"></a>
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.Initializer.parameter.terraformResource"></a>
 
 - *Type:* cdktf.IInterpolatingParent
 
@@ -1141,7 +1141,7 @@ The parent resource.
 
 ---
 
-##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.Initializer.parameter.terraformAttribute"></a>
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
@@ -1153,150 +1153,150 @@ The attribute on the parent resource this class is referencing.
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.resetDescription">resetDescription</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.resetDescription">resetDescription</a></code> | *No description.* |
 
 ---
 
-##### `computeFqn` <a name="computeFqn" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.computeFqn"></a>
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.computeFqn"></a>
 
 ```typescript
 public computeFqn(): string
 ```
 
-##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getAnyMapAttribute"></a>
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getAnyMapAttribute"></a>
 
 ```typescript
 public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getBooleanAttribute"></a>
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getBooleanAttribute"></a>
 
 ```typescript
 public getBooleanAttribute(terraformAttribute: string): IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getBooleanMapAttribute"></a>
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getBooleanMapAttribute"></a>
 
 ```typescript
 public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getListAttribute` <a name="getListAttribute" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getListAttribute"></a>
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getListAttribute"></a>
 
 ```typescript
 public getListAttribute(terraformAttribute: string): string[]
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getNumberAttribute"></a>
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getNumberAttribute"></a>
 
 ```typescript
 public getNumberAttribute(terraformAttribute: string): number
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getNumberListAttribute"></a>
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getNumberListAttribute"></a>
 
 ```typescript
 public getNumberListAttribute(terraformAttribute: string): number[]
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getNumberMapAttribute"></a>
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getNumberMapAttribute"></a>
 
 ```typescript
 public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getStringAttribute` <a name="getStringAttribute" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getStringAttribute"></a>
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getStringAttribute"></a>
 
 ```typescript
 public getStringAttribute(terraformAttribute: string): string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getStringMapAttribute"></a>
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getStringMapAttribute"></a>
 
 ```typescript
 public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
 
 ---
 
-##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.interpolationForAttribute"></a>
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.interpolationForAttribute"></a>
 
 ```typescript
 public interpolationForAttribute(property: string): IResolvable
 ```
 
-###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.interpolationForAttribute.parameter.property"></a>
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.interpolationForAttribute.parameter.property"></a>
 
 - *Type:* string
 
 ---
 
-##### `resolve` <a name="resolve" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.resolve"></a>
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.resolve"></a>
 
 ```typescript
 public resolve(_context: IResolveContext): any
@@ -1304,13 +1304,13 @@ public resolve(_context: IResolveContext): any
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.resolve.parameter._context"></a>
 
 - *Type:* cdktf.IResolveContext
 
 ---
 
-##### `toString` <a name="toString" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.toString"></a>
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.toString"></a>
 
 ```typescript
 public toString(): string
@@ -1320,7 +1320,7 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `resetDescription` <a name="resetDescription" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.resetDescription"></a>
+##### `resetDescription` <a name="resetDescription" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.resetDescription"></a>
 
 ```typescript
 public resetDescription(): void
@@ -1331,19 +1331,19 @@ public resetDescription(): void
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.property.descriptionInput">descriptionInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.property.expressionInput">expressionInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.property.titleInput">titleInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.property.description">description</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.property.expression">expression</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.property.title">title</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberCondition">GoogleColabRuntimeTemplateIamMemberCondition</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.property.descriptionInput">descriptionInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.property.expressionInput">expressionInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.property.titleInput">titleInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.property.description">description</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.property.expression">expression</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.property.title">title</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberCondition">GoogleColabRuntimeTemplateIamMemberCondition</a></code> | *No description.* |
 
 ---
 
-##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.property.creationStack"></a>
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.property.creationStack"></a>
 
 ```typescript
 public readonly creationStack: string[];
@@ -1357,7 +1357,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.property.fqn"></a>
 
 ```typescript
 public readonly fqn: string;
@@ -1367,7 +1367,7 @@ public readonly fqn: string;
 
 ---
 
-##### `descriptionInput`<sup>Optional</sup> <a name="descriptionInput" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.property.descriptionInput"></a>
+##### `descriptionInput`<sup>Optional</sup> <a name="descriptionInput" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.property.descriptionInput"></a>
 
 ```typescript
 public readonly descriptionInput: string;
@@ -1377,7 +1377,7 @@ public readonly descriptionInput: string;
 
 ---
 
-##### `expressionInput`<sup>Optional</sup> <a name="expressionInput" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.property.expressionInput"></a>
+##### `expressionInput`<sup>Optional</sup> <a name="expressionInput" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.property.expressionInput"></a>
 
 ```typescript
 public readonly expressionInput: string;
@@ -1387,7 +1387,7 @@ public readonly expressionInput: string;
 
 ---
 
-##### `titleInput`<sup>Optional</sup> <a name="titleInput" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.property.titleInput"></a>
+##### `titleInput`<sup>Optional</sup> <a name="titleInput" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.property.titleInput"></a>
 
 ```typescript
 public readonly titleInput: string;
@@ -1397,7 +1397,7 @@ public readonly titleInput: string;
 
 ---
 
-##### `description`<sup>Required</sup> <a name="description" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.property.description"></a>
+##### `description`<sup>Required</sup> <a name="description" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.property.description"></a>
 
 ```typescript
 public readonly description: string;
@@ -1407,7 +1407,7 @@ public readonly description: string;
 
 ---
 
-##### `expression`<sup>Required</sup> <a name="expression" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.property.expression"></a>
+##### `expression`<sup>Required</sup> <a name="expression" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.property.expression"></a>
 
 ```typescript
 public readonly expression: string;
@@ -1417,7 +1417,7 @@ public readonly expression: string;
 
 ---
 
-##### `title`<sup>Required</sup> <a name="title" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.property.title"></a>
+##### `title`<sup>Required</sup> <a name="title" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.property.title"></a>
 
 ```typescript
 public readonly title: string;
@@ -1427,13 +1427,13 @@ public readonly title: string;
 
 ---
 
-##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.property.internalValue"></a>
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberConditionOutputReference.property.internalValue"></a>
 
 ```typescript
 public readonly internalValue: GoogleColabRuntimeTemplateIamMemberCondition;
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberCondition">GoogleColabRuntimeTemplateIamMemberCondition</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleColabRuntimeTemplateIamMember.GoogleColabRuntimeTemplateIamMemberCondition">GoogleColabRuntimeTemplateIamMemberCondition</a>
 
 ---
 

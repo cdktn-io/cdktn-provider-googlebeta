@@ -1,28 +1,28 @@
-# `googleBigqueryTableIamMember` Submodule <a name="`googleBigqueryTableIamMember` Submodule" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember"></a>
+# `googleBigqueryTableIamMember` Submodule <a name="`googleBigqueryTableIamMember` Submodule" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
 
-### GoogleBigqueryTableIamMember <a name="GoogleBigqueryTableIamMember" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember"></a>
+### GoogleBigqueryTableIamMember <a name="GoogleBigqueryTableIamMember" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember"></a>
 
 Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_table_iam_member google_bigquery_table_iam_member}.
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlebigquerytableiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlebigquerytableiammember"
 
 googlebigquerytableiammember.NewGoogleBigqueryTableIamMember(scope Construct, id *string, config GoogleBigqueryTableIamMemberConfig) GoogleBigqueryTableIamMember
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.Initializer.parameter.scope">scope</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Construct</code> | The scope in which to define this construct. |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.Initializer.parameter.id">id</a></code> | <code>*string</code> | The scoped construct ID. |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig">GoogleBigqueryTableIamMemberConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.Initializer.parameter.scope">scope</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.Initializer.parameter.id">id</a></code> | <code>*string</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig">GoogleBigqueryTableIamMemberConfig</a></code> | *No description.* |
 
 ---
 
-##### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.Initializer.parameter.scope"></a>
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.Initializer.parameter.scope"></a>
 
 - *Type:* github.com/aws/constructs-go/constructs/v10.Construct
 
@@ -30,7 +30,7 @@ The scope in which to define this construct.
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.Initializer.parameter.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.Initializer.parameter.id"></a>
 
 - *Type:* *string
 
@@ -40,9 +40,9 @@ Must be unique amongst siblings in the same scope
 
 ---
 
-##### `config`<sup>Required</sup> <a name="config" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.Initializer.parameter.config"></a>
+##### `config`<sup>Required</sup> <a name="config" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.Initializer.parameter.config"></a>
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig">GoogleBigqueryTableIamMemberConfig</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig">GoogleBigqueryTableIamMemberConfig</a>
 
 ---
 
@@ -50,37 +50,37 @@ Must be unique amongst siblings in the same scope
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.toString">ToString</a></code> | Returns a string representation of this construct. |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.addOverride">AddOverride</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.overrideLogicalId">OverrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.resetOverrideLogicalId">ResetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.toHclTerraform">ToHclTerraform</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.toMetadata">ToMetadata</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.toTerraform">ToTerraform</a></code> | Adds this resource to the terraform JSON output. |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.addMoveTarget">AddMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getListAttribute">GetListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.hasResourceMove">HasResourceMove</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.importFrom">ImportFrom</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.moveFromId">MoveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.putCondition">PutCondition</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.resetCondition">ResetCondition</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.resetId">ResetId</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.resetProject">ResetProject</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.toString">ToString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.addOverride">AddOverride</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.overrideLogicalId">OverrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.resetOverrideLogicalId">ResetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.toHclTerraform">ToHclTerraform</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.toMetadata">ToMetadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.toTerraform">ToTerraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.addMoveTarget">AddMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.hasResourceMove">HasResourceMove</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.importFrom">ImportFrom</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.moveFromId">MoveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.putCondition">PutCondition</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.resetCondition">ResetCondition</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.resetId">ResetId</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.resetProject">ResetProject</a></code> | *No description.* |
 
 ---
 
-##### `ToString` <a name="ToString" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.toString"></a>
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.toString"></a>
 
 ```go
 func ToString() *string
@@ -88,25 +88,25 @@ func ToString() *string
 
 Returns a string representation of this construct.
 
-##### `AddOverride` <a name="AddOverride" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.addOverride"></a>
+##### `AddOverride` <a name="AddOverride" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.addOverride"></a>
 
 ```go
 func AddOverride(path *string, value interface{})
 ```
 
-###### `path`<sup>Required</sup> <a name="path" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.addOverride.parameter.path"></a>
+###### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.addOverride.parameter.path"></a>
 
 - *Type:* *string
 
 ---
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.addOverride.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.addOverride.parameter.value"></a>
 
 - *Type:* interface{}
 
 ---
 
-##### `OverrideLogicalId` <a name="OverrideLogicalId" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.overrideLogicalId"></a>
+##### `OverrideLogicalId` <a name="OverrideLogicalId" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.overrideLogicalId"></a>
 
 ```go
 func OverrideLogicalId(newLogicalId *string)
@@ -114,7 +114,7 @@ func OverrideLogicalId(newLogicalId *string)
 
 Overrides the auto-generated logical ID with a specific ID.
 
-###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.overrideLogicalId.parameter.newLogicalId"></a>
+###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.overrideLogicalId.parameter.newLogicalId"></a>
 
 - *Type:* *string
 
@@ -122,7 +122,7 @@ The new logical ID to use for this stack element.
 
 ---
 
-##### `ResetOverrideLogicalId` <a name="ResetOverrideLogicalId" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.resetOverrideLogicalId"></a>
+##### `ResetOverrideLogicalId` <a name="ResetOverrideLogicalId" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.resetOverrideLogicalId"></a>
 
 ```go
 func ResetOverrideLogicalId()
@@ -130,19 +130,19 @@ func ResetOverrideLogicalId()
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
 
-##### `ToHclTerraform` <a name="ToHclTerraform" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.toHclTerraform"></a>
+##### `ToHclTerraform` <a name="ToHclTerraform" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.toHclTerraform"></a>
 
 ```go
 func ToHclTerraform() interface{}
 ```
 
-##### `ToMetadata` <a name="ToMetadata" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.toMetadata"></a>
+##### `ToMetadata` <a name="ToMetadata" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.toMetadata"></a>
 
 ```go
 func ToMetadata() interface{}
 ```
 
-##### `ToTerraform` <a name="ToTerraform" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.toTerraform"></a>
+##### `ToTerraform` <a name="ToTerraform" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.toTerraform"></a>
 
 ```go
 func ToTerraform() interface{}
@@ -150,7 +150,7 @@ func ToTerraform() interface{}
 
 Adds this resource to the terraform JSON output.
 
-##### `AddMoveTarget` <a name="AddMoveTarget" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.addMoveTarget"></a>
+##### `AddMoveTarget` <a name="AddMoveTarget" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.addMoveTarget"></a>
 
 ```go
 func AddMoveTarget(moveTarget *string)
@@ -158,7 +158,7 @@ func AddMoveTarget(moveTarget *string)
 
 Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 
-###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.addMoveTarget.parameter.moveTarget"></a>
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.addMoveTarget.parameter.moveTarget"></a>
 
 - *Type:* *string
 
@@ -166,151 +166,151 @@ The string move target that will correspond to this resource.
 
 ---
 
-##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getAnyMapAttribute"></a>
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getAnyMapAttribute"></a>
 
 ```go
 func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getBooleanAttribute"></a>
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getBooleanAttribute"></a>
 
 ```go
 func GetBooleanAttribute(terraformAttribute *string) IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getBooleanMapAttribute"></a>
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getBooleanMapAttribute"></a>
 
 ```go
 func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetListAttribute` <a name="GetListAttribute" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getListAttribute"></a>
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getListAttribute"></a>
 
 ```go
 func GetListAttribute(terraformAttribute *string) *[]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getNumberAttribute"></a>
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getNumberAttribute"></a>
 
 ```go
 func GetNumberAttribute(terraformAttribute *string) *f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getNumberListAttribute"></a>
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getNumberListAttribute"></a>
 
 ```go
 func GetNumberListAttribute(terraformAttribute *string) *[]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getNumberMapAttribute"></a>
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getNumberMapAttribute"></a>
 
 ```go
 func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getStringAttribute"></a>
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getStringAttribute"></a>
 
 ```go
 func GetStringAttribute(terraformAttribute *string) *string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getStringMapAttribute"></a>
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getStringMapAttribute"></a>
 
 ```go
 func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `HasResourceMove` <a name="HasResourceMove" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.hasResourceMove"></a>
+##### `HasResourceMove` <a name="HasResourceMove" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.hasResourceMove"></a>
 
 ```go
 func HasResourceMove() interface{}
 ```
 
-##### `ImportFrom` <a name="ImportFrom" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.importFrom"></a>
+##### `ImportFrom` <a name="ImportFrom" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.importFrom"></a>
 
 ```go
 func ImportFrom(id *string, provider TerraformProvider)
 ```
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.importFrom.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.importFrom.parameter.id"></a>
 
 - *Type:* *string
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.importFrom.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.importFrom.parameter.provider"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider
 
 ---
 
-##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.interpolationForAttribute"></a>
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.interpolationForAttribute"></a>
 
 ```go
 func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.interpolationForAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.interpolationForAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `MoveFromId` <a name="MoveFromId" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.moveFromId"></a>
+##### `MoveFromId` <a name="MoveFromId" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.moveFromId"></a>
 
 ```go
 func MoveFromId(id *string)
@@ -320,7 +320,7 @@ Move the resource corresponding to "id" to this resource.
 
 Note that the resource being moved from must be marked as moved using it's instance function.
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.moveFromId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.moveFromId.parameter.id"></a>
 
 - *Type:* *string
 
@@ -328,7 +328,7 @@ Full id of resource being moved from, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `MoveTo` <a name="MoveTo" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.moveTo"></a>
+##### `MoveTo` <a name="MoveTo" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.moveTo"></a>
 
 ```go
 func MoveTo(moveTarget *string, index interface{})
@@ -336,7 +336,7 @@ func MoveTo(moveTarget *string, index interface{})
 
 Moves this resource to the target resource given by moveTarget.
 
-###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.moveTo.parameter.moveTarget"></a>
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.moveTo.parameter.moveTarget"></a>
 
 - *Type:* *string
 
@@ -344,7 +344,7 @@ The previously set user defined string set by .addMoveTarget() corresponding to 
 
 ---
 
-###### `index`<sup>Optional</sup> <a name="index" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.moveTo.parameter.index"></a>
+###### `index`<sup>Optional</sup> <a name="index" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.moveTo.parameter.index"></a>
 
 - *Type:* interface{}
 
@@ -352,7 +352,7 @@ Optional The index corresponding to the key the resource is to appear in the for
 
 ---
 
-##### `MoveToId` <a name="MoveToId" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.moveToId"></a>
+##### `MoveToId` <a name="MoveToId" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.moveToId"></a>
 
 ```go
 func MoveToId(id *string)
@@ -360,7 +360,7 @@ func MoveToId(id *string)
 
 Moves this resource to the resource corresponding to "id".
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.moveToId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.moveToId.parameter.id"></a>
 
 - *Type:* *string
 
@@ -368,31 +368,31 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `PutCondition` <a name="PutCondition" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.putCondition"></a>
+##### `PutCondition` <a name="PutCondition" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.putCondition"></a>
 
 ```go
 func PutCondition(value GoogleBigqueryTableIamMemberCondition)
 ```
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.putCondition.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.putCondition.parameter.value"></a>
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberCondition">GoogleBigqueryTableIamMemberCondition</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberCondition">GoogleBigqueryTableIamMemberCondition</a>
 
 ---
 
-##### `ResetCondition` <a name="ResetCondition" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.resetCondition"></a>
+##### `ResetCondition` <a name="ResetCondition" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.resetCondition"></a>
 
 ```go
 func ResetCondition()
 ```
 
-##### `ResetId` <a name="ResetId" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.resetId"></a>
+##### `ResetId` <a name="ResetId" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.resetId"></a>
 
 ```go
 func ResetId()
 ```
 
-##### `ResetProject` <a name="ResetProject" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.resetProject"></a>
+##### `ResetProject` <a name="ResetProject" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.resetProject"></a>
 
 ```go
 func ResetProject()
@@ -402,17 +402,17 @@ func ResetProject()
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.isConstruct">IsConstruct</a></code> | Checks if `x` is a construct. |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.isTerraformElement">IsTerraformElement</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.isTerraformResource">IsTerraformResource</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.generateConfigForImport">GenerateConfigForImport</a></code> | Generates CDKTF code for importing a GoogleBigqueryTableIamMember resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.isConstruct">IsConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.isTerraformElement">IsTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.isTerraformResource">IsTerraformResource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.generateConfigForImport">GenerateConfigForImport</a></code> | Generates CDKTF code for importing a GoogleBigqueryTableIamMember resource upon running "cdktf plan <stack-name>". |
 
 ---
 
-##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.isConstruct"></a>
+##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlebigquerytableiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlebigquerytableiammember"
 
 googlebigquerytableiammember.GoogleBigqueryTableIamMember_IsConstruct(x interface{}) *bool
 ```
@@ -433,7 +433,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.isConstruct.parameter.x"></a>
 
 - *Type:* interface{}
 
@@ -441,45 +441,45 @@ Any object.
 
 ---
 
-##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.isTerraformElement"></a>
+##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlebigquerytableiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlebigquerytableiammember"
 
 googlebigquerytableiammember.GoogleBigqueryTableIamMember_IsTerraformElement(x interface{}) *bool
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.isTerraformElement.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.isTerraformElement.parameter.x"></a>
 
 - *Type:* interface{}
 
 ---
 
-##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.isTerraformResource"></a>
+##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlebigquerytableiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlebigquerytableiammember"
 
 googlebigquerytableiammember.GoogleBigqueryTableIamMember_IsTerraformResource(x interface{}) *bool
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.isTerraformResource.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.isTerraformResource.parameter.x"></a>
 
 - *Type:* interface{}
 
 ---
 
-##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.generateConfigForImport"></a>
+##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlebigquerytableiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlebigquerytableiammember"
 
 googlebigquerytableiammember.GoogleBigqueryTableIamMember_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
 
 Generates CDKTF code for importing a GoogleBigqueryTableIamMember resource upon running "cdktf plan <stack-name>".
 
-###### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.generateConfigForImport.parameter.scope"></a>
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.generateConfigForImport.parameter.scope"></a>
 
 - *Type:* github.com/aws/constructs-go/constructs/v10.Construct
 
@@ -487,7 +487,7 @@ The scope in which to define this construct.
 
 ---
 
-###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.generateConfigForImport.parameter.importToId"></a>
+###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.generateConfigForImport.parameter.importToId"></a>
 
 - *Type:* *string
 
@@ -495,7 +495,7 @@ The construct id used in the generated config for the GoogleBigqueryTableIamMemb
 
 ---
 
-###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.generateConfigForImport.parameter.importFromId"></a>
+###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.generateConfigForImport.parameter.importFromId"></a>
 
 - *Type:* *string
 
@@ -505,7 +505,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.generateConfigForImport.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.generateConfigForImport.parameter.provider"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider
 
@@ -517,39 +517,39 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.node">Node</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Node</code> | The tree node. |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.cdktfStack">CdktfStack</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformStack</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.friendlyUniqueId">FriendlyUniqueId</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.terraformMetaArguments">TerraformMetaArguments</a></code> | <code>*map[string]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.terraformResourceType">TerraformResourceType</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.dependsOn">DependsOn</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.condition">Condition</a></code> | <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference">GoogleBigqueryTableIamMemberConditionOutputReference</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.etag">Etag</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.conditionInput">ConditionInput</a></code> | <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberCondition">GoogleBigqueryTableIamMemberCondition</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.datasetIdInput">DatasetIdInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.memberInput">MemberInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.projectInput">ProjectInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.roleInput">RoleInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.tableIdInput">TableIdInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.datasetId">DatasetId</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.id">Id</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.member">Member</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.project">Project</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.role">Role</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.tableId">TableId</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.node">Node</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.cdktfStack">CdktfStack</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.friendlyUniqueId">FriendlyUniqueId</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.terraformMetaArguments">TerraformMetaArguments</a></code> | <code>*map[string]interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.terraformResourceType">TerraformResourceType</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.dependsOn">DependsOn</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.condition">Condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference">GoogleBigqueryTableIamMemberConditionOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.etag">Etag</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.conditionInput">ConditionInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberCondition">GoogleBigqueryTableIamMemberCondition</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.datasetIdInput">DatasetIdInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.memberInput">MemberInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.projectInput">ProjectInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.roleInput">RoleInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.tableIdInput">TableIdInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.datasetId">DatasetId</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.id">Id</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.member">Member</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.project">Project</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.role">Role</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.tableId">TableId</a></code> | <code>*string</code> | *No description.* |
 
 ---
 
-##### `Node`<sup>Required</sup> <a name="Node" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.node"></a>
+##### `Node`<sup>Required</sup> <a name="Node" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.node"></a>
 
 ```go
 func Node() Node
@@ -561,7 +561,7 @@ The tree node.
 
 ---
 
-##### `CdktfStack`<sup>Required</sup> <a name="CdktfStack" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.cdktfStack"></a>
+##### `CdktfStack`<sup>Required</sup> <a name="CdktfStack" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.cdktfStack"></a>
 
 ```go
 func CdktfStack() TerraformStack
@@ -571,7 +571,7 @@ func CdktfStack() TerraformStack
 
 ---
 
-##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.fqn"></a>
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.fqn"></a>
 
 ```go
 func Fqn() *string
@@ -581,7 +581,7 @@ func Fqn() *string
 
 ---
 
-##### `FriendlyUniqueId`<sup>Required</sup> <a name="FriendlyUniqueId" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.friendlyUniqueId"></a>
+##### `FriendlyUniqueId`<sup>Required</sup> <a name="FriendlyUniqueId" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.friendlyUniqueId"></a>
 
 ```go
 func FriendlyUniqueId() *string
@@ -591,7 +591,7 @@ func FriendlyUniqueId() *string
 
 ---
 
-##### `TerraformMetaArguments`<sup>Required</sup> <a name="TerraformMetaArguments" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.terraformMetaArguments"></a>
+##### `TerraformMetaArguments`<sup>Required</sup> <a name="TerraformMetaArguments" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.terraformMetaArguments"></a>
 
 ```go
 func TerraformMetaArguments() *map[string]interface{}
@@ -601,7 +601,7 @@ func TerraformMetaArguments() *map[string]interface{}
 
 ---
 
-##### `TerraformResourceType`<sup>Required</sup> <a name="TerraformResourceType" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.terraformResourceType"></a>
+##### `TerraformResourceType`<sup>Required</sup> <a name="TerraformResourceType" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.terraformResourceType"></a>
 
 ```go
 func TerraformResourceType() *string
@@ -611,7 +611,7 @@ func TerraformResourceType() *string
 
 ---
 
-##### `TerraformGeneratorMetadata`<sup>Optional</sup> <a name="TerraformGeneratorMetadata" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.terraformGeneratorMetadata"></a>
+##### `TerraformGeneratorMetadata`<sup>Optional</sup> <a name="TerraformGeneratorMetadata" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.terraformGeneratorMetadata"></a>
 
 ```go
 func TerraformGeneratorMetadata() TerraformProviderGeneratorMetadata
@@ -621,7 +621,7 @@ func TerraformGeneratorMetadata() TerraformProviderGeneratorMetadata
 
 ---
 
-##### `Connection`<sup>Optional</sup> <a name="Connection" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.connection"></a>
+##### `Connection`<sup>Optional</sup> <a name="Connection" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.connection"></a>
 
 ```go
 func Connection() interface{}
@@ -631,7 +631,7 @@ func Connection() interface{}
 
 ---
 
-##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.count"></a>
+##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.count"></a>
 
 ```go
 func Count() interface{}
@@ -641,7 +641,7 @@ func Count() interface{}
 
 ---
 
-##### `DependsOn`<sup>Optional</sup> <a name="DependsOn" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.dependsOn"></a>
+##### `DependsOn`<sup>Optional</sup> <a name="DependsOn" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.dependsOn"></a>
 
 ```go
 func DependsOn() *[]*string
@@ -651,7 +651,7 @@ func DependsOn() *[]*string
 
 ---
 
-##### `ForEach`<sup>Optional</sup> <a name="ForEach" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.forEach"></a>
+##### `ForEach`<sup>Optional</sup> <a name="ForEach" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.forEach"></a>
 
 ```go
 func ForEach() ITerraformIterator
@@ -661,7 +661,7 @@ func ForEach() ITerraformIterator
 
 ---
 
-##### `Lifecycle`<sup>Optional</sup> <a name="Lifecycle" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.lifecycle"></a>
+##### `Lifecycle`<sup>Optional</sup> <a name="Lifecycle" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.lifecycle"></a>
 
 ```go
 func Lifecycle() TerraformResourceLifecycle
@@ -671,7 +671,7 @@ func Lifecycle() TerraformResourceLifecycle
 
 ---
 
-##### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.provider"></a>
+##### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.provider"></a>
 
 ```go
 func Provider() TerraformProvider
@@ -681,7 +681,7 @@ func Provider() TerraformProvider
 
 ---
 
-##### `Provisioners`<sup>Optional</sup> <a name="Provisioners" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.provisioners"></a>
+##### `Provisioners`<sup>Optional</sup> <a name="Provisioners" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.provisioners"></a>
 
 ```go
 func Provisioners() *[]interface{}
@@ -691,17 +691,17 @@ func Provisioners() *[]interface{}
 
 ---
 
-##### `Condition`<sup>Required</sup> <a name="Condition" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.condition"></a>
+##### `Condition`<sup>Required</sup> <a name="Condition" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.condition"></a>
 
 ```go
 func Condition() GoogleBigqueryTableIamMemberConditionOutputReference
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference">GoogleBigqueryTableIamMemberConditionOutputReference</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference">GoogleBigqueryTableIamMemberConditionOutputReference</a>
 
 ---
 
-##### `Etag`<sup>Required</sup> <a name="Etag" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.etag"></a>
+##### `Etag`<sup>Required</sup> <a name="Etag" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.etag"></a>
 
 ```go
 func Etag() *string
@@ -711,17 +711,17 @@ func Etag() *string
 
 ---
 
-##### `ConditionInput`<sup>Optional</sup> <a name="ConditionInput" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.conditionInput"></a>
+##### `ConditionInput`<sup>Optional</sup> <a name="ConditionInput" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.conditionInput"></a>
 
 ```go
 func ConditionInput() GoogleBigqueryTableIamMemberCondition
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberCondition">GoogleBigqueryTableIamMemberCondition</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberCondition">GoogleBigqueryTableIamMemberCondition</a>
 
 ---
 
-##### `DatasetIdInput`<sup>Optional</sup> <a name="DatasetIdInput" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.datasetIdInput"></a>
+##### `DatasetIdInput`<sup>Optional</sup> <a name="DatasetIdInput" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.datasetIdInput"></a>
 
 ```go
 func DatasetIdInput() *string
@@ -731,7 +731,7 @@ func DatasetIdInput() *string
 
 ---
 
-##### `IdInput`<sup>Optional</sup> <a name="IdInput" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.idInput"></a>
+##### `IdInput`<sup>Optional</sup> <a name="IdInput" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.idInput"></a>
 
 ```go
 func IdInput() *string
@@ -741,7 +741,7 @@ func IdInput() *string
 
 ---
 
-##### `MemberInput`<sup>Optional</sup> <a name="MemberInput" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.memberInput"></a>
+##### `MemberInput`<sup>Optional</sup> <a name="MemberInput" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.memberInput"></a>
 
 ```go
 func MemberInput() *string
@@ -751,7 +751,7 @@ func MemberInput() *string
 
 ---
 
-##### `ProjectInput`<sup>Optional</sup> <a name="ProjectInput" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.projectInput"></a>
+##### `ProjectInput`<sup>Optional</sup> <a name="ProjectInput" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.projectInput"></a>
 
 ```go
 func ProjectInput() *string
@@ -761,7 +761,7 @@ func ProjectInput() *string
 
 ---
 
-##### `RoleInput`<sup>Optional</sup> <a name="RoleInput" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.roleInput"></a>
+##### `RoleInput`<sup>Optional</sup> <a name="RoleInput" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.roleInput"></a>
 
 ```go
 func RoleInput() *string
@@ -771,7 +771,7 @@ func RoleInput() *string
 
 ---
 
-##### `TableIdInput`<sup>Optional</sup> <a name="TableIdInput" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.tableIdInput"></a>
+##### `TableIdInput`<sup>Optional</sup> <a name="TableIdInput" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.tableIdInput"></a>
 
 ```go
 func TableIdInput() *string
@@ -781,7 +781,7 @@ func TableIdInput() *string
 
 ---
 
-##### `DatasetId`<sup>Required</sup> <a name="DatasetId" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.datasetId"></a>
+##### `DatasetId`<sup>Required</sup> <a name="DatasetId" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.datasetId"></a>
 
 ```go
 func DatasetId() *string
@@ -791,7 +791,7 @@ func DatasetId() *string
 
 ---
 
-##### `Id`<sup>Required</sup> <a name="Id" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.id"></a>
+##### `Id`<sup>Required</sup> <a name="Id" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.id"></a>
 
 ```go
 func Id() *string
@@ -801,7 +801,7 @@ func Id() *string
 
 ---
 
-##### `Member`<sup>Required</sup> <a name="Member" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.member"></a>
+##### `Member`<sup>Required</sup> <a name="Member" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.member"></a>
 
 ```go
 func Member() *string
@@ -811,7 +811,7 @@ func Member() *string
 
 ---
 
-##### `Project`<sup>Required</sup> <a name="Project" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.project"></a>
+##### `Project`<sup>Required</sup> <a name="Project" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.project"></a>
 
 ```go
 func Project() *string
@@ -821,7 +821,7 @@ func Project() *string
 
 ---
 
-##### `Role`<sup>Required</sup> <a name="Role" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.role"></a>
+##### `Role`<sup>Required</sup> <a name="Role" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.role"></a>
 
 ```go
 func Role() *string
@@ -831,7 +831,7 @@ func Role() *string
 
 ---
 
-##### `TableId`<sup>Required</sup> <a name="TableId" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.tableId"></a>
+##### `TableId`<sup>Required</sup> <a name="TableId" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.tableId"></a>
 
 ```go
 func TableId() *string
@@ -845,11 +845,11 @@ func TableId() *string
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.tfResourceType">TfResourceType</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.tfResourceType">TfResourceType</a></code> | <code>*string</code> | *No description.* |
 
 ---
 
-##### `TfResourceType`<sup>Required</sup> <a name="TfResourceType" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.tfResourceType"></a>
+##### `TfResourceType`<sup>Required</sup> <a name="TfResourceType" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMember.property.tfResourceType"></a>
 
 ```go
 func TfResourceType() *string
@@ -861,12 +861,12 @@ func TfResourceType() *string
 
 ## Structs <a name="Structs" id="Structs"></a>
 
-### GoogleBigqueryTableIamMemberCondition <a name="GoogleBigqueryTableIamMemberCondition" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberCondition"></a>
+### GoogleBigqueryTableIamMemberCondition <a name="GoogleBigqueryTableIamMemberCondition" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberCondition"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberCondition.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlebigquerytableiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlebigquerytableiammember"
 
 &googlebigquerytableiammember.GoogleBigqueryTableIamMemberCondition {
 	Expression: *string,
@@ -879,13 +879,13 @@ import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlebigqu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_table_iam_member#expression GoogleBigqueryTableIamMember#expression}. |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_table_iam_member#title GoogleBigqueryTableIamMember#title}. |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_table_iam_member#description GoogleBigqueryTableIamMember#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_table_iam_member#expression GoogleBigqueryTableIamMember#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_table_iam_member#title GoogleBigqueryTableIamMember#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_table_iam_member#description GoogleBigqueryTableIamMember#description}. |
 
 ---
 
-##### `Expression`<sup>Required</sup> <a name="Expression" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberCondition.property.expression"></a>
+##### `Expression`<sup>Required</sup> <a name="Expression" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberCondition.property.expression"></a>
 
 ```go
 Expression *string
@@ -897,7 +897,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `Title`<sup>Required</sup> <a name="Title" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberCondition.property.title"></a>
+##### `Title`<sup>Required</sup> <a name="Title" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberCondition.property.title"></a>
 
 ```go
 Title *string
@@ -909,7 +909,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `Description`<sup>Optional</sup> <a name="Description" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberCondition.property.description"></a>
+##### `Description`<sup>Optional</sup> <a name="Description" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberCondition.property.description"></a>
 
 ```go
 Description *string
@@ -921,12 +921,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-### GoogleBigqueryTableIamMemberConfig <a name="GoogleBigqueryTableIamMemberConfig" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig"></a>
+### GoogleBigqueryTableIamMemberConfig <a name="GoogleBigqueryTableIamMemberConfig" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlebigquerytableiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlebigquerytableiammember"
 
 &googlebigquerytableiammember.GoogleBigqueryTableIamMemberConfig {
 	Connection: interface{},
@@ -940,7 +940,7 @@ import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlebigqu
 	Member: *string,
 	Role: *string,
 	TableId: *string,
-	Condition: github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberCondition,
+	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberCondition,
 	Id: *string,
 	Project: *string,
 }
@@ -950,24 +950,24 @@ import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlebigqu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.dependsOn">DependsOn</a></code> | <code>*[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.datasetId">DatasetId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_table_iam_member#dataset_id GoogleBigqueryTableIamMember#dataset_id}. |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.member">Member</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_table_iam_member#member GoogleBigqueryTableIamMember#member}. |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_table_iam_member#role GoogleBigqueryTableIamMember#role}. |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.tableId">TableId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_table_iam_member#table_id GoogleBigqueryTableIamMember#table_id}. |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.condition">Condition</a></code> | <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberCondition">GoogleBigqueryTableIamMemberCondition</a></code> | condition block. |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_table_iam_member#id GoogleBigqueryTableIamMember#id}. |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_table_iam_member#project GoogleBigqueryTableIamMember#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.dependsOn">DependsOn</a></code> | <code>*[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.datasetId">DatasetId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_table_iam_member#dataset_id GoogleBigqueryTableIamMember#dataset_id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.member">Member</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_table_iam_member#member GoogleBigqueryTableIamMember#member}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_table_iam_member#role GoogleBigqueryTableIamMember#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.tableId">TableId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_table_iam_member#table_id GoogleBigqueryTableIamMember#table_id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.condition">Condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberCondition">GoogleBigqueryTableIamMemberCondition</a></code> | condition block. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_table_iam_member#id GoogleBigqueryTableIamMember#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_table_iam_member#project GoogleBigqueryTableIamMember#project}. |
 
 ---
 
-##### `Connection`<sup>Optional</sup> <a name="Connection" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.connection"></a>
+##### `Connection`<sup>Optional</sup> <a name="Connection" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.connection"></a>
 
 ```go
 Connection interface{}
@@ -977,7 +977,7 @@ Connection interface{}
 
 ---
 
-##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.count"></a>
+##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.count"></a>
 
 ```go
 Count interface{}
@@ -987,7 +987,7 @@ Count interface{}
 
 ---
 
-##### `DependsOn`<sup>Optional</sup> <a name="DependsOn" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.dependsOn"></a>
+##### `DependsOn`<sup>Optional</sup> <a name="DependsOn" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.dependsOn"></a>
 
 ```go
 DependsOn *[]ITerraformDependable
@@ -997,7 +997,7 @@ DependsOn *[]ITerraformDependable
 
 ---
 
-##### `ForEach`<sup>Optional</sup> <a name="ForEach" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.forEach"></a>
+##### `ForEach`<sup>Optional</sup> <a name="ForEach" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.forEach"></a>
 
 ```go
 ForEach ITerraformIterator
@@ -1007,7 +1007,7 @@ ForEach ITerraformIterator
 
 ---
 
-##### `Lifecycle`<sup>Optional</sup> <a name="Lifecycle" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.lifecycle"></a>
+##### `Lifecycle`<sup>Optional</sup> <a name="Lifecycle" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.lifecycle"></a>
 
 ```go
 Lifecycle TerraformResourceLifecycle
@@ -1017,7 +1017,7 @@ Lifecycle TerraformResourceLifecycle
 
 ---
 
-##### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.provider"></a>
+##### `Provider`<sup>Optional</sup> <a name="Provider" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.provider"></a>
 
 ```go
 Provider TerraformProvider
@@ -1027,7 +1027,7 @@ Provider TerraformProvider
 
 ---
 
-##### `Provisioners`<sup>Optional</sup> <a name="Provisioners" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.provisioners"></a>
+##### `Provisioners`<sup>Optional</sup> <a name="Provisioners" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.provisioners"></a>
 
 ```go
 Provisioners *[]interface{}
@@ -1037,7 +1037,7 @@ Provisioners *[]interface{}
 
 ---
 
-##### `DatasetId`<sup>Required</sup> <a name="DatasetId" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.datasetId"></a>
+##### `DatasetId`<sup>Required</sup> <a name="DatasetId" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.datasetId"></a>
 
 ```go
 DatasetId *string
@@ -1049,7 +1049,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `Member`<sup>Required</sup> <a name="Member" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.member"></a>
+##### `Member`<sup>Required</sup> <a name="Member" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.member"></a>
 
 ```go
 Member *string
@@ -1061,7 +1061,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `Role`<sup>Required</sup> <a name="Role" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.role"></a>
+##### `Role`<sup>Required</sup> <a name="Role" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.role"></a>
 
 ```go
 Role *string
@@ -1073,7 +1073,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `TableId`<sup>Required</sup> <a name="TableId" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.tableId"></a>
+##### `TableId`<sup>Required</sup> <a name="TableId" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.tableId"></a>
 
 ```go
 TableId *string
@@ -1085,13 +1085,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `Condition`<sup>Optional</sup> <a name="Condition" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.condition"></a>
+##### `Condition`<sup>Optional</sup> <a name="Condition" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.condition"></a>
 
 ```go
 Condition GoogleBigqueryTableIamMemberCondition
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberCondition">GoogleBigqueryTableIamMemberCondition</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberCondition">GoogleBigqueryTableIamMemberCondition</a>
 
 condition block.
 
@@ -1099,7 +1099,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `Id`<sup>Optional</sup> <a name="Id" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.id"></a>
+##### `Id`<sup>Optional</sup> <a name="Id" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.id"></a>
 
 ```go
 Id *string
@@ -1114,7 +1114,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 ---
 
-##### `Project`<sup>Optional</sup> <a name="Project" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.project"></a>
+##### `Project`<sup>Optional</sup> <a name="Project" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConfig.property.project"></a>
 
 ```go
 Project *string
@@ -1128,24 +1128,24 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ## Classes <a name="Classes" id="Classes"></a>
 
-### GoogleBigqueryTableIamMemberConditionOutputReference <a name="GoogleBigqueryTableIamMemberConditionOutputReference" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference"></a>
+### GoogleBigqueryTableIamMemberConditionOutputReference <a name="GoogleBigqueryTableIamMemberConditionOutputReference" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlebigquerytableiammember"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlebigquerytableiammember"
 
 googlebigquerytableiammember.NewGoogleBigqueryTableIamMemberConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleBigqueryTableIamMemberConditionOutputReference
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
-##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.Initializer.parameter.terraformResource"></a>
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.Initializer.parameter.terraformResource"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IInterpolatingParent
 
@@ -1153,7 +1153,7 @@ The parent resource.
 
 ---
 
-##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.Initializer.parameter.terraformAttribute"></a>
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
@@ -1165,150 +1165,150 @@ The attribute on the parent resource this class is referencing.
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.resetDescription">ResetDescription</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.resetDescription">ResetDescription</a></code> | *No description.* |
 
 ---
 
-##### `ComputeFqn` <a name="ComputeFqn" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.computeFqn"></a>
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.computeFqn"></a>
 
 ```go
 func ComputeFqn() *string
 ```
 
-##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getAnyMapAttribute"></a>
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getAnyMapAttribute"></a>
 
 ```go
 func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getBooleanAttribute"></a>
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getBooleanAttribute"></a>
 
 ```go
 func GetBooleanAttribute(terraformAttribute *string) IResolvable
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getBooleanMapAttribute"></a>
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getBooleanMapAttribute"></a>
 
 ```go
 func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetListAttribute` <a name="GetListAttribute" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getListAttribute"></a>
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getListAttribute"></a>
 
 ```go
 func GetListAttribute(terraformAttribute *string) *[]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getNumberAttribute"></a>
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getNumberAttribute"></a>
 
 ```go
 func GetNumberAttribute(terraformAttribute *string) *f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getNumberListAttribute"></a>
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getNumberListAttribute"></a>
 
 ```go
 func GetNumberListAttribute(terraformAttribute *string) *[]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getNumberMapAttribute"></a>
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getNumberMapAttribute"></a>
 
 ```go
 func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getStringAttribute"></a>
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getStringAttribute"></a>
 
 ```go
 func GetStringAttribute(terraformAttribute *string) *string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getStringMapAttribute"></a>
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getStringMapAttribute"></a>
 
 ```go
 func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 ```
 
-###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
 
 ---
 
-##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.interpolationForAttribute"></a>
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.interpolationForAttribute"></a>
 
 ```go
 func InterpolationForAttribute(property *string) IResolvable
 ```
 
-###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.interpolationForAttribute.parameter.property"></a>
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.interpolationForAttribute.parameter.property"></a>
 
 - *Type:* *string
 
 ---
 
-##### `Resolve` <a name="Resolve" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.resolve"></a>
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.resolve"></a>
 
 ```go
 func Resolve(_context IResolveContext) interface{}
@@ -1316,13 +1316,13 @@ func Resolve(_context IResolveContext) interface{}
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.resolve.parameter._context"></a>
 
 - *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.IResolveContext
 
 ---
 
-##### `ToString` <a name="ToString" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.toString"></a>
+##### `ToString` <a name="ToString" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.toString"></a>
 
 ```go
 func ToString() *string
@@ -1332,7 +1332,7 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `ResetDescription` <a name="ResetDescription" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.resetDescription"></a>
+##### `ResetDescription` <a name="ResetDescription" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.resetDescription"></a>
 
 ```go
 func ResetDescription()
@@ -1343,19 +1343,19 @@ func ResetDescription()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.property.descriptionInput">DescriptionInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.property.expressionInput">ExpressionInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.property.titleInput">TitleInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.property.description">Description</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.property.expression">Expression</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.property.title">Title</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberCondition">GoogleBigqueryTableIamMemberCondition</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.property.descriptionInput">DescriptionInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.property.expressionInput">ExpressionInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.property.titleInput">TitleInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.property.description">Description</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.property.expression">Expression</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.property.title">Title</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberCondition">GoogleBigqueryTableIamMemberCondition</a></code> | *No description.* |
 
 ---
 
-##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.property.creationStack"></a>
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.property.creationStack"></a>
 
 ```go
 func CreationStack() *[]*string
@@ -1369,7 +1369,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.property.fqn"></a>
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.property.fqn"></a>
 
 ```go
 func Fqn() *string
@@ -1379,7 +1379,7 @@ func Fqn() *string
 
 ---
 
-##### `DescriptionInput`<sup>Optional</sup> <a name="DescriptionInput" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.property.descriptionInput"></a>
+##### `DescriptionInput`<sup>Optional</sup> <a name="DescriptionInput" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.property.descriptionInput"></a>
 
 ```go
 func DescriptionInput() *string
@@ -1389,7 +1389,7 @@ func DescriptionInput() *string
 
 ---
 
-##### `ExpressionInput`<sup>Optional</sup> <a name="ExpressionInput" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.property.expressionInput"></a>
+##### `ExpressionInput`<sup>Optional</sup> <a name="ExpressionInput" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.property.expressionInput"></a>
 
 ```go
 func ExpressionInput() *string
@@ -1399,7 +1399,7 @@ func ExpressionInput() *string
 
 ---
 
-##### `TitleInput`<sup>Optional</sup> <a name="TitleInput" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.property.titleInput"></a>
+##### `TitleInput`<sup>Optional</sup> <a name="TitleInput" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.property.titleInput"></a>
 
 ```go
 func TitleInput() *string
@@ -1409,7 +1409,7 @@ func TitleInput() *string
 
 ---
 
-##### `Description`<sup>Required</sup> <a name="Description" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.property.description"></a>
+##### `Description`<sup>Required</sup> <a name="Description" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.property.description"></a>
 
 ```go
 func Description() *string
@@ -1419,7 +1419,7 @@ func Description() *string
 
 ---
 
-##### `Expression`<sup>Required</sup> <a name="Expression" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.property.expression"></a>
+##### `Expression`<sup>Required</sup> <a name="Expression" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.property.expression"></a>
 
 ```go
 func Expression() *string
@@ -1429,7 +1429,7 @@ func Expression() *string
 
 ---
 
-##### `Title`<sup>Required</sup> <a name="Title" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.property.title"></a>
+##### `Title`<sup>Required</sup> <a name="Title" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.property.title"></a>
 
 ```go
 func Title() *string
@@ -1439,13 +1439,13 @@ func Title() *string
 
 ---
 
-##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.property.internalValue"></a>
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberConditionOutputReference.property.internalValue"></a>
 
 ```go
 func InternalValue() GoogleBigqueryTableIamMemberCondition
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberCondition">GoogleBigqueryTableIamMemberCondition</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBigqueryTableIamMember.GoogleBigqueryTableIamMemberCondition">GoogleBigqueryTableIamMemberCondition</a>
 
 ---
 
