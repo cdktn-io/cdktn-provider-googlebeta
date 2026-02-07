@@ -1,15 +1,15 @@
-# `googleNetappStoragePool` Submodule <a name="`googleNetappStoragePool` Submodule" id="@cdktf/provider-google-beta.googleNetappStoragePool"></a>
+# `googleNetappStoragePool` Submodule <a name="`googleNetappStoragePool` Submodule" id="@cdktn/provider-google-beta.googleNetappStoragePool"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
 
-### GoogleNetappStoragePool <a name="GoogleNetappStoragePool" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool"></a>
+### GoogleNetappStoragePool <a name="GoogleNetappStoragePool" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool"></a>
 
 Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_storage_pool google_netapp_storage_pool}.
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_netapp_storage_pool
+from cdktn_provider_google_beta import google_netapp_storage_pool
 
 googleNetappStoragePool.GoogleNetappStoragePool(
   scope: Construct,
@@ -47,40 +47,40 @@ googleNetappStoragePool.GoogleNetappStoragePool(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.id">id</a></code> | <code>str</code> | The scoped construct ID. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.capacityGib">capacity_gib</a></code> | <code>str</code> | Capacity of the storage pool (in GiB). |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.location">location</a></code> | <code>str</code> | Name of the location. For zonal Flex pools specify a zone name, in all other cases a region name. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.name">name</a></code> | <code>str</code> | The resource name of the storage pool. Needs to be unique per location/region. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.network">network</a></code> | <code>str</code> | VPC network name with format: 'projects/{{project}}/global/networks/{{network}}'. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.serviceLevel">service_level</a></code> | <code>str</code> | Service level of the storage pool. Possible values: ["PREMIUM", "EXTREME", "STANDARD", "FLEX"]. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.activeDirectory">active_directory</a></code> | <code>str</code> | Specifies the Active Directory policy to be used. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.allowAutoTiering">allow_auto_tiering</a></code> | <code>bool \| cdktf.IResolvable</code> | Optional. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.customPerformanceEnabled">custom_performance_enabled</a></code> | <code>bool \| cdktf.IResolvable</code> | Optional. True if using Independent Scaling of capacity and performance (Hyperdisk). Default is false. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.description">description</a></code> | <code>str</code> | An optional description of this resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.enableHotTierAutoResize">enable_hot_tier_auto_resize</a></code> | <code>bool \| cdktf.IResolvable</code> | Flag indicating that the hot-tier threshold will be auto-increased by 10% of the hot-tier when it hits 100%. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.hotTierSizeGib">hot_tier_size_gib</a></code> | <code>str</code> | Total hot tier capacity for the Storage Pool. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_storage_pool#id GoogleNetappStoragePool#id}. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.kmsConfig">kms_config</a></code> | <code>str</code> | Specifies the CMEK policy to be used for volume encryption. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.labels">labels</a></code> | <code>typing.Mapping[str]</code> | Labels as key value pairs. Example: '{ "owner": "Bob", "department": "finance", "purpose": "testing" }'. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.ldapEnabled">ldap_enabled</a></code> | <code>bool \| cdktf.IResolvable</code> | When enabled, the volumes uses Active Directory as LDAP name service for UID/GID lookups. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_storage_pool#project GoogleNetappStoragePool#project}. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.replicaZone">replica_zone</a></code> | <code>str</code> | Specifies the replica zone for regional Flex pools. 'zone' and 'replica_zone' values can be swapped to initiate a [zone switch](https://cloud.google.com/netapp/volumes/docs/configure-and-use/storage-pools/edit-or-delete-storage-pool#switch_active_and_replica_zones). |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeouts">GoogleNetappStoragePoolTimeouts</a></code> | timeouts block. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.totalIops">total_iops</a></code> | <code>str</code> | Optional. Custom Performance Total IOPS of the pool If not provided, it will be calculated based on the totalThroughputMibps. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.totalThroughputMibps">total_throughput_mibps</a></code> | <code>str</code> | Optional. Custom Performance Total Throughput of the pool (in MiB/s). |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.zone">zone</a></code> | <code>str</code> | Specifies the active zone for regional Flex pools. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.id">id</a></code> | <code>str</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.capacityGib">capacity_gib</a></code> | <code>str</code> | Capacity of the storage pool (in GiB). |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.location">location</a></code> | <code>str</code> | Name of the location. For zonal Flex pools specify a zone name, in all other cases a region name. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.name">name</a></code> | <code>str</code> | The resource name of the storage pool. Needs to be unique per location/region. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.network">network</a></code> | <code>str</code> | VPC network name with format: 'projects/{{project}}/global/networks/{{network}}'. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.serviceLevel">service_level</a></code> | <code>str</code> | Service level of the storage pool. Possible values: ["PREMIUM", "EXTREME", "STANDARD", "FLEX"]. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.activeDirectory">active_directory</a></code> | <code>str</code> | Specifies the Active Directory policy to be used. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.allowAutoTiering">allow_auto_tiering</a></code> | <code>bool \| cdktf.IResolvable</code> | Optional. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.customPerformanceEnabled">custom_performance_enabled</a></code> | <code>bool \| cdktf.IResolvable</code> | Optional. True if using Independent Scaling of capacity and performance (Hyperdisk). Default is false. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.description">description</a></code> | <code>str</code> | An optional description of this resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.enableHotTierAutoResize">enable_hot_tier_auto_resize</a></code> | <code>bool \| cdktf.IResolvable</code> | Flag indicating that the hot-tier threshold will be auto-increased by 10% of the hot-tier when it hits 100%. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.hotTierSizeGib">hot_tier_size_gib</a></code> | <code>str</code> | Total hot tier capacity for the Storage Pool. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_storage_pool#id GoogleNetappStoragePool#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.kmsConfig">kms_config</a></code> | <code>str</code> | Specifies the CMEK policy to be used for volume encryption. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.labels">labels</a></code> | <code>typing.Mapping[str]</code> | Labels as key value pairs. Example: '{ "owner": "Bob", "department": "finance", "purpose": "testing" }'. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.ldapEnabled">ldap_enabled</a></code> | <code>bool \| cdktf.IResolvable</code> | When enabled, the volumes uses Active Directory as LDAP name service for UID/GID lookups. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_storage_pool#project GoogleNetappStoragePool#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.replicaZone">replica_zone</a></code> | <code>str</code> | Specifies the replica zone for regional Flex pools. 'zone' and 'replica_zone' values can be swapped to initiate a [zone switch](https://cloud.google.com/netapp/volumes/docs/configure-and-use/storage-pools/edit-or-delete-storage-pool#switch_active_and_replica_zones). |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeouts">GoogleNetappStoragePoolTimeouts</a></code> | timeouts block. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.totalIops">total_iops</a></code> | <code>str</code> | Optional. Custom Performance Total IOPS of the pool If not provided, it will be calculated based on the totalThroughputMibps. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.totalThroughputMibps">total_throughput_mibps</a></code> | <code>str</code> | Optional. Custom Performance Total Throughput of the pool (in MiB/s). |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.zone">zone</a></code> | <code>str</code> | Specifies the active zone for regional Flex pools. |
 
 ---
 
-##### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.scope"></a>
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
@@ -88,7 +88,7 @@ The scope in which to define this construct.
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.id"></a>
 
 - *Type:* str
 
@@ -98,49 +98,49 @@ Must be unique amongst siblings in the same scope
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.connection"></a>
 
 - *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.count"></a>
 
 - *Type:* typing.Union[int, float] | cdktf.TerraformCount
 
 ---
 
-##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.dependsOn"></a>
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.dependsOn"></a>
 
 - *Type:* typing.List[cdktf.ITerraformDependable]
 
 ---
 
-##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.forEach"></a>
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.forEach"></a>
 
 - *Type:* cdktf.ITerraformIterator
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.lifecycle"></a>
 
 - *Type:* cdktf.TerraformResourceLifecycle
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.provisioners"></a>
 
 - *Type:* typing.List[cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner]
 
 ---
 
-##### `capacity_gib`<sup>Required</sup> <a name="capacity_gib" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.capacityGib"></a>
+##### `capacity_gib`<sup>Required</sup> <a name="capacity_gib" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.capacityGib"></a>
 
 - *Type:* str
 
@@ -150,7 +150,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `location`<sup>Required</sup> <a name="location" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.location"></a>
+##### `location`<sup>Required</sup> <a name="location" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.location"></a>
 
 - *Type:* str
 
@@ -160,7 +160,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `name`<sup>Required</sup> <a name="name" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.name"></a>
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.name"></a>
 
 - *Type:* str
 
@@ -170,7 +170,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `network`<sup>Required</sup> <a name="network" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.network"></a>
+##### `network`<sup>Required</sup> <a name="network" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.network"></a>
 
 - *Type:* str
 
@@ -180,7 +180,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `service_level`<sup>Required</sup> <a name="service_level" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.serviceLevel"></a>
+##### `service_level`<sup>Required</sup> <a name="service_level" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.serviceLevel"></a>
 
 - *Type:* str
 
@@ -190,7 +190,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `active_directory`<sup>Optional</sup> <a name="active_directory" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.activeDirectory"></a>
+##### `active_directory`<sup>Optional</sup> <a name="active_directory" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.activeDirectory"></a>
 
 - *Type:* str
 
@@ -203,7 +203,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `allow_auto_tiering`<sup>Optional</sup> <a name="allow_auto_tiering" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.allowAutoTiering"></a>
+##### `allow_auto_tiering`<sup>Optional</sup> <a name="allow_auto_tiering" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.allowAutoTiering"></a>
 
 - *Type:* bool | cdktf.IResolvable
 
@@ -216,7 +216,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `custom_performance_enabled`<sup>Optional</sup> <a name="custom_performance_enabled" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.customPerformanceEnabled"></a>
+##### `custom_performance_enabled`<sup>Optional</sup> <a name="custom_performance_enabled" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.customPerformanceEnabled"></a>
 
 - *Type:* bool | cdktf.IResolvable
 
@@ -226,7 +226,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `description`<sup>Optional</sup> <a name="description" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.description"></a>
+##### `description`<sup>Optional</sup> <a name="description" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.description"></a>
 
 - *Type:* str
 
@@ -236,7 +236,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `enable_hot_tier_auto_resize`<sup>Optional</sup> <a name="enable_hot_tier_auto_resize" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.enableHotTierAutoResize"></a>
+##### `enable_hot_tier_auto_resize`<sup>Optional</sup> <a name="enable_hot_tier_auto_resize" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.enableHotTierAutoResize"></a>
 
 - *Type:* bool | cdktf.IResolvable
 
@@ -249,7 +249,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `hot_tier_size_gib`<sup>Optional</sup> <a name="hot_tier_size_gib" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.hotTierSizeGib"></a>
+##### `hot_tier_size_gib`<sup>Optional</sup> <a name="hot_tier_size_gib" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.hotTierSizeGib"></a>
 
 - *Type:* str
 
@@ -262,7 +262,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `id`<sup>Optional</sup> <a name="id" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.id"></a>
+##### `id`<sup>Optional</sup> <a name="id" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.id"></a>
 
 - *Type:* str
 
@@ -273,7 +273,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 ---
 
-##### `kms_config`<sup>Optional</sup> <a name="kms_config" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.kmsConfig"></a>
+##### `kms_config`<sup>Optional</sup> <a name="kms_config" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.kmsConfig"></a>
 
 - *Type:* str
 
@@ -286,7 +286,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `labels`<sup>Optional</sup> <a name="labels" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.labels"></a>
+##### `labels`<sup>Optional</sup> <a name="labels" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.labels"></a>
 
 - *Type:* typing.Mapping[str]
 
@@ -299,7 +299,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `ldap_enabled`<sup>Optional</sup> <a name="ldap_enabled" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.ldapEnabled"></a>
+##### `ldap_enabled`<sup>Optional</sup> <a name="ldap_enabled" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.ldapEnabled"></a>
 
 - *Type:* bool | cdktf.IResolvable
 
@@ -312,7 +312,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `project`<sup>Optional</sup> <a name="project" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.project"></a>
+##### `project`<sup>Optional</sup> <a name="project" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.project"></a>
 
 - *Type:* str
 
@@ -320,7 +320,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `replica_zone`<sup>Optional</sup> <a name="replica_zone" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.replicaZone"></a>
+##### `replica_zone`<sup>Optional</sup> <a name="replica_zone" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.replicaZone"></a>
 
 - *Type:* str
 
@@ -330,9 +330,9 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `timeouts`<sup>Optional</sup> <a name="timeouts" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.timeouts"></a>
+##### `timeouts`<sup>Optional</sup> <a name="timeouts" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.timeouts"></a>
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeouts">GoogleNetappStoragePoolTimeouts</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeouts">GoogleNetappStoragePoolTimeouts</a>
 
 timeouts block.
 
@@ -340,7 +340,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `total_iops`<sup>Optional</sup> <a name="total_iops" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.totalIops"></a>
+##### `total_iops`<sup>Optional</sup> <a name="total_iops" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.totalIops"></a>
 
 - *Type:* str
 
@@ -350,7 +350,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `total_throughput_mibps`<sup>Optional</sup> <a name="total_throughput_mibps" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.totalThroughputMibps"></a>
+##### `total_throughput_mibps`<sup>Optional</sup> <a name="total_throughput_mibps" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.totalThroughputMibps"></a>
 
 - *Type:* str
 
@@ -360,7 +360,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `zone`<sup>Optional</sup> <a name="zone" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.zone"></a>
+##### `zone`<sup>Optional</sup> <a name="zone" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.Initializer.parameter.zone"></a>
 
 - *Type:* str
 
@@ -378,50 +378,50 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.toString">to_string</a></code> | Returns a string representation of this construct. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.addOverride">add_override</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.overrideLogicalId">override_logical_id</a></code> | Overrides the auto-generated logical ID with a specific ID. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetOverrideLogicalId">reset_override_logical_id</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.toHclTerraform">to_hcl_terraform</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.toMetadata">to_metadata</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.toTerraform">to_terraform</a></code> | Adds this resource to the terraform JSON output. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.addMoveTarget">add_move_target</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getListAttribute">get_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getStringAttribute">get_string_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.hasResourceMove">has_resource_move</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.importFrom">import_from</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.moveFromId">move_from_id</a></code> | Move the resource corresponding to "id" to this resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.putTimeouts">put_timeouts</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetActiveDirectory">reset_active_directory</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetAllowAutoTiering">reset_allow_auto_tiering</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetCustomPerformanceEnabled">reset_custom_performance_enabled</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetDescription">reset_description</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetEnableHotTierAutoResize">reset_enable_hot_tier_auto_resize</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetHotTierSizeGib">reset_hot_tier_size_gib</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetId">reset_id</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetKmsConfig">reset_kms_config</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetLabels">reset_labels</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetLdapEnabled">reset_ldap_enabled</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetProject">reset_project</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetReplicaZone">reset_replica_zone</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetTimeouts">reset_timeouts</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetTotalIops">reset_total_iops</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetTotalThroughputMibps">reset_total_throughput_mibps</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetZone">reset_zone</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.toString">to_string</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.addOverride">add_override</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.overrideLogicalId">override_logical_id</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetOverrideLogicalId">reset_override_logical_id</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.toHclTerraform">to_hcl_terraform</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.toMetadata">to_metadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.toTerraform">to_terraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.addMoveTarget">add_move_target</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.hasResourceMove">has_resource_move</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.importFrom">import_from</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.moveFromId">move_from_id</a></code> | Move the resource corresponding to "id" to this resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.putTimeouts">put_timeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetActiveDirectory">reset_active_directory</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetAllowAutoTiering">reset_allow_auto_tiering</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetCustomPerformanceEnabled">reset_custom_performance_enabled</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetDescription">reset_description</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetEnableHotTierAutoResize">reset_enable_hot_tier_auto_resize</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetHotTierSizeGib">reset_hot_tier_size_gib</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetId">reset_id</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetKmsConfig">reset_kms_config</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetLabels">reset_labels</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetLdapEnabled">reset_ldap_enabled</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetProject">reset_project</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetReplicaZone">reset_replica_zone</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetTimeouts">reset_timeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetTotalIops">reset_total_iops</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetTotalThroughputMibps">reset_total_throughput_mibps</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetZone">reset_zone</a></code> | *No description.* |
 
 ---
 
-##### `to_string` <a name="to_string" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.toString"></a>
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.toString"></a>
 
 ```python
 def to_string() -> str
@@ -429,7 +429,7 @@ def to_string() -> str
 
 Returns a string representation of this construct.
 
-##### `add_override` <a name="add_override" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.addOverride"></a>
+##### `add_override` <a name="add_override" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.addOverride"></a>
 
 ```python
 def add_override(
@@ -438,19 +438,19 @@ def add_override(
 ) -> None
 ```
 
-###### `path`<sup>Required</sup> <a name="path" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.addOverride.parameter.path"></a>
+###### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.addOverride.parameter.path"></a>
 
 - *Type:* str
 
 ---
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.addOverride.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.addOverride.parameter.value"></a>
 
 - *Type:* typing.Any
 
 ---
 
-##### `override_logical_id` <a name="override_logical_id" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.overrideLogicalId"></a>
+##### `override_logical_id` <a name="override_logical_id" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.overrideLogicalId"></a>
 
 ```python
 def override_logical_id(
@@ -460,7 +460,7 @@ def override_logical_id(
 
 Overrides the auto-generated logical ID with a specific ID.
 
-###### `new_logical_id`<sup>Required</sup> <a name="new_logical_id" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.overrideLogicalId.parameter.newLogicalId"></a>
+###### `new_logical_id`<sup>Required</sup> <a name="new_logical_id" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.overrideLogicalId.parameter.newLogicalId"></a>
 
 - *Type:* str
 
@@ -468,7 +468,7 @@ The new logical ID to use for this stack element.
 
 ---
 
-##### `reset_override_logical_id` <a name="reset_override_logical_id" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetOverrideLogicalId"></a>
+##### `reset_override_logical_id` <a name="reset_override_logical_id" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetOverrideLogicalId"></a>
 
 ```python
 def reset_override_logical_id() -> None
@@ -476,19 +476,19 @@ def reset_override_logical_id() -> None
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
 
-##### `to_hcl_terraform` <a name="to_hcl_terraform" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.toHclTerraform"></a>
+##### `to_hcl_terraform` <a name="to_hcl_terraform" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.toHclTerraform"></a>
 
 ```python
 def to_hcl_terraform() -> typing.Any
 ```
 
-##### `to_metadata` <a name="to_metadata" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.toMetadata"></a>
+##### `to_metadata` <a name="to_metadata" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.toMetadata"></a>
 
 ```python
 def to_metadata() -> typing.Any
 ```
 
-##### `to_terraform` <a name="to_terraform" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.toTerraform"></a>
+##### `to_terraform` <a name="to_terraform" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.toTerraform"></a>
 
 ```python
 def to_terraform() -> typing.Any
@@ -496,7 +496,7 @@ def to_terraform() -> typing.Any
 
 Adds this resource to the terraform JSON output.
 
-##### `add_move_target` <a name="add_move_target" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.addMoveTarget"></a>
+##### `add_move_target` <a name="add_move_target" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.addMoveTarget"></a>
 
 ```python
 def add_move_target(
@@ -506,7 +506,7 @@ def add_move_target(
 
 Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 
-###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.addMoveTarget.parameter.moveTarget"></a>
+###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.addMoveTarget.parameter.moveTarget"></a>
 
 - *Type:* str
 
@@ -514,7 +514,7 @@ The string move target that will correspond to this resource.
 
 ---
 
-##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getAnyMapAttribute"></a>
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getAnyMapAttribute"></a>
 
 ```python
 def get_any_map_attribute(
@@ -522,13 +522,13 @@ def get_any_map_attribute(
 ) -> typing.Mapping[typing.Any]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getBooleanAttribute"></a>
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getBooleanAttribute"></a>
 
 ```python
 def get_boolean_attribute(
@@ -536,13 +536,13 @@ def get_boolean_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getBooleanMapAttribute"></a>
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getBooleanMapAttribute"></a>
 
 ```python
 def get_boolean_map_attribute(
@@ -550,13 +550,13 @@ def get_boolean_map_attribute(
 ) -> typing.Mapping[bool]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_list_attribute` <a name="get_list_attribute" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getListAttribute"></a>
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getListAttribute"></a>
 
 ```python
 def get_list_attribute(
@@ -564,13 +564,13 @@ def get_list_attribute(
 ) -> typing.List[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_attribute` <a name="get_number_attribute" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getNumberAttribute"></a>
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getNumberAttribute"></a>
 
 ```python
 def get_number_attribute(
@@ -578,13 +578,13 @@ def get_number_attribute(
 ) -> typing.Union[int, float]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getNumberListAttribute"></a>
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getNumberListAttribute"></a>
 
 ```python
 def get_number_list_attribute(
@@ -592,13 +592,13 @@ def get_number_list_attribute(
 ) -> typing.List[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getNumberMapAttribute"></a>
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getNumberMapAttribute"></a>
 
 ```python
 def get_number_map_attribute(
@@ -606,13 +606,13 @@ def get_number_map_attribute(
 ) -> typing.Mapping[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_attribute` <a name="get_string_attribute" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getStringAttribute"></a>
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getStringAttribute"></a>
 
 ```python
 def get_string_attribute(
@@ -620,13 +620,13 @@ def get_string_attribute(
 ) -> str
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getStringMapAttribute"></a>
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getStringMapAttribute"></a>
 
 ```python
 def get_string_map_attribute(
@@ -634,19 +634,19 @@ def get_string_map_attribute(
 ) -> typing.Mapping[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `has_resource_move` <a name="has_resource_move" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.hasResourceMove"></a>
+##### `has_resource_move` <a name="has_resource_move" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.hasResourceMove"></a>
 
 ```python
 def has_resource_move() -> TerraformResourceMoveByTarget | TerraformResourceMoveById
 ```
 
-##### `import_from` <a name="import_from" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.importFrom"></a>
+##### `import_from` <a name="import_from" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.importFrom"></a>
 
 ```python
 def import_from(
@@ -655,19 +655,19 @@ def import_from(
 ) -> None
 ```
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.importFrom.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.importFrom.parameter.id"></a>
 
 - *Type:* str
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.importFrom.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.importFrom.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
 ---
 
-##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.interpolationForAttribute"></a>
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.interpolationForAttribute"></a>
 
 ```python
 def interpolation_for_attribute(
@@ -675,13 +675,13 @@ def interpolation_for_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.interpolationForAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.interpolationForAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `move_from_id` <a name="move_from_id" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.moveFromId"></a>
+##### `move_from_id` <a name="move_from_id" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.moveFromId"></a>
 
 ```python
 def move_from_id(
@@ -693,7 +693,7 @@ Move the resource corresponding to "id" to this resource.
 
 Note that the resource being moved from must be marked as moved using it's instance function.
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.moveFromId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.moveFromId.parameter.id"></a>
 
 - *Type:* str
 
@@ -701,7 +701,7 @@ Full id of resource being moved from, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `move_to` <a name="move_to" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.moveTo"></a>
+##### `move_to` <a name="move_to" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.moveTo"></a>
 
 ```python
 def move_to(
@@ -712,7 +712,7 @@ def move_to(
 
 Moves this resource to the target resource given by moveTarget.
 
-###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.moveTo.parameter.moveTarget"></a>
+###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.moveTo.parameter.moveTarget"></a>
 
 - *Type:* str
 
@@ -720,7 +720,7 @@ The previously set user defined string set by .addMoveTarget() corresponding to 
 
 ---
 
-###### `index`<sup>Optional</sup> <a name="index" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.moveTo.parameter.index"></a>
+###### `index`<sup>Optional</sup> <a name="index" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.moveTo.parameter.index"></a>
 
 - *Type:* str | typing.Union[int, float]
 
@@ -728,7 +728,7 @@ Optional The index corresponding to the key the resource is to appear in the for
 
 ---
 
-##### `move_to_id` <a name="move_to_id" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.moveToId"></a>
+##### `move_to_id` <a name="move_to_id" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.moveToId"></a>
 
 ```python
 def move_to_id(
@@ -738,7 +738,7 @@ def move_to_id(
 
 Moves this resource to the resource corresponding to "id".
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.moveToId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.moveToId.parameter.id"></a>
 
 - *Type:* str
 
@@ -746,7 +746,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `put_timeouts` <a name="put_timeouts" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.putTimeouts"></a>
+##### `put_timeouts` <a name="put_timeouts" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.putTimeouts"></a>
 
 ```python
 def put_timeouts(
@@ -756,7 +756,7 @@ def put_timeouts(
 ) -> None
 ```
 
-###### `create`<sup>Optional</sup> <a name="create" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.putTimeouts.parameter.create"></a>
+###### `create`<sup>Optional</sup> <a name="create" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.putTimeouts.parameter.create"></a>
 
 - *Type:* str
 
@@ -764,7 +764,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-###### `delete`<sup>Optional</sup> <a name="delete" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.putTimeouts.parameter.delete"></a>
+###### `delete`<sup>Optional</sup> <a name="delete" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.putTimeouts.parameter.delete"></a>
 
 - *Type:* str
 
@@ -772,7 +772,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-###### `update`<sup>Optional</sup> <a name="update" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.putTimeouts.parameter.update"></a>
+###### `update`<sup>Optional</sup> <a name="update" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.putTimeouts.parameter.update"></a>
 
 - *Type:* str
 
@@ -780,97 +780,97 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `reset_active_directory` <a name="reset_active_directory" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetActiveDirectory"></a>
+##### `reset_active_directory` <a name="reset_active_directory" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetActiveDirectory"></a>
 
 ```python
 def reset_active_directory() -> None
 ```
 
-##### `reset_allow_auto_tiering` <a name="reset_allow_auto_tiering" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetAllowAutoTiering"></a>
+##### `reset_allow_auto_tiering` <a name="reset_allow_auto_tiering" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetAllowAutoTiering"></a>
 
 ```python
 def reset_allow_auto_tiering() -> None
 ```
 
-##### `reset_custom_performance_enabled` <a name="reset_custom_performance_enabled" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetCustomPerformanceEnabled"></a>
+##### `reset_custom_performance_enabled` <a name="reset_custom_performance_enabled" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetCustomPerformanceEnabled"></a>
 
 ```python
 def reset_custom_performance_enabled() -> None
 ```
 
-##### `reset_description` <a name="reset_description" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetDescription"></a>
+##### `reset_description` <a name="reset_description" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetDescription"></a>
 
 ```python
 def reset_description() -> None
 ```
 
-##### `reset_enable_hot_tier_auto_resize` <a name="reset_enable_hot_tier_auto_resize" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetEnableHotTierAutoResize"></a>
+##### `reset_enable_hot_tier_auto_resize` <a name="reset_enable_hot_tier_auto_resize" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetEnableHotTierAutoResize"></a>
 
 ```python
 def reset_enable_hot_tier_auto_resize() -> None
 ```
 
-##### `reset_hot_tier_size_gib` <a name="reset_hot_tier_size_gib" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetHotTierSizeGib"></a>
+##### `reset_hot_tier_size_gib` <a name="reset_hot_tier_size_gib" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetHotTierSizeGib"></a>
 
 ```python
 def reset_hot_tier_size_gib() -> None
 ```
 
-##### `reset_id` <a name="reset_id" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetId"></a>
+##### `reset_id` <a name="reset_id" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetId"></a>
 
 ```python
 def reset_id() -> None
 ```
 
-##### `reset_kms_config` <a name="reset_kms_config" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetKmsConfig"></a>
+##### `reset_kms_config` <a name="reset_kms_config" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetKmsConfig"></a>
 
 ```python
 def reset_kms_config() -> None
 ```
 
-##### `reset_labels` <a name="reset_labels" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetLabels"></a>
+##### `reset_labels` <a name="reset_labels" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetLabels"></a>
 
 ```python
 def reset_labels() -> None
 ```
 
-##### `reset_ldap_enabled` <a name="reset_ldap_enabled" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetLdapEnabled"></a>
+##### `reset_ldap_enabled` <a name="reset_ldap_enabled" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetLdapEnabled"></a>
 
 ```python
 def reset_ldap_enabled() -> None
 ```
 
-##### `reset_project` <a name="reset_project" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetProject"></a>
+##### `reset_project` <a name="reset_project" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetProject"></a>
 
 ```python
 def reset_project() -> None
 ```
 
-##### `reset_replica_zone` <a name="reset_replica_zone" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetReplicaZone"></a>
+##### `reset_replica_zone` <a name="reset_replica_zone" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetReplicaZone"></a>
 
 ```python
 def reset_replica_zone() -> None
 ```
 
-##### `reset_timeouts` <a name="reset_timeouts" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetTimeouts"></a>
+##### `reset_timeouts` <a name="reset_timeouts" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetTimeouts"></a>
 
 ```python
 def reset_timeouts() -> None
 ```
 
-##### `reset_total_iops` <a name="reset_total_iops" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetTotalIops"></a>
+##### `reset_total_iops` <a name="reset_total_iops" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetTotalIops"></a>
 
 ```python
 def reset_total_iops() -> None
 ```
 
-##### `reset_total_throughput_mibps` <a name="reset_total_throughput_mibps" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetTotalThroughputMibps"></a>
+##### `reset_total_throughput_mibps` <a name="reset_total_throughput_mibps" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetTotalThroughputMibps"></a>
 
 ```python
 def reset_total_throughput_mibps() -> None
 ```
 
-##### `reset_zone` <a name="reset_zone" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetZone"></a>
+##### `reset_zone` <a name="reset_zone" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.resetZone"></a>
 
 ```python
 def reset_zone() -> None
@@ -880,17 +880,17 @@ def reset_zone() -> None
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.isConstruct">is_construct</a></code> | Checks if `x` is a construct. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.isTerraformElement">is_terraform_element</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.isTerraformResource">is_terraform_resource</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.generateConfigForImport">generate_config_for_import</a></code> | Generates CDKTF code for importing a GoogleNetappStoragePool resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.isConstruct">is_construct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.isTerraformElement">is_terraform_element</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.isTerraformResource">is_terraform_resource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.generateConfigForImport">generate_config_for_import</a></code> | Generates CDKTF code for importing a GoogleNetappStoragePool resource upon running "cdktf plan <stack-name>". |
 
 ---
 
-##### `is_construct` <a name="is_construct" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.isConstruct"></a>
+##### `is_construct` <a name="is_construct" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.isConstruct"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_netapp_storage_pool
+from cdktn_provider_google_beta import google_netapp_storage_pool
 
 googleNetappStoragePool.GoogleNetappStoragePool.is_construct(
   x: typing.Any
@@ -913,7 +913,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.isConstruct.parameter.x"></a>
 
 - *Type:* typing.Any
 
@@ -921,42 +921,42 @@ Any object.
 
 ---
 
-##### `is_terraform_element` <a name="is_terraform_element" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.isTerraformElement"></a>
+##### `is_terraform_element` <a name="is_terraform_element" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.isTerraformElement"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_netapp_storage_pool
+from cdktn_provider_google_beta import google_netapp_storage_pool
 
 googleNetappStoragePool.GoogleNetappStoragePool.is_terraform_element(
   x: typing.Any
 )
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.isTerraformElement.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.isTerraformElement.parameter.x"></a>
 
 - *Type:* typing.Any
 
 ---
 
-##### `is_terraform_resource` <a name="is_terraform_resource" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.isTerraformResource"></a>
+##### `is_terraform_resource` <a name="is_terraform_resource" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.isTerraformResource"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_netapp_storage_pool
+from cdktn_provider_google_beta import google_netapp_storage_pool
 
 googleNetappStoragePool.GoogleNetappStoragePool.is_terraform_resource(
   x: typing.Any
 )
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.isTerraformResource.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.isTerraformResource.parameter.x"></a>
 
 - *Type:* typing.Any
 
 ---
 
-##### `generate_config_for_import` <a name="generate_config_for_import" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.generateConfigForImport"></a>
+##### `generate_config_for_import` <a name="generate_config_for_import" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.generateConfigForImport"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_netapp_storage_pool
+from cdktn_provider_google_beta import google_netapp_storage_pool
 
 googleNetappStoragePool.GoogleNetappStoragePool.generate_config_for_import(
   scope: Construct,
@@ -968,7 +968,7 @@ googleNetappStoragePool.GoogleNetappStoragePool.generate_config_for_import(
 
 Generates CDKTF code for importing a GoogleNetappStoragePool resource upon running "cdktf plan <stack-name>".
 
-###### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.generateConfigForImport.parameter.scope"></a>
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.generateConfigForImport.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
@@ -976,7 +976,7 @@ The scope in which to define this construct.
 
 ---
 
-###### `import_to_id`<sup>Required</sup> <a name="import_to_id" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.generateConfigForImport.parameter.importToId"></a>
+###### `import_to_id`<sup>Required</sup> <a name="import_to_id" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.generateConfigForImport.parameter.importToId"></a>
 
 - *Type:* str
 
@@ -984,7 +984,7 @@ The construct id used in the generated config for the GoogleNetappStoragePool to
 
 ---
 
-###### `import_from_id`<sup>Required</sup> <a name="import_from_id" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.generateConfigForImport.parameter.importFromId"></a>
+###### `import_from_id`<sup>Required</sup> <a name="import_from_id" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.generateConfigForImport.parameter.importFromId"></a>
 
 - *Type:* str
 
@@ -994,7 +994,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.generateConfigForImport.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.generateConfigForImport.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
@@ -1006,71 +1006,71 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.cdktfStack">cdktf_stack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.friendlyUniqueId">friendly_unique_id</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.terraformMetaArguments">terraform_meta_arguments</a></code> | <code>typing.Mapping[typing.Any]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.terraformResourceType">terraform_resource_type</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.terraformGeneratorMetadata">terraform_generator_metadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.dependsOn">depends_on</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.effectiveLabels">effective_labels</a></code> | <code>cdktf.StringMap</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.encryptionType">encryption_type</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.terraformLabels">terraform_labels</a></code> | <code>cdktf.StringMap</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.timeouts">timeouts</a></code> | <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference">GoogleNetappStoragePoolTimeoutsOutputReference</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.volumeCapacityGib">volume_capacity_gib</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.volumeCount">volume_count</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.activeDirectoryInput">active_directory_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.allowAutoTieringInput">allow_auto_tiering_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.capacityGibInput">capacity_gib_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.customPerformanceEnabledInput">custom_performance_enabled_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.descriptionInput">description_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.enableHotTierAutoResizeInput">enable_hot_tier_auto_resize_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.hotTierSizeGibInput">hot_tier_size_gib_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.kmsConfigInput">kms_config_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.labelsInput">labels_input</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.ldapEnabledInput">ldap_enabled_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.locationInput">location_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.nameInput">name_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.networkInput">network_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.projectInput">project_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.replicaZoneInput">replica_zone_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.serviceLevelInput">service_level_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.timeoutsInput">timeouts_input</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeouts">GoogleNetappStoragePoolTimeouts</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.totalIopsInput">total_iops_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.totalThroughputMibpsInput">total_throughput_mibps_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.zoneInput">zone_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.activeDirectory">active_directory</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.allowAutoTiering">allow_auto_tiering</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.capacityGib">capacity_gib</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.customPerformanceEnabled">custom_performance_enabled</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.description">description</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.enableHotTierAutoResize">enable_hot_tier_auto_resize</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.hotTierSizeGib">hot_tier_size_gib</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.id">id</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.kmsConfig">kms_config</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.labels">labels</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.ldapEnabled">ldap_enabled</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.location">location</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.name">name</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.network">network</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.project">project</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.replicaZone">replica_zone</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.serviceLevel">service_level</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.totalIops">total_iops</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.totalThroughputMibps">total_throughput_mibps</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.zone">zone</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.cdktfStack">cdktf_stack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.friendlyUniqueId">friendly_unique_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.terraformMetaArguments">terraform_meta_arguments</a></code> | <code>typing.Mapping[typing.Any]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.terraformResourceType">terraform_resource_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.terraformGeneratorMetadata">terraform_generator_metadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.dependsOn">depends_on</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.effectiveLabels">effective_labels</a></code> | <code>cdktf.StringMap</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.encryptionType">encryption_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.terraformLabels">terraform_labels</a></code> | <code>cdktf.StringMap</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference">GoogleNetappStoragePoolTimeoutsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.volumeCapacityGib">volume_capacity_gib</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.volumeCount">volume_count</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.activeDirectoryInput">active_directory_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.allowAutoTieringInput">allow_auto_tiering_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.capacityGibInput">capacity_gib_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.customPerformanceEnabledInput">custom_performance_enabled_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.descriptionInput">description_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.enableHotTierAutoResizeInput">enable_hot_tier_auto_resize_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.hotTierSizeGibInput">hot_tier_size_gib_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.kmsConfigInput">kms_config_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.labelsInput">labels_input</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.ldapEnabledInput">ldap_enabled_input</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.locationInput">location_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.nameInput">name_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.networkInput">network_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.projectInput">project_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.replicaZoneInput">replica_zone_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.serviceLevelInput">service_level_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.timeoutsInput">timeouts_input</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeouts">GoogleNetappStoragePoolTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.totalIopsInput">total_iops_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.totalThroughputMibpsInput">total_throughput_mibps_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.zoneInput">zone_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.activeDirectory">active_directory</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.allowAutoTiering">allow_auto_tiering</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.capacityGib">capacity_gib</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.customPerformanceEnabled">custom_performance_enabled</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.description">description</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.enableHotTierAutoResize">enable_hot_tier_auto_resize</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.hotTierSizeGib">hot_tier_size_gib</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.id">id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.kmsConfig">kms_config</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.labels">labels</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.ldapEnabled">ldap_enabled</a></code> | <code>bool \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.location">location</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.name">name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.network">network</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.project">project</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.replicaZone">replica_zone</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.serviceLevel">service_level</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.totalIops">total_iops</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.totalThroughputMibps">total_throughput_mibps</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.zone">zone</a></code> | <code>str</code> | *No description.* |
 
 ---
 
-##### `node`<sup>Required</sup> <a name="node" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.node"></a>
+##### `node`<sup>Required</sup> <a name="node" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.node"></a>
 
 ```python
 node: Node
@@ -1082,7 +1082,7 @@ The tree node.
 
 ---
 
-##### `cdktf_stack`<sup>Required</sup> <a name="cdktf_stack" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.cdktfStack"></a>
+##### `cdktf_stack`<sup>Required</sup> <a name="cdktf_stack" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.cdktfStack"></a>
 
 ```python
 cdktf_stack: TerraformStack
@@ -1092,7 +1092,7 @@ cdktf_stack: TerraformStack
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.fqn"></a>
 
 ```python
 fqn: str
@@ -1102,7 +1102,7 @@ fqn: str
 
 ---
 
-##### `friendly_unique_id`<sup>Required</sup> <a name="friendly_unique_id" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.friendlyUniqueId"></a>
+##### `friendly_unique_id`<sup>Required</sup> <a name="friendly_unique_id" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.friendlyUniqueId"></a>
 
 ```python
 friendly_unique_id: str
@@ -1112,7 +1112,7 @@ friendly_unique_id: str
 
 ---
 
-##### `terraform_meta_arguments`<sup>Required</sup> <a name="terraform_meta_arguments" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.terraformMetaArguments"></a>
+##### `terraform_meta_arguments`<sup>Required</sup> <a name="terraform_meta_arguments" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.terraformMetaArguments"></a>
 
 ```python
 terraform_meta_arguments: typing.Mapping[typing.Any]
@@ -1122,7 +1122,7 @@ terraform_meta_arguments: typing.Mapping[typing.Any]
 
 ---
 
-##### `terraform_resource_type`<sup>Required</sup> <a name="terraform_resource_type" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.terraformResourceType"></a>
+##### `terraform_resource_type`<sup>Required</sup> <a name="terraform_resource_type" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.terraformResourceType"></a>
 
 ```python
 terraform_resource_type: str
@@ -1132,7 +1132,7 @@ terraform_resource_type: str
 
 ---
 
-##### `terraform_generator_metadata`<sup>Optional</sup> <a name="terraform_generator_metadata" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.terraformGeneratorMetadata"></a>
+##### `terraform_generator_metadata`<sup>Optional</sup> <a name="terraform_generator_metadata" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.terraformGeneratorMetadata"></a>
 
 ```python
 terraform_generator_metadata: TerraformProviderGeneratorMetadata
@@ -1142,7 +1142,7 @@ terraform_generator_metadata: TerraformProviderGeneratorMetadata
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.connection"></a>
 
 ```python
 connection: SSHProvisionerConnection | WinrmProvisionerConnection
@@ -1152,7 +1152,7 @@ connection: SSHProvisionerConnection | WinrmProvisionerConnection
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.count"></a>
 
 ```python
 count: typing.Union[int, float] | TerraformCount
@@ -1162,7 +1162,7 @@ count: typing.Union[int, float] | TerraformCount
 
 ---
 
-##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.dependsOn"></a>
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.dependsOn"></a>
 
 ```python
 depends_on: typing.List[str]
@@ -1172,7 +1172,7 @@ depends_on: typing.List[str]
 
 ---
 
-##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.forEach"></a>
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.forEach"></a>
 
 ```python
 for_each: ITerraformIterator
@@ -1182,7 +1182,7 @@ for_each: ITerraformIterator
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.lifecycle"></a>
 
 ```python
 lifecycle: TerraformResourceLifecycle
@@ -1192,7 +1192,7 @@ lifecycle: TerraformResourceLifecycle
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.provider"></a>
 
 ```python
 provider: TerraformProvider
@@ -1202,7 +1202,7 @@ provider: TerraformProvider
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.provisioners"></a>
 
 ```python
 provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner]
@@ -1212,7 +1212,7 @@ provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecPro
 
 ---
 
-##### `effective_labels`<sup>Required</sup> <a name="effective_labels" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.effectiveLabels"></a>
+##### `effective_labels`<sup>Required</sup> <a name="effective_labels" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.effectiveLabels"></a>
 
 ```python
 effective_labels: StringMap
@@ -1222,7 +1222,7 @@ effective_labels: StringMap
 
 ---
 
-##### `encryption_type`<sup>Required</sup> <a name="encryption_type" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.encryptionType"></a>
+##### `encryption_type`<sup>Required</sup> <a name="encryption_type" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.encryptionType"></a>
 
 ```python
 encryption_type: str
@@ -1232,7 +1232,7 @@ encryption_type: str
 
 ---
 
-##### `terraform_labels`<sup>Required</sup> <a name="terraform_labels" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.terraformLabels"></a>
+##### `terraform_labels`<sup>Required</sup> <a name="terraform_labels" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.terraformLabels"></a>
 
 ```python
 terraform_labels: StringMap
@@ -1242,17 +1242,17 @@ terraform_labels: StringMap
 
 ---
 
-##### `timeouts`<sup>Required</sup> <a name="timeouts" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.timeouts"></a>
+##### `timeouts`<sup>Required</sup> <a name="timeouts" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.timeouts"></a>
 
 ```python
 timeouts: GoogleNetappStoragePoolTimeoutsOutputReference
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference">GoogleNetappStoragePoolTimeoutsOutputReference</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference">GoogleNetappStoragePoolTimeoutsOutputReference</a>
 
 ---
 
-##### `volume_capacity_gib`<sup>Required</sup> <a name="volume_capacity_gib" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.volumeCapacityGib"></a>
+##### `volume_capacity_gib`<sup>Required</sup> <a name="volume_capacity_gib" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.volumeCapacityGib"></a>
 
 ```python
 volume_capacity_gib: str
@@ -1262,7 +1262,7 @@ volume_capacity_gib: str
 
 ---
 
-##### `volume_count`<sup>Required</sup> <a name="volume_count" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.volumeCount"></a>
+##### `volume_count`<sup>Required</sup> <a name="volume_count" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.volumeCount"></a>
 
 ```python
 volume_count: typing.Union[int, float]
@@ -1272,7 +1272,7 @@ volume_count: typing.Union[int, float]
 
 ---
 
-##### `active_directory_input`<sup>Optional</sup> <a name="active_directory_input" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.activeDirectoryInput"></a>
+##### `active_directory_input`<sup>Optional</sup> <a name="active_directory_input" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.activeDirectoryInput"></a>
 
 ```python
 active_directory_input: str
@@ -1282,7 +1282,7 @@ active_directory_input: str
 
 ---
 
-##### `allow_auto_tiering_input`<sup>Optional</sup> <a name="allow_auto_tiering_input" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.allowAutoTieringInput"></a>
+##### `allow_auto_tiering_input`<sup>Optional</sup> <a name="allow_auto_tiering_input" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.allowAutoTieringInput"></a>
 
 ```python
 allow_auto_tiering_input: bool | IResolvable
@@ -1292,7 +1292,7 @@ allow_auto_tiering_input: bool | IResolvable
 
 ---
 
-##### `capacity_gib_input`<sup>Optional</sup> <a name="capacity_gib_input" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.capacityGibInput"></a>
+##### `capacity_gib_input`<sup>Optional</sup> <a name="capacity_gib_input" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.capacityGibInput"></a>
 
 ```python
 capacity_gib_input: str
@@ -1302,7 +1302,7 @@ capacity_gib_input: str
 
 ---
 
-##### `custom_performance_enabled_input`<sup>Optional</sup> <a name="custom_performance_enabled_input" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.customPerformanceEnabledInput"></a>
+##### `custom_performance_enabled_input`<sup>Optional</sup> <a name="custom_performance_enabled_input" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.customPerformanceEnabledInput"></a>
 
 ```python
 custom_performance_enabled_input: bool | IResolvable
@@ -1312,7 +1312,7 @@ custom_performance_enabled_input: bool | IResolvable
 
 ---
 
-##### `description_input`<sup>Optional</sup> <a name="description_input" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.descriptionInput"></a>
+##### `description_input`<sup>Optional</sup> <a name="description_input" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.descriptionInput"></a>
 
 ```python
 description_input: str
@@ -1322,7 +1322,7 @@ description_input: str
 
 ---
 
-##### `enable_hot_tier_auto_resize_input`<sup>Optional</sup> <a name="enable_hot_tier_auto_resize_input" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.enableHotTierAutoResizeInput"></a>
+##### `enable_hot_tier_auto_resize_input`<sup>Optional</sup> <a name="enable_hot_tier_auto_resize_input" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.enableHotTierAutoResizeInput"></a>
 
 ```python
 enable_hot_tier_auto_resize_input: bool | IResolvable
@@ -1332,7 +1332,7 @@ enable_hot_tier_auto_resize_input: bool | IResolvable
 
 ---
 
-##### `hot_tier_size_gib_input`<sup>Optional</sup> <a name="hot_tier_size_gib_input" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.hotTierSizeGibInput"></a>
+##### `hot_tier_size_gib_input`<sup>Optional</sup> <a name="hot_tier_size_gib_input" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.hotTierSizeGibInput"></a>
 
 ```python
 hot_tier_size_gib_input: str
@@ -1342,7 +1342,7 @@ hot_tier_size_gib_input: str
 
 ---
 
-##### `id_input`<sup>Optional</sup> <a name="id_input" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.idInput"></a>
+##### `id_input`<sup>Optional</sup> <a name="id_input" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.idInput"></a>
 
 ```python
 id_input: str
@@ -1352,7 +1352,7 @@ id_input: str
 
 ---
 
-##### `kms_config_input`<sup>Optional</sup> <a name="kms_config_input" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.kmsConfigInput"></a>
+##### `kms_config_input`<sup>Optional</sup> <a name="kms_config_input" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.kmsConfigInput"></a>
 
 ```python
 kms_config_input: str
@@ -1362,7 +1362,7 @@ kms_config_input: str
 
 ---
 
-##### `labels_input`<sup>Optional</sup> <a name="labels_input" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.labelsInput"></a>
+##### `labels_input`<sup>Optional</sup> <a name="labels_input" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.labelsInput"></a>
 
 ```python
 labels_input: typing.Mapping[str]
@@ -1372,7 +1372,7 @@ labels_input: typing.Mapping[str]
 
 ---
 
-##### `ldap_enabled_input`<sup>Optional</sup> <a name="ldap_enabled_input" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.ldapEnabledInput"></a>
+##### `ldap_enabled_input`<sup>Optional</sup> <a name="ldap_enabled_input" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.ldapEnabledInput"></a>
 
 ```python
 ldap_enabled_input: bool | IResolvable
@@ -1382,7 +1382,7 @@ ldap_enabled_input: bool | IResolvable
 
 ---
 
-##### `location_input`<sup>Optional</sup> <a name="location_input" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.locationInput"></a>
+##### `location_input`<sup>Optional</sup> <a name="location_input" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.locationInput"></a>
 
 ```python
 location_input: str
@@ -1392,7 +1392,7 @@ location_input: str
 
 ---
 
-##### `name_input`<sup>Optional</sup> <a name="name_input" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.nameInput"></a>
+##### `name_input`<sup>Optional</sup> <a name="name_input" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.nameInput"></a>
 
 ```python
 name_input: str
@@ -1402,7 +1402,7 @@ name_input: str
 
 ---
 
-##### `network_input`<sup>Optional</sup> <a name="network_input" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.networkInput"></a>
+##### `network_input`<sup>Optional</sup> <a name="network_input" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.networkInput"></a>
 
 ```python
 network_input: str
@@ -1412,7 +1412,7 @@ network_input: str
 
 ---
 
-##### `project_input`<sup>Optional</sup> <a name="project_input" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.projectInput"></a>
+##### `project_input`<sup>Optional</sup> <a name="project_input" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.projectInput"></a>
 
 ```python
 project_input: str
@@ -1422,7 +1422,7 @@ project_input: str
 
 ---
 
-##### `replica_zone_input`<sup>Optional</sup> <a name="replica_zone_input" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.replicaZoneInput"></a>
+##### `replica_zone_input`<sup>Optional</sup> <a name="replica_zone_input" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.replicaZoneInput"></a>
 
 ```python
 replica_zone_input: str
@@ -1432,7 +1432,7 @@ replica_zone_input: str
 
 ---
 
-##### `service_level_input`<sup>Optional</sup> <a name="service_level_input" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.serviceLevelInput"></a>
+##### `service_level_input`<sup>Optional</sup> <a name="service_level_input" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.serviceLevelInput"></a>
 
 ```python
 service_level_input: str
@@ -1442,17 +1442,17 @@ service_level_input: str
 
 ---
 
-##### `timeouts_input`<sup>Optional</sup> <a name="timeouts_input" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.timeoutsInput"></a>
+##### `timeouts_input`<sup>Optional</sup> <a name="timeouts_input" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.timeoutsInput"></a>
 
 ```python
 timeouts_input: IResolvable | GoogleNetappStoragePoolTimeouts
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeouts">GoogleNetappStoragePoolTimeouts</a>
+- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeouts">GoogleNetappStoragePoolTimeouts</a>
 
 ---
 
-##### `total_iops_input`<sup>Optional</sup> <a name="total_iops_input" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.totalIopsInput"></a>
+##### `total_iops_input`<sup>Optional</sup> <a name="total_iops_input" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.totalIopsInput"></a>
 
 ```python
 total_iops_input: str
@@ -1462,7 +1462,7 @@ total_iops_input: str
 
 ---
 
-##### `total_throughput_mibps_input`<sup>Optional</sup> <a name="total_throughput_mibps_input" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.totalThroughputMibpsInput"></a>
+##### `total_throughput_mibps_input`<sup>Optional</sup> <a name="total_throughput_mibps_input" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.totalThroughputMibpsInput"></a>
 
 ```python
 total_throughput_mibps_input: str
@@ -1472,7 +1472,7 @@ total_throughput_mibps_input: str
 
 ---
 
-##### `zone_input`<sup>Optional</sup> <a name="zone_input" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.zoneInput"></a>
+##### `zone_input`<sup>Optional</sup> <a name="zone_input" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.zoneInput"></a>
 
 ```python
 zone_input: str
@@ -1482,7 +1482,7 @@ zone_input: str
 
 ---
 
-##### `active_directory`<sup>Required</sup> <a name="active_directory" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.activeDirectory"></a>
+##### `active_directory`<sup>Required</sup> <a name="active_directory" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.activeDirectory"></a>
 
 ```python
 active_directory: str
@@ -1492,7 +1492,7 @@ active_directory: str
 
 ---
 
-##### `allow_auto_tiering`<sup>Required</sup> <a name="allow_auto_tiering" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.allowAutoTiering"></a>
+##### `allow_auto_tiering`<sup>Required</sup> <a name="allow_auto_tiering" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.allowAutoTiering"></a>
 
 ```python
 allow_auto_tiering: bool | IResolvable
@@ -1502,7 +1502,7 @@ allow_auto_tiering: bool | IResolvable
 
 ---
 
-##### `capacity_gib`<sup>Required</sup> <a name="capacity_gib" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.capacityGib"></a>
+##### `capacity_gib`<sup>Required</sup> <a name="capacity_gib" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.capacityGib"></a>
 
 ```python
 capacity_gib: str
@@ -1512,7 +1512,7 @@ capacity_gib: str
 
 ---
 
-##### `custom_performance_enabled`<sup>Required</sup> <a name="custom_performance_enabled" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.customPerformanceEnabled"></a>
+##### `custom_performance_enabled`<sup>Required</sup> <a name="custom_performance_enabled" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.customPerformanceEnabled"></a>
 
 ```python
 custom_performance_enabled: bool | IResolvable
@@ -1522,7 +1522,7 @@ custom_performance_enabled: bool | IResolvable
 
 ---
 
-##### `description`<sup>Required</sup> <a name="description" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.description"></a>
+##### `description`<sup>Required</sup> <a name="description" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.description"></a>
 
 ```python
 description: str
@@ -1532,7 +1532,7 @@ description: str
 
 ---
 
-##### `enable_hot_tier_auto_resize`<sup>Required</sup> <a name="enable_hot_tier_auto_resize" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.enableHotTierAutoResize"></a>
+##### `enable_hot_tier_auto_resize`<sup>Required</sup> <a name="enable_hot_tier_auto_resize" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.enableHotTierAutoResize"></a>
 
 ```python
 enable_hot_tier_auto_resize: bool | IResolvable
@@ -1542,7 +1542,7 @@ enable_hot_tier_auto_resize: bool | IResolvable
 
 ---
 
-##### `hot_tier_size_gib`<sup>Required</sup> <a name="hot_tier_size_gib" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.hotTierSizeGib"></a>
+##### `hot_tier_size_gib`<sup>Required</sup> <a name="hot_tier_size_gib" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.hotTierSizeGib"></a>
 
 ```python
 hot_tier_size_gib: str
@@ -1552,7 +1552,7 @@ hot_tier_size_gib: str
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.id"></a>
 
 ```python
 id: str
@@ -1562,7 +1562,7 @@ id: str
 
 ---
 
-##### `kms_config`<sup>Required</sup> <a name="kms_config" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.kmsConfig"></a>
+##### `kms_config`<sup>Required</sup> <a name="kms_config" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.kmsConfig"></a>
 
 ```python
 kms_config: str
@@ -1572,7 +1572,7 @@ kms_config: str
 
 ---
 
-##### `labels`<sup>Required</sup> <a name="labels" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.labels"></a>
+##### `labels`<sup>Required</sup> <a name="labels" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.labels"></a>
 
 ```python
 labels: typing.Mapping[str]
@@ -1582,7 +1582,7 @@ labels: typing.Mapping[str]
 
 ---
 
-##### `ldap_enabled`<sup>Required</sup> <a name="ldap_enabled" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.ldapEnabled"></a>
+##### `ldap_enabled`<sup>Required</sup> <a name="ldap_enabled" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.ldapEnabled"></a>
 
 ```python
 ldap_enabled: bool | IResolvable
@@ -1592,7 +1592,7 @@ ldap_enabled: bool | IResolvable
 
 ---
 
-##### `location`<sup>Required</sup> <a name="location" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.location"></a>
+##### `location`<sup>Required</sup> <a name="location" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.location"></a>
 
 ```python
 location: str
@@ -1602,7 +1602,7 @@ location: str
 
 ---
 
-##### `name`<sup>Required</sup> <a name="name" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.name"></a>
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.name"></a>
 
 ```python
 name: str
@@ -1612,7 +1612,7 @@ name: str
 
 ---
 
-##### `network`<sup>Required</sup> <a name="network" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.network"></a>
+##### `network`<sup>Required</sup> <a name="network" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.network"></a>
 
 ```python
 network: str
@@ -1622,7 +1622,7 @@ network: str
 
 ---
 
-##### `project`<sup>Required</sup> <a name="project" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.project"></a>
+##### `project`<sup>Required</sup> <a name="project" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.project"></a>
 
 ```python
 project: str
@@ -1632,7 +1632,7 @@ project: str
 
 ---
 
-##### `replica_zone`<sup>Required</sup> <a name="replica_zone" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.replicaZone"></a>
+##### `replica_zone`<sup>Required</sup> <a name="replica_zone" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.replicaZone"></a>
 
 ```python
 replica_zone: str
@@ -1642,7 +1642,7 @@ replica_zone: str
 
 ---
 
-##### `service_level`<sup>Required</sup> <a name="service_level" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.serviceLevel"></a>
+##### `service_level`<sup>Required</sup> <a name="service_level" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.serviceLevel"></a>
 
 ```python
 service_level: str
@@ -1652,7 +1652,7 @@ service_level: str
 
 ---
 
-##### `total_iops`<sup>Required</sup> <a name="total_iops" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.totalIops"></a>
+##### `total_iops`<sup>Required</sup> <a name="total_iops" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.totalIops"></a>
 
 ```python
 total_iops: str
@@ -1662,7 +1662,7 @@ total_iops: str
 
 ---
 
-##### `total_throughput_mibps`<sup>Required</sup> <a name="total_throughput_mibps" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.totalThroughputMibps"></a>
+##### `total_throughput_mibps`<sup>Required</sup> <a name="total_throughput_mibps" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.totalThroughputMibps"></a>
 
 ```python
 total_throughput_mibps: str
@@ -1672,7 +1672,7 @@ total_throughput_mibps: str
 
 ---
 
-##### `zone`<sup>Required</sup> <a name="zone" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.zone"></a>
+##### `zone`<sup>Required</sup> <a name="zone" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.zone"></a>
 
 ```python
 zone: str
@@ -1686,11 +1686,11 @@ zone: str
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.tfResourceType">tfResourceType</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.tfResourceType">tfResourceType</a></code> | <code>str</code> | *No description.* |
 
 ---
 
-##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.tfResourceType"></a>
+##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool.property.tfResourceType"></a>
 
 ```python
 tfResourceType: str
@@ -1702,12 +1702,12 @@ tfResourceType: str
 
 ## Structs <a name="Structs" id="Structs"></a>
 
-### GoogleNetappStoragePoolConfig <a name="GoogleNetappStoragePoolConfig" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig"></a>
+### GoogleNetappStoragePoolConfig <a name="GoogleNetappStoragePoolConfig" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_netapp_storage_pool
+from cdktn_provider_google_beta import google_netapp_storage_pool
 
 googleNetappStoragePool.GoogleNetappStoragePoolConfig(
   connection: SSHProvisionerConnection | WinrmProvisionerConnection = None,
@@ -1745,38 +1745,38 @@ googleNetappStoragePool.GoogleNetappStoragePoolConfig(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.capacityGib">capacity_gib</a></code> | <code>str</code> | Capacity of the storage pool (in GiB). |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.location">location</a></code> | <code>str</code> | Name of the location. For zonal Flex pools specify a zone name, in all other cases a region name. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.name">name</a></code> | <code>str</code> | The resource name of the storage pool. Needs to be unique per location/region. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.network">network</a></code> | <code>str</code> | VPC network name with format: 'projects/{{project}}/global/networks/{{network}}'. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.serviceLevel">service_level</a></code> | <code>str</code> | Service level of the storage pool. Possible values: ["PREMIUM", "EXTREME", "STANDARD", "FLEX"]. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.activeDirectory">active_directory</a></code> | <code>str</code> | Specifies the Active Directory policy to be used. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.allowAutoTiering">allow_auto_tiering</a></code> | <code>bool \| cdktf.IResolvable</code> | Optional. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.customPerformanceEnabled">custom_performance_enabled</a></code> | <code>bool \| cdktf.IResolvable</code> | Optional. True if using Independent Scaling of capacity and performance (Hyperdisk). Default is false. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.description">description</a></code> | <code>str</code> | An optional description of this resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.enableHotTierAutoResize">enable_hot_tier_auto_resize</a></code> | <code>bool \| cdktf.IResolvable</code> | Flag indicating that the hot-tier threshold will be auto-increased by 10% of the hot-tier when it hits 100%. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.hotTierSizeGib">hot_tier_size_gib</a></code> | <code>str</code> | Total hot tier capacity for the Storage Pool. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_storage_pool#id GoogleNetappStoragePool#id}. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.kmsConfig">kms_config</a></code> | <code>str</code> | Specifies the CMEK policy to be used for volume encryption. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.labels">labels</a></code> | <code>typing.Mapping[str]</code> | Labels as key value pairs. Example: '{ "owner": "Bob", "department": "finance", "purpose": "testing" }'. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.ldapEnabled">ldap_enabled</a></code> | <code>bool \| cdktf.IResolvable</code> | When enabled, the volumes uses Active Directory as LDAP name service for UID/GID lookups. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_storage_pool#project GoogleNetappStoragePool#project}. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.replicaZone">replica_zone</a></code> | <code>str</code> | Specifies the replica zone for regional Flex pools. 'zone' and 'replica_zone' values can be swapped to initiate a [zone switch](https://cloud.google.com/netapp/volumes/docs/configure-and-use/storage-pools/edit-or-delete-storage-pool#switch_active_and_replica_zones). |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeouts">GoogleNetappStoragePoolTimeouts</a></code> | timeouts block. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.totalIops">total_iops</a></code> | <code>str</code> | Optional. Custom Performance Total IOPS of the pool If not provided, it will be calculated based on the totalThroughputMibps. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.totalThroughputMibps">total_throughput_mibps</a></code> | <code>str</code> | Optional. Custom Performance Total Throughput of the pool (in MiB/s). |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.zone">zone</a></code> | <code>str</code> | Specifies the active zone for regional Flex pools. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.capacityGib">capacity_gib</a></code> | <code>str</code> | Capacity of the storage pool (in GiB). |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.location">location</a></code> | <code>str</code> | Name of the location. For zonal Flex pools specify a zone name, in all other cases a region name. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.name">name</a></code> | <code>str</code> | The resource name of the storage pool. Needs to be unique per location/region. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.network">network</a></code> | <code>str</code> | VPC network name with format: 'projects/{{project}}/global/networks/{{network}}'. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.serviceLevel">service_level</a></code> | <code>str</code> | Service level of the storage pool. Possible values: ["PREMIUM", "EXTREME", "STANDARD", "FLEX"]. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.activeDirectory">active_directory</a></code> | <code>str</code> | Specifies the Active Directory policy to be used. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.allowAutoTiering">allow_auto_tiering</a></code> | <code>bool \| cdktf.IResolvable</code> | Optional. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.customPerformanceEnabled">custom_performance_enabled</a></code> | <code>bool \| cdktf.IResolvable</code> | Optional. True if using Independent Scaling of capacity and performance (Hyperdisk). Default is false. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.description">description</a></code> | <code>str</code> | An optional description of this resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.enableHotTierAutoResize">enable_hot_tier_auto_resize</a></code> | <code>bool \| cdktf.IResolvable</code> | Flag indicating that the hot-tier threshold will be auto-increased by 10% of the hot-tier when it hits 100%. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.hotTierSizeGib">hot_tier_size_gib</a></code> | <code>str</code> | Total hot tier capacity for the Storage Pool. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_storage_pool#id GoogleNetappStoragePool#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.kmsConfig">kms_config</a></code> | <code>str</code> | Specifies the CMEK policy to be used for volume encryption. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.labels">labels</a></code> | <code>typing.Mapping[str]</code> | Labels as key value pairs. Example: '{ "owner": "Bob", "department": "finance", "purpose": "testing" }'. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.ldapEnabled">ldap_enabled</a></code> | <code>bool \| cdktf.IResolvable</code> | When enabled, the volumes uses Active Directory as LDAP name service for UID/GID lookups. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_storage_pool#project GoogleNetappStoragePool#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.replicaZone">replica_zone</a></code> | <code>str</code> | Specifies the replica zone for regional Flex pools. 'zone' and 'replica_zone' values can be swapped to initiate a [zone switch](https://cloud.google.com/netapp/volumes/docs/configure-and-use/storage-pools/edit-or-delete-storage-pool#switch_active_and_replica_zones). |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeouts">GoogleNetappStoragePoolTimeouts</a></code> | timeouts block. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.totalIops">total_iops</a></code> | <code>str</code> | Optional. Custom Performance Total IOPS of the pool If not provided, it will be calculated based on the totalThroughputMibps. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.totalThroughputMibps">total_throughput_mibps</a></code> | <code>str</code> | Optional. Custom Performance Total Throughput of the pool (in MiB/s). |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.zone">zone</a></code> | <code>str</code> | Specifies the active zone for regional Flex pools. |
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.connection"></a>
 
 ```python
 connection: SSHProvisionerConnection | WinrmProvisionerConnection
@@ -1786,7 +1786,7 @@ connection: SSHProvisionerConnection | WinrmProvisionerConnection
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.count"></a>
 
 ```python
 count: typing.Union[int, float] | TerraformCount
@@ -1796,7 +1796,7 @@ count: typing.Union[int, float] | TerraformCount
 
 ---
 
-##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.dependsOn"></a>
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.dependsOn"></a>
 
 ```python
 depends_on: typing.List[ITerraformDependable]
@@ -1806,7 +1806,7 @@ depends_on: typing.List[ITerraformDependable]
 
 ---
 
-##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.forEach"></a>
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.forEach"></a>
 
 ```python
 for_each: ITerraformIterator
@@ -1816,7 +1816,7 @@ for_each: ITerraformIterator
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.lifecycle"></a>
 
 ```python
 lifecycle: TerraformResourceLifecycle
@@ -1826,7 +1826,7 @@ lifecycle: TerraformResourceLifecycle
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.provider"></a>
 
 ```python
 provider: TerraformProvider
@@ -1836,7 +1836,7 @@ provider: TerraformProvider
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.provisioners"></a>
 
 ```python
 provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner]
@@ -1846,7 +1846,7 @@ provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecPro
 
 ---
 
-##### `capacity_gib`<sup>Required</sup> <a name="capacity_gib" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.capacityGib"></a>
+##### `capacity_gib`<sup>Required</sup> <a name="capacity_gib" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.capacityGib"></a>
 
 ```python
 capacity_gib: str
@@ -1860,7 +1860,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `location`<sup>Required</sup> <a name="location" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.location"></a>
+##### `location`<sup>Required</sup> <a name="location" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.location"></a>
 
 ```python
 location: str
@@ -1874,7 +1874,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `name`<sup>Required</sup> <a name="name" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.name"></a>
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.name"></a>
 
 ```python
 name: str
@@ -1888,7 +1888,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `network`<sup>Required</sup> <a name="network" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.network"></a>
+##### `network`<sup>Required</sup> <a name="network" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.network"></a>
 
 ```python
 network: str
@@ -1902,7 +1902,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `service_level`<sup>Required</sup> <a name="service_level" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.serviceLevel"></a>
+##### `service_level`<sup>Required</sup> <a name="service_level" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.serviceLevel"></a>
 
 ```python
 service_level: str
@@ -1916,7 +1916,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `active_directory`<sup>Optional</sup> <a name="active_directory" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.activeDirectory"></a>
+##### `active_directory`<sup>Optional</sup> <a name="active_directory" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.activeDirectory"></a>
 
 ```python
 active_directory: str
@@ -1933,7 +1933,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `allow_auto_tiering`<sup>Optional</sup> <a name="allow_auto_tiering" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.allowAutoTiering"></a>
+##### `allow_auto_tiering`<sup>Optional</sup> <a name="allow_auto_tiering" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.allowAutoTiering"></a>
 
 ```python
 allow_auto_tiering: bool | IResolvable
@@ -1950,7 +1950,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `custom_performance_enabled`<sup>Optional</sup> <a name="custom_performance_enabled" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.customPerformanceEnabled"></a>
+##### `custom_performance_enabled`<sup>Optional</sup> <a name="custom_performance_enabled" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.customPerformanceEnabled"></a>
 
 ```python
 custom_performance_enabled: bool | IResolvable
@@ -1964,7 +1964,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `description`<sup>Optional</sup> <a name="description" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.description"></a>
+##### `description`<sup>Optional</sup> <a name="description" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.description"></a>
 
 ```python
 description: str
@@ -1978,7 +1978,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `enable_hot_tier_auto_resize`<sup>Optional</sup> <a name="enable_hot_tier_auto_resize" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.enableHotTierAutoResize"></a>
+##### `enable_hot_tier_auto_resize`<sup>Optional</sup> <a name="enable_hot_tier_auto_resize" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.enableHotTierAutoResize"></a>
 
 ```python
 enable_hot_tier_auto_resize: bool | IResolvable
@@ -1995,7 +1995,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `hot_tier_size_gib`<sup>Optional</sup> <a name="hot_tier_size_gib" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.hotTierSizeGib"></a>
+##### `hot_tier_size_gib`<sup>Optional</sup> <a name="hot_tier_size_gib" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.hotTierSizeGib"></a>
 
 ```python
 hot_tier_size_gib: str
@@ -2012,7 +2012,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `id`<sup>Optional</sup> <a name="id" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.id"></a>
+##### `id`<sup>Optional</sup> <a name="id" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.id"></a>
 
 ```python
 id: str
@@ -2027,7 +2027,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 ---
 
-##### `kms_config`<sup>Optional</sup> <a name="kms_config" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.kmsConfig"></a>
+##### `kms_config`<sup>Optional</sup> <a name="kms_config" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.kmsConfig"></a>
 
 ```python
 kms_config: str
@@ -2044,7 +2044,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `labels`<sup>Optional</sup> <a name="labels" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.labels"></a>
+##### `labels`<sup>Optional</sup> <a name="labels" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.labels"></a>
 
 ```python
 labels: typing.Mapping[str]
@@ -2061,7 +2061,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `ldap_enabled`<sup>Optional</sup> <a name="ldap_enabled" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.ldapEnabled"></a>
+##### `ldap_enabled`<sup>Optional</sup> <a name="ldap_enabled" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.ldapEnabled"></a>
 
 ```python
 ldap_enabled: bool | IResolvable
@@ -2078,7 +2078,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `project`<sup>Optional</sup> <a name="project" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.project"></a>
+##### `project`<sup>Optional</sup> <a name="project" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.project"></a>
 
 ```python
 project: str
@@ -2090,7 +2090,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `replica_zone`<sup>Optional</sup> <a name="replica_zone" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.replicaZone"></a>
+##### `replica_zone`<sup>Optional</sup> <a name="replica_zone" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.replicaZone"></a>
 
 ```python
 replica_zone: str
@@ -2104,13 +2104,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `timeouts`<sup>Optional</sup> <a name="timeouts" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.timeouts"></a>
+##### `timeouts`<sup>Optional</sup> <a name="timeouts" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.timeouts"></a>
 
 ```python
 timeouts: GoogleNetappStoragePoolTimeouts
 ```
 
-- *Type:* <a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeouts">GoogleNetappStoragePoolTimeouts</a>
+- *Type:* <a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeouts">GoogleNetappStoragePoolTimeouts</a>
 
 timeouts block.
 
@@ -2118,7 +2118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `total_iops`<sup>Optional</sup> <a name="total_iops" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.totalIops"></a>
+##### `total_iops`<sup>Optional</sup> <a name="total_iops" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.totalIops"></a>
 
 ```python
 total_iops: str
@@ -2132,7 +2132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `total_throughput_mibps`<sup>Optional</sup> <a name="total_throughput_mibps" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.totalThroughputMibps"></a>
+##### `total_throughput_mibps`<sup>Optional</sup> <a name="total_throughput_mibps" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.totalThroughputMibps"></a>
 
 ```python
 total_throughput_mibps: str
@@ -2146,7 +2146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `zone`<sup>Optional</sup> <a name="zone" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.zone"></a>
+##### `zone`<sup>Optional</sup> <a name="zone" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig.property.zone"></a>
 
 ```python
 zone: str
@@ -2164,12 +2164,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-### GoogleNetappStoragePoolTimeouts <a name="GoogleNetappStoragePoolTimeouts" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeouts"></a>
+### GoogleNetappStoragePoolTimeouts <a name="GoogleNetappStoragePoolTimeouts" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeouts"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeouts.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeouts.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_netapp_storage_pool
+from cdktn_provider_google_beta import google_netapp_storage_pool
 
 googleNetappStoragePool.GoogleNetappStoragePoolTimeouts(
   create: str = None,
@@ -2182,13 +2182,13 @@ googleNetappStoragePool.GoogleNetappStoragePoolTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_storage_pool#create GoogleNetappStoragePool#create}. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_storage_pool#delete GoogleNetappStoragePool#delete}. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_storage_pool#update GoogleNetappStoragePool#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_storage_pool#create GoogleNetappStoragePool#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_storage_pool#delete GoogleNetappStoragePool#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_storage_pool#update GoogleNetappStoragePool#update}. |
 
 ---
 
-##### `create`<sup>Optional</sup> <a name="create" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeouts.property.create"></a>
+##### `create`<sup>Optional</sup> <a name="create" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeouts.property.create"></a>
 
 ```python
 create: str
@@ -2200,7 +2200,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `delete`<sup>Optional</sup> <a name="delete" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeouts.property.delete"></a>
+##### `delete`<sup>Optional</sup> <a name="delete" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeouts.property.delete"></a>
 
 ```python
 delete: str
@@ -2212,7 +2212,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `update`<sup>Optional</sup> <a name="update" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeouts.property.update"></a>
+##### `update`<sup>Optional</sup> <a name="update" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeouts.property.update"></a>
 
 ```python
 update: str
@@ -2226,12 +2226,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ## Classes <a name="Classes" id="Classes"></a>
 
-### GoogleNetappStoragePoolTimeoutsOutputReference <a name="GoogleNetappStoragePoolTimeoutsOutputReference" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference"></a>
+### GoogleNetappStoragePoolTimeoutsOutputReference <a name="GoogleNetappStoragePoolTimeoutsOutputReference" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference"></a>
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_netapp_storage_pool
+from cdktn_provider_google_beta import google_netapp_storage_pool
 
 googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference(
   terraform_resource: IInterpolatingParent,
@@ -2241,12 +2241,12 @@ googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktf.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
 
 ---
 
-##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.Initializer.parameter.terraformResource"></a>
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.Initializer.parameter.terraformResource"></a>
 
 - *Type:* cdktf.IInterpolatingParent
 
@@ -2254,7 +2254,7 @@ The parent resource.
 
 ---
 
-##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.Initializer.parameter.terraformAttribute"></a>
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.Initializer.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
@@ -2266,32 +2266,32 @@ The attribute on the parent resource this class is referencing.
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.resetCreate">reset_create</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.resetDelete">reset_delete</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.resetUpdate">reset_update</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.resetCreate">reset_create</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.resetDelete">reset_delete</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.resetUpdate">reset_update</a></code> | *No description.* |
 
 ---
 
-##### `compute_fqn` <a name="compute_fqn" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.computeFqn"></a>
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.computeFqn"></a>
 
 ```python
 def compute_fqn() -> str
 ```
 
-##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getAnyMapAttribute"></a>
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getAnyMapAttribute"></a>
 
 ```python
 def get_any_map_attribute(
@@ -2299,13 +2299,13 @@ def get_any_map_attribute(
 ) -> typing.Mapping[typing.Any]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getBooleanAttribute"></a>
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getBooleanAttribute"></a>
 
 ```python
 def get_boolean_attribute(
@@ -2313,13 +2313,13 @@ def get_boolean_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getBooleanMapAttribute"></a>
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getBooleanMapAttribute"></a>
 
 ```python
 def get_boolean_map_attribute(
@@ -2327,13 +2327,13 @@ def get_boolean_map_attribute(
 ) -> typing.Mapping[bool]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_list_attribute` <a name="get_list_attribute" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getListAttribute"></a>
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getListAttribute"></a>
 
 ```python
 def get_list_attribute(
@@ -2341,13 +2341,13 @@ def get_list_attribute(
 ) -> typing.List[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_attribute` <a name="get_number_attribute" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getNumberAttribute"></a>
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getNumberAttribute"></a>
 
 ```python
 def get_number_attribute(
@@ -2355,13 +2355,13 @@ def get_number_attribute(
 ) -> typing.Union[int, float]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getNumberListAttribute"></a>
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getNumberListAttribute"></a>
 
 ```python
 def get_number_list_attribute(
@@ -2369,13 +2369,13 @@ def get_number_list_attribute(
 ) -> typing.List[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getNumberMapAttribute"></a>
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getNumberMapAttribute"></a>
 
 ```python
 def get_number_map_attribute(
@@ -2383,13 +2383,13 @@ def get_number_map_attribute(
 ) -> typing.Mapping[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_attribute` <a name="get_string_attribute" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getStringAttribute"></a>
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getStringAttribute"></a>
 
 ```python
 def get_string_attribute(
@@ -2397,13 +2397,13 @@ def get_string_attribute(
 ) -> str
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getStringMapAttribute"></a>
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getStringMapAttribute"></a>
 
 ```python
 def get_string_map_attribute(
@@ -2411,13 +2411,13 @@ def get_string_map_attribute(
 ) -> typing.Mapping[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.interpolationForAttribute"></a>
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.interpolationForAttribute"></a>
 
 ```python
 def interpolation_for_attribute(
@@ -2425,13 +2425,13 @@ def interpolation_for_attribute(
 ) -> IResolvable
 ```
 
-###### `property`<sup>Required</sup> <a name="property" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.interpolationForAttribute.parameter.property"></a>
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.interpolationForAttribute.parameter.property"></a>
 
 - *Type:* str
 
 ---
 
-##### `resolve` <a name="resolve" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.resolve"></a>
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.resolve"></a>
 
 ```python
 def resolve(
@@ -2441,13 +2441,13 @@ def resolve(
 
 Produce the Token's value at resolution time.
 
-###### `_context`<sup>Required</sup> <a name="_context" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.resolve.parameter._context"></a>
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.resolve.parameter._context"></a>
 
 - *Type:* cdktf.IResolveContext
 
 ---
 
-##### `to_string` <a name="to_string" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.toString"></a>
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.toString"></a>
 
 ```python
 def to_string() -> str
@@ -2457,19 +2457,19 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
-##### `reset_create` <a name="reset_create" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.resetCreate"></a>
+##### `reset_create` <a name="reset_create" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.resetCreate"></a>
 
 ```python
 def reset_create() -> None
 ```
 
-##### `reset_delete` <a name="reset_delete" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.resetDelete"></a>
+##### `reset_delete` <a name="reset_delete" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.resetDelete"></a>
 
 ```python
 def reset_delete() -> None
 ```
 
-##### `reset_update` <a name="reset_update" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.resetUpdate"></a>
+##### `reset_update` <a name="reset_update" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.resetUpdate"></a>
 
 ```python
 def reset_update() -> None
@@ -2480,19 +2480,19 @@ def reset_update() -> None
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.property.createInput">create_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.property.deleteInput">delete_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.property.updateInput">update_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.property.create">create</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.property.delete">delete</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.property.update">update</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.property.internalValue">internal_value</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeouts">GoogleNetappStoragePoolTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.property.createInput">create_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.property.deleteInput">delete_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.property.updateInput">update_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.property.create">create</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.property.delete">delete</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.property.update">update</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.property.internalValue">internal_value</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeouts">GoogleNetappStoragePoolTimeouts</a></code> | *No description.* |
 
 ---
 
-##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.property.creationStack"></a>
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.property.creationStack"></a>
 
 ```python
 creation_stack: typing.List[str]
@@ -2506,7 +2506,7 @@ If this returns an empty array the stack will not be attached.
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.property.fqn"></a>
 
 ```python
 fqn: str
@@ -2516,7 +2516,7 @@ fqn: str
 
 ---
 
-##### `create_input`<sup>Optional</sup> <a name="create_input" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.property.createInput"></a>
+##### `create_input`<sup>Optional</sup> <a name="create_input" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.property.createInput"></a>
 
 ```python
 create_input: str
@@ -2526,7 +2526,7 @@ create_input: str
 
 ---
 
-##### `delete_input`<sup>Optional</sup> <a name="delete_input" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.property.deleteInput"></a>
+##### `delete_input`<sup>Optional</sup> <a name="delete_input" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.property.deleteInput"></a>
 
 ```python
 delete_input: str
@@ -2536,7 +2536,7 @@ delete_input: str
 
 ---
 
-##### `update_input`<sup>Optional</sup> <a name="update_input" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.property.updateInput"></a>
+##### `update_input`<sup>Optional</sup> <a name="update_input" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.property.updateInput"></a>
 
 ```python
 update_input: str
@@ -2546,7 +2546,7 @@ update_input: str
 
 ---
 
-##### `create`<sup>Required</sup> <a name="create" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.property.create"></a>
+##### `create`<sup>Required</sup> <a name="create" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.property.create"></a>
 
 ```python
 create: str
@@ -2556,7 +2556,7 @@ create: str
 
 ---
 
-##### `delete`<sup>Required</sup> <a name="delete" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.property.delete"></a>
+##### `delete`<sup>Required</sup> <a name="delete" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.property.delete"></a>
 
 ```python
 delete: str
@@ -2566,7 +2566,7 @@ delete: str
 
 ---
 
-##### `update`<sup>Required</sup> <a name="update" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.property.update"></a>
+##### `update`<sup>Required</sup> <a name="update" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.property.update"></a>
 
 ```python
 update: str
@@ -2576,13 +2576,13 @@ update: str
 
 ---
 
-##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.property.internalValue"></a>
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference.property.internalValue"></a>
 
 ```python
 internal_value: IResolvable | GoogleNetappStoragePoolTimeouts
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeouts">GoogleNetappStoragePoolTimeouts</a>
+- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeouts">GoogleNetappStoragePoolTimeouts</a>
 
 ---
 

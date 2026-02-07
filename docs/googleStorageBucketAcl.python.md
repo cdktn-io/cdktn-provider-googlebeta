@@ -1,15 +1,15 @@
-# `googleStorageBucketAcl` Submodule <a name="`googleStorageBucketAcl` Submodule" id="@cdktf/provider-google-beta.googleStorageBucketAcl"></a>
+# `googleStorageBucketAcl` Submodule <a name="`googleStorageBucketAcl` Submodule" id="@cdktn/provider-google-beta.googleStorageBucketAcl"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
 
-### GoogleStorageBucketAcl <a name="GoogleStorageBucketAcl" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl"></a>
+### GoogleStorageBucketAcl <a name="GoogleStorageBucketAcl" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl"></a>
 
 Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_acl google_storage_bucket_acl}.
 
-#### Initializers <a name="Initializers" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer"></a>
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_storage_bucket_acl
+from cdktn_provider_google_beta import google_storage_bucket_acl
 
 googleStorageBucketAcl.GoogleStorageBucketAcl(
   scope: Construct,
@@ -31,24 +31,24 @@ googleStorageBucketAcl.GoogleStorageBucketAcl(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.id">id</a></code> | <code>str</code> | The scoped construct ID. |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.bucket">bucket</a></code> | <code>str</code> | The name of the bucket it applies to. |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.defaultAcl">default_acl</a></code> | <code>str</code> | Configure this ACL to be the default ACL. |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_acl#id GoogleStorageBucketAcl#id}. |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.predefinedAcl">predefined_acl</a></code> | <code>str</code> | The canned GCS ACL to apply. Must be set if role_entity is not. |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.roleEntity">role_entity</a></code> | <code>typing.List[str]</code> | List of role/entity pairs in the form ROLE:entity. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.id">id</a></code> | <code>str</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.bucket">bucket</a></code> | <code>str</code> | The name of the bucket it applies to. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.defaultAcl">default_acl</a></code> | <code>str</code> | Configure this ACL to be the default ACL. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_acl#id GoogleStorageBucketAcl#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.predefinedAcl">predefined_acl</a></code> | <code>str</code> | The canned GCS ACL to apply. Must be set if role_entity is not. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.roleEntity">role_entity</a></code> | <code>typing.List[str]</code> | List of role/entity pairs in the form ROLE:entity. |
 
 ---
 
-##### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.scope"></a>
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
@@ -56,7 +56,7 @@ The scope in which to define this construct.
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.id"></a>
 
 - *Type:* str
 
@@ -66,49 +66,49 @@ Must be unique amongst siblings in the same scope
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.connection"></a>
 
 - *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.count"></a>
 
 - *Type:* typing.Union[int, float] | cdktf.TerraformCount
 
 ---
 
-##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.dependsOn"></a>
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.dependsOn"></a>
 
 - *Type:* typing.List[cdktf.ITerraformDependable]
 
 ---
 
-##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.forEach"></a>
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.forEach"></a>
 
 - *Type:* cdktf.ITerraformIterator
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.lifecycle"></a>
 
 - *Type:* cdktf.TerraformResourceLifecycle
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.provisioners"></a>
 
 - *Type:* typing.List[cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner]
 
 ---
 
-##### `bucket`<sup>Required</sup> <a name="bucket" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.bucket"></a>
+##### `bucket`<sup>Required</sup> <a name="bucket" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.bucket"></a>
 
 - *Type:* str
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `default_acl`<sup>Optional</sup> <a name="default_acl" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.defaultAcl"></a>
+##### `default_acl`<sup>Optional</sup> <a name="default_acl" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.defaultAcl"></a>
 
 - *Type:* str
 
@@ -128,7 +128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `id`<sup>Optional</sup> <a name="id" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.id"></a>
+##### `id`<sup>Optional</sup> <a name="id" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.id"></a>
 
 - *Type:* str
 
@@ -139,7 +139,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 ---
 
-##### `predefined_acl`<sup>Optional</sup> <a name="predefined_acl" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.predefinedAcl"></a>
+##### `predefined_acl`<sup>Optional</sup> <a name="predefined_acl" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.predefinedAcl"></a>
 
 - *Type:* str
 
@@ -149,7 +149,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `role_entity`<sup>Optional</sup> <a name="role_entity" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.roleEntity"></a>
+##### `role_entity`<sup>Optional</sup> <a name="role_entity" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer.parameter.roleEntity"></a>
 
 - *Type:* typing.List[str]
 
@@ -165,37 +165,37 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.toString">to_string</a></code> | Returns a string representation of this construct. |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.addOverride">add_override</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.overrideLogicalId">override_logical_id</a></code> | Overrides the auto-generated logical ID with a specific ID. |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.resetOverrideLogicalId">reset_override_logical_id</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.toHclTerraform">to_hcl_terraform</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.toMetadata">to_metadata</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.toTerraform">to_terraform</a></code> | Adds this resource to the terraform JSON output. |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.addMoveTarget">add_move_target</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getListAttribute">get_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getStringAttribute">get_string_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.hasResourceMove">has_resource_move</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.importFrom">import_from</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.moveFromId">move_from_id</a></code> | Move the resource corresponding to "id" to this resource. |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.resetDefaultAcl">reset_default_acl</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.resetId">reset_id</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.resetPredefinedAcl">reset_predefined_acl</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.resetRoleEntity">reset_role_entity</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.toString">to_string</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.addOverride">add_override</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.overrideLogicalId">override_logical_id</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.resetOverrideLogicalId">reset_override_logical_id</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.toHclTerraform">to_hcl_terraform</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.toMetadata">to_metadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.toTerraform">to_terraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.addMoveTarget">add_move_target</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.hasResourceMove">has_resource_move</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.importFrom">import_from</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.moveFromId">move_from_id</a></code> | Move the resource corresponding to "id" to this resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.resetDefaultAcl">reset_default_acl</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.resetId">reset_id</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.resetPredefinedAcl">reset_predefined_acl</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.resetRoleEntity">reset_role_entity</a></code> | *No description.* |
 
 ---
 
-##### `to_string` <a name="to_string" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.toString"></a>
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.toString"></a>
 
 ```python
 def to_string() -> str
@@ -203,7 +203,7 @@ def to_string() -> str
 
 Returns a string representation of this construct.
 
-##### `add_override` <a name="add_override" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.addOverride"></a>
+##### `add_override` <a name="add_override" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.addOverride"></a>
 
 ```python
 def add_override(
@@ -212,19 +212,19 @@ def add_override(
 ) -> None
 ```
 
-###### `path`<sup>Required</sup> <a name="path" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.addOverride.parameter.path"></a>
+###### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.addOverride.parameter.path"></a>
 
 - *Type:* str
 
 ---
 
-###### `value`<sup>Required</sup> <a name="value" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.addOverride.parameter.value"></a>
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.addOverride.parameter.value"></a>
 
 - *Type:* typing.Any
 
 ---
 
-##### `override_logical_id` <a name="override_logical_id" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.overrideLogicalId"></a>
+##### `override_logical_id` <a name="override_logical_id" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.overrideLogicalId"></a>
 
 ```python
 def override_logical_id(
@@ -234,7 +234,7 @@ def override_logical_id(
 
 Overrides the auto-generated logical ID with a specific ID.
 
-###### `new_logical_id`<sup>Required</sup> <a name="new_logical_id" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.overrideLogicalId.parameter.newLogicalId"></a>
+###### `new_logical_id`<sup>Required</sup> <a name="new_logical_id" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.overrideLogicalId.parameter.newLogicalId"></a>
 
 - *Type:* str
 
@@ -242,7 +242,7 @@ The new logical ID to use for this stack element.
 
 ---
 
-##### `reset_override_logical_id` <a name="reset_override_logical_id" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.resetOverrideLogicalId"></a>
+##### `reset_override_logical_id` <a name="reset_override_logical_id" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.resetOverrideLogicalId"></a>
 
 ```python
 def reset_override_logical_id() -> None
@@ -250,19 +250,19 @@ def reset_override_logical_id() -> None
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
 
-##### `to_hcl_terraform` <a name="to_hcl_terraform" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.toHclTerraform"></a>
+##### `to_hcl_terraform` <a name="to_hcl_terraform" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.toHclTerraform"></a>
 
 ```python
 def to_hcl_terraform() -> typing.Any
 ```
 
-##### `to_metadata` <a name="to_metadata" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.toMetadata"></a>
+##### `to_metadata` <a name="to_metadata" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.toMetadata"></a>
 
 ```python
 def to_metadata() -> typing.Any
 ```
 
-##### `to_terraform` <a name="to_terraform" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.toTerraform"></a>
+##### `to_terraform` <a name="to_terraform" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.toTerraform"></a>
 
 ```python
 def to_terraform() -> typing.Any
@@ -270,7 +270,7 @@ def to_terraform() -> typing.Any
 
 Adds this resource to the terraform JSON output.
 
-##### `add_move_target` <a name="add_move_target" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.addMoveTarget"></a>
+##### `add_move_target` <a name="add_move_target" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.addMoveTarget"></a>
 
 ```python
 def add_move_target(
@@ -280,7 +280,7 @@ def add_move_target(
 
 Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 
-###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.addMoveTarget.parameter.moveTarget"></a>
+###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.addMoveTarget.parameter.moveTarget"></a>
 
 - *Type:* str
 
@@ -288,7 +288,7 @@ The string move target that will correspond to this resource.
 
 ---
 
-##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getAnyMapAttribute"></a>
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getAnyMapAttribute"></a>
 
 ```python
 def get_any_map_attribute(
@@ -296,13 +296,13 @@ def get_any_map_attribute(
 ) -> typing.Mapping[typing.Any]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getAnyMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getAnyMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getBooleanAttribute"></a>
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getBooleanAttribute"></a>
 
 ```python
 def get_boolean_attribute(
@@ -310,13 +310,13 @@ def get_boolean_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getBooleanAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getBooleanAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getBooleanMapAttribute"></a>
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getBooleanMapAttribute"></a>
 
 ```python
 def get_boolean_map_attribute(
@@ -324,13 +324,13 @@ def get_boolean_map_attribute(
 ) -> typing.Mapping[bool]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getBooleanMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_list_attribute` <a name="get_list_attribute" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getListAttribute"></a>
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getListAttribute"></a>
 
 ```python
 def get_list_attribute(
@@ -338,13 +338,13 @@ def get_list_attribute(
 ) -> typing.List[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_attribute` <a name="get_number_attribute" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getNumberAttribute"></a>
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getNumberAttribute"></a>
 
 ```python
 def get_number_attribute(
@@ -352,13 +352,13 @@ def get_number_attribute(
 ) -> typing.Union[int, float]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getNumberAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getNumberAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getNumberListAttribute"></a>
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getNumberListAttribute"></a>
 
 ```python
 def get_number_list_attribute(
@@ -366,13 +366,13 @@ def get_number_list_attribute(
 ) -> typing.List[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getNumberListAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getNumberListAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getNumberMapAttribute"></a>
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getNumberMapAttribute"></a>
 
 ```python
 def get_number_map_attribute(
@@ -380,13 +380,13 @@ def get_number_map_attribute(
 ) -> typing.Mapping[typing.Union[int, float]]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getNumberMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getNumberMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_attribute` <a name="get_string_attribute" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getStringAttribute"></a>
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getStringAttribute"></a>
 
 ```python
 def get_string_attribute(
@@ -394,13 +394,13 @@ def get_string_attribute(
 ) -> str
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getStringAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getStringAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getStringMapAttribute"></a>
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getStringMapAttribute"></a>
 
 ```python
 def get_string_map_attribute(
@@ -408,19 +408,19 @@ def get_string_map_attribute(
 ) -> typing.Mapping[str]
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getStringMapAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.getStringMapAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `has_resource_move` <a name="has_resource_move" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.hasResourceMove"></a>
+##### `has_resource_move` <a name="has_resource_move" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.hasResourceMove"></a>
 
 ```python
 def has_resource_move() -> TerraformResourceMoveByTarget | TerraformResourceMoveById
 ```
 
-##### `import_from` <a name="import_from" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.importFrom"></a>
+##### `import_from` <a name="import_from" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.importFrom"></a>
 
 ```python
 def import_from(
@@ -429,19 +429,19 @@ def import_from(
 ) -> None
 ```
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.importFrom.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.importFrom.parameter.id"></a>
 
 - *Type:* str
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.importFrom.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.importFrom.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
 ---
 
-##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.interpolationForAttribute"></a>
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.interpolationForAttribute"></a>
 
 ```python
 def interpolation_for_attribute(
@@ -449,13 +449,13 @@ def interpolation_for_attribute(
 ) -> IResolvable
 ```
 
-###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.interpolationForAttribute.parameter.terraformAttribute"></a>
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.interpolationForAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
 
 ---
 
-##### `move_from_id` <a name="move_from_id" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.moveFromId"></a>
+##### `move_from_id` <a name="move_from_id" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.moveFromId"></a>
 
 ```python
 def move_from_id(
@@ -467,7 +467,7 @@ Move the resource corresponding to "id" to this resource.
 
 Note that the resource being moved from must be marked as moved using it's instance function.
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.moveFromId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.moveFromId.parameter.id"></a>
 
 - *Type:* str
 
@@ -475,7 +475,7 @@ Full id of resource being moved from, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `move_to` <a name="move_to" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.moveTo"></a>
+##### `move_to` <a name="move_to" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.moveTo"></a>
 
 ```python
 def move_to(
@@ -486,7 +486,7 @@ def move_to(
 
 Moves this resource to the target resource given by moveTarget.
 
-###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.moveTo.parameter.moveTarget"></a>
+###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.moveTo.parameter.moveTarget"></a>
 
 - *Type:* str
 
@@ -494,7 +494,7 @@ The previously set user defined string set by .addMoveTarget() corresponding to 
 
 ---
 
-###### `index`<sup>Optional</sup> <a name="index" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.moveTo.parameter.index"></a>
+###### `index`<sup>Optional</sup> <a name="index" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.moveTo.parameter.index"></a>
 
 - *Type:* str | typing.Union[int, float]
 
@@ -502,7 +502,7 @@ Optional The index corresponding to the key the resource is to appear in the for
 
 ---
 
-##### `move_to_id` <a name="move_to_id" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.moveToId"></a>
+##### `move_to_id` <a name="move_to_id" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.moveToId"></a>
 
 ```python
 def move_to_id(
@@ -512,7 +512,7 @@ def move_to_id(
 
 Moves this resource to the resource corresponding to "id".
 
-###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.moveToId.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.moveToId.parameter.id"></a>
 
 - *Type:* str
 
@@ -520,25 +520,25 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `reset_default_acl` <a name="reset_default_acl" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.resetDefaultAcl"></a>
+##### `reset_default_acl` <a name="reset_default_acl" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.resetDefaultAcl"></a>
 
 ```python
 def reset_default_acl() -> None
 ```
 
-##### `reset_id` <a name="reset_id" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.resetId"></a>
+##### `reset_id` <a name="reset_id" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.resetId"></a>
 
 ```python
 def reset_id() -> None
 ```
 
-##### `reset_predefined_acl` <a name="reset_predefined_acl" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.resetPredefinedAcl"></a>
+##### `reset_predefined_acl` <a name="reset_predefined_acl" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.resetPredefinedAcl"></a>
 
 ```python
 def reset_predefined_acl() -> None
 ```
 
-##### `reset_role_entity` <a name="reset_role_entity" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.resetRoleEntity"></a>
+##### `reset_role_entity` <a name="reset_role_entity" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.resetRoleEntity"></a>
 
 ```python
 def reset_role_entity() -> None
@@ -548,17 +548,17 @@ def reset_role_entity() -> None
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.isConstruct">is_construct</a></code> | Checks if `x` is a construct. |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.isTerraformElement">is_terraform_element</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.isTerraformResource">is_terraform_resource</a></code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.generateConfigForImport">generate_config_for_import</a></code> | Generates CDKTF code for importing a GoogleStorageBucketAcl resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.isConstruct">is_construct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.isTerraformElement">is_terraform_element</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.isTerraformResource">is_terraform_resource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.generateConfigForImport">generate_config_for_import</a></code> | Generates CDKTF code for importing a GoogleStorageBucketAcl resource upon running "cdktf plan <stack-name>". |
 
 ---
 
-##### `is_construct` <a name="is_construct" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.isConstruct"></a>
+##### `is_construct` <a name="is_construct" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.isConstruct"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_storage_bucket_acl
+from cdktn_provider_google_beta import google_storage_bucket_acl
 
 googleStorageBucketAcl.GoogleStorageBucketAcl.is_construct(
   x: typing.Any
@@ -581,7 +581,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.isConstruct.parameter.x"></a>
 
 - *Type:* typing.Any
 
@@ -589,42 +589,42 @@ Any object.
 
 ---
 
-##### `is_terraform_element` <a name="is_terraform_element" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.isTerraformElement"></a>
+##### `is_terraform_element` <a name="is_terraform_element" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.isTerraformElement"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_storage_bucket_acl
+from cdktn_provider_google_beta import google_storage_bucket_acl
 
 googleStorageBucketAcl.GoogleStorageBucketAcl.is_terraform_element(
   x: typing.Any
 )
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.isTerraformElement.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.isTerraformElement.parameter.x"></a>
 
 - *Type:* typing.Any
 
 ---
 
-##### `is_terraform_resource` <a name="is_terraform_resource" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.isTerraformResource"></a>
+##### `is_terraform_resource` <a name="is_terraform_resource" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.isTerraformResource"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_storage_bucket_acl
+from cdktn_provider_google_beta import google_storage_bucket_acl
 
 googleStorageBucketAcl.GoogleStorageBucketAcl.is_terraform_resource(
   x: typing.Any
 )
 ```
 
-###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.isTerraformResource.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.isTerraformResource.parameter.x"></a>
 
 - *Type:* typing.Any
 
 ---
 
-##### `generate_config_for_import` <a name="generate_config_for_import" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.generateConfigForImport"></a>
+##### `generate_config_for_import` <a name="generate_config_for_import" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.generateConfigForImport"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_storage_bucket_acl
+from cdktn_provider_google_beta import google_storage_bucket_acl
 
 googleStorageBucketAcl.GoogleStorageBucketAcl.generate_config_for_import(
   scope: Construct,
@@ -636,7 +636,7 @@ googleStorageBucketAcl.GoogleStorageBucketAcl.generate_config_for_import(
 
 Generates CDKTF code for importing a GoogleStorageBucketAcl resource upon running "cdktf plan <stack-name>".
 
-###### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.generateConfigForImport.parameter.scope"></a>
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.generateConfigForImport.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
@@ -644,7 +644,7 @@ The scope in which to define this construct.
 
 ---
 
-###### `import_to_id`<sup>Required</sup> <a name="import_to_id" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.generateConfigForImport.parameter.importToId"></a>
+###### `import_to_id`<sup>Required</sup> <a name="import_to_id" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.generateConfigForImport.parameter.importToId"></a>
 
 - *Type:* str
 
@@ -652,7 +652,7 @@ The construct id used in the generated config for the GoogleStorageBucketAcl to 
 
 ---
 
-###### `import_from_id`<sup>Required</sup> <a name="import_from_id" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.generateConfigForImport.parameter.importFromId"></a>
+###### `import_from_id`<sup>Required</sup> <a name="import_from_id" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.generateConfigForImport.parameter.importFromId"></a>
 
 - *Type:* str
 
@@ -662,7 +662,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 
 ---
 
-###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.generateConfigForImport.parameter.provider"></a>
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.generateConfigForImport.parameter.provider"></a>
 
 - *Type:* cdktf.TerraformProvider
 
@@ -674,34 +674,34 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.cdktfStack">cdktf_stack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.friendlyUniqueId">friendly_unique_id</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.terraformMetaArguments">terraform_meta_arguments</a></code> | <code>typing.Mapping[typing.Any]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.terraformResourceType">terraform_resource_type</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.terraformGeneratorMetadata">terraform_generator_metadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.dependsOn">depends_on</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.bucketInput">bucket_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.defaultAclInput">default_acl_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.predefinedAclInput">predefined_acl_input</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.roleEntityInput">role_entity_input</a></code> | <code>typing.List[str]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.bucket">bucket</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.defaultAcl">default_acl</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.id">id</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.predefinedAcl">predefined_acl</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.roleEntity">role_entity</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.cdktfStack">cdktf_stack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.friendlyUniqueId">friendly_unique_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.terraformMetaArguments">terraform_meta_arguments</a></code> | <code>typing.Mapping[typing.Any]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.terraformResourceType">terraform_resource_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.terraformGeneratorMetadata">terraform_generator_metadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.dependsOn">depends_on</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.bucketInput">bucket_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.defaultAclInput">default_acl_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.predefinedAclInput">predefined_acl_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.roleEntityInput">role_entity_input</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.bucket">bucket</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.defaultAcl">default_acl</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.id">id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.predefinedAcl">predefined_acl</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.roleEntity">role_entity</a></code> | <code>typing.List[str]</code> | *No description.* |
 
 ---
 
-##### `node`<sup>Required</sup> <a name="node" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.node"></a>
+##### `node`<sup>Required</sup> <a name="node" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.node"></a>
 
 ```python
 node: Node
@@ -713,7 +713,7 @@ The tree node.
 
 ---
 
-##### `cdktf_stack`<sup>Required</sup> <a name="cdktf_stack" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.cdktfStack"></a>
+##### `cdktf_stack`<sup>Required</sup> <a name="cdktf_stack" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.cdktfStack"></a>
 
 ```python
 cdktf_stack: TerraformStack
@@ -723,7 +723,7 @@ cdktf_stack: TerraformStack
 
 ---
 
-##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.fqn"></a>
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.fqn"></a>
 
 ```python
 fqn: str
@@ -733,7 +733,7 @@ fqn: str
 
 ---
 
-##### `friendly_unique_id`<sup>Required</sup> <a name="friendly_unique_id" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.friendlyUniqueId"></a>
+##### `friendly_unique_id`<sup>Required</sup> <a name="friendly_unique_id" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.friendlyUniqueId"></a>
 
 ```python
 friendly_unique_id: str
@@ -743,7 +743,7 @@ friendly_unique_id: str
 
 ---
 
-##### `terraform_meta_arguments`<sup>Required</sup> <a name="terraform_meta_arguments" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.terraformMetaArguments"></a>
+##### `terraform_meta_arguments`<sup>Required</sup> <a name="terraform_meta_arguments" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.terraformMetaArguments"></a>
 
 ```python
 terraform_meta_arguments: typing.Mapping[typing.Any]
@@ -753,7 +753,7 @@ terraform_meta_arguments: typing.Mapping[typing.Any]
 
 ---
 
-##### `terraform_resource_type`<sup>Required</sup> <a name="terraform_resource_type" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.terraformResourceType"></a>
+##### `terraform_resource_type`<sup>Required</sup> <a name="terraform_resource_type" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.terraformResourceType"></a>
 
 ```python
 terraform_resource_type: str
@@ -763,7 +763,7 @@ terraform_resource_type: str
 
 ---
 
-##### `terraform_generator_metadata`<sup>Optional</sup> <a name="terraform_generator_metadata" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.terraformGeneratorMetadata"></a>
+##### `terraform_generator_metadata`<sup>Optional</sup> <a name="terraform_generator_metadata" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.terraformGeneratorMetadata"></a>
 
 ```python
 terraform_generator_metadata: TerraformProviderGeneratorMetadata
@@ -773,7 +773,7 @@ terraform_generator_metadata: TerraformProviderGeneratorMetadata
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.connection"></a>
 
 ```python
 connection: SSHProvisionerConnection | WinrmProvisionerConnection
@@ -783,7 +783,7 @@ connection: SSHProvisionerConnection | WinrmProvisionerConnection
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.count"></a>
 
 ```python
 count: typing.Union[int, float] | TerraformCount
@@ -793,7 +793,7 @@ count: typing.Union[int, float] | TerraformCount
 
 ---
 
-##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.dependsOn"></a>
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.dependsOn"></a>
 
 ```python
 depends_on: typing.List[str]
@@ -803,7 +803,7 @@ depends_on: typing.List[str]
 
 ---
 
-##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.forEach"></a>
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.forEach"></a>
 
 ```python
 for_each: ITerraformIterator
@@ -813,7 +813,7 @@ for_each: ITerraformIterator
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.lifecycle"></a>
 
 ```python
 lifecycle: TerraformResourceLifecycle
@@ -823,7 +823,7 @@ lifecycle: TerraformResourceLifecycle
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.provider"></a>
 
 ```python
 provider: TerraformProvider
@@ -833,7 +833,7 @@ provider: TerraformProvider
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.provisioners"></a>
 
 ```python
 provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner]
@@ -843,7 +843,7 @@ provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecPro
 
 ---
 
-##### `bucket_input`<sup>Optional</sup> <a name="bucket_input" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.bucketInput"></a>
+##### `bucket_input`<sup>Optional</sup> <a name="bucket_input" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.bucketInput"></a>
 
 ```python
 bucket_input: str
@@ -853,7 +853,7 @@ bucket_input: str
 
 ---
 
-##### `default_acl_input`<sup>Optional</sup> <a name="default_acl_input" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.defaultAclInput"></a>
+##### `default_acl_input`<sup>Optional</sup> <a name="default_acl_input" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.defaultAclInput"></a>
 
 ```python
 default_acl_input: str
@@ -863,7 +863,7 @@ default_acl_input: str
 
 ---
 
-##### `id_input`<sup>Optional</sup> <a name="id_input" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.idInput"></a>
+##### `id_input`<sup>Optional</sup> <a name="id_input" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.idInput"></a>
 
 ```python
 id_input: str
@@ -873,7 +873,7 @@ id_input: str
 
 ---
 
-##### `predefined_acl_input`<sup>Optional</sup> <a name="predefined_acl_input" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.predefinedAclInput"></a>
+##### `predefined_acl_input`<sup>Optional</sup> <a name="predefined_acl_input" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.predefinedAclInput"></a>
 
 ```python
 predefined_acl_input: str
@@ -883,7 +883,7 @@ predefined_acl_input: str
 
 ---
 
-##### `role_entity_input`<sup>Optional</sup> <a name="role_entity_input" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.roleEntityInput"></a>
+##### `role_entity_input`<sup>Optional</sup> <a name="role_entity_input" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.roleEntityInput"></a>
 
 ```python
 role_entity_input: typing.List[str]
@@ -893,7 +893,7 @@ role_entity_input: typing.List[str]
 
 ---
 
-##### `bucket`<sup>Required</sup> <a name="bucket" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.bucket"></a>
+##### `bucket`<sup>Required</sup> <a name="bucket" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.bucket"></a>
 
 ```python
 bucket: str
@@ -903,7 +903,7 @@ bucket: str
 
 ---
 
-##### `default_acl`<sup>Required</sup> <a name="default_acl" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.defaultAcl"></a>
+##### `default_acl`<sup>Required</sup> <a name="default_acl" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.defaultAcl"></a>
 
 ```python
 default_acl: str
@@ -913,7 +913,7 @@ default_acl: str
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.id"></a>
 
 ```python
 id: str
@@ -923,7 +923,7 @@ id: str
 
 ---
 
-##### `predefined_acl`<sup>Required</sup> <a name="predefined_acl" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.predefinedAcl"></a>
+##### `predefined_acl`<sup>Required</sup> <a name="predefined_acl" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.predefinedAcl"></a>
 
 ```python
 predefined_acl: str
@@ -933,7 +933,7 @@ predefined_acl: str
 
 ---
 
-##### `role_entity`<sup>Required</sup> <a name="role_entity" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.roleEntity"></a>
+##### `role_entity`<sup>Required</sup> <a name="role_entity" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.roleEntity"></a>
 
 ```python
 role_entity: typing.List[str]
@@ -947,11 +947,11 @@ role_entity: typing.List[str]
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.tfResourceType">tfResourceType</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.tfResourceType">tfResourceType</a></code> | <code>str</code> | *No description.* |
 
 ---
 
-##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.tfResourceType"></a>
+##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.tfResourceType"></a>
 
 ```python
 tfResourceType: str
@@ -963,12 +963,12 @@ tfResourceType: str
 
 ## Structs <a name="Structs" id="Structs"></a>
 
-### GoogleStorageBucketAclConfig <a name="GoogleStorageBucketAclConfig" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig"></a>
+### GoogleStorageBucketAclConfig <a name="GoogleStorageBucketAclConfig" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig"></a>
 
-#### Initializer <a name="Initializer" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.Initializer"></a>
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.Initializer"></a>
 
 ```python
-from cdktf_cdktf_provider_google_beta import google_storage_bucket_acl
+from cdktn_provider_google_beta import google_storage_bucket_acl
 
 googleStorageBucketAcl.GoogleStorageBucketAclConfig(
   connection: SSHProvisionerConnection | WinrmProvisionerConnection = None,
@@ -990,22 +990,22 @@ googleStorageBucketAcl.GoogleStorageBucketAclConfig(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.bucket">bucket</a></code> | <code>str</code> | The name of the bucket it applies to. |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.defaultAcl">default_acl</a></code> | <code>str</code> | Configure this ACL to be the default ACL. |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_acl#id GoogleStorageBucketAcl#id}. |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.predefinedAcl">predefined_acl</a></code> | <code>str</code> | The canned GCS ACL to apply. Must be set if role_entity is not. |
-| <code><a href="#@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.roleEntity">role_entity</a></code> | <code>typing.List[str]</code> | List of role/entity pairs in the form ROLE:entity. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.bucket">bucket</a></code> | <code>str</code> | The name of the bucket it applies to. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.defaultAcl">default_acl</a></code> | <code>str</code> | Configure this ACL to be the default ACL. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_bucket_acl#id GoogleStorageBucketAcl#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.predefinedAcl">predefined_acl</a></code> | <code>str</code> | The canned GCS ACL to apply. Must be set if role_entity is not. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.roleEntity">role_entity</a></code> | <code>typing.List[str]</code> | List of role/entity pairs in the form ROLE:entity. |
 
 ---
 
-##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.connection"></a>
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.connection"></a>
 
 ```python
 connection: SSHProvisionerConnection | WinrmProvisionerConnection
@@ -1015,7 +1015,7 @@ connection: SSHProvisionerConnection | WinrmProvisionerConnection
 
 ---
 
-##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.count"></a>
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.count"></a>
 
 ```python
 count: typing.Union[int, float] | TerraformCount
@@ -1025,7 +1025,7 @@ count: typing.Union[int, float] | TerraformCount
 
 ---
 
-##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.dependsOn"></a>
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.dependsOn"></a>
 
 ```python
 depends_on: typing.List[ITerraformDependable]
@@ -1035,7 +1035,7 @@ depends_on: typing.List[ITerraformDependable]
 
 ---
 
-##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.forEach"></a>
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.forEach"></a>
 
 ```python
 for_each: ITerraformIterator
@@ -1045,7 +1045,7 @@ for_each: ITerraformIterator
 
 ---
 
-##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.lifecycle"></a>
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.lifecycle"></a>
 
 ```python
 lifecycle: TerraformResourceLifecycle
@@ -1055,7 +1055,7 @@ lifecycle: TerraformResourceLifecycle
 
 ---
 
-##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.provider"></a>
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.provider"></a>
 
 ```python
 provider: TerraformProvider
@@ -1065,7 +1065,7 @@ provider: TerraformProvider
 
 ---
 
-##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.provisioners"></a>
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.provisioners"></a>
 
 ```python
 provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner]
@@ -1075,7 +1075,7 @@ provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecPro
 
 ---
 
-##### `bucket`<sup>Required</sup> <a name="bucket" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.bucket"></a>
+##### `bucket`<sup>Required</sup> <a name="bucket" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.bucket"></a>
 
 ```python
 bucket: str
@@ -1089,7 +1089,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `default_acl`<sup>Optional</sup> <a name="default_acl" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.defaultAcl"></a>
+##### `default_acl`<sup>Optional</sup> <a name="default_acl" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.defaultAcl"></a>
 
 ```python
 default_acl: str
@@ -1103,7 +1103,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `id`<sup>Optional</sup> <a name="id" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.id"></a>
+##### `id`<sup>Optional</sup> <a name="id" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.id"></a>
 
 ```python
 id: str
@@ -1118,7 +1118,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 ---
 
-##### `predefined_acl`<sup>Optional</sup> <a name="predefined_acl" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.predefinedAcl"></a>
+##### `predefined_acl`<sup>Optional</sup> <a name="predefined_acl" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.predefinedAcl"></a>
 
 ```python
 predefined_acl: str
@@ -1132,7 +1132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ---
 
-##### `role_entity`<sup>Optional</sup> <a name="role_entity" id="@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.roleEntity"></a>
+##### `role_entity`<sup>Optional</sup> <a name="role_entity" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.roleEntity"></a>
 
 ```python
 role_entity: typing.List[str]
