@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSccV2OrganizationMuteConfig.GoogleSccV2OrganizationMuteConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlesccv2organizationmuteconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesccv2organizationmuteconfig"
 
 googlesccv2organizationmuteconfig.NewGoogleSccV2OrganizationMuteConfig(scope Construct, id *string, config GoogleSccV2OrganizationMuteConfigConfig) GoogleSccV2OrganizationMuteConfig
 ```
@@ -419,7 +419,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleSccV2OrganizationMuteConfig.GoogleSccV2OrganizationMuteConfig.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlesccv2organizationmuteconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesccv2organizationmuteconfig"
 
 googlesccv2organizationmuteconfig.GoogleSccV2OrganizationMuteConfig_IsConstruct(x interface{}) *bool
 ```
@@ -451,7 +451,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleSccV2OrganizationMuteConfig.GoogleSccV2OrganizationMuteConfig.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlesccv2organizationmuteconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesccv2organizationmuteconfig"
 
 googlesccv2organizationmuteconfig.GoogleSccV2OrganizationMuteConfig_IsTerraformElement(x interface{}) *bool
 ```
@@ -465,7 +465,7 @@ googlesccv2organizationmuteconfig.GoogleSccV2OrganizationMuteConfig_IsTerraformE
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleSccV2OrganizationMuteConfig.GoogleSccV2OrganizationMuteConfig.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlesccv2organizationmuteconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesccv2organizationmuteconfig"
 
 googlesccv2organizationmuteconfig.GoogleSccV2OrganizationMuteConfig_IsTerraformResource(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ googlesccv2organizationmuteconfig.GoogleSccV2OrganizationMuteConfig_IsTerraformR
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleSccV2OrganizationMuteConfig.GoogleSccV2OrganizationMuteConfig.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlesccv2organizationmuteconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesccv2organizationmuteconfig"
 
 googlesccv2organizationmuteconfig.GoogleSccV2OrganizationMuteConfig_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -928,7 +928,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSccV2OrganizationMuteConfig.GoogleSccV2OrganizationMuteConfigConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlesccv2organizationmuteconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesccv2organizationmuteconfig"
 
 &googlesccv2organizationmuteconfig.GoogleSccV2OrganizationMuteConfigConfig {
 	Connection: interface{},
@@ -945,7 +945,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlesccv2o
 	Description: *string,
 	Id: *string,
 	Location: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta.googleSccV2OrganizationMuteConfig.GoogleSccV2OrganizationMuteConfigTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleSccV2OrganizationMuteConfig.GoogleSccV2OrganizationMuteConfigTimeouts,
 }
 ```
 
@@ -1164,7 +1164,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSccV2OrganizationMuteConfig.GoogleSccV2OrganizationMuteConfigTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlesccv2organizationmuteconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesccv2organizationmuteconfig"
 
 &googlesccv2organizationmuteconfig.GoogleSccV2OrganizationMuteConfigTimeouts {
 	Create: *string,
@@ -1226,7 +1226,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSccV2OrganizationMuteConfig.GoogleSccV2OrganizationMuteConfigTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlesccv2organizationmuteconfig"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesccv2organizationmuteconfig"
 
 googlesccv2organizationmuteconfig.NewGoogleSccV2OrganizationMuteConfigTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleSccV2OrganizationMuteConfigTimeoutsOutputReference
 ```

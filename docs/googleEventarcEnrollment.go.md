@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleEventarcEnrollment.GoogleEventarcEnrollment.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcenrollment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcenrollment"
 
 googleeventarcenrollment.NewGoogleEventarcEnrollment(scope Construct, id *string, config GoogleEventarcEnrollmentConfig) GoogleEventarcEnrollment
 ```
@@ -433,7 +433,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleEventarcEnrollment.GoogleEventarcEnrollment.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcenrollment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcenrollment"
 
 googleeventarcenrollment.GoogleEventarcEnrollment_IsConstruct(x interface{}) *bool
 ```
@@ -465,7 +465,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleEventarcEnrollment.GoogleEventarcEnrollment.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcenrollment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcenrollment"
 
 googleeventarcenrollment.GoogleEventarcEnrollment_IsTerraformElement(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ googleeventarcenrollment.GoogleEventarcEnrollment_IsTerraformElement(x interface
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleEventarcEnrollment.GoogleEventarcEnrollment.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcenrollment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcenrollment"
 
 googleeventarcenrollment.GoogleEventarcEnrollment_IsTerraformResource(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ googleeventarcenrollment.GoogleEventarcEnrollment_IsTerraformResource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleEventarcEnrollment.GoogleEventarcEnrollment.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcenrollment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcenrollment"
 
 googleeventarcenrollment.GoogleEventarcEnrollment_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1052,7 +1052,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleEventarcEnrollment.GoogleEventarcEnrollmentConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcenrollment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcenrollment"
 
 &googleeventarcenrollment.GoogleEventarcEnrollmentConfig {
 	Connection: interface{},
@@ -1072,7 +1072,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventa
 	Id: *string,
 	Labels: *map[string]*string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta.googleEventarcEnrollment.GoogleEventarcEnrollmentTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleEventarcEnrollment.GoogleEventarcEnrollmentTimeouts,
 }
 ```
 
@@ -1339,7 +1339,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleEventarcEnrollment.GoogleEventarcEnrollmentTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcenrollment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcenrollment"
 
 &googleeventarcenrollment.GoogleEventarcEnrollmentTimeouts {
 	Create: *string,
@@ -1401,7 +1401,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleEventarcEnrollment.GoogleEventarcEnrollmentTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcenrollment"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcenrollment"
 
 googleeventarcenrollment.NewGoogleEventarcEnrollmentTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleEventarcEnrollmentTimeoutsOutputReference
 ```

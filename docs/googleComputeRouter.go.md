@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputerouter"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputerouter"
 
 googlecomputerouter.NewGoogleComputeRouter(scope Construct, id *string, config GoogleComputeRouterConfig) GoogleComputeRouter
 ```
@@ -493,7 +493,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputerouter"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputerouter"
 
 googlecomputerouter.GoogleComputeRouter_IsConstruct(x interface{}) *bool
 ```
@@ -525,7 +525,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputerouter"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputerouter"
 
 googlecomputerouter.GoogleComputeRouter_IsTerraformElement(x interface{}) *bool
 ```
@@ -539,7 +539,7 @@ googlecomputerouter.GoogleComputeRouter_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputerouter"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputerouter"
 
 googlecomputerouter.GoogleComputeRouter_IsTerraformResource(x interface{}) *bool
 ```
@@ -553,7 +553,7 @@ googlecomputerouter.GoogleComputeRouter_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouter.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputerouter"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputerouter"
 
 googlecomputerouter.GoogleComputeRouter_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1046,7 +1046,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgp.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputerouter"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputerouter"
 
 &googlecomputerouter.GoogleComputeRouterBgp {
 	Asn: *f64,
@@ -1187,7 +1187,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRanges.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputerouter"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputerouter"
 
 &googlecomputerouter.GoogleComputeRouterBgpAdvertisedIpRanges {
 	Range: *string,
@@ -1237,7 +1237,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputerouter"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputerouter"
 
 &googlecomputerouter.GoogleComputeRouterConfig {
 	Connection: interface{},
@@ -1249,15 +1249,15 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomput
 	Provisioners: *[]interface{},
 	Name: *string,
 	Network: *string,
-	Bgp: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta.googleComputeRouter.GoogleComputeRouterBgp,
+	Bgp: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleComputeRouter.GoogleComputeRouterBgp,
 	Description: *string,
 	EncryptedInterconnectRouter: interface{},
 	Id: *string,
-	Md5AuthenticationKeys: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeys,
-	Params: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta.googleComputeRouter.GoogleComputeRouterParams,
+	Md5AuthenticationKeys: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeys,
+	Params: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleComputeRouter.GoogleComputeRouterParams,
 	Project: *string,
 	Region: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta.googleComputeRouter.GoogleComputeRouterTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleComputeRouter.GoogleComputeRouterTimeouts,
 }
 ```
 
@@ -1521,7 +1521,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeys.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputerouter"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputerouter"
 
 &googlecomputerouter.GoogleComputeRouterMd5AuthenticationKeys {
 	Key: *string,
@@ -1574,7 +1574,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParams.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputerouter"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputerouter"
 
 &googlecomputerouter.GoogleComputeRouterParams {
 	ResourceManagerTags: *map[string]*string,
@@ -1612,7 +1612,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputerouter"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputerouter"
 
 &googlecomputerouter.GoogleComputeRouterTimeouts {
 	Create: *string,
@@ -1674,7 +1674,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputerouter"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputerouter"
 
 googlecomputerouter.NewGoogleComputeRouterBgpAdvertisedIpRangesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeRouterBgpAdvertisedIpRangesList
 ```
@@ -1834,7 +1834,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpAdvertisedIpRangesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputerouter"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputerouter"
 
 googlecomputerouter.NewGoogleComputeRouterBgpAdvertisedIpRangesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeRouterBgpAdvertisedIpRangesOutputReference
 ```
@@ -2152,7 +2152,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterBgpOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputerouter"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputerouter"
 
 googlecomputerouter.NewGoogleComputeRouterBgpOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeRouterBgpOutputReference
 ```
@@ -2581,7 +2581,7 @@ func InternalValue() GoogleComputeRouterBgp
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterMd5AuthenticationKeysOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputerouter"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputerouter"
 
 googlecomputerouter.NewGoogleComputeRouterMd5AuthenticationKeysOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeRouterMd5AuthenticationKeysOutputReference
 ```
@@ -2874,7 +2874,7 @@ func InternalValue() GoogleComputeRouterMd5AuthenticationKeys
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterParamsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputerouter"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputerouter"
 
 googlecomputerouter.NewGoogleComputeRouterParamsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeRouterParamsOutputReference
 ```
@@ -3152,7 +3152,7 @@ func InternalValue() GoogleComputeRouterParams
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRouter.GoogleComputeRouterTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputerouter"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputerouter"
 
 googlecomputerouter.NewGoogleComputeRouterTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeRouterTimeoutsOutputReference
 ```

@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseStorageBucket.GoogleFirebaseStorageBucket.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlefirebasestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlefirebasestoragebucket"
 
 googlefirebasestoragebucket.NewGoogleFirebaseStorageBucket(scope Construct, id *string, config GoogleFirebaseStorageBucketConfig) GoogleFirebaseStorageBucket
 ```
@@ -419,7 +419,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleFirebaseStorageBucket.GoogleFirebaseStorageBucket.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlefirebasestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlefirebasestoragebucket"
 
 googlefirebasestoragebucket.GoogleFirebaseStorageBucket_IsConstruct(x interface{}) *bool
 ```
@@ -451,7 +451,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleFirebaseStorageBucket.GoogleFirebaseStorageBucket.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlefirebasestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlefirebasestoragebucket"
 
 googlefirebasestoragebucket.GoogleFirebaseStorageBucket_IsTerraformElement(x interface{}) *bool
 ```
@@ -465,7 +465,7 @@ googlefirebasestoragebucket.GoogleFirebaseStorageBucket_IsTerraformElement(x int
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleFirebaseStorageBucket.GoogleFirebaseStorageBucket.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlefirebasestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlefirebasestoragebucket"
 
 googlefirebasestoragebucket.GoogleFirebaseStorageBucket_IsTerraformResource(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ googlefirebasestoragebucket.GoogleFirebaseStorageBucket_IsTerraformResource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleFirebaseStorageBucket.GoogleFirebaseStorageBucket.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlefirebasestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlefirebasestoragebucket"
 
 googlefirebasestoragebucket.GoogleFirebaseStorageBucket_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -807,7 +807,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseStorageBucket.GoogleFirebaseStorageBucketConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlefirebasestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlefirebasestoragebucket"
 
 &googlefirebasestoragebucket.GoogleFirebaseStorageBucketConfig {
 	Connection: interface{},
@@ -820,7 +820,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlefireba
 	BucketId: *string,
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta.googleFirebaseStorageBucket.GoogleFirebaseStorageBucketTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleFirebaseStorageBucket.GoogleFirebaseStorageBucketTimeouts,
 }
 ```
 
@@ -972,7 +972,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleFirebaseStorageBucket.GoogleFirebaseStorageBucketTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlefirebasestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlefirebasestoragebucket"
 
 &googlefirebasestoragebucket.GoogleFirebaseStorageBucketTimeouts {
 	Create: *string,
@@ -1020,7 +1020,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseStorageBucket.GoogleFirebaseStorageBucketTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlefirebasestoragebucket"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlefirebasestoragebucket"
 
 googlefirebasestoragebucket.NewGoogleFirebaseStorageBucketTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleFirebaseStorageBucketTimeoutsOutputReference
 ```

@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAppEngineServiceNetworkSettings.GoogleAppEngineServiceNetworkSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleappengineservicenetworksettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleappengineservicenetworksettings"
 
 googleappengineservicenetworksettings.NewGoogleAppEngineServiceNetworkSettings(scope Construct, id *string, config GoogleAppEngineServiceNetworkSettingsConfig) GoogleAppEngineServiceNetworkSettings
 ```
@@ -425,7 +425,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleAppEngineServiceNetworkSettings.GoogleAppEngineServiceNetworkSettings.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleappengineservicenetworksettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleappengineservicenetworksettings"
 
 googleappengineservicenetworksettings.GoogleAppEngineServiceNetworkSettings_IsConstruct(x interface{}) *bool
 ```
@@ -457,7 +457,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleAppEngineServiceNetworkSettings.GoogleAppEngineServiceNetworkSettings.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleappengineservicenetworksettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleappengineservicenetworksettings"
 
 googleappengineservicenetworksettings.GoogleAppEngineServiceNetworkSettings_IsTerraformElement(x interface{}) *bool
 ```
@@ -471,7 +471,7 @@ googleappengineservicenetworksettings.GoogleAppEngineServiceNetworkSettings_IsTe
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleAppEngineServiceNetworkSettings.GoogleAppEngineServiceNetworkSettings.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleappengineservicenetworksettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleappengineservicenetworksettings"
 
 googleappengineservicenetworksettings.GoogleAppEngineServiceNetworkSettings_IsTerraformResource(x interface{}) *bool
 ```
@@ -485,7 +485,7 @@ googleappengineservicenetworksettings.GoogleAppEngineServiceNetworkSettings_IsTe
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleAppEngineServiceNetworkSettings.GoogleAppEngineServiceNetworkSettings.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleappengineservicenetworksettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleappengineservicenetworksettings"
 
 googleappengineservicenetworksettings.GoogleAppEngineServiceNetworkSettings_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -824,7 +824,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAppEngineServiceNetworkSettings.GoogleAppEngineServiceNetworkSettingsConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleappengineservicenetworksettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleappengineservicenetworksettings"
 
 &googleappengineservicenetworksettings.GoogleAppEngineServiceNetworkSettingsConfig {
 	Connection: interface{},
@@ -834,11 +834,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleappeng
 	Lifecycle: github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle,
 	Provider: github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider,
 	Provisioners: *[]interface{},
-	NetworkSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta.googleAppEngineServiceNetworkSettings.GoogleAppEngineServiceNetworkSettingsNetworkSettings,
+	NetworkSettings: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleAppEngineServiceNetworkSettings.GoogleAppEngineServiceNetworkSettingsNetworkSettings,
 	Service: *string,
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta.googleAppEngineServiceNetworkSettings.GoogleAppEngineServiceNetworkSettingsTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleAppEngineServiceNetworkSettings.GoogleAppEngineServiceNetworkSettingsTimeouts,
 }
 ```
 
@@ -1005,7 +1005,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAppEngineServiceNetworkSettings.GoogleAppEngineServiceNetworkSettingsNetworkSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleappengineservicenetworksettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleappengineservicenetworksettings"
 
 &googleappengineservicenetworksettings.GoogleAppEngineServiceNetworkSettingsNetworkSettings {
 	IngressTrafficAllowed: *string,
@@ -1039,7 +1039,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleAppEngineServiceNetworkSettings.GoogleAppEngineServiceNetworkSettingsTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleappengineservicenetworksettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleappengineservicenetworksettings"
 
 &googleappengineservicenetworksettings.GoogleAppEngineServiceNetworkSettingsTimeouts {
 	Create: *string,
@@ -1101,7 +1101,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAppEngineServiceNetworkSettings.GoogleAppEngineServiceNetworkSettingsNetworkSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleappengineservicenetworksettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleappengineservicenetworksettings"
 
 googleappengineservicenetworksettings.NewGoogleAppEngineServiceNetworkSettingsNetworkSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAppEngineServiceNetworkSettingsNetworkSettingsOutputReference
 ```
@@ -1379,7 +1379,7 @@ func InternalValue() GoogleAppEngineServiceNetworkSettingsNetworkSettings
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAppEngineServiceNetworkSettings.GoogleAppEngineServiceNetworkSettingsTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleappengineservicenetworksettings"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleappengineservicenetworksettings"
 
 googleappengineservicenetworksettings.NewGoogleAppEngineServiceNetworkSettingsTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleAppEngineServiceNetworkSettingsTimeoutsOutputReference
 ```

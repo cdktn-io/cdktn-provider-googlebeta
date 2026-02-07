@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleapigeesecurityaction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleapigeesecurityaction"
 
 googleapigeesecurityaction.NewGoogleApigeeSecurityAction(scope Construct, id *string, config GoogleApigeeSecurityActionConfig) GoogleApigeeSecurityAction
 ```
@@ -506,7 +506,7 @@ func ResetTtl()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityAction.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleapigeesecurityaction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleapigeesecurityaction"
 
 googleapigeesecurityaction.GoogleApigeeSecurityAction_IsConstruct(x interface{}) *bool
 ```
@@ -538,7 +538,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityAction.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleapigeesecurityaction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleapigeesecurityaction"
 
 googleapigeesecurityaction.GoogleApigeeSecurityAction_IsTerraformElement(x interface{}) *bool
 ```
@@ -552,7 +552,7 @@ googleapigeesecurityaction.GoogleApigeeSecurityAction_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityAction.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleapigeesecurityaction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleapigeesecurityaction"
 
 googleapigeesecurityaction.GoogleApigeeSecurityAction_IsTerraformResource(x interface{}) *bool
 ```
@@ -566,7 +566,7 @@ googleapigeesecurityaction.GoogleApigeeSecurityAction_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityAction.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleapigeesecurityaction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleapigeesecurityaction"
 
 googleapigeesecurityaction.GoogleApigeeSecurityAction_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1125,7 +1125,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityActionAllow.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleapigeesecurityaction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleapigeesecurityaction"
 
 &googleapigeesecurityaction.GoogleApigeeSecurityActionAllow {
 
@@ -1138,7 +1138,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleapigee
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityActionConditionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleapigeesecurityaction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleapigeesecurityaction"
 
 &googleapigeesecurityaction.GoogleApigeeSecurityActionConditionConfig {
 	AccessTokens: *[]*string,
@@ -1339,7 +1339,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityActionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleapigeesecurityaction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleapigeesecurityaction"
 
 &googleapigeesecurityaction.GoogleApigeeSecurityActionConfig {
 	Connection: interface{},
@@ -1349,19 +1349,19 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleapigee
 	Lifecycle: github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle,
 	Provider: github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider,
 	Provisioners: *[]interface{},
-	ConditionConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta.googleApigeeSecurityAction.GoogleApigeeSecurityActionConditionConfig,
+	ConditionConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleApigeeSecurityAction.GoogleApigeeSecurityActionConditionConfig,
 	EnvId: *string,
 	OrgId: *string,
 	SecurityActionId: *string,
 	State: *string,
-	Allow: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta.googleApigeeSecurityAction.GoogleApigeeSecurityActionAllow,
+	Allow: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleApigeeSecurityAction.GoogleApigeeSecurityActionAllow,
 	ApiProxies: *[]*string,
-	Deny: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta.googleApigeeSecurityAction.GoogleApigeeSecurityActionDeny,
+	Deny: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleApigeeSecurityAction.GoogleApigeeSecurityActionDeny,
 	Description: *string,
 	ExpireTime: *string,
-	Flag: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta.googleApigeeSecurityAction.GoogleApigeeSecurityActionFlag,
+	Flag: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleApigeeSecurityAction.GoogleApigeeSecurityActionFlag,
 	Id: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta.googleApigeeSecurityAction.GoogleApigeeSecurityActionTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleApigeeSecurityAction.GoogleApigeeSecurityActionTimeouts,
 	Ttl: *string,
 }
 ```
@@ -1679,7 +1679,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityActionDeny.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleapigeesecurityaction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleapigeesecurityaction"
 
 &googleapigeesecurityaction.GoogleApigeeSecurityActionDeny {
 	ResponseCode: *f64,
@@ -1713,7 +1713,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityActionFlag.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleapigeesecurityaction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleapigeesecurityaction"
 
 &googleapigeesecurityaction.GoogleApigeeSecurityActionFlag {
 	Headers: interface{},
@@ -1747,7 +1747,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityActionFlagHeaders.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleapigeesecurityaction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleapigeesecurityaction"
 
 &googleapigeesecurityaction.GoogleApigeeSecurityActionFlagHeaders {
 	Name: *string,
@@ -1797,7 +1797,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityActionTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleapigeesecurityaction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleapigeesecurityaction"
 
 &googleapigeesecurityaction.GoogleApigeeSecurityActionTimeouts {
 	Create: *string,
@@ -1845,7 +1845,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityActionAllowOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleapigeesecurityaction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleapigeesecurityaction"
 
 googleapigeesecurityaction.NewGoogleApigeeSecurityActionAllowOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApigeeSecurityActionAllowOutputReference
 ```
@@ -2094,7 +2094,7 @@ func InternalValue() GoogleApigeeSecurityActionAllow
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityActionConditionConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleapigeesecurityaction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleapigeesecurityaction"
 
 googleapigeesecurityaction.NewGoogleApigeeSecurityActionConditionConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApigeeSecurityActionConditionConfigOutputReference
 ```
@@ -2662,7 +2662,7 @@ func InternalValue() GoogleApigeeSecurityActionConditionConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityActionDenyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleapigeesecurityaction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleapigeesecurityaction"
 
 googleapigeesecurityaction.NewGoogleApigeeSecurityActionDenyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApigeeSecurityActionDenyOutputReference
 ```
@@ -2940,7 +2940,7 @@ func InternalValue() GoogleApigeeSecurityActionDeny
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityActionFlagHeadersList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleapigeesecurityaction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleapigeesecurityaction"
 
 googleapigeesecurityaction.NewGoogleApigeeSecurityActionFlagHeadersList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleApigeeSecurityActionFlagHeadersList
 ```
@@ -3100,7 +3100,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityActionFlagHeadersOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleapigeesecurityaction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleapigeesecurityaction"
 
 googleapigeesecurityaction.NewGoogleApigeeSecurityActionFlagHeadersOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleApigeeSecurityActionFlagHeadersOutputReference
 ```
@@ -3425,7 +3425,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityActionFlagOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleapigeesecurityaction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleapigeesecurityaction"
 
 googleapigeesecurityaction.NewGoogleApigeeSecurityActionFlagOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApigeeSecurityActionFlagOutputReference
 ```
@@ -3716,7 +3716,7 @@ func InternalValue() GoogleApigeeSecurityActionFlag
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeSecurityAction.GoogleApigeeSecurityActionTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleapigeesecurityaction"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleapigeesecurityaction"
 
 googleapigeesecurityaction.NewGoogleApigeeSecurityActionTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleApigeeSecurityActionTimeoutsOutputReference
 ```

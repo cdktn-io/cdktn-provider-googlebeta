@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputeinterconnect"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeinterconnect"
 
 googlecomputeinterconnect.NewGoogleComputeInterconnect(scope Construct, id *string, config GoogleComputeInterconnectConfig) GoogleComputeInterconnect
 ```
@@ -515,7 +515,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputeinterconnect"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeinterconnect"
 
 googlecomputeinterconnect.GoogleComputeInterconnect_IsConstruct(x interface{}) *bool
 ```
@@ -547,7 +547,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputeinterconnect"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeinterconnect"
 
 googlecomputeinterconnect.GoogleComputeInterconnect_IsTerraformElement(x interface{}) *bool
 ```
@@ -561,7 +561,7 @@ googlecomputeinterconnect.GoogleComputeInterconnect_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputeinterconnect"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeinterconnect"
 
 googlecomputeinterconnect.GoogleComputeInterconnect_IsTerraformResource(x interface{}) *bool
 ```
@@ -575,7 +575,7 @@ googlecomputeinterconnect.GoogleComputeInterconnect_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnect.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputeinterconnect"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeinterconnect"
 
 googlecomputeinterconnect.GoogleComputeInterconnect_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1409,13 +1409,13 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnect.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputeinterconnect"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeinterconnect"
 
 &googlecomputeinterconnect.GoogleComputeInterconnectApplicationAwareInterconnect {
-	BandwidthPercentagePolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy,
+	BandwidthPercentagePolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy,
 	ProfileDescription: *string,
 	ShapeAveragePercentage: interface{},
-	StrictPriorityPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicy,
+	StrictPriorityPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicy,
 }
 ```
 
@@ -1491,7 +1491,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputeinterconnect"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeinterconnect"
 
 &googlecomputeinterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy {
 	BandwidthPercentage: interface{},
@@ -1525,7 +1525,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputeinterconnect"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeinterconnect"
 
 &googlecomputeinterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage {
 	Percentage: *f64,
@@ -1577,7 +1577,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputeinterconnect"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeinterconnect"
 
 &googlecomputeinterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage {
 	Percentage: *f64,
@@ -1629,7 +1629,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputeinterconnect"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeinterconnect"
 
 &googlecomputeinterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicy {
 
@@ -1642,7 +1642,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomput
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfos.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputeinterconnect"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeinterconnect"
 
 &googlecomputeinterconnect.GoogleComputeInterconnectCircuitInfos {
 
@@ -1655,7 +1655,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomput
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputeinterconnect"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeinterconnect"
 
 &googlecomputeinterconnect.GoogleComputeInterconnectConfig {
 	Connection: interface{},
@@ -1672,18 +1672,18 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomput
 	RequestedLinkCount: *f64,
 	AaiEnabled: interface{},
 	AdminEnabled: interface{},
-	ApplicationAwareInterconnect: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnect,
+	ApplicationAwareInterconnect: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnect,
 	CustomerName: *string,
 	Description: *string,
 	Id: *string,
 	Labels: *map[string]*string,
-	Macsec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta.googleComputeInterconnect.GoogleComputeInterconnectMacsec,
+	Macsec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleComputeInterconnect.GoogleComputeInterconnectMacsec,
 	MacsecEnabled: interface{},
 	NocContactEmail: *string,
 	Project: *string,
 	RemoteLocation: *string,
 	RequestedFeatures: *[]*string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta.googleComputeInterconnect.GoogleComputeInterconnectTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleComputeInterconnect.GoogleComputeInterconnectTimeouts,
 }
 ```
 
@@ -2100,7 +2100,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutages.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputeinterconnect"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeinterconnect"
 
 &googlecomputeinterconnect.GoogleComputeInterconnectExpectedOutages {
 
@@ -2113,7 +2113,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomput
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputeinterconnect"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeinterconnect"
 
 &googlecomputeinterconnect.GoogleComputeInterconnectMacsec {
 	PreSharedKeys: interface{},
@@ -2167,7 +2167,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeys.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputeinterconnect"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeinterconnect"
 
 &googlecomputeinterconnect.GoogleComputeInterconnectMacsecPreSharedKeys {
 	Name: *string,
@@ -2249,7 +2249,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputeinterconnect"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeinterconnect"
 
 &googlecomputeinterconnect.GoogleComputeInterconnectTimeouts {
 	Create: *string,
@@ -2311,7 +2311,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputeinterconnect"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeinterconnect"
 
 googlecomputeinterconnect.NewGoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList
 ```
@@ -2471,7 +2471,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputeinterconnect"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeinterconnect"
 
 googlecomputeinterconnect.NewGoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference
 ```
@@ -2796,7 +2796,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputeinterconnect"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeinterconnect"
 
 googlecomputeinterconnect.NewGoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference
 ```
@@ -3087,7 +3087,7 @@ func InternalValue() GoogleComputeInterconnectApplicationAwareInterconnectBandwi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputeinterconnect"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeinterconnect"
 
 googlecomputeinterconnect.NewGoogleComputeInterconnectApplicationAwareInterconnectOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeInterconnectApplicationAwareInterconnectOutputReference
 ```
@@ -3491,7 +3491,7 @@ func InternalValue() GoogleComputeInterconnectApplicationAwareInterconnect
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputeinterconnect"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeinterconnect"
 
 googlecomputeinterconnect.NewGoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList
 ```
@@ -3651,7 +3651,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputeinterconnect"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeinterconnect"
 
 googlecomputeinterconnect.NewGoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference
 ```
@@ -3976,7 +3976,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputeinterconnect"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeinterconnect"
 
 googlecomputeinterconnect.NewGoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference
 ```
@@ -4225,7 +4225,7 @@ func InternalValue() GoogleComputeInterconnectApplicationAwareInterconnectStrict
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputeinterconnect"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeinterconnect"
 
 googlecomputeinterconnect.NewGoogleComputeInterconnectCircuitInfosList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeInterconnectCircuitInfosList
 ```
@@ -4374,7 +4374,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectCircuitInfosOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputeinterconnect"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeinterconnect"
 
 googlecomputeinterconnect.NewGoogleComputeInterconnectCircuitInfosOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeInterconnectCircuitInfosOutputReference
 ```
@@ -4674,7 +4674,7 @@ func InternalValue() GoogleComputeInterconnectCircuitInfos
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputeinterconnect"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeinterconnect"
 
 googlecomputeinterconnect.NewGoogleComputeInterconnectExpectedOutagesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeInterconnectExpectedOutagesList
 ```
@@ -4823,7 +4823,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectExpectedOutagesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputeinterconnect"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeinterconnect"
 
 googlecomputeinterconnect.NewGoogleComputeInterconnectExpectedOutagesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeInterconnectExpectedOutagesOutputReference
 ```
@@ -5178,7 +5178,7 @@ func InternalValue() GoogleComputeInterconnectExpectedOutages
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputeinterconnect"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeinterconnect"
 
 googlecomputeinterconnect.NewGoogleComputeInterconnectMacsecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeInterconnectMacsecOutputReference
 ```
@@ -5491,7 +5491,7 @@ func InternalValue() GoogleComputeInterconnectMacsec
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputeinterconnect"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeinterconnect"
 
 googlecomputeinterconnect.NewGoogleComputeInterconnectMacsecPreSharedKeysList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeInterconnectMacsecPreSharedKeysList
 ```
@@ -5651,7 +5651,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectMacsecPreSharedKeysOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputeinterconnect"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeinterconnect"
 
 googlecomputeinterconnect.NewGoogleComputeInterconnectMacsecPreSharedKeysOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleComputeInterconnectMacsecPreSharedKeysOutputReference
 ```
@@ -5998,7 +5998,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInterconnect.GoogleComputeInterconnectTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlecomputeinterconnect"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeinterconnect"
 
 googlecomputeinterconnect.NewGoogleComputeInterconnectTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeInterconnectTimeoutsOutputReference
 ```

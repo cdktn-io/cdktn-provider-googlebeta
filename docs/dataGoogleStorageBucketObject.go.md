@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleStorageBucketObject.DataGoogleStorageBucketObject.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/datagooglestoragebucketobject"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglestoragebucketobject"
 
 datagooglestoragebucketobject.NewDataGoogleStorageBucketObject(scope Construct, id *string, config DataGoogleStorageBucketObjectConfig) DataGoogleStorageBucketObject
 ```
@@ -297,7 +297,7 @@ func ResetName()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.dataGoogleStorageBucketObject.DataGoogleStorageBucketObject.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/datagooglestoragebucketobject"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglestoragebucketobject"
 
 datagooglestoragebucketobject.DataGoogleStorageBucketObject_IsConstruct(x interface{}) *bool
 ```
@@ -329,7 +329,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.dataGoogleStorageBucketObject.DataGoogleStorageBucketObject.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/datagooglestoragebucketobject"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglestoragebucketobject"
 
 datagooglestoragebucketobject.DataGoogleStorageBucketObject_IsTerraformElement(x interface{}) *bool
 ```
@@ -343,7 +343,7 @@ datagooglestoragebucketobject.DataGoogleStorageBucketObject_IsTerraformElement(x
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-google-beta.dataGoogleStorageBucketObject.DataGoogleStorageBucketObject.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/datagooglestoragebucketobject"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglestoragebucketobject"
 
 datagooglestoragebucketobject.DataGoogleStorageBucketObject_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -357,7 +357,7 @@ datagooglestoragebucketobject.DataGoogleStorageBucketObject_IsTerraformDataSourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.dataGoogleStorageBucketObject.DataGoogleStorageBucketObject.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/datagooglestoragebucketobject"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglestoragebucketobject"
 
 datagooglestoragebucketobject.DataGoogleStorageBucketObject_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -905,7 +905,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleStorageBucketObject.DataGoogleStorageBucketObjectConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/datagooglestoragebucketobject"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglestoragebucketobject"
 
 &datagooglestoragebucketobject.DataGoogleStorageBucketObjectConfig {
 	Connection: interface{},
@@ -1056,7 +1056,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleStorageBucketObject.DataGoogleStorageBucketObjectCustomerEncryption.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/datagooglestoragebucketobject"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglestoragebucketobject"
 
 &datagooglestoragebucketobject.DataGoogleStorageBucketObjectCustomerEncryption {
 
@@ -1069,7 +1069,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/datagooglest
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleStorageBucketObject.DataGoogleStorageBucketObjectRetention.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/datagooglestoragebucketobject"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglestoragebucketobject"
 
 &datagooglestoragebucketobject.DataGoogleStorageBucketObjectRetention {
 
@@ -1084,7 +1084,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/datagooglest
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleStorageBucketObject.DataGoogleStorageBucketObjectCustomerEncryptionList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/datagooglestoragebucketobject"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglestoragebucketobject"
 
 datagooglestoragebucketobject.NewDataGoogleStorageBucketObjectCustomerEncryptionList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGoogleStorageBucketObjectCustomerEncryptionList
 ```
@@ -1233,7 +1233,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleStorageBucketObject.DataGoogleStorageBucketObjectCustomerEncryptionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/datagooglestoragebucketobject"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglestoragebucketobject"
 
 datagooglestoragebucketobject.NewDataGoogleStorageBucketObjectCustomerEncryptionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGoogleStorageBucketObjectCustomerEncryptionOutputReference
 ```
@@ -1522,7 +1522,7 @@ func InternalValue() DataGoogleStorageBucketObjectCustomerEncryption
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleStorageBucketObject.DataGoogleStorageBucketObjectRetentionList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/datagooglestoragebucketobject"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglestoragebucketobject"
 
 datagooglestoragebucketobject.NewDataGoogleStorageBucketObjectRetentionList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGoogleStorageBucketObjectRetentionList
 ```
@@ -1671,7 +1671,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleStorageBucketObject.DataGoogleStorageBucketObjectRetentionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/datagooglestoragebucketobject"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglestoragebucketobject"
 
 datagooglestoragebucketobject.NewDataGoogleStorageBucketObjectRetentionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGoogleStorageBucketObjectRetentionOutputReference
 ```

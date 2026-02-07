@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleWorkstationsWorkstationConfigIamPolicy.DataGoogleWorkstationsWorkstationConfigIamPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/datagoogleworkstationsworkstationconfigiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagoogleworkstationsworkstationconfigiampolicy"
 
 datagoogleworkstationsworkstationconfigiampolicy.NewDataGoogleWorkstationsWorkstationConfigIamPolicy(scope Construct, id *string, config DataGoogleWorkstationsWorkstationConfigIamPolicyConfig) DataGoogleWorkstationsWorkstationConfigIamPolicy
 ```
@@ -297,7 +297,7 @@ func ResetProject()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.dataGoogleWorkstationsWorkstationConfigIamPolicy.DataGoogleWorkstationsWorkstationConfigIamPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/datagoogleworkstationsworkstationconfigiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagoogleworkstationsworkstationconfigiampolicy"
 
 datagoogleworkstationsworkstationconfigiampolicy.DataGoogleWorkstationsWorkstationConfigIamPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -329,7 +329,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.dataGoogleWorkstationsWorkstationConfigIamPolicy.DataGoogleWorkstationsWorkstationConfigIamPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/datagoogleworkstationsworkstationconfigiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagoogleworkstationsworkstationconfigiampolicy"
 
 datagoogleworkstationsworkstationconfigiampolicy.DataGoogleWorkstationsWorkstationConfigIamPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -343,7 +343,7 @@ datagoogleworkstationsworkstationconfigiampolicy.DataGoogleWorkstationsWorkstati
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-google-beta.dataGoogleWorkstationsWorkstationConfigIamPolicy.DataGoogleWorkstationsWorkstationConfigIamPolicy.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/datagoogleworkstationsworkstationconfigiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagoogleworkstationsworkstationconfigiampolicy"
 
 datagoogleworkstationsworkstationconfigiampolicy.DataGoogleWorkstationsWorkstationConfigIamPolicy_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -357,7 +357,7 @@ datagoogleworkstationsworkstationconfigiampolicy.DataGoogleWorkstationsWorkstati
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.dataGoogleWorkstationsWorkstationConfigIamPolicy.DataGoogleWorkstationsWorkstationConfigIamPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/datagoogleworkstationsworkstationconfigiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagoogleworkstationsworkstationconfigiampolicy"
 
 datagoogleworkstationsworkstationconfigiampolicy.DataGoogleWorkstationsWorkstationConfigIamPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -696,7 +696,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleWorkstationsWorkstationConfigIamPolicy.DataGoogleWorkstationsWorkstationConfigIamPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/datagoogleworkstationsworkstationconfigiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagoogleworkstationsworkstationconfigiampolicy"
 
 &datagoogleworkstationsworkstationconfigiampolicy.DataGoogleWorkstationsWorkstationConfigIamPolicyConfig {
 	Connection: interface{},

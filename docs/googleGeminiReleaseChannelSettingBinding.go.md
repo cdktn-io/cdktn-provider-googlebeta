@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGeminiReleaseChannelSettingBinding.GoogleGeminiReleaseChannelSettingBinding.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlegeminireleasechannelsettingbinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlegeminireleasechannelsettingbinding"
 
 googlegeminireleasechannelsettingbinding.NewGoogleGeminiReleaseChannelSettingBinding(scope Construct, id *string, config GoogleGeminiReleaseChannelSettingBindingConfig) GoogleGeminiReleaseChannelSettingBinding
 ```
@@ -433,7 +433,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleGeminiReleaseChannelSettingBinding.GoogleGeminiReleaseChannelSettingBinding.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlegeminireleasechannelsettingbinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlegeminireleasechannelsettingbinding"
 
 googlegeminireleasechannelsettingbinding.GoogleGeminiReleaseChannelSettingBinding_IsConstruct(x interface{}) *bool
 ```
@@ -465,7 +465,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleGeminiReleaseChannelSettingBinding.GoogleGeminiReleaseChannelSettingBinding.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlegeminireleasechannelsettingbinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlegeminireleasechannelsettingbinding"
 
 googlegeminireleasechannelsettingbinding.GoogleGeminiReleaseChannelSettingBinding_IsTerraformElement(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ googlegeminireleasechannelsettingbinding.GoogleGeminiReleaseChannelSettingBindin
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleGeminiReleaseChannelSettingBinding.GoogleGeminiReleaseChannelSettingBinding.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlegeminireleasechannelsettingbinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlegeminireleasechannelsettingbinding"
 
 googlegeminireleasechannelsettingbinding.GoogleGeminiReleaseChannelSettingBinding_IsTerraformResource(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ googlegeminireleasechannelsettingbinding.GoogleGeminiReleaseChannelSettingBindin
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleGeminiReleaseChannelSettingBinding.GoogleGeminiReleaseChannelSettingBinding.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlegeminireleasechannelsettingbinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlegeminireleasechannelsettingbinding"
 
 googlegeminireleasechannelsettingbinding.GoogleGeminiReleaseChannelSettingBinding_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -975,7 +975,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGeminiReleaseChannelSettingBinding.GoogleGeminiReleaseChannelSettingBindingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlegeminireleasechannelsettingbinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlegeminireleasechannelsettingbinding"
 
 &googlegeminireleasechannelsettingbinding.GoogleGeminiReleaseChannelSettingBindingConfig {
 	Connection: interface{},
@@ -993,7 +993,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlegemini
 	Location: *string,
 	Product: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta.googleGeminiReleaseChannelSettingBinding.GoogleGeminiReleaseChannelSettingBindingTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleGeminiReleaseChannelSettingBinding.GoogleGeminiReleaseChannelSettingBindingTimeouts,
 }
 ```
 
@@ -1223,7 +1223,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleGeminiReleaseChannelSettingBinding.GoogleGeminiReleaseChannelSettingBindingTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlegeminireleasechannelsettingbinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlegeminireleasechannelsettingbinding"
 
 &googlegeminireleasechannelsettingbinding.GoogleGeminiReleaseChannelSettingBindingTimeouts {
 	Create: *string,
@@ -1285,7 +1285,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGeminiReleaseChannelSettingBinding.GoogleGeminiReleaseChannelSettingBindingTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googlegeminireleasechannelsettingbinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlegeminireleasechannelsettingbinding"
 
 googlegeminireleasechannelsettingbinding.NewGoogleGeminiReleaseChannelSettingBindingTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleGeminiReleaseChannelSettingBindingTimeoutsOutputReference
 ```

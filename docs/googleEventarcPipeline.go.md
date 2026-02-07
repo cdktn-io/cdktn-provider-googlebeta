@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleEventarcPipeline.GoogleEventarcPipeline.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcpipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcpipeline"
 
 googleeventarcpipeline.NewGoogleEventarcPipeline(scope Construct, id *string, config GoogleEventarcPipelineConfig) GoogleEventarcPipeline
 ```
@@ -533,7 +533,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleEventarcPipeline.GoogleEventarcPipeline.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcpipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcpipeline"
 
 googleeventarcpipeline.GoogleEventarcPipeline_IsConstruct(x interface{}) *bool
 ```
@@ -565,7 +565,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleEventarcPipeline.GoogleEventarcPipeline.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcpipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcpipeline"
 
 googleeventarcpipeline.GoogleEventarcPipeline_IsTerraformElement(x interface{}) *bool
 ```
@@ -579,7 +579,7 @@ googleeventarcpipeline.GoogleEventarcPipeline_IsTerraformElement(x interface{}) 
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleEventarcPipeline.GoogleEventarcPipeline.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcpipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcpipeline"
 
 googleeventarcpipeline.GoogleEventarcPipeline_IsTerraformResource(x interface{}) *bool
 ```
@@ -593,7 +593,7 @@ googleeventarcpipeline.GoogleEventarcPipeline_IsTerraformResource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleEventarcPipeline.GoogleEventarcPipeline.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcpipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcpipeline"
 
 googleeventarcpipeline.GoogleEventarcPipeline_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1218,7 +1218,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleEventarcPipeline.GoogleEventarcPipelineConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcpipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcpipeline"
 
 &googleeventarcpipeline.GoogleEventarcPipelineConfig {
 	Connection: interface{},
@@ -1235,13 +1235,13 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventa
 	CryptoKeyName: *string,
 	DisplayName: *string,
 	Id: *string,
-	InputPayloadFormat: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta.googleEventarcPipeline.GoogleEventarcPipelineInputPayloadFormat,
+	InputPayloadFormat: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleEventarcPipeline.GoogleEventarcPipelineInputPayloadFormat,
 	Labels: *map[string]*string,
-	LoggingConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta.googleEventarcPipeline.GoogleEventarcPipelineLoggingConfig,
+	LoggingConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleEventarcPipeline.GoogleEventarcPipelineLoggingConfig,
 	Mediations: interface{},
 	Project: *string,
-	RetryPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta.googleEventarcPipeline.GoogleEventarcPipelineRetryPolicy,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta.googleEventarcPipeline.GoogleEventarcPipelineTimeouts,
+	RetryPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleEventarcPipeline.GoogleEventarcPipelineRetryPolicy,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleEventarcPipeline.GoogleEventarcPipelineTimeouts,
 }
 ```
 
@@ -1556,14 +1556,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleEventarcPipeline.GoogleEventarcPipelineDestinations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcpipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcpipeline"
 
 &googleeventarcpipeline.GoogleEventarcPipelineDestinations {
-	AuthenticationConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta.googleEventarcPipeline.GoogleEventarcPipelineDestinationsAuthenticationConfig,
-	HttpEndpoint: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta.googleEventarcPipeline.GoogleEventarcPipelineDestinationsHttpEndpoint,
+	AuthenticationConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleEventarcPipeline.GoogleEventarcPipelineDestinationsAuthenticationConfig,
+	HttpEndpoint: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleEventarcPipeline.GoogleEventarcPipelineDestinationsHttpEndpoint,
 	MessageBus: *string,
-	NetworkConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta.googleEventarcPipeline.GoogleEventarcPipelineDestinationsNetworkConfig,
-	OutputPayloadFormat: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta.googleEventarcPipeline.GoogleEventarcPipelineDestinationsOutputPayloadFormat,
+	NetworkConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleEventarcPipeline.GoogleEventarcPipelineDestinationsNetworkConfig,
+	OutputPayloadFormat: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleEventarcPipeline.GoogleEventarcPipelineDestinationsOutputPayloadFormat,
 	Topic: *string,
 	Workflow: *string,
 }
@@ -1694,11 +1694,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleEventarcPipeline.GoogleEventarcPipelineDestinationsAuthenticationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcpipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcpipeline"
 
 &googleeventarcpipeline.GoogleEventarcPipelineDestinationsAuthenticationConfig {
-	GoogleOidc: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta.googleEventarcPipeline.GoogleEventarcPipelineDestinationsAuthenticationConfigGoogleOidc,
-	OauthToken: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta.googleEventarcPipeline.GoogleEventarcPipelineDestinationsAuthenticationConfigOauthToken,
+	GoogleOidc: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleEventarcPipeline.GoogleEventarcPipelineDestinationsAuthenticationConfigGoogleOidc,
+	OauthToken: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleEventarcPipeline.GoogleEventarcPipelineDestinationsAuthenticationConfigOauthToken,
 }
 ```
 
@@ -1744,7 +1744,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleEventarcPipeline.GoogleEventarcPipelineDestinationsAuthenticationConfigGoogleOidc.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcpipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcpipeline"
 
 &googleeventarcpipeline.GoogleEventarcPipelineDestinationsAuthenticationConfigGoogleOidc {
 	ServiceAccount: *string,
@@ -1805,7 +1805,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleEventarcPipeline.GoogleEventarcPipelineDestinationsAuthenticationConfigOauthToken.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcpipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcpipeline"
 
 &googleeventarcpipeline.GoogleEventarcPipelineDestinationsAuthenticationConfigOauthToken {
 	ServiceAccount: *string,
@@ -1855,7 +1855,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleEventarcPipeline.GoogleEventarcPipelineDestinationsHttpEndpoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcpipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcpipeline"
 
 &googleeventarcpipeline.GoogleEventarcPipelineDestinationsHttpEndpoint {
 	Uri: *string,
@@ -2078,7 +2078,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleEventarcPipeline.GoogleEventarcPipelineDestinationsNetworkConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcpipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcpipeline"
 
 &googleeventarcpipeline.GoogleEventarcPipelineDestinationsNetworkConfig {
 	NetworkAttachment: *string,
@@ -2118,12 +2118,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleEventarcPipeline.GoogleEventarcPipelineDestinationsOutputPayloadFormat.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcpipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcpipeline"
 
 &googleeventarcpipeline.GoogleEventarcPipelineDestinationsOutputPayloadFormat {
-	Avro: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta.googleEventarcPipeline.GoogleEventarcPipelineDestinationsOutputPayloadFormatAvro,
-	Json: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta.googleEventarcPipeline.GoogleEventarcPipelineDestinationsOutputPayloadFormatJson,
-	Protobuf: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta.googleEventarcPipeline.GoogleEventarcPipelineDestinationsOutputPayloadFormatProtobuf,
+	Avro: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleEventarcPipeline.GoogleEventarcPipelineDestinationsOutputPayloadFormatAvro,
+	Json: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleEventarcPipeline.GoogleEventarcPipelineDestinationsOutputPayloadFormatJson,
+	Protobuf: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleEventarcPipeline.GoogleEventarcPipelineDestinationsOutputPayloadFormatProtobuf,
 }
 ```
 
@@ -2184,7 +2184,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleEventarcPipeline.GoogleEventarcPipelineDestinationsOutputPayloadFormatAvro.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcpipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcpipeline"
 
 &googleeventarcpipeline.GoogleEventarcPipelineDestinationsOutputPayloadFormatAvro {
 	SchemaDefinition: *string,
@@ -2218,7 +2218,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleEventarcPipeline.GoogleEventarcPipelineDestinationsOutputPayloadFormatJson.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcpipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcpipeline"
 
 &googleeventarcpipeline.GoogleEventarcPipelineDestinationsOutputPayloadFormatJson {
 
@@ -2231,7 +2231,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventa
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleEventarcPipeline.GoogleEventarcPipelineDestinationsOutputPayloadFormatProtobuf.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcpipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcpipeline"
 
 &googleeventarcpipeline.GoogleEventarcPipelineDestinationsOutputPayloadFormatProtobuf {
 	SchemaDefinition: *string,
@@ -2265,12 +2265,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleEventarcPipeline.GoogleEventarcPipelineInputPayloadFormat.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcpipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcpipeline"
 
 &googleeventarcpipeline.GoogleEventarcPipelineInputPayloadFormat {
-	Avro: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta.googleEventarcPipeline.GoogleEventarcPipelineInputPayloadFormatAvro,
-	Json: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta.googleEventarcPipeline.GoogleEventarcPipelineInputPayloadFormatJson,
-	Protobuf: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta.googleEventarcPipeline.GoogleEventarcPipelineInputPayloadFormatProtobuf,
+	Avro: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleEventarcPipeline.GoogleEventarcPipelineInputPayloadFormatAvro,
+	Json: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleEventarcPipeline.GoogleEventarcPipelineInputPayloadFormatJson,
+	Protobuf: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleEventarcPipeline.GoogleEventarcPipelineInputPayloadFormatProtobuf,
 }
 ```
 
@@ -2331,7 +2331,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleEventarcPipeline.GoogleEventarcPipelineInputPayloadFormatAvro.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcpipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcpipeline"
 
 &googleeventarcpipeline.GoogleEventarcPipelineInputPayloadFormatAvro {
 	SchemaDefinition: *string,
@@ -2365,7 +2365,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleEventarcPipeline.GoogleEventarcPipelineInputPayloadFormatJson.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcpipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcpipeline"
 
 &googleeventarcpipeline.GoogleEventarcPipelineInputPayloadFormatJson {
 
@@ -2378,7 +2378,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventa
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleEventarcPipeline.GoogleEventarcPipelineInputPayloadFormatProtobuf.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcpipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcpipeline"
 
 &googleeventarcpipeline.GoogleEventarcPipelineInputPayloadFormatProtobuf {
 	SchemaDefinition: *string,
@@ -2412,7 +2412,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleEventarcPipeline.GoogleEventarcPipelineLoggingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcpipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcpipeline"
 
 &googleeventarcpipeline.GoogleEventarcPipelineLoggingConfig {
 	LogSeverity: *string,
@@ -2448,10 +2448,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleEventarcPipeline.GoogleEventarcPipelineMediations.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcpipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcpipeline"
 
 &googleeventarcpipeline.GoogleEventarcPipelineMediations {
-	Transformation: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta.googleEventarcPipeline.GoogleEventarcPipelineMediationsTransformation,
+	Transformation: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleEventarcPipeline.GoogleEventarcPipelineMediationsTransformation,
 }
 ```
 
@@ -2482,7 +2482,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleEventarcPipeline.GoogleEventarcPipelineMediationsTransformation.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcpipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcpipeline"
 
 &googleeventarcpipeline.GoogleEventarcPipelineMediationsTransformation {
 	TransformationTemplate: *string,
@@ -2593,7 +2593,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleEventarcPipeline.GoogleEventarcPipelineRetryPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcpipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcpipeline"
 
 &googleeventarcpipeline.GoogleEventarcPipelineRetryPolicy {
 	MaxAttempts: *f64,
@@ -2671,7 +2671,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleEventarcPipeline.GoogleEventarcPipelineTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcpipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcpipeline"
 
 &googleeventarcpipeline.GoogleEventarcPipelineTimeouts {
 	Create: *string,
@@ -2733,7 +2733,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleEventarcPipeline.GoogleEventarcPipelineDestinationsAuthenticationConfigGoogleOidcOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcpipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcpipeline"
 
 googleeventarcpipeline.NewGoogleEventarcPipelineDestinationsAuthenticationConfigGoogleOidcOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleEventarcPipelineDestinationsAuthenticationConfigGoogleOidcOutputReference
 ```
@@ -3033,7 +3033,7 @@ func InternalValue() GoogleEventarcPipelineDestinationsAuthenticationConfigGoogl
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleEventarcPipeline.GoogleEventarcPipelineDestinationsAuthenticationConfigOauthTokenOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcpipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcpipeline"
 
 googleeventarcpipeline.NewGoogleEventarcPipelineDestinationsAuthenticationConfigOauthTokenOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleEventarcPipelineDestinationsAuthenticationConfigOauthTokenOutputReference
 ```
@@ -3333,7 +3333,7 @@ func InternalValue() GoogleEventarcPipelineDestinationsAuthenticationConfigOauth
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleEventarcPipeline.GoogleEventarcPipelineDestinationsAuthenticationConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcpipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcpipeline"
 
 googleeventarcpipeline.NewGoogleEventarcPipelineDestinationsAuthenticationConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleEventarcPipelineDestinationsAuthenticationConfigOutputReference
 ```
@@ -3666,7 +3666,7 @@ func InternalValue() GoogleEventarcPipelineDestinationsAuthenticationConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleEventarcPipeline.GoogleEventarcPipelineDestinationsHttpEndpointOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcpipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcpipeline"
 
 googleeventarcpipeline.NewGoogleEventarcPipelineDestinationsHttpEndpointOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleEventarcPipelineDestinationsHttpEndpointOutputReference
 ```
@@ -3966,7 +3966,7 @@ func InternalValue() GoogleEventarcPipelineDestinationsHttpEndpoint
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleEventarcPipeline.GoogleEventarcPipelineDestinationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcpipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcpipeline"
 
 googleeventarcpipeline.NewGoogleEventarcPipelineDestinationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleEventarcPipelineDestinationsList
 ```
@@ -4126,7 +4126,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleEventarcPipeline.GoogleEventarcPipelineDestinationsNetworkConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcpipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcpipeline"
 
 googleeventarcpipeline.NewGoogleEventarcPipelineDestinationsNetworkConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleEventarcPipelineDestinationsNetworkConfigOutputReference
 ```
@@ -4404,7 +4404,7 @@ func InternalValue() GoogleEventarcPipelineDestinationsNetworkConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleEventarcPipeline.GoogleEventarcPipelineDestinationsOutputPayloadFormatAvroOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcpipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcpipeline"
 
 googleeventarcpipeline.NewGoogleEventarcPipelineDestinationsOutputPayloadFormatAvroOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleEventarcPipelineDestinationsOutputPayloadFormatAvroOutputReference
 ```
@@ -4682,7 +4682,7 @@ func InternalValue() GoogleEventarcPipelineDestinationsOutputPayloadFormatAvro
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleEventarcPipeline.GoogleEventarcPipelineDestinationsOutputPayloadFormatJsonOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcpipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcpipeline"
 
 googleeventarcpipeline.NewGoogleEventarcPipelineDestinationsOutputPayloadFormatJsonOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleEventarcPipelineDestinationsOutputPayloadFormatJsonOutputReference
 ```
@@ -4931,7 +4931,7 @@ func InternalValue() GoogleEventarcPipelineDestinationsOutputPayloadFormatJson
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleEventarcPipeline.GoogleEventarcPipelineDestinationsOutputPayloadFormatOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcpipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcpipeline"
 
 googleeventarcpipeline.NewGoogleEventarcPipelineDestinationsOutputPayloadFormatOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleEventarcPipelineDestinationsOutputPayloadFormatOutputReference
 ```
@@ -5306,7 +5306,7 @@ func InternalValue() GoogleEventarcPipelineDestinationsOutputPayloadFormat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleEventarcPipeline.GoogleEventarcPipelineDestinationsOutputPayloadFormatProtobufOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcpipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcpipeline"
 
 googleeventarcpipeline.NewGoogleEventarcPipelineDestinationsOutputPayloadFormatProtobufOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleEventarcPipelineDestinationsOutputPayloadFormatProtobufOutputReference
 ```
@@ -5584,7 +5584,7 @@ func InternalValue() GoogleEventarcPipelineDestinationsOutputPayloadFormatProtob
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleEventarcPipeline.GoogleEventarcPipelineDestinationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcpipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcpipeline"
 
 googleeventarcpipeline.NewGoogleEventarcPipelineDestinationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleEventarcPipelineDestinationsOutputReference
 ```
@@ -6106,7 +6106,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleEventarcPipeline.GoogleEventarcPipelineInputPayloadFormatAvroOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcpipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcpipeline"
 
 googleeventarcpipeline.NewGoogleEventarcPipelineInputPayloadFormatAvroOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleEventarcPipelineInputPayloadFormatAvroOutputReference
 ```
@@ -6384,7 +6384,7 @@ func InternalValue() GoogleEventarcPipelineInputPayloadFormatAvro
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleEventarcPipeline.GoogleEventarcPipelineInputPayloadFormatJsonOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcpipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcpipeline"
 
 googleeventarcpipeline.NewGoogleEventarcPipelineInputPayloadFormatJsonOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleEventarcPipelineInputPayloadFormatJsonOutputReference
 ```
@@ -6633,7 +6633,7 @@ func InternalValue() GoogleEventarcPipelineInputPayloadFormatJson
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleEventarcPipeline.GoogleEventarcPipelineInputPayloadFormatOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcpipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcpipeline"
 
 googleeventarcpipeline.NewGoogleEventarcPipelineInputPayloadFormatOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleEventarcPipelineInputPayloadFormatOutputReference
 ```
@@ -7008,7 +7008,7 @@ func InternalValue() GoogleEventarcPipelineInputPayloadFormat
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleEventarcPipeline.GoogleEventarcPipelineInputPayloadFormatProtobufOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcpipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcpipeline"
 
 googleeventarcpipeline.NewGoogleEventarcPipelineInputPayloadFormatProtobufOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleEventarcPipelineInputPayloadFormatProtobufOutputReference
 ```
@@ -7286,7 +7286,7 @@ func InternalValue() GoogleEventarcPipelineInputPayloadFormatProtobuf
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleEventarcPipeline.GoogleEventarcPipelineLoggingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcpipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcpipeline"
 
 googleeventarcpipeline.NewGoogleEventarcPipelineLoggingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleEventarcPipelineLoggingConfigOutputReference
 ```
@@ -7564,7 +7564,7 @@ func InternalValue() GoogleEventarcPipelineLoggingConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleEventarcPipeline.GoogleEventarcPipelineMediationsList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcpipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcpipeline"
 
 googleeventarcpipeline.NewGoogleEventarcPipelineMediationsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleEventarcPipelineMediationsList
 ```
@@ -7724,7 +7724,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleEventarcPipeline.GoogleEventarcPipelineMediationsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcpipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcpipeline"
 
 googleeventarcpipeline.NewGoogleEventarcPipelineMediationsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) GoogleEventarcPipelineMediationsOutputReference
 ```
@@ -8033,7 +8033,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleEventarcPipeline.GoogleEventarcPipelineMediationsTransformationOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcpipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcpipeline"
 
 googleeventarcpipeline.NewGoogleEventarcPipelineMediationsTransformationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleEventarcPipelineMediationsTransformationOutputReference
 ```
@@ -8311,7 +8311,7 @@ func InternalValue() GoogleEventarcPipelineMediationsTransformation
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleEventarcPipeline.GoogleEventarcPipelineRetryPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcpipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcpipeline"
 
 googleeventarcpipeline.NewGoogleEventarcPipelineRetryPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleEventarcPipelineRetryPolicyOutputReference
 ```
@@ -8647,7 +8647,7 @@ func InternalValue() GoogleEventarcPipelineRetryPolicy
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleEventarcPipeline.GoogleEventarcPipelineTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googleeventarcpipeline"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcpipeline"
 
 googleeventarcpipeline.NewGoogleEventarcPipelineTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleEventarcPipelineTimeoutsOutputReference
 ```

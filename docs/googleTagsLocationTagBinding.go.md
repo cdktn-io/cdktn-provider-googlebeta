@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleTagsLocationTagBinding.GoogleTagsLocationTagBinding.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googletagslocationtagbinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googletagslocationtagbinding"
 
 googletagslocationtagbinding.NewGoogleTagsLocationTagBinding(scope Construct, id *string, config GoogleTagsLocationTagBindingConfig) GoogleTagsLocationTagBinding
 ```
@@ -412,7 +412,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleTagsLocationTagBinding.GoogleTagsLocationTagBinding.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googletagslocationtagbinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googletagslocationtagbinding"
 
 googletagslocationtagbinding.GoogleTagsLocationTagBinding_IsConstruct(x interface{}) *bool
 ```
@@ -444,7 +444,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleTagsLocationTagBinding.GoogleTagsLocationTagBinding.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googletagslocationtagbinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googletagslocationtagbinding"
 
 googletagslocationtagbinding.GoogleTagsLocationTagBinding_IsTerraformElement(x interface{}) *bool
 ```
@@ -458,7 +458,7 @@ googletagslocationtagbinding.GoogleTagsLocationTagBinding_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleTagsLocationTagBinding.GoogleTagsLocationTagBinding.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googletagslocationtagbinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googletagslocationtagbinding"
 
 googletagslocationtagbinding.GoogleTagsLocationTagBinding_IsTerraformResource(x interface{}) *bool
 ```
@@ -472,7 +472,7 @@ googletagslocationtagbinding.GoogleTagsLocationTagBinding_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleTagsLocationTagBinding.GoogleTagsLocationTagBinding.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googletagslocationtagbinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googletagslocationtagbinding"
 
 googletagslocationtagbinding.GoogleTagsLocationTagBinding_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -822,7 +822,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleTagsLocationTagBinding.GoogleTagsLocationTagBindingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googletagslocationtagbinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googletagslocationtagbinding"
 
 &googletagslocationtagbinding.GoogleTagsLocationTagBindingConfig {
 	Connection: interface{},
@@ -836,7 +836,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googletagslo
 	TagValue: *string,
 	Id: *string,
 	Location: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta.googleTagsLocationTagBinding.GoogleTagsLocationTagBindingTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleTagsLocationTagBinding.GoogleTagsLocationTagBindingTimeouts,
 }
 ```
 
@@ -1005,7 +1005,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleTagsLocationTagBinding.GoogleTagsLocationTagBindingTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googletagslocationtagbinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googletagslocationtagbinding"
 
 &googletagslocationtagbinding.GoogleTagsLocationTagBindingTimeouts {
 	Create: *string,
@@ -1053,7 +1053,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleTagsLocationTagBinding.GoogleTagsLocationTagBindingTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/googletagslocationtagbinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googletagslocationtagbinding"
 
 googletagslocationtagbinding.NewGoogleTagsLocationTagBindingTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleTagsLocationTagBindingTimeoutsOutputReference
 ```
