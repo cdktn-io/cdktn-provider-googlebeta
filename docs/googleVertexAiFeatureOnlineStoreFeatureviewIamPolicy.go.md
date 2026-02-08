@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexaifeatureonlinestorefeatureviewiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaifeatureonlinestorefeatureviewiampolicy"
 
 googlevertexaifeatureonlinestorefeatureviewiampolicy.NewGoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy(scope Construct, id *string, config GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicyConfig) GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy
 ```
@@ -399,7 +399,7 @@ func ResetRegion()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexaifeatureonlinestorefeatureviewiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaifeatureonlinestorefeatureviewiampolicy"
 
 googlevertexaifeatureonlinestorefeatureviewiampolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -431,7 +431,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexaifeatureonlinestorefeatureviewiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaifeatureonlinestorefeatureviewiampolicy"
 
 googlevertexaifeatureonlinestorefeatureviewiampolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -445,7 +445,7 @@ googlevertexaifeatureonlinestorefeatureviewiampolicy.GoogleVertexAiFeatureOnline
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexaifeatureonlinestorefeatureviewiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaifeatureonlinestorefeatureviewiampolicy"
 
 googlevertexaifeatureonlinestorefeatureviewiampolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ googlevertexaifeatureonlinestorefeatureviewiampolicy.GoogleVertexAiFeatureOnline
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexaifeatureonlinestorefeatureviewiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaifeatureonlinestorefeatureviewiampolicy"
 
 googlevertexaifeatureonlinestorefeatureviewiampolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -831,7 +831,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexaifeatureonlinestorefeatureviewiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaifeatureonlinestorefeatureviewiampolicy"
 
 &googlevertexaifeatureonlinestorefeatureviewiampolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicyConfig {
 	Connection: interface{},

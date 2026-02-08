@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleIapWebIamPolicy.DataGoogleIapWebIamPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagoogleiapwebiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoogleiapwebiampolicy"
 
 datagoogleiapwebiampolicy.NewDataGoogleIapWebIamPolicy(scope Construct, id *string, config DataGoogleIapWebIamPolicyConfig) DataGoogleIapWebIamPolicy
 ```
@@ -290,7 +290,7 @@ func ResetProject()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.dataGoogleIapWebIamPolicy.DataGoogleIapWebIamPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagoogleiapwebiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoogleiapwebiampolicy"
 
 datagoogleiapwebiampolicy.DataGoogleIapWebIamPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -322,7 +322,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.dataGoogleIapWebIamPolicy.DataGoogleIapWebIamPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagoogleiapwebiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoogleiapwebiampolicy"
 
 datagoogleiapwebiampolicy.DataGoogleIapWebIamPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -336,7 +336,7 @@ datagoogleiapwebiampolicy.DataGoogleIapWebIamPolicy_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-google-beta.dataGoogleIapWebIamPolicy.DataGoogleIapWebIamPolicy.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagoogleiapwebiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoogleiapwebiampolicy"
 
 datagoogleiapwebiampolicy.DataGoogleIapWebIamPolicy_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -350,7 +350,7 @@ datagoogleiapwebiampolicy.DataGoogleIapWebIamPolicy_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.dataGoogleIapWebIamPolicy.DataGoogleIapWebIamPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagoogleiapwebiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoogleiapwebiampolicy"
 
 datagoogleiapwebiampolicy.DataGoogleIapWebIamPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -623,7 +623,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleIapWebIamPolicy.DataGoogleIapWebIamPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagoogleiapwebiampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoogleiapwebiampolicy"
 
 &datagoogleiapwebiampolicy.DataGoogleIapWebIamPolicyConfig {
 	Connection: interface{},

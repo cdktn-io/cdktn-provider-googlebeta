@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexGlossaryCategory.GoogleDataplexGlossaryCategory.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googledataplexglossarycategory"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataplexglossarycategory"
 
 googledataplexglossarycategory.NewGoogleDataplexGlossaryCategory(scope Construct, id *string, config GoogleDataplexGlossaryCategoryConfig) GoogleDataplexGlossaryCategory
 ```
@@ -447,7 +447,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleDataplexGlossaryCategory.GoogleDataplexGlossaryCategory.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googledataplexglossarycategory"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataplexglossarycategory"
 
 googledataplexglossarycategory.GoogleDataplexGlossaryCategory_IsConstruct(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleDataplexGlossaryCategory.GoogleDataplexGlossaryCategory.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googledataplexglossarycategory"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataplexglossarycategory"
 
 googledataplexglossarycategory.GoogleDataplexGlossaryCategory_IsTerraformElement(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ googledataplexglossarycategory.GoogleDataplexGlossaryCategory_IsTerraformElement
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleDataplexGlossaryCategory.GoogleDataplexGlossaryCategory.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googledataplexglossarycategory"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataplexglossarycategory"
 
 googledataplexglossarycategory.GoogleDataplexGlossaryCategory_IsTerraformResource(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ googledataplexglossarycategory.GoogleDataplexGlossaryCategory_IsTerraformResourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleDataplexGlossaryCategory.GoogleDataplexGlossaryCategory.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googledataplexglossarycategory"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataplexglossarycategory"
 
 googledataplexglossarycategory.GoogleDataplexGlossaryCategory_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1022,7 +1022,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexGlossaryCategory.GoogleDataplexGlossaryCategoryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googledataplexglossarycategory"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataplexglossarycategory"
 
 &googledataplexglossarycategory.GoogleDataplexGlossaryCategoryConfig {
 	Connection: interface{},
@@ -1041,7 +1041,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleda
 	Id: *string,
 	Labels: *map[string]*string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleDataplexGlossaryCategory.GoogleDataplexGlossaryCategoryTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleDataplexGlossaryCategory.GoogleDataplexGlossaryCategoryTimeouts,
 }
 ```
 
@@ -1290,7 +1290,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleDataplexGlossaryCategory.GoogleDataplexGlossaryCategoryTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googledataplexglossarycategory"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataplexglossarycategory"
 
 &googledataplexglossarycategory.GoogleDataplexGlossaryCategoryTimeouts {
 	Create: *string,
@@ -1352,7 +1352,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexGlossaryCategory.GoogleDataplexGlossaryCategoryTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googledataplexglossarycategory"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataplexglossarycategory"
 
 googledataplexglossarycategory.NewGoogleDataplexGlossaryCategoryTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleDataplexGlossaryCategoryTimeoutsOutputReference
 ```

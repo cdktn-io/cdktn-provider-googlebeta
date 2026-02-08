@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleAccessApprovalOrganizationServiceAccount.DataGoogleAccessApprovalOrganizationServiceAccount.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagoogleaccessapprovalorganizationserviceaccount"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoogleaccessapprovalorganizationserviceaccount"
 
 datagoogleaccessapprovalorganizationserviceaccount.NewDataGoogleAccessApprovalOrganizationServiceAccount(scope Construct, id *string, config DataGoogleAccessApprovalOrganizationServiceAccountConfig) DataGoogleAccessApprovalOrganizationServiceAccount
 ```
@@ -283,7 +283,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.dataGoogleAccessApprovalOrganizationServiceAccount.DataGoogleAccessApprovalOrganizationServiceAccount.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagoogleaccessapprovalorganizationserviceaccount"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoogleaccessapprovalorganizationserviceaccount"
 
 datagoogleaccessapprovalorganizationserviceaccount.DataGoogleAccessApprovalOrganizationServiceAccount_IsConstruct(x interface{}) *bool
 ```
@@ -315,7 +315,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.dataGoogleAccessApprovalOrganizationServiceAccount.DataGoogleAccessApprovalOrganizationServiceAccount.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagoogleaccessapprovalorganizationserviceaccount"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoogleaccessapprovalorganizationserviceaccount"
 
 datagoogleaccessapprovalorganizationserviceaccount.DataGoogleAccessApprovalOrganizationServiceAccount_IsTerraformElement(x interface{}) *bool
 ```
@@ -329,7 +329,7 @@ datagoogleaccessapprovalorganizationserviceaccount.DataGoogleAccessApprovalOrgan
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-google-beta.dataGoogleAccessApprovalOrganizationServiceAccount.DataGoogleAccessApprovalOrganizationServiceAccount.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagoogleaccessapprovalorganizationserviceaccount"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoogleaccessapprovalorganizationserviceaccount"
 
 datagoogleaccessapprovalorganizationserviceaccount.DataGoogleAccessApprovalOrganizationServiceAccount_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -343,7 +343,7 @@ datagoogleaccessapprovalorganizationserviceaccount.DataGoogleAccessApprovalOrgan
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.dataGoogleAccessApprovalOrganizationServiceAccount.DataGoogleAccessApprovalOrganizationServiceAccount.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagoogleaccessapprovalorganizationserviceaccount"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoogleaccessapprovalorganizationserviceaccount"
 
 datagoogleaccessapprovalorganizationserviceaccount.DataGoogleAccessApprovalOrganizationServiceAccount_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -616,7 +616,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleAccessApprovalOrganizationServiceAccount.DataGoogleAccessApprovalOrganizationServiceAccountConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagoogleaccessapprovalorganizationserviceaccount"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoogleaccessapprovalorganizationserviceaccount"
 
 &datagoogleaccessapprovalorganizationserviceaccount.DataGoogleAccessApprovalOrganizationServiceAccountConfig {
 	Connection: interface{},

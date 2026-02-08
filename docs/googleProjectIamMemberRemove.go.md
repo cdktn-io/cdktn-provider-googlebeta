@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleProjectIamMemberRemove.GoogleProjectIamMemberRemove.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleprojectiammemberremove"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleprojectiammemberremove"
 
 googleprojectiammemberremove.NewGoogleProjectIamMemberRemove(scope Construct, id *string, config GoogleProjectIamMemberRemoveConfig) GoogleProjectIamMemberRemove
 ```
@@ -385,7 +385,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleProjectIamMemberRemove.GoogleProjectIamMemberRemove.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleprojectiammemberremove"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleprojectiammemberremove"
 
 googleprojectiammemberremove.GoogleProjectIamMemberRemove_IsConstruct(x interface{}) *bool
 ```
@@ -417,7 +417,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleProjectIamMemberRemove.GoogleProjectIamMemberRemove.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleprojectiammemberremove"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleprojectiammemberremove"
 
 googleprojectiammemberremove.GoogleProjectIamMemberRemove_IsTerraformElement(x interface{}) *bool
 ```
@@ -431,7 +431,7 @@ googleprojectiammemberremove.GoogleProjectIamMemberRemove_IsTerraformElement(x i
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleProjectIamMemberRemove.GoogleProjectIamMemberRemove.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleprojectiammemberremove"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleprojectiammemberremove"
 
 googleprojectiammemberremove.GoogleProjectIamMemberRemove_IsTerraformResource(x interface{}) *bool
 ```
@@ -445,7 +445,7 @@ googleprojectiammemberremove.GoogleProjectIamMemberRemove_IsTerraformResource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleProjectIamMemberRemove.GoogleProjectIamMemberRemove.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleprojectiammemberremove"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleprojectiammemberremove"
 
 googleprojectiammemberremove.GoogleProjectIamMemberRemove_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -762,7 +762,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleProjectIamMemberRemove.GoogleProjectIamMemberRemoveConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleprojectiammemberremove"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleprojectiammemberremove"
 
 &googleprojectiammemberremove.GoogleProjectIamMemberRemoveConfig {
 	Connection: interface{},

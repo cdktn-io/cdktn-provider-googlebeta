@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIamProjectsPolicyBinding.GoogleIamProjectsPolicyBinding.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleiamprojectspolicybinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiamprojectspolicybinding"
 
 googleiamprojectspolicybinding.NewGoogleIamProjectsPolicyBinding(scope Construct, id *string, config GoogleIamProjectsPolicyBindingConfig) GoogleIamProjectsPolicyBinding
 ```
@@ -466,7 +466,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleIamProjectsPolicyBinding.GoogleIamProjectsPolicyBinding.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleiamprojectspolicybinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiamprojectspolicybinding"
 
 googleiamprojectspolicybinding.GoogleIamProjectsPolicyBinding_IsConstruct(x interface{}) *bool
 ```
@@ -498,7 +498,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleIamProjectsPolicyBinding.GoogleIamProjectsPolicyBinding.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleiamprojectspolicybinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiamprojectspolicybinding"
 
 googleiamprojectspolicybinding.GoogleIamProjectsPolicyBinding_IsTerraformElement(x interface{}) *bool
 ```
@@ -512,7 +512,7 @@ googleiamprojectspolicybinding.GoogleIamProjectsPolicyBinding_IsTerraformElement
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleIamProjectsPolicyBinding.GoogleIamProjectsPolicyBinding.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleiamprojectspolicybinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiamprojectspolicybinding"
 
 googleiamprojectspolicybinding.GoogleIamProjectsPolicyBinding_IsTerraformResource(x interface{}) *bool
 ```
@@ -526,7 +526,7 @@ googleiamprojectspolicybinding.GoogleIamProjectsPolicyBinding_IsTerraformResourc
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleIamProjectsPolicyBinding.GoogleIamProjectsPolicyBinding.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleiamprojectspolicybinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiamprojectspolicybinding"
 
 googleiamprojectspolicybinding.GoogleIamProjectsPolicyBinding_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1074,7 +1074,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIamProjectsPolicyBinding.GoogleIamProjectsPolicyBindingCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleiamprojectspolicybinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiamprojectspolicybinding"
 
 &googleiamprojectspolicybinding.GoogleIamProjectsPolicyBindingCondition {
 	Description: *string,
@@ -1162,7 +1162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIamProjectsPolicyBinding.GoogleIamProjectsPolicyBindingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleiamprojectspolicybinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiamprojectspolicybinding"
 
 &googleiamprojectspolicybinding.GoogleIamProjectsPolicyBindingConfig {
 	Connection: interface{},
@@ -1175,14 +1175,14 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleia
 	Location: *string,
 	Policy: *string,
 	PolicyBindingId: *string,
-	Target: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleIamProjectsPolicyBinding.GoogleIamProjectsPolicyBindingTarget,
+	Target: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleIamProjectsPolicyBinding.GoogleIamProjectsPolicyBindingTarget,
 	Annotations: *map[string]*string,
-	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleIamProjectsPolicyBinding.GoogleIamProjectsPolicyBindingCondition,
+	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleIamProjectsPolicyBinding.GoogleIamProjectsPolicyBindingCondition,
 	DisplayName: *string,
 	Id: *string,
 	PolicyKind: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleIamProjectsPolicyBinding.GoogleIamProjectsPolicyBindingTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleIamProjectsPolicyBinding.GoogleIamProjectsPolicyBindingTimeouts,
 }
 ```
 
@@ -1448,7 +1448,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIamProjectsPolicyBinding.GoogleIamProjectsPolicyBindingTarget.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleiamprojectspolicybinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiamprojectspolicybinding"
 
 &googleiamprojectspolicybinding.GoogleIamProjectsPolicyBindingTarget {
 	PrincipalSet: *string,
@@ -1492,7 +1492,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIamProjectsPolicyBinding.GoogleIamProjectsPolicyBindingTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleiamprojectspolicybinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiamprojectspolicybinding"
 
 &googleiamprojectspolicybinding.GoogleIamProjectsPolicyBindingTimeouts {
 	Create: *string,
@@ -1554,7 +1554,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIamProjectsPolicyBinding.GoogleIamProjectsPolicyBindingConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleiamprojectspolicybinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiamprojectspolicybinding"
 
 googleiamprojectspolicybinding.NewGoogleIamProjectsPolicyBindingConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIamProjectsPolicyBindingConditionOutputReference
 ```
@@ -1919,7 +1919,7 @@ func InternalValue() GoogleIamProjectsPolicyBindingCondition
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIamProjectsPolicyBinding.GoogleIamProjectsPolicyBindingTargetOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleiamprojectspolicybinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiamprojectspolicybinding"
 
 googleiamprojectspolicybinding.NewGoogleIamProjectsPolicyBindingTargetOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIamProjectsPolicyBindingTargetOutputReference
 ```
@@ -2197,7 +2197,7 @@ func InternalValue() GoogleIamProjectsPolicyBindingTarget
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIamProjectsPolicyBinding.GoogleIamProjectsPolicyBindingTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleiamprojectspolicybinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiamprojectspolicybinding"
 
 googleiamprojectspolicybinding.NewGoogleIamProjectsPolicyBindingTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIamProjectsPolicyBindingTimeoutsOutputReference
 ```

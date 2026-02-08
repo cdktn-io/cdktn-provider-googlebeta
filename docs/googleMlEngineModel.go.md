@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModel.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlemlenginemodel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlemlenginemodel"
 
 googlemlenginemodel.NewGoogleMlEngineModel(scope Construct, id *string, config GoogleMlEngineModelConfig) GoogleMlEngineModel
 ```
@@ -467,7 +467,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModel.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlemlenginemodel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlemlenginemodel"
 
 googlemlenginemodel.GoogleMlEngineModel_IsConstruct(x interface{}) *bool
 ```
@@ -499,7 +499,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModel.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlemlenginemodel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlemlenginemodel"
 
 googlemlenginemodel.GoogleMlEngineModel_IsTerraformElement(x interface{}) *bool
 ```
@@ -513,7 +513,7 @@ googlemlenginemodel.GoogleMlEngineModel_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModel.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlemlenginemodel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlemlenginemodel"
 
 googlemlenginemodel.GoogleMlEngineModel_IsTerraformResource(x interface{}) *bool
 ```
@@ -527,7 +527,7 @@ googlemlenginemodel.GoogleMlEngineModel_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModel.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlemlenginemodel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlemlenginemodel"
 
 googlemlenginemodel.GoogleMlEngineModel_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -998,7 +998,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModelConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlemlenginemodel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlemlenginemodel"
 
 &googlemlenginemodel.GoogleMlEngineModelConfig {
 	Connection: interface{},
@@ -1009,7 +1009,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleml
 	Provider: github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider,
 	Provisioners: *[]interface{},
 	Name: *string,
-	DefaultVersion: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleMlEngineModel.GoogleMlEngineModelDefaultVersion,
+	DefaultVersion: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleMlEngineModel.GoogleMlEngineModelDefaultVersion,
 	Description: *string,
 	Id: *string,
 	Labels: *map[string]*string,
@@ -1017,7 +1017,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleml
 	OnlinePredictionLogging: interface{},
 	Project: *string,
 	Regions: *[]*string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleMlEngineModel.GoogleMlEngineModelTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleMlEngineModel.GoogleMlEngineModelTimeouts,
 }
 ```
 
@@ -1262,7 +1262,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModelDefaultVersion.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlemlenginemodel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlemlenginemodel"
 
 &googlemlenginemodel.GoogleMlEngineModelDefaultVersion {
 	Name: *string,
@@ -1296,7 +1296,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModelTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlemlenginemodel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlemlenginemodel"
 
 &googlemlenginemodel.GoogleMlEngineModelTimeouts {
 	Create: *string,
@@ -1358,7 +1358,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModelDefaultVersionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlemlenginemodel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlemlenginemodel"
 
 googlemlenginemodel.NewGoogleMlEngineModelDefaultVersionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleMlEngineModelDefaultVersionOutputReference
 ```
@@ -1629,7 +1629,7 @@ func InternalValue() GoogleMlEngineModelDefaultVersion
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModelTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlemlenginemodel"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlemlenginemodel"
 
 googlemlenginemodel.NewGoogleMlEngineModelTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleMlEngineModelTimeoutsOutputReference
 ```

@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSecureSourceManagerBranchRule.GoogleSecureSourceManagerBranchRule.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesecuresourcemanagerbranchrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesecuresourcemanagerbranchrule"
 
 googlesecuresourcemanagerbranchrule.NewGoogleSecureSourceManagerBranchRule(scope Construct, id *string, config GoogleSecureSourceManagerBranchRuleConfig) GoogleSecureSourceManagerBranchRule
 ```
@@ -461,7 +461,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleSecureSourceManagerBranchRule.GoogleSecureSourceManagerBranchRule.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesecuresourcemanagerbranchrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesecuresourcemanagerbranchrule"
 
 googlesecuresourcemanagerbranchrule.GoogleSecureSourceManagerBranchRule_IsConstruct(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleSecureSourceManagerBranchRule.GoogleSecureSourceManagerBranchRule.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesecuresourcemanagerbranchrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesecuresourcemanagerbranchrule"
 
 googlesecuresourcemanagerbranchrule.GoogleSecureSourceManagerBranchRule_IsTerraformElement(x interface{}) *bool
 ```
@@ -507,7 +507,7 @@ googlesecuresourcemanagerbranchrule.GoogleSecureSourceManagerBranchRule_IsTerraf
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleSecureSourceManagerBranchRule.GoogleSecureSourceManagerBranchRule.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesecuresourcemanagerbranchrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesecuresourcemanagerbranchrule"
 
 googlesecuresourcemanagerbranchrule.GoogleSecureSourceManagerBranchRule_IsTerraformResource(x interface{}) *bool
 ```
@@ -521,7 +521,7 @@ googlesecuresourcemanagerbranchrule.GoogleSecureSourceManagerBranchRule_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleSecureSourceManagerBranchRule.GoogleSecureSourceManagerBranchRule.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesecuresourcemanagerbranchrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesecuresourcemanagerbranchrule"
 
 googlesecuresourcemanagerbranchrule.GoogleSecureSourceManagerBranchRule_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1102,7 +1102,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSecureSourceManagerBranchRule.GoogleSecureSourceManagerBranchRuleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesecuresourcemanagerbranchrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesecuresourcemanagerbranchrule"
 
 &googlesecuresourcemanagerbranchrule.GoogleSecureSourceManagerBranchRuleConfig {
 	Connection: interface{},
@@ -1125,7 +1125,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlese
 	RequireCommentsResolved: interface{},
 	RequireLinearHistory: interface{},
 	RequirePullRequest: interface{},
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleSecureSourceManagerBranchRule.GoogleSecureSourceManagerBranchRuleTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleSecureSourceManagerBranchRule.GoogleSecureSourceManagerBranchRuleTimeouts,
 }
 ```
 
@@ -1427,7 +1427,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleSecureSourceManagerBranchRule.GoogleSecureSourceManagerBranchRuleTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesecuresourcemanagerbranchrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesecuresourcemanagerbranchrule"
 
 &googlesecuresourcemanagerbranchrule.GoogleSecureSourceManagerBranchRuleTimeouts {
 	Create: *string,
@@ -1489,7 +1489,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSecureSourceManagerBranchRule.GoogleSecureSourceManagerBranchRuleTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesecuresourcemanagerbranchrule"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesecuresourcemanagerbranchrule"
 
 googlesecuresourcemanagerbranchrule.NewGoogleSecureSourceManagerBranchRuleTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleSecureSourceManagerBranchRuleTimeoutsOutputReference
 ```

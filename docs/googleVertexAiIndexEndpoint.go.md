@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiIndexEndpoint.GoogleVertexAiIndexEndpoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexaiindexendpoint"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaiindexendpoint"
 
 googlevertexaiindexendpoint.NewGoogleVertexAiIndexEndpoint(scope Construct, id *string, config GoogleVertexAiIndexEndpointConfig) GoogleVertexAiIndexEndpoint
 ```
@@ -467,7 +467,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleVertexAiIndexEndpoint.GoogleVertexAiIndexEndpoint.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexaiindexendpoint"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaiindexendpoint"
 
 googlevertexaiindexendpoint.GoogleVertexAiIndexEndpoint_IsConstruct(x interface{}) *bool
 ```
@@ -499,7 +499,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleVertexAiIndexEndpoint.GoogleVertexAiIndexEndpoint.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexaiindexendpoint"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaiindexendpoint"
 
 googlevertexaiindexendpoint.GoogleVertexAiIndexEndpoint_IsTerraformElement(x interface{}) *bool
 ```
@@ -513,7 +513,7 @@ googlevertexaiindexendpoint.GoogleVertexAiIndexEndpoint_IsTerraformElement(x int
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleVertexAiIndexEndpoint.GoogleVertexAiIndexEndpoint.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexaiindexendpoint"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaiindexendpoint"
 
 googlevertexaiindexendpoint.GoogleVertexAiIndexEndpoint_IsTerraformResource(x interface{}) *bool
 ```
@@ -527,7 +527,7 @@ googlevertexaiindexendpoint.GoogleVertexAiIndexEndpoint_IsTerraformResource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleVertexAiIndexEndpoint.GoogleVertexAiIndexEndpoint.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexaiindexendpoint"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaiindexendpoint"
 
 googlevertexaiindexendpoint.GoogleVertexAiIndexEndpoint_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1053,7 +1053,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiIndexEndpoint.GoogleVertexAiIndexEndpointConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexaiindexendpoint"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaiindexendpoint"
 
 &googlevertexaiindexendpoint.GoogleVertexAiIndexEndpointConfig {
 	Connection: interface{},
@@ -1068,11 +1068,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleve
 	Id: *string,
 	Labels: *map[string]*string,
 	Network: *string,
-	PrivateServiceConnectConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleVertexAiIndexEndpoint.GoogleVertexAiIndexEndpointPrivateServiceConnectConfig,
+	PrivateServiceConnectConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleVertexAiIndexEndpoint.GoogleVertexAiIndexEndpointPrivateServiceConnectConfig,
 	Project: *string,
 	PublicEndpointEnabled: interface{},
 	Region: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleVertexAiIndexEndpoint.GoogleVertexAiIndexEndpointTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleVertexAiIndexEndpoint.GoogleVertexAiIndexEndpointTimeouts,
 }
 ```
 
@@ -1319,7 +1319,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiIndexEndpoint.GoogleVertexAiIndexEndpointPrivateServiceConnectConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexaiindexendpoint"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaiindexendpoint"
 
 &googlevertexaiindexendpoint.GoogleVertexAiIndexEndpointPrivateServiceConnectConfig {
 	EnablePrivateServiceConnect: interface{},
@@ -1369,7 +1369,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiIndexEndpoint.GoogleVertexAiIndexEndpointTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexaiindexendpoint"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaiindexendpoint"
 
 &googlevertexaiindexendpoint.GoogleVertexAiIndexEndpointTimeouts {
 	Create: *string,
@@ -1431,7 +1431,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiIndexEndpoint.GoogleVertexAiIndexEndpointPrivateServiceConnectConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexaiindexendpoint"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaiindexendpoint"
 
 googlevertexaiindexendpoint.NewGoogleVertexAiIndexEndpointPrivateServiceConnectConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiIndexEndpointPrivateServiceConnectConfigOutputReference
 ```
@@ -1731,7 +1731,7 @@ func InternalValue() GoogleVertexAiIndexEndpointPrivateServiceConnectConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiIndexEndpoint.GoogleVertexAiIndexEndpointTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexaiindexendpoint"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaiindexendpoint"
 
 googlevertexaiindexendpoint.NewGoogleVertexAiIndexEndpointTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiIndexEndpointTimeoutsOutputReference
 ```

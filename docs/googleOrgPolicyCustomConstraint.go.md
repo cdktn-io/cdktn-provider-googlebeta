@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOrgPolicyCustomConstraint.GoogleOrgPolicyCustomConstraint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleorgpolicycustomconstraint"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleorgpolicycustomconstraint"
 
 googleorgpolicycustomconstraint.NewGoogleOrgPolicyCustomConstraint(scope Construct, id *string, config GoogleOrgPolicyCustomConstraintConfig) GoogleOrgPolicyCustomConstraint
 ```
@@ -419,7 +419,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleOrgPolicyCustomConstraint.GoogleOrgPolicyCustomConstraint.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleorgpolicycustomconstraint"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleorgpolicycustomconstraint"
 
 googleorgpolicycustomconstraint.GoogleOrgPolicyCustomConstraint_IsConstruct(x interface{}) *bool
 ```
@@ -451,7 +451,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleOrgPolicyCustomConstraint.GoogleOrgPolicyCustomConstraint.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleorgpolicycustomconstraint"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleorgpolicycustomconstraint"
 
 googleorgpolicycustomconstraint.GoogleOrgPolicyCustomConstraint_IsTerraformElement(x interface{}) *bool
 ```
@@ -465,7 +465,7 @@ googleorgpolicycustomconstraint.GoogleOrgPolicyCustomConstraint_IsTerraformEleme
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleOrgPolicyCustomConstraint.GoogleOrgPolicyCustomConstraint.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleorgpolicycustomconstraint"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleorgpolicycustomconstraint"
 
 googleorgpolicycustomconstraint.GoogleOrgPolicyCustomConstraint_IsTerraformResource(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ googleorgpolicycustomconstraint.GoogleOrgPolicyCustomConstraint_IsTerraformResou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleOrgPolicyCustomConstraint.GoogleOrgPolicyCustomConstraint.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleorgpolicycustomconstraint"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleorgpolicycustomconstraint"
 
 googleorgpolicycustomconstraint.GoogleOrgPolicyCustomConstraint_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -939,7 +939,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOrgPolicyCustomConstraint.GoogleOrgPolicyCustomConstraintConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleorgpolicycustomconstraint"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleorgpolicycustomconstraint"
 
 &googleorgpolicycustomconstraint.GoogleOrgPolicyCustomConstraintConfig {
 	Connection: interface{},
@@ -958,7 +958,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleor
 	Description: *string,
 	DisplayName: *string,
 	Id: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleOrgPolicyCustomConstraint.GoogleOrgPolicyCustomConstraintTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleOrgPolicyCustomConstraint.GoogleOrgPolicyCustomConstraintTimeouts,
 }
 ```
 
@@ -1206,7 +1206,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleOrgPolicyCustomConstraint.GoogleOrgPolicyCustomConstraintTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleorgpolicycustomconstraint"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleorgpolicycustomconstraint"
 
 &googleorgpolicycustomconstraint.GoogleOrgPolicyCustomConstraintTimeouts {
 	Create: *string,
@@ -1268,7 +1268,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOrgPolicyCustomConstraint.GoogleOrgPolicyCustomConstraintTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleorgpolicycustomconstraint"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleorgpolicycustomconstraint"
 
 googleorgpolicycustomconstraint.NewGoogleOrgPolicyCustomConstraintTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleOrgPolicyCustomConstraintTimeoutsOutputReference
 ```
