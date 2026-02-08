@@ -938,9 +938,9 @@ export class GoogleBetaProvider extends cdktf.TerraformProvider {
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
         providerVersion: '6.50.0',
-        providerVersionConstraint: '~> 6.0'
+        providerVersionConstraint: '~> 6.50.0'
       },
-      terraformProviderSource: 'google-beta'
+      terraformProviderSource: 'hashicorp/google-beta'
     });
     this._accessApprovalCustomEndpoint = config.accessApprovalCustomEndpoint;
     this._accessContextManagerCustomEndpoint = config.accessContextManagerCustomEndpoint;
