@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIapTunnelInstanceIamBinding.GoogleIapTunnelInstanceIamBinding.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleiaptunnelinstanceiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiaptunnelinstanceiambinding"
 
 googleiaptunnelinstanceiambinding.NewGoogleIapTunnelInstanceIamBinding(scope Construct, id *string, config GoogleIapTunnelInstanceIamBindingConfig) GoogleIapTunnelInstanceIamBinding
 ```
@@ -419,7 +419,7 @@ func ResetZone()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleIapTunnelInstanceIamBinding.GoogleIapTunnelInstanceIamBinding.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleiaptunnelinstanceiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiaptunnelinstanceiambinding"
 
 googleiaptunnelinstanceiambinding.GoogleIapTunnelInstanceIamBinding_IsConstruct(x interface{}) *bool
 ```
@@ -451,7 +451,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleIapTunnelInstanceIamBinding.GoogleIapTunnelInstanceIamBinding.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleiaptunnelinstanceiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiaptunnelinstanceiambinding"
 
 googleiaptunnelinstanceiambinding.GoogleIapTunnelInstanceIamBinding_IsTerraformElement(x interface{}) *bool
 ```
@@ -465,7 +465,7 @@ googleiaptunnelinstanceiambinding.GoogleIapTunnelInstanceIamBinding_IsTerraformE
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleIapTunnelInstanceIamBinding.GoogleIapTunnelInstanceIamBinding.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleiaptunnelinstanceiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiaptunnelinstanceiambinding"
 
 googleiaptunnelinstanceiambinding.GoogleIapTunnelInstanceIamBinding_IsTerraformResource(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ googleiaptunnelinstanceiambinding.GoogleIapTunnelInstanceIamBinding_IsTerraformR
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleIapTunnelInstanceIamBinding.GoogleIapTunnelInstanceIamBinding.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleiaptunnelinstanceiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiaptunnelinstanceiambinding"
 
 googleiaptunnelinstanceiambinding.GoogleIapTunnelInstanceIamBinding_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -873,7 +873,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIapTunnelInstanceIamBinding.GoogleIapTunnelInstanceIamBindingCondition.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleiaptunnelinstanceiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiaptunnelinstanceiambinding"
 
 &googleiaptunnelinstanceiambinding.GoogleIapTunnelInstanceIamBindingCondition {
 	Expression: *string,
@@ -933,7 +933,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleIapTunnelInstanceIamBinding.GoogleIapTunnelInstanceIamBindingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleiaptunnelinstanceiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiaptunnelinstanceiambinding"
 
 &googleiaptunnelinstanceiambinding.GoogleIapTunnelInstanceIamBindingConfig {
 	Connection: interface{},
@@ -946,7 +946,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleia
 	Instance: *string,
 	Members: *[]*string,
 	Role: *string,
-	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleIapTunnelInstanceIamBinding.GoogleIapTunnelInstanceIamBindingCondition,
+	Condition: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleIapTunnelInstanceIamBinding.GoogleIapTunnelInstanceIamBindingCondition,
 	Id: *string,
 	Project: *string,
 	Zone: *string,
@@ -1140,7 +1140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIapTunnelInstanceIamBinding.GoogleIapTunnelInstanceIamBindingConditionOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleiaptunnelinstanceiambinding"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiaptunnelinstanceiambinding"
 
 googleiaptunnelinstanceiambinding.NewGoogleIapTunnelInstanceIamBindingConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleIapTunnelInstanceIamBindingConditionOutputReference
 ```

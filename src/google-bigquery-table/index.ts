@@ -4975,7 +4975,7 @@ export class GoogleBigqueryTable extends cdktf.TerraformResource {
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
         providerVersion: '6.50.0',
-        providerVersionConstraint: '~> 6.0'
+        providerVersionConstraint: '~> 6.50.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

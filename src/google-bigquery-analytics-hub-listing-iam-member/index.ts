@@ -236,7 +236,7 @@ export class GoogleBigqueryAnalyticsHubListingIamMember extends cdktf.TerraformR
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
         providerVersion: '6.50.0',
-        providerVersionConstraint: '~> 6.0'
+        providerVersionConstraint: '~> 6.50.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

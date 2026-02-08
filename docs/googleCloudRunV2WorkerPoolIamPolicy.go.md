@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPoolIamPolicy.GoogleCloudRunV2WorkerPoolIamPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecloudrunv2workerpooliampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudrunv2workerpooliampolicy"
 
 googlecloudrunv2workerpooliampolicy.NewGoogleCloudRunV2WorkerPoolIamPolicy(scope Construct, id *string, config GoogleCloudRunV2WorkerPoolIamPolicyConfig) GoogleCloudRunV2WorkerPoolIamPolicy
 ```
@@ -399,7 +399,7 @@ func ResetProject()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPoolIamPolicy.GoogleCloudRunV2WorkerPoolIamPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecloudrunv2workerpooliampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudrunv2workerpooliampolicy"
 
 googlecloudrunv2workerpooliampolicy.GoogleCloudRunV2WorkerPoolIamPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -431,7 +431,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPoolIamPolicy.GoogleCloudRunV2WorkerPoolIamPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecloudrunv2workerpooliampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudrunv2workerpooliampolicy"
 
 googlecloudrunv2workerpooliampolicy.GoogleCloudRunV2WorkerPoolIamPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -445,7 +445,7 @@ googlecloudrunv2workerpooliampolicy.GoogleCloudRunV2WorkerPoolIamPolicy_IsTerraf
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPoolIamPolicy.GoogleCloudRunV2WorkerPoolIamPolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecloudrunv2workerpooliampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudrunv2workerpooliampolicy"
 
 googlecloudrunv2workerpooliampolicy.GoogleCloudRunV2WorkerPoolIamPolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -459,7 +459,7 @@ googlecloudrunv2workerpooliampolicy.GoogleCloudRunV2WorkerPoolIamPolicy_IsTerraf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPoolIamPolicy.GoogleCloudRunV2WorkerPoolIamPolicy.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecloudrunv2workerpooliampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudrunv2workerpooliampolicy"
 
 googlecloudrunv2workerpooliampolicy.GoogleCloudRunV2WorkerPoolIamPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -809,7 +809,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCloudRunV2WorkerPoolIamPolicy.GoogleCloudRunV2WorkerPoolIamPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecloudrunv2workerpooliampolicy"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudrunv2workerpooliampolicy"
 
 &googlecloudrunv2workerpooliampolicy.GoogleCloudRunV2WorkerPoolIamPolicyConfig {
 	Connection: interface{},

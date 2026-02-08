@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstanceGroupMembership.GoogleComputeInstanceGroupMembership.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeinstancegroupmembership"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstancegroupmembership"
 
 googlecomputeinstancegroupmembership.NewGoogleComputeInstanceGroupMembership(scope Construct, id *string, config GoogleComputeInstanceGroupMembershipConfig) GoogleComputeInstanceGroupMembership
 ```
@@ -419,7 +419,7 @@ func ResetZone()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleComputeInstanceGroupMembership.GoogleComputeInstanceGroupMembership.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeinstancegroupmembership"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstancegroupmembership"
 
 googlecomputeinstancegroupmembership.GoogleComputeInstanceGroupMembership_IsConstruct(x interface{}) *bool
 ```
@@ -451,7 +451,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleComputeInstanceGroupMembership.GoogleComputeInstanceGroupMembership.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeinstancegroupmembership"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstancegroupmembership"
 
 googlecomputeinstancegroupmembership.GoogleComputeInstanceGroupMembership_IsTerraformElement(x interface{}) *bool
 ```
@@ -465,7 +465,7 @@ googlecomputeinstancegroupmembership.GoogleComputeInstanceGroupMembership_IsTerr
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleComputeInstanceGroupMembership.GoogleComputeInstanceGroupMembership.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeinstancegroupmembership"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstancegroupmembership"
 
 googlecomputeinstancegroupmembership.GoogleComputeInstanceGroupMembership_IsTerraformResource(x interface{}) *bool
 ```
@@ -479,7 +479,7 @@ googlecomputeinstancegroupmembership.GoogleComputeInstanceGroupMembership_IsTerr
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleComputeInstanceGroupMembership.GoogleComputeInstanceGroupMembership.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeinstancegroupmembership"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstancegroupmembership"
 
 googlecomputeinstancegroupmembership.GoogleComputeInstanceGroupMembership_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -840,7 +840,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInstanceGroupMembership.GoogleComputeInstanceGroupMembershipConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeinstancegroupmembership"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstancegroupmembership"
 
 &googlecomputeinstancegroupmembership.GoogleComputeInstanceGroupMembershipConfig {
 	Connection: interface{},
@@ -854,7 +854,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleco
 	InstanceGroup: *string,
 	Id: *string,
 	Project: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleComputeInstanceGroupMembership.GoogleComputeInstanceGroupMembershipTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleComputeInstanceGroupMembership.GoogleComputeInstanceGroupMembershipTimeouts,
 	Zone: *string,
 }
 ```
@@ -1037,7 +1037,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleComputeInstanceGroupMembership.GoogleComputeInstanceGroupMembershipTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeinstancegroupmembership"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstancegroupmembership"
 
 &googlecomputeinstancegroupmembership.GoogleComputeInstanceGroupMembershipTimeouts {
 	Create: *string,
@@ -1085,7 +1085,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstanceGroupMembership.GoogleComputeInstanceGroupMembershipTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeinstancegroupmembership"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstancegroupmembership"
 
 googlecomputeinstancegroupmembership.NewGoogleComputeInstanceGroupMembershipTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleComputeInstanceGroupMembershipTimeoutsOutputReference
 ```

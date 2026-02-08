@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiFeaturestore.GoogleVertexAiFeaturestore.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexaifeaturestore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaifeaturestore"
 
 googlevertexaifeaturestore.NewGoogleVertexAiFeaturestore(scope Construct, id *string, config GoogleVertexAiFeaturestoreConfig) GoogleVertexAiFeaturestore
 ```
@@ -487,7 +487,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.googleVertexAiFeaturestore.GoogleVertexAiFeaturestore.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexaifeaturestore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaifeaturestore"
 
 googlevertexaifeaturestore.GoogleVertexAiFeaturestore_IsConstruct(x interface{}) *bool
 ```
@@ -519,7 +519,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.googleVertexAiFeaturestore.GoogleVertexAiFeaturestore.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexaifeaturestore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaifeaturestore"
 
 googlevertexaifeaturestore.GoogleVertexAiFeaturestore_IsTerraformElement(x interface{}) *bool
 ```
@@ -533,7 +533,7 @@ googlevertexaifeaturestore.GoogleVertexAiFeaturestore_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-google-beta.googleVertexAiFeaturestore.GoogleVertexAiFeaturestore.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexaifeaturestore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaifeaturestore"
 
 googlevertexaifeaturestore.GoogleVertexAiFeaturestore_IsTerraformResource(x interface{}) *bool
 ```
@@ -547,7 +547,7 @@ googlevertexaifeaturestore.GoogleVertexAiFeaturestore_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.googleVertexAiFeaturestore.GoogleVertexAiFeaturestore.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexaifeaturestore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaifeaturestore"
 
 googlevertexaifeaturestore.GoogleVertexAiFeaturestore_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1051,7 +1051,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiFeaturestore.GoogleVertexAiFeaturestoreConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexaifeaturestore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaifeaturestore"
 
 &googlevertexaifeaturestore.GoogleVertexAiFeaturestoreConfig {
 	Connection: interface{},
@@ -1061,16 +1061,16 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleve
 	Lifecycle: github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle,
 	Provider: github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider,
 	Provisioners: *[]interface{},
-	EncryptionSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleVertexAiFeaturestore.GoogleVertexAiFeaturestoreEncryptionSpec,
+	EncryptionSpec: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleVertexAiFeaturestore.GoogleVertexAiFeaturestoreEncryptionSpec,
 	ForceDestroy: interface{},
 	Id: *string,
 	Labels: *map[string]*string,
 	Name: *string,
-	OnlineServingConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleVertexAiFeaturestore.GoogleVertexAiFeaturestoreOnlineServingConfig,
+	OnlineServingConfig: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleVertexAiFeaturestore.GoogleVertexAiFeaturestoreOnlineServingConfig,
 	OnlineStorageTtlDays: *f64,
 	Project: *string,
 	Region: *string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleVertexAiFeaturestore.GoogleVertexAiFeaturestoreTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleVertexAiFeaturestore.GoogleVertexAiFeaturestoreTimeouts,
 }
 ```
 
@@ -1319,7 +1319,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiFeaturestore.GoogleVertexAiFeaturestoreEncryptionSpec.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexaifeaturestore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaifeaturestore"
 
 &googlevertexaifeaturestore.GoogleVertexAiFeaturestoreEncryptionSpec {
 	KmsKeyName: *string,
@@ -1355,11 +1355,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiFeaturestore.GoogleVertexAiFeaturestoreOnlineServingConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexaifeaturestore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaifeaturestore"
 
 &googlevertexaifeaturestore.GoogleVertexAiFeaturestoreOnlineServingConfig {
 	FixedNodeCount: *f64,
-	Scaling: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16.googleVertexAiFeaturestore.GoogleVertexAiFeaturestoreOnlineServingConfigScaling,
+	Scaling: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17.googleVertexAiFeaturestore.GoogleVertexAiFeaturestoreOnlineServingConfigScaling,
 }
 ```
 
@@ -1407,7 +1407,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiFeaturestore.GoogleVertexAiFeaturestoreOnlineServingConfigScaling.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexaifeaturestore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaifeaturestore"
 
 &googlevertexaifeaturestore.GoogleVertexAiFeaturestoreOnlineServingConfigScaling {
 	MaxNodeCount: *f64,
@@ -1459,7 +1459,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleVertexAiFeaturestore.GoogleVertexAiFeaturestoreTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexaifeaturestore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaifeaturestore"
 
 &googlevertexaifeaturestore.GoogleVertexAiFeaturestoreTimeouts {
 	Create: *string,
@@ -1521,7 +1521,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiFeaturestore.GoogleVertexAiFeaturestoreEncryptionSpecOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexaifeaturestore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaifeaturestore"
 
 googlevertexaifeaturestore.NewGoogleVertexAiFeaturestoreEncryptionSpecOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiFeaturestoreEncryptionSpecOutputReference
 ```
@@ -1792,7 +1792,7 @@ func InternalValue() GoogleVertexAiFeaturestoreEncryptionSpec
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiFeaturestore.GoogleVertexAiFeaturestoreOnlineServingConfigOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexaifeaturestore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaifeaturestore"
 
 googlevertexaifeaturestore.NewGoogleVertexAiFeaturestoreOnlineServingConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiFeaturestoreOnlineServingConfigOutputReference
 ```
@@ -2112,7 +2112,7 @@ func InternalValue() GoogleVertexAiFeaturestoreOnlineServingConfig
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiFeaturestore.GoogleVertexAiFeaturestoreOnlineServingConfigScalingOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexaifeaturestore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaifeaturestore"
 
 googlevertexaifeaturestore.NewGoogleVertexAiFeaturestoreOnlineServingConfigScalingOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiFeaturestoreOnlineServingConfigScalingOutputReference
 ```
@@ -2405,7 +2405,7 @@ func InternalValue() GoogleVertexAiFeaturestoreOnlineServingConfigScaling
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiFeaturestore.GoogleVertexAiFeaturestoreTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexaifeaturestore"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaifeaturestore"
 
 googlevertexaifeaturestore.NewGoogleVertexAiFeaturestoreTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) GoogleVertexAiFeaturestoreTimeoutsOutputReference
 ```

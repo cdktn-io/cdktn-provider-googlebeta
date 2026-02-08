@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/google-bet
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDisk.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglecomputeregiondisk"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecomputeregiondisk"
 
 datagooglecomputeregiondisk.NewDataGoogleComputeRegionDisk(scope Construct, id *string, config DataGoogleComputeRegionDiskConfig) DataGoogleComputeRegionDisk
 ```
@@ -297,7 +297,7 @@ func ResetRegion()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDisk.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglecomputeregiondisk"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecomputeregiondisk"
 
 datagooglecomputeregiondisk.DataGoogleComputeRegionDisk_IsConstruct(x interface{}) *bool
 ```
@@ -329,7 +329,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDisk.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglecomputeregiondisk"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecomputeregiondisk"
 
 datagooglecomputeregiondisk.DataGoogleComputeRegionDisk_IsTerraformElement(x interface{}) *bool
 ```
@@ -343,7 +343,7 @@ datagooglecomputeregiondisk.DataGoogleComputeRegionDisk_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDisk.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglecomputeregiondisk"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecomputeregiondisk"
 
 datagooglecomputeregiondisk.DataGoogleComputeRegionDisk_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -357,7 +357,7 @@ datagooglecomputeregiondisk.DataGoogleComputeRegionDisk_IsTerraformDataSource(x 
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDisk.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglecomputeregiondisk"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecomputeregiondisk"
 
 datagooglecomputeregiondisk.DataGoogleComputeRegionDisk_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -982,7 +982,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDiskAsyncPrimaryDisk.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglecomputeregiondisk"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecomputeregiondisk"
 
 &datagooglecomputeregiondisk.DataGoogleComputeRegionDiskAsyncPrimaryDisk {
 
@@ -995,7 +995,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagoog
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDiskConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglecomputeregiondisk"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecomputeregiondisk"
 
 &datagooglecomputeregiondisk.DataGoogleComputeRegionDiskConfig {
 	Connection: interface{},
@@ -1168,7 +1168,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDiskDiskEncryptionKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglecomputeregiondisk"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecomputeregiondisk"
 
 &datagooglecomputeregiondisk.DataGoogleComputeRegionDiskDiskEncryptionKey {
 
@@ -1181,7 +1181,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagoog
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDiskGuestOsFeatures.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglecomputeregiondisk"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecomputeregiondisk"
 
 &datagooglecomputeregiondisk.DataGoogleComputeRegionDiskGuestOsFeatures {
 
@@ -1194,7 +1194,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagoog
 #### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDiskSourceSnapshotEncryptionKey.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglecomputeregiondisk"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecomputeregiondisk"
 
 &datagooglecomputeregiondisk.DataGoogleComputeRegionDiskSourceSnapshotEncryptionKey {
 
@@ -1209,7 +1209,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagoog
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDiskAsyncPrimaryDiskList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglecomputeregiondisk"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecomputeregiondisk"
 
 datagooglecomputeregiondisk.NewDataGoogleComputeRegionDiskAsyncPrimaryDiskList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGoogleComputeRegionDiskAsyncPrimaryDiskList
 ```
@@ -1358,7 +1358,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDiskAsyncPrimaryDiskOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglecomputeregiondisk"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecomputeregiondisk"
 
 datagooglecomputeregiondisk.NewDataGoogleComputeRegionDiskAsyncPrimaryDiskOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGoogleComputeRegionDiskAsyncPrimaryDiskOutputReference
 ```
@@ -1636,7 +1636,7 @@ func InternalValue() DataGoogleComputeRegionDiskAsyncPrimaryDisk
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDiskDiskEncryptionKeyList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglecomputeregiondisk"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecomputeregiondisk"
 
 datagooglecomputeregiondisk.NewDataGoogleComputeRegionDiskDiskEncryptionKeyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGoogleComputeRegionDiskDiskEncryptionKeyList
 ```
@@ -1785,7 +1785,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDiskDiskEncryptionKeyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglecomputeregiondisk"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecomputeregiondisk"
 
 datagooglecomputeregiondisk.NewDataGoogleComputeRegionDiskDiskEncryptionKeyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGoogleComputeRegionDiskDiskEncryptionKeyOutputReference
 ```
@@ -2096,7 +2096,7 @@ func InternalValue() DataGoogleComputeRegionDiskDiskEncryptionKey
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDiskGuestOsFeaturesList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglecomputeregiondisk"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecomputeregiondisk"
 
 datagooglecomputeregiondisk.NewDataGoogleComputeRegionDiskGuestOsFeaturesList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGoogleComputeRegionDiskGuestOsFeaturesList
 ```
@@ -2245,7 +2245,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDiskGuestOsFeaturesOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglecomputeregiondisk"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecomputeregiondisk"
 
 datagooglecomputeregiondisk.NewDataGoogleComputeRegionDiskGuestOsFeaturesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGoogleComputeRegionDiskGuestOsFeaturesOutputReference
 ```
@@ -2523,7 +2523,7 @@ func InternalValue() DataGoogleComputeRegionDiskGuestOsFeatures
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDiskSourceSnapshotEncryptionKeyList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglecomputeregiondisk"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecomputeregiondisk"
 
 datagooglecomputeregiondisk.NewDataGoogleComputeRegionDiskSourceSnapshotEncryptionKeyList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGoogleComputeRegionDiskSourceSnapshotEncryptionKeyList
 ```
@@ -2672,7 +2672,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDiskSourceSnapshotEncryptionKeyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglecomputeregiondisk"
+import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecomputeregiondisk"
 
 datagooglecomputeregiondisk.NewDataGoogleComputeRegionDiskSourceSnapshotEncryptionKeyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataGoogleComputeRegionDiskSourceSnapshotEncryptionKeyOutputReference
 ```
