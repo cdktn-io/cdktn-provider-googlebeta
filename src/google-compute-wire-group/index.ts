@@ -7,17 +7,17 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleComputeWireGroupConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleComputeWireGroupConfig extends cdktn.TerraformMetaArguments {
   /**
   * Indicates whether the wire group is administratively enabled.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_wire_group#admin_enabled GoogleComputeWireGroup#admin_enabled}
   */
-  readonly adminEnabled?: boolean | cdktf.IResolvable;
+  readonly adminEnabled?: boolean | cdktn.IResolvable;
   /**
   * Required cross site network to which wire group belongs.
   *
@@ -56,7 +56,7 @@ export interface GoogleComputeWireGroupConfig extends cdktf.TerraformMetaArgumen
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_wire_group#endpoints GoogleComputeWireGroup#endpoints}
   */
-  readonly endpoints?: GoogleComputeWireGroupEndpoints[] | cdktf.IResolvable;
+  readonly endpoints?: GoogleComputeWireGroupEndpoints[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
@@ -80,8 +80,8 @@ export interface GoogleComputeWireGroupTopologyEndpoints {
 }
 
 export function googleComputeWireGroupTopologyEndpointsToTerraform(struct?: GoogleComputeWireGroupTopologyEndpoints): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -90,8 +90,8 @@ export function googleComputeWireGroupTopologyEndpointsToTerraform(struct?: Goog
 
 
 export function googleComputeWireGroupTopologyEndpointsToHclTerraform(struct?: GoogleComputeWireGroupTopologyEndpoints): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -99,7 +99,7 @@ export function googleComputeWireGroupTopologyEndpointsToHclTerraform(struct?: G
   return attrs;
 }
 
-export class GoogleComputeWireGroupTopologyEndpointsOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeWireGroupTopologyEndpointsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -108,7 +108,7 @@ export class GoogleComputeWireGroupTopologyEndpointsOutputReference extends cdkt
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -138,14 +138,14 @@ export class GoogleComputeWireGroupTopologyEndpointsOutputReference extends cdkt
   }
 }
 
-export class GoogleComputeWireGroupTopologyEndpointsList extends cdktf.ComplexList {
+export class GoogleComputeWireGroupTopologyEndpointsList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -160,8 +160,8 @@ export interface GoogleComputeWireGroupTopology {
 }
 
 export function googleComputeWireGroupTopologyToTerraform(struct?: GoogleComputeWireGroupTopology): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -170,8 +170,8 @@ export function googleComputeWireGroupTopologyToTerraform(struct?: GoogleCompute
 
 
 export function googleComputeWireGroupTopologyToHclTerraform(struct?: GoogleComputeWireGroupTopology): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -179,7 +179,7 @@ export function googleComputeWireGroupTopologyToHclTerraform(struct?: GoogleComp
   return attrs;
 }
 
-export class GoogleComputeWireGroupTopologyOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeWireGroupTopologyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -188,7 +188,7 @@ export class GoogleComputeWireGroupTopologyOutputReference extends cdktf.Complex
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -214,14 +214,14 @@ export class GoogleComputeWireGroupTopologyOutputReference extends cdktf.Complex
   }
 }
 
-export class GoogleComputeWireGroupTopologyList extends cdktf.ComplexList {
+export class GoogleComputeWireGroupTopologyList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -236,8 +236,8 @@ export interface GoogleComputeWireGroupWiresEndpoints {
 }
 
 export function googleComputeWireGroupWiresEndpointsToTerraform(struct?: GoogleComputeWireGroupWiresEndpoints): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -246,8 +246,8 @@ export function googleComputeWireGroupWiresEndpointsToTerraform(struct?: GoogleC
 
 
 export function googleComputeWireGroupWiresEndpointsToHclTerraform(struct?: GoogleComputeWireGroupWiresEndpoints): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -255,7 +255,7 @@ export function googleComputeWireGroupWiresEndpointsToHclTerraform(struct?: Goog
   return attrs;
 }
 
-export class GoogleComputeWireGroupWiresEndpointsOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeWireGroupWiresEndpointsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -264,7 +264,7 @@ export class GoogleComputeWireGroupWiresEndpointsOutputReference extends cdktf.C
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -294,14 +294,14 @@ export class GoogleComputeWireGroupWiresEndpointsOutputReference extends cdktf.C
   }
 }
 
-export class GoogleComputeWireGroupWiresEndpointsList extends cdktf.ComplexList {
+export class GoogleComputeWireGroupWiresEndpointsList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -316,8 +316,8 @@ export interface GoogleComputeWireGroupWiresWireProperties {
 }
 
 export function googleComputeWireGroupWiresWirePropertiesToTerraform(struct?: GoogleComputeWireGroupWiresWireProperties): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -326,8 +326,8 @@ export function googleComputeWireGroupWiresWirePropertiesToTerraform(struct?: Go
 
 
 export function googleComputeWireGroupWiresWirePropertiesToHclTerraform(struct?: GoogleComputeWireGroupWiresWireProperties): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -335,7 +335,7 @@ export function googleComputeWireGroupWiresWirePropertiesToHclTerraform(struct?:
   return attrs;
 }
 
-export class GoogleComputeWireGroupWiresWirePropertiesOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeWireGroupWiresWirePropertiesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -344,7 +344,7 @@ export class GoogleComputeWireGroupWiresWirePropertiesOutputReference extends cd
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -374,14 +374,14 @@ export class GoogleComputeWireGroupWiresWirePropertiesOutputReference extends cd
   }
 }
 
-export class GoogleComputeWireGroupWiresWirePropertiesList extends cdktf.ComplexList {
+export class GoogleComputeWireGroupWiresWirePropertiesList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -396,8 +396,8 @@ export interface GoogleComputeWireGroupWires {
 }
 
 export function googleComputeWireGroupWiresToTerraform(struct?: GoogleComputeWireGroupWires): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -406,8 +406,8 @@ export function googleComputeWireGroupWiresToTerraform(struct?: GoogleComputeWir
 
 
 export function googleComputeWireGroupWiresToHclTerraform(struct?: GoogleComputeWireGroupWires): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -415,7 +415,7 @@ export function googleComputeWireGroupWiresToHclTerraform(struct?: GoogleCompute
   return attrs;
 }
 
-export class GoogleComputeWireGroupWiresOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeWireGroupWiresOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -424,7 +424,7 @@ export class GoogleComputeWireGroupWiresOutputReference extends cdktf.ComplexObj
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -466,14 +466,14 @@ export class GoogleComputeWireGroupWiresOutputReference extends cdktf.ComplexObj
   }
 }
 
-export class GoogleComputeWireGroupWiresList extends cdktf.ComplexList {
+export class GoogleComputeWireGroupWiresList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -501,39 +501,39 @@ export interface GoogleComputeWireGroupEndpointsInterconnects {
   readonly vlanTags?: number[];
 }
 
-export function googleComputeWireGroupEndpointsInterconnectsToTerraform(struct?: GoogleComputeWireGroupEndpointsInterconnects | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeWireGroupEndpointsInterconnectsToTerraform(struct?: GoogleComputeWireGroupEndpointsInterconnects | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    interconnect: cdktf.stringToTerraform(struct!.interconnect),
-    interconnect_name: cdktf.stringToTerraform(struct!.interconnectName),
-    vlan_tags: cdktf.listMapper(cdktf.numberToTerraform, false)(struct!.vlanTags),
+    interconnect: cdktn.stringToTerraform(struct!.interconnect),
+    interconnect_name: cdktn.stringToTerraform(struct!.interconnectName),
+    vlan_tags: cdktn.listMapper(cdktn.numberToTerraform, false)(struct!.vlanTags),
   }
 }
 
 
-export function googleComputeWireGroupEndpointsInterconnectsToHclTerraform(struct?: GoogleComputeWireGroupEndpointsInterconnects | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeWireGroupEndpointsInterconnectsToHclTerraform(struct?: GoogleComputeWireGroupEndpointsInterconnects | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     interconnect: {
-      value: cdktf.stringToHclTerraform(struct!.interconnect),
+      value: cdktn.stringToHclTerraform(struct!.interconnect),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     interconnect_name: {
-      value: cdktf.stringToHclTerraform(struct!.interconnectName),
+      value: cdktn.stringToHclTerraform(struct!.interconnectName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     vlan_tags: {
-      value: cdktf.listMapperHcl(cdktf.numberToHclTerraform, false)(struct!.vlanTags),
+      value: cdktn.listMapperHcl(cdktn.numberToHclTerraform, false)(struct!.vlanTags),
       isBlock: false,
       type: "list",
       storageClassType: "numberList",
@@ -544,9 +544,9 @@ export function googleComputeWireGroupEndpointsInterconnectsToHclTerraform(struc
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeWireGroupEndpointsInterconnectsOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeWireGroupEndpointsInterconnectsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -554,11 +554,11 @@ export class GoogleComputeWireGroupEndpointsInterconnectsOutputReference extends
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeWireGroupEndpointsInterconnects | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeWireGroupEndpointsInterconnects | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -579,7 +579,7 @@ export class GoogleComputeWireGroupEndpointsInterconnectsOutputReference extends
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeWireGroupEndpointsInterconnects | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeWireGroupEndpointsInterconnects | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -587,7 +587,7 @@ export class GoogleComputeWireGroupEndpointsInterconnectsOutputReference extends
       this._interconnectName = undefined;
       this._vlanTags = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -646,15 +646,15 @@ export class GoogleComputeWireGroupEndpointsInterconnectsOutputReference extends
   }
 }
 
-export class GoogleComputeWireGroupEndpointsInterconnectsList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeWireGroupEndpointsInterconnects[] | cdktf.IResolvable
+export class GoogleComputeWireGroupEndpointsInterconnectsList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeWireGroupEndpointsInterconnects[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -675,35 +675,35 @@ export interface GoogleComputeWireGroupEndpoints {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_wire_group#interconnects GoogleComputeWireGroup#interconnects}
   */
-  readonly interconnects?: GoogleComputeWireGroupEndpointsInterconnects[] | cdktf.IResolvable;
+  readonly interconnects?: GoogleComputeWireGroupEndpointsInterconnects[] | cdktn.IResolvable;
 }
 
-export function googleComputeWireGroupEndpointsToTerraform(struct?: GoogleComputeWireGroupEndpoints | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeWireGroupEndpointsToTerraform(struct?: GoogleComputeWireGroupEndpoints | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    endpoint: cdktf.stringToTerraform(struct!.endpoint),
-    interconnects: cdktf.listMapper(googleComputeWireGroupEndpointsInterconnectsToTerraform, true)(struct!.interconnects),
+    endpoint: cdktn.stringToTerraform(struct!.endpoint),
+    interconnects: cdktn.listMapper(googleComputeWireGroupEndpointsInterconnectsToTerraform, true)(struct!.interconnects),
   }
 }
 
 
-export function googleComputeWireGroupEndpointsToHclTerraform(struct?: GoogleComputeWireGroupEndpoints | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeWireGroupEndpointsToHclTerraform(struct?: GoogleComputeWireGroupEndpoints | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     endpoint: {
-      value: cdktf.stringToHclTerraform(struct!.endpoint),
+      value: cdktn.stringToHclTerraform(struct!.endpoint),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     interconnects: {
-      value: cdktf.listMapperHcl(googleComputeWireGroupEndpointsInterconnectsToHclTerraform, true)(struct!.interconnects),
+      value: cdktn.listMapperHcl(googleComputeWireGroupEndpointsInterconnectsToHclTerraform, true)(struct!.interconnects),
       isBlock: true,
       type: "set",
       storageClassType: "GoogleComputeWireGroupEndpointsInterconnectsList",
@@ -714,9 +714,9 @@ export function googleComputeWireGroupEndpointsToHclTerraform(struct?: GoogleCom
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeWireGroupEndpointsOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeWireGroupEndpointsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -724,11 +724,11 @@ export class GoogleComputeWireGroupEndpointsOutputReference extends cdktf.Comple
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeWireGroupEndpoints | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeWireGroupEndpoints | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -745,14 +745,14 @@ export class GoogleComputeWireGroupEndpointsOutputReference extends cdktf.Comple
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeWireGroupEndpoints | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeWireGroupEndpoints | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._endpoint = undefined;
       this._interconnects.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -782,7 +782,7 @@ export class GoogleComputeWireGroupEndpointsOutputReference extends cdktf.Comple
   public get interconnects() {
     return this._interconnects;
   }
-  public putInterconnects(value: GoogleComputeWireGroupEndpointsInterconnects[] | cdktf.IResolvable) {
+  public putInterconnects(value: GoogleComputeWireGroupEndpointsInterconnects[] | cdktn.IResolvable) {
     this._interconnects.internalValue = value;
   }
   public resetInterconnects() {
@@ -794,15 +794,15 @@ export class GoogleComputeWireGroupEndpointsOutputReference extends cdktf.Comple
   }
 }
 
-export class GoogleComputeWireGroupEndpointsList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeWireGroupEndpoints[] | cdktf.IResolvable
+export class GoogleComputeWireGroupEndpointsList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeWireGroupEndpoints[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -828,39 +828,39 @@ export interface GoogleComputeWireGroupTimeouts {
   readonly update?: string;
 }
 
-export function googleComputeWireGroupTimeoutsToTerraform(struct?: GoogleComputeWireGroupTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeWireGroupTimeoutsToTerraform(struct?: GoogleComputeWireGroupTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleComputeWireGroupTimeoutsToHclTerraform(struct?: GoogleComputeWireGroupTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeWireGroupTimeoutsToHclTerraform(struct?: GoogleComputeWireGroupTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -871,19 +871,19 @@ export function googleComputeWireGroupTimeoutsToHclTerraform(struct?: GoogleComp
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeWireGroupTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeWireGroupTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleComputeWireGroupTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeWireGroupTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -904,7 +904,7 @@ export class GoogleComputeWireGroupTimeoutsOutputReference extends cdktf.Complex
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeWireGroupTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeWireGroupTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -912,7 +912,7 @@ export class GoogleComputeWireGroupTimeoutsOutputReference extends cdktf.Complex
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -986,24 +986,24 @@ export interface GoogleComputeWireGroupWireGroupProperties {
 }
 
 export function googleComputeWireGroupWireGroupPropertiesToTerraform(struct?: GoogleComputeWireGroupWireGroupPropertiesOutputReference | GoogleComputeWireGroupWireGroupProperties): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    type: cdktf.stringToTerraform(struct!.type),
+    type: cdktn.stringToTerraform(struct!.type),
   }
 }
 
 
 export function googleComputeWireGroupWireGroupPropertiesToHclTerraform(struct?: GoogleComputeWireGroupWireGroupPropertiesOutputReference | GoogleComputeWireGroupWireGroupProperties): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     type: {
-      value: cdktf.stringToHclTerraform(struct!.type),
+      value: cdktn.stringToHclTerraform(struct!.type),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1014,14 +1014,14 @@ export function googleComputeWireGroupWireGroupPropertiesToHclTerraform(struct?:
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeWireGroupWireGroupPropertiesOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeWireGroupWireGroupPropertiesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1080,31 +1080,31 @@ export interface GoogleComputeWireGroupWireProperties {
 }
 
 export function googleComputeWireGroupWirePropertiesToTerraform(struct?: GoogleComputeWireGroupWirePropertiesOutputReference | GoogleComputeWireGroupWireProperties): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    bandwidth_unmetered: cdktf.numberToTerraform(struct!.bandwidthUnmetered),
-    fault_response: cdktf.stringToTerraform(struct!.faultResponse),
+    bandwidth_unmetered: cdktn.numberToTerraform(struct!.bandwidthUnmetered),
+    fault_response: cdktn.stringToTerraform(struct!.faultResponse),
   }
 }
 
 
 export function googleComputeWireGroupWirePropertiesToHclTerraform(struct?: GoogleComputeWireGroupWirePropertiesOutputReference | GoogleComputeWireGroupWireProperties): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     bandwidth_unmetered: {
-      value: cdktf.numberToHclTerraform(struct!.bandwidthUnmetered),
+      value: cdktn.numberToHclTerraform(struct!.bandwidthUnmetered),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     fault_response: {
-      value: cdktf.stringToHclTerraform(struct!.faultResponse),
+      value: cdktn.stringToHclTerraform(struct!.faultResponse),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1115,14 +1115,14 @@ export function googleComputeWireGroupWirePropertiesToHclTerraform(struct?: Goog
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeWireGroupWirePropertiesOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeWireGroupWirePropertiesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1189,7 +1189,7 @@ export class GoogleComputeWireGroupWirePropertiesOutputReference extends cdktf.C
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_wire_group google_compute_wire_group}
 */
-export class GoogleComputeWireGroup extends cdktf.TerraformResource {
+export class GoogleComputeWireGroup extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -1200,14 +1200,14 @@ export class GoogleComputeWireGroup extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleComputeWireGroup resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleComputeWireGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleComputeWireGroup to import
   * @param importFromId The id of the existing GoogleComputeWireGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_wire_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleComputeWireGroup to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_compute_wire_group", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_compute_wire_group", importId: importFromId, provider });
       }
 
   // ===========
@@ -1254,11 +1254,11 @@ export class GoogleComputeWireGroup extends cdktf.TerraformResource {
   // ==========
 
   // admin_enabled - computed: false, optional: true, required: false
-  private _adminEnabled?: boolean | cdktf.IResolvable; 
+  private _adminEnabled?: boolean | cdktn.IResolvable; 
   public get adminEnabled() {
     return this.getBooleanAttribute('admin_enabled');
   }
-  public set adminEnabled(value: boolean | cdktf.IResolvable) {
+  public set adminEnabled(value: boolean | cdktn.IResolvable) {
     this._adminEnabled = value;
   }
   public resetAdminEnabled() {
@@ -1365,7 +1365,7 @@ export class GoogleComputeWireGroup extends cdktf.TerraformResource {
   public get endpoints() {
     return this._endpoints;
   }
-  public putEndpoints(value: GoogleComputeWireGroupEndpoints[] | cdktf.IResolvable) {
+  public putEndpoints(value: GoogleComputeWireGroupEndpoints[] | cdktn.IResolvable) {
     this._endpoints.internalValue = value;
   }
   public resetEndpoints() {
@@ -1430,13 +1430,13 @@ export class GoogleComputeWireGroup extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      admin_enabled: cdktf.booleanToTerraform(this._adminEnabled),
-      cross_site_network: cdktf.stringToTerraform(this._crossSiteNetwork),
-      description: cdktf.stringToTerraform(this._description),
-      id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
-      project: cdktf.stringToTerraform(this._project),
-      endpoints: cdktf.listMapper(googleComputeWireGroupEndpointsToTerraform, true)(this._endpoints.internalValue),
+      admin_enabled: cdktn.booleanToTerraform(this._adminEnabled),
+      cross_site_network: cdktn.stringToTerraform(this._crossSiteNetwork),
+      description: cdktn.stringToTerraform(this._description),
+      id: cdktn.stringToTerraform(this._id),
+      name: cdktn.stringToTerraform(this._name),
+      project: cdktn.stringToTerraform(this._project),
+      endpoints: cdktn.listMapper(googleComputeWireGroupEndpointsToTerraform, true)(this._endpoints.internalValue),
       timeouts: googleComputeWireGroupTimeoutsToTerraform(this._timeouts.internalValue),
       wire_group_properties: googleComputeWireGroupWireGroupPropertiesToTerraform(this._wireGroupProperties.internalValue),
       wire_properties: googleComputeWireGroupWirePropertiesToTerraform(this._wireProperties.internalValue),
@@ -1446,43 +1446,43 @@ export class GoogleComputeWireGroup extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       admin_enabled: {
-        value: cdktf.booleanToHclTerraform(this._adminEnabled),
+        value: cdktn.booleanToHclTerraform(this._adminEnabled),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       cross_site_network: {
-        value: cdktf.stringToHclTerraform(this._crossSiteNetwork),
+        value: cdktn.stringToHclTerraform(this._crossSiteNetwork),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       endpoints: {
-        value: cdktf.listMapperHcl(googleComputeWireGroupEndpointsToHclTerraform, true)(this._endpoints.internalValue),
+        value: cdktn.listMapperHcl(googleComputeWireGroupEndpointsToHclTerraform, true)(this._endpoints.internalValue),
         isBlock: true,
         type: "set",
         storageClassType: "GoogleComputeWireGroupEndpointsList",

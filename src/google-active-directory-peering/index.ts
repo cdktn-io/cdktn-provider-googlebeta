@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleActiveDirectoryPeeringConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleActiveDirectoryPeeringConfig extends cdktn.TerraformMetaArguments {
   /**
   * The full names of the Google Compute Engine networks to which the instance is connected. Caller needs to make sure that CIDR subnets do not overlap between networks, else peering creation will fail.
   *
@@ -82,39 +82,39 @@ export interface GoogleActiveDirectoryPeeringTimeouts {
   readonly update?: string;
 }
 
-export function googleActiveDirectoryPeeringTimeoutsToTerraform(struct?: GoogleActiveDirectoryPeeringTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleActiveDirectoryPeeringTimeoutsToTerraform(struct?: GoogleActiveDirectoryPeeringTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleActiveDirectoryPeeringTimeoutsToHclTerraform(struct?: GoogleActiveDirectoryPeeringTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleActiveDirectoryPeeringTimeoutsToHclTerraform(struct?: GoogleActiveDirectoryPeeringTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -125,19 +125,19 @@ export function googleActiveDirectoryPeeringTimeoutsToHclTerraform(struct?: Goog
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleActiveDirectoryPeeringTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleActiveDirectoryPeeringTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleActiveDirectoryPeeringTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleActiveDirectoryPeeringTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -158,7 +158,7 @@ export class GoogleActiveDirectoryPeeringTimeoutsOutputReference extends cdktf.C
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleActiveDirectoryPeeringTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleActiveDirectoryPeeringTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -166,7 +166,7 @@ export class GoogleActiveDirectoryPeeringTimeoutsOutputReference extends cdktf.C
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -231,7 +231,7 @@ export class GoogleActiveDirectoryPeeringTimeoutsOutputReference extends cdktf.C
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_active_directory_peering google_active_directory_peering}
 */
-export class GoogleActiveDirectoryPeering extends cdktf.TerraformResource {
+export class GoogleActiveDirectoryPeering extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -242,14 +242,14 @@ export class GoogleActiveDirectoryPeering extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleActiveDirectoryPeering resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleActiveDirectoryPeering resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleActiveDirectoryPeering to import
   * @param importFromId The id of the existing GoogleActiveDirectoryPeering that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_active_directory_peering#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleActiveDirectoryPeering to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_active_directory_peering", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_active_directory_peering", importId: importFromId, provider });
       }
 
   // ===========
@@ -321,7 +321,7 @@ export class GoogleActiveDirectoryPeering extends cdktf.TerraformResource {
   }
 
   // effective_labels - computed: true, optional: false, required: false
-  private _effectiveLabels = new cdktf.StringMap(this, "effective_labels");
+  private _effectiveLabels = new cdktn.StringMap(this, "effective_labels");
   public get effectiveLabels() {
     return this._effectiveLabels;
   }
@@ -425,7 +425,7 @@ export class GoogleActiveDirectoryPeering extends cdktf.TerraformResource {
   }
 
   // terraform_labels - computed: true, optional: false, required: false
-  private _terraformLabels = new cdktf.StringMap(this, "terraform_labels");
+  private _terraformLabels = new cdktn.StringMap(this, "terraform_labels");
   public get terraformLabels() {
     return this._terraformLabels;
   }
@@ -452,14 +452,14 @@ export class GoogleActiveDirectoryPeering extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      authorized_network: cdktf.stringToTerraform(this._authorizedNetwork),
-      domain_resource: cdktf.stringToTerraform(this._domainResource),
-      id: cdktf.stringToTerraform(this._id),
-      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
-      peering_id: cdktf.stringToTerraform(this._peeringId),
-      project: cdktf.stringToTerraform(this._project),
-      status: cdktf.stringToTerraform(this._status),
-      status_message: cdktf.stringToTerraform(this._statusMessage),
+      authorized_network: cdktn.stringToTerraform(this._authorizedNetwork),
+      domain_resource: cdktn.stringToTerraform(this._domainResource),
+      id: cdktn.stringToTerraform(this._id),
+      labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
+      peering_id: cdktn.stringToTerraform(this._peeringId),
+      project: cdktn.stringToTerraform(this._project),
+      status: cdktn.stringToTerraform(this._status),
+      status_message: cdktn.stringToTerraform(this._statusMessage),
       timeouts: googleActiveDirectoryPeeringTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -467,49 +467,49 @@ export class GoogleActiveDirectoryPeering extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       authorized_network: {
-        value: cdktf.stringToHclTerraform(this._authorizedNetwork),
+        value: cdktn.stringToHclTerraform(this._authorizedNetwork),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       domain_resource: {
-        value: cdktf.stringToHclTerraform(this._domainResource),
+        value: cdktn.stringToHclTerraform(this._domainResource),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._labels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       peering_id: {
-        value: cdktf.stringToHclTerraform(this._peeringId),
+        value: cdktn.stringToHclTerraform(this._peeringId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       status: {
-        value: cdktf.stringToHclTerraform(this._status),
+        value: cdktn.stringToHclTerraform(this._status),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       status_message: {
-        value: cdktf.stringToHclTerraform(this._statusMessage),
+        value: cdktn.stringToHclTerraform(this._statusMessage),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

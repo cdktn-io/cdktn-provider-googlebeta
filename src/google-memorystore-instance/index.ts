@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleMemorystoreInstanceConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleMemorystoreInstanceConfig extends cdktn.TerraformMetaArguments {
   /**
   * Allows customers to specify if they are okay with deploying a multi-zone
   * instance in less than 3 zones. Once set, if there is a zonal outage during
@@ -20,7 +20,7 @@ export interface GoogleMemorystoreInstanceConfig extends cdktf.TerraformMetaArgu
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memorystore_instance#allow_fewer_zones_deployment GoogleMemorystoreInstance#allow_fewer_zones_deployment}
   */
-  readonly allowFewerZonesDeployment?: boolean | cdktf.IResolvable;
+  readonly allowFewerZonesDeployment?: boolean | cdktn.IResolvable;
   /**
   * Optional. Immutable. Authorization mode of the instance. Possible values:
   *  AUTH_DISABLED
@@ -34,7 +34,7 @@ export interface GoogleMemorystoreInstanceConfig extends cdktf.TerraformMetaArgu
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memorystore_instance#deletion_protection_enabled GoogleMemorystoreInstance#deletion_protection_enabled}
   */
-  readonly deletionProtectionEnabled?: boolean | cdktf.IResolvable;
+  readonly deletionProtectionEnabled?: boolean | cdktn.IResolvable;
   /**
   * Optional. User-provided engine configurations for the instance.
   *
@@ -152,13 +152,13 @@ export interface GoogleMemorystoreInstanceConfig extends cdktf.TerraformMetaArgu
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memorystore_instance#desired_auto_created_endpoints GoogleMemorystoreInstance#desired_auto_created_endpoints}
   */
-  readonly desiredAutoCreatedEndpoints?: GoogleMemorystoreInstanceDesiredAutoCreatedEndpoints[] | cdktf.IResolvable;
+  readonly desiredAutoCreatedEndpoints?: GoogleMemorystoreInstanceDesiredAutoCreatedEndpoints[] | cdktn.IResolvable;
   /**
   * desired_psc_auto_connections block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memorystore_instance#desired_psc_auto_connections GoogleMemorystoreInstance#desired_psc_auto_connections}
   */
-  readonly desiredPscAutoConnections?: GoogleMemorystoreInstanceDesiredPscAutoConnections[] | cdktf.IResolvable;
+  readonly desiredPscAutoConnections?: GoogleMemorystoreInstanceDesiredPscAutoConnections[] | cdktn.IResolvable;
   /**
   * gcs_source block
   *
@@ -200,8 +200,8 @@ export interface GoogleMemorystoreInstanceDiscoveryEndpoints {
 }
 
 export function googleMemorystoreInstanceDiscoveryEndpointsToTerraform(struct?: GoogleMemorystoreInstanceDiscoveryEndpoints): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -210,8 +210,8 @@ export function googleMemorystoreInstanceDiscoveryEndpointsToTerraform(struct?: 
 
 
 export function googleMemorystoreInstanceDiscoveryEndpointsToHclTerraform(struct?: GoogleMemorystoreInstanceDiscoveryEndpoints): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -219,7 +219,7 @@ export function googleMemorystoreInstanceDiscoveryEndpointsToHclTerraform(struct
   return attrs;
 }
 
-export class GoogleMemorystoreInstanceDiscoveryEndpointsOutputReference extends cdktf.ComplexObject {
+export class GoogleMemorystoreInstanceDiscoveryEndpointsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -228,7 +228,7 @@ export class GoogleMemorystoreInstanceDiscoveryEndpointsOutputReference extends 
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -263,14 +263,14 @@ export class GoogleMemorystoreInstanceDiscoveryEndpointsOutputReference extends 
   }
 }
 
-export class GoogleMemorystoreInstanceDiscoveryEndpointsList extends cdktf.ComplexList {
+export class GoogleMemorystoreInstanceDiscoveryEndpointsList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -285,8 +285,8 @@ export interface GoogleMemorystoreInstanceEndpointsConnectionsPscAutoConnection 
 }
 
 export function googleMemorystoreInstanceEndpointsConnectionsPscAutoConnectionToTerraform(struct?: GoogleMemorystoreInstanceEndpointsConnectionsPscAutoConnection): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -295,8 +295,8 @@ export function googleMemorystoreInstanceEndpointsConnectionsPscAutoConnectionTo
 
 
 export function googleMemorystoreInstanceEndpointsConnectionsPscAutoConnectionToHclTerraform(struct?: GoogleMemorystoreInstanceEndpointsConnectionsPscAutoConnection): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -304,7 +304,7 @@ export function googleMemorystoreInstanceEndpointsConnectionsPscAutoConnectionTo
   return attrs;
 }
 
-export class GoogleMemorystoreInstanceEndpointsConnectionsPscAutoConnectionOutputReference extends cdktf.ComplexObject {
+export class GoogleMemorystoreInstanceEndpointsConnectionsPscAutoConnectionOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -313,7 +313,7 @@ export class GoogleMemorystoreInstanceEndpointsConnectionsPscAutoConnectionOutpu
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -373,14 +373,14 @@ export class GoogleMemorystoreInstanceEndpointsConnectionsPscAutoConnectionOutpu
   }
 }
 
-export class GoogleMemorystoreInstanceEndpointsConnectionsPscAutoConnectionList extends cdktf.ComplexList {
+export class GoogleMemorystoreInstanceEndpointsConnectionsPscAutoConnectionList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -395,8 +395,8 @@ export interface GoogleMemorystoreInstanceEndpointsConnections {
 }
 
 export function googleMemorystoreInstanceEndpointsConnectionsToTerraform(struct?: GoogleMemorystoreInstanceEndpointsConnections): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -405,8 +405,8 @@ export function googleMemorystoreInstanceEndpointsConnectionsToTerraform(struct?
 
 
 export function googleMemorystoreInstanceEndpointsConnectionsToHclTerraform(struct?: GoogleMemorystoreInstanceEndpointsConnections): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -414,7 +414,7 @@ export function googleMemorystoreInstanceEndpointsConnectionsToHclTerraform(stru
   return attrs;
 }
 
-export class GoogleMemorystoreInstanceEndpointsConnectionsOutputReference extends cdktf.ComplexObject {
+export class GoogleMemorystoreInstanceEndpointsConnectionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -423,7 +423,7 @@ export class GoogleMemorystoreInstanceEndpointsConnectionsOutputReference extend
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -449,14 +449,14 @@ export class GoogleMemorystoreInstanceEndpointsConnectionsOutputReference extend
   }
 }
 
-export class GoogleMemorystoreInstanceEndpointsConnectionsList extends cdktf.ComplexList {
+export class GoogleMemorystoreInstanceEndpointsConnectionsList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -471,8 +471,8 @@ export interface GoogleMemorystoreInstanceEndpoints {
 }
 
 export function googleMemorystoreInstanceEndpointsToTerraform(struct?: GoogleMemorystoreInstanceEndpoints): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -481,8 +481,8 @@ export function googleMemorystoreInstanceEndpointsToTerraform(struct?: GoogleMem
 
 
 export function googleMemorystoreInstanceEndpointsToHclTerraform(struct?: GoogleMemorystoreInstanceEndpoints): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -490,7 +490,7 @@ export function googleMemorystoreInstanceEndpointsToHclTerraform(struct?: Google
   return attrs;
 }
 
-export class GoogleMemorystoreInstanceEndpointsOutputReference extends cdktf.ComplexObject {
+export class GoogleMemorystoreInstanceEndpointsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -499,7 +499,7 @@ export class GoogleMemorystoreInstanceEndpointsOutputReference extends cdktf.Com
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -525,14 +525,14 @@ export class GoogleMemorystoreInstanceEndpointsOutputReference extends cdktf.Com
   }
 }
 
-export class GoogleMemorystoreInstanceEndpointsList extends cdktf.ComplexList {
+export class GoogleMemorystoreInstanceEndpointsList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -547,8 +547,8 @@ export interface GoogleMemorystoreInstanceMaintenanceSchedule {
 }
 
 export function googleMemorystoreInstanceMaintenanceScheduleToTerraform(struct?: GoogleMemorystoreInstanceMaintenanceSchedule): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -557,8 +557,8 @@ export function googleMemorystoreInstanceMaintenanceScheduleToTerraform(struct?:
 
 
 export function googleMemorystoreInstanceMaintenanceScheduleToHclTerraform(struct?: GoogleMemorystoreInstanceMaintenanceSchedule): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -566,7 +566,7 @@ export function googleMemorystoreInstanceMaintenanceScheduleToHclTerraform(struc
   return attrs;
 }
 
-export class GoogleMemorystoreInstanceMaintenanceScheduleOutputReference extends cdktf.ComplexObject {
+export class GoogleMemorystoreInstanceMaintenanceScheduleOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -575,7 +575,7 @@ export class GoogleMemorystoreInstanceMaintenanceScheduleOutputReference extends
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -610,14 +610,14 @@ export class GoogleMemorystoreInstanceMaintenanceScheduleOutputReference extends
   }
 }
 
-export class GoogleMemorystoreInstanceMaintenanceScheduleList extends cdktf.ComplexList {
+export class GoogleMemorystoreInstanceMaintenanceScheduleList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -632,8 +632,8 @@ export interface GoogleMemorystoreInstanceManagedServerCaCaCerts {
 }
 
 export function googleMemorystoreInstanceManagedServerCaCaCertsToTerraform(struct?: GoogleMemorystoreInstanceManagedServerCaCaCerts): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -642,8 +642,8 @@ export function googleMemorystoreInstanceManagedServerCaCaCertsToTerraform(struc
 
 
 export function googleMemorystoreInstanceManagedServerCaCaCertsToHclTerraform(struct?: GoogleMemorystoreInstanceManagedServerCaCaCerts): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -651,7 +651,7 @@ export function googleMemorystoreInstanceManagedServerCaCaCertsToHclTerraform(st
   return attrs;
 }
 
-export class GoogleMemorystoreInstanceManagedServerCaCaCertsOutputReference extends cdktf.ComplexObject {
+export class GoogleMemorystoreInstanceManagedServerCaCaCertsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -660,7 +660,7 @@ export class GoogleMemorystoreInstanceManagedServerCaCaCertsOutputReference exte
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -685,14 +685,14 @@ export class GoogleMemorystoreInstanceManagedServerCaCaCertsOutputReference exte
   }
 }
 
-export class GoogleMemorystoreInstanceManagedServerCaCaCertsList extends cdktf.ComplexList {
+export class GoogleMemorystoreInstanceManagedServerCaCaCertsList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -707,8 +707,8 @@ export interface GoogleMemorystoreInstanceManagedServerCa {
 }
 
 export function googleMemorystoreInstanceManagedServerCaToTerraform(struct?: GoogleMemorystoreInstanceManagedServerCa): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -717,8 +717,8 @@ export function googleMemorystoreInstanceManagedServerCaToTerraform(struct?: Goo
 
 
 export function googleMemorystoreInstanceManagedServerCaToHclTerraform(struct?: GoogleMemorystoreInstanceManagedServerCa): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -726,7 +726,7 @@ export function googleMemorystoreInstanceManagedServerCaToHclTerraform(struct?: 
   return attrs;
 }
 
-export class GoogleMemorystoreInstanceManagedServerCaOutputReference extends cdktf.ComplexObject {
+export class GoogleMemorystoreInstanceManagedServerCaOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -735,7 +735,7 @@ export class GoogleMemorystoreInstanceManagedServerCaOutputReference extends cdk
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -761,14 +761,14 @@ export class GoogleMemorystoreInstanceManagedServerCaOutputReference extends cdk
   }
 }
 
-export class GoogleMemorystoreInstanceManagedServerCaList extends cdktf.ComplexList {
+export class GoogleMemorystoreInstanceManagedServerCaList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -783,8 +783,8 @@ export interface GoogleMemorystoreInstanceNodeConfig {
 }
 
 export function googleMemorystoreInstanceNodeConfigToTerraform(struct?: GoogleMemorystoreInstanceNodeConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -793,8 +793,8 @@ export function googleMemorystoreInstanceNodeConfigToTerraform(struct?: GoogleMe
 
 
 export function googleMemorystoreInstanceNodeConfigToHclTerraform(struct?: GoogleMemorystoreInstanceNodeConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -802,7 +802,7 @@ export function googleMemorystoreInstanceNodeConfigToHclTerraform(struct?: Googl
   return attrs;
 }
 
-export class GoogleMemorystoreInstanceNodeConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleMemorystoreInstanceNodeConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -811,7 +811,7 @@ export class GoogleMemorystoreInstanceNodeConfigOutputReference extends cdktf.Co
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -836,14 +836,14 @@ export class GoogleMemorystoreInstanceNodeConfigOutputReference extends cdktf.Co
   }
 }
 
-export class GoogleMemorystoreInstanceNodeConfigList extends cdktf.ComplexList {
+export class GoogleMemorystoreInstanceNodeConfigList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -858,8 +858,8 @@ export interface GoogleMemorystoreInstancePscAttachmentDetails {
 }
 
 export function googleMemorystoreInstancePscAttachmentDetailsToTerraform(struct?: GoogleMemorystoreInstancePscAttachmentDetails): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -868,8 +868,8 @@ export function googleMemorystoreInstancePscAttachmentDetailsToTerraform(struct?
 
 
 export function googleMemorystoreInstancePscAttachmentDetailsToHclTerraform(struct?: GoogleMemorystoreInstancePscAttachmentDetails): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -877,7 +877,7 @@ export function googleMemorystoreInstancePscAttachmentDetailsToHclTerraform(stru
   return attrs;
 }
 
-export class GoogleMemorystoreInstancePscAttachmentDetailsOutputReference extends cdktf.ComplexObject {
+export class GoogleMemorystoreInstancePscAttachmentDetailsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -886,7 +886,7 @@ export class GoogleMemorystoreInstancePscAttachmentDetailsOutputReference extend
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -916,14 +916,14 @@ export class GoogleMemorystoreInstancePscAttachmentDetailsOutputReference extend
   }
 }
 
-export class GoogleMemorystoreInstancePscAttachmentDetailsList extends cdktf.ComplexList {
+export class GoogleMemorystoreInstancePscAttachmentDetailsList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -938,8 +938,8 @@ export interface GoogleMemorystoreInstancePscAutoConnections {
 }
 
 export function googleMemorystoreInstancePscAutoConnectionsToTerraform(struct?: GoogleMemorystoreInstancePscAutoConnections): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -948,8 +948,8 @@ export function googleMemorystoreInstancePscAutoConnectionsToTerraform(struct?: 
 
 
 export function googleMemorystoreInstancePscAutoConnectionsToHclTerraform(struct?: GoogleMemorystoreInstancePscAutoConnections): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -957,7 +957,7 @@ export function googleMemorystoreInstancePscAutoConnectionsToHclTerraform(struct
   return attrs;
 }
 
-export class GoogleMemorystoreInstancePscAutoConnectionsOutputReference extends cdktf.ComplexObject {
+export class GoogleMemorystoreInstancePscAutoConnectionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -966,7 +966,7 @@ export class GoogleMemorystoreInstancePscAutoConnectionsOutputReference extends 
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -1031,14 +1031,14 @@ export class GoogleMemorystoreInstancePscAutoConnectionsOutputReference extends 
   }
 }
 
-export class GoogleMemorystoreInstancePscAutoConnectionsList extends cdktf.ComplexList {
+export class GoogleMemorystoreInstancePscAutoConnectionsList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1053,8 +1053,8 @@ export interface GoogleMemorystoreInstanceStateInfoUpdateInfo {
 }
 
 export function googleMemorystoreInstanceStateInfoUpdateInfoToTerraform(struct?: GoogleMemorystoreInstanceStateInfoUpdateInfo): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -1063,8 +1063,8 @@ export function googleMemorystoreInstanceStateInfoUpdateInfoToTerraform(struct?:
 
 
 export function googleMemorystoreInstanceStateInfoUpdateInfoToHclTerraform(struct?: GoogleMemorystoreInstanceStateInfoUpdateInfo): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -1072,7 +1072,7 @@ export function googleMemorystoreInstanceStateInfoUpdateInfoToHclTerraform(struc
   return attrs;
 }
 
-export class GoogleMemorystoreInstanceStateInfoUpdateInfoOutputReference extends cdktf.ComplexObject {
+export class GoogleMemorystoreInstanceStateInfoUpdateInfoOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -1081,7 +1081,7 @@ export class GoogleMemorystoreInstanceStateInfoUpdateInfoOutputReference extends
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -1121,14 +1121,14 @@ export class GoogleMemorystoreInstanceStateInfoUpdateInfoOutputReference extends
   }
 }
 
-export class GoogleMemorystoreInstanceStateInfoUpdateInfoList extends cdktf.ComplexList {
+export class GoogleMemorystoreInstanceStateInfoUpdateInfoList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1143,8 +1143,8 @@ export interface GoogleMemorystoreInstanceStateInfo {
 }
 
 export function googleMemorystoreInstanceStateInfoToTerraform(struct?: GoogleMemorystoreInstanceStateInfo): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -1153,8 +1153,8 @@ export function googleMemorystoreInstanceStateInfoToTerraform(struct?: GoogleMem
 
 
 export function googleMemorystoreInstanceStateInfoToHclTerraform(struct?: GoogleMemorystoreInstanceStateInfo): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -1162,7 +1162,7 @@ export function googleMemorystoreInstanceStateInfoToHclTerraform(struct?: Google
   return attrs;
 }
 
-export class GoogleMemorystoreInstanceStateInfoOutputReference extends cdktf.ComplexObject {
+export class GoogleMemorystoreInstanceStateInfoOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -1171,7 +1171,7 @@ export class GoogleMemorystoreInstanceStateInfoOutputReference extends cdktf.Com
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -1197,14 +1197,14 @@ export class GoogleMemorystoreInstanceStateInfoOutputReference extends cdktf.Com
   }
 }
 
-export class GoogleMemorystoreInstanceStateInfoList extends cdktf.ComplexList {
+export class GoogleMemorystoreInstanceStateInfoList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1226,24 +1226,24 @@ export interface GoogleMemorystoreInstanceAutomatedBackupConfigFixedFrequencySch
 }
 
 export function googleMemorystoreInstanceAutomatedBackupConfigFixedFrequencyScheduleStartTimeToTerraform(struct?: GoogleMemorystoreInstanceAutomatedBackupConfigFixedFrequencyScheduleStartTimeOutputReference | GoogleMemorystoreInstanceAutomatedBackupConfigFixedFrequencyScheduleStartTime): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    hours: cdktf.numberToTerraform(struct!.hours),
+    hours: cdktn.numberToTerraform(struct!.hours),
   }
 }
 
 
 export function googleMemorystoreInstanceAutomatedBackupConfigFixedFrequencyScheduleStartTimeToHclTerraform(struct?: GoogleMemorystoreInstanceAutomatedBackupConfigFixedFrequencyScheduleStartTimeOutputReference | GoogleMemorystoreInstanceAutomatedBackupConfigFixedFrequencyScheduleStartTime): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     hours: {
-      value: cdktf.numberToHclTerraform(struct!.hours),
+      value: cdktn.numberToHclTerraform(struct!.hours),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1254,14 +1254,14 @@ export function googleMemorystoreInstanceAutomatedBackupConfigFixedFrequencySche
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMemorystoreInstanceAutomatedBackupConfigFixedFrequencyScheduleStartTimeOutputReference extends cdktf.ComplexObject {
+export class GoogleMemorystoreInstanceAutomatedBackupConfigFixedFrequencyScheduleStartTimeOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1309,8 +1309,8 @@ export interface GoogleMemorystoreInstanceAutomatedBackupConfigFixedFrequencySch
 }
 
 export function googleMemorystoreInstanceAutomatedBackupConfigFixedFrequencyScheduleToTerraform(struct?: GoogleMemorystoreInstanceAutomatedBackupConfigFixedFrequencyScheduleOutputReference | GoogleMemorystoreInstanceAutomatedBackupConfigFixedFrequencySchedule): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -1320,8 +1320,8 @@ export function googleMemorystoreInstanceAutomatedBackupConfigFixedFrequencySche
 
 
 export function googleMemorystoreInstanceAutomatedBackupConfigFixedFrequencyScheduleToHclTerraform(struct?: GoogleMemorystoreInstanceAutomatedBackupConfigFixedFrequencyScheduleOutputReference | GoogleMemorystoreInstanceAutomatedBackupConfigFixedFrequencySchedule): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -1337,14 +1337,14 @@ export function googleMemorystoreInstanceAutomatedBackupConfigFixedFrequencySche
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMemorystoreInstanceAutomatedBackupConfigFixedFrequencyScheduleOutputReference extends cdktf.ComplexObject {
+export class GoogleMemorystoreInstanceAutomatedBackupConfigFixedFrequencyScheduleOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1400,25 +1400,25 @@ export interface GoogleMemorystoreInstanceAutomatedBackupConfig {
 }
 
 export function googleMemorystoreInstanceAutomatedBackupConfigToTerraform(struct?: GoogleMemorystoreInstanceAutomatedBackupConfigOutputReference | GoogleMemorystoreInstanceAutomatedBackupConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    retention: cdktf.stringToTerraform(struct!.retention),
+    retention: cdktn.stringToTerraform(struct!.retention),
     fixed_frequency_schedule: googleMemorystoreInstanceAutomatedBackupConfigFixedFrequencyScheduleToTerraform(struct!.fixedFrequencySchedule),
   }
 }
 
 
 export function googleMemorystoreInstanceAutomatedBackupConfigToHclTerraform(struct?: GoogleMemorystoreInstanceAutomatedBackupConfigOutputReference | GoogleMemorystoreInstanceAutomatedBackupConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     retention: {
-      value: cdktf.stringToHclTerraform(struct!.retention),
+      value: cdktn.stringToHclTerraform(struct!.retention),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1435,14 +1435,14 @@ export function googleMemorystoreInstanceAutomatedBackupConfigToHclTerraform(str
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMemorystoreInstanceAutomatedBackupConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleMemorystoreInstanceAutomatedBackupConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1503,8 +1503,8 @@ export interface GoogleMemorystoreInstanceCrossInstanceReplicationConfigMembersh
 }
 
 export function googleMemorystoreInstanceCrossInstanceReplicationConfigMembershipPrimaryInstanceToTerraform(struct?: GoogleMemorystoreInstanceCrossInstanceReplicationConfigMembershipPrimaryInstance): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -1513,8 +1513,8 @@ export function googleMemorystoreInstanceCrossInstanceReplicationConfigMembershi
 
 
 export function googleMemorystoreInstanceCrossInstanceReplicationConfigMembershipPrimaryInstanceToHclTerraform(struct?: GoogleMemorystoreInstanceCrossInstanceReplicationConfigMembershipPrimaryInstance): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -1522,7 +1522,7 @@ export function googleMemorystoreInstanceCrossInstanceReplicationConfigMembershi
   return attrs;
 }
 
-export class GoogleMemorystoreInstanceCrossInstanceReplicationConfigMembershipPrimaryInstanceOutputReference extends cdktf.ComplexObject {
+export class GoogleMemorystoreInstanceCrossInstanceReplicationConfigMembershipPrimaryInstanceOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -1531,7 +1531,7 @@ export class GoogleMemorystoreInstanceCrossInstanceReplicationConfigMembershipPr
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -1561,14 +1561,14 @@ export class GoogleMemorystoreInstanceCrossInstanceReplicationConfigMembershipPr
   }
 }
 
-export class GoogleMemorystoreInstanceCrossInstanceReplicationConfigMembershipPrimaryInstanceList extends cdktf.ComplexList {
+export class GoogleMemorystoreInstanceCrossInstanceReplicationConfigMembershipPrimaryInstanceList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1583,8 +1583,8 @@ export interface GoogleMemorystoreInstanceCrossInstanceReplicationConfigMembersh
 }
 
 export function googleMemorystoreInstanceCrossInstanceReplicationConfigMembershipSecondaryInstanceToTerraform(struct?: GoogleMemorystoreInstanceCrossInstanceReplicationConfigMembershipSecondaryInstance): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -1593,8 +1593,8 @@ export function googleMemorystoreInstanceCrossInstanceReplicationConfigMembershi
 
 
 export function googleMemorystoreInstanceCrossInstanceReplicationConfigMembershipSecondaryInstanceToHclTerraform(struct?: GoogleMemorystoreInstanceCrossInstanceReplicationConfigMembershipSecondaryInstance): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -1602,7 +1602,7 @@ export function googleMemorystoreInstanceCrossInstanceReplicationConfigMembershi
   return attrs;
 }
 
-export class GoogleMemorystoreInstanceCrossInstanceReplicationConfigMembershipSecondaryInstanceOutputReference extends cdktf.ComplexObject {
+export class GoogleMemorystoreInstanceCrossInstanceReplicationConfigMembershipSecondaryInstanceOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -1611,7 +1611,7 @@ export class GoogleMemorystoreInstanceCrossInstanceReplicationConfigMembershipSe
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -1641,14 +1641,14 @@ export class GoogleMemorystoreInstanceCrossInstanceReplicationConfigMembershipSe
   }
 }
 
-export class GoogleMemorystoreInstanceCrossInstanceReplicationConfigMembershipSecondaryInstanceList extends cdktf.ComplexList {
+export class GoogleMemorystoreInstanceCrossInstanceReplicationConfigMembershipSecondaryInstanceList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1663,8 +1663,8 @@ export interface GoogleMemorystoreInstanceCrossInstanceReplicationConfigMembersh
 }
 
 export function googleMemorystoreInstanceCrossInstanceReplicationConfigMembershipToTerraform(struct?: GoogleMemorystoreInstanceCrossInstanceReplicationConfigMembership): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -1673,8 +1673,8 @@ export function googleMemorystoreInstanceCrossInstanceReplicationConfigMembershi
 
 
 export function googleMemorystoreInstanceCrossInstanceReplicationConfigMembershipToHclTerraform(struct?: GoogleMemorystoreInstanceCrossInstanceReplicationConfigMembership): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -1682,7 +1682,7 @@ export function googleMemorystoreInstanceCrossInstanceReplicationConfigMembershi
   return attrs;
 }
 
-export class GoogleMemorystoreInstanceCrossInstanceReplicationConfigMembershipOutputReference extends cdktf.ComplexObject {
+export class GoogleMemorystoreInstanceCrossInstanceReplicationConfigMembershipOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -1691,7 +1691,7 @@ export class GoogleMemorystoreInstanceCrossInstanceReplicationConfigMembershipOu
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -1723,14 +1723,14 @@ export class GoogleMemorystoreInstanceCrossInstanceReplicationConfigMembershipOu
   }
 }
 
-export class GoogleMemorystoreInstanceCrossInstanceReplicationConfigMembershipList extends cdktf.ComplexList {
+export class GoogleMemorystoreInstanceCrossInstanceReplicationConfigMembershipList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1751,24 +1751,24 @@ export interface GoogleMemorystoreInstanceCrossInstanceReplicationConfigPrimaryI
 }
 
 export function googleMemorystoreInstanceCrossInstanceReplicationConfigPrimaryInstanceToTerraform(struct?: GoogleMemorystoreInstanceCrossInstanceReplicationConfigPrimaryInstanceOutputReference | GoogleMemorystoreInstanceCrossInstanceReplicationConfigPrimaryInstance): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    instance: cdktf.stringToTerraform(struct!.instance),
+    instance: cdktn.stringToTerraform(struct!.instance),
   }
 }
 
 
 export function googleMemorystoreInstanceCrossInstanceReplicationConfigPrimaryInstanceToHclTerraform(struct?: GoogleMemorystoreInstanceCrossInstanceReplicationConfigPrimaryInstanceOutputReference | GoogleMemorystoreInstanceCrossInstanceReplicationConfigPrimaryInstance): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     instance: {
-      value: cdktf.stringToHclTerraform(struct!.instance),
+      value: cdktn.stringToHclTerraform(struct!.instance),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1779,14 +1779,14 @@ export function googleMemorystoreInstanceCrossInstanceReplicationConfigPrimaryIn
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMemorystoreInstanceCrossInstanceReplicationConfigPrimaryInstanceOutputReference extends cdktf.ComplexObject {
+export class GoogleMemorystoreInstanceCrossInstanceReplicationConfigPrimaryInstanceOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1841,25 +1841,25 @@ export interface GoogleMemorystoreInstanceCrossInstanceReplicationConfigSecondar
   readonly instance?: string;
 }
 
-export function googleMemorystoreInstanceCrossInstanceReplicationConfigSecondaryInstancesToTerraform(struct?: GoogleMemorystoreInstanceCrossInstanceReplicationConfigSecondaryInstances | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleMemorystoreInstanceCrossInstanceReplicationConfigSecondaryInstancesToTerraform(struct?: GoogleMemorystoreInstanceCrossInstanceReplicationConfigSecondaryInstances | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    instance: cdktf.stringToTerraform(struct!.instance),
+    instance: cdktn.stringToTerraform(struct!.instance),
   }
 }
 
 
-export function googleMemorystoreInstanceCrossInstanceReplicationConfigSecondaryInstancesToHclTerraform(struct?: GoogleMemorystoreInstanceCrossInstanceReplicationConfigSecondaryInstances | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleMemorystoreInstanceCrossInstanceReplicationConfigSecondaryInstancesToHclTerraform(struct?: GoogleMemorystoreInstanceCrossInstanceReplicationConfigSecondaryInstances | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     instance: {
-      value: cdktf.stringToHclTerraform(struct!.instance),
+      value: cdktn.stringToHclTerraform(struct!.instance),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1870,9 +1870,9 @@ export function googleMemorystoreInstanceCrossInstanceReplicationConfigSecondary
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMemorystoreInstanceCrossInstanceReplicationConfigSecondaryInstancesOutputReference extends cdktf.ComplexObject {
+export class GoogleMemorystoreInstanceCrossInstanceReplicationConfigSecondaryInstancesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -1880,11 +1880,11 @@ export class GoogleMemorystoreInstanceCrossInstanceReplicationConfigSecondaryIns
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleMemorystoreInstanceCrossInstanceReplicationConfigSecondaryInstances | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleMemorystoreInstanceCrossInstanceReplicationConfigSecondaryInstances | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1897,13 +1897,13 @@ export class GoogleMemorystoreInstanceCrossInstanceReplicationConfigSecondaryIns
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleMemorystoreInstanceCrossInstanceReplicationConfigSecondaryInstances | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleMemorystoreInstanceCrossInstanceReplicationConfigSecondaryInstances | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._instance = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1936,15 +1936,15 @@ export class GoogleMemorystoreInstanceCrossInstanceReplicationConfigSecondaryIns
   }
 }
 
-export class GoogleMemorystoreInstanceCrossInstanceReplicationConfigSecondaryInstancesList extends cdktf.ComplexList {
-  public internalValue? : GoogleMemorystoreInstanceCrossInstanceReplicationConfigSecondaryInstances[] | cdktf.IResolvable
+export class GoogleMemorystoreInstanceCrossInstanceReplicationConfigSecondaryInstancesList extends cdktn.ComplexList {
+  public internalValue? : GoogleMemorystoreInstanceCrossInstanceReplicationConfigSecondaryInstances[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1977,30 +1977,30 @@ export interface GoogleMemorystoreInstanceCrossInstanceReplicationConfig {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memorystore_instance#secondary_instances GoogleMemorystoreInstance#secondary_instances}
   */
-  readonly secondaryInstances?: GoogleMemorystoreInstanceCrossInstanceReplicationConfigSecondaryInstances[] | cdktf.IResolvable;
+  readonly secondaryInstances?: GoogleMemorystoreInstanceCrossInstanceReplicationConfigSecondaryInstances[] | cdktn.IResolvable;
 }
 
 export function googleMemorystoreInstanceCrossInstanceReplicationConfigToTerraform(struct?: GoogleMemorystoreInstanceCrossInstanceReplicationConfigOutputReference | GoogleMemorystoreInstanceCrossInstanceReplicationConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    instance_role: cdktf.stringToTerraform(struct!.instanceRole),
+    instance_role: cdktn.stringToTerraform(struct!.instanceRole),
     primary_instance: googleMemorystoreInstanceCrossInstanceReplicationConfigPrimaryInstanceToTerraform(struct!.primaryInstance),
-    secondary_instances: cdktf.listMapper(googleMemorystoreInstanceCrossInstanceReplicationConfigSecondaryInstancesToTerraform, true)(struct!.secondaryInstances),
+    secondary_instances: cdktn.listMapper(googleMemorystoreInstanceCrossInstanceReplicationConfigSecondaryInstancesToTerraform, true)(struct!.secondaryInstances),
   }
 }
 
 
 export function googleMemorystoreInstanceCrossInstanceReplicationConfigToHclTerraform(struct?: GoogleMemorystoreInstanceCrossInstanceReplicationConfigOutputReference | GoogleMemorystoreInstanceCrossInstanceReplicationConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     instance_role: {
-      value: cdktf.stringToHclTerraform(struct!.instanceRole),
+      value: cdktn.stringToHclTerraform(struct!.instanceRole),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2012,7 +2012,7 @@ export function googleMemorystoreInstanceCrossInstanceReplicationConfigToHclTerr
       storageClassType: "GoogleMemorystoreInstanceCrossInstanceReplicationConfigPrimaryInstanceList",
     },
     secondary_instances: {
-      value: cdktf.listMapperHcl(googleMemorystoreInstanceCrossInstanceReplicationConfigSecondaryInstancesToHclTerraform, true)(struct!.secondaryInstances),
+      value: cdktn.listMapperHcl(googleMemorystoreInstanceCrossInstanceReplicationConfigSecondaryInstancesToHclTerraform, true)(struct!.secondaryInstances),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleMemorystoreInstanceCrossInstanceReplicationConfigSecondaryInstancesList",
@@ -2023,14 +2023,14 @@ export function googleMemorystoreInstanceCrossInstanceReplicationConfigToHclTerr
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMemorystoreInstanceCrossInstanceReplicationConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleMemorystoreInstanceCrossInstanceReplicationConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2115,7 +2115,7 @@ export class GoogleMemorystoreInstanceCrossInstanceReplicationConfigOutputRefere
   public get secondaryInstances() {
     return this._secondaryInstances;
   }
-  public putSecondaryInstances(value: GoogleMemorystoreInstanceCrossInstanceReplicationConfigSecondaryInstances[] | cdktf.IResolvable) {
+  public putSecondaryInstances(value: GoogleMemorystoreInstanceCrossInstanceReplicationConfigSecondaryInstances[] | cdktn.IResolvable) {
     this._secondaryInstances.internalValue = value;
   }
   public resetSecondaryInstances() {
@@ -2142,32 +2142,32 @@ export interface GoogleMemorystoreInstanceDesiredAutoCreatedEndpoints {
   readonly projectId: string;
 }
 
-export function googleMemorystoreInstanceDesiredAutoCreatedEndpointsToTerraform(struct?: GoogleMemorystoreInstanceDesiredAutoCreatedEndpoints | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleMemorystoreInstanceDesiredAutoCreatedEndpointsToTerraform(struct?: GoogleMemorystoreInstanceDesiredAutoCreatedEndpoints | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    network: cdktf.stringToTerraform(struct!.network),
-    project_id: cdktf.stringToTerraform(struct!.projectId),
+    network: cdktn.stringToTerraform(struct!.network),
+    project_id: cdktn.stringToTerraform(struct!.projectId),
   }
 }
 
 
-export function googleMemorystoreInstanceDesiredAutoCreatedEndpointsToHclTerraform(struct?: GoogleMemorystoreInstanceDesiredAutoCreatedEndpoints | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleMemorystoreInstanceDesiredAutoCreatedEndpointsToHclTerraform(struct?: GoogleMemorystoreInstanceDesiredAutoCreatedEndpoints | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     network: {
-      value: cdktf.stringToHclTerraform(struct!.network),
+      value: cdktn.stringToHclTerraform(struct!.network),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     project_id: {
-      value: cdktf.stringToHclTerraform(struct!.projectId),
+      value: cdktn.stringToHclTerraform(struct!.projectId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2178,9 +2178,9 @@ export function googleMemorystoreInstanceDesiredAutoCreatedEndpointsToHclTerrafo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMemorystoreInstanceDesiredAutoCreatedEndpointsOutputReference extends cdktf.ComplexObject {
+export class GoogleMemorystoreInstanceDesiredAutoCreatedEndpointsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -2188,11 +2188,11 @@ export class GoogleMemorystoreInstanceDesiredAutoCreatedEndpointsOutputReference
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleMemorystoreInstanceDesiredAutoCreatedEndpoints | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleMemorystoreInstanceDesiredAutoCreatedEndpoints | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -2209,14 +2209,14 @@ export class GoogleMemorystoreInstanceDesiredAutoCreatedEndpointsOutputReference
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleMemorystoreInstanceDesiredAutoCreatedEndpoints | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleMemorystoreInstanceDesiredAutoCreatedEndpoints | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._network = undefined;
       this._projectId = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -2255,15 +2255,15 @@ export class GoogleMemorystoreInstanceDesiredAutoCreatedEndpointsOutputReference
   }
 }
 
-export class GoogleMemorystoreInstanceDesiredAutoCreatedEndpointsList extends cdktf.ComplexList {
-  public internalValue? : GoogleMemorystoreInstanceDesiredAutoCreatedEndpoints[] | cdktf.IResolvable
+export class GoogleMemorystoreInstanceDesiredAutoCreatedEndpointsList extends cdktn.ComplexList {
+  public internalValue? : GoogleMemorystoreInstanceDesiredAutoCreatedEndpoints[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -2290,32 +2290,32 @@ export interface GoogleMemorystoreInstanceDesiredPscAutoConnections {
   readonly projectId: string;
 }
 
-export function googleMemorystoreInstanceDesiredPscAutoConnectionsToTerraform(struct?: GoogleMemorystoreInstanceDesiredPscAutoConnections | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleMemorystoreInstanceDesiredPscAutoConnectionsToTerraform(struct?: GoogleMemorystoreInstanceDesiredPscAutoConnections | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    network: cdktf.stringToTerraform(struct!.network),
-    project_id: cdktf.stringToTerraform(struct!.projectId),
+    network: cdktn.stringToTerraform(struct!.network),
+    project_id: cdktn.stringToTerraform(struct!.projectId),
   }
 }
 
 
-export function googleMemorystoreInstanceDesiredPscAutoConnectionsToHclTerraform(struct?: GoogleMemorystoreInstanceDesiredPscAutoConnections | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleMemorystoreInstanceDesiredPscAutoConnectionsToHclTerraform(struct?: GoogleMemorystoreInstanceDesiredPscAutoConnections | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     network: {
-      value: cdktf.stringToHclTerraform(struct!.network),
+      value: cdktn.stringToHclTerraform(struct!.network),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     project_id: {
-      value: cdktf.stringToHclTerraform(struct!.projectId),
+      value: cdktn.stringToHclTerraform(struct!.projectId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2326,9 +2326,9 @@ export function googleMemorystoreInstanceDesiredPscAutoConnectionsToHclTerraform
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMemorystoreInstanceDesiredPscAutoConnectionsOutputReference extends cdktf.ComplexObject {
+export class GoogleMemorystoreInstanceDesiredPscAutoConnectionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -2336,11 +2336,11 @@ export class GoogleMemorystoreInstanceDesiredPscAutoConnectionsOutputReference e
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleMemorystoreInstanceDesiredPscAutoConnections | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleMemorystoreInstanceDesiredPscAutoConnections | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -2357,14 +2357,14 @@ export class GoogleMemorystoreInstanceDesiredPscAutoConnectionsOutputReference e
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleMemorystoreInstanceDesiredPscAutoConnections | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleMemorystoreInstanceDesiredPscAutoConnections | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._network = undefined;
       this._projectId = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -2403,15 +2403,15 @@ export class GoogleMemorystoreInstanceDesiredPscAutoConnectionsOutputReference e
   }
 }
 
-export class GoogleMemorystoreInstanceDesiredPscAutoConnectionsList extends cdktf.ComplexList {
-  public internalValue? : GoogleMemorystoreInstanceDesiredPscAutoConnections[] | cdktf.IResolvable
+export class GoogleMemorystoreInstanceDesiredPscAutoConnectionsList extends cdktn.ComplexList {
+  public internalValue? : GoogleMemorystoreInstanceDesiredPscAutoConnections[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -2433,24 +2433,24 @@ export interface GoogleMemorystoreInstanceGcsSource {
 }
 
 export function googleMemorystoreInstanceGcsSourceToTerraform(struct?: GoogleMemorystoreInstanceGcsSourceOutputReference | GoogleMemorystoreInstanceGcsSource): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    uris: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.uris),
+    uris: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.uris),
   }
 }
 
 
 export function googleMemorystoreInstanceGcsSourceToHclTerraform(struct?: GoogleMemorystoreInstanceGcsSourceOutputReference | GoogleMemorystoreInstanceGcsSource): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     uris: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.uris),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.uris),
       isBlock: false,
       type: "set",
       storageClassType: "stringList",
@@ -2461,14 +2461,14 @@ export function googleMemorystoreInstanceGcsSourceToHclTerraform(struct?: Google
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMemorystoreInstanceGcsSourceOutputReference extends cdktf.ComplexObject {
+export class GoogleMemorystoreInstanceGcsSourceOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2496,7 +2496,7 @@ export class GoogleMemorystoreInstanceGcsSourceOutputReference extends cdktf.Com
   // uris - computed: false, optional: false, required: true
   private _uris?: string[]; 
   public get uris() {
-    return cdktf.Fn.tolist(this.getListAttribute('uris'));
+    return cdktn.Fn.tolist(this.getListAttribute('uris'));
   }
   public set uris(value: string[]) {
     this._uris = value;
@@ -2536,45 +2536,45 @@ export interface GoogleMemorystoreInstanceMaintenancePolicyWeeklyMaintenanceWind
 }
 
 export function googleMemorystoreInstanceMaintenancePolicyWeeklyMaintenanceWindowStartTimeToTerraform(struct?: GoogleMemorystoreInstanceMaintenancePolicyWeeklyMaintenanceWindowStartTimeOutputReference | GoogleMemorystoreInstanceMaintenancePolicyWeeklyMaintenanceWindowStartTime): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    hours: cdktf.numberToTerraform(struct!.hours),
-    minutes: cdktf.numberToTerraform(struct!.minutes),
-    nanos: cdktf.numberToTerraform(struct!.nanos),
-    seconds: cdktf.numberToTerraform(struct!.seconds),
+    hours: cdktn.numberToTerraform(struct!.hours),
+    minutes: cdktn.numberToTerraform(struct!.minutes),
+    nanos: cdktn.numberToTerraform(struct!.nanos),
+    seconds: cdktn.numberToTerraform(struct!.seconds),
   }
 }
 
 
 export function googleMemorystoreInstanceMaintenancePolicyWeeklyMaintenanceWindowStartTimeToHclTerraform(struct?: GoogleMemorystoreInstanceMaintenancePolicyWeeklyMaintenanceWindowStartTimeOutputReference | GoogleMemorystoreInstanceMaintenancePolicyWeeklyMaintenanceWindowStartTime): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     hours: {
-      value: cdktf.numberToHclTerraform(struct!.hours),
+      value: cdktn.numberToHclTerraform(struct!.hours),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     minutes: {
-      value: cdktf.numberToHclTerraform(struct!.minutes),
+      value: cdktn.numberToHclTerraform(struct!.minutes),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     nanos: {
-      value: cdktf.numberToHclTerraform(struct!.nanos),
+      value: cdktn.numberToHclTerraform(struct!.nanos),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     seconds: {
-      value: cdktf.numberToHclTerraform(struct!.seconds),
+      value: cdktn.numberToHclTerraform(struct!.seconds),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -2585,14 +2585,14 @@ export function googleMemorystoreInstanceMaintenancePolicyWeeklyMaintenanceWindo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMemorystoreInstanceMaintenancePolicyWeeklyMaintenanceWindowStartTimeOutputReference extends cdktf.ComplexObject {
+export class GoogleMemorystoreInstanceMaintenancePolicyWeeklyMaintenanceWindowStartTimeOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2723,26 +2723,26 @@ export interface GoogleMemorystoreInstanceMaintenancePolicyWeeklyMaintenanceWind
   readonly startTime: GoogleMemorystoreInstanceMaintenancePolicyWeeklyMaintenanceWindowStartTime;
 }
 
-export function googleMemorystoreInstanceMaintenancePolicyWeeklyMaintenanceWindowToTerraform(struct?: GoogleMemorystoreInstanceMaintenancePolicyWeeklyMaintenanceWindow | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleMemorystoreInstanceMaintenancePolicyWeeklyMaintenanceWindowToTerraform(struct?: GoogleMemorystoreInstanceMaintenancePolicyWeeklyMaintenanceWindow | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    day: cdktf.stringToTerraform(struct!.day),
+    day: cdktn.stringToTerraform(struct!.day),
     start_time: googleMemorystoreInstanceMaintenancePolicyWeeklyMaintenanceWindowStartTimeToTerraform(struct!.startTime),
   }
 }
 
 
-export function googleMemorystoreInstanceMaintenancePolicyWeeklyMaintenanceWindowToHclTerraform(struct?: GoogleMemorystoreInstanceMaintenancePolicyWeeklyMaintenanceWindow | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleMemorystoreInstanceMaintenancePolicyWeeklyMaintenanceWindowToHclTerraform(struct?: GoogleMemorystoreInstanceMaintenancePolicyWeeklyMaintenanceWindow | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     day: {
-      value: cdktf.stringToHclTerraform(struct!.day),
+      value: cdktn.stringToHclTerraform(struct!.day),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2759,9 +2759,9 @@ export function googleMemorystoreInstanceMaintenancePolicyWeeklyMaintenanceWindo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMemorystoreInstanceMaintenancePolicyWeeklyMaintenanceWindowOutputReference extends cdktf.ComplexObject {
+export class GoogleMemorystoreInstanceMaintenancePolicyWeeklyMaintenanceWindowOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -2769,11 +2769,11 @@ export class GoogleMemorystoreInstanceMaintenancePolicyWeeklyMaintenanceWindowOu
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleMemorystoreInstanceMaintenancePolicyWeeklyMaintenanceWindow | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleMemorystoreInstanceMaintenancePolicyWeeklyMaintenanceWindow | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -2790,14 +2790,14 @@ export class GoogleMemorystoreInstanceMaintenancePolicyWeeklyMaintenanceWindowOu
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleMemorystoreInstanceMaintenancePolicyWeeklyMaintenanceWindow | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleMemorystoreInstanceMaintenancePolicyWeeklyMaintenanceWindow | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._day = undefined;
       this._startTime.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -2841,15 +2841,15 @@ export class GoogleMemorystoreInstanceMaintenancePolicyWeeklyMaintenanceWindowOu
   }
 }
 
-export class GoogleMemorystoreInstanceMaintenancePolicyWeeklyMaintenanceWindowList extends cdktf.ComplexList {
-  public internalValue? : GoogleMemorystoreInstanceMaintenancePolicyWeeklyMaintenanceWindow[] | cdktf.IResolvable
+export class GoogleMemorystoreInstanceMaintenancePolicyWeeklyMaintenanceWindowList extends cdktn.ComplexList {
+  public internalValue? : GoogleMemorystoreInstanceMaintenancePolicyWeeklyMaintenanceWindow[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -2866,28 +2866,28 @@ export interface GoogleMemorystoreInstanceMaintenancePolicy {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memorystore_instance#weekly_maintenance_window GoogleMemorystoreInstance#weekly_maintenance_window}
   */
-  readonly weeklyMaintenanceWindow?: GoogleMemorystoreInstanceMaintenancePolicyWeeklyMaintenanceWindow[] | cdktf.IResolvable;
+  readonly weeklyMaintenanceWindow?: GoogleMemorystoreInstanceMaintenancePolicyWeeklyMaintenanceWindow[] | cdktn.IResolvable;
 }
 
 export function googleMemorystoreInstanceMaintenancePolicyToTerraform(struct?: GoogleMemorystoreInstanceMaintenancePolicyOutputReference | GoogleMemorystoreInstanceMaintenancePolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    weekly_maintenance_window: cdktf.listMapper(googleMemorystoreInstanceMaintenancePolicyWeeklyMaintenanceWindowToTerraform, true)(struct!.weeklyMaintenanceWindow),
+    weekly_maintenance_window: cdktn.listMapper(googleMemorystoreInstanceMaintenancePolicyWeeklyMaintenanceWindowToTerraform, true)(struct!.weeklyMaintenanceWindow),
   }
 }
 
 
 export function googleMemorystoreInstanceMaintenancePolicyToHclTerraform(struct?: GoogleMemorystoreInstanceMaintenancePolicyOutputReference | GoogleMemorystoreInstanceMaintenancePolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     weekly_maintenance_window: {
-      value: cdktf.listMapperHcl(googleMemorystoreInstanceMaintenancePolicyWeeklyMaintenanceWindowToHclTerraform, true)(struct!.weeklyMaintenanceWindow),
+      value: cdktn.listMapperHcl(googleMemorystoreInstanceMaintenancePolicyWeeklyMaintenanceWindowToHclTerraform, true)(struct!.weeklyMaintenanceWindow),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleMemorystoreInstanceMaintenancePolicyWeeklyMaintenanceWindowList",
@@ -2898,14 +2898,14 @@ export function googleMemorystoreInstanceMaintenancePolicyToHclTerraform(struct?
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMemorystoreInstanceMaintenancePolicyOutputReference extends cdktf.ComplexObject {
+export class GoogleMemorystoreInstanceMaintenancePolicyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2945,7 +2945,7 @@ export class GoogleMemorystoreInstanceMaintenancePolicyOutputReference extends c
   public get weeklyMaintenanceWindow() {
     return this._weeklyMaintenanceWindow;
   }
-  public putWeeklyMaintenanceWindow(value: GoogleMemorystoreInstanceMaintenancePolicyWeeklyMaintenanceWindow[] | cdktf.IResolvable) {
+  public putWeeklyMaintenanceWindow(value: GoogleMemorystoreInstanceMaintenancePolicyWeeklyMaintenanceWindow[] | cdktn.IResolvable) {
     this._weeklyMaintenanceWindow.internalValue = value;
   }
   public resetWeeklyMaintenanceWindow() {
@@ -2966,24 +2966,24 @@ export interface GoogleMemorystoreInstanceManagedBackupSource {
 }
 
 export function googleMemorystoreInstanceManagedBackupSourceToTerraform(struct?: GoogleMemorystoreInstanceManagedBackupSourceOutputReference | GoogleMemorystoreInstanceManagedBackupSource): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    backup: cdktf.stringToTerraform(struct!.backup),
+    backup: cdktn.stringToTerraform(struct!.backup),
   }
 }
 
 
 export function googleMemorystoreInstanceManagedBackupSourceToHclTerraform(struct?: GoogleMemorystoreInstanceManagedBackupSourceOutputReference | GoogleMemorystoreInstanceManagedBackupSource): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     backup: {
-      value: cdktf.stringToHclTerraform(struct!.backup),
+      value: cdktn.stringToHclTerraform(struct!.backup),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2994,14 +2994,14 @@ export function googleMemorystoreInstanceManagedBackupSourceToHclTerraform(struc
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMemorystoreInstanceManagedBackupSourceOutputReference extends cdktf.ComplexObject {
+export class GoogleMemorystoreInstanceManagedBackupSourceOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3053,24 +3053,24 @@ export interface GoogleMemorystoreInstancePersistenceConfigAofConfig {
 }
 
 export function googleMemorystoreInstancePersistenceConfigAofConfigToTerraform(struct?: GoogleMemorystoreInstancePersistenceConfigAofConfigOutputReference | GoogleMemorystoreInstancePersistenceConfigAofConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    append_fsync: cdktf.stringToTerraform(struct!.appendFsync),
+    append_fsync: cdktn.stringToTerraform(struct!.appendFsync),
   }
 }
 
 
 export function googleMemorystoreInstancePersistenceConfigAofConfigToHclTerraform(struct?: GoogleMemorystoreInstancePersistenceConfigAofConfigOutputReference | GoogleMemorystoreInstancePersistenceConfigAofConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     append_fsync: {
-      value: cdktf.stringToHclTerraform(struct!.appendFsync),
+      value: cdktn.stringToHclTerraform(struct!.appendFsync),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3081,14 +3081,14 @@ export function googleMemorystoreInstancePersistenceConfigAofConfigToHclTerrafor
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMemorystoreInstancePersistenceConfigAofConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleMemorystoreInstancePersistenceConfigAofConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3152,31 +3152,31 @@ export interface GoogleMemorystoreInstancePersistenceConfigRdbConfig {
 }
 
 export function googleMemorystoreInstancePersistenceConfigRdbConfigToTerraform(struct?: GoogleMemorystoreInstancePersistenceConfigRdbConfigOutputReference | GoogleMemorystoreInstancePersistenceConfigRdbConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    rdb_snapshot_period: cdktf.stringToTerraform(struct!.rdbSnapshotPeriod),
-    rdb_snapshot_start_time: cdktf.stringToTerraform(struct!.rdbSnapshotStartTime),
+    rdb_snapshot_period: cdktn.stringToTerraform(struct!.rdbSnapshotPeriod),
+    rdb_snapshot_start_time: cdktn.stringToTerraform(struct!.rdbSnapshotStartTime),
   }
 }
 
 
 export function googleMemorystoreInstancePersistenceConfigRdbConfigToHclTerraform(struct?: GoogleMemorystoreInstancePersistenceConfigRdbConfigOutputReference | GoogleMemorystoreInstancePersistenceConfigRdbConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     rdb_snapshot_period: {
-      value: cdktf.stringToHclTerraform(struct!.rdbSnapshotPeriod),
+      value: cdktn.stringToHclTerraform(struct!.rdbSnapshotPeriod),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     rdb_snapshot_start_time: {
-      value: cdktf.stringToHclTerraform(struct!.rdbSnapshotStartTime),
+      value: cdktn.stringToHclTerraform(struct!.rdbSnapshotStartTime),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3187,14 +3187,14 @@ export function googleMemorystoreInstancePersistenceConfigRdbConfigToHclTerrafor
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMemorystoreInstancePersistenceConfigRdbConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleMemorystoreInstancePersistenceConfigRdbConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3283,12 +3283,12 @@ export interface GoogleMemorystoreInstancePersistenceConfig {
 }
 
 export function googleMemorystoreInstancePersistenceConfigToTerraform(struct?: GoogleMemorystoreInstancePersistenceConfigOutputReference | GoogleMemorystoreInstancePersistenceConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    mode: cdktf.stringToTerraform(struct!.mode),
+    mode: cdktn.stringToTerraform(struct!.mode),
     aof_config: googleMemorystoreInstancePersistenceConfigAofConfigToTerraform(struct!.aofConfig),
     rdb_config: googleMemorystoreInstancePersistenceConfigRdbConfigToTerraform(struct!.rdbConfig),
   }
@@ -3296,13 +3296,13 @@ export function googleMemorystoreInstancePersistenceConfigToTerraform(struct?: G
 
 
 export function googleMemorystoreInstancePersistenceConfigToHclTerraform(struct?: GoogleMemorystoreInstancePersistenceConfigOutputReference | GoogleMemorystoreInstancePersistenceConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     mode: {
-      value: cdktf.stringToHclTerraform(struct!.mode),
+      value: cdktn.stringToHclTerraform(struct!.mode),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3325,14 +3325,14 @@ export function googleMemorystoreInstancePersistenceConfigToHclTerraform(struct?
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMemorystoreInstancePersistenceConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleMemorystoreInstancePersistenceConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3432,39 +3432,39 @@ export interface GoogleMemorystoreInstanceTimeouts {
   readonly update?: string;
 }
 
-export function googleMemorystoreInstanceTimeoutsToTerraform(struct?: GoogleMemorystoreInstanceTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleMemorystoreInstanceTimeoutsToTerraform(struct?: GoogleMemorystoreInstanceTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleMemorystoreInstanceTimeoutsToHclTerraform(struct?: GoogleMemorystoreInstanceTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleMemorystoreInstanceTimeoutsToHclTerraform(struct?: GoogleMemorystoreInstanceTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3475,19 +3475,19 @@ export function googleMemorystoreInstanceTimeoutsToHclTerraform(struct?: GoogleM
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMemorystoreInstanceTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleMemorystoreInstanceTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleMemorystoreInstanceTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleMemorystoreInstanceTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -3508,7 +3508,7 @@ export class GoogleMemorystoreInstanceTimeoutsOutputReference extends cdktf.Comp
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleMemorystoreInstanceTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleMemorystoreInstanceTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -3516,7 +3516,7 @@ export class GoogleMemorystoreInstanceTimeoutsOutputReference extends cdktf.Comp
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -3597,31 +3597,31 @@ export interface GoogleMemorystoreInstanceZoneDistributionConfig {
 }
 
 export function googleMemorystoreInstanceZoneDistributionConfigToTerraform(struct?: GoogleMemorystoreInstanceZoneDistributionConfigOutputReference | GoogleMemorystoreInstanceZoneDistributionConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    mode: cdktf.stringToTerraform(struct!.mode),
-    zone: cdktf.stringToTerraform(struct!.zone),
+    mode: cdktn.stringToTerraform(struct!.mode),
+    zone: cdktn.stringToTerraform(struct!.zone),
   }
 }
 
 
 export function googleMemorystoreInstanceZoneDistributionConfigToHclTerraform(struct?: GoogleMemorystoreInstanceZoneDistributionConfigOutputReference | GoogleMemorystoreInstanceZoneDistributionConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     mode: {
-      value: cdktf.stringToHclTerraform(struct!.mode),
+      value: cdktn.stringToHclTerraform(struct!.mode),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     zone: {
-      value: cdktf.stringToHclTerraform(struct!.zone),
+      value: cdktn.stringToHclTerraform(struct!.zone),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3632,14 +3632,14 @@ export function googleMemorystoreInstanceZoneDistributionConfigToHclTerraform(st
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleMemorystoreInstanceZoneDistributionConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleMemorystoreInstanceZoneDistributionConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3706,7 +3706,7 @@ export class GoogleMemorystoreInstanceZoneDistributionConfigOutputReference exte
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memorystore_instance google_memorystore_instance}
 */
-export class GoogleMemorystoreInstance extends cdktf.TerraformResource {
+export class GoogleMemorystoreInstance extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -3717,14 +3717,14 @@ export class GoogleMemorystoreInstance extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleMemorystoreInstance resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleMemorystoreInstance resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleMemorystoreInstance to import
   * @param importFromId The id of the existing GoogleMemorystoreInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memorystore_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleMemorystoreInstance to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_memorystore_instance", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_memorystore_instance", importId: importFromId, provider });
       }
 
   // ===========
@@ -3787,11 +3787,11 @@ export class GoogleMemorystoreInstance extends cdktf.TerraformResource {
   // ==========
 
   // allow_fewer_zones_deployment - computed: false, optional: true, required: false
-  private _allowFewerZonesDeployment?: boolean | cdktf.IResolvable; 
+  private _allowFewerZonesDeployment?: boolean | cdktn.IResolvable; 
   public get allowFewerZonesDeployment() {
     return this.getBooleanAttribute('allow_fewer_zones_deployment');
   }
-  public set allowFewerZonesDeployment(value: boolean | cdktf.IResolvable) {
+  public set allowFewerZonesDeployment(value: boolean | cdktn.IResolvable) {
     this._allowFewerZonesDeployment = value;
   }
   public resetAllowFewerZonesDeployment() {
@@ -3829,11 +3829,11 @@ export class GoogleMemorystoreInstance extends cdktf.TerraformResource {
   }
 
   // deletion_protection_enabled - computed: false, optional: true, required: false
-  private _deletionProtectionEnabled?: boolean | cdktf.IResolvable; 
+  private _deletionProtectionEnabled?: boolean | cdktn.IResolvable; 
   public get deletionProtectionEnabled() {
     return this.getBooleanAttribute('deletion_protection_enabled');
   }
-  public set deletionProtectionEnabled(value: boolean | cdktf.IResolvable) {
+  public set deletionProtectionEnabled(value: boolean | cdktn.IResolvable) {
     this._deletionProtectionEnabled = value;
   }
   public resetDeletionProtectionEnabled() {
@@ -3851,7 +3851,7 @@ export class GoogleMemorystoreInstance extends cdktf.TerraformResource {
   }
 
   // effective_labels - computed: true, optional: false, required: false
-  private _effectiveLabels = new cdktf.StringMap(this, "effective_labels");
+  private _effectiveLabels = new cdktn.StringMap(this, "effective_labels");
   public get effectiveLabels() {
     return this._effectiveLabels;
   }
@@ -4092,7 +4092,7 @@ export class GoogleMemorystoreInstance extends cdktf.TerraformResource {
   }
 
   // terraform_labels - computed: true, optional: false, required: false
-  private _terraformLabels = new cdktf.StringMap(this, "terraform_labels");
+  private _terraformLabels = new cdktn.StringMap(this, "terraform_labels");
   public get terraformLabels() {
     return this._terraformLabels;
   }
@@ -4160,7 +4160,7 @@ export class GoogleMemorystoreInstance extends cdktf.TerraformResource {
   public get desiredAutoCreatedEndpoints() {
     return this._desiredAutoCreatedEndpoints;
   }
-  public putDesiredAutoCreatedEndpoints(value: GoogleMemorystoreInstanceDesiredAutoCreatedEndpoints[] | cdktf.IResolvable) {
+  public putDesiredAutoCreatedEndpoints(value: GoogleMemorystoreInstanceDesiredAutoCreatedEndpoints[] | cdktn.IResolvable) {
     this._desiredAutoCreatedEndpoints.internalValue = value;
   }
   public resetDesiredAutoCreatedEndpoints() {
@@ -4176,7 +4176,7 @@ export class GoogleMemorystoreInstance extends cdktf.TerraformResource {
   public get desiredPscAutoConnections() {
     return this._desiredPscAutoConnections;
   }
-  public putDesiredPscAutoConnections(value: GoogleMemorystoreInstanceDesiredPscAutoConnections[] | cdktf.IResolvable) {
+  public putDesiredPscAutoConnections(value: GoogleMemorystoreInstanceDesiredPscAutoConnections[] | cdktn.IResolvable) {
     this._desiredPscAutoConnections.internalValue = value;
   }
   public resetDesiredPscAutoConnections() {
@@ -4289,26 +4289,26 @@ export class GoogleMemorystoreInstance extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      allow_fewer_zones_deployment: cdktf.booleanToTerraform(this._allowFewerZonesDeployment),
-      authorization_mode: cdktf.stringToTerraform(this._authorizationMode),
-      deletion_protection_enabled: cdktf.booleanToTerraform(this._deletionProtectionEnabled),
-      engine_configs: cdktf.hashMapper(cdktf.stringToTerraform)(this._engineConfigs),
-      engine_version: cdktf.stringToTerraform(this._engineVersion),
-      id: cdktf.stringToTerraform(this._id),
-      instance_id: cdktf.stringToTerraform(this._instanceId),
-      kms_key: cdktf.stringToTerraform(this._kmsKey),
-      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
-      location: cdktf.stringToTerraform(this._location),
-      mode: cdktf.stringToTerraform(this._mode),
-      node_type: cdktf.stringToTerraform(this._nodeType),
-      project: cdktf.stringToTerraform(this._project),
-      replica_count: cdktf.numberToTerraform(this._replicaCount),
-      shard_count: cdktf.numberToTerraform(this._shardCount),
-      transit_encryption_mode: cdktf.stringToTerraform(this._transitEncryptionMode),
+      allow_fewer_zones_deployment: cdktn.booleanToTerraform(this._allowFewerZonesDeployment),
+      authorization_mode: cdktn.stringToTerraform(this._authorizationMode),
+      deletion_protection_enabled: cdktn.booleanToTerraform(this._deletionProtectionEnabled),
+      engine_configs: cdktn.hashMapper(cdktn.stringToTerraform)(this._engineConfigs),
+      engine_version: cdktn.stringToTerraform(this._engineVersion),
+      id: cdktn.stringToTerraform(this._id),
+      instance_id: cdktn.stringToTerraform(this._instanceId),
+      kms_key: cdktn.stringToTerraform(this._kmsKey),
+      labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
+      location: cdktn.stringToTerraform(this._location),
+      mode: cdktn.stringToTerraform(this._mode),
+      node_type: cdktn.stringToTerraform(this._nodeType),
+      project: cdktn.stringToTerraform(this._project),
+      replica_count: cdktn.numberToTerraform(this._replicaCount),
+      shard_count: cdktn.numberToTerraform(this._shardCount),
+      transit_encryption_mode: cdktn.stringToTerraform(this._transitEncryptionMode),
       automated_backup_config: googleMemorystoreInstanceAutomatedBackupConfigToTerraform(this._automatedBackupConfig.internalValue),
       cross_instance_replication_config: googleMemorystoreInstanceCrossInstanceReplicationConfigToTerraform(this._crossInstanceReplicationConfig.internalValue),
-      desired_auto_created_endpoints: cdktf.listMapper(googleMemorystoreInstanceDesiredAutoCreatedEndpointsToTerraform, true)(this._desiredAutoCreatedEndpoints.internalValue),
-      desired_psc_auto_connections: cdktf.listMapper(googleMemorystoreInstanceDesiredPscAutoConnectionsToTerraform, true)(this._desiredPscAutoConnections.internalValue),
+      desired_auto_created_endpoints: cdktn.listMapper(googleMemorystoreInstanceDesiredAutoCreatedEndpointsToTerraform, true)(this._desiredAutoCreatedEndpoints.internalValue),
+      desired_psc_auto_connections: cdktn.listMapper(googleMemorystoreInstanceDesiredPscAutoConnectionsToTerraform, true)(this._desiredPscAutoConnections.internalValue),
       gcs_source: googleMemorystoreInstanceGcsSourceToTerraform(this._gcsSource.internalValue),
       maintenance_policy: googleMemorystoreInstanceMaintenancePolicyToTerraform(this._maintenancePolicy.internalValue),
       managed_backup_source: googleMemorystoreInstanceManagedBackupSourceToTerraform(this._managedBackupSource.internalValue),
@@ -4321,97 +4321,97 @@ export class GoogleMemorystoreInstance extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       allow_fewer_zones_deployment: {
-        value: cdktf.booleanToHclTerraform(this._allowFewerZonesDeployment),
+        value: cdktn.booleanToHclTerraform(this._allowFewerZonesDeployment),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       authorization_mode: {
-        value: cdktf.stringToHclTerraform(this._authorizationMode),
+        value: cdktn.stringToHclTerraform(this._authorizationMode),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       deletion_protection_enabled: {
-        value: cdktf.booleanToHclTerraform(this._deletionProtectionEnabled),
+        value: cdktn.booleanToHclTerraform(this._deletionProtectionEnabled),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       engine_configs: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._engineConfigs),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._engineConfigs),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       engine_version: {
-        value: cdktf.stringToHclTerraform(this._engineVersion),
+        value: cdktn.stringToHclTerraform(this._engineVersion),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       instance_id: {
-        value: cdktf.stringToHclTerraform(this._instanceId),
+        value: cdktn.stringToHclTerraform(this._instanceId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       kms_key: {
-        value: cdktf.stringToHclTerraform(this._kmsKey),
+        value: cdktn.stringToHclTerraform(this._kmsKey),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._labels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       mode: {
-        value: cdktf.stringToHclTerraform(this._mode),
+        value: cdktn.stringToHclTerraform(this._mode),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       node_type: {
-        value: cdktf.stringToHclTerraform(this._nodeType),
+        value: cdktn.stringToHclTerraform(this._nodeType),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       replica_count: {
-        value: cdktf.numberToHclTerraform(this._replicaCount),
+        value: cdktn.numberToHclTerraform(this._replicaCount),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       shard_count: {
-        value: cdktf.numberToHclTerraform(this._shardCount),
+        value: cdktn.numberToHclTerraform(this._shardCount),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       transit_encryption_mode: {
-        value: cdktf.stringToHclTerraform(this._transitEncryptionMode),
+        value: cdktn.stringToHclTerraform(this._transitEncryptionMode),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -4429,13 +4429,13 @@ export class GoogleMemorystoreInstance extends cdktf.TerraformResource {
         storageClassType: "GoogleMemorystoreInstanceCrossInstanceReplicationConfigList",
       },
       desired_auto_created_endpoints: {
-        value: cdktf.listMapperHcl(googleMemorystoreInstanceDesiredAutoCreatedEndpointsToHclTerraform, true)(this._desiredAutoCreatedEndpoints.internalValue),
+        value: cdktn.listMapperHcl(googleMemorystoreInstanceDesiredAutoCreatedEndpointsToHclTerraform, true)(this._desiredAutoCreatedEndpoints.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "GoogleMemorystoreInstanceDesiredAutoCreatedEndpointsList",
       },
       desired_psc_auto_connections: {
-        value: cdktf.listMapperHcl(googleMemorystoreInstanceDesiredPscAutoConnectionsToHclTerraform, true)(this._desiredPscAutoConnections.internalValue),
+        value: cdktn.listMapperHcl(googleMemorystoreInstanceDesiredPscAutoConnectionsToHclTerraform, true)(this._desiredPscAutoConnections.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "GoogleMemorystoreInstanceDesiredPscAutoConnectionsList",

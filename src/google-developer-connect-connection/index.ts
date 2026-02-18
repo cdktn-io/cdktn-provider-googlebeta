@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleDeveloperConnectConnectionConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleDeveloperConnectConnectionConfig extends cdktn.TerraformMetaArguments {
   /**
   * Optional. Allows clients to store small amounts of arbitrary data.
   * 
@@ -36,7 +36,7 @@ export interface GoogleDeveloperConnectConnectionConfig extends cdktf.TerraformM
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#disabled GoogleDeveloperConnectConnection#disabled}
   */
-  readonly disabled?: boolean | cdktf.IResolvable;
+  readonly disabled?: boolean | cdktn.IResolvable;
   /**
   * Optional. This checksum is computed by the server based on the value of other
   * fields, and may be sent on update and delete requests to ensure the
@@ -124,8 +124,8 @@ export interface GoogleDeveloperConnectConnectionInstallationState {
 }
 
 export function googleDeveloperConnectConnectionInstallationStateToTerraform(struct?: GoogleDeveloperConnectConnectionInstallationState): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -134,8 +134,8 @@ export function googleDeveloperConnectConnectionInstallationStateToTerraform(str
 
 
 export function googleDeveloperConnectConnectionInstallationStateToHclTerraform(struct?: GoogleDeveloperConnectConnectionInstallationState): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -143,7 +143,7 @@ export function googleDeveloperConnectConnectionInstallationStateToHclTerraform(
   return attrs;
 }
 
-export class GoogleDeveloperConnectConnectionInstallationStateOutputReference extends cdktf.ComplexObject {
+export class GoogleDeveloperConnectConnectionInstallationStateOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -152,7 +152,7 @@ export class GoogleDeveloperConnectConnectionInstallationStateOutputReference ex
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -187,14 +187,14 @@ export class GoogleDeveloperConnectConnectionInstallationStateOutputReference ex
   }
 }
 
-export class GoogleDeveloperConnectConnectionInstallationStateList extends cdktf.ComplexList {
+export class GoogleDeveloperConnectConnectionInstallationStateList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -219,24 +219,24 @@ export interface GoogleDeveloperConnectConnectionBitbucketCloudConfigAuthorizerC
 }
 
 export function googleDeveloperConnectConnectionBitbucketCloudConfigAuthorizerCredentialToTerraform(struct?: GoogleDeveloperConnectConnectionBitbucketCloudConfigAuthorizerCredentialOutputReference | GoogleDeveloperConnectConnectionBitbucketCloudConfigAuthorizerCredential): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    user_token_secret_version: cdktf.stringToTerraform(struct!.userTokenSecretVersion),
+    user_token_secret_version: cdktn.stringToTerraform(struct!.userTokenSecretVersion),
   }
 }
 
 
 export function googleDeveloperConnectConnectionBitbucketCloudConfigAuthorizerCredentialToHclTerraform(struct?: GoogleDeveloperConnectConnectionBitbucketCloudConfigAuthorizerCredentialOutputReference | GoogleDeveloperConnectConnectionBitbucketCloudConfigAuthorizerCredential): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     user_token_secret_version: {
-      value: cdktf.stringToHclTerraform(struct!.userTokenSecretVersion),
+      value: cdktn.stringToHclTerraform(struct!.userTokenSecretVersion),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -247,14 +247,14 @@ export function googleDeveloperConnectConnectionBitbucketCloudConfigAuthorizerCr
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDeveloperConnectConnectionBitbucketCloudConfigAuthorizerCredentialOutputReference extends cdktf.ComplexObject {
+export class GoogleDeveloperConnectConnectionBitbucketCloudConfigAuthorizerCredentialOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -311,24 +311,24 @@ export interface GoogleDeveloperConnectConnectionBitbucketCloudConfigReadAuthori
 }
 
 export function googleDeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredentialToTerraform(struct?: GoogleDeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredentialOutputReference | GoogleDeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredential): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    user_token_secret_version: cdktf.stringToTerraform(struct!.userTokenSecretVersion),
+    user_token_secret_version: cdktn.stringToTerraform(struct!.userTokenSecretVersion),
   }
 }
 
 
 export function googleDeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredentialToHclTerraform(struct?: GoogleDeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredentialOutputReference | GoogleDeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredential): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     user_token_secret_version: {
-      value: cdktf.stringToHclTerraform(struct!.userTokenSecretVersion),
+      value: cdktn.stringToHclTerraform(struct!.userTokenSecretVersion),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -339,14 +339,14 @@ export function googleDeveloperConnectConnectionBitbucketCloudConfigReadAuthoriz
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredentialOutputReference extends cdktf.ComplexObject {
+export class GoogleDeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredentialOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -421,13 +421,13 @@ export interface GoogleDeveloperConnectConnectionBitbucketCloudConfig {
 }
 
 export function googleDeveloperConnectConnectionBitbucketCloudConfigToTerraform(struct?: GoogleDeveloperConnectConnectionBitbucketCloudConfigOutputReference | GoogleDeveloperConnectConnectionBitbucketCloudConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    webhook_secret_secret_version: cdktf.stringToTerraform(struct!.webhookSecretSecretVersion),
-    workspace: cdktf.stringToTerraform(struct!.workspace),
+    webhook_secret_secret_version: cdktn.stringToTerraform(struct!.webhookSecretSecretVersion),
+    workspace: cdktn.stringToTerraform(struct!.workspace),
     authorizer_credential: googleDeveloperConnectConnectionBitbucketCloudConfigAuthorizerCredentialToTerraform(struct!.authorizerCredential),
     read_authorizer_credential: googleDeveloperConnectConnectionBitbucketCloudConfigReadAuthorizerCredentialToTerraform(struct!.readAuthorizerCredential),
   }
@@ -435,19 +435,19 @@ export function googleDeveloperConnectConnectionBitbucketCloudConfigToTerraform(
 
 
 export function googleDeveloperConnectConnectionBitbucketCloudConfigToHclTerraform(struct?: GoogleDeveloperConnectConnectionBitbucketCloudConfigOutputReference | GoogleDeveloperConnectConnectionBitbucketCloudConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     webhook_secret_secret_version: {
-      value: cdktf.stringToHclTerraform(struct!.webhookSecretSecretVersion),
+      value: cdktn.stringToHclTerraform(struct!.webhookSecretSecretVersion),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     workspace: {
-      value: cdktf.stringToHclTerraform(struct!.workspace),
+      value: cdktn.stringToHclTerraform(struct!.workspace),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -470,14 +470,14 @@ export function googleDeveloperConnectConnectionBitbucketCloudConfigToHclTerrafo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDeveloperConnectConnectionBitbucketCloudConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDeveloperConnectConnectionBitbucketCloudConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -586,24 +586,24 @@ export interface GoogleDeveloperConnectConnectionBitbucketDataCenterConfigAuthor
 }
 
 export function googleDeveloperConnectConnectionBitbucketDataCenterConfigAuthorizerCredentialToTerraform(struct?: GoogleDeveloperConnectConnectionBitbucketDataCenterConfigAuthorizerCredentialOutputReference | GoogleDeveloperConnectConnectionBitbucketDataCenterConfigAuthorizerCredential): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    user_token_secret_version: cdktf.stringToTerraform(struct!.userTokenSecretVersion),
+    user_token_secret_version: cdktn.stringToTerraform(struct!.userTokenSecretVersion),
   }
 }
 
 
 export function googleDeveloperConnectConnectionBitbucketDataCenterConfigAuthorizerCredentialToHclTerraform(struct?: GoogleDeveloperConnectConnectionBitbucketDataCenterConfigAuthorizerCredentialOutputReference | GoogleDeveloperConnectConnectionBitbucketDataCenterConfigAuthorizerCredential): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     user_token_secret_version: {
-      value: cdktf.stringToHclTerraform(struct!.userTokenSecretVersion),
+      value: cdktn.stringToHclTerraform(struct!.userTokenSecretVersion),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -614,14 +614,14 @@ export function googleDeveloperConnectConnectionBitbucketDataCenterConfigAuthori
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDeveloperConnectConnectionBitbucketDataCenterConfigAuthorizerCredentialOutputReference extends cdktf.ComplexObject {
+export class GoogleDeveloperConnectConnectionBitbucketDataCenterConfigAuthorizerCredentialOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -678,24 +678,24 @@ export interface GoogleDeveloperConnectConnectionBitbucketDataCenterConfigReadAu
 }
 
 export function googleDeveloperConnectConnectionBitbucketDataCenterConfigReadAuthorizerCredentialToTerraform(struct?: GoogleDeveloperConnectConnectionBitbucketDataCenterConfigReadAuthorizerCredentialOutputReference | GoogleDeveloperConnectConnectionBitbucketDataCenterConfigReadAuthorizerCredential): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    user_token_secret_version: cdktf.stringToTerraform(struct!.userTokenSecretVersion),
+    user_token_secret_version: cdktn.stringToTerraform(struct!.userTokenSecretVersion),
   }
 }
 
 
 export function googleDeveloperConnectConnectionBitbucketDataCenterConfigReadAuthorizerCredentialToHclTerraform(struct?: GoogleDeveloperConnectConnectionBitbucketDataCenterConfigReadAuthorizerCredentialOutputReference | GoogleDeveloperConnectConnectionBitbucketDataCenterConfigReadAuthorizerCredential): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     user_token_secret_version: {
-      value: cdktf.stringToHclTerraform(struct!.userTokenSecretVersion),
+      value: cdktn.stringToHclTerraform(struct!.userTokenSecretVersion),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -706,14 +706,14 @@ export function googleDeveloperConnectConnectionBitbucketDataCenterConfigReadAut
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDeveloperConnectConnectionBitbucketDataCenterConfigReadAuthorizerCredentialOutputReference extends cdktf.ComplexObject {
+export class GoogleDeveloperConnectConnectionBitbucketDataCenterConfigReadAuthorizerCredentialOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -768,24 +768,24 @@ export interface GoogleDeveloperConnectConnectionBitbucketDataCenterConfigServic
 }
 
 export function googleDeveloperConnectConnectionBitbucketDataCenterConfigServiceDirectoryConfigToTerraform(struct?: GoogleDeveloperConnectConnectionBitbucketDataCenterConfigServiceDirectoryConfigOutputReference | GoogleDeveloperConnectConnectionBitbucketDataCenterConfigServiceDirectoryConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    service: cdktf.stringToTerraform(struct!.service),
+    service: cdktn.stringToTerraform(struct!.service),
   }
 }
 
 
 export function googleDeveloperConnectConnectionBitbucketDataCenterConfigServiceDirectoryConfigToHclTerraform(struct?: GoogleDeveloperConnectConnectionBitbucketDataCenterConfigServiceDirectoryConfigOutputReference | GoogleDeveloperConnectConnectionBitbucketDataCenterConfigServiceDirectoryConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     service: {
-      value: cdktf.stringToHclTerraform(struct!.service),
+      value: cdktn.stringToHclTerraform(struct!.service),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -796,14 +796,14 @@ export function googleDeveloperConnectConnectionBitbucketDataCenterConfigService
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDeveloperConnectConnectionBitbucketDataCenterConfigServiceDirectoryConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDeveloperConnectConnectionBitbucketDataCenterConfigServiceDirectoryConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -886,14 +886,14 @@ export interface GoogleDeveloperConnectConnectionBitbucketDataCenterConfig {
 }
 
 export function googleDeveloperConnectConnectionBitbucketDataCenterConfigToTerraform(struct?: GoogleDeveloperConnectConnectionBitbucketDataCenterConfigOutputReference | GoogleDeveloperConnectConnectionBitbucketDataCenterConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    host_uri: cdktf.stringToTerraform(struct!.hostUri),
-    ssl_ca_certificate: cdktf.stringToTerraform(struct!.sslCaCertificate),
-    webhook_secret_secret_version: cdktf.stringToTerraform(struct!.webhookSecretSecretVersion),
+    host_uri: cdktn.stringToTerraform(struct!.hostUri),
+    ssl_ca_certificate: cdktn.stringToTerraform(struct!.sslCaCertificate),
+    webhook_secret_secret_version: cdktn.stringToTerraform(struct!.webhookSecretSecretVersion),
     authorizer_credential: googleDeveloperConnectConnectionBitbucketDataCenterConfigAuthorizerCredentialToTerraform(struct!.authorizerCredential),
     read_authorizer_credential: googleDeveloperConnectConnectionBitbucketDataCenterConfigReadAuthorizerCredentialToTerraform(struct!.readAuthorizerCredential),
     service_directory_config: googleDeveloperConnectConnectionBitbucketDataCenterConfigServiceDirectoryConfigToTerraform(struct!.serviceDirectoryConfig),
@@ -902,25 +902,25 @@ export function googleDeveloperConnectConnectionBitbucketDataCenterConfigToTerra
 
 
 export function googleDeveloperConnectConnectionBitbucketDataCenterConfigToHclTerraform(struct?: GoogleDeveloperConnectConnectionBitbucketDataCenterConfigOutputReference | GoogleDeveloperConnectConnectionBitbucketDataCenterConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     host_uri: {
-      value: cdktf.stringToHclTerraform(struct!.hostUri),
+      value: cdktn.stringToHclTerraform(struct!.hostUri),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     ssl_ca_certificate: {
-      value: cdktf.stringToHclTerraform(struct!.sslCaCertificate),
+      value: cdktn.stringToHclTerraform(struct!.sslCaCertificate),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     webhook_secret_secret_version: {
-      value: cdktf.stringToHclTerraform(struct!.webhookSecretSecretVersion),
+      value: cdktn.stringToHclTerraform(struct!.webhookSecretSecretVersion),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -949,14 +949,14 @@ export function googleDeveloperConnectConnectionBitbucketDataCenterConfigToHclTe
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDeveloperConnectConnectionBitbucketDataCenterConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDeveloperConnectConnectionBitbucketDataCenterConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1114,24 +1114,24 @@ export interface GoogleDeveloperConnectConnectionCryptoKeyConfig {
 }
 
 export function googleDeveloperConnectConnectionCryptoKeyConfigToTerraform(struct?: GoogleDeveloperConnectConnectionCryptoKeyConfigOutputReference | GoogleDeveloperConnectConnectionCryptoKeyConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    key_reference: cdktf.stringToTerraform(struct!.keyReference),
+    key_reference: cdktn.stringToTerraform(struct!.keyReference),
   }
 }
 
 
 export function googleDeveloperConnectConnectionCryptoKeyConfigToHclTerraform(struct?: GoogleDeveloperConnectConnectionCryptoKeyConfigOutputReference | GoogleDeveloperConnectConnectionCryptoKeyConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     key_reference: {
-      value: cdktf.stringToHclTerraform(struct!.keyReference),
+      value: cdktn.stringToHclTerraform(struct!.keyReference),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1142,14 +1142,14 @@ export function googleDeveloperConnectConnectionCryptoKeyConfigToHclTerraform(st
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDeveloperConnectConnectionCryptoKeyConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDeveloperConnectConnectionCryptoKeyConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1200,24 +1200,24 @@ export interface GoogleDeveloperConnectConnectionGithubConfigAuthorizerCredentia
 }
 
 export function googleDeveloperConnectConnectionGithubConfigAuthorizerCredentialToTerraform(struct?: GoogleDeveloperConnectConnectionGithubConfigAuthorizerCredentialOutputReference | GoogleDeveloperConnectConnectionGithubConfigAuthorizerCredential): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    oauth_token_secret_version: cdktf.stringToTerraform(struct!.oauthTokenSecretVersion),
+    oauth_token_secret_version: cdktn.stringToTerraform(struct!.oauthTokenSecretVersion),
   }
 }
 
 
 export function googleDeveloperConnectConnectionGithubConfigAuthorizerCredentialToHclTerraform(struct?: GoogleDeveloperConnectConnectionGithubConfigAuthorizerCredentialOutputReference | GoogleDeveloperConnectConnectionGithubConfigAuthorizerCredential): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     oauth_token_secret_version: {
-      value: cdktf.stringToHclTerraform(struct!.oauthTokenSecretVersion),
+      value: cdktn.stringToHclTerraform(struct!.oauthTokenSecretVersion),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1228,14 +1228,14 @@ export function googleDeveloperConnectConnectionGithubConfigAuthorizerCredential
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDeveloperConnectConnectionGithubConfigAuthorizerCredentialOutputReference extends cdktf.ComplexObject {
+export class GoogleDeveloperConnectConnectionGithubConfigAuthorizerCredentialOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1305,32 +1305,32 @@ export interface GoogleDeveloperConnectConnectionGithubConfig {
 }
 
 export function googleDeveloperConnectConnectionGithubConfigToTerraform(struct?: GoogleDeveloperConnectConnectionGithubConfigOutputReference | GoogleDeveloperConnectConnectionGithubConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    app_installation_id: cdktf.stringToTerraform(struct!.appInstallationId),
-    github_app: cdktf.stringToTerraform(struct!.githubApp),
+    app_installation_id: cdktn.stringToTerraform(struct!.appInstallationId),
+    github_app: cdktn.stringToTerraform(struct!.githubApp),
     authorizer_credential: googleDeveloperConnectConnectionGithubConfigAuthorizerCredentialToTerraform(struct!.authorizerCredential),
   }
 }
 
 
 export function googleDeveloperConnectConnectionGithubConfigToHclTerraform(struct?: GoogleDeveloperConnectConnectionGithubConfigOutputReference | GoogleDeveloperConnectConnectionGithubConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     app_installation_id: {
-      value: cdktf.stringToHclTerraform(struct!.appInstallationId),
+      value: cdktn.stringToHclTerraform(struct!.appInstallationId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     github_app: {
-      value: cdktf.stringToHclTerraform(struct!.githubApp),
+      value: cdktn.stringToHclTerraform(struct!.githubApp),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1347,14 +1347,14 @@ export function googleDeveloperConnectConnectionGithubConfigToHclTerraform(struc
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDeveloperConnectConnectionGithubConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDeveloperConnectConnectionGithubConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1453,24 +1453,24 @@ export interface GoogleDeveloperConnectConnectionGithubEnterpriseConfigServiceDi
 }
 
 export function googleDeveloperConnectConnectionGithubEnterpriseConfigServiceDirectoryConfigToTerraform(struct?: GoogleDeveloperConnectConnectionGithubEnterpriseConfigServiceDirectoryConfigOutputReference | GoogleDeveloperConnectConnectionGithubEnterpriseConfigServiceDirectoryConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    service: cdktf.stringToTerraform(struct!.service),
+    service: cdktn.stringToTerraform(struct!.service),
   }
 }
 
 
 export function googleDeveloperConnectConnectionGithubEnterpriseConfigServiceDirectoryConfigToHclTerraform(struct?: GoogleDeveloperConnectConnectionGithubEnterpriseConfigServiceDirectoryConfigOutputReference | GoogleDeveloperConnectConnectionGithubEnterpriseConfigServiceDirectoryConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     service: {
-      value: cdktf.stringToHclTerraform(struct!.service),
+      value: cdktn.stringToHclTerraform(struct!.service),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1481,14 +1481,14 @@ export function googleDeveloperConnectConnectionGithubEnterpriseConfigServiceDir
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDeveloperConnectConnectionGithubEnterpriseConfigServiceDirectoryConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDeveloperConnectConnectionGithubEnterpriseConfigServiceDirectoryConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1578,60 +1578,60 @@ export interface GoogleDeveloperConnectConnectionGithubEnterpriseConfig {
 }
 
 export function googleDeveloperConnectConnectionGithubEnterpriseConfigToTerraform(struct?: GoogleDeveloperConnectConnectionGithubEnterpriseConfigOutputReference | GoogleDeveloperConnectConnectionGithubEnterpriseConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    app_id: cdktf.stringToTerraform(struct!.appId),
-    app_installation_id: cdktf.stringToTerraform(struct!.appInstallationId),
-    host_uri: cdktf.stringToTerraform(struct!.hostUri),
-    private_key_secret_version: cdktf.stringToTerraform(struct!.privateKeySecretVersion),
-    ssl_ca_certificate: cdktf.stringToTerraform(struct!.sslCaCertificate),
-    webhook_secret_secret_version: cdktf.stringToTerraform(struct!.webhookSecretSecretVersion),
+    app_id: cdktn.stringToTerraform(struct!.appId),
+    app_installation_id: cdktn.stringToTerraform(struct!.appInstallationId),
+    host_uri: cdktn.stringToTerraform(struct!.hostUri),
+    private_key_secret_version: cdktn.stringToTerraform(struct!.privateKeySecretVersion),
+    ssl_ca_certificate: cdktn.stringToTerraform(struct!.sslCaCertificate),
+    webhook_secret_secret_version: cdktn.stringToTerraform(struct!.webhookSecretSecretVersion),
     service_directory_config: googleDeveloperConnectConnectionGithubEnterpriseConfigServiceDirectoryConfigToTerraform(struct!.serviceDirectoryConfig),
   }
 }
 
 
 export function googleDeveloperConnectConnectionGithubEnterpriseConfigToHclTerraform(struct?: GoogleDeveloperConnectConnectionGithubEnterpriseConfigOutputReference | GoogleDeveloperConnectConnectionGithubEnterpriseConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     app_id: {
-      value: cdktf.stringToHclTerraform(struct!.appId),
+      value: cdktn.stringToHclTerraform(struct!.appId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     app_installation_id: {
-      value: cdktf.stringToHclTerraform(struct!.appInstallationId),
+      value: cdktn.stringToHclTerraform(struct!.appInstallationId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     host_uri: {
-      value: cdktf.stringToHclTerraform(struct!.hostUri),
+      value: cdktn.stringToHclTerraform(struct!.hostUri),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     private_key_secret_version: {
-      value: cdktf.stringToHclTerraform(struct!.privateKeySecretVersion),
+      value: cdktn.stringToHclTerraform(struct!.privateKeySecretVersion),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     ssl_ca_certificate: {
-      value: cdktf.stringToHclTerraform(struct!.sslCaCertificate),
+      value: cdktn.stringToHclTerraform(struct!.sslCaCertificate),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     webhook_secret_secret_version: {
-      value: cdktf.stringToHclTerraform(struct!.webhookSecretSecretVersion),
+      value: cdktn.stringToHclTerraform(struct!.webhookSecretSecretVersion),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1648,14 +1648,14 @@ export function googleDeveloperConnectConnectionGithubEnterpriseConfigToHclTerra
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDeveloperConnectConnectionGithubEnterpriseConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDeveloperConnectConnectionGithubEnterpriseConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1854,24 +1854,24 @@ export interface GoogleDeveloperConnectConnectionGitlabConfigAuthorizerCredentia
 }
 
 export function googleDeveloperConnectConnectionGitlabConfigAuthorizerCredentialToTerraform(struct?: GoogleDeveloperConnectConnectionGitlabConfigAuthorizerCredentialOutputReference | GoogleDeveloperConnectConnectionGitlabConfigAuthorizerCredential): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    user_token_secret_version: cdktf.stringToTerraform(struct!.userTokenSecretVersion),
+    user_token_secret_version: cdktn.stringToTerraform(struct!.userTokenSecretVersion),
   }
 }
 
 
 export function googleDeveloperConnectConnectionGitlabConfigAuthorizerCredentialToHclTerraform(struct?: GoogleDeveloperConnectConnectionGitlabConfigAuthorizerCredentialOutputReference | GoogleDeveloperConnectConnectionGitlabConfigAuthorizerCredential): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     user_token_secret_version: {
-      value: cdktf.stringToHclTerraform(struct!.userTokenSecretVersion),
+      value: cdktn.stringToHclTerraform(struct!.userTokenSecretVersion),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1882,14 +1882,14 @@ export function googleDeveloperConnectConnectionGitlabConfigAuthorizerCredential
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDeveloperConnectConnectionGitlabConfigAuthorizerCredentialOutputReference extends cdktf.ComplexObject {
+export class GoogleDeveloperConnectConnectionGitlabConfigAuthorizerCredentialOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1946,24 +1946,24 @@ export interface GoogleDeveloperConnectConnectionGitlabConfigReadAuthorizerCrede
 }
 
 export function googleDeveloperConnectConnectionGitlabConfigReadAuthorizerCredentialToTerraform(struct?: GoogleDeveloperConnectConnectionGitlabConfigReadAuthorizerCredentialOutputReference | GoogleDeveloperConnectConnectionGitlabConfigReadAuthorizerCredential): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    user_token_secret_version: cdktf.stringToTerraform(struct!.userTokenSecretVersion),
+    user_token_secret_version: cdktn.stringToTerraform(struct!.userTokenSecretVersion),
   }
 }
 
 
 export function googleDeveloperConnectConnectionGitlabConfigReadAuthorizerCredentialToHclTerraform(struct?: GoogleDeveloperConnectConnectionGitlabConfigReadAuthorizerCredentialOutputReference | GoogleDeveloperConnectConnectionGitlabConfigReadAuthorizerCredential): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     user_token_secret_version: {
-      value: cdktf.stringToHclTerraform(struct!.userTokenSecretVersion),
+      value: cdktn.stringToHclTerraform(struct!.userTokenSecretVersion),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1974,14 +1974,14 @@ export function googleDeveloperConnectConnectionGitlabConfigReadAuthorizerCreden
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDeveloperConnectConnectionGitlabConfigReadAuthorizerCredentialOutputReference extends cdktf.ComplexObject {
+export class GoogleDeveloperConnectConnectionGitlabConfigReadAuthorizerCredentialOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2050,12 +2050,12 @@ export interface GoogleDeveloperConnectConnectionGitlabConfig {
 }
 
 export function googleDeveloperConnectConnectionGitlabConfigToTerraform(struct?: GoogleDeveloperConnectConnectionGitlabConfigOutputReference | GoogleDeveloperConnectConnectionGitlabConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    webhook_secret_secret_version: cdktf.stringToTerraform(struct!.webhookSecretSecretVersion),
+    webhook_secret_secret_version: cdktn.stringToTerraform(struct!.webhookSecretSecretVersion),
     authorizer_credential: googleDeveloperConnectConnectionGitlabConfigAuthorizerCredentialToTerraform(struct!.authorizerCredential),
     read_authorizer_credential: googleDeveloperConnectConnectionGitlabConfigReadAuthorizerCredentialToTerraform(struct!.readAuthorizerCredential),
   }
@@ -2063,13 +2063,13 @@ export function googleDeveloperConnectConnectionGitlabConfigToTerraform(struct?:
 
 
 export function googleDeveloperConnectConnectionGitlabConfigToHclTerraform(struct?: GoogleDeveloperConnectConnectionGitlabConfigOutputReference | GoogleDeveloperConnectConnectionGitlabConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     webhook_secret_secret_version: {
-      value: cdktf.stringToHclTerraform(struct!.webhookSecretSecretVersion),
+      value: cdktn.stringToHclTerraform(struct!.webhookSecretSecretVersion),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2092,14 +2092,14 @@ export function googleDeveloperConnectConnectionGitlabConfigToHclTerraform(struc
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDeveloperConnectConnectionGitlabConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDeveloperConnectConnectionGitlabConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2189,24 +2189,24 @@ export interface GoogleDeveloperConnectConnectionGitlabEnterpriseConfigAuthorize
 }
 
 export function googleDeveloperConnectConnectionGitlabEnterpriseConfigAuthorizerCredentialToTerraform(struct?: GoogleDeveloperConnectConnectionGitlabEnterpriseConfigAuthorizerCredentialOutputReference | GoogleDeveloperConnectConnectionGitlabEnterpriseConfigAuthorizerCredential): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    user_token_secret_version: cdktf.stringToTerraform(struct!.userTokenSecretVersion),
+    user_token_secret_version: cdktn.stringToTerraform(struct!.userTokenSecretVersion),
   }
 }
 
 
 export function googleDeveloperConnectConnectionGitlabEnterpriseConfigAuthorizerCredentialToHclTerraform(struct?: GoogleDeveloperConnectConnectionGitlabEnterpriseConfigAuthorizerCredentialOutputReference | GoogleDeveloperConnectConnectionGitlabEnterpriseConfigAuthorizerCredential): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     user_token_secret_version: {
-      value: cdktf.stringToHclTerraform(struct!.userTokenSecretVersion),
+      value: cdktn.stringToHclTerraform(struct!.userTokenSecretVersion),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2217,14 +2217,14 @@ export function googleDeveloperConnectConnectionGitlabEnterpriseConfigAuthorizer
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDeveloperConnectConnectionGitlabEnterpriseConfigAuthorizerCredentialOutputReference extends cdktf.ComplexObject {
+export class GoogleDeveloperConnectConnectionGitlabEnterpriseConfigAuthorizerCredentialOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2281,24 +2281,24 @@ export interface GoogleDeveloperConnectConnectionGitlabEnterpriseConfigReadAutho
 }
 
 export function googleDeveloperConnectConnectionGitlabEnterpriseConfigReadAuthorizerCredentialToTerraform(struct?: GoogleDeveloperConnectConnectionGitlabEnterpriseConfigReadAuthorizerCredentialOutputReference | GoogleDeveloperConnectConnectionGitlabEnterpriseConfigReadAuthorizerCredential): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    user_token_secret_version: cdktf.stringToTerraform(struct!.userTokenSecretVersion),
+    user_token_secret_version: cdktn.stringToTerraform(struct!.userTokenSecretVersion),
   }
 }
 
 
 export function googleDeveloperConnectConnectionGitlabEnterpriseConfigReadAuthorizerCredentialToHclTerraform(struct?: GoogleDeveloperConnectConnectionGitlabEnterpriseConfigReadAuthorizerCredentialOutputReference | GoogleDeveloperConnectConnectionGitlabEnterpriseConfigReadAuthorizerCredential): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     user_token_secret_version: {
-      value: cdktf.stringToHclTerraform(struct!.userTokenSecretVersion),
+      value: cdktn.stringToHclTerraform(struct!.userTokenSecretVersion),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2309,14 +2309,14 @@ export function googleDeveloperConnectConnectionGitlabEnterpriseConfigReadAuthor
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDeveloperConnectConnectionGitlabEnterpriseConfigReadAuthorizerCredentialOutputReference extends cdktf.ComplexObject {
+export class GoogleDeveloperConnectConnectionGitlabEnterpriseConfigReadAuthorizerCredentialOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2371,24 +2371,24 @@ export interface GoogleDeveloperConnectConnectionGitlabEnterpriseConfigServiceDi
 }
 
 export function googleDeveloperConnectConnectionGitlabEnterpriseConfigServiceDirectoryConfigToTerraform(struct?: GoogleDeveloperConnectConnectionGitlabEnterpriseConfigServiceDirectoryConfigOutputReference | GoogleDeveloperConnectConnectionGitlabEnterpriseConfigServiceDirectoryConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    service: cdktf.stringToTerraform(struct!.service),
+    service: cdktn.stringToTerraform(struct!.service),
   }
 }
 
 
 export function googleDeveloperConnectConnectionGitlabEnterpriseConfigServiceDirectoryConfigToHclTerraform(struct?: GoogleDeveloperConnectConnectionGitlabEnterpriseConfigServiceDirectoryConfigOutputReference | GoogleDeveloperConnectConnectionGitlabEnterpriseConfigServiceDirectoryConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     service: {
-      value: cdktf.stringToHclTerraform(struct!.service),
+      value: cdktn.stringToHclTerraform(struct!.service),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2399,14 +2399,14 @@ export function googleDeveloperConnectConnectionGitlabEnterpriseConfigServiceDir
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDeveloperConnectConnectionGitlabEnterpriseConfigServiceDirectoryConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDeveloperConnectConnectionGitlabEnterpriseConfigServiceDirectoryConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2489,14 +2489,14 @@ export interface GoogleDeveloperConnectConnectionGitlabEnterpriseConfig {
 }
 
 export function googleDeveloperConnectConnectionGitlabEnterpriseConfigToTerraform(struct?: GoogleDeveloperConnectConnectionGitlabEnterpriseConfigOutputReference | GoogleDeveloperConnectConnectionGitlabEnterpriseConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    host_uri: cdktf.stringToTerraform(struct!.hostUri),
-    ssl_ca_certificate: cdktf.stringToTerraform(struct!.sslCaCertificate),
-    webhook_secret_secret_version: cdktf.stringToTerraform(struct!.webhookSecretSecretVersion),
+    host_uri: cdktn.stringToTerraform(struct!.hostUri),
+    ssl_ca_certificate: cdktn.stringToTerraform(struct!.sslCaCertificate),
+    webhook_secret_secret_version: cdktn.stringToTerraform(struct!.webhookSecretSecretVersion),
     authorizer_credential: googleDeveloperConnectConnectionGitlabEnterpriseConfigAuthorizerCredentialToTerraform(struct!.authorizerCredential),
     read_authorizer_credential: googleDeveloperConnectConnectionGitlabEnterpriseConfigReadAuthorizerCredentialToTerraform(struct!.readAuthorizerCredential),
     service_directory_config: googleDeveloperConnectConnectionGitlabEnterpriseConfigServiceDirectoryConfigToTerraform(struct!.serviceDirectoryConfig),
@@ -2505,25 +2505,25 @@ export function googleDeveloperConnectConnectionGitlabEnterpriseConfigToTerrafor
 
 
 export function googleDeveloperConnectConnectionGitlabEnterpriseConfigToHclTerraform(struct?: GoogleDeveloperConnectConnectionGitlabEnterpriseConfigOutputReference | GoogleDeveloperConnectConnectionGitlabEnterpriseConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     host_uri: {
-      value: cdktf.stringToHclTerraform(struct!.hostUri),
+      value: cdktn.stringToHclTerraform(struct!.hostUri),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     ssl_ca_certificate: {
-      value: cdktf.stringToHclTerraform(struct!.sslCaCertificate),
+      value: cdktn.stringToHclTerraform(struct!.sslCaCertificate),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     webhook_secret_secret_version: {
-      value: cdktf.stringToHclTerraform(struct!.webhookSecretSecretVersion),
+      value: cdktn.stringToHclTerraform(struct!.webhookSecretSecretVersion),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2552,14 +2552,14 @@ export function googleDeveloperConnectConnectionGitlabEnterpriseConfigToHclTerra
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDeveloperConnectConnectionGitlabEnterpriseConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDeveloperConnectConnectionGitlabEnterpriseConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2718,39 +2718,39 @@ export interface GoogleDeveloperConnectConnectionTimeouts {
   readonly update?: string;
 }
 
-export function googleDeveloperConnectConnectionTimeoutsToTerraform(struct?: GoogleDeveloperConnectConnectionTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDeveloperConnectConnectionTimeoutsToTerraform(struct?: GoogleDeveloperConnectConnectionTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleDeveloperConnectConnectionTimeoutsToHclTerraform(struct?: GoogleDeveloperConnectConnectionTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDeveloperConnectConnectionTimeoutsToHclTerraform(struct?: GoogleDeveloperConnectConnectionTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2761,19 +2761,19 @@ export function googleDeveloperConnectConnectionTimeoutsToHclTerraform(struct?: 
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDeveloperConnectConnectionTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleDeveloperConnectConnectionTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleDeveloperConnectConnectionTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDeveloperConnectConnectionTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -2794,7 +2794,7 @@ export class GoogleDeveloperConnectConnectionTimeoutsOutputReference extends cdk
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDeveloperConnectConnectionTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDeveloperConnectConnectionTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -2802,7 +2802,7 @@ export class GoogleDeveloperConnectConnectionTimeoutsOutputReference extends cdk
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -2867,7 +2867,7 @@ export class GoogleDeveloperConnectConnectionTimeoutsOutputReference extends cdk
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection google_developer_connect_connection}
 */
-export class GoogleDeveloperConnectConnection extends cdktf.TerraformResource {
+export class GoogleDeveloperConnectConnection extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -2878,14 +2878,14 @@ export class GoogleDeveloperConnectConnection extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleDeveloperConnectConnection resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleDeveloperConnectConnection resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleDeveloperConnectConnection to import
   * @param importFromId The id of the existing GoogleDeveloperConnectConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleDeveloperConnectConnection to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_developer_connect_connection", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_developer_connect_connection", importId: importFromId, provider });
       }
 
   // ===========
@@ -2977,11 +2977,11 @@ export class GoogleDeveloperConnectConnection extends cdktf.TerraformResource {
   }
 
   // disabled - computed: false, optional: true, required: false
-  private _disabled?: boolean | cdktf.IResolvable; 
+  private _disabled?: boolean | cdktn.IResolvable; 
   public get disabled() {
     return this.getBooleanAttribute('disabled');
   }
-  public set disabled(value: boolean | cdktf.IResolvable) {
+  public set disabled(value: boolean | cdktn.IResolvable) {
     this._disabled = value;
   }
   public resetDisabled() {
@@ -2993,13 +2993,13 @@ export class GoogleDeveloperConnectConnection extends cdktf.TerraformResource {
   }
 
   // effective_annotations - computed: true, optional: false, required: false
-  private _effectiveAnnotations = new cdktf.StringMap(this, "effective_annotations");
+  private _effectiveAnnotations = new cdktn.StringMap(this, "effective_annotations");
   public get effectiveAnnotations() {
     return this._effectiveAnnotations;
   }
 
   // effective_labels - computed: true, optional: false, required: false
-  private _effectiveLabels = new cdktf.StringMap(this, "effective_labels");
+  private _effectiveLabels = new cdktn.StringMap(this, "effective_labels");
   public get effectiveLabels() {
     return this._effectiveLabels;
   }
@@ -3098,7 +3098,7 @@ export class GoogleDeveloperConnectConnection extends cdktf.TerraformResource {
   }
 
   // terraform_labels - computed: true, optional: false, required: false
-  private _terraformLabels = new cdktf.StringMap(this, "terraform_labels");
+  private _terraformLabels = new cdktn.StringMap(this, "terraform_labels");
   public get terraformLabels() {
     return this._terraformLabels;
   }
@@ -3247,14 +3247,14 @@ export class GoogleDeveloperConnectConnection extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      annotations: cdktf.hashMapper(cdktf.stringToTerraform)(this._annotations),
-      connection_id: cdktf.stringToTerraform(this._connectionId),
-      disabled: cdktf.booleanToTerraform(this._disabled),
-      etag: cdktf.stringToTerraform(this._etag),
-      id: cdktf.stringToTerraform(this._id),
-      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
-      location: cdktf.stringToTerraform(this._location),
-      project: cdktf.stringToTerraform(this._project),
+      annotations: cdktn.hashMapper(cdktn.stringToTerraform)(this._annotations),
+      connection_id: cdktn.stringToTerraform(this._connectionId),
+      disabled: cdktn.booleanToTerraform(this._disabled),
+      etag: cdktn.stringToTerraform(this._etag),
+      id: cdktn.stringToTerraform(this._id),
+      labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
+      location: cdktn.stringToTerraform(this._location),
+      project: cdktn.stringToTerraform(this._project),
       bitbucket_cloud_config: googleDeveloperConnectConnectionBitbucketCloudConfigToTerraform(this._bitbucketCloudConfig.internalValue),
       bitbucket_data_center_config: googleDeveloperConnectConnectionBitbucketDataCenterConfigToTerraform(this._bitbucketDataCenterConfig.internalValue),
       crypto_key_config: googleDeveloperConnectConnectionCryptoKeyConfigToTerraform(this._cryptoKeyConfig.internalValue),
@@ -3269,49 +3269,49 @@ export class GoogleDeveloperConnectConnection extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       annotations: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._annotations),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._annotations),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       connection_id: {
-        value: cdktf.stringToHclTerraform(this._connectionId),
+        value: cdktn.stringToHclTerraform(this._connectionId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       disabled: {
-        value: cdktf.booleanToHclTerraform(this._disabled),
+        value: cdktn.booleanToHclTerraform(this._disabled),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       etag: {
-        value: cdktf.stringToHclTerraform(this._etag),
+        value: cdktn.stringToHclTerraform(this._etag),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._labels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

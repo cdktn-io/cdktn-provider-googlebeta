@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleIamAccessBoundaryPolicyConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleIamAccessBoundaryPolicyConfig extends cdktn.TerraformMetaArguments {
   /**
   * The display name of the rule.
   *
@@ -42,7 +42,7 @@ export interface GoogleIamAccessBoundaryPolicyConfig extends cdktf.TerraformMeta
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_access_boundary_policy#rules GoogleIamAccessBoundaryPolicy#rules}
   */
-  readonly rules: GoogleIamAccessBoundaryPolicyRules[] | cdktf.IResolvable;
+  readonly rules: GoogleIamAccessBoundaryPolicyRules[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
@@ -81,45 +81,45 @@ export interface GoogleIamAccessBoundaryPolicyRulesAccessBoundaryRuleAvailabilit
 }
 
 export function googleIamAccessBoundaryPolicyRulesAccessBoundaryRuleAvailabilityConditionToTerraform(struct?: GoogleIamAccessBoundaryPolicyRulesAccessBoundaryRuleAvailabilityConditionOutputReference | GoogleIamAccessBoundaryPolicyRulesAccessBoundaryRuleAvailabilityCondition): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    description: cdktf.stringToTerraform(struct!.description),
-    expression: cdktf.stringToTerraform(struct!.expression),
-    location: cdktf.stringToTerraform(struct!.location),
-    title: cdktf.stringToTerraform(struct!.title),
+    description: cdktn.stringToTerraform(struct!.description),
+    expression: cdktn.stringToTerraform(struct!.expression),
+    location: cdktn.stringToTerraform(struct!.location),
+    title: cdktn.stringToTerraform(struct!.title),
   }
 }
 
 
 export function googleIamAccessBoundaryPolicyRulesAccessBoundaryRuleAvailabilityConditionToHclTerraform(struct?: GoogleIamAccessBoundaryPolicyRulesAccessBoundaryRuleAvailabilityConditionOutputReference | GoogleIamAccessBoundaryPolicyRulesAccessBoundaryRuleAvailabilityCondition): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     description: {
-      value: cdktf.stringToHclTerraform(struct!.description),
+      value: cdktn.stringToHclTerraform(struct!.description),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     expression: {
-      value: cdktf.stringToHclTerraform(struct!.expression),
+      value: cdktn.stringToHclTerraform(struct!.expression),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     location: {
-      value: cdktf.stringToHclTerraform(struct!.location),
+      value: cdktn.stringToHclTerraform(struct!.location),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     title: {
-      value: cdktf.stringToHclTerraform(struct!.title),
+      value: cdktn.stringToHclTerraform(struct!.title),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -130,14 +130,14 @@ export function googleIamAccessBoundaryPolicyRulesAccessBoundaryRuleAvailability
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleIamAccessBoundaryPolicyRulesAccessBoundaryRuleAvailabilityConditionOutputReference extends cdktf.ComplexObject {
+export class GoogleIamAccessBoundaryPolicyRulesAccessBoundaryRuleAvailabilityConditionOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -263,32 +263,32 @@ export interface GoogleIamAccessBoundaryPolicyRulesAccessBoundaryRule {
 }
 
 export function googleIamAccessBoundaryPolicyRulesAccessBoundaryRuleToTerraform(struct?: GoogleIamAccessBoundaryPolicyRulesAccessBoundaryRuleOutputReference | GoogleIamAccessBoundaryPolicyRulesAccessBoundaryRule): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    available_permissions: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.availablePermissions),
-    available_resource: cdktf.stringToTerraform(struct!.availableResource),
+    available_permissions: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.availablePermissions),
+    available_resource: cdktn.stringToTerraform(struct!.availableResource),
     availability_condition: googleIamAccessBoundaryPolicyRulesAccessBoundaryRuleAvailabilityConditionToTerraform(struct!.availabilityCondition),
   }
 }
 
 
 export function googleIamAccessBoundaryPolicyRulesAccessBoundaryRuleToHclTerraform(struct?: GoogleIamAccessBoundaryPolicyRulesAccessBoundaryRuleOutputReference | GoogleIamAccessBoundaryPolicyRulesAccessBoundaryRule): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     available_permissions: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.availablePermissions),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.availablePermissions),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     available_resource: {
-      value: cdktf.stringToHclTerraform(struct!.availableResource),
+      value: cdktn.stringToHclTerraform(struct!.availableResource),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -305,14 +305,14 @@ export function googleIamAccessBoundaryPolicyRulesAccessBoundaryRuleToHclTerrafo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleIamAccessBoundaryPolicyRulesAccessBoundaryRuleOutputReference extends cdktf.ComplexObject {
+export class GoogleIamAccessBoundaryPolicyRulesAccessBoundaryRuleOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -412,26 +412,26 @@ export interface GoogleIamAccessBoundaryPolicyRules {
   readonly accessBoundaryRule?: GoogleIamAccessBoundaryPolicyRulesAccessBoundaryRule;
 }
 
-export function googleIamAccessBoundaryPolicyRulesToTerraform(struct?: GoogleIamAccessBoundaryPolicyRules | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleIamAccessBoundaryPolicyRulesToTerraform(struct?: GoogleIamAccessBoundaryPolicyRules | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    description: cdktf.stringToTerraform(struct!.description),
+    description: cdktn.stringToTerraform(struct!.description),
     access_boundary_rule: googleIamAccessBoundaryPolicyRulesAccessBoundaryRuleToTerraform(struct!.accessBoundaryRule),
   }
 }
 
 
-export function googleIamAccessBoundaryPolicyRulesToHclTerraform(struct?: GoogleIamAccessBoundaryPolicyRules | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleIamAccessBoundaryPolicyRulesToHclTerraform(struct?: GoogleIamAccessBoundaryPolicyRules | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     description: {
-      value: cdktf.stringToHclTerraform(struct!.description),
+      value: cdktn.stringToHclTerraform(struct!.description),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -448,9 +448,9 @@ export function googleIamAccessBoundaryPolicyRulesToHclTerraform(struct?: Google
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleIamAccessBoundaryPolicyRulesOutputReference extends cdktf.ComplexObject {
+export class GoogleIamAccessBoundaryPolicyRulesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -458,11 +458,11 @@ export class GoogleIamAccessBoundaryPolicyRulesOutputReference extends cdktf.Com
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleIamAccessBoundaryPolicyRules | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleIamAccessBoundaryPolicyRules | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -479,14 +479,14 @@ export class GoogleIamAccessBoundaryPolicyRulesOutputReference extends cdktf.Com
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleIamAccessBoundaryPolicyRules | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleIamAccessBoundaryPolicyRules | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._description = undefined;
       this._accessBoundaryRule.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -531,15 +531,15 @@ export class GoogleIamAccessBoundaryPolicyRulesOutputReference extends cdktf.Com
   }
 }
 
-export class GoogleIamAccessBoundaryPolicyRulesList extends cdktf.ComplexList {
-  public internalValue? : GoogleIamAccessBoundaryPolicyRules[] | cdktf.IResolvable
+export class GoogleIamAccessBoundaryPolicyRulesList extends cdktn.ComplexList {
+  public internalValue? : GoogleIamAccessBoundaryPolicyRules[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -565,39 +565,39 @@ export interface GoogleIamAccessBoundaryPolicyTimeouts {
   readonly update?: string;
 }
 
-export function googleIamAccessBoundaryPolicyTimeoutsToTerraform(struct?: GoogleIamAccessBoundaryPolicyTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleIamAccessBoundaryPolicyTimeoutsToTerraform(struct?: GoogleIamAccessBoundaryPolicyTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleIamAccessBoundaryPolicyTimeoutsToHclTerraform(struct?: GoogleIamAccessBoundaryPolicyTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleIamAccessBoundaryPolicyTimeoutsToHclTerraform(struct?: GoogleIamAccessBoundaryPolicyTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -608,19 +608,19 @@ export function googleIamAccessBoundaryPolicyTimeoutsToHclTerraform(struct?: Goo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleIamAccessBoundaryPolicyTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleIamAccessBoundaryPolicyTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleIamAccessBoundaryPolicyTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleIamAccessBoundaryPolicyTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -641,7 +641,7 @@ export class GoogleIamAccessBoundaryPolicyTimeoutsOutputReference extends cdktf.
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleIamAccessBoundaryPolicyTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleIamAccessBoundaryPolicyTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -649,7 +649,7 @@ export class GoogleIamAccessBoundaryPolicyTimeoutsOutputReference extends cdktf.
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -714,7 +714,7 @@ export class GoogleIamAccessBoundaryPolicyTimeoutsOutputReference extends cdktf.
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_access_boundary_policy google_iam_access_boundary_policy}
 */
-export class GoogleIamAccessBoundaryPolicy extends cdktf.TerraformResource {
+export class GoogleIamAccessBoundaryPolicy extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -725,14 +725,14 @@ export class GoogleIamAccessBoundaryPolicy extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleIamAccessBoundaryPolicy resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleIamAccessBoundaryPolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleIamAccessBoundaryPolicy to import
   * @param importFromId The id of the existing GoogleIamAccessBoundaryPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_access_boundary_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleIamAccessBoundaryPolicy to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_iam_access_boundary_policy", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_iam_access_boundary_policy", importId: importFromId, provider });
       }
 
   // ===========
@@ -842,7 +842,7 @@ export class GoogleIamAccessBoundaryPolicy extends cdktf.TerraformResource {
   public get rules() {
     return this._rules;
   }
-  public putRules(value: GoogleIamAccessBoundaryPolicyRules[] | cdktf.IResolvable) {
+  public putRules(value: GoogleIamAccessBoundaryPolicyRules[] | cdktn.IResolvable) {
     this._rules.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -872,11 +872,11 @@ export class GoogleIamAccessBoundaryPolicy extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      display_name: cdktf.stringToTerraform(this._displayName),
-      id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
-      parent: cdktf.stringToTerraform(this._parent),
-      rules: cdktf.listMapper(googleIamAccessBoundaryPolicyRulesToTerraform, true)(this._rules.internalValue),
+      display_name: cdktn.stringToTerraform(this._displayName),
+      id: cdktn.stringToTerraform(this._id),
+      name: cdktn.stringToTerraform(this._name),
+      parent: cdktn.stringToTerraform(this._parent),
+      rules: cdktn.listMapper(googleIamAccessBoundaryPolicyRulesToTerraform, true)(this._rules.internalValue),
       timeouts: googleIamAccessBoundaryPolicyTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -884,31 +884,31 @@ export class GoogleIamAccessBoundaryPolicy extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       display_name: {
-        value: cdktf.stringToHclTerraform(this._displayName),
+        value: cdktn.stringToHclTerraform(this._displayName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       parent: {
-        value: cdktf.stringToHclTerraform(this._parent),
+        value: cdktn.stringToHclTerraform(this._parent),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       rules: {
-        value: cdktf.listMapperHcl(googleIamAccessBoundaryPolicyRulesToHclTerraform, true)(this._rules.internalValue),
+        value: cdktn.listMapperHcl(googleIamAccessBoundaryPolicyRulesToHclTerraform, true)(this._rules.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "GoogleIamAccessBoundaryPolicyRulesList",

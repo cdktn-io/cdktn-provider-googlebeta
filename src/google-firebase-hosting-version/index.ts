@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleFirebaseHostingVersionConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleFirebaseHostingVersionConfig extends cdktn.TerraformMetaArguments {
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_hosting_version#id GoogleFirebaseHostingVersion#id}
   *
@@ -59,39 +59,39 @@ export interface GoogleFirebaseHostingVersionConfigHeaders {
   readonly regex?: string;
 }
 
-export function googleFirebaseHostingVersionConfigHeadersToTerraform(struct?: GoogleFirebaseHostingVersionConfigHeaders | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleFirebaseHostingVersionConfigHeadersToTerraform(struct?: GoogleFirebaseHostingVersionConfigHeaders | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    glob: cdktf.stringToTerraform(struct!.glob),
-    headers: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.headers),
-    regex: cdktf.stringToTerraform(struct!.regex),
+    glob: cdktn.stringToTerraform(struct!.glob),
+    headers: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.headers),
+    regex: cdktn.stringToTerraform(struct!.regex),
   }
 }
 
 
-export function googleFirebaseHostingVersionConfigHeadersToHclTerraform(struct?: GoogleFirebaseHostingVersionConfigHeaders | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleFirebaseHostingVersionConfigHeadersToHclTerraform(struct?: GoogleFirebaseHostingVersionConfigHeaders | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     glob: {
-      value: cdktf.stringToHclTerraform(struct!.glob),
+      value: cdktn.stringToHclTerraform(struct!.glob),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     headers: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.headers),
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.headers),
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
     },
     regex: {
-      value: cdktf.stringToHclTerraform(struct!.regex),
+      value: cdktn.stringToHclTerraform(struct!.regex),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -102,9 +102,9 @@ export function googleFirebaseHostingVersionConfigHeadersToHclTerraform(struct?:
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleFirebaseHostingVersionConfigHeadersOutputReference extends cdktf.ComplexObject {
+export class GoogleFirebaseHostingVersionConfigHeadersOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -112,11 +112,11 @@ export class GoogleFirebaseHostingVersionConfigHeadersOutputReference extends cd
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleFirebaseHostingVersionConfigHeaders | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleFirebaseHostingVersionConfigHeaders | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -137,7 +137,7 @@ export class GoogleFirebaseHostingVersionConfigHeadersOutputReference extends cd
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleFirebaseHostingVersionConfigHeaders | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleFirebaseHostingVersionConfigHeaders | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -145,7 +145,7 @@ export class GoogleFirebaseHostingVersionConfigHeadersOutputReference extends cd
       this._headers = undefined;
       this._regex = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -204,15 +204,15 @@ export class GoogleFirebaseHostingVersionConfigHeadersOutputReference extends cd
   }
 }
 
-export class GoogleFirebaseHostingVersionConfigHeadersList extends cdktf.ComplexList {
-  public internalValue? : GoogleFirebaseHostingVersionConfigHeaders[] | cdktf.IResolvable
+export class GoogleFirebaseHostingVersionConfigHeadersList extends cdktn.ComplexList {
+  public internalValue? : GoogleFirebaseHostingVersionConfigHeaders[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -260,46 +260,46 @@ export interface GoogleFirebaseHostingVersionConfigRedirects {
   readonly statusCode: number;
 }
 
-export function googleFirebaseHostingVersionConfigRedirectsToTerraform(struct?: GoogleFirebaseHostingVersionConfigRedirects | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleFirebaseHostingVersionConfigRedirectsToTerraform(struct?: GoogleFirebaseHostingVersionConfigRedirects | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    glob: cdktf.stringToTerraform(struct!.glob),
-    location: cdktf.stringToTerraform(struct!.location),
-    regex: cdktf.stringToTerraform(struct!.regex),
-    status_code: cdktf.numberToTerraform(struct!.statusCode),
+    glob: cdktn.stringToTerraform(struct!.glob),
+    location: cdktn.stringToTerraform(struct!.location),
+    regex: cdktn.stringToTerraform(struct!.regex),
+    status_code: cdktn.numberToTerraform(struct!.statusCode),
   }
 }
 
 
-export function googleFirebaseHostingVersionConfigRedirectsToHclTerraform(struct?: GoogleFirebaseHostingVersionConfigRedirects | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleFirebaseHostingVersionConfigRedirectsToHclTerraform(struct?: GoogleFirebaseHostingVersionConfigRedirects | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     glob: {
-      value: cdktf.stringToHclTerraform(struct!.glob),
+      value: cdktn.stringToHclTerraform(struct!.glob),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     location: {
-      value: cdktf.stringToHclTerraform(struct!.location),
+      value: cdktn.stringToHclTerraform(struct!.location),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     regex: {
-      value: cdktf.stringToHclTerraform(struct!.regex),
+      value: cdktn.stringToHclTerraform(struct!.regex),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     status_code: {
-      value: cdktf.numberToHclTerraform(struct!.statusCode),
+      value: cdktn.numberToHclTerraform(struct!.statusCode),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -310,9 +310,9 @@ export function googleFirebaseHostingVersionConfigRedirectsToHclTerraform(struct
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleFirebaseHostingVersionConfigRedirectsOutputReference extends cdktf.ComplexObject {
+export class GoogleFirebaseHostingVersionConfigRedirectsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -320,11 +320,11 @@ export class GoogleFirebaseHostingVersionConfigRedirectsOutputReference extends 
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleFirebaseHostingVersionConfigRedirects | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleFirebaseHostingVersionConfigRedirects | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -349,7 +349,7 @@ export class GoogleFirebaseHostingVersionConfigRedirectsOutputReference extends 
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleFirebaseHostingVersionConfigRedirects | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleFirebaseHostingVersionConfigRedirects | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -358,7 +358,7 @@ export class GoogleFirebaseHostingVersionConfigRedirectsOutputReference extends 
       this._regex = undefined;
       this._statusCode = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -431,15 +431,15 @@ export class GoogleFirebaseHostingVersionConfigRedirectsOutputReference extends 
   }
 }
 
-export class GoogleFirebaseHostingVersionConfigRedirectsList extends cdktf.ComplexList {
-  public internalValue? : GoogleFirebaseHostingVersionConfigRedirects[] | cdktf.IResolvable
+export class GoogleFirebaseHostingVersionConfigRedirectsList extends cdktn.ComplexList {
+  public internalValue? : GoogleFirebaseHostingVersionConfigRedirects[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -466,31 +466,31 @@ export interface GoogleFirebaseHostingVersionConfigRewritesRun {
 }
 
 export function googleFirebaseHostingVersionConfigRewritesRunToTerraform(struct?: GoogleFirebaseHostingVersionConfigRewritesRunOutputReference | GoogleFirebaseHostingVersionConfigRewritesRun): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    region: cdktf.stringToTerraform(struct!.region),
-    service_id: cdktf.stringToTerraform(struct!.serviceId),
+    region: cdktn.stringToTerraform(struct!.region),
+    service_id: cdktn.stringToTerraform(struct!.serviceId),
   }
 }
 
 
 export function googleFirebaseHostingVersionConfigRewritesRunToHclTerraform(struct?: GoogleFirebaseHostingVersionConfigRewritesRunOutputReference | GoogleFirebaseHostingVersionConfigRewritesRun): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     region: {
-      value: cdktf.stringToHclTerraform(struct!.region),
+      value: cdktn.stringToHclTerraform(struct!.region),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     service_id: {
-      value: cdktf.stringToHclTerraform(struct!.serviceId),
+      value: cdktn.stringToHclTerraform(struct!.serviceId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -501,14 +501,14 @@ export function googleFirebaseHostingVersionConfigRewritesRunToHclTerraform(stru
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleFirebaseHostingVersionConfigRewritesRunOutputReference extends cdktf.ComplexObject {
+export class GoogleFirebaseHostingVersionConfigRewritesRunOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -601,47 +601,47 @@ export interface GoogleFirebaseHostingVersionConfigRewrites {
   readonly run?: GoogleFirebaseHostingVersionConfigRewritesRun;
 }
 
-export function googleFirebaseHostingVersionConfigRewritesToTerraform(struct?: GoogleFirebaseHostingVersionConfigRewrites | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleFirebaseHostingVersionConfigRewritesToTerraform(struct?: GoogleFirebaseHostingVersionConfigRewrites | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    function: cdktf.stringToTerraform(struct!.function),
-    glob: cdktf.stringToTerraform(struct!.glob),
-    path: cdktf.stringToTerraform(struct!.path),
-    regex: cdktf.stringToTerraform(struct!.regex),
+    function: cdktn.stringToTerraform(struct!.function),
+    glob: cdktn.stringToTerraform(struct!.glob),
+    path: cdktn.stringToTerraform(struct!.path),
+    regex: cdktn.stringToTerraform(struct!.regex),
     run: googleFirebaseHostingVersionConfigRewritesRunToTerraform(struct!.run),
   }
 }
 
 
-export function googleFirebaseHostingVersionConfigRewritesToHclTerraform(struct?: GoogleFirebaseHostingVersionConfigRewrites | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleFirebaseHostingVersionConfigRewritesToHclTerraform(struct?: GoogleFirebaseHostingVersionConfigRewrites | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     function: {
-      value: cdktf.stringToHclTerraform(struct!.function),
+      value: cdktn.stringToHclTerraform(struct!.function),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     glob: {
-      value: cdktf.stringToHclTerraform(struct!.glob),
+      value: cdktn.stringToHclTerraform(struct!.glob),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     path: {
-      value: cdktf.stringToHclTerraform(struct!.path),
+      value: cdktn.stringToHclTerraform(struct!.path),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     regex: {
-      value: cdktf.stringToHclTerraform(struct!.regex),
+      value: cdktn.stringToHclTerraform(struct!.regex),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -658,9 +658,9 @@ export function googleFirebaseHostingVersionConfigRewritesToHclTerraform(struct?
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleFirebaseHostingVersionConfigRewritesOutputReference extends cdktf.ComplexObject {
+export class GoogleFirebaseHostingVersionConfigRewritesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -668,11 +668,11 @@ export class GoogleFirebaseHostingVersionConfigRewritesOutputReference extends c
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleFirebaseHostingVersionConfigRewrites | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleFirebaseHostingVersionConfigRewrites | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -701,7 +701,7 @@ export class GoogleFirebaseHostingVersionConfigRewritesOutputReference extends c
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleFirebaseHostingVersionConfigRewrites | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleFirebaseHostingVersionConfigRewrites | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -711,7 +711,7 @@ export class GoogleFirebaseHostingVersionConfigRewritesOutputReference extends c
       this._regex = undefined;
       this._run.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -807,15 +807,15 @@ export class GoogleFirebaseHostingVersionConfigRewritesOutputReference extends c
   }
 }
 
-export class GoogleFirebaseHostingVersionConfigRewritesList extends cdktf.ComplexList {
-  public internalValue? : GoogleFirebaseHostingVersionConfigRewrites[] | cdktf.IResolvable
+export class GoogleFirebaseHostingVersionConfigRewritesList extends cdktn.ComplexList {
+  public internalValue? : GoogleFirebaseHostingVersionConfigRewrites[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -832,54 +832,54 @@ export interface GoogleFirebaseHostingVersionConfigA {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_hosting_version#headers GoogleFirebaseHostingVersion#headers}
   */
-  readonly headers?: GoogleFirebaseHostingVersionConfigHeaders[] | cdktf.IResolvable;
+  readonly headers?: GoogleFirebaseHostingVersionConfigHeaders[] | cdktn.IResolvable;
   /**
   * redirects block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_hosting_version#redirects GoogleFirebaseHostingVersion#redirects}
   */
-  readonly redirects?: GoogleFirebaseHostingVersionConfigRedirects[] | cdktf.IResolvable;
+  readonly redirects?: GoogleFirebaseHostingVersionConfigRedirects[] | cdktn.IResolvable;
   /**
   * rewrites block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_hosting_version#rewrites GoogleFirebaseHostingVersion#rewrites}
   */
-  readonly rewrites?: GoogleFirebaseHostingVersionConfigRewrites[] | cdktf.IResolvable;
+  readonly rewrites?: GoogleFirebaseHostingVersionConfigRewrites[] | cdktn.IResolvable;
 }
 
 export function googleFirebaseHostingVersionConfigAToTerraform(struct?: GoogleFirebaseHostingVersionConfigAOutputReference | GoogleFirebaseHostingVersionConfigA): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    headers: cdktf.listMapper(googleFirebaseHostingVersionConfigHeadersToTerraform, true)(struct!.headers),
-    redirects: cdktf.listMapper(googleFirebaseHostingVersionConfigRedirectsToTerraform, true)(struct!.redirects),
-    rewrites: cdktf.listMapper(googleFirebaseHostingVersionConfigRewritesToTerraform, true)(struct!.rewrites),
+    headers: cdktn.listMapper(googleFirebaseHostingVersionConfigHeadersToTerraform, true)(struct!.headers),
+    redirects: cdktn.listMapper(googleFirebaseHostingVersionConfigRedirectsToTerraform, true)(struct!.redirects),
+    rewrites: cdktn.listMapper(googleFirebaseHostingVersionConfigRewritesToTerraform, true)(struct!.rewrites),
   }
 }
 
 
 export function googleFirebaseHostingVersionConfigAToHclTerraform(struct?: GoogleFirebaseHostingVersionConfigAOutputReference | GoogleFirebaseHostingVersionConfigA): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     headers: {
-      value: cdktf.listMapperHcl(googleFirebaseHostingVersionConfigHeadersToHclTerraform, true)(struct!.headers),
+      value: cdktn.listMapperHcl(googleFirebaseHostingVersionConfigHeadersToHclTerraform, true)(struct!.headers),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleFirebaseHostingVersionConfigHeadersList",
     },
     redirects: {
-      value: cdktf.listMapperHcl(googleFirebaseHostingVersionConfigRedirectsToHclTerraform, true)(struct!.redirects),
+      value: cdktn.listMapperHcl(googleFirebaseHostingVersionConfigRedirectsToHclTerraform, true)(struct!.redirects),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleFirebaseHostingVersionConfigRedirectsList",
     },
     rewrites: {
-      value: cdktf.listMapperHcl(googleFirebaseHostingVersionConfigRewritesToHclTerraform, true)(struct!.rewrites),
+      value: cdktn.listMapperHcl(googleFirebaseHostingVersionConfigRewritesToHclTerraform, true)(struct!.rewrites),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleFirebaseHostingVersionConfigRewritesList",
@@ -890,14 +890,14 @@ export function googleFirebaseHostingVersionConfigAToHclTerraform(struct?: Googl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleFirebaseHostingVersionConfigAOutputReference extends cdktf.ComplexObject {
+export class GoogleFirebaseHostingVersionConfigAOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -939,7 +939,7 @@ export class GoogleFirebaseHostingVersionConfigAOutputReference extends cdktf.Co
   public get headers() {
     return this._headers;
   }
-  public putHeaders(value: GoogleFirebaseHostingVersionConfigHeaders[] | cdktf.IResolvable) {
+  public putHeaders(value: GoogleFirebaseHostingVersionConfigHeaders[] | cdktn.IResolvable) {
     this._headers.internalValue = value;
   }
   public resetHeaders() {
@@ -955,7 +955,7 @@ export class GoogleFirebaseHostingVersionConfigAOutputReference extends cdktf.Co
   public get redirects() {
     return this._redirects;
   }
-  public putRedirects(value: GoogleFirebaseHostingVersionConfigRedirects[] | cdktf.IResolvable) {
+  public putRedirects(value: GoogleFirebaseHostingVersionConfigRedirects[] | cdktn.IResolvable) {
     this._redirects.internalValue = value;
   }
   public resetRedirects() {
@@ -971,7 +971,7 @@ export class GoogleFirebaseHostingVersionConfigAOutputReference extends cdktf.Co
   public get rewrites() {
     return this._rewrites;
   }
-  public putRewrites(value: GoogleFirebaseHostingVersionConfigRewrites[] | cdktf.IResolvable) {
+  public putRewrites(value: GoogleFirebaseHostingVersionConfigRewrites[] | cdktn.IResolvable) {
     this._rewrites.internalValue = value;
   }
   public resetRewrites() {
@@ -993,32 +993,32 @@ export interface GoogleFirebaseHostingVersionTimeouts {
   readonly delete?: string;
 }
 
-export function googleFirebaseHostingVersionTimeoutsToTerraform(struct?: GoogleFirebaseHostingVersionTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleFirebaseHostingVersionTimeoutsToTerraform(struct?: GoogleFirebaseHostingVersionTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
   }
 }
 
 
-export function googleFirebaseHostingVersionTimeoutsToHclTerraform(struct?: GoogleFirebaseHostingVersionTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleFirebaseHostingVersionTimeoutsToHclTerraform(struct?: GoogleFirebaseHostingVersionTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1029,19 +1029,19 @@ export function googleFirebaseHostingVersionTimeoutsToHclTerraform(struct?: Goog
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleFirebaseHostingVersionTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleFirebaseHostingVersionTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleFirebaseHostingVersionTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleFirebaseHostingVersionTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1058,14 +1058,14 @@ export class GoogleFirebaseHostingVersionTimeoutsOutputReference extends cdktf.C
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleFirebaseHostingVersionTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleFirebaseHostingVersionTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._create = undefined;
       this._delete = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1113,7 +1113,7 @@ export class GoogleFirebaseHostingVersionTimeoutsOutputReference extends cdktf.C
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_hosting_version google_firebase_hosting_version}
 */
-export class GoogleFirebaseHostingVersion extends cdktf.TerraformResource {
+export class GoogleFirebaseHostingVersion extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -1124,14 +1124,14 @@ export class GoogleFirebaseHostingVersion extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleFirebaseHostingVersion resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleFirebaseHostingVersion resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleFirebaseHostingVersion to import
   * @param importFromId The id of the existing GoogleFirebaseHostingVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_hosting_version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleFirebaseHostingVersion to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_firebase_hosting_version", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_firebase_hosting_version", importId: importFromId, provider });
       }
 
   // ===========
@@ -1248,8 +1248,8 @@ export class GoogleFirebaseHostingVersion extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      id: cdktf.stringToTerraform(this._id),
-      site_id: cdktf.stringToTerraform(this._siteId),
+      id: cdktn.stringToTerraform(this._id),
+      site_id: cdktn.stringToTerraform(this._siteId),
       config: googleFirebaseHostingVersionConfigAToTerraform(this._config.internalValue),
       timeouts: googleFirebaseHostingVersionTimeoutsToTerraform(this._timeouts.internalValue),
     };
@@ -1258,13 +1258,13 @@ export class GoogleFirebaseHostingVersion extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       site_id: {
-        value: cdktf.stringToHclTerraform(this._siteId),
+        value: cdktn.stringToHclTerraform(this._siteId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

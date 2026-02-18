@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleBeyondcorpSecurityGatewayApplicationIamPolicyConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleBeyondcorpSecurityGatewayApplicationIamPolicyConfig extends cdktn.TerraformMetaArguments {
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_beyondcorp_security_gateway_application_iam_policy#application_id GoogleBeyondcorpSecurityGatewayApplicationIamPolicy#application_id}
   */
@@ -40,7 +40,7 @@ export interface GoogleBeyondcorpSecurityGatewayApplicationIamPolicyConfig exten
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_beyondcorp_security_gateway_application_iam_policy google_beyondcorp_security_gateway_application_iam_policy}
 */
-export class GoogleBeyondcorpSecurityGatewayApplicationIamPolicy extends cdktf.TerraformResource {
+export class GoogleBeyondcorpSecurityGatewayApplicationIamPolicy extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -51,14 +51,14 @@ export class GoogleBeyondcorpSecurityGatewayApplicationIamPolicy extends cdktf.T
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleBeyondcorpSecurityGatewayApplicationIamPolicy resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleBeyondcorpSecurityGatewayApplicationIamPolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleBeyondcorpSecurityGatewayApplicationIamPolicy to import
   * @param importFromId The id of the existing GoogleBeyondcorpSecurityGatewayApplicationIamPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_beyondcorp_security_gateway_application_iam_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleBeyondcorpSecurityGatewayApplicationIamPolicy to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_beyondcorp_security_gateway_application_iam_policy", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_beyondcorp_security_gateway_application_iam_policy", importId: importFromId, provider });
       }
 
   // ===========
@@ -181,42 +181,42 @@ export class GoogleBeyondcorpSecurityGatewayApplicationIamPolicy extends cdktf.T
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      application_id: cdktf.stringToTerraform(this._applicationId),
-      id: cdktf.stringToTerraform(this._id),
-      policy_data: cdktf.stringToTerraform(this._policyData),
-      project: cdktf.stringToTerraform(this._project),
-      security_gateway_id: cdktf.stringToTerraform(this._securityGatewayId),
+      application_id: cdktn.stringToTerraform(this._applicationId),
+      id: cdktn.stringToTerraform(this._id),
+      policy_data: cdktn.stringToTerraform(this._policyData),
+      project: cdktn.stringToTerraform(this._project),
+      security_gateway_id: cdktn.stringToTerraform(this._securityGatewayId),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       application_id: {
-        value: cdktf.stringToHclTerraform(this._applicationId),
+        value: cdktn.stringToHclTerraform(this._applicationId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       policy_data: {
-        value: cdktf.stringToHclTerraform(this._policyData),
+        value: cdktn.stringToHclTerraform(this._policyData),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       security_gateway_id: {
-        value: cdktf.stringToHclTerraform(this._securityGatewayId),
+        value: cdktn.stringToHclTerraform(this._securityGatewayId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

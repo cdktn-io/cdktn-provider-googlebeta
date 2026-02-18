@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleDataplexAssetConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleDataplexAssetConfig extends cdktn.TerraformMetaArguments {
   /**
   * The zone for the resource
   *
@@ -93,8 +93,8 @@ export interface GoogleDataplexAssetDiscoveryStatusStats {
 }
 
 export function googleDataplexAssetDiscoveryStatusStatsToTerraform(struct?: GoogleDataplexAssetDiscoveryStatusStats): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -103,8 +103,8 @@ export function googleDataplexAssetDiscoveryStatusStatsToTerraform(struct?: Goog
 
 
 export function googleDataplexAssetDiscoveryStatusStatsToHclTerraform(struct?: GoogleDataplexAssetDiscoveryStatusStats): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -112,7 +112,7 @@ export function googleDataplexAssetDiscoveryStatusStatsToHclTerraform(struct?: G
   return attrs;
 }
 
-export class GoogleDataplexAssetDiscoveryStatusStatsOutputReference extends cdktf.ComplexObject {
+export class GoogleDataplexAssetDiscoveryStatusStatsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -121,7 +121,7 @@ export class GoogleDataplexAssetDiscoveryStatusStatsOutputReference extends cdkt
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -161,14 +161,14 @@ export class GoogleDataplexAssetDiscoveryStatusStatsOutputReference extends cdkt
   }
 }
 
-export class GoogleDataplexAssetDiscoveryStatusStatsList extends cdktf.ComplexList {
+export class GoogleDataplexAssetDiscoveryStatusStatsList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -183,8 +183,8 @@ export interface GoogleDataplexAssetDiscoveryStatus {
 }
 
 export function googleDataplexAssetDiscoveryStatusToTerraform(struct?: GoogleDataplexAssetDiscoveryStatus): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -193,8 +193,8 @@ export function googleDataplexAssetDiscoveryStatusToTerraform(struct?: GoogleDat
 
 
 export function googleDataplexAssetDiscoveryStatusToHclTerraform(struct?: GoogleDataplexAssetDiscoveryStatus): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -202,7 +202,7 @@ export function googleDataplexAssetDiscoveryStatusToHclTerraform(struct?: Google
   return attrs;
 }
 
-export class GoogleDataplexAssetDiscoveryStatusOutputReference extends cdktf.ComplexObject {
+export class GoogleDataplexAssetDiscoveryStatusOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -211,7 +211,7 @@ export class GoogleDataplexAssetDiscoveryStatusOutputReference extends cdktf.Com
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -262,14 +262,14 @@ export class GoogleDataplexAssetDiscoveryStatusOutputReference extends cdktf.Com
   }
 }
 
-export class GoogleDataplexAssetDiscoveryStatusList extends cdktf.ComplexList {
+export class GoogleDataplexAssetDiscoveryStatusList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -284,8 +284,8 @@ export interface GoogleDataplexAssetResourceStatus {
 }
 
 export function googleDataplexAssetResourceStatusToTerraform(struct?: GoogleDataplexAssetResourceStatus): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -294,8 +294,8 @@ export function googleDataplexAssetResourceStatusToTerraform(struct?: GoogleData
 
 
 export function googleDataplexAssetResourceStatusToHclTerraform(struct?: GoogleDataplexAssetResourceStatus): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -303,7 +303,7 @@ export function googleDataplexAssetResourceStatusToHclTerraform(struct?: GoogleD
   return attrs;
 }
 
-export class GoogleDataplexAssetResourceStatusOutputReference extends cdktf.ComplexObject {
+export class GoogleDataplexAssetResourceStatusOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -312,7 +312,7 @@ export class GoogleDataplexAssetResourceStatusOutputReference extends cdktf.Comp
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -347,14 +347,14 @@ export class GoogleDataplexAssetResourceStatusOutputReference extends cdktf.Comp
   }
 }
 
-export class GoogleDataplexAssetResourceStatusList extends cdktf.ComplexList {
+export class GoogleDataplexAssetResourceStatusList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -369,8 +369,8 @@ export interface GoogleDataplexAssetSecurityStatus {
 }
 
 export function googleDataplexAssetSecurityStatusToTerraform(struct?: GoogleDataplexAssetSecurityStatus): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -379,8 +379,8 @@ export function googleDataplexAssetSecurityStatusToTerraform(struct?: GoogleData
 
 
 export function googleDataplexAssetSecurityStatusToHclTerraform(struct?: GoogleDataplexAssetSecurityStatus): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -388,7 +388,7 @@ export function googleDataplexAssetSecurityStatusToHclTerraform(struct?: GoogleD
   return attrs;
 }
 
-export class GoogleDataplexAssetSecurityStatusOutputReference extends cdktf.ComplexObject {
+export class GoogleDataplexAssetSecurityStatusOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -397,7 +397,7 @@ export class GoogleDataplexAssetSecurityStatusOutputReference extends cdktf.Comp
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -432,14 +432,14 @@ export class GoogleDataplexAssetSecurityStatusOutputReference extends cdktf.Comp
   }
 }
 
-export class GoogleDataplexAssetSecurityStatusList extends cdktf.ComplexList {
+export class GoogleDataplexAssetSecurityStatusList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -462,7 +462,7 @@ export interface GoogleDataplexAssetDiscoverySpecCsvOptions {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_asset#disable_type_inference GoogleDataplexAsset#disable_type_inference}
   */
-  readonly disableTypeInference?: boolean | cdktf.IResolvable;
+  readonly disableTypeInference?: boolean | cdktn.IResolvable;
   /**
   * Optional. The character encoding of the data. The default is UTF-8.
   *
@@ -478,45 +478,45 @@ export interface GoogleDataplexAssetDiscoverySpecCsvOptions {
 }
 
 export function googleDataplexAssetDiscoverySpecCsvOptionsToTerraform(struct?: GoogleDataplexAssetDiscoverySpecCsvOptionsOutputReference | GoogleDataplexAssetDiscoverySpecCsvOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    delimiter: cdktf.stringToTerraform(struct!.delimiter),
-    disable_type_inference: cdktf.booleanToTerraform(struct!.disableTypeInference),
-    encoding: cdktf.stringToTerraform(struct!.encoding),
-    header_rows: cdktf.numberToTerraform(struct!.headerRows),
+    delimiter: cdktn.stringToTerraform(struct!.delimiter),
+    disable_type_inference: cdktn.booleanToTerraform(struct!.disableTypeInference),
+    encoding: cdktn.stringToTerraform(struct!.encoding),
+    header_rows: cdktn.numberToTerraform(struct!.headerRows),
   }
 }
 
 
 export function googleDataplexAssetDiscoverySpecCsvOptionsToHclTerraform(struct?: GoogleDataplexAssetDiscoverySpecCsvOptionsOutputReference | GoogleDataplexAssetDiscoverySpecCsvOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     delimiter: {
-      value: cdktf.stringToHclTerraform(struct!.delimiter),
+      value: cdktn.stringToHclTerraform(struct!.delimiter),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     disable_type_inference: {
-      value: cdktf.booleanToHclTerraform(struct!.disableTypeInference),
+      value: cdktn.booleanToHclTerraform(struct!.disableTypeInference),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     encoding: {
-      value: cdktf.stringToHclTerraform(struct!.encoding),
+      value: cdktn.stringToHclTerraform(struct!.encoding),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     header_rows: {
-      value: cdktf.numberToHclTerraform(struct!.headerRows),
+      value: cdktn.numberToHclTerraform(struct!.headerRows),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -527,14 +527,14 @@ export function googleDataplexAssetDiscoverySpecCsvOptionsToHclTerraform(struct?
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataplexAssetDiscoverySpecCsvOptionsOutputReference extends cdktf.ComplexObject {
+export class GoogleDataplexAssetDiscoverySpecCsvOptionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -594,11 +594,11 @@ export class GoogleDataplexAssetDiscoverySpecCsvOptionsOutputReference extends c
   }
 
   // disable_type_inference - computed: false, optional: true, required: false
-  private _disableTypeInference?: boolean | cdktf.IResolvable; 
+  private _disableTypeInference?: boolean | cdktn.IResolvable; 
   public get disableTypeInference() {
     return this.getBooleanAttribute('disable_type_inference');
   }
-  public set disableTypeInference(value: boolean | cdktf.IResolvable) {
+  public set disableTypeInference(value: boolean | cdktn.IResolvable) {
     this._disableTypeInference = value;
   }
   public resetDisableTypeInference() {
@@ -647,7 +647,7 @@ export interface GoogleDataplexAssetDiscoverySpecJsonOptions {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_asset#disable_type_inference GoogleDataplexAsset#disable_type_inference}
   */
-  readonly disableTypeInference?: boolean | cdktf.IResolvable;
+  readonly disableTypeInference?: boolean | cdktn.IResolvable;
   /**
   * Optional. The character encoding of the data. The default is UTF-8.
   *
@@ -657,31 +657,31 @@ export interface GoogleDataplexAssetDiscoverySpecJsonOptions {
 }
 
 export function googleDataplexAssetDiscoverySpecJsonOptionsToTerraform(struct?: GoogleDataplexAssetDiscoverySpecJsonOptionsOutputReference | GoogleDataplexAssetDiscoverySpecJsonOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    disable_type_inference: cdktf.booleanToTerraform(struct!.disableTypeInference),
-    encoding: cdktf.stringToTerraform(struct!.encoding),
+    disable_type_inference: cdktn.booleanToTerraform(struct!.disableTypeInference),
+    encoding: cdktn.stringToTerraform(struct!.encoding),
   }
 }
 
 
 export function googleDataplexAssetDiscoverySpecJsonOptionsToHclTerraform(struct?: GoogleDataplexAssetDiscoverySpecJsonOptionsOutputReference | GoogleDataplexAssetDiscoverySpecJsonOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     disable_type_inference: {
-      value: cdktf.booleanToHclTerraform(struct!.disableTypeInference),
+      value: cdktn.booleanToHclTerraform(struct!.disableTypeInference),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     encoding: {
-      value: cdktf.stringToHclTerraform(struct!.encoding),
+      value: cdktn.stringToHclTerraform(struct!.encoding),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -692,14 +692,14 @@ export function googleDataplexAssetDiscoverySpecJsonOptionsToHclTerraform(struct
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataplexAssetDiscoverySpecJsonOptionsOutputReference extends cdktf.ComplexObject {
+export class GoogleDataplexAssetDiscoverySpecJsonOptionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -731,11 +731,11 @@ export class GoogleDataplexAssetDiscoverySpecJsonOptionsOutputReference extends 
   }
 
   // disable_type_inference - computed: false, optional: true, required: false
-  private _disableTypeInference?: boolean | cdktf.IResolvable; 
+  private _disableTypeInference?: boolean | cdktn.IResolvable; 
   public get disableTypeInference() {
     return this.getBooleanAttribute('disable_type_inference');
   }
-  public set disableTypeInference(value: boolean | cdktf.IResolvable) {
+  public set disableTypeInference(value: boolean | cdktn.IResolvable) {
     this._disableTypeInference = value;
   }
   public resetDisableTypeInference() {
@@ -768,7 +768,7 @@ export interface GoogleDataplexAssetDiscoverySpec {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_asset#enabled GoogleDataplexAsset#enabled}
   */
-  readonly enabled: boolean | cdktf.IResolvable;
+  readonly enabled: boolean | cdktn.IResolvable;
   /**
   * Optional. The list of patterns to apply for selecting data to exclude during discovery. For Cloud Storage bucket assets, these are interpreted as glob patterns used to match object names. For BigQuery dataset assets, these are interpreted as patterns to match table names.
   *
@@ -802,15 +802,15 @@ export interface GoogleDataplexAssetDiscoverySpec {
 }
 
 export function googleDataplexAssetDiscoverySpecToTerraform(struct?: GoogleDataplexAssetDiscoverySpecOutputReference | GoogleDataplexAssetDiscoverySpec): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    enabled: cdktf.booleanToTerraform(struct!.enabled),
-    exclude_patterns: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.excludePatterns),
-    include_patterns: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.includePatterns),
-    schedule: cdktf.stringToTerraform(struct!.schedule),
+    enabled: cdktn.booleanToTerraform(struct!.enabled),
+    exclude_patterns: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.excludePatterns),
+    include_patterns: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.includePatterns),
+    schedule: cdktn.stringToTerraform(struct!.schedule),
     csv_options: googleDataplexAssetDiscoverySpecCsvOptionsToTerraform(struct!.csvOptions),
     json_options: googleDataplexAssetDiscoverySpecJsonOptionsToTerraform(struct!.jsonOptions),
   }
@@ -818,31 +818,31 @@ export function googleDataplexAssetDiscoverySpecToTerraform(struct?: GoogleDatap
 
 
 export function googleDataplexAssetDiscoverySpecToHclTerraform(struct?: GoogleDataplexAssetDiscoverySpecOutputReference | GoogleDataplexAssetDiscoverySpec): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     enabled: {
-      value: cdktf.booleanToHclTerraform(struct!.enabled),
+      value: cdktn.booleanToHclTerraform(struct!.enabled),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     exclude_patterns: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.excludePatterns),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.excludePatterns),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     include_patterns: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.includePatterns),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.includePatterns),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     schedule: {
-      value: cdktf.stringToHclTerraform(struct!.schedule),
+      value: cdktn.stringToHclTerraform(struct!.schedule),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -865,14 +865,14 @@ export function googleDataplexAssetDiscoverySpecToHclTerraform(struct?: GoogleDa
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataplexAssetDiscoverySpecOutputReference extends cdktf.ComplexObject {
+export class GoogleDataplexAssetDiscoverySpecOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -928,11 +928,11 @@ export class GoogleDataplexAssetDiscoverySpecOutputReference extends cdktf.Compl
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktf.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
-  public set enabled(value: boolean | cdktf.IResolvable) {
+  public set enabled(value: boolean | cdktn.IResolvable) {
     this._enabled = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -1042,38 +1042,38 @@ export interface GoogleDataplexAssetResourceSpec {
 }
 
 export function googleDataplexAssetResourceSpecToTerraform(struct?: GoogleDataplexAssetResourceSpecOutputReference | GoogleDataplexAssetResourceSpec): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    name: cdktf.stringToTerraform(struct!.name),
-    read_access_mode: cdktf.stringToTerraform(struct!.readAccessMode),
-    type: cdktf.stringToTerraform(struct!.type),
+    name: cdktn.stringToTerraform(struct!.name),
+    read_access_mode: cdktn.stringToTerraform(struct!.readAccessMode),
+    type: cdktn.stringToTerraform(struct!.type),
   }
 }
 
 
 export function googleDataplexAssetResourceSpecToHclTerraform(struct?: GoogleDataplexAssetResourceSpecOutputReference | GoogleDataplexAssetResourceSpec): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
+      value: cdktn.stringToHclTerraform(struct!.name),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     read_access_mode: {
-      value: cdktf.stringToHclTerraform(struct!.readAccessMode),
+      value: cdktn.stringToHclTerraform(struct!.readAccessMode),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     type: {
-      value: cdktf.stringToHclTerraform(struct!.type),
+      value: cdktn.stringToHclTerraform(struct!.type),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1084,14 +1084,14 @@ export function googleDataplexAssetResourceSpecToHclTerraform(struct?: GoogleDat
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataplexAssetResourceSpecOutputReference extends cdktf.ComplexObject {
+export class GoogleDataplexAssetResourceSpecOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1188,39 +1188,39 @@ export interface GoogleDataplexAssetTimeouts {
   readonly update?: string;
 }
 
-export function googleDataplexAssetTimeoutsToTerraform(struct?: GoogleDataplexAssetTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDataplexAssetTimeoutsToTerraform(struct?: GoogleDataplexAssetTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleDataplexAssetTimeoutsToHclTerraform(struct?: GoogleDataplexAssetTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDataplexAssetTimeoutsToHclTerraform(struct?: GoogleDataplexAssetTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1231,19 +1231,19 @@ export function googleDataplexAssetTimeoutsToHclTerraform(struct?: GoogleDataple
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataplexAssetTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleDataplexAssetTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleDataplexAssetTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDataplexAssetTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1264,7 +1264,7 @@ export class GoogleDataplexAssetTimeoutsOutputReference extends cdktf.ComplexObj
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDataplexAssetTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDataplexAssetTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -1272,7 +1272,7 @@ export class GoogleDataplexAssetTimeoutsOutputReference extends cdktf.ComplexObj
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1337,7 +1337,7 @@ export class GoogleDataplexAssetTimeoutsOutputReference extends cdktf.ComplexObj
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_asset google_dataplex_asset}
 */
-export class GoogleDataplexAsset extends cdktf.TerraformResource {
+export class GoogleDataplexAsset extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -1348,14 +1348,14 @@ export class GoogleDataplexAsset extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleDataplexAsset resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleDataplexAsset resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleDataplexAsset to import
   * @param importFromId The id of the existing GoogleDataplexAsset that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_asset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleDataplexAsset to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_dataplex_asset", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_dataplex_asset", importId: importFromId, provider });
       }
 
   // ===========
@@ -1460,7 +1460,7 @@ export class GoogleDataplexAsset extends cdktf.TerraformResource {
   }
 
   // effective_labels - computed: true, optional: false, required: false
-  private _effectiveLabels = new cdktf.StringMap(this, "effective_labels");
+  private _effectiveLabels = new cdktn.StringMap(this, "effective_labels");
   public get effectiveLabels() {
     return this._effectiveLabels;
   }
@@ -1570,7 +1570,7 @@ export class GoogleDataplexAsset extends cdktf.TerraformResource {
   }
 
   // terraform_labels - computed: true, optional: false, required: false
-  private _terraformLabels = new cdktf.StringMap(this, "terraform_labels");
+  private _terraformLabels = new cdktn.StringMap(this, "terraform_labels");
   public get terraformLabels() {
     return this._terraformLabels;
   }
@@ -1633,15 +1633,15 @@ export class GoogleDataplexAsset extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      dataplex_zone: cdktf.stringToTerraform(this._dataplexZone),
-      description: cdktf.stringToTerraform(this._description),
-      display_name: cdktf.stringToTerraform(this._displayName),
-      id: cdktf.stringToTerraform(this._id),
-      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
-      lake: cdktf.stringToTerraform(this._lake),
-      location: cdktf.stringToTerraform(this._location),
-      name: cdktf.stringToTerraform(this._name),
-      project: cdktf.stringToTerraform(this._project),
+      dataplex_zone: cdktn.stringToTerraform(this._dataplexZone),
+      description: cdktn.stringToTerraform(this._description),
+      display_name: cdktn.stringToTerraform(this._displayName),
+      id: cdktn.stringToTerraform(this._id),
+      labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
+      lake: cdktn.stringToTerraform(this._lake),
+      location: cdktn.stringToTerraform(this._location),
+      name: cdktn.stringToTerraform(this._name),
+      project: cdktn.stringToTerraform(this._project),
       discovery_spec: googleDataplexAssetDiscoverySpecToTerraform(this._discoverySpec.internalValue),
       resource_spec: googleDataplexAssetResourceSpecToTerraform(this._resourceSpec.internalValue),
       timeouts: googleDataplexAssetTimeoutsToTerraform(this._timeouts.internalValue),
@@ -1651,55 +1651,55 @@ export class GoogleDataplexAsset extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       dataplex_zone: {
-        value: cdktf.stringToHclTerraform(this._dataplexZone),
+        value: cdktn.stringToHclTerraform(this._dataplexZone),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       display_name: {
-        value: cdktf.stringToHclTerraform(this._displayName),
+        value: cdktn.stringToHclTerraform(this._displayName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._labels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       lake: {
-        value: cdktf.stringToHclTerraform(this._lake),
+        value: cdktn.stringToHclTerraform(this._lake),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

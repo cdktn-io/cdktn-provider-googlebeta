@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleComputeRouterNatConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleComputeRouterNatConfig extends cdktn.TerraformMetaArguments {
   /**
   * The network tier to use when automatically reserving NAT IP addresses.
   * Must be one of: PREMIUM, STANDARD. If not specified, then the current
@@ -38,14 +38,14 @@ export interface GoogleComputeRouterNatConfig extends cdktf.TerraformMetaArgumen
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router_nat#enable_dynamic_port_allocation GoogleComputeRouterNat#enable_dynamic_port_allocation}
   */
-  readonly enableDynamicPortAllocation?: boolean | cdktf.IResolvable;
+  readonly enableDynamicPortAllocation?: boolean | cdktn.IResolvable;
   /**
   * Enable endpoint independent mapping.
   * For more information see the [official documentation](https://cloud.google.com/nat/docs/overview#specs-rfcs).
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router_nat#enable_endpoint_independent_mapping GoogleComputeRouterNat#enable_endpoint_independent_mapping}
   */
-  readonly enableEndpointIndependentMapping?: boolean | cdktf.IResolvable;
+  readonly enableEndpointIndependentMapping?: boolean | cdktn.IResolvable;
   /**
   * Specifies the endpoint Types supported by the NAT Gateway.
   * Supported values include:
@@ -201,19 +201,19 @@ export interface GoogleComputeRouterNatConfig extends cdktf.TerraformMetaArgumen
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router_nat#nat64_subnetwork GoogleComputeRouterNat#nat64_subnetwork}
   */
-  readonly nat64Subnetwork?: GoogleComputeRouterNatNat64Subnetwork[] | cdktf.IResolvable;
+  readonly nat64Subnetwork?: GoogleComputeRouterNatNat64Subnetwork[] | cdktn.IResolvable;
   /**
   * rules block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router_nat#rules GoogleComputeRouterNat#rules}
   */
-  readonly rules?: GoogleComputeRouterNatRules[] | cdktf.IResolvable;
+  readonly rules?: GoogleComputeRouterNatRules[] | cdktn.IResolvable;
   /**
   * subnetwork block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router_nat#subnetwork GoogleComputeRouterNat#subnetwork}
   */
-  readonly subnetwork?: GoogleComputeRouterNatSubnetwork[] | cdktf.IResolvable;
+  readonly subnetwork?: GoogleComputeRouterNatSubnetwork[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
@@ -227,7 +227,7 @@ export interface GoogleComputeRouterNatLogConfig {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router_nat#enable GoogleComputeRouterNat#enable}
   */
-  readonly enable: boolean | cdktf.IResolvable;
+  readonly enable: boolean | cdktn.IResolvable;
   /**
   * Specifies the desired filtering of logs on this NAT. Possible values: ["ERRORS_ONLY", "TRANSLATIONS_ONLY", "ALL"]
   *
@@ -237,31 +237,31 @@ export interface GoogleComputeRouterNatLogConfig {
 }
 
 export function googleComputeRouterNatLogConfigToTerraform(struct?: GoogleComputeRouterNatLogConfigOutputReference | GoogleComputeRouterNatLogConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    enable: cdktf.booleanToTerraform(struct!.enable),
-    filter: cdktf.stringToTerraform(struct!.filter),
+    enable: cdktn.booleanToTerraform(struct!.enable),
+    filter: cdktn.stringToTerraform(struct!.filter),
   }
 }
 
 
 export function googleComputeRouterNatLogConfigToHclTerraform(struct?: GoogleComputeRouterNatLogConfigOutputReference | GoogleComputeRouterNatLogConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     enable: {
-      value: cdktf.booleanToHclTerraform(struct!.enable),
+      value: cdktn.booleanToHclTerraform(struct!.enable),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     filter: {
-      value: cdktf.stringToHclTerraform(struct!.filter),
+      value: cdktn.stringToHclTerraform(struct!.filter),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -272,14 +272,14 @@ export function googleComputeRouterNatLogConfigToHclTerraform(struct?: GoogleCom
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeRouterNatLogConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeRouterNatLogConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -311,11 +311,11 @@ export class GoogleComputeRouterNatLogConfigOutputReference extends cdktf.Comple
   }
 
   // enable - computed: false, optional: false, required: true
-  private _enable?: boolean | cdktf.IResolvable; 
+  private _enable?: boolean | cdktn.IResolvable; 
   public get enable() {
     return this.getBooleanAttribute('enable');
   }
-  public set enable(value: boolean | cdktf.IResolvable) {
+  public set enable(value: boolean | cdktn.IResolvable) {
     this._enable = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -345,25 +345,25 @@ export interface GoogleComputeRouterNatNat64Subnetwork {
   readonly name: string;
 }
 
-export function googleComputeRouterNatNat64SubnetworkToTerraform(struct?: GoogleComputeRouterNatNat64Subnetwork | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeRouterNatNat64SubnetworkToTerraform(struct?: GoogleComputeRouterNatNat64Subnetwork | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    name: cdktf.stringToTerraform(struct!.name),
+    name: cdktn.stringToTerraform(struct!.name),
   }
 }
 
 
-export function googleComputeRouterNatNat64SubnetworkToHclTerraform(struct?: GoogleComputeRouterNatNat64Subnetwork | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeRouterNatNat64SubnetworkToHclTerraform(struct?: GoogleComputeRouterNatNat64Subnetwork | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
+      value: cdktn.stringToHclTerraform(struct!.name),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -374,9 +374,9 @@ export function googleComputeRouterNatNat64SubnetworkToHclTerraform(struct?: Goo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeRouterNatNat64SubnetworkOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeRouterNatNat64SubnetworkOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -384,11 +384,11 @@ export class GoogleComputeRouterNatNat64SubnetworkOutputReference extends cdktf.
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeRouterNatNat64Subnetwork | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeRouterNatNat64Subnetwork | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -401,13 +401,13 @@ export class GoogleComputeRouterNatNat64SubnetworkOutputReference extends cdktf.
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeRouterNatNat64Subnetwork | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeRouterNatNat64Subnetwork | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._name = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -432,15 +432,15 @@ export class GoogleComputeRouterNatNat64SubnetworkOutputReference extends cdktf.
   }
 }
 
-export class GoogleComputeRouterNatNat64SubnetworkList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeRouterNatNat64Subnetwork[] | cdktf.IResolvable
+export class GoogleComputeRouterNatNat64SubnetworkList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeRouterNatNat64Subnetwork[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -488,45 +488,45 @@ export interface GoogleComputeRouterNatRulesAction {
 }
 
 export function googleComputeRouterNatRulesActionToTerraform(struct?: GoogleComputeRouterNatRulesActionOutputReference | GoogleComputeRouterNatRulesAction): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    source_nat_active_ips: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.sourceNatActiveIps),
-    source_nat_active_ranges: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.sourceNatActiveRanges),
-    source_nat_drain_ips: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.sourceNatDrainIps),
-    source_nat_drain_ranges: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.sourceNatDrainRanges),
+    source_nat_active_ips: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.sourceNatActiveIps),
+    source_nat_active_ranges: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.sourceNatActiveRanges),
+    source_nat_drain_ips: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.sourceNatDrainIps),
+    source_nat_drain_ranges: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.sourceNatDrainRanges),
   }
 }
 
 
 export function googleComputeRouterNatRulesActionToHclTerraform(struct?: GoogleComputeRouterNatRulesActionOutputReference | GoogleComputeRouterNatRulesAction): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     source_nat_active_ips: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.sourceNatActiveIps),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.sourceNatActiveIps),
       isBlock: false,
       type: "set",
       storageClassType: "stringList",
     },
     source_nat_active_ranges: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.sourceNatActiveRanges),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.sourceNatActiveRanges),
       isBlock: false,
       type: "set",
       storageClassType: "stringList",
     },
     source_nat_drain_ips: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.sourceNatDrainIps),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.sourceNatDrainIps),
       isBlock: false,
       type: "set",
       storageClassType: "stringList",
     },
     source_nat_drain_ranges: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.sourceNatDrainRanges),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.sourceNatDrainRanges),
       isBlock: false,
       type: "set",
       storageClassType: "stringList",
@@ -537,14 +537,14 @@ export function googleComputeRouterNatRulesActionToHclTerraform(struct?: GoogleC
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeRouterNatRulesActionOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeRouterNatRulesActionOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -590,7 +590,7 @@ export class GoogleComputeRouterNatRulesActionOutputReference extends cdktf.Comp
   // source_nat_active_ips - computed: false, optional: true, required: false
   private _sourceNatActiveIps?: string[]; 
   public get sourceNatActiveIps() {
-    return cdktf.Fn.tolist(this.getListAttribute('source_nat_active_ips'));
+    return cdktn.Fn.tolist(this.getListAttribute('source_nat_active_ips'));
   }
   public set sourceNatActiveIps(value: string[]) {
     this._sourceNatActiveIps = value;
@@ -606,7 +606,7 @@ export class GoogleComputeRouterNatRulesActionOutputReference extends cdktf.Comp
   // source_nat_active_ranges - computed: false, optional: true, required: false
   private _sourceNatActiveRanges?: string[]; 
   public get sourceNatActiveRanges() {
-    return cdktf.Fn.tolist(this.getListAttribute('source_nat_active_ranges'));
+    return cdktn.Fn.tolist(this.getListAttribute('source_nat_active_ranges'));
   }
   public set sourceNatActiveRanges(value: string[]) {
     this._sourceNatActiveRanges = value;
@@ -622,7 +622,7 @@ export class GoogleComputeRouterNatRulesActionOutputReference extends cdktf.Comp
   // source_nat_drain_ips - computed: false, optional: true, required: false
   private _sourceNatDrainIps?: string[]; 
   public get sourceNatDrainIps() {
-    return cdktf.Fn.tolist(this.getListAttribute('source_nat_drain_ips'));
+    return cdktn.Fn.tolist(this.getListAttribute('source_nat_drain_ips'));
   }
   public set sourceNatDrainIps(value: string[]) {
     this._sourceNatDrainIps = value;
@@ -638,7 +638,7 @@ export class GoogleComputeRouterNatRulesActionOutputReference extends cdktf.Comp
   // source_nat_drain_ranges - computed: false, optional: true, required: false
   private _sourceNatDrainRanges?: string[]; 
   public get sourceNatDrainRanges() {
-    return cdktf.Fn.tolist(this.getListAttribute('source_nat_drain_ranges'));
+    return cdktn.Fn.tolist(this.getListAttribute('source_nat_drain_ranges'));
   }
   public set sourceNatDrainRanges(value: string[]) {
     this._sourceNatDrainRanges = value;
@@ -690,40 +690,40 @@ export interface GoogleComputeRouterNatRules {
   readonly action?: GoogleComputeRouterNatRulesAction;
 }
 
-export function googleComputeRouterNatRulesToTerraform(struct?: GoogleComputeRouterNatRules | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeRouterNatRulesToTerraform(struct?: GoogleComputeRouterNatRules | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    description: cdktf.stringToTerraform(struct!.description),
-    match: cdktf.stringToTerraform(struct!.match),
-    rule_number: cdktf.numberToTerraform(struct!.ruleNumber),
+    description: cdktn.stringToTerraform(struct!.description),
+    match: cdktn.stringToTerraform(struct!.match),
+    rule_number: cdktn.numberToTerraform(struct!.ruleNumber),
     action: googleComputeRouterNatRulesActionToTerraform(struct!.action),
   }
 }
 
 
-export function googleComputeRouterNatRulesToHclTerraform(struct?: GoogleComputeRouterNatRules | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeRouterNatRulesToHclTerraform(struct?: GoogleComputeRouterNatRules | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     description: {
-      value: cdktf.stringToHclTerraform(struct!.description),
+      value: cdktn.stringToHclTerraform(struct!.description),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     match: {
-      value: cdktf.stringToHclTerraform(struct!.match),
+      value: cdktn.stringToHclTerraform(struct!.match),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     rule_number: {
-      value: cdktf.numberToHclTerraform(struct!.ruleNumber),
+      value: cdktn.numberToHclTerraform(struct!.ruleNumber),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -740,9 +740,9 @@ export function googleComputeRouterNatRulesToHclTerraform(struct?: GoogleCompute
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeRouterNatRulesOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeRouterNatRulesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -750,11 +750,11 @@ export class GoogleComputeRouterNatRulesOutputReference extends cdktf.ComplexObj
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeRouterNatRules | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeRouterNatRules | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -779,7 +779,7 @@ export class GoogleComputeRouterNatRulesOutputReference extends cdktf.ComplexObj
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeRouterNatRules | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeRouterNatRules | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -788,7 +788,7 @@ export class GoogleComputeRouterNatRulesOutputReference extends cdktf.ComplexObj
       this._ruleNumber = undefined;
       this._action.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -861,15 +861,15 @@ export class GoogleComputeRouterNatRulesOutputReference extends cdktf.ComplexObj
   }
 }
 
-export class GoogleComputeRouterNatRulesList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeRouterNatRules[] | cdktf.IResolvable
+export class GoogleComputeRouterNatRulesList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeRouterNatRules[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -907,39 +907,39 @@ export interface GoogleComputeRouterNatSubnetwork {
   readonly sourceIpRangesToNat: string[];
 }
 
-export function googleComputeRouterNatSubnetworkToTerraform(struct?: GoogleComputeRouterNatSubnetwork | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeRouterNatSubnetworkToTerraform(struct?: GoogleComputeRouterNatSubnetwork | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    name: cdktf.stringToTerraform(struct!.name),
-    secondary_ip_range_names: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.secondaryIpRangeNames),
-    source_ip_ranges_to_nat: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.sourceIpRangesToNat),
+    name: cdktn.stringToTerraform(struct!.name),
+    secondary_ip_range_names: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.secondaryIpRangeNames),
+    source_ip_ranges_to_nat: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.sourceIpRangesToNat),
   }
 }
 
 
-export function googleComputeRouterNatSubnetworkToHclTerraform(struct?: GoogleComputeRouterNatSubnetwork | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeRouterNatSubnetworkToHclTerraform(struct?: GoogleComputeRouterNatSubnetwork | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
+      value: cdktn.stringToHclTerraform(struct!.name),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     secondary_ip_range_names: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.secondaryIpRangeNames),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.secondaryIpRangeNames),
       isBlock: false,
       type: "set",
       storageClassType: "stringList",
     },
     source_ip_ranges_to_nat: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.sourceIpRangesToNat),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.sourceIpRangesToNat),
       isBlock: false,
       type: "set",
       storageClassType: "stringList",
@@ -950,9 +950,9 @@ export function googleComputeRouterNatSubnetworkToHclTerraform(struct?: GoogleCo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeRouterNatSubnetworkOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeRouterNatSubnetworkOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -960,11 +960,11 @@ export class GoogleComputeRouterNatSubnetworkOutputReference extends cdktf.Compl
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeRouterNatSubnetwork | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeRouterNatSubnetwork | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -985,7 +985,7 @@ export class GoogleComputeRouterNatSubnetworkOutputReference extends cdktf.Compl
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeRouterNatSubnetwork | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeRouterNatSubnetwork | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -993,7 +993,7 @@ export class GoogleComputeRouterNatSubnetworkOutputReference extends cdktf.Compl
       this._secondaryIpRangeNames = undefined;
       this._sourceIpRangesToNat = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1022,7 +1022,7 @@ export class GoogleComputeRouterNatSubnetworkOutputReference extends cdktf.Compl
   // secondary_ip_range_names - computed: false, optional: true, required: false
   private _secondaryIpRangeNames?: string[]; 
   public get secondaryIpRangeNames() {
-    return cdktf.Fn.tolist(this.getListAttribute('secondary_ip_range_names'));
+    return cdktn.Fn.tolist(this.getListAttribute('secondary_ip_range_names'));
   }
   public set secondaryIpRangeNames(value: string[]) {
     this._secondaryIpRangeNames = value;
@@ -1038,7 +1038,7 @@ export class GoogleComputeRouterNatSubnetworkOutputReference extends cdktf.Compl
   // source_ip_ranges_to_nat - computed: false, optional: false, required: true
   private _sourceIpRangesToNat?: string[]; 
   public get sourceIpRangesToNat() {
-    return cdktf.Fn.tolist(this.getListAttribute('source_ip_ranges_to_nat'));
+    return cdktn.Fn.tolist(this.getListAttribute('source_ip_ranges_to_nat'));
   }
   public set sourceIpRangesToNat(value: string[]) {
     this._sourceIpRangesToNat = value;
@@ -1049,15 +1049,15 @@ export class GoogleComputeRouterNatSubnetworkOutputReference extends cdktf.Compl
   }
 }
 
-export class GoogleComputeRouterNatSubnetworkList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeRouterNatSubnetwork[] | cdktf.IResolvable
+export class GoogleComputeRouterNatSubnetworkList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeRouterNatSubnetwork[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1083,39 +1083,39 @@ export interface GoogleComputeRouterNatTimeouts {
   readonly update?: string;
 }
 
-export function googleComputeRouterNatTimeoutsToTerraform(struct?: GoogleComputeRouterNatTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeRouterNatTimeoutsToTerraform(struct?: GoogleComputeRouterNatTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleComputeRouterNatTimeoutsToHclTerraform(struct?: GoogleComputeRouterNatTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeRouterNatTimeoutsToHclTerraform(struct?: GoogleComputeRouterNatTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1126,19 +1126,19 @@ export function googleComputeRouterNatTimeoutsToHclTerraform(struct?: GoogleComp
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeRouterNatTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeRouterNatTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleComputeRouterNatTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeRouterNatTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1159,7 +1159,7 @@ export class GoogleComputeRouterNatTimeoutsOutputReference extends cdktf.Complex
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeRouterNatTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeRouterNatTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -1167,7 +1167,7 @@ export class GoogleComputeRouterNatTimeoutsOutputReference extends cdktf.Complex
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1232,7 +1232,7 @@ export class GoogleComputeRouterNatTimeoutsOutputReference extends cdktf.Complex
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router_nat google_compute_router_nat}
 */
-export class GoogleComputeRouterNat extends cdktf.TerraformResource {
+export class GoogleComputeRouterNat extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -1243,14 +1243,14 @@ export class GoogleComputeRouterNat extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleComputeRouterNat resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleComputeRouterNat resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleComputeRouterNat to import
   * @param importFromId The id of the existing GoogleComputeRouterNat that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_router_nat#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleComputeRouterNat to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_compute_router_nat", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_compute_router_nat", importId: importFromId, provider });
       }
 
   // ===========
@@ -1333,7 +1333,7 @@ export class GoogleComputeRouterNat extends cdktf.TerraformResource {
   // drain_nat_ips - computed: true, optional: true, required: false
   private _drainNatIps?: string[]; 
   public get drainNatIps() {
-    return cdktf.Fn.tolist(this.getListAttribute('drain_nat_ips'));
+    return cdktn.Fn.tolist(this.getListAttribute('drain_nat_ips'));
   }
   public set drainNatIps(value: string[]) {
     this._drainNatIps = value;
@@ -1347,11 +1347,11 @@ export class GoogleComputeRouterNat extends cdktf.TerraformResource {
   }
 
   // enable_dynamic_port_allocation - computed: true, optional: true, required: false
-  private _enableDynamicPortAllocation?: boolean | cdktf.IResolvable; 
+  private _enableDynamicPortAllocation?: boolean | cdktn.IResolvable; 
   public get enableDynamicPortAllocation() {
     return this.getBooleanAttribute('enable_dynamic_port_allocation');
   }
-  public set enableDynamicPortAllocation(value: boolean | cdktf.IResolvable) {
+  public set enableDynamicPortAllocation(value: boolean | cdktn.IResolvable) {
     this._enableDynamicPortAllocation = value;
   }
   public resetEnableDynamicPortAllocation() {
@@ -1363,11 +1363,11 @@ export class GoogleComputeRouterNat extends cdktf.TerraformResource {
   }
 
   // enable_endpoint_independent_mapping - computed: true, optional: true, required: false
-  private _enableEndpointIndependentMapping?: boolean | cdktf.IResolvable; 
+  private _enableEndpointIndependentMapping?: boolean | cdktn.IResolvable; 
   public get enableEndpointIndependentMapping() {
     return this.getBooleanAttribute('enable_endpoint_independent_mapping');
   }
-  public set enableEndpointIndependentMapping(value: boolean | cdktf.IResolvable) {
+  public set enableEndpointIndependentMapping(value: boolean | cdktn.IResolvable) {
     this._enableEndpointIndependentMapping = value;
   }
   public resetEnableEndpointIndependentMapping() {
@@ -1429,7 +1429,7 @@ export class GoogleComputeRouterNat extends cdktf.TerraformResource {
   // initial_nat_ips - computed: false, optional: true, required: false
   private _initialNatIps?: string[]; 
   public get initialNatIps() {
-    return cdktf.Fn.tolist(this.getListAttribute('initial_nat_ips'));
+    return cdktn.Fn.tolist(this.getListAttribute('initial_nat_ips'));
   }
   public set initialNatIps(value: string[]) {
     this._initialNatIps = value;
@@ -1506,7 +1506,7 @@ export class GoogleComputeRouterNat extends cdktf.TerraformResource {
   // nat_ips - computed: true, optional: true, required: false
   private _natIps?: string[]; 
   public get natIps() {
-    return cdktf.Fn.tolist(this.getListAttribute('nat_ips'));
+    return cdktn.Fn.tolist(this.getListAttribute('nat_ips'));
   }
   public set natIps(value: string[]) {
     this._natIps = value;
@@ -1694,7 +1694,7 @@ export class GoogleComputeRouterNat extends cdktf.TerraformResource {
   public get nat64Subnetwork() {
     return this._nat64Subnetwork;
   }
-  public putNat64Subnetwork(value: GoogleComputeRouterNatNat64Subnetwork[] | cdktf.IResolvable) {
+  public putNat64Subnetwork(value: GoogleComputeRouterNatNat64Subnetwork[] | cdktn.IResolvable) {
     this._nat64Subnetwork.internalValue = value;
   }
   public resetNat64Subnetwork() {
@@ -1710,7 +1710,7 @@ export class GoogleComputeRouterNat extends cdktf.TerraformResource {
   public get rules() {
     return this._rules;
   }
-  public putRules(value: GoogleComputeRouterNatRules[] | cdktf.IResolvable) {
+  public putRules(value: GoogleComputeRouterNatRules[] | cdktn.IResolvable) {
     this._rules.internalValue = value;
   }
   public resetRules() {
@@ -1726,7 +1726,7 @@ export class GoogleComputeRouterNat extends cdktf.TerraformResource {
   public get subnetwork() {
     return this._subnetwork;
   }
-  public putSubnetwork(value: GoogleComputeRouterNatSubnetwork[] | cdktf.IResolvable) {
+  public putSubnetwork(value: GoogleComputeRouterNatSubnetwork[] | cdktn.IResolvable) {
     this._subnetwork.internalValue = value;
   }
   public resetSubnetwork() {
@@ -1759,33 +1759,33 @@ export class GoogleComputeRouterNat extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      auto_network_tier: cdktf.stringToTerraform(this._autoNetworkTier),
-      drain_nat_ips: cdktf.listMapper(cdktf.stringToTerraform, false)(this._drainNatIps),
-      enable_dynamic_port_allocation: cdktf.booleanToTerraform(this._enableDynamicPortAllocation),
-      enable_endpoint_independent_mapping: cdktf.booleanToTerraform(this._enableEndpointIndependentMapping),
-      endpoint_types: cdktf.listMapper(cdktf.stringToTerraform, false)(this._endpointTypes),
-      icmp_idle_timeout_sec: cdktf.numberToTerraform(this._icmpIdleTimeoutSec),
-      id: cdktf.stringToTerraform(this._id),
-      initial_nat_ips: cdktf.listMapper(cdktf.stringToTerraform, false)(this._initialNatIps),
-      max_ports_per_vm: cdktf.numberToTerraform(this._maxPortsPerVm),
-      min_ports_per_vm: cdktf.numberToTerraform(this._minPortsPerVm),
-      name: cdktf.stringToTerraform(this._name),
-      nat_ip_allocate_option: cdktf.stringToTerraform(this._natIpAllocateOption),
-      nat_ips: cdktf.listMapper(cdktf.stringToTerraform, false)(this._natIps),
-      project: cdktf.stringToTerraform(this._project),
-      region: cdktf.stringToTerraform(this._region),
-      router: cdktf.stringToTerraform(this._router),
-      source_subnetwork_ip_ranges_to_nat: cdktf.stringToTerraform(this._sourceSubnetworkIpRangesToNat),
-      source_subnetwork_ip_ranges_to_nat64: cdktf.stringToTerraform(this._sourceSubnetworkIpRangesToNat64),
-      tcp_established_idle_timeout_sec: cdktf.numberToTerraform(this._tcpEstablishedIdleTimeoutSec),
-      tcp_time_wait_timeout_sec: cdktf.numberToTerraform(this._tcpTimeWaitTimeoutSec),
-      tcp_transitory_idle_timeout_sec: cdktf.numberToTerraform(this._tcpTransitoryIdleTimeoutSec),
-      type: cdktf.stringToTerraform(this._type),
-      udp_idle_timeout_sec: cdktf.numberToTerraform(this._udpIdleTimeoutSec),
+      auto_network_tier: cdktn.stringToTerraform(this._autoNetworkTier),
+      drain_nat_ips: cdktn.listMapper(cdktn.stringToTerraform, false)(this._drainNatIps),
+      enable_dynamic_port_allocation: cdktn.booleanToTerraform(this._enableDynamicPortAllocation),
+      enable_endpoint_independent_mapping: cdktn.booleanToTerraform(this._enableEndpointIndependentMapping),
+      endpoint_types: cdktn.listMapper(cdktn.stringToTerraform, false)(this._endpointTypes),
+      icmp_idle_timeout_sec: cdktn.numberToTerraform(this._icmpIdleTimeoutSec),
+      id: cdktn.stringToTerraform(this._id),
+      initial_nat_ips: cdktn.listMapper(cdktn.stringToTerraform, false)(this._initialNatIps),
+      max_ports_per_vm: cdktn.numberToTerraform(this._maxPortsPerVm),
+      min_ports_per_vm: cdktn.numberToTerraform(this._minPortsPerVm),
+      name: cdktn.stringToTerraform(this._name),
+      nat_ip_allocate_option: cdktn.stringToTerraform(this._natIpAllocateOption),
+      nat_ips: cdktn.listMapper(cdktn.stringToTerraform, false)(this._natIps),
+      project: cdktn.stringToTerraform(this._project),
+      region: cdktn.stringToTerraform(this._region),
+      router: cdktn.stringToTerraform(this._router),
+      source_subnetwork_ip_ranges_to_nat: cdktn.stringToTerraform(this._sourceSubnetworkIpRangesToNat),
+      source_subnetwork_ip_ranges_to_nat64: cdktn.stringToTerraform(this._sourceSubnetworkIpRangesToNat64),
+      tcp_established_idle_timeout_sec: cdktn.numberToTerraform(this._tcpEstablishedIdleTimeoutSec),
+      tcp_time_wait_timeout_sec: cdktn.numberToTerraform(this._tcpTimeWaitTimeoutSec),
+      tcp_transitory_idle_timeout_sec: cdktn.numberToTerraform(this._tcpTransitoryIdleTimeoutSec),
+      type: cdktn.stringToTerraform(this._type),
+      udp_idle_timeout_sec: cdktn.numberToTerraform(this._udpIdleTimeoutSec),
       log_config: googleComputeRouterNatLogConfigToTerraform(this._logConfig.internalValue),
-      nat64_subnetwork: cdktf.listMapper(googleComputeRouterNatNat64SubnetworkToTerraform, true)(this._nat64Subnetwork.internalValue),
-      rules: cdktf.listMapper(googleComputeRouterNatRulesToTerraform, true)(this._rules.internalValue),
-      subnetwork: cdktf.listMapper(googleComputeRouterNatSubnetworkToTerraform, true)(this._subnetwork.internalValue),
+      nat64_subnetwork: cdktn.listMapper(googleComputeRouterNatNat64SubnetworkToTerraform, true)(this._nat64Subnetwork.internalValue),
+      rules: cdktn.listMapper(googleComputeRouterNatRulesToTerraform, true)(this._rules.internalValue),
+      subnetwork: cdktn.listMapper(googleComputeRouterNatSubnetworkToTerraform, true)(this._subnetwork.internalValue),
       timeouts: googleComputeRouterNatTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -1793,139 +1793,139 @@ export class GoogleComputeRouterNat extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       auto_network_tier: {
-        value: cdktf.stringToHclTerraform(this._autoNetworkTier),
+        value: cdktn.stringToHclTerraform(this._autoNetworkTier),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       drain_nat_ips: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._drainNatIps),
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._drainNatIps),
         isBlock: false,
         type: "set",
         storageClassType: "stringList",
       },
       enable_dynamic_port_allocation: {
-        value: cdktf.booleanToHclTerraform(this._enableDynamicPortAllocation),
+        value: cdktn.booleanToHclTerraform(this._enableDynamicPortAllocation),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       enable_endpoint_independent_mapping: {
-        value: cdktf.booleanToHclTerraform(this._enableEndpointIndependentMapping),
+        value: cdktn.booleanToHclTerraform(this._enableEndpointIndependentMapping),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       endpoint_types: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._endpointTypes),
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._endpointTypes),
         isBlock: false,
         type: "list",
         storageClassType: "stringList",
       },
       icmp_idle_timeout_sec: {
-        value: cdktf.numberToHclTerraform(this._icmpIdleTimeoutSec),
+        value: cdktn.numberToHclTerraform(this._icmpIdleTimeoutSec),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       initial_nat_ips: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._initialNatIps),
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._initialNatIps),
         isBlock: false,
         type: "set",
         storageClassType: "stringList",
       },
       max_ports_per_vm: {
-        value: cdktf.numberToHclTerraform(this._maxPortsPerVm),
+        value: cdktn.numberToHclTerraform(this._maxPortsPerVm),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       min_ports_per_vm: {
-        value: cdktf.numberToHclTerraform(this._minPortsPerVm),
+        value: cdktn.numberToHclTerraform(this._minPortsPerVm),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       nat_ip_allocate_option: {
-        value: cdktf.stringToHclTerraform(this._natIpAllocateOption),
+        value: cdktn.stringToHclTerraform(this._natIpAllocateOption),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       nat_ips: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._natIps),
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._natIps),
         isBlock: false,
         type: "set",
         storageClassType: "stringList",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       region: {
-        value: cdktf.stringToHclTerraform(this._region),
+        value: cdktn.stringToHclTerraform(this._region),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       router: {
-        value: cdktf.stringToHclTerraform(this._router),
+        value: cdktn.stringToHclTerraform(this._router),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       source_subnetwork_ip_ranges_to_nat: {
-        value: cdktf.stringToHclTerraform(this._sourceSubnetworkIpRangesToNat),
+        value: cdktn.stringToHclTerraform(this._sourceSubnetworkIpRangesToNat),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       source_subnetwork_ip_ranges_to_nat64: {
-        value: cdktf.stringToHclTerraform(this._sourceSubnetworkIpRangesToNat64),
+        value: cdktn.stringToHclTerraform(this._sourceSubnetworkIpRangesToNat64),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       tcp_established_idle_timeout_sec: {
-        value: cdktf.numberToHclTerraform(this._tcpEstablishedIdleTimeoutSec),
+        value: cdktn.numberToHclTerraform(this._tcpEstablishedIdleTimeoutSec),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       tcp_time_wait_timeout_sec: {
-        value: cdktf.numberToHclTerraform(this._tcpTimeWaitTimeoutSec),
+        value: cdktn.numberToHclTerraform(this._tcpTimeWaitTimeoutSec),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       tcp_transitory_idle_timeout_sec: {
-        value: cdktf.numberToHclTerraform(this._tcpTransitoryIdleTimeoutSec),
+        value: cdktn.numberToHclTerraform(this._tcpTransitoryIdleTimeoutSec),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       type: {
-        value: cdktf.stringToHclTerraform(this._type),
+        value: cdktn.stringToHclTerraform(this._type),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       udp_idle_timeout_sec: {
-        value: cdktf.numberToHclTerraform(this._udpIdleTimeoutSec),
+        value: cdktn.numberToHclTerraform(this._udpIdleTimeoutSec),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
@@ -1937,19 +1937,19 @@ export class GoogleComputeRouterNat extends cdktf.TerraformResource {
         storageClassType: "GoogleComputeRouterNatLogConfigList",
       },
       nat64_subnetwork: {
-        value: cdktf.listMapperHcl(googleComputeRouterNatNat64SubnetworkToHclTerraform, true)(this._nat64Subnetwork.internalValue),
+        value: cdktn.listMapperHcl(googleComputeRouterNatNat64SubnetworkToHclTerraform, true)(this._nat64Subnetwork.internalValue),
         isBlock: true,
         type: "set",
         storageClassType: "GoogleComputeRouterNatNat64SubnetworkList",
       },
       rules: {
-        value: cdktf.listMapperHcl(googleComputeRouterNatRulesToHclTerraform, true)(this._rules.internalValue),
+        value: cdktn.listMapperHcl(googleComputeRouterNatRulesToHclTerraform, true)(this._rules.internalValue),
         isBlock: true,
         type: "set",
         storageClassType: "GoogleComputeRouterNatRulesList",
       },
       subnetwork: {
-        value: cdktf.listMapperHcl(googleComputeRouterNatSubnetworkToHclTerraform, true)(this._subnetwork.internalValue),
+        value: cdktn.listMapperHcl(googleComputeRouterNatSubnetworkToHclTerraform, true)(this._subnetwork.internalValue),
         isBlock: true,
         type: "set",
         storageClassType: "GoogleComputeRouterNatSubnetworkList",

@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleLustreInstanceConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleLustreInstanceConfig extends cdktn.TerraformMetaArguments {
   /**
   * The storage capacity of the instance in gibibytes (GiB). Allowed values
   * are from '18000' to '954000', in increments of 9000.
@@ -39,7 +39,7 @@ export interface GoogleLustreInstanceConfig extends cdktf.TerraformMetaArguments
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_lustre_instance#gke_support_enabled GoogleLustreInstance#gke_support_enabled}
   */
-  readonly gkeSupportEnabled?: boolean | cdktf.IResolvable;
+  readonly gkeSupportEnabled?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_lustre_instance#id GoogleLustreInstance#id}
   *
@@ -114,39 +114,39 @@ export interface GoogleLustreInstanceTimeouts {
   readonly update?: string;
 }
 
-export function googleLustreInstanceTimeoutsToTerraform(struct?: GoogleLustreInstanceTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleLustreInstanceTimeoutsToTerraform(struct?: GoogleLustreInstanceTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleLustreInstanceTimeoutsToHclTerraform(struct?: GoogleLustreInstanceTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleLustreInstanceTimeoutsToHclTerraform(struct?: GoogleLustreInstanceTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -157,19 +157,19 @@ export function googleLustreInstanceTimeoutsToHclTerraform(struct?: GoogleLustre
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleLustreInstanceTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleLustreInstanceTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleLustreInstanceTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleLustreInstanceTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -190,7 +190,7 @@ export class GoogleLustreInstanceTimeoutsOutputReference extends cdktf.ComplexOb
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleLustreInstanceTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleLustreInstanceTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -198,7 +198,7 @@ export class GoogleLustreInstanceTimeoutsOutputReference extends cdktf.ComplexOb
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -263,7 +263,7 @@ export class GoogleLustreInstanceTimeoutsOutputReference extends cdktf.ComplexOb
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_lustre_instance google_lustre_instance}
 */
-export class GoogleLustreInstance extends cdktf.TerraformResource {
+export class GoogleLustreInstance extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -274,14 +274,14 @@ export class GoogleLustreInstance extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleLustreInstance resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleLustreInstance resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleLustreInstance to import
   * @param importFromId The id of the existing GoogleLustreInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_lustre_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleLustreInstance to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_lustre_instance", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_lustre_instance", importId: importFromId, provider });
       }
 
   // ===========
@@ -364,7 +364,7 @@ export class GoogleLustreInstance extends cdktf.TerraformResource {
   }
 
   // effective_labels - computed: true, optional: false, required: false
-  private _effectiveLabels = new cdktf.StringMap(this, "effective_labels");
+  private _effectiveLabels = new cdktn.StringMap(this, "effective_labels");
   public get effectiveLabels() {
     return this._effectiveLabels;
   }
@@ -383,11 +383,11 @@ export class GoogleLustreInstance extends cdktf.TerraformResource {
   }
 
   // gke_support_enabled - computed: false, optional: true, required: false
-  private _gkeSupportEnabled?: boolean | cdktf.IResolvable; 
+  private _gkeSupportEnabled?: boolean | cdktn.IResolvable; 
   public get gkeSupportEnabled() {
     return this.getBooleanAttribute('gke_support_enabled');
   }
-  public set gkeSupportEnabled(value: boolean | cdktf.IResolvable) {
+  public set gkeSupportEnabled(value: boolean | cdktn.IResolvable) {
     this._gkeSupportEnabled = value;
   }
   public resetGkeSupportEnabled() {
@@ -514,7 +514,7 @@ export class GoogleLustreInstance extends cdktf.TerraformResource {
   }
 
   // terraform_labels - computed: true, optional: false, required: false
-  private _terraformLabels = new cdktf.StringMap(this, "terraform_labels");
+  private _terraformLabels = new cdktn.StringMap(this, "terraform_labels");
   public get terraformLabels() {
     return this._terraformLabels;
   }
@@ -546,17 +546,17 @@ export class GoogleLustreInstance extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      capacity_gib: cdktf.stringToTerraform(this._capacityGib),
-      description: cdktf.stringToTerraform(this._description),
-      filesystem: cdktf.stringToTerraform(this._filesystem),
-      gke_support_enabled: cdktf.booleanToTerraform(this._gkeSupportEnabled),
-      id: cdktf.stringToTerraform(this._id),
-      instance_id: cdktf.stringToTerraform(this._instanceId),
-      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
-      location: cdktf.stringToTerraform(this._location),
-      network: cdktf.stringToTerraform(this._network),
-      per_unit_storage_throughput: cdktf.stringToTerraform(this._perUnitStorageThroughput),
-      project: cdktf.stringToTerraform(this._project),
+      capacity_gib: cdktn.stringToTerraform(this._capacityGib),
+      description: cdktn.stringToTerraform(this._description),
+      filesystem: cdktn.stringToTerraform(this._filesystem),
+      gke_support_enabled: cdktn.booleanToTerraform(this._gkeSupportEnabled),
+      id: cdktn.stringToTerraform(this._id),
+      instance_id: cdktn.stringToTerraform(this._instanceId),
+      labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
+      location: cdktn.stringToTerraform(this._location),
+      network: cdktn.stringToTerraform(this._network),
+      per_unit_storage_throughput: cdktn.stringToTerraform(this._perUnitStorageThroughput),
+      project: cdktn.stringToTerraform(this._project),
       timeouts: googleLustreInstanceTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -564,67 +564,67 @@ export class GoogleLustreInstance extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       capacity_gib: {
-        value: cdktf.stringToHclTerraform(this._capacityGib),
+        value: cdktn.stringToHclTerraform(this._capacityGib),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       filesystem: {
-        value: cdktf.stringToHclTerraform(this._filesystem),
+        value: cdktn.stringToHclTerraform(this._filesystem),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       gke_support_enabled: {
-        value: cdktf.booleanToHclTerraform(this._gkeSupportEnabled),
+        value: cdktn.booleanToHclTerraform(this._gkeSupportEnabled),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       instance_id: {
-        value: cdktf.stringToHclTerraform(this._instanceId),
+        value: cdktn.stringToHclTerraform(this._instanceId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._labels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       network: {
-        value: cdktf.stringToHclTerraform(this._network),
+        value: cdktn.stringToHclTerraform(this._network),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       per_unit_storage_throughput: {
-        value: cdktf.stringToHclTerraform(this._perUnitStorageThroughput),
+        value: cdktn.stringToHclTerraform(this._perUnitStorageThroughput),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

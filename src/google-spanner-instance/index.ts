@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleSpannerInstanceConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleSpannerInstanceConfig extends cdktn.TerraformMetaArguments {
   /**
   * The name of the instance's configuration (similar but not
   * quite the same as a region) which defines the geographic placement and
@@ -50,7 +50,7 @@ export interface GoogleSpannerInstanceConfig extends cdktf.TerraformMetaArgument
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_instance#force_destroy GoogleSpannerInstance#force_destroy}
   */
-  readonly forceDestroy?: boolean | cdktf.IResolvable;
+  readonly forceDestroy?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_instance#id GoogleSpannerInstance#id}
   *
@@ -133,31 +133,31 @@ export interface GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOpti
 }
 
 export function googleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimitsToTerraform(struct?: GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimitsOutputReference | GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimits): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    max_nodes: cdktf.numberToTerraform(struct!.maxNodes),
-    min_nodes: cdktf.numberToTerraform(struct!.minNodes),
+    max_nodes: cdktn.numberToTerraform(struct!.maxNodes),
+    min_nodes: cdktn.numberToTerraform(struct!.minNodes),
   }
 }
 
 
 export function googleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimitsToHclTerraform(struct?: GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimitsOutputReference | GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimits): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     max_nodes: {
-      value: cdktf.numberToHclTerraform(struct!.maxNodes),
+      value: cdktn.numberToHclTerraform(struct!.maxNodes),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     min_nodes: {
-      value: cdktf.numberToHclTerraform(struct!.minNodes),
+      value: cdktn.numberToHclTerraform(struct!.minNodes),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -168,14 +168,14 @@ export function googleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptio
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimitsOutputReference extends cdktf.ComplexObject {
+export class GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimitsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -242,8 +242,8 @@ export interface GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOpti
 }
 
 export function googleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesToTerraform(struct?: GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference | GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverrides): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -253,8 +253,8 @@ export function googleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptio
 
 
 export function googleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesToHclTerraform(struct?: GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference | GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverrides): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -270,14 +270,14 @@ export function googleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptio
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference extends cdktf.ComplexObject {
+export class GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -325,24 +325,24 @@ export interface GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOpti
 }
 
 export function googleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsReplicaSelectionToTerraform(struct?: GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsReplicaSelectionOutputReference | GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsReplicaSelection): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    location: cdktf.stringToTerraform(struct!.location),
+    location: cdktn.stringToTerraform(struct!.location),
   }
 }
 
 
 export function googleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsReplicaSelectionToHclTerraform(struct?: GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsReplicaSelectionOutputReference | GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsReplicaSelection): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     location: {
-      value: cdktf.stringToHclTerraform(struct!.location),
+      value: cdktn.stringToHclTerraform(struct!.location),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -353,14 +353,14 @@ export function googleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptio
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsReplicaSelectionOutputReference extends cdktf.ComplexObject {
+export class GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsReplicaSelectionOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -413,9 +413,9 @@ export interface GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOpti
   readonly replicaSelection: GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsReplicaSelection;
 }
 
-export function googleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsToTerraform(struct?: GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptions | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsToTerraform(struct?: GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptions | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -425,9 +425,9 @@ export function googleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptio
 }
 
 
-export function googleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsToHclTerraform(struct?: GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptions | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsToHclTerraform(struct?: GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptions | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -449,9 +449,9 @@ export function googleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptio
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOutputReference extends cdktf.ComplexObject {
+export class GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -459,11 +459,11 @@ export class GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsO
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptions | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptions | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -480,14 +480,14 @@ export class GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsO
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptions | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptions | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._overrides.internalValue = undefined;
       this._replicaSelection.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -526,15 +526,15 @@ export class GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsO
   }
 }
 
-export class GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsList extends cdktf.ComplexList {
-  public internalValue? : GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptions[] | cdktf.IResolvable
+export class GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsList extends cdktn.ComplexList {
+  public internalValue? : GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptions[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -578,45 +578,45 @@ export interface GoogleSpannerInstanceAutoscalingConfigAutoscalingLimits {
 }
 
 export function googleSpannerInstanceAutoscalingConfigAutoscalingLimitsToTerraform(struct?: GoogleSpannerInstanceAutoscalingConfigAutoscalingLimitsOutputReference | GoogleSpannerInstanceAutoscalingConfigAutoscalingLimits): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    max_nodes: cdktf.numberToTerraform(struct!.maxNodes),
-    max_processing_units: cdktf.numberToTerraform(struct!.maxProcessingUnits),
-    min_nodes: cdktf.numberToTerraform(struct!.minNodes),
-    min_processing_units: cdktf.numberToTerraform(struct!.minProcessingUnits),
+    max_nodes: cdktn.numberToTerraform(struct!.maxNodes),
+    max_processing_units: cdktn.numberToTerraform(struct!.maxProcessingUnits),
+    min_nodes: cdktn.numberToTerraform(struct!.minNodes),
+    min_processing_units: cdktn.numberToTerraform(struct!.minProcessingUnits),
   }
 }
 
 
 export function googleSpannerInstanceAutoscalingConfigAutoscalingLimitsToHclTerraform(struct?: GoogleSpannerInstanceAutoscalingConfigAutoscalingLimitsOutputReference | GoogleSpannerInstanceAutoscalingConfigAutoscalingLimits): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     max_nodes: {
-      value: cdktf.numberToHclTerraform(struct!.maxNodes),
+      value: cdktn.numberToHclTerraform(struct!.maxNodes),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     max_processing_units: {
-      value: cdktf.numberToHclTerraform(struct!.maxProcessingUnits),
+      value: cdktn.numberToHclTerraform(struct!.maxProcessingUnits),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     min_nodes: {
-      value: cdktf.numberToHclTerraform(struct!.minNodes),
+      value: cdktn.numberToHclTerraform(struct!.minNodes),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     min_processing_units: {
-      value: cdktf.numberToHclTerraform(struct!.minProcessingUnits),
+      value: cdktn.numberToHclTerraform(struct!.minProcessingUnits),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -627,14 +627,14 @@ export function googleSpannerInstanceAutoscalingConfigAutoscalingLimitsToHclTerr
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleSpannerInstanceAutoscalingConfigAutoscalingLimitsOutputReference extends cdktf.ComplexObject {
+export class GoogleSpannerInstanceAutoscalingConfigAutoscalingLimitsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -761,31 +761,31 @@ export interface GoogleSpannerInstanceAutoscalingConfigAutoscalingTargets {
 }
 
 export function googleSpannerInstanceAutoscalingConfigAutoscalingTargetsToTerraform(struct?: GoogleSpannerInstanceAutoscalingConfigAutoscalingTargetsOutputReference | GoogleSpannerInstanceAutoscalingConfigAutoscalingTargets): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    high_priority_cpu_utilization_percent: cdktf.numberToTerraform(struct!.highPriorityCpuUtilizationPercent),
-    storage_utilization_percent: cdktf.numberToTerraform(struct!.storageUtilizationPercent),
+    high_priority_cpu_utilization_percent: cdktn.numberToTerraform(struct!.highPriorityCpuUtilizationPercent),
+    storage_utilization_percent: cdktn.numberToTerraform(struct!.storageUtilizationPercent),
   }
 }
 
 
 export function googleSpannerInstanceAutoscalingConfigAutoscalingTargetsToHclTerraform(struct?: GoogleSpannerInstanceAutoscalingConfigAutoscalingTargetsOutputReference | GoogleSpannerInstanceAutoscalingConfigAutoscalingTargets): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     high_priority_cpu_utilization_percent: {
-      value: cdktf.numberToHclTerraform(struct!.highPriorityCpuUtilizationPercent),
+      value: cdktn.numberToHclTerraform(struct!.highPriorityCpuUtilizationPercent),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     storage_utilization_percent: {
-      value: cdktf.numberToHclTerraform(struct!.storageUtilizationPercent),
+      value: cdktn.numberToHclTerraform(struct!.storageUtilizationPercent),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -796,14 +796,14 @@ export function googleSpannerInstanceAutoscalingConfigAutoscalingTargetsToHclTer
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleSpannerInstanceAutoscalingConfigAutoscalingTargetsOutputReference extends cdktf.ComplexObject {
+export class GoogleSpannerInstanceAutoscalingConfigAutoscalingTargetsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -872,7 +872,7 @@ export interface GoogleSpannerInstanceAutoscalingConfig {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_instance#asymmetric_autoscaling_options GoogleSpannerInstance#asymmetric_autoscaling_options}
   */
-  readonly asymmetricAutoscalingOptions?: GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptions[] | cdktf.IResolvable;
+  readonly asymmetricAutoscalingOptions?: GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptions[] | cdktn.IResolvable;
   /**
   * autoscaling_limits block
   *
@@ -888,12 +888,12 @@ export interface GoogleSpannerInstanceAutoscalingConfig {
 }
 
 export function googleSpannerInstanceAutoscalingConfigToTerraform(struct?: GoogleSpannerInstanceAutoscalingConfigOutputReference | GoogleSpannerInstanceAutoscalingConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    asymmetric_autoscaling_options: cdktf.listMapper(googleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsToTerraform, true)(struct!.asymmetricAutoscalingOptions),
+    asymmetric_autoscaling_options: cdktn.listMapper(googleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsToTerraform, true)(struct!.asymmetricAutoscalingOptions),
     autoscaling_limits: googleSpannerInstanceAutoscalingConfigAutoscalingLimitsToTerraform(struct!.autoscalingLimits),
     autoscaling_targets: googleSpannerInstanceAutoscalingConfigAutoscalingTargetsToTerraform(struct!.autoscalingTargets),
   }
@@ -901,13 +901,13 @@ export function googleSpannerInstanceAutoscalingConfigToTerraform(struct?: Googl
 
 
 export function googleSpannerInstanceAutoscalingConfigToHclTerraform(struct?: GoogleSpannerInstanceAutoscalingConfigOutputReference | GoogleSpannerInstanceAutoscalingConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     asymmetric_autoscaling_options: {
-      value: cdktf.listMapperHcl(googleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsToHclTerraform, true)(struct!.asymmetricAutoscalingOptions),
+      value: cdktn.listMapperHcl(googleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsToHclTerraform, true)(struct!.asymmetricAutoscalingOptions),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsList",
@@ -930,14 +930,14 @@ export function googleSpannerInstanceAutoscalingConfigToHclTerraform(struct?: Go
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleSpannerInstanceAutoscalingConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleSpannerInstanceAutoscalingConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -979,7 +979,7 @@ export class GoogleSpannerInstanceAutoscalingConfigOutputReference extends cdktf
   public get asymmetricAutoscalingOptions() {
     return this._asymmetricAutoscalingOptions;
   }
-  public putAsymmetricAutoscalingOptions(value: GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptions[] | cdktf.IResolvable) {
+  public putAsymmetricAutoscalingOptions(value: GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptions[] | cdktn.IResolvable) {
     this._asymmetricAutoscalingOptions.internalValue = value;
   }
   public resetAsymmetricAutoscalingOptions() {
@@ -1037,39 +1037,39 @@ export interface GoogleSpannerInstanceTimeouts {
   readonly update?: string;
 }
 
-export function googleSpannerInstanceTimeoutsToTerraform(struct?: GoogleSpannerInstanceTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleSpannerInstanceTimeoutsToTerraform(struct?: GoogleSpannerInstanceTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleSpannerInstanceTimeoutsToHclTerraform(struct?: GoogleSpannerInstanceTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleSpannerInstanceTimeoutsToHclTerraform(struct?: GoogleSpannerInstanceTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1080,19 +1080,19 @@ export function googleSpannerInstanceTimeoutsToHclTerraform(struct?: GoogleSpann
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleSpannerInstanceTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleSpannerInstanceTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleSpannerInstanceTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleSpannerInstanceTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1113,7 +1113,7 @@ export class GoogleSpannerInstanceTimeoutsOutputReference extends cdktf.ComplexO
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleSpannerInstanceTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleSpannerInstanceTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -1121,7 +1121,7 @@ export class GoogleSpannerInstanceTimeoutsOutputReference extends cdktf.ComplexO
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1186,7 +1186,7 @@ export class GoogleSpannerInstanceTimeoutsOutputReference extends cdktf.ComplexO
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_instance google_spanner_instance}
 */
-export class GoogleSpannerInstance extends cdktf.TerraformResource {
+export class GoogleSpannerInstance extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -1197,14 +1197,14 @@ export class GoogleSpannerInstance extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleSpannerInstance resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleSpannerInstance resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleSpannerInstance to import
   * @param importFromId The id of the existing GoogleSpannerInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleSpannerInstance to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_spanner_instance", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_spanner_instance", importId: importFromId, provider });
       }
 
   // ===========
@@ -1313,17 +1313,17 @@ export class GoogleSpannerInstance extends cdktf.TerraformResource {
   }
 
   // effective_labels - computed: true, optional: false, required: false
-  private _effectiveLabels = new cdktf.StringMap(this, "effective_labels");
+  private _effectiveLabels = new cdktn.StringMap(this, "effective_labels");
   public get effectiveLabels() {
     return this._effectiveLabels;
   }
 
   // force_destroy - computed: false, optional: true, required: false
-  private _forceDestroy?: boolean | cdktf.IResolvable; 
+  private _forceDestroy?: boolean | cdktn.IResolvable; 
   public get forceDestroy() {
     return this.getBooleanAttribute('force_destroy');
   }
-  public set forceDestroy(value: boolean | cdktf.IResolvable) {
+  public set forceDestroy(value: boolean | cdktn.IResolvable) {
     this._forceDestroy = value;
   }
   public resetForceDestroy() {
@@ -1452,7 +1452,7 @@ export class GoogleSpannerInstance extends cdktf.TerraformResource {
   }
 
   // terraform_labels - computed: true, optional: false, required: false
-  private _terraformLabels = new cdktf.StringMap(this, "terraform_labels");
+  private _terraformLabels = new cdktn.StringMap(this, "terraform_labels");
   public get terraformLabels() {
     return this._terraformLabels;
   }
@@ -1495,18 +1495,18 @@ export class GoogleSpannerInstance extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      config: cdktf.stringToTerraform(this._config),
-      default_backup_schedule_type: cdktf.stringToTerraform(this._defaultBackupScheduleType),
-      display_name: cdktf.stringToTerraform(this._displayName),
-      edition: cdktf.stringToTerraform(this._edition),
-      force_destroy: cdktf.booleanToTerraform(this._forceDestroy),
-      id: cdktf.stringToTerraform(this._id),
-      instance_type: cdktf.stringToTerraform(this._instanceType),
-      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
-      name: cdktf.stringToTerraform(this._name),
-      num_nodes: cdktf.numberToTerraform(this._numNodes),
-      processing_units: cdktf.numberToTerraform(this._processingUnits),
-      project: cdktf.stringToTerraform(this._project),
+      config: cdktn.stringToTerraform(this._config),
+      default_backup_schedule_type: cdktn.stringToTerraform(this._defaultBackupScheduleType),
+      display_name: cdktn.stringToTerraform(this._displayName),
+      edition: cdktn.stringToTerraform(this._edition),
+      force_destroy: cdktn.booleanToTerraform(this._forceDestroy),
+      id: cdktn.stringToTerraform(this._id),
+      instance_type: cdktn.stringToTerraform(this._instanceType),
+      labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
+      name: cdktn.stringToTerraform(this._name),
+      num_nodes: cdktn.numberToTerraform(this._numNodes),
+      processing_units: cdktn.numberToTerraform(this._processingUnits),
+      project: cdktn.stringToTerraform(this._project),
       autoscaling_config: googleSpannerInstanceAutoscalingConfigToTerraform(this._autoscalingConfig.internalValue),
       timeouts: googleSpannerInstanceTimeoutsToTerraform(this._timeouts.internalValue),
     };
@@ -1515,73 +1515,73 @@ export class GoogleSpannerInstance extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       config: {
-        value: cdktf.stringToHclTerraform(this._config),
+        value: cdktn.stringToHclTerraform(this._config),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       default_backup_schedule_type: {
-        value: cdktf.stringToHclTerraform(this._defaultBackupScheduleType),
+        value: cdktn.stringToHclTerraform(this._defaultBackupScheduleType),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       display_name: {
-        value: cdktf.stringToHclTerraform(this._displayName),
+        value: cdktn.stringToHclTerraform(this._displayName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       edition: {
-        value: cdktf.stringToHclTerraform(this._edition),
+        value: cdktn.stringToHclTerraform(this._edition),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       force_destroy: {
-        value: cdktf.booleanToHclTerraform(this._forceDestroy),
+        value: cdktn.booleanToHclTerraform(this._forceDestroy),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       instance_type: {
-        value: cdktf.stringToHclTerraform(this._instanceType),
+        value: cdktn.stringToHclTerraform(this._instanceType),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._labels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       num_nodes: {
-        value: cdktf.numberToHclTerraform(this._numNodes),
+        value: cdktn.numberToHclTerraform(this._numNodes),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       processing_units: {
-        value: cdktf.numberToHclTerraform(this._processingUnits),
+        value: cdktn.numberToHclTerraform(this._processingUnits),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

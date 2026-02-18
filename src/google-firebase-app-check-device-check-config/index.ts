@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleFirebaseAppCheckDeviceCheckConfigConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleFirebaseAppCheckDeviceCheckConfigConfig extends cdktn.TerraformMetaArguments {
   /**
   * The ID of an
   * [Apple App](https://firebase.google.com/docs/reference/firebase-management/rest/v1beta1/projects.iosApps#IosApp.FIELDS.app_id).
@@ -73,39 +73,39 @@ export interface GoogleFirebaseAppCheckDeviceCheckConfigTimeouts {
   readonly update?: string;
 }
 
-export function googleFirebaseAppCheckDeviceCheckConfigTimeoutsToTerraform(struct?: GoogleFirebaseAppCheckDeviceCheckConfigTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleFirebaseAppCheckDeviceCheckConfigTimeoutsToTerraform(struct?: GoogleFirebaseAppCheckDeviceCheckConfigTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleFirebaseAppCheckDeviceCheckConfigTimeoutsToHclTerraform(struct?: GoogleFirebaseAppCheckDeviceCheckConfigTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleFirebaseAppCheckDeviceCheckConfigTimeoutsToHclTerraform(struct?: GoogleFirebaseAppCheckDeviceCheckConfigTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -116,19 +116,19 @@ export function googleFirebaseAppCheckDeviceCheckConfigTimeoutsToHclTerraform(st
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleFirebaseAppCheckDeviceCheckConfigTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleFirebaseAppCheckDeviceCheckConfigTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleFirebaseAppCheckDeviceCheckConfigTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleFirebaseAppCheckDeviceCheckConfigTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -149,7 +149,7 @@ export class GoogleFirebaseAppCheckDeviceCheckConfigTimeoutsOutputReference exte
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleFirebaseAppCheckDeviceCheckConfigTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleFirebaseAppCheckDeviceCheckConfigTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -157,7 +157,7 @@ export class GoogleFirebaseAppCheckDeviceCheckConfigTimeoutsOutputReference exte
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -222,7 +222,7 @@ export class GoogleFirebaseAppCheckDeviceCheckConfigTimeoutsOutputReference exte
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_app_check_device_check_config google_firebase_app_check_device_check_config}
 */
-export class GoogleFirebaseAppCheckDeviceCheckConfig extends cdktf.TerraformResource {
+export class GoogleFirebaseAppCheckDeviceCheckConfig extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -233,14 +233,14 @@ export class GoogleFirebaseAppCheckDeviceCheckConfig extends cdktf.TerraformReso
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleFirebaseAppCheckDeviceCheckConfig resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleFirebaseAppCheckDeviceCheckConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleFirebaseAppCheckDeviceCheckConfig to import
   * @param importFromId The id of the existing GoogleFirebaseAppCheckDeviceCheckConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_app_check_device_check_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleFirebaseAppCheckDeviceCheckConfig to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_firebase_app_check_device_check_config", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_firebase_app_check_device_check_config", importId: importFromId, provider });
       }
 
   // ===========
@@ -402,12 +402,12 @@ export class GoogleFirebaseAppCheckDeviceCheckConfig extends cdktf.TerraformReso
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      app_id: cdktf.stringToTerraform(this._appId),
-      id: cdktf.stringToTerraform(this._id),
-      key_id: cdktf.stringToTerraform(this._keyId),
-      private_key: cdktf.stringToTerraform(this._privateKey),
-      project: cdktf.stringToTerraform(this._project),
-      token_ttl: cdktf.stringToTerraform(this._tokenTtl),
+      app_id: cdktn.stringToTerraform(this._appId),
+      id: cdktn.stringToTerraform(this._id),
+      key_id: cdktn.stringToTerraform(this._keyId),
+      private_key: cdktn.stringToTerraform(this._privateKey),
+      project: cdktn.stringToTerraform(this._project),
+      token_ttl: cdktn.stringToTerraform(this._tokenTtl),
       timeouts: googleFirebaseAppCheckDeviceCheckConfigTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -415,37 +415,37 @@ export class GoogleFirebaseAppCheckDeviceCheckConfig extends cdktf.TerraformReso
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       app_id: {
-        value: cdktf.stringToHclTerraform(this._appId),
+        value: cdktn.stringToHclTerraform(this._appId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       key_id: {
-        value: cdktf.stringToHclTerraform(this._keyId),
+        value: cdktn.stringToHclTerraform(this._keyId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       private_key: {
-        value: cdktf.stringToHclTerraform(this._privateKey),
+        value: cdktn.stringToHclTerraform(this._privateKey),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       token_ttl: {
-        value: cdktf.stringToHclTerraform(this._tokenTtl),
+        value: cdktn.stringToHclTerraform(this._tokenTtl),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleHealthcareDicomStoreConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleHealthcareDicomStoreConfig extends cdktn.TerraformMetaArguments {
   /**
   * Identifies the dataset addressed by this request. Must be in the format
   * 'projects/{project}/locations/{location}/datasets/{dataset}'
@@ -66,7 +66,7 @@ export interface GoogleHealthcareDicomStoreConfig extends cdktf.TerraformMetaArg
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_dicom_store#stream_configs GoogleHealthcareDicomStore#stream_configs}
   */
-  readonly streamConfigs?: GoogleHealthcareDicomStoreStreamConfigs[] | cdktf.IResolvable;
+  readonly streamConfigs?: GoogleHealthcareDicomStoreStreamConfigs[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
@@ -91,35 +91,35 @@ export interface GoogleHealthcareDicomStoreNotificationConfig {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_dicom_store#send_for_bulk_import GoogleHealthcareDicomStore#send_for_bulk_import}
   */
-  readonly sendForBulkImport?: boolean | cdktf.IResolvable;
+  readonly sendForBulkImport?: boolean | cdktn.IResolvable;
 }
 
 export function googleHealthcareDicomStoreNotificationConfigToTerraform(struct?: GoogleHealthcareDicomStoreNotificationConfigOutputReference | GoogleHealthcareDicomStoreNotificationConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    pubsub_topic: cdktf.stringToTerraform(struct!.pubsubTopic),
-    send_for_bulk_import: cdktf.booleanToTerraform(struct!.sendForBulkImport),
+    pubsub_topic: cdktn.stringToTerraform(struct!.pubsubTopic),
+    send_for_bulk_import: cdktn.booleanToTerraform(struct!.sendForBulkImport),
   }
 }
 
 
 export function googleHealthcareDicomStoreNotificationConfigToHclTerraform(struct?: GoogleHealthcareDicomStoreNotificationConfigOutputReference | GoogleHealthcareDicomStoreNotificationConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     pubsub_topic: {
-      value: cdktf.stringToHclTerraform(struct!.pubsubTopic),
+      value: cdktn.stringToHclTerraform(struct!.pubsubTopic),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     send_for_bulk_import: {
-      value: cdktf.booleanToHclTerraform(struct!.sendForBulkImport),
+      value: cdktn.booleanToHclTerraform(struct!.sendForBulkImport),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -130,14 +130,14 @@ export function googleHealthcareDicomStoreNotificationConfigToHclTerraform(struc
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleHealthcareDicomStoreNotificationConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleHealthcareDicomStoreNotificationConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -182,11 +182,11 @@ export class GoogleHealthcareDicomStoreNotificationConfigOutputReference extends
   }
 
   // send_for_bulk_import - computed: false, optional: true, required: false
-  private _sendForBulkImport?: boolean | cdktf.IResolvable; 
+  private _sendForBulkImport?: boolean | cdktn.IResolvable; 
   public get sendForBulkImport() {
     return this.getBooleanAttribute('send_for_bulk_import');
   }
-  public set sendForBulkImport(value: boolean | cdktf.IResolvable) {
+  public set sendForBulkImport(value: boolean | cdktn.IResolvable) {
     this._sendForBulkImport = value;
   }
   public resetSendForBulkImport() {
@@ -207,24 +207,24 @@ export interface GoogleHealthcareDicomStoreStreamConfigsBigqueryDestination {
 }
 
 export function googleHealthcareDicomStoreStreamConfigsBigqueryDestinationToTerraform(struct?: GoogleHealthcareDicomStoreStreamConfigsBigqueryDestinationOutputReference | GoogleHealthcareDicomStoreStreamConfigsBigqueryDestination): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    table_uri: cdktf.stringToTerraform(struct!.tableUri),
+    table_uri: cdktn.stringToTerraform(struct!.tableUri),
   }
 }
 
 
 export function googleHealthcareDicomStoreStreamConfigsBigqueryDestinationToHclTerraform(struct?: GoogleHealthcareDicomStoreStreamConfigsBigqueryDestinationOutputReference | GoogleHealthcareDicomStoreStreamConfigsBigqueryDestination): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     table_uri: {
-      value: cdktf.stringToHclTerraform(struct!.tableUri),
+      value: cdktn.stringToHclTerraform(struct!.tableUri),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -235,14 +235,14 @@ export function googleHealthcareDicomStoreStreamConfigsBigqueryDestinationToHclT
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleHealthcareDicomStoreStreamConfigsBigqueryDestinationOutputReference extends cdktf.ComplexObject {
+export class GoogleHealthcareDicomStoreStreamConfigsBigqueryDestinationOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -289,9 +289,9 @@ export interface GoogleHealthcareDicomStoreStreamConfigs {
   readonly bigqueryDestination: GoogleHealthcareDicomStoreStreamConfigsBigqueryDestination;
 }
 
-export function googleHealthcareDicomStoreStreamConfigsToTerraform(struct?: GoogleHealthcareDicomStoreStreamConfigs | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleHealthcareDicomStoreStreamConfigsToTerraform(struct?: GoogleHealthcareDicomStoreStreamConfigs | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -300,9 +300,9 @@ export function googleHealthcareDicomStoreStreamConfigsToTerraform(struct?: Goog
 }
 
 
-export function googleHealthcareDicomStoreStreamConfigsToHclTerraform(struct?: GoogleHealthcareDicomStoreStreamConfigs | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleHealthcareDicomStoreStreamConfigsToHclTerraform(struct?: GoogleHealthcareDicomStoreStreamConfigs | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -318,9 +318,9 @@ export function googleHealthcareDicomStoreStreamConfigsToHclTerraform(struct?: G
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleHealthcareDicomStoreStreamConfigsOutputReference extends cdktf.ComplexObject {
+export class GoogleHealthcareDicomStoreStreamConfigsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -328,11 +328,11 @@ export class GoogleHealthcareDicomStoreStreamConfigsOutputReference extends cdkt
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleHealthcareDicomStoreStreamConfigs | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleHealthcareDicomStoreStreamConfigs | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -345,13 +345,13 @@ export class GoogleHealthcareDicomStoreStreamConfigsOutputReference extends cdkt
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleHealthcareDicomStoreStreamConfigs | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleHealthcareDicomStoreStreamConfigs | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._bigqueryDestination.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -376,15 +376,15 @@ export class GoogleHealthcareDicomStoreStreamConfigsOutputReference extends cdkt
   }
 }
 
-export class GoogleHealthcareDicomStoreStreamConfigsList extends cdktf.ComplexList {
-  public internalValue? : GoogleHealthcareDicomStoreStreamConfigs[] | cdktf.IResolvable
+export class GoogleHealthcareDicomStoreStreamConfigsList extends cdktn.ComplexList {
+  public internalValue? : GoogleHealthcareDicomStoreStreamConfigs[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -410,39 +410,39 @@ export interface GoogleHealthcareDicomStoreTimeouts {
   readonly update?: string;
 }
 
-export function googleHealthcareDicomStoreTimeoutsToTerraform(struct?: GoogleHealthcareDicomStoreTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleHealthcareDicomStoreTimeoutsToTerraform(struct?: GoogleHealthcareDicomStoreTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleHealthcareDicomStoreTimeoutsToHclTerraform(struct?: GoogleHealthcareDicomStoreTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleHealthcareDicomStoreTimeoutsToHclTerraform(struct?: GoogleHealthcareDicomStoreTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -453,19 +453,19 @@ export function googleHealthcareDicomStoreTimeoutsToHclTerraform(struct?: Google
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleHealthcareDicomStoreTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleHealthcareDicomStoreTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleHealthcareDicomStoreTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleHealthcareDicomStoreTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -486,7 +486,7 @@ export class GoogleHealthcareDicomStoreTimeoutsOutputReference extends cdktf.Com
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleHealthcareDicomStoreTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleHealthcareDicomStoreTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -494,7 +494,7 @@ export class GoogleHealthcareDicomStoreTimeoutsOutputReference extends cdktf.Com
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -559,7 +559,7 @@ export class GoogleHealthcareDicomStoreTimeoutsOutputReference extends cdktf.Com
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_dicom_store google_healthcare_dicom_store}
 */
-export class GoogleHealthcareDicomStore extends cdktf.TerraformResource {
+export class GoogleHealthcareDicomStore extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -570,14 +570,14 @@ export class GoogleHealthcareDicomStore extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleHealthcareDicomStore resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleHealthcareDicomStore resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleHealthcareDicomStore to import
   * @param importFromId The id of the existing GoogleHealthcareDicomStore that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_dicom_store#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleHealthcareDicomStore to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_healthcare_dicom_store", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_healthcare_dicom_store", importId: importFromId, provider });
       }
 
   // ===========
@@ -634,7 +634,7 @@ export class GoogleHealthcareDicomStore extends cdktf.TerraformResource {
   }
 
   // effective_labels - computed: true, optional: false, required: false
-  private _effectiveLabels = new cdktf.StringMap(this, "effective_labels");
+  private _effectiveLabels = new cdktn.StringMap(this, "effective_labels");
   public get effectiveLabels() {
     return this._effectiveLabels;
   }
@@ -690,7 +690,7 @@ export class GoogleHealthcareDicomStore extends cdktf.TerraformResource {
   }
 
   // terraform_labels - computed: true, optional: false, required: false
-  private _terraformLabels = new cdktf.StringMap(this, "terraform_labels");
+  private _terraformLabels = new cdktn.StringMap(this, "terraform_labels");
   public get terraformLabels() {
     return this._terraformLabels;
   }
@@ -716,7 +716,7 @@ export class GoogleHealthcareDicomStore extends cdktf.TerraformResource {
   public get streamConfigs() {
     return this._streamConfigs;
   }
-  public putStreamConfigs(value: GoogleHealthcareDicomStoreStreamConfigs[] | cdktf.IResolvable) {
+  public putStreamConfigs(value: GoogleHealthcareDicomStoreStreamConfigs[] | cdktn.IResolvable) {
     this._streamConfigs.internalValue = value;
   }
   public resetStreamConfigs() {
@@ -749,12 +749,12 @@ export class GoogleHealthcareDicomStore extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      dataset: cdktf.stringToTerraform(this._dataset),
-      id: cdktf.stringToTerraform(this._id),
-      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
-      name: cdktf.stringToTerraform(this._name),
+      dataset: cdktn.stringToTerraform(this._dataset),
+      id: cdktn.stringToTerraform(this._id),
+      labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
+      name: cdktn.stringToTerraform(this._name),
       notification_config: googleHealthcareDicomStoreNotificationConfigToTerraform(this._notificationConfig.internalValue),
-      stream_configs: cdktf.listMapper(googleHealthcareDicomStoreStreamConfigsToTerraform, true)(this._streamConfigs.internalValue),
+      stream_configs: cdktn.listMapper(googleHealthcareDicomStoreStreamConfigsToTerraform, true)(this._streamConfigs.internalValue),
       timeouts: googleHealthcareDicomStoreTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -762,25 +762,25 @@ export class GoogleHealthcareDicomStore extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       dataset: {
-        value: cdktf.stringToHclTerraform(this._dataset),
+        value: cdktn.stringToHclTerraform(this._dataset),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._labels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -792,7 +792,7 @@ export class GoogleHealthcareDicomStore extends cdktf.TerraformResource {
         storageClassType: "GoogleHealthcareDicomStoreNotificationConfigList",
       },
       stream_configs: {
-        value: cdktf.listMapperHcl(googleHealthcareDicomStoreStreamConfigsToHclTerraform, true)(this._streamConfigs.internalValue),
+        value: cdktn.listMapperHcl(googleHealthcareDicomStoreStreamConfigsToHclTerraform, true)(this._streamConfigs.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "GoogleHealthcareDicomStoreStreamConfigsList",

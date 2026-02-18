@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleBigtableTableConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleBigtableTableConfig extends cdktn.TerraformMetaArguments {
   /**
   * Duration to retain change stream data for the table. Set to 0 to disable. Must be between 1 and 7 days.
   *
@@ -77,7 +77,7 @@ export interface GoogleBigtableTableConfig extends cdktf.TerraformMetaArguments 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table#column_family GoogleBigtableTable#column_family}
   */
-  readonly columnFamily?: GoogleBigtableTableColumnFamily[] | cdktf.IResolvable;
+  readonly columnFamily?: GoogleBigtableTableColumnFamily[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
@@ -101,31 +101,31 @@ export interface GoogleBigtableTableAutomatedBackupPolicy {
 }
 
 export function googleBigtableTableAutomatedBackupPolicyToTerraform(struct?: GoogleBigtableTableAutomatedBackupPolicyOutputReference | GoogleBigtableTableAutomatedBackupPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    frequency: cdktf.stringToTerraform(struct!.frequency),
-    retention_period: cdktf.stringToTerraform(struct!.retentionPeriod),
+    frequency: cdktn.stringToTerraform(struct!.frequency),
+    retention_period: cdktn.stringToTerraform(struct!.retentionPeriod),
   }
 }
 
 
 export function googleBigtableTableAutomatedBackupPolicyToHclTerraform(struct?: GoogleBigtableTableAutomatedBackupPolicyOutputReference | GoogleBigtableTableAutomatedBackupPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     frequency: {
-      value: cdktf.stringToHclTerraform(struct!.frequency),
+      value: cdktn.stringToHclTerraform(struct!.frequency),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     retention_period: {
-      value: cdktf.stringToHclTerraform(struct!.retentionPeriod),
+      value: cdktn.stringToHclTerraform(struct!.retentionPeriod),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -136,14 +136,14 @@ export function googleBigtableTableAutomatedBackupPolicyToHclTerraform(struct?: 
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleBigtableTableAutomatedBackupPolicyOutputReference extends cdktf.ComplexObject {
+export class GoogleBigtableTableAutomatedBackupPolicyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -221,32 +221,32 @@ export interface GoogleBigtableTableColumnFamily {
   readonly type?: string;
 }
 
-export function googleBigtableTableColumnFamilyToTerraform(struct?: GoogleBigtableTableColumnFamily | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleBigtableTableColumnFamilyToTerraform(struct?: GoogleBigtableTableColumnFamily | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    family: cdktf.stringToTerraform(struct!.family),
-    type: cdktf.stringToTerraform(struct!.type),
+    family: cdktn.stringToTerraform(struct!.family),
+    type: cdktn.stringToTerraform(struct!.type),
   }
 }
 
 
-export function googleBigtableTableColumnFamilyToHclTerraform(struct?: GoogleBigtableTableColumnFamily | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleBigtableTableColumnFamilyToHclTerraform(struct?: GoogleBigtableTableColumnFamily | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     family: {
-      value: cdktf.stringToHclTerraform(struct!.family),
+      value: cdktn.stringToHclTerraform(struct!.family),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     type: {
-      value: cdktf.stringToHclTerraform(struct!.type),
+      value: cdktn.stringToHclTerraform(struct!.type),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -257,9 +257,9 @@ export function googleBigtableTableColumnFamilyToHclTerraform(struct?: GoogleBig
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleBigtableTableColumnFamilyOutputReference extends cdktf.ComplexObject {
+export class GoogleBigtableTableColumnFamilyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -267,11 +267,11 @@ export class GoogleBigtableTableColumnFamilyOutputReference extends cdktf.Comple
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleBigtableTableColumnFamily | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleBigtableTableColumnFamily | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -288,14 +288,14 @@ export class GoogleBigtableTableColumnFamilyOutputReference extends cdktf.Comple
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleBigtableTableColumnFamily | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleBigtableTableColumnFamily | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._family = undefined;
       this._type = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -337,15 +337,15 @@ export class GoogleBigtableTableColumnFamilyOutputReference extends cdktf.Comple
   }
 }
 
-export class GoogleBigtableTableColumnFamilyList extends cdktf.ComplexList {
-  public internalValue? : GoogleBigtableTableColumnFamily[] | cdktf.IResolvable
+export class GoogleBigtableTableColumnFamilyList extends cdktn.ComplexList {
+  public internalValue? : GoogleBigtableTableColumnFamily[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -367,32 +367,32 @@ export interface GoogleBigtableTableTimeouts {
   readonly update?: string;
 }
 
-export function googleBigtableTableTimeoutsToTerraform(struct?: GoogleBigtableTableTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleBigtableTableTimeoutsToTerraform(struct?: GoogleBigtableTableTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleBigtableTableTimeoutsToHclTerraform(struct?: GoogleBigtableTableTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleBigtableTableTimeoutsToHclTerraform(struct?: GoogleBigtableTableTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -403,19 +403,19 @@ export function googleBigtableTableTimeoutsToHclTerraform(struct?: GoogleBigtabl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleBigtableTableTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleBigtableTableTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleBigtableTableTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleBigtableTableTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -432,14 +432,14 @@ export class GoogleBigtableTableTimeoutsOutputReference extends cdktf.ComplexObj
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleBigtableTableTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleBigtableTableTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._create = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -487,7 +487,7 @@ export class GoogleBigtableTableTimeoutsOutputReference extends cdktf.ComplexObj
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table google_bigtable_table}
 */
-export class GoogleBigtableTable extends cdktf.TerraformResource {
+export class GoogleBigtableTable extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -498,14 +498,14 @@ export class GoogleBigtableTable extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleBigtableTable resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleBigtableTable resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleBigtableTable to import
   * @param importFromId The id of the existing GoogleBigtableTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleBigtableTable to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_bigtable_table", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_bigtable_table", importId: importFromId, provider });
       }
 
   // ===========
@@ -695,7 +695,7 @@ export class GoogleBigtableTable extends cdktf.TerraformResource {
   public get columnFamily() {
     return this._columnFamily;
   }
-  public putColumnFamily(value: GoogleBigtableTableColumnFamily[] | cdktf.IResolvable) {
+  public putColumnFamily(value: GoogleBigtableTableColumnFamily[] | cdktn.IResolvable) {
     this._columnFamily.internalValue = value;
   }
   public resetColumnFamily() {
@@ -728,16 +728,16 @@ export class GoogleBigtableTable extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      change_stream_retention: cdktf.stringToTerraform(this._changeStreamRetention),
-      deletion_protection: cdktf.stringToTerraform(this._deletionProtection),
-      id: cdktf.stringToTerraform(this._id),
-      instance_name: cdktf.stringToTerraform(this._instanceName),
-      name: cdktf.stringToTerraform(this._name),
-      project: cdktf.stringToTerraform(this._project),
-      row_key_schema: cdktf.stringToTerraform(this._rowKeySchema),
-      split_keys: cdktf.listMapper(cdktf.stringToTerraform, false)(this._splitKeys),
+      change_stream_retention: cdktn.stringToTerraform(this._changeStreamRetention),
+      deletion_protection: cdktn.stringToTerraform(this._deletionProtection),
+      id: cdktn.stringToTerraform(this._id),
+      instance_name: cdktn.stringToTerraform(this._instanceName),
+      name: cdktn.stringToTerraform(this._name),
+      project: cdktn.stringToTerraform(this._project),
+      row_key_schema: cdktn.stringToTerraform(this._rowKeySchema),
+      split_keys: cdktn.listMapper(cdktn.stringToTerraform, false)(this._splitKeys),
       automated_backup_policy: googleBigtableTableAutomatedBackupPolicyToTerraform(this._automatedBackupPolicy.internalValue),
-      column_family: cdktf.listMapper(googleBigtableTableColumnFamilyToTerraform, true)(this._columnFamily.internalValue),
+      column_family: cdktn.listMapper(googleBigtableTableColumnFamilyToTerraform, true)(this._columnFamily.internalValue),
       timeouts: googleBigtableTableTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -745,49 +745,49 @@ export class GoogleBigtableTable extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       change_stream_retention: {
-        value: cdktf.stringToHclTerraform(this._changeStreamRetention),
+        value: cdktn.stringToHclTerraform(this._changeStreamRetention),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       deletion_protection: {
-        value: cdktf.stringToHclTerraform(this._deletionProtection),
+        value: cdktn.stringToHclTerraform(this._deletionProtection),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       instance_name: {
-        value: cdktf.stringToHclTerraform(this._instanceName),
+        value: cdktn.stringToHclTerraform(this._instanceName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       row_key_schema: {
-        value: cdktf.stringToHclTerraform(this._rowKeySchema),
+        value: cdktn.stringToHclTerraform(this._rowKeySchema),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       split_keys: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._splitKeys),
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._splitKeys),
         isBlock: false,
         type: "list",
         storageClassType: "stringList",
@@ -799,7 +799,7 @@ export class GoogleBigtableTable extends cdktf.TerraformResource {
         storageClassType: "GoogleBigtableTableAutomatedBackupPolicyList",
       },
       column_family: {
-        value: cdktf.listMapperHcl(googleBigtableTableColumnFamilyToHclTerraform, true)(this._columnFamily.internalValue),
+        value: cdktn.listMapperHcl(googleBigtableTableColumnFamilyToHclTerraform, true)(this._columnFamily.internalValue),
         isBlock: true,
         type: "set",
         storageClassType: "GoogleBigtableTableColumnFamilyList",

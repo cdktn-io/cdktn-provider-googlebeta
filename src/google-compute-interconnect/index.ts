@@ -7,17 +7,17 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleComputeInterconnectConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleComputeInterconnectConfig extends cdktn.TerraformMetaArguments {
   /**
   * Enable or disable the Application Aware Interconnect(AAI) feature on this interconnect.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_interconnect#aai_enabled GoogleComputeInterconnect#aai_enabled}
   */
-  readonly aaiEnabled?: boolean | cdktf.IResolvable;
+  readonly aaiEnabled?: boolean | cdktn.IResolvable;
   /**
   * Administrative status of the interconnect. When this is set to true, the Interconnect is
   * functional and can carry traffic. When set to false, no packets can be carried over the
@@ -25,7 +25,7 @@ export interface GoogleComputeInterconnectConfig extends cdktf.TerraformMetaArgu
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_interconnect#admin_enabled GoogleComputeInterconnect#admin_enabled}
   */
-  readonly adminEnabled?: boolean | cdktf.IResolvable;
+  readonly adminEnabled?: boolean | cdktn.IResolvable;
   /**
   * Customer name, to put in the Letter of Authorization as the party authorized to request a
   * crossconnect. This field is required for Dedicated and Partner Interconnect, should not be specified
@@ -90,7 +90,7 @@ export interface GoogleComputeInterconnectConfig extends cdktf.TerraformMetaArgu
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_interconnect#macsec_enabled GoogleComputeInterconnect#macsec_enabled}
   */
-  readonly macsecEnabled?: boolean | cdktf.IResolvable;
+  readonly macsecEnabled?: boolean | cdktn.IResolvable;
   /**
   * Name of the resource. Provided by the client when the resource is created. The name must be
   * 1-63 characters long, and comply with RFC1035. Specifically, the name must be 1-63 characters
@@ -161,8 +161,8 @@ export interface GoogleComputeInterconnectCircuitInfos {
 }
 
 export function googleComputeInterconnectCircuitInfosToTerraform(struct?: GoogleComputeInterconnectCircuitInfos): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -171,8 +171,8 @@ export function googleComputeInterconnectCircuitInfosToTerraform(struct?: Google
 
 
 export function googleComputeInterconnectCircuitInfosToHclTerraform(struct?: GoogleComputeInterconnectCircuitInfos): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -180,7 +180,7 @@ export function googleComputeInterconnectCircuitInfosToHclTerraform(struct?: Goo
   return attrs;
 }
 
-export class GoogleComputeInterconnectCircuitInfosOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeInterconnectCircuitInfosOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -189,7 +189,7 @@ export class GoogleComputeInterconnectCircuitInfosOutputReference extends cdktf.
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -224,14 +224,14 @@ export class GoogleComputeInterconnectCircuitInfosOutputReference extends cdktf.
   }
 }
 
-export class GoogleComputeInterconnectCircuitInfosList extends cdktf.ComplexList {
+export class GoogleComputeInterconnectCircuitInfosList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -246,8 +246,8 @@ export interface GoogleComputeInterconnectExpectedOutages {
 }
 
 export function googleComputeInterconnectExpectedOutagesToTerraform(struct?: GoogleComputeInterconnectExpectedOutages): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -256,8 +256,8 @@ export function googleComputeInterconnectExpectedOutagesToTerraform(struct?: Goo
 
 
 export function googleComputeInterconnectExpectedOutagesToHclTerraform(struct?: GoogleComputeInterconnectExpectedOutages): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -265,7 +265,7 @@ export function googleComputeInterconnectExpectedOutagesToHclTerraform(struct?: 
   return attrs;
 }
 
-export class GoogleComputeInterconnectExpectedOutagesOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeInterconnectExpectedOutagesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -274,7 +274,7 @@ export class GoogleComputeInterconnectExpectedOutagesOutputReference extends cdk
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -334,14 +334,14 @@ export class GoogleComputeInterconnectExpectedOutagesOutputReference extends cdk
   }
 }
 
-export class GoogleComputeInterconnectExpectedOutagesList extends cdktf.ComplexList {
+export class GoogleComputeInterconnectExpectedOutagesList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -367,32 +367,32 @@ export interface GoogleComputeInterconnectApplicationAwareInterconnectBandwidthP
   readonly trafficClass?: string;
 }
 
-export function googleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageToTerraform(struct?: GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageToTerraform(struct?: GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    percentage: cdktf.numberToTerraform(struct!.percentage),
-    traffic_class: cdktf.stringToTerraform(struct!.trafficClass),
+    percentage: cdktn.numberToTerraform(struct!.percentage),
+    traffic_class: cdktn.stringToTerraform(struct!.trafficClass),
   }
 }
 
 
-export function googleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageToHclTerraform(struct?: GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageToHclTerraform(struct?: GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     percentage: {
-      value: cdktf.numberToHclTerraform(struct!.percentage),
+      value: cdktn.numberToHclTerraform(struct!.percentage),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     traffic_class: {
-      value: cdktf.stringToHclTerraform(struct!.trafficClass),
+      value: cdktn.stringToHclTerraform(struct!.trafficClass),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -403,9 +403,9 @@ export function googleComputeInterconnectApplicationAwareInterconnectBandwidthPe
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -413,11 +413,11 @@ export class GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPerce
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -434,14 +434,14 @@ export class GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPerce
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._percentage = undefined;
       this._trafficClass = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -486,15 +486,15 @@ export class GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPerce
   }
 }
 
-export class GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage[] | cdktf.IResolvable
+export class GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -511,28 +511,28 @@ export interface GoogleComputeInterconnectApplicationAwareInterconnectBandwidthP
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_interconnect#bandwidth_percentage GoogleComputeInterconnect#bandwidth_percentage}
   */
-  readonly bandwidthPercentage?: GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage[] | cdktf.IResolvable;
+  readonly bandwidthPercentage?: GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage[] | cdktn.IResolvable;
 }
 
 export function googleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyToTerraform(struct?: GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference | GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    bandwidth_percentage: cdktf.listMapper(googleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageToTerraform, true)(struct!.bandwidthPercentage),
+    bandwidth_percentage: cdktn.listMapper(googleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageToTerraform, true)(struct!.bandwidthPercentage),
   }
 }
 
 
 export function googleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyToHclTerraform(struct?: GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference | GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     bandwidth_percentage: {
-      value: cdktf.listMapperHcl(googleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageToHclTerraform, true)(struct!.bandwidthPercentage),
+      value: cdktn.listMapperHcl(googleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageToHclTerraform, true)(struct!.bandwidthPercentage),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentageList",
@@ -543,14 +543,14 @@ export function googleComputeInterconnectApplicationAwareInterconnectBandwidthPe
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -580,7 +580,7 @@ export class GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPerce
   public get bandwidthPercentage() {
     return this._bandwidthPercentage;
   }
-  public putBandwidthPercentage(value: GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage[] | cdktf.IResolvable) {
+  public putBandwidthPercentage(value: GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage[] | cdktn.IResolvable) {
     this._bandwidthPercentage.internalValue = value;
   }
   public resetBandwidthPercentage() {
@@ -606,32 +606,32 @@ export interface GoogleComputeInterconnectApplicationAwareInterconnectShapeAvera
   readonly trafficClass?: string;
 }
 
-export function googleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageToTerraform(struct?: GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageToTerraform(struct?: GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    percentage: cdktf.numberToTerraform(struct!.percentage),
-    traffic_class: cdktf.stringToTerraform(struct!.trafficClass),
+    percentage: cdktn.numberToTerraform(struct!.percentage),
+    traffic_class: cdktn.stringToTerraform(struct!.trafficClass),
   }
 }
 
 
-export function googleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageToHclTerraform(struct?: GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageToHclTerraform(struct?: GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     percentage: {
-      value: cdktf.numberToHclTerraform(struct!.percentage),
+      value: cdktn.numberToHclTerraform(struct!.percentage),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     traffic_class: {
-      value: cdktf.stringToHclTerraform(struct!.trafficClass),
+      value: cdktn.stringToHclTerraform(struct!.trafficClass),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -642,9 +642,9 @@ export function googleComputeInterconnectApplicationAwareInterconnectShapeAverag
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -652,11 +652,11 @@ export class GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePe
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -673,14 +673,14 @@ export class GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePe
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._percentage = undefined;
       this._trafficClass = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -725,15 +725,15 @@ export class GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePe
   }
 }
 
-export class GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage[] | cdktf.IResolvable
+export class GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -748,8 +748,8 @@ export interface GoogleComputeInterconnectApplicationAwareInterconnectStrictPrio
 }
 
 export function googleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyToTerraform(struct?: GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference | GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -758,8 +758,8 @@ export function googleComputeInterconnectApplicationAwareInterconnectStrictPrior
 
 
 export function googleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyToHclTerraform(struct?: GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference | GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -767,14 +767,14 @@ export function googleComputeInterconnectApplicationAwareInterconnectStrictPrior
   return attrs;
 }
 
-export class GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -811,7 +811,7 @@ export interface GoogleComputeInterconnectApplicationAwareInterconnect {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_interconnect#shape_average_percentage GoogleComputeInterconnect#shape_average_percentage}
   */
-  readonly shapeAveragePercentage?: GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage[] | cdktf.IResolvable;
+  readonly shapeAveragePercentage?: GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage[] | cdktn.IResolvable;
   /**
   * strict_priority_policy block
   *
@@ -821,27 +821,27 @@ export interface GoogleComputeInterconnectApplicationAwareInterconnect {
 }
 
 export function googleComputeInterconnectApplicationAwareInterconnectToTerraform(struct?: GoogleComputeInterconnectApplicationAwareInterconnectOutputReference | GoogleComputeInterconnectApplicationAwareInterconnect): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    profile_description: cdktf.stringToTerraform(struct!.profileDescription),
+    profile_description: cdktn.stringToTerraform(struct!.profileDescription),
     bandwidth_percentage_policy: googleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyToTerraform(struct!.bandwidthPercentagePolicy),
-    shape_average_percentage: cdktf.listMapper(googleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageToTerraform, true)(struct!.shapeAveragePercentage),
+    shape_average_percentage: cdktn.listMapper(googleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageToTerraform, true)(struct!.shapeAveragePercentage),
     strict_priority_policy: googleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyToTerraform(struct!.strictPriorityPolicy),
   }
 }
 
 
 export function googleComputeInterconnectApplicationAwareInterconnectToHclTerraform(struct?: GoogleComputeInterconnectApplicationAwareInterconnectOutputReference | GoogleComputeInterconnectApplicationAwareInterconnect): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     profile_description: {
-      value: cdktf.stringToHclTerraform(struct!.profileDescription),
+      value: cdktn.stringToHclTerraform(struct!.profileDescription),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -853,7 +853,7 @@ export function googleComputeInterconnectApplicationAwareInterconnectToHclTerraf
       storageClassType: "GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyList",
     },
     shape_average_percentage: {
-      value: cdktf.listMapperHcl(googleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageToHclTerraform, true)(struct!.shapeAveragePercentage),
+      value: cdktn.listMapperHcl(googleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageToHclTerraform, true)(struct!.shapeAveragePercentage),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList",
@@ -870,14 +870,14 @@ export function googleComputeInterconnectApplicationAwareInterconnectToHclTerraf
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeInterconnectApplicationAwareInterconnectOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeInterconnectApplicationAwareInterconnectOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -957,7 +957,7 @@ export class GoogleComputeInterconnectApplicationAwareInterconnectOutputReferenc
   public get shapeAveragePercentage() {
     return this._shapeAveragePercentage;
   }
-  public putShapeAveragePercentage(value: GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage[] | cdktf.IResolvable) {
+  public putShapeAveragePercentage(value: GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage[] | cdktn.IResolvable) {
     this._shapeAveragePercentage.internalValue = value;
   }
   public resetShapeAveragePercentage() {
@@ -994,7 +994,7 @@ export interface GoogleComputeInterconnectMacsecPreSharedKeys {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_interconnect#fail_open GoogleComputeInterconnect#fail_open}
   */
-  readonly failOpen?: boolean | cdktf.IResolvable;
+  readonly failOpen?: boolean | cdktn.IResolvable;
   /**
   * A name for this pre-shared key. The name must be 1-63 characters long, and
   *  comply with RFC1035. Specifically, the name must be 1-63 characters long and match
@@ -1017,39 +1017,39 @@ export interface GoogleComputeInterconnectMacsecPreSharedKeys {
   readonly startTime?: string;
 }
 
-export function googleComputeInterconnectMacsecPreSharedKeysToTerraform(struct?: GoogleComputeInterconnectMacsecPreSharedKeys | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeInterconnectMacsecPreSharedKeysToTerraform(struct?: GoogleComputeInterconnectMacsecPreSharedKeys | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    fail_open: cdktf.booleanToTerraform(struct!.failOpen),
-    name: cdktf.stringToTerraform(struct!.name),
-    start_time: cdktf.stringToTerraform(struct!.startTime),
+    fail_open: cdktn.booleanToTerraform(struct!.failOpen),
+    name: cdktn.stringToTerraform(struct!.name),
+    start_time: cdktn.stringToTerraform(struct!.startTime),
   }
 }
 
 
-export function googleComputeInterconnectMacsecPreSharedKeysToHclTerraform(struct?: GoogleComputeInterconnectMacsecPreSharedKeys | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeInterconnectMacsecPreSharedKeysToHclTerraform(struct?: GoogleComputeInterconnectMacsecPreSharedKeys | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     fail_open: {
-      value: cdktf.booleanToHclTerraform(struct!.failOpen),
+      value: cdktn.booleanToHclTerraform(struct!.failOpen),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
+      value: cdktn.stringToHclTerraform(struct!.name),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     start_time: {
-      value: cdktf.stringToHclTerraform(struct!.startTime),
+      value: cdktn.stringToHclTerraform(struct!.startTime),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1060,9 +1060,9 @@ export function googleComputeInterconnectMacsecPreSharedKeysToHclTerraform(struc
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeInterconnectMacsecPreSharedKeysOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeInterconnectMacsecPreSharedKeysOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -1070,11 +1070,11 @@ export class GoogleComputeInterconnectMacsecPreSharedKeysOutputReference extends
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeInterconnectMacsecPreSharedKeys | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeInterconnectMacsecPreSharedKeys | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1095,7 +1095,7 @@ export class GoogleComputeInterconnectMacsecPreSharedKeysOutputReference extends
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeInterconnectMacsecPreSharedKeys | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeInterconnectMacsecPreSharedKeys | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -1103,7 +1103,7 @@ export class GoogleComputeInterconnectMacsecPreSharedKeysOutputReference extends
       this._name = undefined;
       this._startTime = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1117,11 +1117,11 @@ export class GoogleComputeInterconnectMacsecPreSharedKeysOutputReference extends
   }
 
   // fail_open - computed: false, optional: true, required: false
-  private _failOpen?: boolean | cdktf.IResolvable; 
+  private _failOpen?: boolean | cdktn.IResolvable; 
   public get failOpen() {
     return this.getBooleanAttribute('fail_open');
   }
-  public set failOpen(value: boolean | cdktf.IResolvable) {
+  public set failOpen(value: boolean | cdktn.IResolvable) {
     this._failOpen = value;
   }
   public resetFailOpen() {
@@ -1162,15 +1162,15 @@ export class GoogleComputeInterconnectMacsecPreSharedKeysOutputReference extends
   }
 }
 
-export class GoogleComputeInterconnectMacsecPreSharedKeysList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeInterconnectMacsecPreSharedKeys[] | cdktf.IResolvable
+export class GoogleComputeInterconnectMacsecPreSharedKeysList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeInterconnectMacsecPreSharedKeys[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1191,41 +1191,41 @@ export interface GoogleComputeInterconnectMacsec {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_interconnect#fail_open GoogleComputeInterconnect#fail_open}
   */
-  readonly failOpen?: boolean | cdktf.IResolvable;
+  readonly failOpen?: boolean | cdktn.IResolvable;
   /**
   * pre_shared_keys block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_interconnect#pre_shared_keys GoogleComputeInterconnect#pre_shared_keys}
   */
-  readonly preSharedKeys: GoogleComputeInterconnectMacsecPreSharedKeys[] | cdktf.IResolvable;
+  readonly preSharedKeys: GoogleComputeInterconnectMacsecPreSharedKeys[] | cdktn.IResolvable;
 }
 
 export function googleComputeInterconnectMacsecToTerraform(struct?: GoogleComputeInterconnectMacsecOutputReference | GoogleComputeInterconnectMacsec): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    fail_open: cdktf.booleanToTerraform(struct!.failOpen),
-    pre_shared_keys: cdktf.listMapper(googleComputeInterconnectMacsecPreSharedKeysToTerraform, true)(struct!.preSharedKeys),
+    fail_open: cdktn.booleanToTerraform(struct!.failOpen),
+    pre_shared_keys: cdktn.listMapper(googleComputeInterconnectMacsecPreSharedKeysToTerraform, true)(struct!.preSharedKeys),
   }
 }
 
 
 export function googleComputeInterconnectMacsecToHclTerraform(struct?: GoogleComputeInterconnectMacsecOutputReference | GoogleComputeInterconnectMacsec): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     fail_open: {
-      value: cdktf.booleanToHclTerraform(struct!.failOpen),
+      value: cdktn.booleanToHclTerraform(struct!.failOpen),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     pre_shared_keys: {
-      value: cdktf.listMapperHcl(googleComputeInterconnectMacsecPreSharedKeysToHclTerraform, true)(struct!.preSharedKeys),
+      value: cdktn.listMapperHcl(googleComputeInterconnectMacsecPreSharedKeysToHclTerraform, true)(struct!.preSharedKeys),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleComputeInterconnectMacsecPreSharedKeysList",
@@ -1236,14 +1236,14 @@ export function googleComputeInterconnectMacsecToHclTerraform(struct?: GoogleCom
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeInterconnectMacsecOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeInterconnectMacsecOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1275,11 +1275,11 @@ export class GoogleComputeInterconnectMacsecOutputReference extends cdktf.Comple
   }
 
   // fail_open - computed: false, optional: true, required: false
-  private _failOpen?: boolean | cdktf.IResolvable; 
+  private _failOpen?: boolean | cdktn.IResolvable; 
   public get failOpen() {
     return this.getBooleanAttribute('fail_open');
   }
-  public set failOpen(value: boolean | cdktf.IResolvable) {
+  public set failOpen(value: boolean | cdktn.IResolvable) {
     this._failOpen = value;
   }
   public resetFailOpen() {
@@ -1295,7 +1295,7 @@ export class GoogleComputeInterconnectMacsecOutputReference extends cdktf.Comple
   public get preSharedKeys() {
     return this._preSharedKeys;
   }
-  public putPreSharedKeys(value: GoogleComputeInterconnectMacsecPreSharedKeys[] | cdktf.IResolvable) {
+  public putPreSharedKeys(value: GoogleComputeInterconnectMacsecPreSharedKeys[] | cdktn.IResolvable) {
     this._preSharedKeys.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -1318,39 +1318,39 @@ export interface GoogleComputeInterconnectTimeouts {
   readonly update?: string;
 }
 
-export function googleComputeInterconnectTimeoutsToTerraform(struct?: GoogleComputeInterconnectTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeInterconnectTimeoutsToTerraform(struct?: GoogleComputeInterconnectTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleComputeInterconnectTimeoutsToHclTerraform(struct?: GoogleComputeInterconnectTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeInterconnectTimeoutsToHclTerraform(struct?: GoogleComputeInterconnectTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1361,19 +1361,19 @@ export function googleComputeInterconnectTimeoutsToHclTerraform(struct?: GoogleC
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeInterconnectTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeInterconnectTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleComputeInterconnectTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeInterconnectTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1394,7 +1394,7 @@ export class GoogleComputeInterconnectTimeoutsOutputReference extends cdktf.Comp
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeInterconnectTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeInterconnectTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -1402,7 +1402,7 @@ export class GoogleComputeInterconnectTimeoutsOutputReference extends cdktf.Comp
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1467,7 +1467,7 @@ export class GoogleComputeInterconnectTimeoutsOutputReference extends cdktf.Comp
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_interconnect google_compute_interconnect}
 */
-export class GoogleComputeInterconnect extends cdktf.TerraformResource {
+export class GoogleComputeInterconnect extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -1478,14 +1478,14 @@ export class GoogleComputeInterconnect extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleComputeInterconnect resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleComputeInterconnect resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleComputeInterconnect to import
   * @param importFromId The id of the existing GoogleComputeInterconnect that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_interconnect#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleComputeInterconnect to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_compute_interconnect", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_compute_interconnect", importId: importFromId, provider });
       }
 
   // ===========
@@ -1541,11 +1541,11 @@ export class GoogleComputeInterconnect extends cdktf.TerraformResource {
   // ==========
 
   // aai_enabled - computed: false, optional: true, required: false
-  private _aaiEnabled?: boolean | cdktf.IResolvable; 
+  private _aaiEnabled?: boolean | cdktn.IResolvable; 
   public get aaiEnabled() {
     return this.getBooleanAttribute('aai_enabled');
   }
-  public set aaiEnabled(value: boolean | cdktf.IResolvable) {
+  public set aaiEnabled(value: boolean | cdktn.IResolvable) {
     this._aaiEnabled = value;
   }
   public resetAaiEnabled() {
@@ -1557,11 +1557,11 @@ export class GoogleComputeInterconnect extends cdktf.TerraformResource {
   }
 
   // admin_enabled - computed: false, optional: true, required: false
-  private _adminEnabled?: boolean | cdktf.IResolvable; 
+  private _adminEnabled?: boolean | cdktn.IResolvable; 
   public get adminEnabled() {
     return this.getBooleanAttribute('admin_enabled');
   }
-  public set adminEnabled(value: boolean | cdktf.IResolvable) {
+  public set adminEnabled(value: boolean | cdktn.IResolvable) {
     this._adminEnabled = value;
   }
   public resetAdminEnabled() {
@@ -1621,7 +1621,7 @@ export class GoogleComputeInterconnect extends cdktf.TerraformResource {
   }
 
   // effective_labels - computed: true, optional: false, required: false
-  private _effectiveLabels = new cdktf.StringMap(this, "effective_labels");
+  private _effectiveLabels = new cdktn.StringMap(this, "effective_labels");
   public get effectiveLabels() {
     return this._effectiveLabels;
   }
@@ -1665,7 +1665,7 @@ export class GoogleComputeInterconnect extends cdktf.TerraformResource {
 
   // interconnect_groups - computed: true, optional: false, required: false
   public get interconnectGroups() {
-    return cdktf.Fn.tolist(this.getListAttribute('interconnect_groups'));
+    return cdktn.Fn.tolist(this.getListAttribute('interconnect_groups'));
   }
 
   // interconnect_type - computed: false, optional: false, required: true
@@ -1729,11 +1729,11 @@ export class GoogleComputeInterconnect extends cdktf.TerraformResource {
   }
 
   // macsec_enabled - computed: false, optional: true, required: false
-  private _macsecEnabled?: boolean | cdktf.IResolvable; 
+  private _macsecEnabled?: boolean | cdktn.IResolvable; 
   public get macsecEnabled() {
     return this.getBooleanAttribute('macsec_enabled');
   }
-  public set macsecEnabled(value: boolean | cdktf.IResolvable) {
+  public set macsecEnabled(value: boolean | cdktn.IResolvable) {
     this._macsecEnabled = value;
   }
   public resetMacsecEnabled() {
@@ -1860,7 +1860,7 @@ export class GoogleComputeInterconnect extends cdktf.TerraformResource {
   }
 
   // terraform_labels - computed: true, optional: false, required: false
-  private _terraformLabels = new cdktf.StringMap(this, "terraform_labels");
+  private _terraformLabels = new cdktn.StringMap(this, "terraform_labels");
   public get terraformLabels() {
     return this._terraformLabels;
   }
@@ -1924,22 +1924,22 @@ export class GoogleComputeInterconnect extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      aai_enabled: cdktf.booleanToTerraform(this._aaiEnabled),
-      admin_enabled: cdktf.booleanToTerraform(this._adminEnabled),
-      customer_name: cdktf.stringToTerraform(this._customerName),
-      description: cdktf.stringToTerraform(this._description),
-      id: cdktf.stringToTerraform(this._id),
-      interconnect_type: cdktf.stringToTerraform(this._interconnectType),
-      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
-      link_type: cdktf.stringToTerraform(this._linkType),
-      location: cdktf.stringToTerraform(this._location),
-      macsec_enabled: cdktf.booleanToTerraform(this._macsecEnabled),
-      name: cdktf.stringToTerraform(this._name),
-      noc_contact_email: cdktf.stringToTerraform(this._nocContactEmail),
-      project: cdktf.stringToTerraform(this._project),
-      remote_location: cdktf.stringToTerraform(this._remoteLocation),
-      requested_features: cdktf.listMapper(cdktf.stringToTerraform, false)(this._requestedFeatures),
-      requested_link_count: cdktf.numberToTerraform(this._requestedLinkCount),
+      aai_enabled: cdktn.booleanToTerraform(this._aaiEnabled),
+      admin_enabled: cdktn.booleanToTerraform(this._adminEnabled),
+      customer_name: cdktn.stringToTerraform(this._customerName),
+      description: cdktn.stringToTerraform(this._description),
+      id: cdktn.stringToTerraform(this._id),
+      interconnect_type: cdktn.stringToTerraform(this._interconnectType),
+      labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
+      link_type: cdktn.stringToTerraform(this._linkType),
+      location: cdktn.stringToTerraform(this._location),
+      macsec_enabled: cdktn.booleanToTerraform(this._macsecEnabled),
+      name: cdktn.stringToTerraform(this._name),
+      noc_contact_email: cdktn.stringToTerraform(this._nocContactEmail),
+      project: cdktn.stringToTerraform(this._project),
+      remote_location: cdktn.stringToTerraform(this._remoteLocation),
+      requested_features: cdktn.listMapper(cdktn.stringToTerraform, false)(this._requestedFeatures),
+      requested_link_count: cdktn.numberToTerraform(this._requestedLinkCount),
       application_aware_interconnect: googleComputeInterconnectApplicationAwareInterconnectToTerraform(this._applicationAwareInterconnect.internalValue),
       macsec: googleComputeInterconnectMacsecToTerraform(this._macsec.internalValue),
       timeouts: googleComputeInterconnectTimeoutsToTerraform(this._timeouts.internalValue),
@@ -1949,97 +1949,97 @@ export class GoogleComputeInterconnect extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       aai_enabled: {
-        value: cdktf.booleanToHclTerraform(this._aaiEnabled),
+        value: cdktn.booleanToHclTerraform(this._aaiEnabled),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       admin_enabled: {
-        value: cdktf.booleanToHclTerraform(this._adminEnabled),
+        value: cdktn.booleanToHclTerraform(this._adminEnabled),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       customer_name: {
-        value: cdktf.stringToHclTerraform(this._customerName),
+        value: cdktn.stringToHclTerraform(this._customerName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       interconnect_type: {
-        value: cdktf.stringToHclTerraform(this._interconnectType),
+        value: cdktn.stringToHclTerraform(this._interconnectType),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._labels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       link_type: {
-        value: cdktf.stringToHclTerraform(this._linkType),
+        value: cdktn.stringToHclTerraform(this._linkType),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       macsec_enabled: {
-        value: cdktf.booleanToHclTerraform(this._macsecEnabled),
+        value: cdktn.booleanToHclTerraform(this._macsecEnabled),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       noc_contact_email: {
-        value: cdktf.stringToHclTerraform(this._nocContactEmail),
+        value: cdktn.stringToHclTerraform(this._nocContactEmail),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       remote_location: {
-        value: cdktf.stringToHclTerraform(this._remoteLocation),
+        value: cdktn.stringToHclTerraform(this._remoteLocation),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       requested_features: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._requestedFeatures),
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._requestedFeatures),
         isBlock: false,
         type: "list",
         storageClassType: "stringList",
       },
       requested_link_count: {
-        value: cdktf.numberToHclTerraform(this._requestedLinkCount),
+        value: cdktn.numberToHclTerraform(this._requestedLinkCount),
         isBlock: false,
         type: "simple",
         storageClassType: "number",

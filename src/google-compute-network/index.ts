@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleComputeNetworkConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleComputeNetworkConfig extends cdktn.TerraformMetaArguments {
   /**
   * When set to 'true', the network is created in "auto subnet mode" and
   * it will create a subnet for each region automatically across the
@@ -22,14 +22,14 @@ export interface GoogleComputeNetworkConfig extends cdktf.TerraformMetaArguments
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_network#auto_create_subnetworks GoogleComputeNetwork#auto_create_subnetworks}
   */
-  readonly autoCreateSubnetworks?: boolean | cdktf.IResolvable;
+  readonly autoCreateSubnetworks?: boolean | cdktn.IResolvable;
   /**
   * Enables/disables the comparison of MED across routes with different Neighbor ASNs.
   * This value can only be set if the --bgp-best-path-selection-mode is STANDARD
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_network#bgp_always_compare_med GoogleComputeNetwork#bgp_always_compare_med}
   */
-  readonly bgpAlwaysCompareMed?: boolean | cdktf.IResolvable;
+  readonly bgpAlwaysCompareMed?: boolean | cdktn.IResolvable;
   /**
   * The BGP best selection algorithm to be employed. MODE can be LEGACY or STANDARD. Possible values: ["LEGACY", "STANDARD"]
   *
@@ -48,7 +48,7 @@ export interface GoogleComputeNetworkConfig extends cdktf.TerraformMetaArguments
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_network#delete_default_routes_on_create GoogleComputeNetwork#delete_default_routes_on_create}
   */
-  readonly deleteDefaultRoutesOnCreate?: boolean | cdktf.IResolvable;
+  readonly deleteDefaultRoutesOnCreate?: boolean | cdktn.IResolvable;
   /**
   * An optional description of this resource. The resource must be
   * recreated to modify this field.
@@ -62,7 +62,7 @@ export interface GoogleComputeNetworkConfig extends cdktf.TerraformMetaArguments
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_network#enable_ula_internal_ipv6 GoogleComputeNetwork#enable_ula_internal_ipv6}
   */
-  readonly enableUlaInternalIpv6?: boolean | cdktf.IResolvable;
+  readonly enableUlaInternalIpv6?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_network#id GoogleComputeNetwork#id}
   *
@@ -157,24 +157,24 @@ export interface GoogleComputeNetworkParams {
 }
 
 export function googleComputeNetworkParamsToTerraform(struct?: GoogleComputeNetworkParamsOutputReference | GoogleComputeNetworkParams): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    resource_manager_tags: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.resourceManagerTags),
+    resource_manager_tags: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.resourceManagerTags),
   }
 }
 
 
 export function googleComputeNetworkParamsToHclTerraform(struct?: GoogleComputeNetworkParamsOutputReference | GoogleComputeNetworkParams): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     resource_manager_tags: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.resourceManagerTags),
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.resourceManagerTags),
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
@@ -185,14 +185,14 @@ export function googleComputeNetworkParamsToHclTerraform(struct?: GoogleComputeN
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeNetworkParamsOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeNetworkParamsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -248,39 +248,39 @@ export interface GoogleComputeNetworkTimeouts {
   readonly update?: string;
 }
 
-export function googleComputeNetworkTimeoutsToTerraform(struct?: GoogleComputeNetworkTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeNetworkTimeoutsToTerraform(struct?: GoogleComputeNetworkTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleComputeNetworkTimeoutsToHclTerraform(struct?: GoogleComputeNetworkTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeNetworkTimeoutsToHclTerraform(struct?: GoogleComputeNetworkTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -291,19 +291,19 @@ export function googleComputeNetworkTimeoutsToHclTerraform(struct?: GoogleComput
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeNetworkTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeNetworkTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleComputeNetworkTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeNetworkTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -324,7 +324,7 @@ export class GoogleComputeNetworkTimeoutsOutputReference extends cdktf.ComplexOb
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeNetworkTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeNetworkTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -332,7 +332,7 @@ export class GoogleComputeNetworkTimeoutsOutputReference extends cdktf.ComplexOb
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -397,7 +397,7 @@ export class GoogleComputeNetworkTimeoutsOutputReference extends cdktf.ComplexOb
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_network google_compute_network}
 */
-export class GoogleComputeNetwork extends cdktf.TerraformResource {
+export class GoogleComputeNetwork extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -408,14 +408,14 @@ export class GoogleComputeNetwork extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleComputeNetwork resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleComputeNetwork resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleComputeNetwork to import
   * @param importFromId The id of the existing GoogleComputeNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleComputeNetwork to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_compute_network", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_compute_network", importId: importFromId, provider });
       }
 
   // ===========
@@ -469,11 +469,11 @@ export class GoogleComputeNetwork extends cdktf.TerraformResource {
   // ==========
 
   // auto_create_subnetworks - computed: false, optional: true, required: false
-  private _autoCreateSubnetworks?: boolean | cdktf.IResolvable; 
+  private _autoCreateSubnetworks?: boolean | cdktn.IResolvable; 
   public get autoCreateSubnetworks() {
     return this.getBooleanAttribute('auto_create_subnetworks');
   }
-  public set autoCreateSubnetworks(value: boolean | cdktf.IResolvable) {
+  public set autoCreateSubnetworks(value: boolean | cdktn.IResolvable) {
     this._autoCreateSubnetworks = value;
   }
   public resetAutoCreateSubnetworks() {
@@ -485,11 +485,11 @@ export class GoogleComputeNetwork extends cdktf.TerraformResource {
   }
 
   // bgp_always_compare_med - computed: true, optional: true, required: false
-  private _bgpAlwaysCompareMed?: boolean | cdktf.IResolvable; 
+  private _bgpAlwaysCompareMed?: boolean | cdktn.IResolvable; 
   public get bgpAlwaysCompareMed() {
     return this.getBooleanAttribute('bgp_always_compare_med');
   }
-  public set bgpAlwaysCompareMed(value: boolean | cdktf.IResolvable) {
+  public set bgpAlwaysCompareMed(value: boolean | cdktn.IResolvable) {
     this._bgpAlwaysCompareMed = value;
   }
   public resetBgpAlwaysCompareMed() {
@@ -533,11 +533,11 @@ export class GoogleComputeNetwork extends cdktf.TerraformResource {
   }
 
   // delete_default_routes_on_create - computed: false, optional: true, required: false
-  private _deleteDefaultRoutesOnCreate?: boolean | cdktf.IResolvable; 
+  private _deleteDefaultRoutesOnCreate?: boolean | cdktn.IResolvable; 
   public get deleteDefaultRoutesOnCreate() {
     return this.getBooleanAttribute('delete_default_routes_on_create');
   }
-  public set deleteDefaultRoutesOnCreate(value: boolean | cdktf.IResolvable) {
+  public set deleteDefaultRoutesOnCreate(value: boolean | cdktn.IResolvable) {
     this._deleteDefaultRoutesOnCreate = value;
   }
   public resetDeleteDefaultRoutesOnCreate() {
@@ -565,11 +565,11 @@ export class GoogleComputeNetwork extends cdktf.TerraformResource {
   }
 
   // enable_ula_internal_ipv6 - computed: false, optional: true, required: false
-  private _enableUlaInternalIpv6?: boolean | cdktf.IResolvable; 
+  private _enableUlaInternalIpv6?: boolean | cdktn.IResolvable; 
   public get enableUlaInternalIpv6() {
     return this.getBooleanAttribute('enable_ula_internal_ipv6');
   }
-  public set enableUlaInternalIpv6(value: boolean | cdktf.IResolvable) {
+  public set enableUlaInternalIpv6(value: boolean | cdktn.IResolvable) {
     this._enableUlaInternalIpv6 = value;
   }
   public resetEnableUlaInternalIpv6() {
@@ -763,21 +763,21 @@ export class GoogleComputeNetwork extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      auto_create_subnetworks: cdktf.booleanToTerraform(this._autoCreateSubnetworks),
-      bgp_always_compare_med: cdktf.booleanToTerraform(this._bgpAlwaysCompareMed),
-      bgp_best_path_selection_mode: cdktf.stringToTerraform(this._bgpBestPathSelectionMode),
-      bgp_inter_region_cost: cdktf.stringToTerraform(this._bgpInterRegionCost),
-      delete_default_routes_on_create: cdktf.booleanToTerraform(this._deleteDefaultRoutesOnCreate),
-      description: cdktf.stringToTerraform(this._description),
-      enable_ula_internal_ipv6: cdktf.booleanToTerraform(this._enableUlaInternalIpv6),
-      id: cdktf.stringToTerraform(this._id),
-      internal_ipv6_range: cdktf.stringToTerraform(this._internalIpv6Range),
-      mtu: cdktf.numberToTerraform(this._mtu),
-      name: cdktf.stringToTerraform(this._name),
-      network_firewall_policy_enforcement_order: cdktf.stringToTerraform(this._networkFirewallPolicyEnforcementOrder),
-      network_profile: cdktf.stringToTerraform(this._networkProfile),
-      project: cdktf.stringToTerraform(this._project),
-      routing_mode: cdktf.stringToTerraform(this._routingMode),
+      auto_create_subnetworks: cdktn.booleanToTerraform(this._autoCreateSubnetworks),
+      bgp_always_compare_med: cdktn.booleanToTerraform(this._bgpAlwaysCompareMed),
+      bgp_best_path_selection_mode: cdktn.stringToTerraform(this._bgpBestPathSelectionMode),
+      bgp_inter_region_cost: cdktn.stringToTerraform(this._bgpInterRegionCost),
+      delete_default_routes_on_create: cdktn.booleanToTerraform(this._deleteDefaultRoutesOnCreate),
+      description: cdktn.stringToTerraform(this._description),
+      enable_ula_internal_ipv6: cdktn.booleanToTerraform(this._enableUlaInternalIpv6),
+      id: cdktn.stringToTerraform(this._id),
+      internal_ipv6_range: cdktn.stringToTerraform(this._internalIpv6Range),
+      mtu: cdktn.numberToTerraform(this._mtu),
+      name: cdktn.stringToTerraform(this._name),
+      network_firewall_policy_enforcement_order: cdktn.stringToTerraform(this._networkFirewallPolicyEnforcementOrder),
+      network_profile: cdktn.stringToTerraform(this._networkProfile),
+      project: cdktn.stringToTerraform(this._project),
+      routing_mode: cdktn.stringToTerraform(this._routingMode),
       params: googleComputeNetworkParamsToTerraform(this._params.internalValue),
       timeouts: googleComputeNetworkTimeoutsToTerraform(this._timeouts.internalValue),
     };
@@ -786,91 +786,91 @@ export class GoogleComputeNetwork extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       auto_create_subnetworks: {
-        value: cdktf.booleanToHclTerraform(this._autoCreateSubnetworks),
+        value: cdktn.booleanToHclTerraform(this._autoCreateSubnetworks),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       bgp_always_compare_med: {
-        value: cdktf.booleanToHclTerraform(this._bgpAlwaysCompareMed),
+        value: cdktn.booleanToHclTerraform(this._bgpAlwaysCompareMed),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       bgp_best_path_selection_mode: {
-        value: cdktf.stringToHclTerraform(this._bgpBestPathSelectionMode),
+        value: cdktn.stringToHclTerraform(this._bgpBestPathSelectionMode),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       bgp_inter_region_cost: {
-        value: cdktf.stringToHclTerraform(this._bgpInterRegionCost),
+        value: cdktn.stringToHclTerraform(this._bgpInterRegionCost),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       delete_default_routes_on_create: {
-        value: cdktf.booleanToHclTerraform(this._deleteDefaultRoutesOnCreate),
+        value: cdktn.booleanToHclTerraform(this._deleteDefaultRoutesOnCreate),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       enable_ula_internal_ipv6: {
-        value: cdktf.booleanToHclTerraform(this._enableUlaInternalIpv6),
+        value: cdktn.booleanToHclTerraform(this._enableUlaInternalIpv6),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       internal_ipv6_range: {
-        value: cdktf.stringToHclTerraform(this._internalIpv6Range),
+        value: cdktn.stringToHclTerraform(this._internalIpv6Range),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       mtu: {
-        value: cdktf.numberToHclTerraform(this._mtu),
+        value: cdktn.numberToHclTerraform(this._mtu),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       network_firewall_policy_enforcement_order: {
-        value: cdktf.stringToHclTerraform(this._networkFirewallPolicyEnforcementOrder),
+        value: cdktn.stringToHclTerraform(this._networkFirewallPolicyEnforcementOrder),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       network_profile: {
-        value: cdktf.stringToHclTerraform(this._networkProfile),
+        value: cdktn.stringToHclTerraform(this._networkProfile),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       routing_mode: {
-        value: cdktf.stringToHclTerraform(this._routingMode),
+        value: cdktn.stringToHclTerraform(this._routingMode),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

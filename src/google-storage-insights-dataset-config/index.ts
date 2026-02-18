@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleStorageInsightsDatasetConfigConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleStorageInsightsDatasetConfigConfig extends cdktn.TerraformMetaArguments {
   /**
   * The user-defined ID of the DatasetConfig
   *
@@ -36,7 +36,7 @@ export interface GoogleStorageInsightsDatasetConfigConfig extends cdktf.Terrafor
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_dataset_config#include_newly_created_buckets GoogleStorageInsightsDatasetConfig#include_newly_created_buckets}
   */
-  readonly includeNewlyCreatedBuckets?: boolean | cdktf.IResolvable;
+  readonly includeNewlyCreatedBuckets?: boolean | cdktn.IResolvable;
   /**
   * A boolean terraform only flag to link/unlink dataset.
   * 
@@ -46,7 +46,7 @@ export interface GoogleStorageInsightsDatasetConfigConfig extends cdktf.Terrafor
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_dataset_config#link_dataset GoogleStorageInsightsDatasetConfig#link_dataset}
   */
-  readonly linkDataset?: boolean | cdktf.IResolvable;
+  readonly linkDataset?: boolean | cdktn.IResolvable;
   /**
   * The location of the DatasetConfig.
   *
@@ -65,7 +65,7 @@ export interface GoogleStorageInsightsDatasetConfigConfig extends cdktf.Terrafor
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_dataset_config#organization_scope GoogleStorageInsightsDatasetConfig#organization_scope}
   */
-  readonly organizationScope?: boolean | cdktf.IResolvable;
+  readonly organizationScope?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_dataset_config#project GoogleStorageInsightsDatasetConfig#project}
   */
@@ -129,8 +129,8 @@ export interface GoogleStorageInsightsDatasetConfigLink {
 }
 
 export function googleStorageInsightsDatasetConfigLinkToTerraform(struct?: GoogleStorageInsightsDatasetConfigLink): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -139,8 +139,8 @@ export function googleStorageInsightsDatasetConfigLinkToTerraform(struct?: Googl
 
 
 export function googleStorageInsightsDatasetConfigLinkToHclTerraform(struct?: GoogleStorageInsightsDatasetConfigLink): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -148,7 +148,7 @@ export function googleStorageInsightsDatasetConfigLinkToHclTerraform(struct?: Go
   return attrs;
 }
 
-export class GoogleStorageInsightsDatasetConfigLinkOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageInsightsDatasetConfigLinkOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -157,7 +157,7 @@ export class GoogleStorageInsightsDatasetConfigLinkOutputReference extends cdktf
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -187,14 +187,14 @@ export class GoogleStorageInsightsDatasetConfigLinkOutputReference extends cdktf
   }
 }
 
-export class GoogleStorageInsightsDatasetConfigLinkList extends cdktf.ComplexList {
+export class GoogleStorageInsightsDatasetConfigLinkList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -223,32 +223,32 @@ export interface GoogleStorageInsightsDatasetConfigExcludeCloudStorageBucketsClo
   readonly bucketPrefixRegex?: string;
 }
 
-export function googleStorageInsightsDatasetConfigExcludeCloudStorageBucketsCloudStorageBucketsToTerraform(struct?: GoogleStorageInsightsDatasetConfigExcludeCloudStorageBucketsCloudStorageBuckets | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleStorageInsightsDatasetConfigExcludeCloudStorageBucketsCloudStorageBucketsToTerraform(struct?: GoogleStorageInsightsDatasetConfigExcludeCloudStorageBucketsCloudStorageBuckets | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    bucket_name: cdktf.stringToTerraform(struct!.bucketName),
-    bucket_prefix_regex: cdktf.stringToTerraform(struct!.bucketPrefixRegex),
+    bucket_name: cdktn.stringToTerraform(struct!.bucketName),
+    bucket_prefix_regex: cdktn.stringToTerraform(struct!.bucketPrefixRegex),
   }
 }
 
 
-export function googleStorageInsightsDatasetConfigExcludeCloudStorageBucketsCloudStorageBucketsToHclTerraform(struct?: GoogleStorageInsightsDatasetConfigExcludeCloudStorageBucketsCloudStorageBuckets | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleStorageInsightsDatasetConfigExcludeCloudStorageBucketsCloudStorageBucketsToHclTerraform(struct?: GoogleStorageInsightsDatasetConfigExcludeCloudStorageBucketsCloudStorageBuckets | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     bucket_name: {
-      value: cdktf.stringToHclTerraform(struct!.bucketName),
+      value: cdktn.stringToHclTerraform(struct!.bucketName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     bucket_prefix_regex: {
-      value: cdktf.stringToHclTerraform(struct!.bucketPrefixRegex),
+      value: cdktn.stringToHclTerraform(struct!.bucketPrefixRegex),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -259,9 +259,9 @@ export function googleStorageInsightsDatasetConfigExcludeCloudStorageBucketsClou
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageInsightsDatasetConfigExcludeCloudStorageBucketsCloudStorageBucketsOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageInsightsDatasetConfigExcludeCloudStorageBucketsCloudStorageBucketsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -269,11 +269,11 @@ export class GoogleStorageInsightsDatasetConfigExcludeCloudStorageBucketsCloudSt
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleStorageInsightsDatasetConfigExcludeCloudStorageBucketsCloudStorageBuckets | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleStorageInsightsDatasetConfigExcludeCloudStorageBucketsCloudStorageBuckets | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -290,14 +290,14 @@ export class GoogleStorageInsightsDatasetConfigExcludeCloudStorageBucketsCloudSt
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleStorageInsightsDatasetConfigExcludeCloudStorageBucketsCloudStorageBuckets | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleStorageInsightsDatasetConfigExcludeCloudStorageBucketsCloudStorageBuckets | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._bucketName = undefined;
       this._bucketPrefixRegex = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -342,15 +342,15 @@ export class GoogleStorageInsightsDatasetConfigExcludeCloudStorageBucketsCloudSt
   }
 }
 
-export class GoogleStorageInsightsDatasetConfigExcludeCloudStorageBucketsCloudStorageBucketsList extends cdktf.ComplexList {
-  public internalValue? : GoogleStorageInsightsDatasetConfigExcludeCloudStorageBucketsCloudStorageBuckets[] | cdktf.IResolvable
+export class GoogleStorageInsightsDatasetConfigExcludeCloudStorageBucketsCloudStorageBucketsList extends cdktn.ComplexList {
+  public internalValue? : GoogleStorageInsightsDatasetConfigExcludeCloudStorageBucketsCloudStorageBuckets[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -367,28 +367,28 @@ export interface GoogleStorageInsightsDatasetConfigExcludeCloudStorageBuckets {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_dataset_config#cloud_storage_buckets GoogleStorageInsightsDatasetConfig#cloud_storage_buckets}
   */
-  readonly cloudStorageBuckets: GoogleStorageInsightsDatasetConfigExcludeCloudStorageBucketsCloudStorageBuckets[] | cdktf.IResolvable;
+  readonly cloudStorageBuckets: GoogleStorageInsightsDatasetConfigExcludeCloudStorageBucketsCloudStorageBuckets[] | cdktn.IResolvable;
 }
 
 export function googleStorageInsightsDatasetConfigExcludeCloudStorageBucketsToTerraform(struct?: GoogleStorageInsightsDatasetConfigExcludeCloudStorageBucketsOutputReference | GoogleStorageInsightsDatasetConfigExcludeCloudStorageBuckets): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    cloud_storage_buckets: cdktf.listMapper(googleStorageInsightsDatasetConfigExcludeCloudStorageBucketsCloudStorageBucketsToTerraform, true)(struct!.cloudStorageBuckets),
+    cloud_storage_buckets: cdktn.listMapper(googleStorageInsightsDatasetConfigExcludeCloudStorageBucketsCloudStorageBucketsToTerraform, true)(struct!.cloudStorageBuckets),
   }
 }
 
 
 export function googleStorageInsightsDatasetConfigExcludeCloudStorageBucketsToHclTerraform(struct?: GoogleStorageInsightsDatasetConfigExcludeCloudStorageBucketsOutputReference | GoogleStorageInsightsDatasetConfigExcludeCloudStorageBuckets): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     cloud_storage_buckets: {
-      value: cdktf.listMapperHcl(googleStorageInsightsDatasetConfigExcludeCloudStorageBucketsCloudStorageBucketsToHclTerraform, true)(struct!.cloudStorageBuckets),
+      value: cdktn.listMapperHcl(googleStorageInsightsDatasetConfigExcludeCloudStorageBucketsCloudStorageBucketsToHclTerraform, true)(struct!.cloudStorageBuckets),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleStorageInsightsDatasetConfigExcludeCloudStorageBucketsCloudStorageBucketsList",
@@ -399,14 +399,14 @@ export function googleStorageInsightsDatasetConfigExcludeCloudStorageBucketsToHc
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageInsightsDatasetConfigExcludeCloudStorageBucketsOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageInsightsDatasetConfigExcludeCloudStorageBucketsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -436,7 +436,7 @@ export class GoogleStorageInsightsDatasetConfigExcludeCloudStorageBucketsOutputR
   public get cloudStorageBuckets() {
     return this._cloudStorageBuckets;
   }
-  public putCloudStorageBuckets(value: GoogleStorageInsightsDatasetConfigExcludeCloudStorageBucketsCloudStorageBuckets[] | cdktf.IResolvable) {
+  public putCloudStorageBuckets(value: GoogleStorageInsightsDatasetConfigExcludeCloudStorageBucketsCloudStorageBuckets[] | cdktn.IResolvable) {
     this._cloudStorageBuckets.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -454,24 +454,24 @@ export interface GoogleStorageInsightsDatasetConfigExcludeCloudStorageLocations 
 }
 
 export function googleStorageInsightsDatasetConfigExcludeCloudStorageLocationsToTerraform(struct?: GoogleStorageInsightsDatasetConfigExcludeCloudStorageLocationsOutputReference | GoogleStorageInsightsDatasetConfigExcludeCloudStorageLocations): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    locations: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.locations),
+    locations: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.locations),
   }
 }
 
 
 export function googleStorageInsightsDatasetConfigExcludeCloudStorageLocationsToHclTerraform(struct?: GoogleStorageInsightsDatasetConfigExcludeCloudStorageLocationsOutputReference | GoogleStorageInsightsDatasetConfigExcludeCloudStorageLocations): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     locations: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.locations),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.locations),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -482,14 +482,14 @@ export function googleStorageInsightsDatasetConfigExcludeCloudStorageLocationsTo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageInsightsDatasetConfigExcludeCloudStorageLocationsOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageInsightsDatasetConfigExcludeCloudStorageLocationsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -537,24 +537,24 @@ export interface GoogleStorageInsightsDatasetConfigIdentity {
 }
 
 export function googleStorageInsightsDatasetConfigIdentityToTerraform(struct?: GoogleStorageInsightsDatasetConfigIdentityOutputReference | GoogleStorageInsightsDatasetConfigIdentity): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    type: cdktf.stringToTerraform(struct!.type),
+    type: cdktn.stringToTerraform(struct!.type),
   }
 }
 
 
 export function googleStorageInsightsDatasetConfigIdentityToHclTerraform(struct?: GoogleStorageInsightsDatasetConfigIdentityOutputReference | GoogleStorageInsightsDatasetConfigIdentity): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     type: {
-      value: cdktf.stringToHclTerraform(struct!.type),
+      value: cdktn.stringToHclTerraform(struct!.type),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -565,14 +565,14 @@ export function googleStorageInsightsDatasetConfigIdentityToHclTerraform(struct?
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageInsightsDatasetConfigIdentityOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageInsightsDatasetConfigIdentityOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -633,32 +633,32 @@ export interface GoogleStorageInsightsDatasetConfigIncludeCloudStorageBucketsClo
   readonly bucketPrefixRegex?: string;
 }
 
-export function googleStorageInsightsDatasetConfigIncludeCloudStorageBucketsCloudStorageBucketsToTerraform(struct?: GoogleStorageInsightsDatasetConfigIncludeCloudStorageBucketsCloudStorageBuckets | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleStorageInsightsDatasetConfigIncludeCloudStorageBucketsCloudStorageBucketsToTerraform(struct?: GoogleStorageInsightsDatasetConfigIncludeCloudStorageBucketsCloudStorageBuckets | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    bucket_name: cdktf.stringToTerraform(struct!.bucketName),
-    bucket_prefix_regex: cdktf.stringToTerraform(struct!.bucketPrefixRegex),
+    bucket_name: cdktn.stringToTerraform(struct!.bucketName),
+    bucket_prefix_regex: cdktn.stringToTerraform(struct!.bucketPrefixRegex),
   }
 }
 
 
-export function googleStorageInsightsDatasetConfigIncludeCloudStorageBucketsCloudStorageBucketsToHclTerraform(struct?: GoogleStorageInsightsDatasetConfigIncludeCloudStorageBucketsCloudStorageBuckets | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleStorageInsightsDatasetConfigIncludeCloudStorageBucketsCloudStorageBucketsToHclTerraform(struct?: GoogleStorageInsightsDatasetConfigIncludeCloudStorageBucketsCloudStorageBuckets | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     bucket_name: {
-      value: cdktf.stringToHclTerraform(struct!.bucketName),
+      value: cdktn.stringToHclTerraform(struct!.bucketName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     bucket_prefix_regex: {
-      value: cdktf.stringToHclTerraform(struct!.bucketPrefixRegex),
+      value: cdktn.stringToHclTerraform(struct!.bucketPrefixRegex),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -669,9 +669,9 @@ export function googleStorageInsightsDatasetConfigIncludeCloudStorageBucketsClou
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageInsightsDatasetConfigIncludeCloudStorageBucketsCloudStorageBucketsOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageInsightsDatasetConfigIncludeCloudStorageBucketsCloudStorageBucketsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -679,11 +679,11 @@ export class GoogleStorageInsightsDatasetConfigIncludeCloudStorageBucketsCloudSt
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleStorageInsightsDatasetConfigIncludeCloudStorageBucketsCloudStorageBuckets | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleStorageInsightsDatasetConfigIncludeCloudStorageBucketsCloudStorageBuckets | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -700,14 +700,14 @@ export class GoogleStorageInsightsDatasetConfigIncludeCloudStorageBucketsCloudSt
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleStorageInsightsDatasetConfigIncludeCloudStorageBucketsCloudStorageBuckets | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleStorageInsightsDatasetConfigIncludeCloudStorageBucketsCloudStorageBuckets | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._bucketName = undefined;
       this._bucketPrefixRegex = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -752,15 +752,15 @@ export class GoogleStorageInsightsDatasetConfigIncludeCloudStorageBucketsCloudSt
   }
 }
 
-export class GoogleStorageInsightsDatasetConfigIncludeCloudStorageBucketsCloudStorageBucketsList extends cdktf.ComplexList {
-  public internalValue? : GoogleStorageInsightsDatasetConfigIncludeCloudStorageBucketsCloudStorageBuckets[] | cdktf.IResolvable
+export class GoogleStorageInsightsDatasetConfigIncludeCloudStorageBucketsCloudStorageBucketsList extends cdktn.ComplexList {
+  public internalValue? : GoogleStorageInsightsDatasetConfigIncludeCloudStorageBucketsCloudStorageBuckets[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -777,28 +777,28 @@ export interface GoogleStorageInsightsDatasetConfigIncludeCloudStorageBuckets {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_dataset_config#cloud_storage_buckets GoogleStorageInsightsDatasetConfig#cloud_storage_buckets}
   */
-  readonly cloudStorageBuckets: GoogleStorageInsightsDatasetConfigIncludeCloudStorageBucketsCloudStorageBuckets[] | cdktf.IResolvable;
+  readonly cloudStorageBuckets: GoogleStorageInsightsDatasetConfigIncludeCloudStorageBucketsCloudStorageBuckets[] | cdktn.IResolvable;
 }
 
 export function googleStorageInsightsDatasetConfigIncludeCloudStorageBucketsToTerraform(struct?: GoogleStorageInsightsDatasetConfigIncludeCloudStorageBucketsOutputReference | GoogleStorageInsightsDatasetConfigIncludeCloudStorageBuckets): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    cloud_storage_buckets: cdktf.listMapper(googleStorageInsightsDatasetConfigIncludeCloudStorageBucketsCloudStorageBucketsToTerraform, true)(struct!.cloudStorageBuckets),
+    cloud_storage_buckets: cdktn.listMapper(googleStorageInsightsDatasetConfigIncludeCloudStorageBucketsCloudStorageBucketsToTerraform, true)(struct!.cloudStorageBuckets),
   }
 }
 
 
 export function googleStorageInsightsDatasetConfigIncludeCloudStorageBucketsToHclTerraform(struct?: GoogleStorageInsightsDatasetConfigIncludeCloudStorageBucketsOutputReference | GoogleStorageInsightsDatasetConfigIncludeCloudStorageBuckets): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     cloud_storage_buckets: {
-      value: cdktf.listMapperHcl(googleStorageInsightsDatasetConfigIncludeCloudStorageBucketsCloudStorageBucketsToHclTerraform, true)(struct!.cloudStorageBuckets),
+      value: cdktn.listMapperHcl(googleStorageInsightsDatasetConfigIncludeCloudStorageBucketsCloudStorageBucketsToHclTerraform, true)(struct!.cloudStorageBuckets),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleStorageInsightsDatasetConfigIncludeCloudStorageBucketsCloudStorageBucketsList",
@@ -809,14 +809,14 @@ export function googleStorageInsightsDatasetConfigIncludeCloudStorageBucketsToHc
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageInsightsDatasetConfigIncludeCloudStorageBucketsOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageInsightsDatasetConfigIncludeCloudStorageBucketsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -846,7 +846,7 @@ export class GoogleStorageInsightsDatasetConfigIncludeCloudStorageBucketsOutputR
   public get cloudStorageBuckets() {
     return this._cloudStorageBuckets;
   }
-  public putCloudStorageBuckets(value: GoogleStorageInsightsDatasetConfigIncludeCloudStorageBucketsCloudStorageBuckets[] | cdktf.IResolvable) {
+  public putCloudStorageBuckets(value: GoogleStorageInsightsDatasetConfigIncludeCloudStorageBucketsCloudStorageBuckets[] | cdktn.IResolvable) {
     this._cloudStorageBuckets.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -864,24 +864,24 @@ export interface GoogleStorageInsightsDatasetConfigIncludeCloudStorageLocations 
 }
 
 export function googleStorageInsightsDatasetConfigIncludeCloudStorageLocationsToTerraform(struct?: GoogleStorageInsightsDatasetConfigIncludeCloudStorageLocationsOutputReference | GoogleStorageInsightsDatasetConfigIncludeCloudStorageLocations): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    locations: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.locations),
+    locations: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.locations),
   }
 }
 
 
 export function googleStorageInsightsDatasetConfigIncludeCloudStorageLocationsToHclTerraform(struct?: GoogleStorageInsightsDatasetConfigIncludeCloudStorageLocationsOutputReference | GoogleStorageInsightsDatasetConfigIncludeCloudStorageLocations): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     locations: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.locations),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.locations),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -892,14 +892,14 @@ export function googleStorageInsightsDatasetConfigIncludeCloudStorageLocationsTo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageInsightsDatasetConfigIncludeCloudStorageLocationsOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageInsightsDatasetConfigIncludeCloudStorageLocationsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -947,24 +947,24 @@ export interface GoogleStorageInsightsDatasetConfigSourceFolders {
 }
 
 export function googleStorageInsightsDatasetConfigSourceFoldersToTerraform(struct?: GoogleStorageInsightsDatasetConfigSourceFoldersOutputReference | GoogleStorageInsightsDatasetConfigSourceFolders): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    folder_numbers: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.folderNumbers),
+    folder_numbers: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.folderNumbers),
   }
 }
 
 
 export function googleStorageInsightsDatasetConfigSourceFoldersToHclTerraform(struct?: GoogleStorageInsightsDatasetConfigSourceFoldersOutputReference | GoogleStorageInsightsDatasetConfigSourceFolders): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     folder_numbers: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.folderNumbers),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.folderNumbers),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -975,14 +975,14 @@ export function googleStorageInsightsDatasetConfigSourceFoldersToHclTerraform(st
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageInsightsDatasetConfigSourceFoldersOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageInsightsDatasetConfigSourceFoldersOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1033,24 +1033,24 @@ export interface GoogleStorageInsightsDatasetConfigSourceProjects {
 }
 
 export function googleStorageInsightsDatasetConfigSourceProjectsToTerraform(struct?: GoogleStorageInsightsDatasetConfigSourceProjectsOutputReference | GoogleStorageInsightsDatasetConfigSourceProjects): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    project_numbers: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.projectNumbers),
+    project_numbers: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.projectNumbers),
   }
 }
 
 
 export function googleStorageInsightsDatasetConfigSourceProjectsToHclTerraform(struct?: GoogleStorageInsightsDatasetConfigSourceProjectsOutputReference | GoogleStorageInsightsDatasetConfigSourceProjects): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     project_numbers: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.projectNumbers),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.projectNumbers),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -1061,14 +1061,14 @@ export function googleStorageInsightsDatasetConfigSourceProjectsToHclTerraform(s
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageInsightsDatasetConfigSourceProjectsOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageInsightsDatasetConfigSourceProjectsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1124,39 +1124,39 @@ export interface GoogleStorageInsightsDatasetConfigTimeouts {
   readonly update?: string;
 }
 
-export function googleStorageInsightsDatasetConfigTimeoutsToTerraform(struct?: GoogleStorageInsightsDatasetConfigTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleStorageInsightsDatasetConfigTimeoutsToTerraform(struct?: GoogleStorageInsightsDatasetConfigTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleStorageInsightsDatasetConfigTimeoutsToHclTerraform(struct?: GoogleStorageInsightsDatasetConfigTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleStorageInsightsDatasetConfigTimeoutsToHclTerraform(struct?: GoogleStorageInsightsDatasetConfigTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1167,19 +1167,19 @@ export function googleStorageInsightsDatasetConfigTimeoutsToHclTerraform(struct?
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageInsightsDatasetConfigTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageInsightsDatasetConfigTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleStorageInsightsDatasetConfigTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleStorageInsightsDatasetConfigTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1200,7 +1200,7 @@ export class GoogleStorageInsightsDatasetConfigTimeoutsOutputReference extends c
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleStorageInsightsDatasetConfigTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleStorageInsightsDatasetConfigTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -1208,7 +1208,7 @@ export class GoogleStorageInsightsDatasetConfigTimeoutsOutputReference extends c
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1273,7 +1273,7 @@ export class GoogleStorageInsightsDatasetConfigTimeoutsOutputReference extends c
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_dataset_config google_storage_insights_dataset_config}
 */
-export class GoogleStorageInsightsDatasetConfig extends cdktf.TerraformResource {
+export class GoogleStorageInsightsDatasetConfig extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -1284,14 +1284,14 @@ export class GoogleStorageInsightsDatasetConfig extends cdktf.TerraformResource 
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleStorageInsightsDatasetConfig resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleStorageInsightsDatasetConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleStorageInsightsDatasetConfig to import
   * @param importFromId The id of the existing GoogleStorageInsightsDatasetConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_dataset_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleStorageInsightsDatasetConfig to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_storage_insights_dataset_config", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_storage_insights_dataset_config", importId: importFromId, provider });
       }
 
   // ===========
@@ -1401,11 +1401,11 @@ export class GoogleStorageInsightsDatasetConfig extends cdktf.TerraformResource 
   }
 
   // include_newly_created_buckets - computed: false, optional: true, required: false
-  private _includeNewlyCreatedBuckets?: boolean | cdktf.IResolvable; 
+  private _includeNewlyCreatedBuckets?: boolean | cdktn.IResolvable; 
   public get includeNewlyCreatedBuckets() {
     return this.getBooleanAttribute('include_newly_created_buckets');
   }
-  public set includeNewlyCreatedBuckets(value: boolean | cdktf.IResolvable) {
+  public set includeNewlyCreatedBuckets(value: boolean | cdktn.IResolvable) {
     this._includeNewlyCreatedBuckets = value;
   }
   public resetIncludeNewlyCreatedBuckets() {
@@ -1423,11 +1423,11 @@ export class GoogleStorageInsightsDatasetConfig extends cdktf.TerraformResource 
   }
 
   // link_dataset - computed: false, optional: true, required: false
-  private _linkDataset?: boolean | cdktf.IResolvable; 
+  private _linkDataset?: boolean | cdktn.IResolvable; 
   public get linkDataset() {
     return this.getBooleanAttribute('link_dataset');
   }
-  public set linkDataset(value: boolean | cdktf.IResolvable) {
+  public set linkDataset(value: boolean | cdktn.IResolvable) {
     this._linkDataset = value;
   }
   public resetLinkDataset() {
@@ -1473,11 +1473,11 @@ export class GoogleStorageInsightsDatasetConfig extends cdktf.TerraformResource 
   }
 
   // organization_scope - computed: false, optional: true, required: false
-  private _organizationScope?: boolean | cdktf.IResolvable; 
+  private _organizationScope?: boolean | cdktn.IResolvable; 
   public get organizationScope() {
     return this.getBooleanAttribute('organization_scope');
   }
-  public set organizationScope(value: boolean | cdktf.IResolvable) {
+  public set organizationScope(value: boolean | cdktn.IResolvable) {
     this._organizationScope = value;
   }
   public resetOrganizationScope() {
@@ -1658,16 +1658,16 @@ export class GoogleStorageInsightsDatasetConfig extends cdktf.TerraformResource 
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      dataset_config_id: cdktf.stringToTerraform(this._datasetConfigId),
-      description: cdktf.stringToTerraform(this._description),
-      id: cdktf.stringToTerraform(this._id),
-      include_newly_created_buckets: cdktf.booleanToTerraform(this._includeNewlyCreatedBuckets),
-      link_dataset: cdktf.booleanToTerraform(this._linkDataset),
-      location: cdktf.stringToTerraform(this._location),
-      organization_number: cdktf.stringToTerraform(this._organizationNumber),
-      organization_scope: cdktf.booleanToTerraform(this._organizationScope),
-      project: cdktf.stringToTerraform(this._project),
-      retention_period_days: cdktf.numberToTerraform(this._retentionPeriodDays),
+      dataset_config_id: cdktn.stringToTerraform(this._datasetConfigId),
+      description: cdktn.stringToTerraform(this._description),
+      id: cdktn.stringToTerraform(this._id),
+      include_newly_created_buckets: cdktn.booleanToTerraform(this._includeNewlyCreatedBuckets),
+      link_dataset: cdktn.booleanToTerraform(this._linkDataset),
+      location: cdktn.stringToTerraform(this._location),
+      organization_number: cdktn.stringToTerraform(this._organizationNumber),
+      organization_scope: cdktn.booleanToTerraform(this._organizationScope),
+      project: cdktn.stringToTerraform(this._project),
+      retention_period_days: cdktn.numberToTerraform(this._retentionPeriodDays),
       exclude_cloud_storage_buckets: googleStorageInsightsDatasetConfigExcludeCloudStorageBucketsToTerraform(this._excludeCloudStorageBuckets.internalValue),
       exclude_cloud_storage_locations: googleStorageInsightsDatasetConfigExcludeCloudStorageLocationsToTerraform(this._excludeCloudStorageLocations.internalValue),
       identity: googleStorageInsightsDatasetConfigIdentityToTerraform(this._identity.internalValue),
@@ -1682,61 +1682,61 @@ export class GoogleStorageInsightsDatasetConfig extends cdktf.TerraformResource 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       dataset_config_id: {
-        value: cdktf.stringToHclTerraform(this._datasetConfigId),
+        value: cdktn.stringToHclTerraform(this._datasetConfigId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       include_newly_created_buckets: {
-        value: cdktf.booleanToHclTerraform(this._includeNewlyCreatedBuckets),
+        value: cdktn.booleanToHclTerraform(this._includeNewlyCreatedBuckets),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       link_dataset: {
-        value: cdktf.booleanToHclTerraform(this._linkDataset),
+        value: cdktn.booleanToHclTerraform(this._linkDataset),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       organization_number: {
-        value: cdktf.stringToHclTerraform(this._organizationNumber),
+        value: cdktn.stringToHclTerraform(this._organizationNumber),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       organization_scope: {
-        value: cdktf.booleanToHclTerraform(this._organizationScope),
+        value: cdktn.booleanToHclTerraform(this._organizationScope),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       retention_period_days: {
-        value: cdktf.numberToHclTerraform(this._retentionPeriodDays),
+        value: cdktn.numberToHclTerraform(this._retentionPeriodDays),
         isBlock: false,
         type: "simple",
         storageClassType: "number",

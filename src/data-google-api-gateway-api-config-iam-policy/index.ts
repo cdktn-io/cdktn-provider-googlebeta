@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface DataGoogleApiGatewayApiConfigIamPolicyConfig extends cdktf.TerraformMetaArguments {
+export interface DataGoogleApiGatewayApiConfigIamPolicyConfig extends cdktn.TerraformMetaArguments {
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_api_gateway_api_config_iam_policy#api DataGoogleApiGatewayApiConfigIamPolicy#api}
   */
@@ -36,7 +36,7 @@ export interface DataGoogleApiGatewayApiConfigIamPolicyConfig extends cdktf.Terr
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_api_gateway_api_config_iam_policy google_api_gateway_api_config_iam_policy}
 */
-export class DataGoogleApiGatewayApiConfigIamPolicy extends cdktf.TerraformDataSource {
+export class DataGoogleApiGatewayApiConfigIamPolicy extends cdktn.TerraformDataSource {
 
   // =================
   // STATIC PROPERTIES
@@ -47,14 +47,14 @@ export class DataGoogleApiGatewayApiConfigIamPolicy extends cdktf.TerraformDataS
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a DataGoogleApiGatewayApiConfigIamPolicy resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a DataGoogleApiGatewayApiConfigIamPolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGoogleApiGatewayApiConfigIamPolicy to import
   * @param importFromId The id of the existing DataGoogleApiGatewayApiConfigIamPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_api_gateway_api_config_iam_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGoogleApiGatewayApiConfigIamPolicy to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_api_gateway_api_config_iam_policy", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_api_gateway_api_config_iam_policy", importId: importFromId, provider });
       }
 
   // ===========
@@ -168,35 +168,35 @@ export class DataGoogleApiGatewayApiConfigIamPolicy extends cdktf.TerraformDataS
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      api: cdktf.stringToTerraform(this._api),
-      api_config: cdktf.stringToTerraform(this._apiConfig),
-      id: cdktf.stringToTerraform(this._id),
-      project: cdktf.stringToTerraform(this._project),
+      api: cdktn.stringToTerraform(this._api),
+      api_config: cdktn.stringToTerraform(this._apiConfig),
+      id: cdktn.stringToTerraform(this._id),
+      project: cdktn.stringToTerraform(this._project),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       api: {
-        value: cdktf.stringToHclTerraform(this._api),
+        value: cdktn.stringToHclTerraform(this._api),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       api_config: {
-        value: cdktf.stringToHclTerraform(this._apiConfig),
+        value: cdktn.stringToHclTerraform(this._apiConfig),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

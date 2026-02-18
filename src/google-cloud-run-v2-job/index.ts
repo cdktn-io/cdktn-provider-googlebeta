@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleCloudRunV2JobConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleCloudRunV2JobConfig extends cdktn.TerraformMetaArguments {
   /**
   * Unstructured key value map that may be set by external tools to store and arbitrary metadata. They are not queryable and should be preserved when modifying objects.
   * 
@@ -48,7 +48,7 @@ export interface GoogleCloudRunV2JobConfig extends cdktf.TerraformMetaArguments 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_v2_job#deletion_protection GoogleCloudRunV2Job#deletion_protection}
   */
-  readonly deletionProtection?: boolean | cdktf.IResolvable;
+  readonly deletionProtection?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_v2_job#id GoogleCloudRunV2Job#id}
   *
@@ -131,8 +131,8 @@ export interface GoogleCloudRunV2JobConditions {
 }
 
 export function googleCloudRunV2JobConditionsToTerraform(struct?: GoogleCloudRunV2JobConditions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -141,8 +141,8 @@ export function googleCloudRunV2JobConditionsToTerraform(struct?: GoogleCloudRun
 
 
 export function googleCloudRunV2JobConditionsToHclTerraform(struct?: GoogleCloudRunV2JobConditions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -150,7 +150,7 @@ export function googleCloudRunV2JobConditionsToHclTerraform(struct?: GoogleCloud
   return attrs;
 }
 
-export class GoogleCloudRunV2JobConditionsOutputReference extends cdktf.ComplexObject {
+export class GoogleCloudRunV2JobConditionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -159,7 +159,7 @@ export class GoogleCloudRunV2JobConditionsOutputReference extends cdktf.ComplexO
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -219,14 +219,14 @@ export class GoogleCloudRunV2JobConditionsOutputReference extends cdktf.ComplexO
   }
 }
 
-export class GoogleCloudRunV2JobConditionsList extends cdktf.ComplexList {
+export class GoogleCloudRunV2JobConditionsList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -241,8 +241,8 @@ export interface GoogleCloudRunV2JobLatestCreatedExecution {
 }
 
 export function googleCloudRunV2JobLatestCreatedExecutionToTerraform(struct?: GoogleCloudRunV2JobLatestCreatedExecution): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -251,8 +251,8 @@ export function googleCloudRunV2JobLatestCreatedExecutionToTerraform(struct?: Go
 
 
 export function googleCloudRunV2JobLatestCreatedExecutionToHclTerraform(struct?: GoogleCloudRunV2JobLatestCreatedExecution): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -260,7 +260,7 @@ export function googleCloudRunV2JobLatestCreatedExecutionToHclTerraform(struct?:
   return attrs;
 }
 
-export class GoogleCloudRunV2JobLatestCreatedExecutionOutputReference extends cdktf.ComplexObject {
+export class GoogleCloudRunV2JobLatestCreatedExecutionOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -269,7 +269,7 @@ export class GoogleCloudRunV2JobLatestCreatedExecutionOutputReference extends cd
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -304,14 +304,14 @@ export class GoogleCloudRunV2JobLatestCreatedExecutionOutputReference extends cd
   }
 }
 
-export class GoogleCloudRunV2JobLatestCreatedExecutionList extends cdktf.ComplexList {
+export class GoogleCloudRunV2JobLatestCreatedExecutionList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -326,8 +326,8 @@ export interface GoogleCloudRunV2JobTerminalCondition {
 }
 
 export function googleCloudRunV2JobTerminalConditionToTerraform(struct?: GoogleCloudRunV2JobTerminalCondition): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -336,8 +336,8 @@ export function googleCloudRunV2JobTerminalConditionToTerraform(struct?: GoogleC
 
 
 export function googleCloudRunV2JobTerminalConditionToHclTerraform(struct?: GoogleCloudRunV2JobTerminalCondition): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -345,7 +345,7 @@ export function googleCloudRunV2JobTerminalConditionToHclTerraform(struct?: Goog
   return attrs;
 }
 
-export class GoogleCloudRunV2JobTerminalConditionOutputReference extends cdktf.ComplexObject {
+export class GoogleCloudRunV2JobTerminalConditionOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -354,7 +354,7 @@ export class GoogleCloudRunV2JobTerminalConditionOutputReference extends cdktf.C
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -414,14 +414,14 @@ export class GoogleCloudRunV2JobTerminalConditionOutputReference extends cdktf.C
   }
 }
 
-export class GoogleCloudRunV2JobTerminalConditionList extends cdktf.ComplexList {
+export class GoogleCloudRunV2JobTerminalConditionList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -450,42 +450,42 @@ export interface GoogleCloudRunV2JobBinaryAuthorization {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_v2_job#use_default GoogleCloudRunV2Job#use_default}
   */
-  readonly useDefault?: boolean | cdktf.IResolvable;
+  readonly useDefault?: boolean | cdktn.IResolvable;
 }
 
 export function googleCloudRunV2JobBinaryAuthorizationToTerraform(struct?: GoogleCloudRunV2JobBinaryAuthorizationOutputReference | GoogleCloudRunV2JobBinaryAuthorization): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    breakglass_justification: cdktf.stringToTerraform(struct!.breakglassJustification),
-    policy: cdktf.stringToTerraform(struct!.policy),
-    use_default: cdktf.booleanToTerraform(struct!.useDefault),
+    breakglass_justification: cdktn.stringToTerraform(struct!.breakglassJustification),
+    policy: cdktn.stringToTerraform(struct!.policy),
+    use_default: cdktn.booleanToTerraform(struct!.useDefault),
   }
 }
 
 
 export function googleCloudRunV2JobBinaryAuthorizationToHclTerraform(struct?: GoogleCloudRunV2JobBinaryAuthorizationOutputReference | GoogleCloudRunV2JobBinaryAuthorization): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     breakglass_justification: {
-      value: cdktf.stringToHclTerraform(struct!.breakglassJustification),
+      value: cdktn.stringToHclTerraform(struct!.breakglassJustification),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     policy: {
-      value: cdktf.stringToHclTerraform(struct!.policy),
+      value: cdktn.stringToHclTerraform(struct!.policy),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     use_default: {
-      value: cdktf.booleanToHclTerraform(struct!.useDefault),
+      value: cdktn.booleanToHclTerraform(struct!.useDefault),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -496,14 +496,14 @@ export function googleCloudRunV2JobBinaryAuthorizationToHclTerraform(struct?: Go
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleCloudRunV2JobBinaryAuthorizationOutputReference extends cdktf.ComplexObject {
+export class GoogleCloudRunV2JobBinaryAuthorizationOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -573,11 +573,11 @@ export class GoogleCloudRunV2JobBinaryAuthorizationOutputReference extends cdktf
   }
 
   // use_default - computed: false, optional: true, required: false
-  private _useDefault?: boolean | cdktf.IResolvable; 
+  private _useDefault?: boolean | cdktn.IResolvable; 
   public get useDefault() {
     return this.getBooleanAttribute('use_default');
   }
-  public set useDefault(value: boolean | cdktf.IResolvable) {
+  public set useDefault(value: boolean | cdktn.IResolvable) {
     this._useDefault = value;
   }
   public resetUseDefault() {
@@ -604,31 +604,31 @@ export interface GoogleCloudRunV2JobTemplateTemplateContainersEnvValueSourceSecr
 }
 
 export function googleCloudRunV2JobTemplateTemplateContainersEnvValueSourceSecretKeyRefToTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateContainersEnvValueSourceSecretKeyRefOutputReference | GoogleCloudRunV2JobTemplateTemplateContainersEnvValueSourceSecretKeyRef): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    secret: cdktf.stringToTerraform(struct!.secret),
-    version: cdktf.stringToTerraform(struct!.version),
+    secret: cdktn.stringToTerraform(struct!.secret),
+    version: cdktn.stringToTerraform(struct!.version),
   }
 }
 
 
 export function googleCloudRunV2JobTemplateTemplateContainersEnvValueSourceSecretKeyRefToHclTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateContainersEnvValueSourceSecretKeyRefOutputReference | GoogleCloudRunV2JobTemplateTemplateContainersEnvValueSourceSecretKeyRef): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     secret: {
-      value: cdktf.stringToHclTerraform(struct!.secret),
+      value: cdktn.stringToHclTerraform(struct!.secret),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     version: {
-      value: cdktf.stringToHclTerraform(struct!.version),
+      value: cdktn.stringToHclTerraform(struct!.version),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -639,14 +639,14 @@ export function googleCloudRunV2JobTemplateTemplateContainersEnvValueSourceSecre
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleCloudRunV2JobTemplateTemplateContainersEnvValueSourceSecretKeyRefOutputReference extends cdktf.ComplexObject {
+export class GoogleCloudRunV2JobTemplateTemplateContainersEnvValueSourceSecretKeyRefOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -713,8 +713,8 @@ export interface GoogleCloudRunV2JobTemplateTemplateContainersEnvValueSource {
 }
 
 export function googleCloudRunV2JobTemplateTemplateContainersEnvValueSourceToTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateContainersEnvValueSourceOutputReference | GoogleCloudRunV2JobTemplateTemplateContainersEnvValueSource): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -724,8 +724,8 @@ export function googleCloudRunV2JobTemplateTemplateContainersEnvValueSourceToTer
 
 
 export function googleCloudRunV2JobTemplateTemplateContainersEnvValueSourceToHclTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateContainersEnvValueSourceOutputReference | GoogleCloudRunV2JobTemplateTemplateContainersEnvValueSource): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -741,14 +741,14 @@ export function googleCloudRunV2JobTemplateTemplateContainersEnvValueSourceToHcl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleCloudRunV2JobTemplateTemplateContainersEnvValueSourceOutputReference extends cdktf.ComplexObject {
+export class GoogleCloudRunV2JobTemplateTemplateContainersEnvValueSourceOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -810,33 +810,33 @@ export interface GoogleCloudRunV2JobTemplateTemplateContainersEnv {
   readonly valueSource?: GoogleCloudRunV2JobTemplateTemplateContainersEnvValueSource;
 }
 
-export function googleCloudRunV2JobTemplateTemplateContainersEnvToTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateContainersEnv | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleCloudRunV2JobTemplateTemplateContainersEnvToTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateContainersEnv | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    name: cdktf.stringToTerraform(struct!.name),
-    value: cdktf.stringToTerraform(struct!.value),
+    name: cdktn.stringToTerraform(struct!.name),
+    value: cdktn.stringToTerraform(struct!.value),
     value_source: googleCloudRunV2JobTemplateTemplateContainersEnvValueSourceToTerraform(struct!.valueSource),
   }
 }
 
 
-export function googleCloudRunV2JobTemplateTemplateContainersEnvToHclTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateContainersEnv | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleCloudRunV2JobTemplateTemplateContainersEnvToHclTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateContainersEnv | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
+      value: cdktn.stringToHclTerraform(struct!.name),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     value: {
-      value: cdktf.stringToHclTerraform(struct!.value),
+      value: cdktn.stringToHclTerraform(struct!.value),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -853,9 +853,9 @@ export function googleCloudRunV2JobTemplateTemplateContainersEnvToHclTerraform(s
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleCloudRunV2JobTemplateTemplateContainersEnvOutputReference extends cdktf.ComplexObject {
+export class GoogleCloudRunV2JobTemplateTemplateContainersEnvOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -863,11 +863,11 @@ export class GoogleCloudRunV2JobTemplateTemplateContainersEnvOutputReference ext
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleCloudRunV2JobTemplateTemplateContainersEnv | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleCloudRunV2JobTemplateTemplateContainersEnv | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -888,7 +888,7 @@ export class GoogleCloudRunV2JobTemplateTemplateContainersEnvOutputReference ext
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleCloudRunV2JobTemplateTemplateContainersEnv | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleCloudRunV2JobTemplateTemplateContainersEnv | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -896,7 +896,7 @@ export class GoogleCloudRunV2JobTemplateTemplateContainersEnvOutputReference ext
       this._value = undefined;
       this._valueSource.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -955,15 +955,15 @@ export class GoogleCloudRunV2JobTemplateTemplateContainersEnvOutputReference ext
   }
 }
 
-export class GoogleCloudRunV2JobTemplateTemplateContainersEnvList extends cdktf.ComplexList {
-  public internalValue? : GoogleCloudRunV2JobTemplateTemplateContainersEnv[] | cdktf.IResolvable
+export class GoogleCloudRunV2JobTemplateTemplateContainersEnvList extends cdktn.ComplexList {
+  public internalValue? : GoogleCloudRunV2JobTemplateTemplateContainersEnv[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -989,32 +989,32 @@ export interface GoogleCloudRunV2JobTemplateTemplateContainersPorts {
   readonly name?: string;
 }
 
-export function googleCloudRunV2JobTemplateTemplateContainersPortsToTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateContainersPorts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleCloudRunV2JobTemplateTemplateContainersPortsToTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateContainersPorts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    container_port: cdktf.numberToTerraform(struct!.containerPort),
-    name: cdktf.stringToTerraform(struct!.name),
+    container_port: cdktn.numberToTerraform(struct!.containerPort),
+    name: cdktn.stringToTerraform(struct!.name),
   }
 }
 
 
-export function googleCloudRunV2JobTemplateTemplateContainersPortsToHclTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateContainersPorts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleCloudRunV2JobTemplateTemplateContainersPortsToHclTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateContainersPorts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     container_port: {
-      value: cdktf.numberToHclTerraform(struct!.containerPort),
+      value: cdktn.numberToHclTerraform(struct!.containerPort),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
+      value: cdktn.stringToHclTerraform(struct!.name),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1025,9 +1025,9 @@ export function googleCloudRunV2JobTemplateTemplateContainersPortsToHclTerraform
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleCloudRunV2JobTemplateTemplateContainersPortsOutputReference extends cdktf.ComplexObject {
+export class GoogleCloudRunV2JobTemplateTemplateContainersPortsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -1035,11 +1035,11 @@ export class GoogleCloudRunV2JobTemplateTemplateContainersPortsOutputReference e
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleCloudRunV2JobTemplateTemplateContainersPorts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleCloudRunV2JobTemplateTemplateContainersPorts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1056,14 +1056,14 @@ export class GoogleCloudRunV2JobTemplateTemplateContainersPortsOutputReference e
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleCloudRunV2JobTemplateTemplateContainersPorts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleCloudRunV2JobTemplateTemplateContainersPorts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._containerPort = undefined;
       this._name = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1108,15 +1108,15 @@ export class GoogleCloudRunV2JobTemplateTemplateContainersPortsOutputReference e
   }
 }
 
-export class GoogleCloudRunV2JobTemplateTemplateContainersPortsList extends cdktf.ComplexList {
-  public internalValue? : GoogleCloudRunV2JobTemplateTemplateContainersPorts[] | cdktf.IResolvable
+export class GoogleCloudRunV2JobTemplateTemplateContainersPortsList extends cdktn.ComplexList {
+  public internalValue? : GoogleCloudRunV2JobTemplateTemplateContainersPorts[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1137,24 +1137,24 @@ export interface GoogleCloudRunV2JobTemplateTemplateContainersResources {
 }
 
 export function googleCloudRunV2JobTemplateTemplateContainersResourcesToTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateContainersResourcesOutputReference | GoogleCloudRunV2JobTemplateTemplateContainersResources): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    limits: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.limits),
+    limits: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.limits),
   }
 }
 
 
 export function googleCloudRunV2JobTemplateTemplateContainersResourcesToHclTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateContainersResourcesOutputReference | GoogleCloudRunV2JobTemplateTemplateContainersResources): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     limits: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.limits),
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.limits),
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
@@ -1165,14 +1165,14 @@ export function googleCloudRunV2JobTemplateTemplateContainersResourcesToHclTerra
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleCloudRunV2JobTemplateTemplateContainersResourcesOutputReference extends cdktf.ComplexObject {
+export class GoogleCloudRunV2JobTemplateTemplateContainersResourcesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1232,31 +1232,31 @@ export interface GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeGrpc {
 }
 
 export function googleCloudRunV2JobTemplateTemplateContainersStartupProbeGrpcToTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeGrpcOutputReference | GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeGrpc): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    port: cdktf.numberToTerraform(struct!.port),
-    service: cdktf.stringToTerraform(struct!.service),
+    port: cdktn.numberToTerraform(struct!.port),
+    service: cdktn.stringToTerraform(struct!.service),
   }
 }
 
 
 export function googleCloudRunV2JobTemplateTemplateContainersStartupProbeGrpcToHclTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeGrpcOutputReference | GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeGrpc): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     port: {
-      value: cdktf.numberToHclTerraform(struct!.port),
+      value: cdktn.numberToHclTerraform(struct!.port),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     service: {
-      value: cdktf.stringToHclTerraform(struct!.service),
+      value: cdktn.stringToHclTerraform(struct!.service),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1267,14 +1267,14 @@ export function googleCloudRunV2JobTemplateTemplateContainersStartupProbeGrpcToH
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeGrpcOutputReference extends cdktf.ComplexObject {
+export class GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeGrpcOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1352,32 +1352,32 @@ export interface GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeHttpGe
   readonly value?: string;
 }
 
-export function googleCloudRunV2JobTemplateTemplateContainersStartupProbeHttpGetHttpHeadersToTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeHttpGetHttpHeaders | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleCloudRunV2JobTemplateTemplateContainersStartupProbeHttpGetHttpHeadersToTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeHttpGetHttpHeaders | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    name: cdktf.stringToTerraform(struct!.name),
-    value: cdktf.stringToTerraform(struct!.value),
+    name: cdktn.stringToTerraform(struct!.name),
+    value: cdktn.stringToTerraform(struct!.value),
   }
 }
 
 
-export function googleCloudRunV2JobTemplateTemplateContainersStartupProbeHttpGetHttpHeadersToHclTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeHttpGetHttpHeaders | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleCloudRunV2JobTemplateTemplateContainersStartupProbeHttpGetHttpHeadersToHclTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeHttpGetHttpHeaders | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
+      value: cdktn.stringToHclTerraform(struct!.name),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     value: {
-      value: cdktf.stringToHclTerraform(struct!.value),
+      value: cdktn.stringToHclTerraform(struct!.value),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1388,9 +1388,9 @@ export function googleCloudRunV2JobTemplateTemplateContainersStartupProbeHttpGet
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference extends cdktf.ComplexObject {
+export class GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -1398,11 +1398,11 @@ export class GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeHttpGetHtt
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeHttpGetHttpHeaders | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeHttpGetHttpHeaders | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1419,14 +1419,14 @@ export class GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeHttpGetHtt
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeHttpGetHttpHeaders | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeHttpGetHttpHeaders | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._name = undefined;
       this._value = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1468,15 +1468,15 @@ export class GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeHttpGetHtt
   }
 }
 
-export class GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeHttpGetHttpHeadersList extends cdktf.ComplexList {
-  public internalValue? : GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeHttpGetHttpHeaders[] | cdktf.IResolvable
+export class GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeHttpGetHttpHeadersList extends cdktn.ComplexList {
+  public internalValue? : GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeHttpGetHttpHeaders[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1506,42 +1506,42 @@ export interface GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeHttpGe
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_v2_job#http_headers GoogleCloudRunV2Job#http_headers}
   */
-  readonly httpHeaders?: GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
+  readonly httpHeaders?: GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeHttpGetHttpHeaders[] | cdktn.IResolvable;
 }
 
 export function googleCloudRunV2JobTemplateTemplateContainersStartupProbeHttpGetToTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeHttpGetOutputReference | GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeHttpGet): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    path: cdktf.stringToTerraform(struct!.path),
-    port: cdktf.numberToTerraform(struct!.port),
-    http_headers: cdktf.listMapper(googleCloudRunV2JobTemplateTemplateContainersStartupProbeHttpGetHttpHeadersToTerraform, true)(struct!.httpHeaders),
+    path: cdktn.stringToTerraform(struct!.path),
+    port: cdktn.numberToTerraform(struct!.port),
+    http_headers: cdktn.listMapper(googleCloudRunV2JobTemplateTemplateContainersStartupProbeHttpGetHttpHeadersToTerraform, true)(struct!.httpHeaders),
   }
 }
 
 
 export function googleCloudRunV2JobTemplateTemplateContainersStartupProbeHttpGetToHclTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeHttpGetOutputReference | GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeHttpGet): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     path: {
-      value: cdktf.stringToHclTerraform(struct!.path),
+      value: cdktn.stringToHclTerraform(struct!.path),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     port: {
-      value: cdktf.numberToHclTerraform(struct!.port),
+      value: cdktn.numberToHclTerraform(struct!.port),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     http_headers: {
-      value: cdktf.listMapperHcl(googleCloudRunV2JobTemplateTemplateContainersStartupProbeHttpGetHttpHeadersToHclTerraform, true)(struct!.httpHeaders),
+      value: cdktn.listMapperHcl(googleCloudRunV2JobTemplateTemplateContainersStartupProbeHttpGetHttpHeadersToHclTerraform, true)(struct!.httpHeaders),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeHttpGetHttpHeadersList",
@@ -1552,14 +1552,14 @@ export function googleCloudRunV2JobTemplateTemplateContainersStartupProbeHttpGet
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeHttpGetOutputReference extends cdktf.ComplexObject {
+export class GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeHttpGetOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1633,7 +1633,7 @@ export class GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeHttpGetOut
   public get httpHeaders() {
     return this._httpHeaders;
   }
-  public putHttpHeaders(value: GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeHttpGetHttpHeaders[] | cdktf.IResolvable) {
+  public putHttpHeaders(value: GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeHttpGetHttpHeaders[] | cdktn.IResolvable) {
     this._httpHeaders.internalValue = value;
   }
   public resetHttpHeaders() {
@@ -1655,24 +1655,24 @@ export interface GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeTcpSoc
 }
 
 export function googleCloudRunV2JobTemplateTemplateContainersStartupProbeTcpSocketToTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeTcpSocketOutputReference | GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeTcpSocket): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    port: cdktf.numberToTerraform(struct!.port),
+    port: cdktn.numberToTerraform(struct!.port),
   }
 }
 
 
 export function googleCloudRunV2JobTemplateTemplateContainersStartupProbeTcpSocketToHclTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeTcpSocketOutputReference | GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeTcpSocket): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     port: {
-      value: cdktf.numberToHclTerraform(struct!.port),
+      value: cdktn.numberToHclTerraform(struct!.port),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1683,14 +1683,14 @@ export function googleCloudRunV2JobTemplateTemplateContainersStartupProbeTcpSock
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeTcpSocketOutputReference extends cdktf.ComplexObject {
+export class GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeTcpSocketOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1783,15 +1783,15 @@ export interface GoogleCloudRunV2JobTemplateTemplateContainersStartupProbe {
 }
 
 export function googleCloudRunV2JobTemplateTemplateContainersStartupProbeToTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeOutputReference | GoogleCloudRunV2JobTemplateTemplateContainersStartupProbe): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    failure_threshold: cdktf.numberToTerraform(struct!.failureThreshold),
-    initial_delay_seconds: cdktf.numberToTerraform(struct!.initialDelaySeconds),
-    period_seconds: cdktf.numberToTerraform(struct!.periodSeconds),
-    timeout_seconds: cdktf.numberToTerraform(struct!.timeoutSeconds),
+    failure_threshold: cdktn.numberToTerraform(struct!.failureThreshold),
+    initial_delay_seconds: cdktn.numberToTerraform(struct!.initialDelaySeconds),
+    period_seconds: cdktn.numberToTerraform(struct!.periodSeconds),
+    timeout_seconds: cdktn.numberToTerraform(struct!.timeoutSeconds),
     grpc: googleCloudRunV2JobTemplateTemplateContainersStartupProbeGrpcToTerraform(struct!.grpc),
     http_get: googleCloudRunV2JobTemplateTemplateContainersStartupProbeHttpGetToTerraform(struct!.httpGet),
     tcp_socket: googleCloudRunV2JobTemplateTemplateContainersStartupProbeTcpSocketToTerraform(struct!.tcpSocket),
@@ -1800,31 +1800,31 @@ export function googleCloudRunV2JobTemplateTemplateContainersStartupProbeToTerra
 
 
 export function googleCloudRunV2JobTemplateTemplateContainersStartupProbeToHclTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeOutputReference | GoogleCloudRunV2JobTemplateTemplateContainersStartupProbe): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     failure_threshold: {
-      value: cdktf.numberToHclTerraform(struct!.failureThreshold),
+      value: cdktn.numberToHclTerraform(struct!.failureThreshold),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     initial_delay_seconds: {
-      value: cdktf.numberToHclTerraform(struct!.initialDelaySeconds),
+      value: cdktn.numberToHclTerraform(struct!.initialDelaySeconds),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     period_seconds: {
-      value: cdktf.numberToHclTerraform(struct!.periodSeconds),
+      value: cdktn.numberToHclTerraform(struct!.periodSeconds),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     timeout_seconds: {
-      value: cdktf.numberToHclTerraform(struct!.timeoutSeconds),
+      value: cdktn.numberToHclTerraform(struct!.timeoutSeconds),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1853,14 +1853,14 @@ export function googleCloudRunV2JobTemplateTemplateContainersStartupProbeToHclTe
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeOutputReference extends cdktf.ComplexObject {
+export class GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2048,32 +2048,32 @@ export interface GoogleCloudRunV2JobTemplateTemplateContainersVolumeMounts {
   readonly name: string;
 }
 
-export function googleCloudRunV2JobTemplateTemplateContainersVolumeMountsToTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateContainersVolumeMounts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleCloudRunV2JobTemplateTemplateContainersVolumeMountsToTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateContainersVolumeMounts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    mount_path: cdktf.stringToTerraform(struct!.mountPath),
-    name: cdktf.stringToTerraform(struct!.name),
+    mount_path: cdktn.stringToTerraform(struct!.mountPath),
+    name: cdktn.stringToTerraform(struct!.name),
   }
 }
 
 
-export function googleCloudRunV2JobTemplateTemplateContainersVolumeMountsToHclTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateContainersVolumeMounts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleCloudRunV2JobTemplateTemplateContainersVolumeMountsToHclTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateContainersVolumeMounts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     mount_path: {
-      value: cdktf.stringToHclTerraform(struct!.mountPath),
+      value: cdktn.stringToHclTerraform(struct!.mountPath),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
+      value: cdktn.stringToHclTerraform(struct!.name),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2084,9 +2084,9 @@ export function googleCloudRunV2JobTemplateTemplateContainersVolumeMountsToHclTe
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleCloudRunV2JobTemplateTemplateContainersVolumeMountsOutputReference extends cdktf.ComplexObject {
+export class GoogleCloudRunV2JobTemplateTemplateContainersVolumeMountsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -2094,11 +2094,11 @@ export class GoogleCloudRunV2JobTemplateTemplateContainersVolumeMountsOutputRefe
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleCloudRunV2JobTemplateTemplateContainersVolumeMounts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleCloudRunV2JobTemplateTemplateContainersVolumeMounts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -2115,14 +2115,14 @@ export class GoogleCloudRunV2JobTemplateTemplateContainersVolumeMountsOutputRefe
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleCloudRunV2JobTemplateTemplateContainersVolumeMounts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleCloudRunV2JobTemplateTemplateContainersVolumeMounts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._mountPath = undefined;
       this._name = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -2161,15 +2161,15 @@ export class GoogleCloudRunV2JobTemplateTemplateContainersVolumeMountsOutputRefe
   }
 }
 
-export class GoogleCloudRunV2JobTemplateTemplateContainersVolumeMountsList extends cdktf.ComplexList {
-  public internalValue? : GoogleCloudRunV2JobTemplateTemplateContainersVolumeMounts[] | cdktf.IResolvable
+export class GoogleCloudRunV2JobTemplateTemplateContainersVolumeMountsList extends cdktn.ComplexList {
+  public internalValue? : GoogleCloudRunV2JobTemplateTemplateContainersVolumeMounts[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -2222,13 +2222,13 @@ export interface GoogleCloudRunV2JobTemplateTemplateContainers {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_v2_job#env GoogleCloudRunV2Job#env}
   */
-  readonly env?: GoogleCloudRunV2JobTemplateTemplateContainersEnv[] | cdktf.IResolvable;
+  readonly env?: GoogleCloudRunV2JobTemplateTemplateContainersEnv[] | cdktn.IResolvable;
   /**
   * ports block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_v2_job#ports GoogleCloudRunV2Job#ports}
   */
-  readonly ports?: GoogleCloudRunV2JobTemplateTemplateContainersPorts[] | cdktf.IResolvable;
+  readonly ports?: GoogleCloudRunV2JobTemplateTemplateContainersPorts[] | cdktn.IResolvable;
   /**
   * resources block
   *
@@ -2246,80 +2246,80 @@ export interface GoogleCloudRunV2JobTemplateTemplateContainers {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_v2_job#volume_mounts GoogleCloudRunV2Job#volume_mounts}
   */
-  readonly volumeMounts?: GoogleCloudRunV2JobTemplateTemplateContainersVolumeMounts[] | cdktf.IResolvable;
+  readonly volumeMounts?: GoogleCloudRunV2JobTemplateTemplateContainersVolumeMounts[] | cdktn.IResolvable;
 }
 
-export function googleCloudRunV2JobTemplateTemplateContainersToTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateContainers | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleCloudRunV2JobTemplateTemplateContainersToTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateContainers | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    args: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.args),
-    command: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.command),
-    depends_on: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.dependsOn),
-    image: cdktf.stringToTerraform(struct!.image),
-    name: cdktf.stringToTerraform(struct!.name),
-    working_dir: cdktf.stringToTerraform(struct!.workingDir),
-    env: cdktf.listMapper(googleCloudRunV2JobTemplateTemplateContainersEnvToTerraform, true)(struct!.env),
-    ports: cdktf.listMapper(googleCloudRunV2JobTemplateTemplateContainersPortsToTerraform, true)(struct!.ports),
+    args: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.args),
+    command: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.command),
+    depends_on: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.dependsOn),
+    image: cdktn.stringToTerraform(struct!.image),
+    name: cdktn.stringToTerraform(struct!.name),
+    working_dir: cdktn.stringToTerraform(struct!.workingDir),
+    env: cdktn.listMapper(googleCloudRunV2JobTemplateTemplateContainersEnvToTerraform, true)(struct!.env),
+    ports: cdktn.listMapper(googleCloudRunV2JobTemplateTemplateContainersPortsToTerraform, true)(struct!.ports),
     resources: googleCloudRunV2JobTemplateTemplateContainersResourcesToTerraform(struct!.resources),
     startup_probe: googleCloudRunV2JobTemplateTemplateContainersStartupProbeToTerraform(struct!.startupProbe),
-    volume_mounts: cdktf.listMapper(googleCloudRunV2JobTemplateTemplateContainersVolumeMountsToTerraform, true)(struct!.volumeMounts),
+    volume_mounts: cdktn.listMapper(googleCloudRunV2JobTemplateTemplateContainersVolumeMountsToTerraform, true)(struct!.volumeMounts),
   }
 }
 
 
-export function googleCloudRunV2JobTemplateTemplateContainersToHclTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateContainers | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleCloudRunV2JobTemplateTemplateContainersToHclTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateContainers | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     args: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.args),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.args),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     command: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.command),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.command),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     depends_on: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.dependsOn),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.dependsOn),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     image: {
-      value: cdktf.stringToHclTerraform(struct!.image),
+      value: cdktn.stringToHclTerraform(struct!.image),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
+      value: cdktn.stringToHclTerraform(struct!.name),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     working_dir: {
-      value: cdktf.stringToHclTerraform(struct!.workingDir),
+      value: cdktn.stringToHclTerraform(struct!.workingDir),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     env: {
-      value: cdktf.listMapperHcl(googleCloudRunV2JobTemplateTemplateContainersEnvToHclTerraform, true)(struct!.env),
+      value: cdktn.listMapperHcl(googleCloudRunV2JobTemplateTemplateContainersEnvToHclTerraform, true)(struct!.env),
       isBlock: true,
       type: "set",
       storageClassType: "GoogleCloudRunV2JobTemplateTemplateContainersEnvList",
     },
     ports: {
-      value: cdktf.listMapperHcl(googleCloudRunV2JobTemplateTemplateContainersPortsToHclTerraform, true)(struct!.ports),
+      value: cdktn.listMapperHcl(googleCloudRunV2JobTemplateTemplateContainersPortsToHclTerraform, true)(struct!.ports),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleCloudRunV2JobTemplateTemplateContainersPortsList",
@@ -2337,7 +2337,7 @@ export function googleCloudRunV2JobTemplateTemplateContainersToHclTerraform(stru
       storageClassType: "GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeList",
     },
     volume_mounts: {
-      value: cdktf.listMapperHcl(googleCloudRunV2JobTemplateTemplateContainersVolumeMountsToHclTerraform, true)(struct!.volumeMounts),
+      value: cdktn.listMapperHcl(googleCloudRunV2JobTemplateTemplateContainersVolumeMountsToHclTerraform, true)(struct!.volumeMounts),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleCloudRunV2JobTemplateTemplateContainersVolumeMountsList",
@@ -2348,9 +2348,9 @@ export function googleCloudRunV2JobTemplateTemplateContainersToHclTerraform(stru
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleCloudRunV2JobTemplateTemplateContainersOutputReference extends cdktf.ComplexObject {
+export class GoogleCloudRunV2JobTemplateTemplateContainersOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -2358,11 +2358,11 @@ export class GoogleCloudRunV2JobTemplateTemplateContainersOutputReference extend
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleCloudRunV2JobTemplateTemplateContainers | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleCloudRunV2JobTemplateTemplateContainers | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -2415,7 +2415,7 @@ export class GoogleCloudRunV2JobTemplateTemplateContainersOutputReference extend
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleCloudRunV2JobTemplateTemplateContainers | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleCloudRunV2JobTemplateTemplateContainers | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -2431,7 +2431,7 @@ export class GoogleCloudRunV2JobTemplateTemplateContainersOutputReference extend
       this._startupProbe.internalValue = undefined;
       this._volumeMounts.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -2550,7 +2550,7 @@ export class GoogleCloudRunV2JobTemplateTemplateContainersOutputReference extend
   public get env() {
     return this._env;
   }
-  public putEnv(value: GoogleCloudRunV2JobTemplateTemplateContainersEnv[] | cdktf.IResolvable) {
+  public putEnv(value: GoogleCloudRunV2JobTemplateTemplateContainersEnv[] | cdktn.IResolvable) {
     this._env.internalValue = value;
   }
   public resetEnv() {
@@ -2566,7 +2566,7 @@ export class GoogleCloudRunV2JobTemplateTemplateContainersOutputReference extend
   public get ports() {
     return this._ports;
   }
-  public putPorts(value: GoogleCloudRunV2JobTemplateTemplateContainersPorts[] | cdktf.IResolvable) {
+  public putPorts(value: GoogleCloudRunV2JobTemplateTemplateContainersPorts[] | cdktn.IResolvable) {
     this._ports.internalValue = value;
   }
   public resetPorts() {
@@ -2614,7 +2614,7 @@ export class GoogleCloudRunV2JobTemplateTemplateContainersOutputReference extend
   public get volumeMounts() {
     return this._volumeMounts;
   }
-  public putVolumeMounts(value: GoogleCloudRunV2JobTemplateTemplateContainersVolumeMounts[] | cdktf.IResolvable) {
+  public putVolumeMounts(value: GoogleCloudRunV2JobTemplateTemplateContainersVolumeMounts[] | cdktn.IResolvable) {
     this._volumeMounts.internalValue = value;
   }
   public resetVolumeMounts() {
@@ -2626,15 +2626,15 @@ export class GoogleCloudRunV2JobTemplateTemplateContainersOutputReference extend
   }
 }
 
-export class GoogleCloudRunV2JobTemplateTemplateContainersList extends cdktf.ComplexList {
-  public internalValue? : GoogleCloudRunV2JobTemplateTemplateContainers[] | cdktf.IResolvable
+export class GoogleCloudRunV2JobTemplateTemplateContainersList extends cdktn.ComplexList {
+  public internalValue? : GoogleCloudRunV2JobTemplateTemplateContainers[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -2655,24 +2655,24 @@ export interface GoogleCloudRunV2JobTemplateTemplateNodeSelector {
 }
 
 export function googleCloudRunV2JobTemplateTemplateNodeSelectorToTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateNodeSelectorOutputReference | GoogleCloudRunV2JobTemplateTemplateNodeSelector): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    accelerator: cdktf.stringToTerraform(struct!.accelerator),
+    accelerator: cdktn.stringToTerraform(struct!.accelerator),
   }
 }
 
 
 export function googleCloudRunV2JobTemplateTemplateNodeSelectorToHclTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateNodeSelectorOutputReference | GoogleCloudRunV2JobTemplateTemplateNodeSelector): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     accelerator: {
-      value: cdktf.stringToHclTerraform(struct!.accelerator),
+      value: cdktn.stringToHclTerraform(struct!.accelerator),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2683,14 +2683,14 @@ export function googleCloudRunV2JobTemplateTemplateNodeSelectorToHclTerraform(st
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleCloudRunV2JobTemplateTemplateNodeSelectorOutputReference extends cdktf.ComplexObject {
+export class GoogleCloudRunV2JobTemplateTemplateNodeSelectorOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2738,24 +2738,24 @@ export interface GoogleCloudRunV2JobTemplateTemplateVolumesCloudSqlInstance {
 }
 
 export function googleCloudRunV2JobTemplateTemplateVolumesCloudSqlInstanceToTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateVolumesCloudSqlInstanceOutputReference | GoogleCloudRunV2JobTemplateTemplateVolumesCloudSqlInstance): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    instances: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.instances),
+    instances: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.instances),
   }
 }
 
 
 export function googleCloudRunV2JobTemplateTemplateVolumesCloudSqlInstanceToHclTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateVolumesCloudSqlInstanceOutputReference | GoogleCloudRunV2JobTemplateTemplateVolumesCloudSqlInstance): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     instances: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.instances),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.instances),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -2766,14 +2766,14 @@ export function googleCloudRunV2JobTemplateTemplateVolumesCloudSqlInstanceToHclT
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleCloudRunV2JobTemplateTemplateVolumesCloudSqlInstanceOutputReference extends cdktf.ComplexObject {
+export class GoogleCloudRunV2JobTemplateTemplateVolumesCloudSqlInstanceOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2830,31 +2830,31 @@ export interface GoogleCloudRunV2JobTemplateTemplateVolumesEmptyDir {
 }
 
 export function googleCloudRunV2JobTemplateTemplateVolumesEmptyDirToTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateVolumesEmptyDirOutputReference | GoogleCloudRunV2JobTemplateTemplateVolumesEmptyDir): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    medium: cdktf.stringToTerraform(struct!.medium),
-    size_limit: cdktf.stringToTerraform(struct!.sizeLimit),
+    medium: cdktn.stringToTerraform(struct!.medium),
+    size_limit: cdktn.stringToTerraform(struct!.sizeLimit),
   }
 }
 
 
 export function googleCloudRunV2JobTemplateTemplateVolumesEmptyDirToHclTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateVolumesEmptyDirOutputReference | GoogleCloudRunV2JobTemplateTemplateVolumesEmptyDir): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     medium: {
-      value: cdktf.stringToHclTerraform(struct!.medium),
+      value: cdktn.stringToHclTerraform(struct!.medium),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     size_limit: {
-      value: cdktf.stringToHclTerraform(struct!.sizeLimit),
+      value: cdktn.stringToHclTerraform(struct!.sizeLimit),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2865,14 +2865,14 @@ export function googleCloudRunV2JobTemplateTemplateVolumesEmptyDirToHclTerraform
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleCloudRunV2JobTemplateTemplateVolumesEmptyDirOutputReference extends cdktf.ComplexObject {
+export class GoogleCloudRunV2JobTemplateTemplateVolumesEmptyDirOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2954,42 +2954,42 @@ export interface GoogleCloudRunV2JobTemplateTemplateVolumesGcs {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_v2_job#read_only GoogleCloudRunV2Job#read_only}
   */
-  readonly readOnly?: boolean | cdktf.IResolvable;
+  readonly readOnly?: boolean | cdktn.IResolvable;
 }
 
 export function googleCloudRunV2JobTemplateTemplateVolumesGcsToTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateVolumesGcsOutputReference | GoogleCloudRunV2JobTemplateTemplateVolumesGcs): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    bucket: cdktf.stringToTerraform(struct!.bucket),
-    mount_options: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.mountOptions),
-    read_only: cdktf.booleanToTerraform(struct!.readOnly),
+    bucket: cdktn.stringToTerraform(struct!.bucket),
+    mount_options: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.mountOptions),
+    read_only: cdktn.booleanToTerraform(struct!.readOnly),
   }
 }
 
 
 export function googleCloudRunV2JobTemplateTemplateVolumesGcsToHclTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateVolumesGcsOutputReference | GoogleCloudRunV2JobTemplateTemplateVolumesGcs): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     bucket: {
-      value: cdktf.stringToHclTerraform(struct!.bucket),
+      value: cdktn.stringToHclTerraform(struct!.bucket),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     mount_options: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.mountOptions),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.mountOptions),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     read_only: {
-      value: cdktf.booleanToHclTerraform(struct!.readOnly),
+      value: cdktn.booleanToHclTerraform(struct!.readOnly),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3000,14 +3000,14 @@ export function googleCloudRunV2JobTemplateTemplateVolumesGcsToHclTerraform(stru
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleCloudRunV2JobTemplateTemplateVolumesGcsOutputReference extends cdktf.ComplexObject {
+export class GoogleCloudRunV2JobTemplateTemplateVolumesGcsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3074,11 +3074,11 @@ export class GoogleCloudRunV2JobTemplateTemplateVolumesGcsOutputReference extend
   }
 
   // read_only - computed: false, optional: true, required: false
-  private _readOnly?: boolean | cdktf.IResolvable; 
+  private _readOnly?: boolean | cdktn.IResolvable; 
   public get readOnly() {
     return this.getBooleanAttribute('read_only');
   }
-  public set readOnly(value: boolean | cdktf.IResolvable) {
+  public set readOnly(value: boolean | cdktn.IResolvable) {
     this._readOnly = value;
   }
   public resetReadOnly() {
@@ -3101,7 +3101,7 @@ export interface GoogleCloudRunV2JobTemplateTemplateVolumesNfs {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_v2_job#read_only GoogleCloudRunV2Job#read_only}
   */
-  readonly readOnly?: boolean | cdktf.IResolvable;
+  readonly readOnly?: boolean | cdktn.IResolvable;
   /**
   * Hostname or IP address of the NFS server.
   *
@@ -3111,38 +3111,38 @@ export interface GoogleCloudRunV2JobTemplateTemplateVolumesNfs {
 }
 
 export function googleCloudRunV2JobTemplateTemplateVolumesNfsToTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateVolumesNfsOutputReference | GoogleCloudRunV2JobTemplateTemplateVolumesNfs): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    path: cdktf.stringToTerraform(struct!.path),
-    read_only: cdktf.booleanToTerraform(struct!.readOnly),
-    server: cdktf.stringToTerraform(struct!.server),
+    path: cdktn.stringToTerraform(struct!.path),
+    read_only: cdktn.booleanToTerraform(struct!.readOnly),
+    server: cdktn.stringToTerraform(struct!.server),
   }
 }
 
 
 export function googleCloudRunV2JobTemplateTemplateVolumesNfsToHclTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateVolumesNfsOutputReference | GoogleCloudRunV2JobTemplateTemplateVolumesNfs): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     path: {
-      value: cdktf.stringToHclTerraform(struct!.path),
+      value: cdktn.stringToHclTerraform(struct!.path),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     read_only: {
-      value: cdktf.booleanToHclTerraform(struct!.readOnly),
+      value: cdktn.booleanToHclTerraform(struct!.readOnly),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     server: {
-      value: cdktf.stringToHclTerraform(struct!.server),
+      value: cdktn.stringToHclTerraform(struct!.server),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3153,14 +3153,14 @@ export function googleCloudRunV2JobTemplateTemplateVolumesNfsToHclTerraform(stru
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleCloudRunV2JobTemplateTemplateVolumesNfsOutputReference extends cdktf.ComplexObject {
+export class GoogleCloudRunV2JobTemplateTemplateVolumesNfsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3214,11 +3214,11 @@ export class GoogleCloudRunV2JobTemplateTemplateVolumesNfsOutputReference extend
   }
 
   // read_only - computed: false, optional: true, required: false
-  private _readOnly?: boolean | cdktf.IResolvable; 
+  private _readOnly?: boolean | cdktn.IResolvable; 
   public get readOnly() {
     return this.getBooleanAttribute('read_only');
   }
-  public set readOnly(value: boolean | cdktf.IResolvable) {
+  public set readOnly(value: boolean | cdktn.IResolvable) {
     this._readOnly = value;
   }
   public resetReadOnly() {
@@ -3263,39 +3263,39 @@ export interface GoogleCloudRunV2JobTemplateTemplateVolumesSecretItems {
   readonly version: string;
 }
 
-export function googleCloudRunV2JobTemplateTemplateVolumesSecretItemsToTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateVolumesSecretItems | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleCloudRunV2JobTemplateTemplateVolumesSecretItemsToTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateVolumesSecretItems | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    mode: cdktf.numberToTerraform(struct!.mode),
-    path: cdktf.stringToTerraform(struct!.path),
-    version: cdktf.stringToTerraform(struct!.version),
+    mode: cdktn.numberToTerraform(struct!.mode),
+    path: cdktn.stringToTerraform(struct!.path),
+    version: cdktn.stringToTerraform(struct!.version),
   }
 }
 
 
-export function googleCloudRunV2JobTemplateTemplateVolumesSecretItemsToHclTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateVolumesSecretItems | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleCloudRunV2JobTemplateTemplateVolumesSecretItemsToHclTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateVolumesSecretItems | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     mode: {
-      value: cdktf.numberToHclTerraform(struct!.mode),
+      value: cdktn.numberToHclTerraform(struct!.mode),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     path: {
-      value: cdktf.stringToHclTerraform(struct!.path),
+      value: cdktn.stringToHclTerraform(struct!.path),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     version: {
-      value: cdktf.stringToHclTerraform(struct!.version),
+      value: cdktn.stringToHclTerraform(struct!.version),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3306,9 +3306,9 @@ export function googleCloudRunV2JobTemplateTemplateVolumesSecretItemsToHclTerraf
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleCloudRunV2JobTemplateTemplateVolumesSecretItemsOutputReference extends cdktf.ComplexObject {
+export class GoogleCloudRunV2JobTemplateTemplateVolumesSecretItemsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -3316,11 +3316,11 @@ export class GoogleCloudRunV2JobTemplateTemplateVolumesSecretItemsOutputReferenc
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleCloudRunV2JobTemplateTemplateVolumesSecretItems | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleCloudRunV2JobTemplateTemplateVolumesSecretItems | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -3341,7 +3341,7 @@ export class GoogleCloudRunV2JobTemplateTemplateVolumesSecretItemsOutputReferenc
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleCloudRunV2JobTemplateTemplateVolumesSecretItems | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleCloudRunV2JobTemplateTemplateVolumesSecretItems | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -3349,7 +3349,7 @@ export class GoogleCloudRunV2JobTemplateTemplateVolumesSecretItemsOutputReferenc
       this._path = undefined;
       this._version = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -3405,15 +3405,15 @@ export class GoogleCloudRunV2JobTemplateTemplateVolumesSecretItemsOutputReferenc
   }
 }
 
-export class GoogleCloudRunV2JobTemplateTemplateVolumesSecretItemsList extends cdktf.ComplexList {
-  public internalValue? : GoogleCloudRunV2JobTemplateTemplateVolumesSecretItems[] | cdktf.IResolvable
+export class GoogleCloudRunV2JobTemplateTemplateVolumesSecretItemsList extends cdktn.ComplexList {
+  public internalValue? : GoogleCloudRunV2JobTemplateTemplateVolumesSecretItems[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -3442,42 +3442,42 @@ export interface GoogleCloudRunV2JobTemplateTemplateVolumesSecret {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_v2_job#items GoogleCloudRunV2Job#items}
   */
-  readonly items?: GoogleCloudRunV2JobTemplateTemplateVolumesSecretItems[] | cdktf.IResolvable;
+  readonly items?: GoogleCloudRunV2JobTemplateTemplateVolumesSecretItems[] | cdktn.IResolvable;
 }
 
 export function googleCloudRunV2JobTemplateTemplateVolumesSecretToTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateVolumesSecretOutputReference | GoogleCloudRunV2JobTemplateTemplateVolumesSecret): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    default_mode: cdktf.numberToTerraform(struct!.defaultMode),
-    secret: cdktf.stringToTerraform(struct!.secret),
-    items: cdktf.listMapper(googleCloudRunV2JobTemplateTemplateVolumesSecretItemsToTerraform, true)(struct!.items),
+    default_mode: cdktn.numberToTerraform(struct!.defaultMode),
+    secret: cdktn.stringToTerraform(struct!.secret),
+    items: cdktn.listMapper(googleCloudRunV2JobTemplateTemplateVolumesSecretItemsToTerraform, true)(struct!.items),
   }
 }
 
 
 export function googleCloudRunV2JobTemplateTemplateVolumesSecretToHclTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateVolumesSecretOutputReference | GoogleCloudRunV2JobTemplateTemplateVolumesSecret): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     default_mode: {
-      value: cdktf.numberToHclTerraform(struct!.defaultMode),
+      value: cdktn.numberToHclTerraform(struct!.defaultMode),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     secret: {
-      value: cdktf.stringToHclTerraform(struct!.secret),
+      value: cdktn.stringToHclTerraform(struct!.secret),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     items: {
-      value: cdktf.listMapperHcl(googleCloudRunV2JobTemplateTemplateVolumesSecretItemsToHclTerraform, true)(struct!.items),
+      value: cdktn.listMapperHcl(googleCloudRunV2JobTemplateTemplateVolumesSecretItemsToHclTerraform, true)(struct!.items),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleCloudRunV2JobTemplateTemplateVolumesSecretItemsList",
@@ -3488,14 +3488,14 @@ export function googleCloudRunV2JobTemplateTemplateVolumesSecretToHclTerraform(s
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleCloudRunV2JobTemplateTemplateVolumesSecretOutputReference extends cdktf.ComplexObject {
+export class GoogleCloudRunV2JobTemplateTemplateVolumesSecretOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3566,7 +3566,7 @@ export class GoogleCloudRunV2JobTemplateTemplateVolumesSecretOutputReference ext
   public get items() {
     return this._items;
   }
-  public putItems(value: GoogleCloudRunV2JobTemplateTemplateVolumesSecretItems[] | cdktf.IResolvable) {
+  public putItems(value: GoogleCloudRunV2JobTemplateTemplateVolumesSecretItems[] | cdktn.IResolvable) {
     this._items.internalValue = value;
   }
   public resetItems() {
@@ -3616,13 +3616,13 @@ export interface GoogleCloudRunV2JobTemplateTemplateVolumes {
   readonly secret?: GoogleCloudRunV2JobTemplateTemplateVolumesSecret;
 }
 
-export function googleCloudRunV2JobTemplateTemplateVolumesToTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateVolumes | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleCloudRunV2JobTemplateTemplateVolumesToTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateVolumes | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    name: cdktf.stringToTerraform(struct!.name),
+    name: cdktn.stringToTerraform(struct!.name),
     cloud_sql_instance: googleCloudRunV2JobTemplateTemplateVolumesCloudSqlInstanceToTerraform(struct!.cloudSqlInstance),
     empty_dir: googleCloudRunV2JobTemplateTemplateVolumesEmptyDirToTerraform(struct!.emptyDir),
     gcs: googleCloudRunV2JobTemplateTemplateVolumesGcsToTerraform(struct!.gcs),
@@ -3632,14 +3632,14 @@ export function googleCloudRunV2JobTemplateTemplateVolumesToTerraform(struct?: G
 }
 
 
-export function googleCloudRunV2JobTemplateTemplateVolumesToHclTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateVolumes | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleCloudRunV2JobTemplateTemplateVolumesToHclTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateVolumes | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
+      value: cdktn.stringToHclTerraform(struct!.name),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3680,9 +3680,9 @@ export function googleCloudRunV2JobTemplateTemplateVolumesToHclTerraform(struct?
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleCloudRunV2JobTemplateTemplateVolumesOutputReference extends cdktf.ComplexObject {
+export class GoogleCloudRunV2JobTemplateTemplateVolumesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -3690,11 +3690,11 @@ export class GoogleCloudRunV2JobTemplateTemplateVolumesOutputReference extends c
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleCloudRunV2JobTemplateTemplateVolumes | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleCloudRunV2JobTemplateTemplateVolumes | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -3727,7 +3727,7 @@ export class GoogleCloudRunV2JobTemplateTemplateVolumesOutputReference extends c
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleCloudRunV2JobTemplateTemplateVolumes | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleCloudRunV2JobTemplateTemplateVolumes | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -3738,7 +3738,7 @@ export class GoogleCloudRunV2JobTemplateTemplateVolumesOutputReference extends c
       this._nfs.internalValue = undefined;
       this._secret.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -3848,15 +3848,15 @@ export class GoogleCloudRunV2JobTemplateTemplateVolumesOutputReference extends c
   }
 }
 
-export class GoogleCloudRunV2JobTemplateTemplateVolumesList extends cdktf.ComplexList {
-  public internalValue? : GoogleCloudRunV2JobTemplateTemplateVolumes[] | cdktf.IResolvable
+export class GoogleCloudRunV2JobTemplateTemplateVolumesList extends cdktn.ComplexList {
+  public internalValue? : GoogleCloudRunV2JobTemplateTemplateVolumes[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -3892,39 +3892,39 @@ export interface GoogleCloudRunV2JobTemplateTemplateVpcAccessNetworkInterfaces {
   readonly tags?: string[];
 }
 
-export function googleCloudRunV2JobTemplateTemplateVpcAccessNetworkInterfacesToTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateVpcAccessNetworkInterfaces | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleCloudRunV2JobTemplateTemplateVpcAccessNetworkInterfacesToTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateVpcAccessNetworkInterfaces | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    network: cdktf.stringToTerraform(struct!.network),
-    subnetwork: cdktf.stringToTerraform(struct!.subnetwork),
-    tags: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.tags),
+    network: cdktn.stringToTerraform(struct!.network),
+    subnetwork: cdktn.stringToTerraform(struct!.subnetwork),
+    tags: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.tags),
   }
 }
 
 
-export function googleCloudRunV2JobTemplateTemplateVpcAccessNetworkInterfacesToHclTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateVpcAccessNetworkInterfaces | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleCloudRunV2JobTemplateTemplateVpcAccessNetworkInterfacesToHclTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateVpcAccessNetworkInterfaces | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     network: {
-      value: cdktf.stringToHclTerraform(struct!.network),
+      value: cdktn.stringToHclTerraform(struct!.network),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     subnetwork: {
-      value: cdktf.stringToHclTerraform(struct!.subnetwork),
+      value: cdktn.stringToHclTerraform(struct!.subnetwork),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     tags: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.tags),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.tags),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -3935,9 +3935,9 @@ export function googleCloudRunV2JobTemplateTemplateVpcAccessNetworkInterfacesToH
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleCloudRunV2JobTemplateTemplateVpcAccessNetworkInterfacesOutputReference extends cdktf.ComplexObject {
+export class GoogleCloudRunV2JobTemplateTemplateVpcAccessNetworkInterfacesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -3945,11 +3945,11 @@ export class GoogleCloudRunV2JobTemplateTemplateVpcAccessNetworkInterfacesOutput
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleCloudRunV2JobTemplateTemplateVpcAccessNetworkInterfaces | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleCloudRunV2JobTemplateTemplateVpcAccessNetworkInterfaces | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -3970,7 +3970,7 @@ export class GoogleCloudRunV2JobTemplateTemplateVpcAccessNetworkInterfacesOutput
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleCloudRunV2JobTemplateTemplateVpcAccessNetworkInterfaces | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleCloudRunV2JobTemplateTemplateVpcAccessNetworkInterfaces | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -3978,7 +3978,7 @@ export class GoogleCloudRunV2JobTemplateTemplateVpcAccessNetworkInterfacesOutput
       this._subnetwork = undefined;
       this._tags = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -4040,15 +4040,15 @@ export class GoogleCloudRunV2JobTemplateTemplateVpcAccessNetworkInterfacesOutput
   }
 }
 
-export class GoogleCloudRunV2JobTemplateTemplateVpcAccessNetworkInterfacesList extends cdktf.ComplexList {
-  public internalValue? : GoogleCloudRunV2JobTemplateTemplateVpcAccessNetworkInterfaces[] | cdktf.IResolvable
+export class GoogleCloudRunV2JobTemplateTemplateVpcAccessNetworkInterfacesList extends cdktn.ComplexList {
+  public internalValue? : GoogleCloudRunV2JobTemplateTemplateVpcAccessNetworkInterfaces[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -4077,42 +4077,42 @@ export interface GoogleCloudRunV2JobTemplateTemplateVpcAccess {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_v2_job#network_interfaces GoogleCloudRunV2Job#network_interfaces}
   */
-  readonly networkInterfaces?: GoogleCloudRunV2JobTemplateTemplateVpcAccessNetworkInterfaces[] | cdktf.IResolvable;
+  readonly networkInterfaces?: GoogleCloudRunV2JobTemplateTemplateVpcAccessNetworkInterfaces[] | cdktn.IResolvable;
 }
 
 export function googleCloudRunV2JobTemplateTemplateVpcAccessToTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateVpcAccessOutputReference | GoogleCloudRunV2JobTemplateTemplateVpcAccess): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    connector: cdktf.stringToTerraform(struct!.connector),
-    egress: cdktf.stringToTerraform(struct!.egress),
-    network_interfaces: cdktf.listMapper(googleCloudRunV2JobTemplateTemplateVpcAccessNetworkInterfacesToTerraform, true)(struct!.networkInterfaces),
+    connector: cdktn.stringToTerraform(struct!.connector),
+    egress: cdktn.stringToTerraform(struct!.egress),
+    network_interfaces: cdktn.listMapper(googleCloudRunV2JobTemplateTemplateVpcAccessNetworkInterfacesToTerraform, true)(struct!.networkInterfaces),
   }
 }
 
 
 export function googleCloudRunV2JobTemplateTemplateVpcAccessToHclTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateVpcAccessOutputReference | GoogleCloudRunV2JobTemplateTemplateVpcAccess): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     connector: {
-      value: cdktf.stringToHclTerraform(struct!.connector),
+      value: cdktn.stringToHclTerraform(struct!.connector),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     egress: {
-      value: cdktf.stringToHclTerraform(struct!.egress),
+      value: cdktn.stringToHclTerraform(struct!.egress),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     network_interfaces: {
-      value: cdktf.listMapperHcl(googleCloudRunV2JobTemplateTemplateVpcAccessNetworkInterfacesToHclTerraform, true)(struct!.networkInterfaces),
+      value: cdktn.listMapperHcl(googleCloudRunV2JobTemplateTemplateVpcAccessNetworkInterfacesToHclTerraform, true)(struct!.networkInterfaces),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleCloudRunV2JobTemplateTemplateVpcAccessNetworkInterfacesList",
@@ -4123,14 +4123,14 @@ export function googleCloudRunV2JobTemplateTemplateVpcAccessToHclTerraform(struc
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleCloudRunV2JobTemplateTemplateVpcAccessOutputReference extends cdktf.ComplexObject {
+export class GoogleCloudRunV2JobTemplateTemplateVpcAccessOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -4204,7 +4204,7 @@ export class GoogleCloudRunV2JobTemplateTemplateVpcAccessOutputReference extends
   public get networkInterfaces() {
     return this._networkInterfaces;
   }
-  public putNetworkInterfaces(value: GoogleCloudRunV2JobTemplateTemplateVpcAccessNetworkInterfaces[] | cdktf.IResolvable) {
+  public putNetworkInterfaces(value: GoogleCloudRunV2JobTemplateTemplateVpcAccessNetworkInterfaces[] | cdktn.IResolvable) {
     this._networkInterfaces.internalValue = value;
   }
   public resetNetworkInterfaces() {
@@ -4233,7 +4233,7 @@ export interface GoogleCloudRunV2JobTemplateTemplate {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_v2_job#gpu_zonal_redundancy_disabled GoogleCloudRunV2Job#gpu_zonal_redundancy_disabled}
   */
-  readonly gpuZonalRedundancyDisabled?: boolean | cdktf.IResolvable;
+  readonly gpuZonalRedundancyDisabled?: boolean | cdktn.IResolvable;
   /**
   * Number of retries allowed per Task, before marking this Task failed. Defaults to 3. Minimum value is 0.
   *
@@ -4259,7 +4259,7 @@ export interface GoogleCloudRunV2JobTemplateTemplate {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_v2_job#containers GoogleCloudRunV2Job#containers}
   */
-  readonly containers?: GoogleCloudRunV2JobTemplateTemplateContainers[] | cdktf.IResolvable;
+  readonly containers?: GoogleCloudRunV2JobTemplateTemplateContainers[] | cdktn.IResolvable;
   /**
   * node_selector block
   *
@@ -4271,7 +4271,7 @@ export interface GoogleCloudRunV2JobTemplateTemplate {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_v2_job#volumes GoogleCloudRunV2Job#volumes}
   */
-  readonly volumes?: GoogleCloudRunV2JobTemplateTemplateVolumes[] | cdktf.IResolvable;
+  readonly volumes?: GoogleCloudRunV2JobTemplateTemplateVolumes[] | cdktn.IResolvable;
   /**
   * vpc_access block
   *
@@ -4281,69 +4281,69 @@ export interface GoogleCloudRunV2JobTemplateTemplate {
 }
 
 export function googleCloudRunV2JobTemplateTemplateToTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateOutputReference | GoogleCloudRunV2JobTemplateTemplate): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    encryption_key: cdktf.stringToTerraform(struct!.encryptionKey),
-    execution_environment: cdktf.stringToTerraform(struct!.executionEnvironment),
-    gpu_zonal_redundancy_disabled: cdktf.booleanToTerraform(struct!.gpuZonalRedundancyDisabled),
-    max_retries: cdktf.numberToTerraform(struct!.maxRetries),
-    service_account: cdktf.stringToTerraform(struct!.serviceAccount),
-    timeout: cdktf.stringToTerraform(struct!.timeout),
-    containers: cdktf.listMapper(googleCloudRunV2JobTemplateTemplateContainersToTerraform, true)(struct!.containers),
+    encryption_key: cdktn.stringToTerraform(struct!.encryptionKey),
+    execution_environment: cdktn.stringToTerraform(struct!.executionEnvironment),
+    gpu_zonal_redundancy_disabled: cdktn.booleanToTerraform(struct!.gpuZonalRedundancyDisabled),
+    max_retries: cdktn.numberToTerraform(struct!.maxRetries),
+    service_account: cdktn.stringToTerraform(struct!.serviceAccount),
+    timeout: cdktn.stringToTerraform(struct!.timeout),
+    containers: cdktn.listMapper(googleCloudRunV2JobTemplateTemplateContainersToTerraform, true)(struct!.containers),
     node_selector: googleCloudRunV2JobTemplateTemplateNodeSelectorToTerraform(struct!.nodeSelector),
-    volumes: cdktf.listMapper(googleCloudRunV2JobTemplateTemplateVolumesToTerraform, true)(struct!.volumes),
+    volumes: cdktn.listMapper(googleCloudRunV2JobTemplateTemplateVolumesToTerraform, true)(struct!.volumes),
     vpc_access: googleCloudRunV2JobTemplateTemplateVpcAccessToTerraform(struct!.vpcAccess),
   }
 }
 
 
 export function googleCloudRunV2JobTemplateTemplateToHclTerraform(struct?: GoogleCloudRunV2JobTemplateTemplateOutputReference | GoogleCloudRunV2JobTemplateTemplate): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     encryption_key: {
-      value: cdktf.stringToHclTerraform(struct!.encryptionKey),
+      value: cdktn.stringToHclTerraform(struct!.encryptionKey),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     execution_environment: {
-      value: cdktf.stringToHclTerraform(struct!.executionEnvironment),
+      value: cdktn.stringToHclTerraform(struct!.executionEnvironment),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     gpu_zonal_redundancy_disabled: {
-      value: cdktf.booleanToHclTerraform(struct!.gpuZonalRedundancyDisabled),
+      value: cdktn.booleanToHclTerraform(struct!.gpuZonalRedundancyDisabled),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     max_retries: {
-      value: cdktf.numberToHclTerraform(struct!.maxRetries),
+      value: cdktn.numberToHclTerraform(struct!.maxRetries),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     service_account: {
-      value: cdktf.stringToHclTerraform(struct!.serviceAccount),
+      value: cdktn.stringToHclTerraform(struct!.serviceAccount),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     timeout: {
-      value: cdktf.stringToHclTerraform(struct!.timeout),
+      value: cdktn.stringToHclTerraform(struct!.timeout),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     containers: {
-      value: cdktf.listMapperHcl(googleCloudRunV2JobTemplateTemplateContainersToHclTerraform, true)(struct!.containers),
+      value: cdktn.listMapperHcl(googleCloudRunV2JobTemplateTemplateContainersToHclTerraform, true)(struct!.containers),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleCloudRunV2JobTemplateTemplateContainersList",
@@ -4355,7 +4355,7 @@ export function googleCloudRunV2JobTemplateTemplateToHclTerraform(struct?: Googl
       storageClassType: "GoogleCloudRunV2JobTemplateTemplateNodeSelectorList",
     },
     volumes: {
-      value: cdktf.listMapperHcl(googleCloudRunV2JobTemplateTemplateVolumesToHclTerraform, true)(struct!.volumes),
+      value: cdktn.listMapperHcl(googleCloudRunV2JobTemplateTemplateVolumesToHclTerraform, true)(struct!.volumes),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleCloudRunV2JobTemplateTemplateVolumesList",
@@ -4372,14 +4372,14 @@ export function googleCloudRunV2JobTemplateTemplateToHclTerraform(struct?: Googl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleCloudRunV2JobTemplateTemplateOutputReference extends cdktf.ComplexObject {
+export class GoogleCloudRunV2JobTemplateTemplateOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -4491,11 +4491,11 @@ export class GoogleCloudRunV2JobTemplateTemplateOutputReference extends cdktf.Co
   }
 
   // gpu_zonal_redundancy_disabled - computed: false, optional: true, required: false
-  private _gpuZonalRedundancyDisabled?: boolean | cdktf.IResolvable; 
+  private _gpuZonalRedundancyDisabled?: boolean | cdktn.IResolvable; 
   public get gpuZonalRedundancyDisabled() {
     return this.getBooleanAttribute('gpu_zonal_redundancy_disabled');
   }
-  public set gpuZonalRedundancyDisabled(value: boolean | cdktf.IResolvable) {
+  public set gpuZonalRedundancyDisabled(value: boolean | cdktn.IResolvable) {
     this._gpuZonalRedundancyDisabled = value;
   }
   public resetGpuZonalRedundancyDisabled() {
@@ -4559,7 +4559,7 @@ export class GoogleCloudRunV2JobTemplateTemplateOutputReference extends cdktf.Co
   public get containers() {
     return this._containers;
   }
-  public putContainers(value: GoogleCloudRunV2JobTemplateTemplateContainers[] | cdktf.IResolvable) {
+  public putContainers(value: GoogleCloudRunV2JobTemplateTemplateContainers[] | cdktn.IResolvable) {
     this._containers.internalValue = value;
   }
   public resetContainers() {
@@ -4591,7 +4591,7 @@ export class GoogleCloudRunV2JobTemplateTemplateOutputReference extends cdktf.Co
   public get volumes() {
     return this._volumes;
   }
-  public putVolumes(value: GoogleCloudRunV2JobTemplateTemplateVolumes[] | cdktf.IResolvable) {
+  public putVolumes(value: GoogleCloudRunV2JobTemplateTemplateVolumes[] | cdktn.IResolvable) {
     this._volumes.internalValue = value;
   }
   public resetVolumes() {
@@ -4662,46 +4662,46 @@ export interface GoogleCloudRunV2JobTemplate {
 }
 
 export function googleCloudRunV2JobTemplateToTerraform(struct?: GoogleCloudRunV2JobTemplateOutputReference | GoogleCloudRunV2JobTemplate): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    annotations: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.annotations),
-    labels: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.labels),
-    parallelism: cdktf.numberToTerraform(struct!.parallelism),
-    task_count: cdktf.numberToTerraform(struct!.taskCount),
+    annotations: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.annotations),
+    labels: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.labels),
+    parallelism: cdktn.numberToTerraform(struct!.parallelism),
+    task_count: cdktn.numberToTerraform(struct!.taskCount),
     template: googleCloudRunV2JobTemplateTemplateToTerraform(struct!.template),
   }
 }
 
 
 export function googleCloudRunV2JobTemplateToHclTerraform(struct?: GoogleCloudRunV2JobTemplateOutputReference | GoogleCloudRunV2JobTemplate): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     annotations: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.annotations),
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.annotations),
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
     },
     labels: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.labels),
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.labels),
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
     },
     parallelism: {
-      value: cdktf.numberToHclTerraform(struct!.parallelism),
+      value: cdktn.numberToHclTerraform(struct!.parallelism),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     task_count: {
-      value: cdktf.numberToHclTerraform(struct!.taskCount),
+      value: cdktn.numberToHclTerraform(struct!.taskCount),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -4718,14 +4718,14 @@ export function googleCloudRunV2JobTemplateToHclTerraform(struct?: GoogleCloudRu
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleCloudRunV2JobTemplateOutputReference extends cdktf.ComplexObject {
+export class GoogleCloudRunV2JobTemplateOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -4866,39 +4866,39 @@ export interface GoogleCloudRunV2JobTimeouts {
   readonly update?: string;
 }
 
-export function googleCloudRunV2JobTimeoutsToTerraform(struct?: GoogleCloudRunV2JobTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleCloudRunV2JobTimeoutsToTerraform(struct?: GoogleCloudRunV2JobTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleCloudRunV2JobTimeoutsToHclTerraform(struct?: GoogleCloudRunV2JobTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleCloudRunV2JobTimeoutsToHclTerraform(struct?: GoogleCloudRunV2JobTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -4909,19 +4909,19 @@ export function googleCloudRunV2JobTimeoutsToHclTerraform(struct?: GoogleCloudRu
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleCloudRunV2JobTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleCloudRunV2JobTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleCloudRunV2JobTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleCloudRunV2JobTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -4942,7 +4942,7 @@ export class GoogleCloudRunV2JobTimeoutsOutputReference extends cdktf.ComplexObj
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleCloudRunV2JobTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleCloudRunV2JobTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -4950,7 +4950,7 @@ export class GoogleCloudRunV2JobTimeoutsOutputReference extends cdktf.ComplexObj
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -5015,7 +5015,7 @@ export class GoogleCloudRunV2JobTimeoutsOutputReference extends cdktf.ComplexObj
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_v2_job google_cloud_run_v2_job}
 */
-export class GoogleCloudRunV2Job extends cdktf.TerraformResource {
+export class GoogleCloudRunV2Job extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -5026,14 +5026,14 @@ export class GoogleCloudRunV2Job extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleCloudRunV2Job resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleCloudRunV2Job resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleCloudRunV2Job to import
   * @param importFromId The id of the existing GoogleCloudRunV2Job that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_v2_job#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleCloudRunV2Job to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_cloud_run_v2_job", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_cloud_run_v2_job", importId: importFromId, provider });
       }
 
   // ===========
@@ -5154,11 +5154,11 @@ export class GoogleCloudRunV2Job extends cdktf.TerraformResource {
   }
 
   // deletion_protection - computed: false, optional: true, required: false
-  private _deletionProtection?: boolean | cdktf.IResolvable; 
+  private _deletionProtection?: boolean | cdktn.IResolvable; 
   public get deletionProtection() {
     return this.getBooleanAttribute('deletion_protection');
   }
-  public set deletionProtection(value: boolean | cdktf.IResolvable) {
+  public set deletionProtection(value: boolean | cdktn.IResolvable) {
     this._deletionProtection = value;
   }
   public resetDeletionProtection() {
@@ -5170,13 +5170,13 @@ export class GoogleCloudRunV2Job extends cdktf.TerraformResource {
   }
 
   // effective_annotations - computed: true, optional: false, required: false
-  private _effectiveAnnotations = new cdktf.StringMap(this, "effective_annotations");
+  private _effectiveAnnotations = new cdktn.StringMap(this, "effective_annotations");
   public get effectiveAnnotations() {
     return this._effectiveAnnotations;
   }
 
   // effective_labels - computed: true, optional: false, required: false
-  private _effectiveLabels = new cdktf.StringMap(this, "effective_labels");
+  private _effectiveLabels = new cdktn.StringMap(this, "effective_labels");
   public get effectiveLabels() {
     return this._effectiveLabels;
   }
@@ -5351,7 +5351,7 @@ export class GoogleCloudRunV2Job extends cdktf.TerraformResource {
   }
 
   // terraform_labels - computed: true, optional: false, required: false
-  private _terraformLabels = new cdktf.StringMap(this, "terraform_labels");
+  private _terraformLabels = new cdktn.StringMap(this, "terraform_labels");
   public get terraformLabels() {
     return this._terraformLabels;
   }
@@ -5417,18 +5417,18 @@ export class GoogleCloudRunV2Job extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      annotations: cdktf.hashMapper(cdktf.stringToTerraform)(this._annotations),
-      client: cdktf.stringToTerraform(this._client),
-      client_version: cdktf.stringToTerraform(this._clientVersion),
-      deletion_protection: cdktf.booleanToTerraform(this._deletionProtection),
-      id: cdktf.stringToTerraform(this._id),
-      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
-      launch_stage: cdktf.stringToTerraform(this._launchStage),
-      location: cdktf.stringToTerraform(this._location),
-      name: cdktf.stringToTerraform(this._name),
-      project: cdktf.stringToTerraform(this._project),
-      run_execution_token: cdktf.stringToTerraform(this._runExecutionToken),
-      start_execution_token: cdktf.stringToTerraform(this._startExecutionToken),
+      annotations: cdktn.hashMapper(cdktn.stringToTerraform)(this._annotations),
+      client: cdktn.stringToTerraform(this._client),
+      client_version: cdktn.stringToTerraform(this._clientVersion),
+      deletion_protection: cdktn.booleanToTerraform(this._deletionProtection),
+      id: cdktn.stringToTerraform(this._id),
+      labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
+      launch_stage: cdktn.stringToTerraform(this._launchStage),
+      location: cdktn.stringToTerraform(this._location),
+      name: cdktn.stringToTerraform(this._name),
+      project: cdktn.stringToTerraform(this._project),
+      run_execution_token: cdktn.stringToTerraform(this._runExecutionToken),
+      start_execution_token: cdktn.stringToTerraform(this._startExecutionToken),
       binary_authorization: googleCloudRunV2JobBinaryAuthorizationToTerraform(this._binaryAuthorization.internalValue),
       template: googleCloudRunV2JobTemplateToTerraform(this._template.internalValue),
       timeouts: googleCloudRunV2JobTimeoutsToTerraform(this._timeouts.internalValue),
@@ -5438,73 +5438,73 @@ export class GoogleCloudRunV2Job extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       annotations: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._annotations),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._annotations),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       client: {
-        value: cdktf.stringToHclTerraform(this._client),
+        value: cdktn.stringToHclTerraform(this._client),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       client_version: {
-        value: cdktf.stringToHclTerraform(this._clientVersion),
+        value: cdktn.stringToHclTerraform(this._clientVersion),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       deletion_protection: {
-        value: cdktf.booleanToHclTerraform(this._deletionProtection),
+        value: cdktn.booleanToHclTerraform(this._deletionProtection),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._labels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       launch_stage: {
-        value: cdktf.stringToHclTerraform(this._launchStage),
+        value: cdktn.stringToHclTerraform(this._launchStage),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       run_execution_token: {
-        value: cdktf.stringToHclTerraform(this._runExecutionToken),
+        value: cdktn.stringToHclTerraform(this._runExecutionToken),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       start_execution_token: {
-        value: cdktf.stringToHclTerraform(this._startExecutionToken),
+        value: cdktn.stringToHclTerraform(this._startExecutionToken),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleBigqueryJobConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleBigqueryJobConfig extends cdktn.TerraformMetaArguments {
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#id GoogleBigqueryJob#id}
   *
@@ -86,8 +86,8 @@ export interface GoogleBigqueryJobStatusErrorResult {
 }
 
 export function googleBigqueryJobStatusErrorResultToTerraform(struct?: GoogleBigqueryJobStatusErrorResult): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -96,8 +96,8 @@ export function googleBigqueryJobStatusErrorResultToTerraform(struct?: GoogleBig
 
 
 export function googleBigqueryJobStatusErrorResultToHclTerraform(struct?: GoogleBigqueryJobStatusErrorResult): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -105,7 +105,7 @@ export function googleBigqueryJobStatusErrorResultToHclTerraform(struct?: Google
   return attrs;
 }
 
-export class GoogleBigqueryJobStatusErrorResultOutputReference extends cdktf.ComplexObject {
+export class GoogleBigqueryJobStatusErrorResultOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -114,7 +114,7 @@ export class GoogleBigqueryJobStatusErrorResultOutputReference extends cdktf.Com
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -149,14 +149,14 @@ export class GoogleBigqueryJobStatusErrorResultOutputReference extends cdktf.Com
   }
 }
 
-export class GoogleBigqueryJobStatusErrorResultList extends cdktf.ComplexList {
+export class GoogleBigqueryJobStatusErrorResultList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -171,8 +171,8 @@ export interface GoogleBigqueryJobStatusErrors {
 }
 
 export function googleBigqueryJobStatusErrorsToTerraform(struct?: GoogleBigqueryJobStatusErrors): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -181,8 +181,8 @@ export function googleBigqueryJobStatusErrorsToTerraform(struct?: GoogleBigquery
 
 
 export function googleBigqueryJobStatusErrorsToHclTerraform(struct?: GoogleBigqueryJobStatusErrors): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -190,7 +190,7 @@ export function googleBigqueryJobStatusErrorsToHclTerraform(struct?: GoogleBigqu
   return attrs;
 }
 
-export class GoogleBigqueryJobStatusErrorsOutputReference extends cdktf.ComplexObject {
+export class GoogleBigqueryJobStatusErrorsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -199,7 +199,7 @@ export class GoogleBigqueryJobStatusErrorsOutputReference extends cdktf.ComplexO
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -234,14 +234,14 @@ export class GoogleBigqueryJobStatusErrorsOutputReference extends cdktf.ComplexO
   }
 }
 
-export class GoogleBigqueryJobStatusErrorsList extends cdktf.ComplexList {
+export class GoogleBigqueryJobStatusErrorsList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -256,8 +256,8 @@ export interface GoogleBigqueryJobStatus {
 }
 
 export function googleBigqueryJobStatusToTerraform(struct?: GoogleBigqueryJobStatus): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -266,8 +266,8 @@ export function googleBigqueryJobStatusToTerraform(struct?: GoogleBigqueryJobSta
 
 
 export function googleBigqueryJobStatusToHclTerraform(struct?: GoogleBigqueryJobStatus): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -275,7 +275,7 @@ export function googleBigqueryJobStatusToHclTerraform(struct?: GoogleBigqueryJob
   return attrs;
 }
 
-export class GoogleBigqueryJobStatusOutputReference extends cdktf.ComplexObject {
+export class GoogleBigqueryJobStatusOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -284,7 +284,7 @@ export class GoogleBigqueryJobStatusOutputReference extends cdktf.ComplexObject 
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -321,14 +321,14 @@ export class GoogleBigqueryJobStatusOutputReference extends cdktf.ComplexObject 
   }
 }
 
-export class GoogleBigqueryJobStatusList extends cdktf.ComplexList {
+export class GoogleBigqueryJobStatusList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -350,24 +350,24 @@ export interface GoogleBigqueryJobCopyDestinationEncryptionConfiguration {
 }
 
 export function googleBigqueryJobCopyDestinationEncryptionConfigurationToTerraform(struct?: GoogleBigqueryJobCopyDestinationEncryptionConfigurationOutputReference | GoogleBigqueryJobCopyDestinationEncryptionConfiguration): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    kms_key_name: cdktf.stringToTerraform(struct!.kmsKeyName),
+    kms_key_name: cdktn.stringToTerraform(struct!.kmsKeyName),
   }
 }
 
 
 export function googleBigqueryJobCopyDestinationEncryptionConfigurationToHclTerraform(struct?: GoogleBigqueryJobCopyDestinationEncryptionConfigurationOutputReference | GoogleBigqueryJobCopyDestinationEncryptionConfiguration): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     kms_key_name: {
-      value: cdktf.stringToHclTerraform(struct!.kmsKeyName),
+      value: cdktn.stringToHclTerraform(struct!.kmsKeyName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -378,14 +378,14 @@ export function googleBigqueryJobCopyDestinationEncryptionConfigurationToHclTerr
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleBigqueryJobCopyDestinationEncryptionConfigurationOutputReference extends cdktf.ComplexObject {
+export class GoogleBigqueryJobCopyDestinationEncryptionConfigurationOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -451,38 +451,38 @@ export interface GoogleBigqueryJobCopyDestinationTable {
 }
 
 export function googleBigqueryJobCopyDestinationTableToTerraform(struct?: GoogleBigqueryJobCopyDestinationTableOutputReference | GoogleBigqueryJobCopyDestinationTable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    dataset_id: cdktf.stringToTerraform(struct!.datasetId),
-    project_id: cdktf.stringToTerraform(struct!.projectId),
-    table_id: cdktf.stringToTerraform(struct!.tableId),
+    dataset_id: cdktn.stringToTerraform(struct!.datasetId),
+    project_id: cdktn.stringToTerraform(struct!.projectId),
+    table_id: cdktn.stringToTerraform(struct!.tableId),
   }
 }
 
 
 export function googleBigqueryJobCopyDestinationTableToHclTerraform(struct?: GoogleBigqueryJobCopyDestinationTableOutputReference | GoogleBigqueryJobCopyDestinationTable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     dataset_id: {
-      value: cdktf.stringToHclTerraform(struct!.datasetId),
+      value: cdktn.stringToHclTerraform(struct!.datasetId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     project_id: {
-      value: cdktf.stringToHclTerraform(struct!.projectId),
+      value: cdktn.stringToHclTerraform(struct!.projectId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     table_id: {
-      value: cdktf.stringToHclTerraform(struct!.tableId),
+      value: cdktn.stringToHclTerraform(struct!.tableId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -493,14 +493,14 @@ export function googleBigqueryJobCopyDestinationTableToHclTerraform(struct?: Goo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleBigqueryJobCopyDestinationTableOutputReference extends cdktf.ComplexObject {
+export class GoogleBigqueryJobCopyDestinationTableOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -604,39 +604,39 @@ export interface GoogleBigqueryJobCopySourceTables {
   readonly tableId: string;
 }
 
-export function googleBigqueryJobCopySourceTablesToTerraform(struct?: GoogleBigqueryJobCopySourceTables | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleBigqueryJobCopySourceTablesToTerraform(struct?: GoogleBigqueryJobCopySourceTables | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    dataset_id: cdktf.stringToTerraform(struct!.datasetId),
-    project_id: cdktf.stringToTerraform(struct!.projectId),
-    table_id: cdktf.stringToTerraform(struct!.tableId),
+    dataset_id: cdktn.stringToTerraform(struct!.datasetId),
+    project_id: cdktn.stringToTerraform(struct!.projectId),
+    table_id: cdktn.stringToTerraform(struct!.tableId),
   }
 }
 
 
-export function googleBigqueryJobCopySourceTablesToHclTerraform(struct?: GoogleBigqueryJobCopySourceTables | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleBigqueryJobCopySourceTablesToHclTerraform(struct?: GoogleBigqueryJobCopySourceTables | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     dataset_id: {
-      value: cdktf.stringToHclTerraform(struct!.datasetId),
+      value: cdktn.stringToHclTerraform(struct!.datasetId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     project_id: {
-      value: cdktf.stringToHclTerraform(struct!.projectId),
+      value: cdktn.stringToHclTerraform(struct!.projectId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     table_id: {
-      value: cdktf.stringToHclTerraform(struct!.tableId),
+      value: cdktn.stringToHclTerraform(struct!.tableId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -647,9 +647,9 @@ export function googleBigqueryJobCopySourceTablesToHclTerraform(struct?: GoogleB
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleBigqueryJobCopySourceTablesOutputReference extends cdktf.ComplexObject {
+export class GoogleBigqueryJobCopySourceTablesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -657,11 +657,11 @@ export class GoogleBigqueryJobCopySourceTablesOutputReference extends cdktf.Comp
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleBigqueryJobCopySourceTables | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleBigqueryJobCopySourceTables | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -682,7 +682,7 @@ export class GoogleBigqueryJobCopySourceTablesOutputReference extends cdktf.Comp
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleBigqueryJobCopySourceTables | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleBigqueryJobCopySourceTables | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -690,7 +690,7 @@ export class GoogleBigqueryJobCopySourceTablesOutputReference extends cdktf.Comp
       this._projectId = undefined;
       this._tableId = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -749,15 +749,15 @@ export class GoogleBigqueryJobCopySourceTablesOutputReference extends cdktf.Comp
   }
 }
 
-export class GoogleBigqueryJobCopySourceTablesList extends cdktf.ComplexList {
-  public internalValue? : GoogleBigqueryJobCopySourceTables[] | cdktf.IResolvable
+export class GoogleBigqueryJobCopySourceTablesList extends cdktn.ComplexList {
+  public internalValue? : GoogleBigqueryJobCopySourceTables[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -806,38 +806,38 @@ export interface GoogleBigqueryJobCopy {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#source_tables GoogleBigqueryJob#source_tables}
   */
-  readonly sourceTables: GoogleBigqueryJobCopySourceTables[] | cdktf.IResolvable;
+  readonly sourceTables: GoogleBigqueryJobCopySourceTables[] | cdktn.IResolvable;
 }
 
 export function googleBigqueryJobCopyToTerraform(struct?: GoogleBigqueryJobCopyOutputReference | GoogleBigqueryJobCopy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create_disposition: cdktf.stringToTerraform(struct!.createDisposition),
-    write_disposition: cdktf.stringToTerraform(struct!.writeDisposition),
+    create_disposition: cdktn.stringToTerraform(struct!.createDisposition),
+    write_disposition: cdktn.stringToTerraform(struct!.writeDisposition),
     destination_encryption_configuration: googleBigqueryJobCopyDestinationEncryptionConfigurationToTerraform(struct!.destinationEncryptionConfiguration),
     destination_table: googleBigqueryJobCopyDestinationTableToTerraform(struct!.destinationTable),
-    source_tables: cdktf.listMapper(googleBigqueryJobCopySourceTablesToTerraform, true)(struct!.sourceTables),
+    source_tables: cdktn.listMapper(googleBigqueryJobCopySourceTablesToTerraform, true)(struct!.sourceTables),
   }
 }
 
 
 export function googleBigqueryJobCopyToHclTerraform(struct?: GoogleBigqueryJobCopyOutputReference | GoogleBigqueryJobCopy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create_disposition: {
-      value: cdktf.stringToHclTerraform(struct!.createDisposition),
+      value: cdktn.stringToHclTerraform(struct!.createDisposition),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     write_disposition: {
-      value: cdktf.stringToHclTerraform(struct!.writeDisposition),
+      value: cdktn.stringToHclTerraform(struct!.writeDisposition),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -855,7 +855,7 @@ export function googleBigqueryJobCopyToHclTerraform(struct?: GoogleBigqueryJobCo
       storageClassType: "GoogleBigqueryJobCopyDestinationTableList",
     },
     source_tables: {
-      value: cdktf.listMapperHcl(googleBigqueryJobCopySourceTablesToHclTerraform, true)(struct!.sourceTables),
+      value: cdktn.listMapperHcl(googleBigqueryJobCopySourceTablesToHclTerraform, true)(struct!.sourceTables),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleBigqueryJobCopySourceTablesList",
@@ -866,14 +866,14 @@ export function googleBigqueryJobCopyToHclTerraform(struct?: GoogleBigqueryJobCo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleBigqueryJobCopyOutputReference extends cdktf.ComplexObject {
+export class GoogleBigqueryJobCopyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -991,7 +991,7 @@ export class GoogleBigqueryJobCopyOutputReference extends cdktf.ComplexObject {
   public get sourceTables() {
     return this._sourceTables;
   }
-  public putSourceTables(value: GoogleBigqueryJobCopySourceTables[] | cdktf.IResolvable) {
+  public putSourceTables(value: GoogleBigqueryJobCopySourceTables[] | cdktn.IResolvable) {
     this._sourceTables.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -1021,38 +1021,38 @@ export interface GoogleBigqueryJobExtractSourceModel {
 }
 
 export function googleBigqueryJobExtractSourceModelToTerraform(struct?: GoogleBigqueryJobExtractSourceModelOutputReference | GoogleBigqueryJobExtractSourceModel): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    dataset_id: cdktf.stringToTerraform(struct!.datasetId),
-    model_id: cdktf.stringToTerraform(struct!.modelId),
-    project_id: cdktf.stringToTerraform(struct!.projectId),
+    dataset_id: cdktn.stringToTerraform(struct!.datasetId),
+    model_id: cdktn.stringToTerraform(struct!.modelId),
+    project_id: cdktn.stringToTerraform(struct!.projectId),
   }
 }
 
 
 export function googleBigqueryJobExtractSourceModelToHclTerraform(struct?: GoogleBigqueryJobExtractSourceModelOutputReference | GoogleBigqueryJobExtractSourceModel): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     dataset_id: {
-      value: cdktf.stringToHclTerraform(struct!.datasetId),
+      value: cdktn.stringToHclTerraform(struct!.datasetId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     model_id: {
-      value: cdktf.stringToHclTerraform(struct!.modelId),
+      value: cdktn.stringToHclTerraform(struct!.modelId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     project_id: {
-      value: cdktf.stringToHclTerraform(struct!.projectId),
+      value: cdktn.stringToHclTerraform(struct!.projectId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1063,14 +1063,14 @@ export function googleBigqueryJobExtractSourceModelToHclTerraform(struct?: Googl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleBigqueryJobExtractSourceModelOutputReference extends cdktf.ComplexObject {
+export class GoogleBigqueryJobExtractSourceModelOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1169,38 +1169,38 @@ export interface GoogleBigqueryJobExtractSourceTable {
 }
 
 export function googleBigqueryJobExtractSourceTableToTerraform(struct?: GoogleBigqueryJobExtractSourceTableOutputReference | GoogleBigqueryJobExtractSourceTable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    dataset_id: cdktf.stringToTerraform(struct!.datasetId),
-    project_id: cdktf.stringToTerraform(struct!.projectId),
-    table_id: cdktf.stringToTerraform(struct!.tableId),
+    dataset_id: cdktn.stringToTerraform(struct!.datasetId),
+    project_id: cdktn.stringToTerraform(struct!.projectId),
+    table_id: cdktn.stringToTerraform(struct!.tableId),
   }
 }
 
 
 export function googleBigqueryJobExtractSourceTableToHclTerraform(struct?: GoogleBigqueryJobExtractSourceTableOutputReference | GoogleBigqueryJobExtractSourceTable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     dataset_id: {
-      value: cdktf.stringToHclTerraform(struct!.datasetId),
+      value: cdktn.stringToHclTerraform(struct!.datasetId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     project_id: {
-      value: cdktf.stringToHclTerraform(struct!.projectId),
+      value: cdktn.stringToHclTerraform(struct!.projectId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     table_id: {
-      value: cdktf.stringToHclTerraform(struct!.tableId),
+      value: cdktn.stringToHclTerraform(struct!.tableId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1211,14 +1211,14 @@ export function googleBigqueryJobExtractSourceTableToHclTerraform(struct?: Googl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleBigqueryJobExtractSourceTableOutputReference extends cdktf.ComplexObject {
+export class GoogleBigqueryJobExtractSourceTableOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1334,13 +1334,13 @@ export interface GoogleBigqueryJobExtract {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#print_header GoogleBigqueryJob#print_header}
   */
-  readonly printHeader?: boolean | cdktf.IResolvable;
+  readonly printHeader?: boolean | cdktn.IResolvable;
   /**
   * Whether to use logical types when extracting to AVRO format.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#use_avro_logical_types GoogleBigqueryJob#use_avro_logical_types}
   */
-  readonly useAvroLogicalTypes?: boolean | cdktf.IResolvable;
+  readonly useAvroLogicalTypes?: boolean | cdktn.IResolvable;
   /**
   * source_model block
   *
@@ -1356,17 +1356,17 @@ export interface GoogleBigqueryJobExtract {
 }
 
 export function googleBigqueryJobExtractToTerraform(struct?: GoogleBigqueryJobExtractOutputReference | GoogleBigqueryJobExtract): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    compression: cdktf.stringToTerraform(struct!.compression),
-    destination_format: cdktf.stringToTerraform(struct!.destinationFormat),
-    destination_uris: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.destinationUris),
-    field_delimiter: cdktf.stringToTerraform(struct!.fieldDelimiter),
-    print_header: cdktf.booleanToTerraform(struct!.printHeader),
-    use_avro_logical_types: cdktf.booleanToTerraform(struct!.useAvroLogicalTypes),
+    compression: cdktn.stringToTerraform(struct!.compression),
+    destination_format: cdktn.stringToTerraform(struct!.destinationFormat),
+    destination_uris: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.destinationUris),
+    field_delimiter: cdktn.stringToTerraform(struct!.fieldDelimiter),
+    print_header: cdktn.booleanToTerraform(struct!.printHeader),
+    use_avro_logical_types: cdktn.booleanToTerraform(struct!.useAvroLogicalTypes),
     source_model: googleBigqueryJobExtractSourceModelToTerraform(struct!.sourceModel),
     source_table: googleBigqueryJobExtractSourceTableToTerraform(struct!.sourceTable),
   }
@@ -1374,43 +1374,43 @@ export function googleBigqueryJobExtractToTerraform(struct?: GoogleBigqueryJobEx
 
 
 export function googleBigqueryJobExtractToHclTerraform(struct?: GoogleBigqueryJobExtractOutputReference | GoogleBigqueryJobExtract): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     compression: {
-      value: cdktf.stringToHclTerraform(struct!.compression),
+      value: cdktn.stringToHclTerraform(struct!.compression),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     destination_format: {
-      value: cdktf.stringToHclTerraform(struct!.destinationFormat),
+      value: cdktn.stringToHclTerraform(struct!.destinationFormat),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     destination_uris: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.destinationUris),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.destinationUris),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     field_delimiter: {
-      value: cdktf.stringToHclTerraform(struct!.fieldDelimiter),
+      value: cdktn.stringToHclTerraform(struct!.fieldDelimiter),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     print_header: {
-      value: cdktf.booleanToHclTerraform(struct!.printHeader),
+      value: cdktn.booleanToHclTerraform(struct!.printHeader),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     use_avro_logical_types: {
-      value: cdktf.booleanToHclTerraform(struct!.useAvroLogicalTypes),
+      value: cdktn.booleanToHclTerraform(struct!.useAvroLogicalTypes),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -1433,14 +1433,14 @@ export function googleBigqueryJobExtractToHclTerraform(struct?: GoogleBigqueryJo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleBigqueryJobExtractOutputReference extends cdktf.ComplexObject {
+export class GoogleBigqueryJobExtractOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1569,11 +1569,11 @@ export class GoogleBigqueryJobExtractOutputReference extends cdktf.ComplexObject
   }
 
   // print_header - computed: false, optional: true, required: false
-  private _printHeader?: boolean | cdktf.IResolvable; 
+  private _printHeader?: boolean | cdktn.IResolvable; 
   public get printHeader() {
     return this.getBooleanAttribute('print_header');
   }
-  public set printHeader(value: boolean | cdktf.IResolvable) {
+  public set printHeader(value: boolean | cdktn.IResolvable) {
     this._printHeader = value;
   }
   public resetPrintHeader() {
@@ -1585,11 +1585,11 @@ export class GoogleBigqueryJobExtractOutputReference extends cdktf.ComplexObject
   }
 
   // use_avro_logical_types - computed: false, optional: true, required: false
-  private _useAvroLogicalTypes?: boolean | cdktf.IResolvable; 
+  private _useAvroLogicalTypes?: boolean | cdktn.IResolvable; 
   public get useAvroLogicalTypes() {
     return this.getBooleanAttribute('use_avro_logical_types');
   }
-  public set useAvroLogicalTypes(value: boolean | cdktf.IResolvable) {
+  public set useAvroLogicalTypes(value: boolean | cdktn.IResolvable) {
     this._useAvroLogicalTypes = value;
   }
   public resetUseAvroLogicalTypes() {
@@ -1643,24 +1643,24 @@ export interface GoogleBigqueryJobLoadDestinationEncryptionConfiguration {
 }
 
 export function googleBigqueryJobLoadDestinationEncryptionConfigurationToTerraform(struct?: GoogleBigqueryJobLoadDestinationEncryptionConfigurationOutputReference | GoogleBigqueryJobLoadDestinationEncryptionConfiguration): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    kms_key_name: cdktf.stringToTerraform(struct!.kmsKeyName),
+    kms_key_name: cdktn.stringToTerraform(struct!.kmsKeyName),
   }
 }
 
 
 export function googleBigqueryJobLoadDestinationEncryptionConfigurationToHclTerraform(struct?: GoogleBigqueryJobLoadDestinationEncryptionConfigurationOutputReference | GoogleBigqueryJobLoadDestinationEncryptionConfiguration): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     kms_key_name: {
-      value: cdktf.stringToHclTerraform(struct!.kmsKeyName),
+      value: cdktn.stringToHclTerraform(struct!.kmsKeyName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1671,14 +1671,14 @@ export function googleBigqueryJobLoadDestinationEncryptionConfigurationToHclTerr
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleBigqueryJobLoadDestinationEncryptionConfigurationOutputReference extends cdktf.ComplexObject {
+export class GoogleBigqueryJobLoadDestinationEncryptionConfigurationOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1744,38 +1744,38 @@ export interface GoogleBigqueryJobLoadDestinationTable {
 }
 
 export function googleBigqueryJobLoadDestinationTableToTerraform(struct?: GoogleBigqueryJobLoadDestinationTableOutputReference | GoogleBigqueryJobLoadDestinationTable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    dataset_id: cdktf.stringToTerraform(struct!.datasetId),
-    project_id: cdktf.stringToTerraform(struct!.projectId),
-    table_id: cdktf.stringToTerraform(struct!.tableId),
+    dataset_id: cdktn.stringToTerraform(struct!.datasetId),
+    project_id: cdktn.stringToTerraform(struct!.projectId),
+    table_id: cdktn.stringToTerraform(struct!.tableId),
   }
 }
 
 
 export function googleBigqueryJobLoadDestinationTableToHclTerraform(struct?: GoogleBigqueryJobLoadDestinationTableOutputReference | GoogleBigqueryJobLoadDestinationTable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     dataset_id: {
-      value: cdktf.stringToHclTerraform(struct!.datasetId),
+      value: cdktn.stringToHclTerraform(struct!.datasetId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     project_id: {
-      value: cdktf.stringToHclTerraform(struct!.projectId),
+      value: cdktn.stringToHclTerraform(struct!.projectId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     table_id: {
-      value: cdktf.stringToHclTerraform(struct!.tableId),
+      value: cdktn.stringToHclTerraform(struct!.tableId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1786,14 +1786,14 @@ export function googleBigqueryJobLoadDestinationTableToHclTerraform(struct?: Goo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleBigqueryJobLoadDestinationTableOutputReference extends cdktf.ComplexObject {
+export class GoogleBigqueryJobLoadDestinationTableOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1881,41 +1881,41 @@ export interface GoogleBigqueryJobLoadParquetOptions {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#enable_list_inference GoogleBigqueryJob#enable_list_inference}
   */
-  readonly enableListInference?: boolean | cdktf.IResolvable;
+  readonly enableListInference?: boolean | cdktn.IResolvable;
   /**
   * If sourceFormat is set to PARQUET, indicates whether to infer Parquet ENUM logical type as STRING instead of BYTES by default.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#enum_as_string GoogleBigqueryJob#enum_as_string}
   */
-  readonly enumAsString?: boolean | cdktf.IResolvable;
+  readonly enumAsString?: boolean | cdktn.IResolvable;
 }
 
 export function googleBigqueryJobLoadParquetOptionsToTerraform(struct?: GoogleBigqueryJobLoadParquetOptionsOutputReference | GoogleBigqueryJobLoadParquetOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    enable_list_inference: cdktf.booleanToTerraform(struct!.enableListInference),
-    enum_as_string: cdktf.booleanToTerraform(struct!.enumAsString),
+    enable_list_inference: cdktn.booleanToTerraform(struct!.enableListInference),
+    enum_as_string: cdktn.booleanToTerraform(struct!.enumAsString),
   }
 }
 
 
 export function googleBigqueryJobLoadParquetOptionsToHclTerraform(struct?: GoogleBigqueryJobLoadParquetOptionsOutputReference | GoogleBigqueryJobLoadParquetOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     enable_list_inference: {
-      value: cdktf.booleanToHclTerraform(struct!.enableListInference),
+      value: cdktn.booleanToHclTerraform(struct!.enableListInference),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     enum_as_string: {
-      value: cdktf.booleanToHclTerraform(struct!.enumAsString),
+      value: cdktn.booleanToHclTerraform(struct!.enumAsString),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -1926,14 +1926,14 @@ export function googleBigqueryJobLoadParquetOptionsToHclTerraform(struct?: Googl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleBigqueryJobLoadParquetOptionsOutputReference extends cdktf.ComplexObject {
+export class GoogleBigqueryJobLoadParquetOptionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1965,11 +1965,11 @@ export class GoogleBigqueryJobLoadParquetOptionsOutputReference extends cdktf.Co
   }
 
   // enable_list_inference - computed: false, optional: true, required: false
-  private _enableListInference?: boolean | cdktf.IResolvable; 
+  private _enableListInference?: boolean | cdktn.IResolvable; 
   public get enableListInference() {
     return this.getBooleanAttribute('enable_list_inference');
   }
-  public set enableListInference(value: boolean | cdktf.IResolvable) {
+  public set enableListInference(value: boolean | cdktn.IResolvable) {
     this._enableListInference = value;
   }
   public resetEnableListInference() {
@@ -1981,11 +1981,11 @@ export class GoogleBigqueryJobLoadParquetOptionsOutputReference extends cdktf.Co
   }
 
   // enum_as_string - computed: false, optional: true, required: false
-  private _enumAsString?: boolean | cdktf.IResolvable; 
+  private _enumAsString?: boolean | cdktn.IResolvable; 
   public get enumAsString() {
     return this.getBooleanAttribute('enum_as_string');
   }
-  public set enumAsString(value: boolean | cdktf.IResolvable) {
+  public set enumAsString(value: boolean | cdktn.IResolvable) {
     this._enumAsString = value;
   }
   public resetEnumAsString() {
@@ -2021,38 +2021,38 @@ export interface GoogleBigqueryJobLoadTimePartitioning {
 }
 
 export function googleBigqueryJobLoadTimePartitioningToTerraform(struct?: GoogleBigqueryJobLoadTimePartitioningOutputReference | GoogleBigqueryJobLoadTimePartitioning): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    expiration_ms: cdktf.stringToTerraform(struct!.expirationMs),
-    field: cdktf.stringToTerraform(struct!.field),
-    type: cdktf.stringToTerraform(struct!.type),
+    expiration_ms: cdktn.stringToTerraform(struct!.expirationMs),
+    field: cdktn.stringToTerraform(struct!.field),
+    type: cdktn.stringToTerraform(struct!.type),
   }
 }
 
 
 export function googleBigqueryJobLoadTimePartitioningToHclTerraform(struct?: GoogleBigqueryJobLoadTimePartitioningOutputReference | GoogleBigqueryJobLoadTimePartitioning): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     expiration_ms: {
-      value: cdktf.stringToHclTerraform(struct!.expirationMs),
+      value: cdktn.stringToHclTerraform(struct!.expirationMs),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     field: {
-      value: cdktf.stringToHclTerraform(struct!.field),
+      value: cdktn.stringToHclTerraform(struct!.field),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     type: {
-      value: cdktf.stringToHclTerraform(struct!.type),
+      value: cdktn.stringToHclTerraform(struct!.type),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2063,14 +2063,14 @@ export function googleBigqueryJobLoadTimePartitioningToHclTerraform(struct?: Goo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleBigqueryJobLoadTimePartitioningOutputReference extends cdktf.ComplexObject {
+export class GoogleBigqueryJobLoadTimePartitioningOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2160,20 +2160,20 @@ export interface GoogleBigqueryJobLoad {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#allow_jagged_rows GoogleBigqueryJob#allow_jagged_rows}
   */
-  readonly allowJaggedRows?: boolean | cdktf.IResolvable;
+  readonly allowJaggedRows?: boolean | cdktn.IResolvable;
   /**
   * Indicates if BigQuery should allow quoted data sections that contain newline characters in a CSV file.
   * The default value is false.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#allow_quoted_newlines GoogleBigqueryJob#allow_quoted_newlines}
   */
-  readonly allowQuotedNewlines?: boolean | cdktf.IResolvable;
+  readonly allowQuotedNewlines?: boolean | cdktn.IResolvable;
   /**
   * Indicates if we should automatically infer the options and schema for CSV and JSON sources.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#autodetect GoogleBigqueryJob#autodetect}
   */
-  readonly autodetect?: boolean | cdktf.IResolvable;
+  readonly autodetect?: boolean | cdktn.IResolvable;
   /**
   * Specifies whether the job is allowed to create new tables. The following values are supported:
   * CREATE_IF_NEEDED: If the table does not exist, BigQuery creates the table.
@@ -2211,7 +2211,7 @@ export interface GoogleBigqueryJobLoad {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#ignore_unknown_values GoogleBigqueryJob#ignore_unknown_values}
   */
-  readonly ignoreUnknownValues?: boolean | cdktf.IResolvable;
+  readonly ignoreUnknownValues?: boolean | cdktn.IResolvable;
   /**
   * If sourceFormat is set to newline-delimited JSON, indicates whether it should be processed as a JSON variant such as GeoJSON.
   * For a sourceFormat other than JSON, omit this field. If the sourceFormat is newline-delimited JSON: - for newline-delimited
@@ -2335,28 +2335,28 @@ export interface GoogleBigqueryJobLoad {
 }
 
 export function googleBigqueryJobLoadToTerraform(struct?: GoogleBigqueryJobLoadOutputReference | GoogleBigqueryJobLoad): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    allow_jagged_rows: cdktf.booleanToTerraform(struct!.allowJaggedRows),
-    allow_quoted_newlines: cdktf.booleanToTerraform(struct!.allowQuotedNewlines),
-    autodetect: cdktf.booleanToTerraform(struct!.autodetect),
-    create_disposition: cdktf.stringToTerraform(struct!.createDisposition),
-    encoding: cdktf.stringToTerraform(struct!.encoding),
-    field_delimiter: cdktf.stringToTerraform(struct!.fieldDelimiter),
-    ignore_unknown_values: cdktf.booleanToTerraform(struct!.ignoreUnknownValues),
-    json_extension: cdktf.stringToTerraform(struct!.jsonExtension),
-    max_bad_records: cdktf.numberToTerraform(struct!.maxBadRecords),
-    null_marker: cdktf.stringToTerraform(struct!.nullMarker),
-    projection_fields: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.projectionFields),
-    quote: cdktf.stringToTerraform(struct!.quote),
-    schema_update_options: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.schemaUpdateOptions),
-    skip_leading_rows: cdktf.numberToTerraform(struct!.skipLeadingRows),
-    source_format: cdktf.stringToTerraform(struct!.sourceFormat),
-    source_uris: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.sourceUris),
-    write_disposition: cdktf.stringToTerraform(struct!.writeDisposition),
+    allow_jagged_rows: cdktn.booleanToTerraform(struct!.allowJaggedRows),
+    allow_quoted_newlines: cdktn.booleanToTerraform(struct!.allowQuotedNewlines),
+    autodetect: cdktn.booleanToTerraform(struct!.autodetect),
+    create_disposition: cdktn.stringToTerraform(struct!.createDisposition),
+    encoding: cdktn.stringToTerraform(struct!.encoding),
+    field_delimiter: cdktn.stringToTerraform(struct!.fieldDelimiter),
+    ignore_unknown_values: cdktn.booleanToTerraform(struct!.ignoreUnknownValues),
+    json_extension: cdktn.stringToTerraform(struct!.jsonExtension),
+    max_bad_records: cdktn.numberToTerraform(struct!.maxBadRecords),
+    null_marker: cdktn.stringToTerraform(struct!.nullMarker),
+    projection_fields: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.projectionFields),
+    quote: cdktn.stringToTerraform(struct!.quote),
+    schema_update_options: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.schemaUpdateOptions),
+    skip_leading_rows: cdktn.numberToTerraform(struct!.skipLeadingRows),
+    source_format: cdktn.stringToTerraform(struct!.sourceFormat),
+    source_uris: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.sourceUris),
+    write_disposition: cdktn.stringToTerraform(struct!.writeDisposition),
     destination_encryption_configuration: googleBigqueryJobLoadDestinationEncryptionConfigurationToTerraform(struct!.destinationEncryptionConfiguration),
     destination_table: googleBigqueryJobLoadDestinationTableToTerraform(struct!.destinationTable),
     parquet_options: googleBigqueryJobLoadParquetOptionsToTerraform(struct!.parquetOptions),
@@ -2366,109 +2366,109 @@ export function googleBigqueryJobLoadToTerraform(struct?: GoogleBigqueryJobLoadO
 
 
 export function googleBigqueryJobLoadToHclTerraform(struct?: GoogleBigqueryJobLoadOutputReference | GoogleBigqueryJobLoad): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     allow_jagged_rows: {
-      value: cdktf.booleanToHclTerraform(struct!.allowJaggedRows),
+      value: cdktn.booleanToHclTerraform(struct!.allowJaggedRows),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     allow_quoted_newlines: {
-      value: cdktf.booleanToHclTerraform(struct!.allowQuotedNewlines),
+      value: cdktn.booleanToHclTerraform(struct!.allowQuotedNewlines),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     autodetect: {
-      value: cdktf.booleanToHclTerraform(struct!.autodetect),
+      value: cdktn.booleanToHclTerraform(struct!.autodetect),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     create_disposition: {
-      value: cdktf.stringToHclTerraform(struct!.createDisposition),
+      value: cdktn.stringToHclTerraform(struct!.createDisposition),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     encoding: {
-      value: cdktf.stringToHclTerraform(struct!.encoding),
+      value: cdktn.stringToHclTerraform(struct!.encoding),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     field_delimiter: {
-      value: cdktf.stringToHclTerraform(struct!.fieldDelimiter),
+      value: cdktn.stringToHclTerraform(struct!.fieldDelimiter),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     ignore_unknown_values: {
-      value: cdktf.booleanToHclTerraform(struct!.ignoreUnknownValues),
+      value: cdktn.booleanToHclTerraform(struct!.ignoreUnknownValues),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     json_extension: {
-      value: cdktf.stringToHclTerraform(struct!.jsonExtension),
+      value: cdktn.stringToHclTerraform(struct!.jsonExtension),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     max_bad_records: {
-      value: cdktf.numberToHclTerraform(struct!.maxBadRecords),
+      value: cdktn.numberToHclTerraform(struct!.maxBadRecords),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     null_marker: {
-      value: cdktf.stringToHclTerraform(struct!.nullMarker),
+      value: cdktn.stringToHclTerraform(struct!.nullMarker),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     projection_fields: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.projectionFields),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.projectionFields),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     quote: {
-      value: cdktf.stringToHclTerraform(struct!.quote),
+      value: cdktn.stringToHclTerraform(struct!.quote),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     schema_update_options: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.schemaUpdateOptions),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.schemaUpdateOptions),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     skip_leading_rows: {
-      value: cdktf.numberToHclTerraform(struct!.skipLeadingRows),
+      value: cdktn.numberToHclTerraform(struct!.skipLeadingRows),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     source_format: {
-      value: cdktf.stringToHclTerraform(struct!.sourceFormat),
+      value: cdktn.stringToHclTerraform(struct!.sourceFormat),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     source_uris: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.sourceUris),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.sourceUris),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     write_disposition: {
-      value: cdktf.stringToHclTerraform(struct!.writeDisposition),
+      value: cdktn.stringToHclTerraform(struct!.writeDisposition),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2503,14 +2503,14 @@ export function googleBigqueryJobLoadToHclTerraform(struct?: GoogleBigqueryJobLo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleBigqueryJobLoadOutputReference extends cdktf.ComplexObject {
+export class GoogleBigqueryJobLoadOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2656,11 +2656,11 @@ export class GoogleBigqueryJobLoadOutputReference extends cdktf.ComplexObject {
   }
 
   // allow_jagged_rows - computed: false, optional: true, required: false
-  private _allowJaggedRows?: boolean | cdktf.IResolvable; 
+  private _allowJaggedRows?: boolean | cdktn.IResolvable; 
   public get allowJaggedRows() {
     return this.getBooleanAttribute('allow_jagged_rows');
   }
-  public set allowJaggedRows(value: boolean | cdktf.IResolvable) {
+  public set allowJaggedRows(value: boolean | cdktn.IResolvable) {
     this._allowJaggedRows = value;
   }
   public resetAllowJaggedRows() {
@@ -2672,11 +2672,11 @@ export class GoogleBigqueryJobLoadOutputReference extends cdktf.ComplexObject {
   }
 
   // allow_quoted_newlines - computed: false, optional: true, required: false
-  private _allowQuotedNewlines?: boolean | cdktf.IResolvable; 
+  private _allowQuotedNewlines?: boolean | cdktn.IResolvable; 
   public get allowQuotedNewlines() {
     return this.getBooleanAttribute('allow_quoted_newlines');
   }
-  public set allowQuotedNewlines(value: boolean | cdktf.IResolvable) {
+  public set allowQuotedNewlines(value: boolean | cdktn.IResolvable) {
     this._allowQuotedNewlines = value;
   }
   public resetAllowQuotedNewlines() {
@@ -2688,11 +2688,11 @@ export class GoogleBigqueryJobLoadOutputReference extends cdktf.ComplexObject {
   }
 
   // autodetect - computed: false, optional: true, required: false
-  private _autodetect?: boolean | cdktf.IResolvable; 
+  private _autodetect?: boolean | cdktn.IResolvable; 
   public get autodetect() {
     return this.getBooleanAttribute('autodetect');
   }
-  public set autodetect(value: boolean | cdktf.IResolvable) {
+  public set autodetect(value: boolean | cdktn.IResolvable) {
     this._autodetect = value;
   }
   public resetAutodetect() {
@@ -2752,11 +2752,11 @@ export class GoogleBigqueryJobLoadOutputReference extends cdktf.ComplexObject {
   }
 
   // ignore_unknown_values - computed: false, optional: true, required: false
-  private _ignoreUnknownValues?: boolean | cdktf.IResolvable; 
+  private _ignoreUnknownValues?: boolean | cdktn.IResolvable; 
   public get ignoreUnknownValues() {
     return this.getBooleanAttribute('ignore_unknown_values');
   }
-  public set ignoreUnknownValues(value: boolean | cdktf.IResolvable) {
+  public set ignoreUnknownValues(value: boolean | cdktn.IResolvable) {
     this._ignoreUnknownValues = value;
   }
   public resetIgnoreUnknownValues() {
@@ -3002,31 +3002,31 @@ export interface GoogleBigqueryJobQueryDefaultDataset {
 }
 
 export function googleBigqueryJobQueryDefaultDatasetToTerraform(struct?: GoogleBigqueryJobQueryDefaultDatasetOutputReference | GoogleBigqueryJobQueryDefaultDataset): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    dataset_id: cdktf.stringToTerraform(struct!.datasetId),
-    project_id: cdktf.stringToTerraform(struct!.projectId),
+    dataset_id: cdktn.stringToTerraform(struct!.datasetId),
+    project_id: cdktn.stringToTerraform(struct!.projectId),
   }
 }
 
 
 export function googleBigqueryJobQueryDefaultDatasetToHclTerraform(struct?: GoogleBigqueryJobQueryDefaultDatasetOutputReference | GoogleBigqueryJobQueryDefaultDataset): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     dataset_id: {
-      value: cdktf.stringToHclTerraform(struct!.datasetId),
+      value: cdktn.stringToHclTerraform(struct!.datasetId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     project_id: {
-      value: cdktf.stringToHclTerraform(struct!.projectId),
+      value: cdktn.stringToHclTerraform(struct!.projectId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3037,14 +3037,14 @@ export function googleBigqueryJobQueryDefaultDatasetToHclTerraform(struct?: Goog
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleBigqueryJobQueryDefaultDatasetOutputReference extends cdktf.ComplexObject {
+export class GoogleBigqueryJobQueryDefaultDatasetOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3115,24 +3115,24 @@ export interface GoogleBigqueryJobQueryDestinationEncryptionConfiguration {
 }
 
 export function googleBigqueryJobQueryDestinationEncryptionConfigurationToTerraform(struct?: GoogleBigqueryJobQueryDestinationEncryptionConfigurationOutputReference | GoogleBigqueryJobQueryDestinationEncryptionConfiguration): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    kms_key_name: cdktf.stringToTerraform(struct!.kmsKeyName),
+    kms_key_name: cdktn.stringToTerraform(struct!.kmsKeyName),
   }
 }
 
 
 export function googleBigqueryJobQueryDestinationEncryptionConfigurationToHclTerraform(struct?: GoogleBigqueryJobQueryDestinationEncryptionConfigurationOutputReference | GoogleBigqueryJobQueryDestinationEncryptionConfiguration): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     kms_key_name: {
-      value: cdktf.stringToHclTerraform(struct!.kmsKeyName),
+      value: cdktn.stringToHclTerraform(struct!.kmsKeyName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3143,14 +3143,14 @@ export function googleBigqueryJobQueryDestinationEncryptionConfigurationToHclTer
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleBigqueryJobQueryDestinationEncryptionConfigurationOutputReference extends cdktf.ComplexObject {
+export class GoogleBigqueryJobQueryDestinationEncryptionConfigurationOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3216,38 +3216,38 @@ export interface GoogleBigqueryJobQueryDestinationTable {
 }
 
 export function googleBigqueryJobQueryDestinationTableToTerraform(struct?: GoogleBigqueryJobQueryDestinationTableOutputReference | GoogleBigqueryJobQueryDestinationTable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    dataset_id: cdktf.stringToTerraform(struct!.datasetId),
-    project_id: cdktf.stringToTerraform(struct!.projectId),
-    table_id: cdktf.stringToTerraform(struct!.tableId),
+    dataset_id: cdktn.stringToTerraform(struct!.datasetId),
+    project_id: cdktn.stringToTerraform(struct!.projectId),
+    table_id: cdktn.stringToTerraform(struct!.tableId),
   }
 }
 
 
 export function googleBigqueryJobQueryDestinationTableToHclTerraform(struct?: GoogleBigqueryJobQueryDestinationTableOutputReference | GoogleBigqueryJobQueryDestinationTable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     dataset_id: {
-      value: cdktf.stringToHclTerraform(struct!.datasetId),
+      value: cdktn.stringToHclTerraform(struct!.datasetId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     project_id: {
-      value: cdktf.stringToHclTerraform(struct!.projectId),
+      value: cdktn.stringToHclTerraform(struct!.projectId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     table_id: {
-      value: cdktf.stringToHclTerraform(struct!.tableId),
+      value: cdktn.stringToHclTerraform(struct!.tableId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3258,14 +3258,14 @@ export function googleBigqueryJobQueryDestinationTableToHclTerraform(struct?: Go
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleBigqueryJobQueryDestinationTableOutputReference extends cdktf.ComplexObject {
+export class GoogleBigqueryJobQueryDestinationTableOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3370,38 +3370,38 @@ export interface GoogleBigqueryJobQueryScriptOptions {
 }
 
 export function googleBigqueryJobQueryScriptOptionsToTerraform(struct?: GoogleBigqueryJobQueryScriptOptionsOutputReference | GoogleBigqueryJobQueryScriptOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    key_result_statement: cdktf.stringToTerraform(struct!.keyResultStatement),
-    statement_byte_budget: cdktf.stringToTerraform(struct!.statementByteBudget),
-    statement_timeout_ms: cdktf.stringToTerraform(struct!.statementTimeoutMs),
+    key_result_statement: cdktn.stringToTerraform(struct!.keyResultStatement),
+    statement_byte_budget: cdktn.stringToTerraform(struct!.statementByteBudget),
+    statement_timeout_ms: cdktn.stringToTerraform(struct!.statementTimeoutMs),
   }
 }
 
 
 export function googleBigqueryJobQueryScriptOptionsToHclTerraform(struct?: GoogleBigqueryJobQueryScriptOptionsOutputReference | GoogleBigqueryJobQueryScriptOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     key_result_statement: {
-      value: cdktf.stringToHclTerraform(struct!.keyResultStatement),
+      value: cdktn.stringToHclTerraform(struct!.keyResultStatement),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     statement_byte_budget: {
-      value: cdktf.stringToHclTerraform(struct!.statementByteBudget),
+      value: cdktn.stringToHclTerraform(struct!.statementByteBudget),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     statement_timeout_ms: {
-      value: cdktf.stringToHclTerraform(struct!.statementTimeoutMs),
+      value: cdktn.stringToHclTerraform(struct!.statementTimeoutMs),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3412,14 +3412,14 @@ export function googleBigqueryJobQueryScriptOptionsToHclTerraform(struct?: Googl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleBigqueryJobQueryScriptOptionsOutputReference extends cdktf.ComplexObject {
+export class GoogleBigqueryJobQueryScriptOptionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3520,32 +3520,32 @@ export interface GoogleBigqueryJobQueryUserDefinedFunctionResources {
   readonly resourceUri?: string;
 }
 
-export function googleBigqueryJobQueryUserDefinedFunctionResourcesToTerraform(struct?: GoogleBigqueryJobQueryUserDefinedFunctionResources | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleBigqueryJobQueryUserDefinedFunctionResourcesToTerraform(struct?: GoogleBigqueryJobQueryUserDefinedFunctionResources | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    inline_code: cdktf.stringToTerraform(struct!.inlineCode),
-    resource_uri: cdktf.stringToTerraform(struct!.resourceUri),
+    inline_code: cdktn.stringToTerraform(struct!.inlineCode),
+    resource_uri: cdktn.stringToTerraform(struct!.resourceUri),
   }
 }
 
 
-export function googleBigqueryJobQueryUserDefinedFunctionResourcesToHclTerraform(struct?: GoogleBigqueryJobQueryUserDefinedFunctionResources | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleBigqueryJobQueryUserDefinedFunctionResourcesToHclTerraform(struct?: GoogleBigqueryJobQueryUserDefinedFunctionResources | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     inline_code: {
-      value: cdktf.stringToHclTerraform(struct!.inlineCode),
+      value: cdktn.stringToHclTerraform(struct!.inlineCode),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     resource_uri: {
-      value: cdktf.stringToHclTerraform(struct!.resourceUri),
+      value: cdktn.stringToHclTerraform(struct!.resourceUri),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3556,9 +3556,9 @@ export function googleBigqueryJobQueryUserDefinedFunctionResourcesToHclTerraform
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleBigqueryJobQueryUserDefinedFunctionResourcesOutputReference extends cdktf.ComplexObject {
+export class GoogleBigqueryJobQueryUserDefinedFunctionResourcesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -3566,11 +3566,11 @@ export class GoogleBigqueryJobQueryUserDefinedFunctionResourcesOutputReference e
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleBigqueryJobQueryUserDefinedFunctionResources | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleBigqueryJobQueryUserDefinedFunctionResources | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -3587,14 +3587,14 @@ export class GoogleBigqueryJobQueryUserDefinedFunctionResourcesOutputReference e
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleBigqueryJobQueryUserDefinedFunctionResources | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleBigqueryJobQueryUserDefinedFunctionResources | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._inlineCode = undefined;
       this._resourceUri = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -3639,15 +3639,15 @@ export class GoogleBigqueryJobQueryUserDefinedFunctionResourcesOutputReference e
   }
 }
 
-export class GoogleBigqueryJobQueryUserDefinedFunctionResourcesList extends cdktf.ComplexList {
-  public internalValue? : GoogleBigqueryJobQueryUserDefinedFunctionResources[] | cdktf.IResolvable
+export class GoogleBigqueryJobQueryUserDefinedFunctionResourcesList extends cdktn.ComplexList {
+  public internalValue? : GoogleBigqueryJobQueryUserDefinedFunctionResources[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -3666,13 +3666,13 @@ export interface GoogleBigqueryJobQuery {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#allow_large_results GoogleBigqueryJob#allow_large_results}
   */
-  readonly allowLargeResults?: boolean | cdktf.IResolvable;
+  readonly allowLargeResults?: boolean | cdktn.IResolvable;
   /**
   * Whether to run the query as continuous or a regular query.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#continuous GoogleBigqueryJob#continuous}
   */
-  readonly continuous?: boolean | cdktf.IResolvable;
+  readonly continuous?: boolean | cdktn.IResolvable;
   /**
   * Specifies whether the job is allowed to create new tables. The following values are supported:
   * CREATE_IF_NEEDED: If the table does not exist, BigQuery creates the table.
@@ -3688,7 +3688,7 @@ export interface GoogleBigqueryJobQuery {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#flatten_results GoogleBigqueryJob#flatten_results}
   */
-  readonly flattenResults?: boolean | cdktf.IResolvable;
+  readonly flattenResults?: boolean | cdktn.IResolvable;
   /**
   * Limits the billing tier for this job. Queries that have resource usage beyond this tier will fail (without incurring a charge).
   * If unspecified, this will be set to your project default.
@@ -3741,7 +3741,7 @@ export interface GoogleBigqueryJobQuery {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#use_legacy_sql GoogleBigqueryJob#use_legacy_sql}
   */
-  readonly useLegacySql?: boolean | cdktf.IResolvable;
+  readonly useLegacySql?: boolean | cdktn.IResolvable;
   /**
   * Whether to look for the result in the query cache. The query cache is a best-effort cache that will be flushed whenever
   * tables in the query are modified. Moreover, the query cache is only available when a query does not have a destination table specified.
@@ -3749,7 +3749,7 @@ export interface GoogleBigqueryJobQuery {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#use_query_cache GoogleBigqueryJob#use_query_cache}
   */
-  readonly useQueryCache?: boolean | cdktf.IResolvable;
+  readonly useQueryCache?: boolean | cdktn.IResolvable;
   /**
   * Specifies the action that occurs if the destination table already exists. The following values are supported:
   * WRITE_TRUNCATE: If the table already exists, BigQuery overwrites the table data and uses the schema from the query result.
@@ -3790,117 +3790,117 @@ export interface GoogleBigqueryJobQuery {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#user_defined_function_resources GoogleBigqueryJob#user_defined_function_resources}
   */
-  readonly userDefinedFunctionResources?: GoogleBigqueryJobQueryUserDefinedFunctionResources[] | cdktf.IResolvable;
+  readonly userDefinedFunctionResources?: GoogleBigqueryJobQueryUserDefinedFunctionResources[] | cdktn.IResolvable;
 }
 
 export function googleBigqueryJobQueryToTerraform(struct?: GoogleBigqueryJobQueryOutputReference | GoogleBigqueryJobQuery): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    allow_large_results: cdktf.booleanToTerraform(struct!.allowLargeResults),
-    continuous: cdktf.booleanToTerraform(struct!.continuous),
-    create_disposition: cdktf.stringToTerraform(struct!.createDisposition),
-    flatten_results: cdktf.booleanToTerraform(struct!.flattenResults),
-    maximum_billing_tier: cdktf.numberToTerraform(struct!.maximumBillingTier),
-    maximum_bytes_billed: cdktf.stringToTerraform(struct!.maximumBytesBilled),
-    parameter_mode: cdktf.stringToTerraform(struct!.parameterMode),
-    priority: cdktf.stringToTerraform(struct!.priority),
-    query: cdktf.stringToTerraform(struct!.query),
-    schema_update_options: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.schemaUpdateOptions),
-    use_legacy_sql: cdktf.booleanToTerraform(struct!.useLegacySql),
-    use_query_cache: cdktf.booleanToTerraform(struct!.useQueryCache),
-    write_disposition: cdktf.stringToTerraform(struct!.writeDisposition),
+    allow_large_results: cdktn.booleanToTerraform(struct!.allowLargeResults),
+    continuous: cdktn.booleanToTerraform(struct!.continuous),
+    create_disposition: cdktn.stringToTerraform(struct!.createDisposition),
+    flatten_results: cdktn.booleanToTerraform(struct!.flattenResults),
+    maximum_billing_tier: cdktn.numberToTerraform(struct!.maximumBillingTier),
+    maximum_bytes_billed: cdktn.stringToTerraform(struct!.maximumBytesBilled),
+    parameter_mode: cdktn.stringToTerraform(struct!.parameterMode),
+    priority: cdktn.stringToTerraform(struct!.priority),
+    query: cdktn.stringToTerraform(struct!.query),
+    schema_update_options: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.schemaUpdateOptions),
+    use_legacy_sql: cdktn.booleanToTerraform(struct!.useLegacySql),
+    use_query_cache: cdktn.booleanToTerraform(struct!.useQueryCache),
+    write_disposition: cdktn.stringToTerraform(struct!.writeDisposition),
     default_dataset: googleBigqueryJobQueryDefaultDatasetToTerraform(struct!.defaultDataset),
     destination_encryption_configuration: googleBigqueryJobQueryDestinationEncryptionConfigurationToTerraform(struct!.destinationEncryptionConfiguration),
     destination_table: googleBigqueryJobQueryDestinationTableToTerraform(struct!.destinationTable),
     script_options: googleBigqueryJobQueryScriptOptionsToTerraform(struct!.scriptOptions),
-    user_defined_function_resources: cdktf.listMapper(googleBigqueryJobQueryUserDefinedFunctionResourcesToTerraform, true)(struct!.userDefinedFunctionResources),
+    user_defined_function_resources: cdktn.listMapper(googleBigqueryJobQueryUserDefinedFunctionResourcesToTerraform, true)(struct!.userDefinedFunctionResources),
   }
 }
 
 
 export function googleBigqueryJobQueryToHclTerraform(struct?: GoogleBigqueryJobQueryOutputReference | GoogleBigqueryJobQuery): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     allow_large_results: {
-      value: cdktf.booleanToHclTerraform(struct!.allowLargeResults),
+      value: cdktn.booleanToHclTerraform(struct!.allowLargeResults),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     continuous: {
-      value: cdktf.booleanToHclTerraform(struct!.continuous),
+      value: cdktn.booleanToHclTerraform(struct!.continuous),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     create_disposition: {
-      value: cdktf.stringToHclTerraform(struct!.createDisposition),
+      value: cdktn.stringToHclTerraform(struct!.createDisposition),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     flatten_results: {
-      value: cdktf.booleanToHclTerraform(struct!.flattenResults),
+      value: cdktn.booleanToHclTerraform(struct!.flattenResults),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     maximum_billing_tier: {
-      value: cdktf.numberToHclTerraform(struct!.maximumBillingTier),
+      value: cdktn.numberToHclTerraform(struct!.maximumBillingTier),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     maximum_bytes_billed: {
-      value: cdktf.stringToHclTerraform(struct!.maximumBytesBilled),
+      value: cdktn.stringToHclTerraform(struct!.maximumBytesBilled),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     parameter_mode: {
-      value: cdktf.stringToHclTerraform(struct!.parameterMode),
+      value: cdktn.stringToHclTerraform(struct!.parameterMode),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     priority: {
-      value: cdktf.stringToHclTerraform(struct!.priority),
+      value: cdktn.stringToHclTerraform(struct!.priority),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     query: {
-      value: cdktf.stringToHclTerraform(struct!.query),
+      value: cdktn.stringToHclTerraform(struct!.query),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     schema_update_options: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.schemaUpdateOptions),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.schemaUpdateOptions),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     use_legacy_sql: {
-      value: cdktf.booleanToHclTerraform(struct!.useLegacySql),
+      value: cdktn.booleanToHclTerraform(struct!.useLegacySql),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     use_query_cache: {
-      value: cdktf.booleanToHclTerraform(struct!.useQueryCache),
+      value: cdktn.booleanToHclTerraform(struct!.useQueryCache),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     write_disposition: {
-      value: cdktf.stringToHclTerraform(struct!.writeDisposition),
+      value: cdktn.stringToHclTerraform(struct!.writeDisposition),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3930,7 +3930,7 @@ export function googleBigqueryJobQueryToHclTerraform(struct?: GoogleBigqueryJobQ
       storageClassType: "GoogleBigqueryJobQueryScriptOptionsList",
     },
     user_defined_function_resources: {
-      value: cdktf.listMapperHcl(googleBigqueryJobQueryUserDefinedFunctionResourcesToHclTerraform, true)(struct!.userDefinedFunctionResources),
+      value: cdktn.listMapperHcl(googleBigqueryJobQueryUserDefinedFunctionResourcesToHclTerraform, true)(struct!.userDefinedFunctionResources),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleBigqueryJobQueryUserDefinedFunctionResourcesList",
@@ -3941,14 +3941,14 @@ export function googleBigqueryJobQueryToHclTerraform(struct?: GoogleBigqueryJobQ
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleBigqueryJobQueryOutputReference extends cdktf.ComplexObject {
+export class GoogleBigqueryJobQueryOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -4076,11 +4076,11 @@ export class GoogleBigqueryJobQueryOutputReference extends cdktf.ComplexObject {
   }
 
   // allow_large_results - computed: false, optional: true, required: false
-  private _allowLargeResults?: boolean | cdktf.IResolvable; 
+  private _allowLargeResults?: boolean | cdktn.IResolvable; 
   public get allowLargeResults() {
     return this.getBooleanAttribute('allow_large_results');
   }
-  public set allowLargeResults(value: boolean | cdktf.IResolvable) {
+  public set allowLargeResults(value: boolean | cdktn.IResolvable) {
     this._allowLargeResults = value;
   }
   public resetAllowLargeResults() {
@@ -4092,11 +4092,11 @@ export class GoogleBigqueryJobQueryOutputReference extends cdktf.ComplexObject {
   }
 
   // continuous - computed: false, optional: true, required: false
-  private _continuous?: boolean | cdktf.IResolvable; 
+  private _continuous?: boolean | cdktn.IResolvable; 
   public get continuous() {
     return this.getBooleanAttribute('continuous');
   }
-  public set continuous(value: boolean | cdktf.IResolvable) {
+  public set continuous(value: boolean | cdktn.IResolvable) {
     this._continuous = value;
   }
   public resetContinuous() {
@@ -4124,11 +4124,11 @@ export class GoogleBigqueryJobQueryOutputReference extends cdktf.ComplexObject {
   }
 
   // flatten_results - computed: false, optional: true, required: false
-  private _flattenResults?: boolean | cdktf.IResolvable; 
+  private _flattenResults?: boolean | cdktn.IResolvable; 
   public get flattenResults() {
     return this.getBooleanAttribute('flatten_results');
   }
-  public set flattenResults(value: boolean | cdktf.IResolvable) {
+  public set flattenResults(value: boolean | cdktn.IResolvable) {
     this._flattenResults = value;
   }
   public resetFlattenResults() {
@@ -4233,11 +4233,11 @@ export class GoogleBigqueryJobQueryOutputReference extends cdktf.ComplexObject {
   }
 
   // use_legacy_sql - computed: false, optional: true, required: false
-  private _useLegacySql?: boolean | cdktf.IResolvable; 
+  private _useLegacySql?: boolean | cdktn.IResolvable; 
   public get useLegacySql() {
     return this.getBooleanAttribute('use_legacy_sql');
   }
-  public set useLegacySql(value: boolean | cdktf.IResolvable) {
+  public set useLegacySql(value: boolean | cdktn.IResolvable) {
     this._useLegacySql = value;
   }
   public resetUseLegacySql() {
@@ -4249,11 +4249,11 @@ export class GoogleBigqueryJobQueryOutputReference extends cdktf.ComplexObject {
   }
 
   // use_query_cache - computed: false, optional: true, required: false
-  private _useQueryCache?: boolean | cdktf.IResolvable; 
+  private _useQueryCache?: boolean | cdktn.IResolvable; 
   public get useQueryCache() {
     return this.getBooleanAttribute('use_query_cache');
   }
-  public set useQueryCache(value: boolean | cdktf.IResolvable) {
+  public set useQueryCache(value: boolean | cdktn.IResolvable) {
     this._useQueryCache = value;
   }
   public resetUseQueryCache() {
@@ -4349,7 +4349,7 @@ export class GoogleBigqueryJobQueryOutputReference extends cdktf.ComplexObject {
   public get userDefinedFunctionResources() {
     return this._userDefinedFunctionResources;
   }
-  public putUserDefinedFunctionResources(value: GoogleBigqueryJobQueryUserDefinedFunctionResources[] | cdktf.IResolvable) {
+  public putUserDefinedFunctionResources(value: GoogleBigqueryJobQueryUserDefinedFunctionResources[] | cdktn.IResolvable) {
     this._userDefinedFunctionResources.internalValue = value;
   }
   public resetUserDefinedFunctionResources() {
@@ -4375,39 +4375,39 @@ export interface GoogleBigqueryJobTimeouts {
   readonly update?: string;
 }
 
-export function googleBigqueryJobTimeoutsToTerraform(struct?: GoogleBigqueryJobTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleBigqueryJobTimeoutsToTerraform(struct?: GoogleBigqueryJobTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleBigqueryJobTimeoutsToHclTerraform(struct?: GoogleBigqueryJobTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleBigqueryJobTimeoutsToHclTerraform(struct?: GoogleBigqueryJobTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -4418,19 +4418,19 @@ export function googleBigqueryJobTimeoutsToHclTerraform(struct?: GoogleBigqueryJ
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleBigqueryJobTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleBigqueryJobTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleBigqueryJobTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleBigqueryJobTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -4451,7 +4451,7 @@ export class GoogleBigqueryJobTimeoutsOutputReference extends cdktf.ComplexObjec
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleBigqueryJobTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleBigqueryJobTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -4459,7 +4459,7 @@ export class GoogleBigqueryJobTimeoutsOutputReference extends cdktf.ComplexObjec
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -4524,7 +4524,7 @@ export class GoogleBigqueryJobTimeoutsOutputReference extends cdktf.ComplexObjec
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job google_bigquery_job}
 */
-export class GoogleBigqueryJob extends cdktf.TerraformResource {
+export class GoogleBigqueryJob extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -4535,14 +4535,14 @@ export class GoogleBigqueryJob extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleBigqueryJob resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleBigqueryJob resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleBigqueryJob to import
   * @param importFromId The id of the existing GoogleBigqueryJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleBigqueryJob to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_bigquery_job", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_bigquery_job", importId: importFromId, provider });
       }
 
   // ===========
@@ -4590,7 +4590,7 @@ export class GoogleBigqueryJob extends cdktf.TerraformResource {
   // ==========
 
   // effective_labels - computed: true, optional: false, required: false
-  private _effectiveLabels = new cdktf.StringMap(this, "effective_labels");
+  private _effectiveLabels = new cdktn.StringMap(this, "effective_labels");
   public get effectiveLabels() {
     return this._effectiveLabels;
   }
@@ -4700,7 +4700,7 @@ export class GoogleBigqueryJob extends cdktf.TerraformResource {
   }
 
   // terraform_labels - computed: true, optional: false, required: false
-  private _terraformLabels = new cdktf.StringMap(this, "terraform_labels");
+  private _terraformLabels = new cdktn.StringMap(this, "terraform_labels");
   public get terraformLabels() {
     return this._terraformLabels;
   }
@@ -4796,12 +4796,12 @@ export class GoogleBigqueryJob extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      id: cdktf.stringToTerraform(this._id),
-      job_id: cdktf.stringToTerraform(this._jobId),
-      job_timeout_ms: cdktf.stringToTerraform(this._jobTimeoutMs),
-      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
-      location: cdktf.stringToTerraform(this._location),
-      project: cdktf.stringToTerraform(this._project),
+      id: cdktn.stringToTerraform(this._id),
+      job_id: cdktn.stringToTerraform(this._jobId),
+      job_timeout_ms: cdktn.stringToTerraform(this._jobTimeoutMs),
+      labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
+      location: cdktn.stringToTerraform(this._location),
+      project: cdktn.stringToTerraform(this._project),
       copy: googleBigqueryJobCopyToTerraform(this._copy.internalValue),
       extract: googleBigqueryJobExtractToTerraform(this._extract.internalValue),
       load: googleBigqueryJobLoadToTerraform(this._load.internalValue),
@@ -4813,37 +4813,37 @@ export class GoogleBigqueryJob extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       job_id: {
-        value: cdktf.stringToHclTerraform(this._jobId),
+        value: cdktn.stringToHclTerraform(this._jobId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       job_timeout_ms: {
-        value: cdktf.stringToHclTerraform(this._jobTimeoutMs),
+        value: cdktn.stringToHclTerraform(this._jobTimeoutMs),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._labels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleAppEngineServiceSplitTrafficConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleAppEngineServiceSplitTrafficConfig extends cdktn.TerraformMetaArguments {
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_app_engine_service_split_traffic#id GoogleAppEngineServiceSplitTraffic#id}
   *
@@ -24,7 +24,7 @@ export interface GoogleAppEngineServiceSplitTrafficConfig extends cdktf.Terrafor
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_app_engine_service_split_traffic#migrate_traffic GoogleAppEngineServiceSplitTraffic#migrate_traffic}
   */
-  readonly migrateTraffic?: boolean | cdktf.IResolvable;
+  readonly migrateTraffic?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_app_engine_service_split_traffic#project GoogleAppEngineServiceSplitTraffic#project}
   */
@@ -64,31 +64,31 @@ export interface GoogleAppEngineServiceSplitTrafficSplit {
 }
 
 export function googleAppEngineServiceSplitTrafficSplitToTerraform(struct?: GoogleAppEngineServiceSplitTrafficSplitOutputReference | GoogleAppEngineServiceSplitTrafficSplit): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    allocations: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.allocations),
-    shard_by: cdktf.stringToTerraform(struct!.shardBy),
+    allocations: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.allocations),
+    shard_by: cdktn.stringToTerraform(struct!.shardBy),
   }
 }
 
 
 export function googleAppEngineServiceSplitTrafficSplitToHclTerraform(struct?: GoogleAppEngineServiceSplitTrafficSplitOutputReference | GoogleAppEngineServiceSplitTrafficSplit): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     allocations: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.allocations),
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.allocations),
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
     },
     shard_by: {
-      value: cdktf.stringToHclTerraform(struct!.shardBy),
+      value: cdktn.stringToHclTerraform(struct!.shardBy),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -99,14 +99,14 @@ export function googleAppEngineServiceSplitTrafficSplitToHclTerraform(struct?: G
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleAppEngineServiceSplitTrafficSplitOutputReference extends cdktf.ComplexObject {
+export class GoogleAppEngineServiceSplitTrafficSplitOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -181,39 +181,39 @@ export interface GoogleAppEngineServiceSplitTrafficTimeouts {
   readonly update?: string;
 }
 
-export function googleAppEngineServiceSplitTrafficTimeoutsToTerraform(struct?: GoogleAppEngineServiceSplitTrafficTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleAppEngineServiceSplitTrafficTimeoutsToTerraform(struct?: GoogleAppEngineServiceSplitTrafficTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleAppEngineServiceSplitTrafficTimeoutsToHclTerraform(struct?: GoogleAppEngineServiceSplitTrafficTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleAppEngineServiceSplitTrafficTimeoutsToHclTerraform(struct?: GoogleAppEngineServiceSplitTrafficTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -224,19 +224,19 @@ export function googleAppEngineServiceSplitTrafficTimeoutsToHclTerraform(struct?
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleAppEngineServiceSplitTrafficTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleAppEngineServiceSplitTrafficTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleAppEngineServiceSplitTrafficTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleAppEngineServiceSplitTrafficTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -257,7 +257,7 @@ export class GoogleAppEngineServiceSplitTrafficTimeoutsOutputReference extends c
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleAppEngineServiceSplitTrafficTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleAppEngineServiceSplitTrafficTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -265,7 +265,7 @@ export class GoogleAppEngineServiceSplitTrafficTimeoutsOutputReference extends c
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -330,7 +330,7 @@ export class GoogleAppEngineServiceSplitTrafficTimeoutsOutputReference extends c
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_app_engine_service_split_traffic google_app_engine_service_split_traffic}
 */
-export class GoogleAppEngineServiceSplitTraffic extends cdktf.TerraformResource {
+export class GoogleAppEngineServiceSplitTraffic extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -341,14 +341,14 @@ export class GoogleAppEngineServiceSplitTraffic extends cdktf.TerraformResource 
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleAppEngineServiceSplitTraffic resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleAppEngineServiceSplitTraffic resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleAppEngineServiceSplitTraffic to import
   * @param importFromId The id of the existing GoogleAppEngineServiceSplitTraffic that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_app_engine_service_split_traffic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleAppEngineServiceSplitTraffic to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_app_engine_service_split_traffic", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_app_engine_service_split_traffic", importId: importFromId, provider });
       }
 
   // ===========
@@ -407,11 +407,11 @@ export class GoogleAppEngineServiceSplitTraffic extends cdktf.TerraformResource 
   }
 
   // migrate_traffic - computed: false, optional: true, required: false
-  private _migrateTraffic?: boolean | cdktf.IResolvable; 
+  private _migrateTraffic?: boolean | cdktn.IResolvable; 
   public get migrateTraffic() {
     return this.getBooleanAttribute('migrate_traffic');
   }
-  public set migrateTraffic(value: boolean | cdktf.IResolvable) {
+  public set migrateTraffic(value: boolean | cdktn.IResolvable) {
     this._migrateTraffic = value;
   }
   public resetMigrateTraffic() {
@@ -486,10 +486,10 @@ export class GoogleAppEngineServiceSplitTraffic extends cdktf.TerraformResource 
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      id: cdktf.stringToTerraform(this._id),
-      migrate_traffic: cdktf.booleanToTerraform(this._migrateTraffic),
-      project: cdktf.stringToTerraform(this._project),
-      service: cdktf.stringToTerraform(this._service),
+      id: cdktn.stringToTerraform(this._id),
+      migrate_traffic: cdktn.booleanToTerraform(this._migrateTraffic),
+      project: cdktn.stringToTerraform(this._project),
+      service: cdktn.stringToTerraform(this._service),
       split: googleAppEngineServiceSplitTrafficSplitToTerraform(this._split.internalValue),
       timeouts: googleAppEngineServiceSplitTrafficTimeoutsToTerraform(this._timeouts.internalValue),
     };
@@ -498,25 +498,25 @@ export class GoogleAppEngineServiceSplitTraffic extends cdktf.TerraformResource 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       migrate_traffic: {
-        value: cdktf.booleanToHclTerraform(this._migrateTraffic),
+        value: cdktn.booleanToHclTerraform(this._migrateTraffic),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       service: {
-        value: cdktf.stringToHclTerraform(this._service),
+        value: cdktn.stringToHclTerraform(this._service),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

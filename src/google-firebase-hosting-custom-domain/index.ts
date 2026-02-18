@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleFirebaseHostingCustomDomainConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleFirebaseHostingCustomDomainConfig extends cdktn.TerraformMetaArguments {
   /**
   * A field that lets you specify which SSL certificate type Hosting creates
   * for your domain name. Spark plan 'CustomDomain's only have access to the
@@ -59,7 +59,7 @@ export interface GoogleFirebaseHostingCustomDomainConfig extends cdktf.Terraform
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_hosting_custom_domain#wait_dns_verification GoogleFirebaseHostingCustomDomain#wait_dns_verification}
   */
-  readonly waitDnsVerification?: boolean | cdktf.IResolvable;
+  readonly waitDnsVerification?: boolean | cdktn.IResolvable;
   /**
   * timeouts block
   *
@@ -71,8 +71,8 @@ export interface GoogleFirebaseHostingCustomDomainCertVerificationDnsDesiredReco
 }
 
 export function googleFirebaseHostingCustomDomainCertVerificationDnsDesiredRecordsToTerraform(struct?: GoogleFirebaseHostingCustomDomainCertVerificationDnsDesiredRecords): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -81,8 +81,8 @@ export function googleFirebaseHostingCustomDomainCertVerificationDnsDesiredRecor
 
 
 export function googleFirebaseHostingCustomDomainCertVerificationDnsDesiredRecordsToHclTerraform(struct?: GoogleFirebaseHostingCustomDomainCertVerificationDnsDesiredRecords): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -90,7 +90,7 @@ export function googleFirebaseHostingCustomDomainCertVerificationDnsDesiredRecor
   return attrs;
 }
 
-export class GoogleFirebaseHostingCustomDomainCertVerificationDnsDesiredRecordsOutputReference extends cdktf.ComplexObject {
+export class GoogleFirebaseHostingCustomDomainCertVerificationDnsDesiredRecordsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -99,7 +99,7 @@ export class GoogleFirebaseHostingCustomDomainCertVerificationDnsDesiredRecordsO
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -139,14 +139,14 @@ export class GoogleFirebaseHostingCustomDomainCertVerificationDnsDesiredRecordsO
   }
 }
 
-export class GoogleFirebaseHostingCustomDomainCertVerificationDnsDesiredRecordsList extends cdktf.ComplexList {
+export class GoogleFirebaseHostingCustomDomainCertVerificationDnsDesiredRecordsList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -161,8 +161,8 @@ export interface GoogleFirebaseHostingCustomDomainCertVerificationDnsDesired {
 }
 
 export function googleFirebaseHostingCustomDomainCertVerificationDnsDesiredToTerraform(struct?: GoogleFirebaseHostingCustomDomainCertVerificationDnsDesired): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -171,8 +171,8 @@ export function googleFirebaseHostingCustomDomainCertVerificationDnsDesiredToTer
 
 
 export function googleFirebaseHostingCustomDomainCertVerificationDnsDesiredToHclTerraform(struct?: GoogleFirebaseHostingCustomDomainCertVerificationDnsDesired): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -180,7 +180,7 @@ export function googleFirebaseHostingCustomDomainCertVerificationDnsDesiredToHcl
   return attrs;
 }
 
-export class GoogleFirebaseHostingCustomDomainCertVerificationDnsDesiredOutputReference extends cdktf.ComplexObject {
+export class GoogleFirebaseHostingCustomDomainCertVerificationDnsDesiredOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -189,7 +189,7 @@ export class GoogleFirebaseHostingCustomDomainCertVerificationDnsDesiredOutputRe
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -220,14 +220,14 @@ export class GoogleFirebaseHostingCustomDomainCertVerificationDnsDesiredOutputRe
   }
 }
 
-export class GoogleFirebaseHostingCustomDomainCertVerificationDnsDesiredList extends cdktf.ComplexList {
+export class GoogleFirebaseHostingCustomDomainCertVerificationDnsDesiredList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -242,8 +242,8 @@ export interface GoogleFirebaseHostingCustomDomainCertVerificationDnsDiscoveredR
 }
 
 export function googleFirebaseHostingCustomDomainCertVerificationDnsDiscoveredRecordsToTerraform(struct?: GoogleFirebaseHostingCustomDomainCertVerificationDnsDiscoveredRecords): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -252,8 +252,8 @@ export function googleFirebaseHostingCustomDomainCertVerificationDnsDiscoveredRe
 
 
 export function googleFirebaseHostingCustomDomainCertVerificationDnsDiscoveredRecordsToHclTerraform(struct?: GoogleFirebaseHostingCustomDomainCertVerificationDnsDiscoveredRecords): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -261,7 +261,7 @@ export function googleFirebaseHostingCustomDomainCertVerificationDnsDiscoveredRe
   return attrs;
 }
 
-export class GoogleFirebaseHostingCustomDomainCertVerificationDnsDiscoveredRecordsOutputReference extends cdktf.ComplexObject {
+export class GoogleFirebaseHostingCustomDomainCertVerificationDnsDiscoveredRecordsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -270,7 +270,7 @@ export class GoogleFirebaseHostingCustomDomainCertVerificationDnsDiscoveredRecor
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -310,14 +310,14 @@ export class GoogleFirebaseHostingCustomDomainCertVerificationDnsDiscoveredRecor
   }
 }
 
-export class GoogleFirebaseHostingCustomDomainCertVerificationDnsDiscoveredRecordsList extends cdktf.ComplexList {
+export class GoogleFirebaseHostingCustomDomainCertVerificationDnsDiscoveredRecordsList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -332,8 +332,8 @@ export interface GoogleFirebaseHostingCustomDomainCertVerificationDnsDiscovered 
 }
 
 export function googleFirebaseHostingCustomDomainCertVerificationDnsDiscoveredToTerraform(struct?: GoogleFirebaseHostingCustomDomainCertVerificationDnsDiscovered): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -342,8 +342,8 @@ export function googleFirebaseHostingCustomDomainCertVerificationDnsDiscoveredTo
 
 
 export function googleFirebaseHostingCustomDomainCertVerificationDnsDiscoveredToHclTerraform(struct?: GoogleFirebaseHostingCustomDomainCertVerificationDnsDiscovered): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -351,7 +351,7 @@ export function googleFirebaseHostingCustomDomainCertVerificationDnsDiscoveredTo
   return attrs;
 }
 
-export class GoogleFirebaseHostingCustomDomainCertVerificationDnsDiscoveredOutputReference extends cdktf.ComplexObject {
+export class GoogleFirebaseHostingCustomDomainCertVerificationDnsDiscoveredOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -360,7 +360,7 @@ export class GoogleFirebaseHostingCustomDomainCertVerificationDnsDiscoveredOutpu
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -391,14 +391,14 @@ export class GoogleFirebaseHostingCustomDomainCertVerificationDnsDiscoveredOutpu
   }
 }
 
-export class GoogleFirebaseHostingCustomDomainCertVerificationDnsDiscoveredList extends cdktf.ComplexList {
+export class GoogleFirebaseHostingCustomDomainCertVerificationDnsDiscoveredList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -413,8 +413,8 @@ export interface GoogleFirebaseHostingCustomDomainCertVerificationDns {
 }
 
 export function googleFirebaseHostingCustomDomainCertVerificationDnsToTerraform(struct?: GoogleFirebaseHostingCustomDomainCertVerificationDns): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -423,8 +423,8 @@ export function googleFirebaseHostingCustomDomainCertVerificationDnsToTerraform(
 
 
 export function googleFirebaseHostingCustomDomainCertVerificationDnsToHclTerraform(struct?: GoogleFirebaseHostingCustomDomainCertVerificationDns): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -432,7 +432,7 @@ export function googleFirebaseHostingCustomDomainCertVerificationDnsToHclTerrafo
   return attrs;
 }
 
-export class GoogleFirebaseHostingCustomDomainCertVerificationDnsOutputReference extends cdktf.ComplexObject {
+export class GoogleFirebaseHostingCustomDomainCertVerificationDnsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -441,7 +441,7 @@ export class GoogleFirebaseHostingCustomDomainCertVerificationDnsOutputReference
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -478,14 +478,14 @@ export class GoogleFirebaseHostingCustomDomainCertVerificationDnsOutputReference
   }
 }
 
-export class GoogleFirebaseHostingCustomDomainCertVerificationDnsList extends cdktf.ComplexList {
+export class GoogleFirebaseHostingCustomDomainCertVerificationDnsList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -500,8 +500,8 @@ export interface GoogleFirebaseHostingCustomDomainCertVerificationHttp {
 }
 
 export function googleFirebaseHostingCustomDomainCertVerificationHttpToTerraform(struct?: GoogleFirebaseHostingCustomDomainCertVerificationHttp): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -510,8 +510,8 @@ export function googleFirebaseHostingCustomDomainCertVerificationHttpToTerraform
 
 
 export function googleFirebaseHostingCustomDomainCertVerificationHttpToHclTerraform(struct?: GoogleFirebaseHostingCustomDomainCertVerificationHttp): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -519,7 +519,7 @@ export function googleFirebaseHostingCustomDomainCertVerificationHttpToHclTerraf
   return attrs;
 }
 
-export class GoogleFirebaseHostingCustomDomainCertVerificationHttpOutputReference extends cdktf.ComplexObject {
+export class GoogleFirebaseHostingCustomDomainCertVerificationHttpOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -528,7 +528,7 @@ export class GoogleFirebaseHostingCustomDomainCertVerificationHttpOutputReferenc
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -568,14 +568,14 @@ export class GoogleFirebaseHostingCustomDomainCertVerificationHttpOutputReferenc
   }
 }
 
-export class GoogleFirebaseHostingCustomDomainCertVerificationHttpList extends cdktf.ComplexList {
+export class GoogleFirebaseHostingCustomDomainCertVerificationHttpList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -590,8 +590,8 @@ export interface GoogleFirebaseHostingCustomDomainCertVerification {
 }
 
 export function googleFirebaseHostingCustomDomainCertVerificationToTerraform(struct?: GoogleFirebaseHostingCustomDomainCertVerification): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -600,8 +600,8 @@ export function googleFirebaseHostingCustomDomainCertVerificationToTerraform(str
 
 
 export function googleFirebaseHostingCustomDomainCertVerificationToHclTerraform(struct?: GoogleFirebaseHostingCustomDomainCertVerification): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -609,7 +609,7 @@ export function googleFirebaseHostingCustomDomainCertVerificationToHclTerraform(
   return attrs;
 }
 
-export class GoogleFirebaseHostingCustomDomainCertVerificationOutputReference extends cdktf.ComplexObject {
+export class GoogleFirebaseHostingCustomDomainCertVerificationOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -618,7 +618,7 @@ export class GoogleFirebaseHostingCustomDomainCertVerificationOutputReference ex
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -650,14 +650,14 @@ export class GoogleFirebaseHostingCustomDomainCertVerificationOutputReference ex
   }
 }
 
-export class GoogleFirebaseHostingCustomDomainCertVerificationList extends cdktf.ComplexList {
+export class GoogleFirebaseHostingCustomDomainCertVerificationList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -672,8 +672,8 @@ export interface GoogleFirebaseHostingCustomDomainCert {
 }
 
 export function googleFirebaseHostingCustomDomainCertToTerraform(struct?: GoogleFirebaseHostingCustomDomainCert): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -682,8 +682,8 @@ export function googleFirebaseHostingCustomDomainCertToTerraform(struct?: Google
 
 
 export function googleFirebaseHostingCustomDomainCertToHclTerraform(struct?: GoogleFirebaseHostingCustomDomainCert): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -691,7 +691,7 @@ export function googleFirebaseHostingCustomDomainCertToHclTerraform(struct?: Goo
   return attrs;
 }
 
-export class GoogleFirebaseHostingCustomDomainCertOutputReference extends cdktf.ComplexObject {
+export class GoogleFirebaseHostingCustomDomainCertOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -700,7 +700,7 @@ export class GoogleFirebaseHostingCustomDomainCertOutputReference extends cdktf.
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -736,14 +736,14 @@ export class GoogleFirebaseHostingCustomDomainCertOutputReference extends cdktf.
   }
 }
 
-export class GoogleFirebaseHostingCustomDomainCertList extends cdktf.ComplexList {
+export class GoogleFirebaseHostingCustomDomainCertList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -758,8 +758,8 @@ export interface GoogleFirebaseHostingCustomDomainIssues {
 }
 
 export function googleFirebaseHostingCustomDomainIssuesToTerraform(struct?: GoogleFirebaseHostingCustomDomainIssues): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -768,8 +768,8 @@ export function googleFirebaseHostingCustomDomainIssuesToTerraform(struct?: Goog
 
 
 export function googleFirebaseHostingCustomDomainIssuesToHclTerraform(struct?: GoogleFirebaseHostingCustomDomainIssues): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -777,7 +777,7 @@ export function googleFirebaseHostingCustomDomainIssuesToHclTerraform(struct?: G
   return attrs;
 }
 
-export class GoogleFirebaseHostingCustomDomainIssuesOutputReference extends cdktf.ComplexObject {
+export class GoogleFirebaseHostingCustomDomainIssuesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -786,7 +786,7 @@ export class GoogleFirebaseHostingCustomDomainIssuesOutputReference extends cdkt
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -821,14 +821,14 @@ export class GoogleFirebaseHostingCustomDomainIssuesOutputReference extends cdkt
   }
 }
 
-export class GoogleFirebaseHostingCustomDomainIssuesList extends cdktf.ComplexList {
+export class GoogleFirebaseHostingCustomDomainIssuesList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -843,8 +843,8 @@ export interface GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDesiredRecor
 }
 
 export function googleFirebaseHostingCustomDomainRequiredDnsUpdatesDesiredRecordsToTerraform(struct?: GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDesiredRecords): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -853,8 +853,8 @@ export function googleFirebaseHostingCustomDomainRequiredDnsUpdatesDesiredRecord
 
 
 export function googleFirebaseHostingCustomDomainRequiredDnsUpdatesDesiredRecordsToHclTerraform(struct?: GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDesiredRecords): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -862,7 +862,7 @@ export function googleFirebaseHostingCustomDomainRequiredDnsUpdatesDesiredRecord
   return attrs;
 }
 
-export class GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDesiredRecordsOutputReference extends cdktf.ComplexObject {
+export class GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDesiredRecordsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -871,7 +871,7 @@ export class GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDesiredRecordsOu
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -911,14 +911,14 @@ export class GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDesiredRecordsOu
   }
 }
 
-export class GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDesiredRecordsList extends cdktf.ComplexList {
+export class GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDesiredRecordsList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -933,8 +933,8 @@ export interface GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDesired {
 }
 
 export function googleFirebaseHostingCustomDomainRequiredDnsUpdatesDesiredToTerraform(struct?: GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDesired): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -943,8 +943,8 @@ export function googleFirebaseHostingCustomDomainRequiredDnsUpdatesDesiredToTerr
 
 
 export function googleFirebaseHostingCustomDomainRequiredDnsUpdatesDesiredToHclTerraform(struct?: GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDesired): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -952,7 +952,7 @@ export function googleFirebaseHostingCustomDomainRequiredDnsUpdatesDesiredToHclT
   return attrs;
 }
 
-export class GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDesiredOutputReference extends cdktf.ComplexObject {
+export class GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDesiredOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -961,7 +961,7 @@ export class GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDesiredOutputRef
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -992,14 +992,14 @@ export class GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDesiredOutputRef
   }
 }
 
-export class GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDesiredList extends cdktf.ComplexList {
+export class GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDesiredList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1014,8 +1014,8 @@ export interface GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDiscoveredRe
 }
 
 export function googleFirebaseHostingCustomDomainRequiredDnsUpdatesDiscoveredRecordsToTerraform(struct?: GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDiscoveredRecords): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -1024,8 +1024,8 @@ export function googleFirebaseHostingCustomDomainRequiredDnsUpdatesDiscoveredRec
 
 
 export function googleFirebaseHostingCustomDomainRequiredDnsUpdatesDiscoveredRecordsToHclTerraform(struct?: GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDiscoveredRecords): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -1033,7 +1033,7 @@ export function googleFirebaseHostingCustomDomainRequiredDnsUpdatesDiscoveredRec
   return attrs;
 }
 
-export class GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDiscoveredRecordsOutputReference extends cdktf.ComplexObject {
+export class GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDiscoveredRecordsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -1042,7 +1042,7 @@ export class GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDiscoveredRecord
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -1082,14 +1082,14 @@ export class GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDiscoveredRecord
   }
 }
 
-export class GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDiscoveredRecordsList extends cdktf.ComplexList {
+export class GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDiscoveredRecordsList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1104,8 +1104,8 @@ export interface GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDiscovered {
 }
 
 export function googleFirebaseHostingCustomDomainRequiredDnsUpdatesDiscoveredToTerraform(struct?: GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDiscovered): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -1114,8 +1114,8 @@ export function googleFirebaseHostingCustomDomainRequiredDnsUpdatesDiscoveredToT
 
 
 export function googleFirebaseHostingCustomDomainRequiredDnsUpdatesDiscoveredToHclTerraform(struct?: GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDiscovered): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -1123,7 +1123,7 @@ export function googleFirebaseHostingCustomDomainRequiredDnsUpdatesDiscoveredToH
   return attrs;
 }
 
-export class GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDiscoveredOutputReference extends cdktf.ComplexObject {
+export class GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDiscoveredOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -1132,7 +1132,7 @@ export class GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDiscoveredOutput
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -1163,14 +1163,14 @@ export class GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDiscoveredOutput
   }
 }
 
-export class GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDiscoveredList extends cdktf.ComplexList {
+export class GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDiscoveredList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1185,8 +1185,8 @@ export interface GoogleFirebaseHostingCustomDomainRequiredDnsUpdates {
 }
 
 export function googleFirebaseHostingCustomDomainRequiredDnsUpdatesToTerraform(struct?: GoogleFirebaseHostingCustomDomainRequiredDnsUpdates): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -1195,8 +1195,8 @@ export function googleFirebaseHostingCustomDomainRequiredDnsUpdatesToTerraform(s
 
 
 export function googleFirebaseHostingCustomDomainRequiredDnsUpdatesToHclTerraform(struct?: GoogleFirebaseHostingCustomDomainRequiredDnsUpdates): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -1204,7 +1204,7 @@ export function googleFirebaseHostingCustomDomainRequiredDnsUpdatesToHclTerrafor
   return attrs;
 }
 
-export class GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesOutputReference extends cdktf.ComplexObject {
+export class GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -1213,7 +1213,7 @@ export class GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesOutputReference 
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -1250,14 +1250,14 @@ export class GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesOutputReference 
   }
 }
 
-export class GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesList extends cdktf.ComplexList {
+export class GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1283,39 +1283,39 @@ export interface GoogleFirebaseHostingCustomDomainTimeouts {
   readonly update?: string;
 }
 
-export function googleFirebaseHostingCustomDomainTimeoutsToTerraform(struct?: GoogleFirebaseHostingCustomDomainTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleFirebaseHostingCustomDomainTimeoutsToTerraform(struct?: GoogleFirebaseHostingCustomDomainTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleFirebaseHostingCustomDomainTimeoutsToHclTerraform(struct?: GoogleFirebaseHostingCustomDomainTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleFirebaseHostingCustomDomainTimeoutsToHclTerraform(struct?: GoogleFirebaseHostingCustomDomainTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1326,19 +1326,19 @@ export function googleFirebaseHostingCustomDomainTimeoutsToHclTerraform(struct?:
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleFirebaseHostingCustomDomainTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleFirebaseHostingCustomDomainTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleFirebaseHostingCustomDomainTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleFirebaseHostingCustomDomainTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1359,7 +1359,7 @@ export class GoogleFirebaseHostingCustomDomainTimeoutsOutputReference extends cd
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleFirebaseHostingCustomDomainTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleFirebaseHostingCustomDomainTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -1367,7 +1367,7 @@ export class GoogleFirebaseHostingCustomDomainTimeoutsOutputReference extends cd
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1432,7 +1432,7 @@ export class GoogleFirebaseHostingCustomDomainTimeoutsOutputReference extends cd
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_hosting_custom_domain google_firebase_hosting_custom_domain}
 */
-export class GoogleFirebaseHostingCustomDomain extends cdktf.TerraformResource {
+export class GoogleFirebaseHostingCustomDomain extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -1443,14 +1443,14 @@ export class GoogleFirebaseHostingCustomDomain extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleFirebaseHostingCustomDomain resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleFirebaseHostingCustomDomain resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleFirebaseHostingCustomDomain to import
   * @param importFromId The id of the existing GoogleFirebaseHostingCustomDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_hosting_custom_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleFirebaseHostingCustomDomain to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_firebase_hosting_custom_domain", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_firebase_hosting_custom_domain", importId: importFromId, provider });
       }
 
   // ===========
@@ -1648,11 +1648,11 @@ export class GoogleFirebaseHostingCustomDomain extends cdktf.TerraformResource {
   }
 
   // wait_dns_verification - computed: false, optional: true, required: false
-  private _waitDnsVerification?: boolean | cdktf.IResolvable; 
+  private _waitDnsVerification?: boolean | cdktn.IResolvable; 
   public get waitDnsVerification() {
     return this.getBooleanAttribute('wait_dns_verification');
   }
-  public set waitDnsVerification(value: boolean | cdktf.IResolvable) {
+  public set waitDnsVerification(value: boolean | cdktn.IResolvable) {
     this._waitDnsVerification = value;
   }
   public resetWaitDnsVerification() {
@@ -1685,13 +1685,13 @@ export class GoogleFirebaseHostingCustomDomain extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      cert_preference: cdktf.stringToTerraform(this._certPreference),
-      custom_domain: cdktf.stringToTerraform(this._customDomain),
-      id: cdktf.stringToTerraform(this._id),
-      project: cdktf.stringToTerraform(this._project),
-      redirect_target: cdktf.stringToTerraform(this._redirectTarget),
-      site_id: cdktf.stringToTerraform(this._siteId),
-      wait_dns_verification: cdktf.booleanToTerraform(this._waitDnsVerification),
+      cert_preference: cdktn.stringToTerraform(this._certPreference),
+      custom_domain: cdktn.stringToTerraform(this._customDomain),
+      id: cdktn.stringToTerraform(this._id),
+      project: cdktn.stringToTerraform(this._project),
+      redirect_target: cdktn.stringToTerraform(this._redirectTarget),
+      site_id: cdktn.stringToTerraform(this._siteId),
+      wait_dns_verification: cdktn.booleanToTerraform(this._waitDnsVerification),
       timeouts: googleFirebaseHostingCustomDomainTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -1699,43 +1699,43 @@ export class GoogleFirebaseHostingCustomDomain extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       cert_preference: {
-        value: cdktf.stringToHclTerraform(this._certPreference),
+        value: cdktn.stringToHclTerraform(this._certPreference),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       custom_domain: {
-        value: cdktf.stringToHclTerraform(this._customDomain),
+        value: cdktn.stringToHclTerraform(this._customDomain),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       redirect_target: {
-        value: cdktf.stringToHclTerraform(this._redirectTarget),
+        value: cdktn.stringToHclTerraform(this._redirectTarget),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       site_id: {
-        value: cdktf.stringToHclTerraform(this._siteId),
+        value: cdktn.stringToHclTerraform(this._siteId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       wait_dns_verification: {
-        value: cdktf.booleanToHclTerraform(this._waitDnsVerification),
+        value: cdktn.booleanToHclTerraform(this._waitDnsVerification),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",

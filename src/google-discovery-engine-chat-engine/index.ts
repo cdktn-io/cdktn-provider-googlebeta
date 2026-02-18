@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleDiscoveryEngineChatEngineConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleDiscoveryEngineChatEngineConfig extends cdktn.TerraformMetaArguments {
   /**
   * The collection ID.
   *
@@ -82,8 +82,8 @@ export interface GoogleDiscoveryEngineChatEngineChatEngineMetadata {
 }
 
 export function googleDiscoveryEngineChatEngineChatEngineMetadataToTerraform(struct?: GoogleDiscoveryEngineChatEngineChatEngineMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -92,8 +92,8 @@ export function googleDiscoveryEngineChatEngineChatEngineMetadataToTerraform(str
 
 
 export function googleDiscoveryEngineChatEngineChatEngineMetadataToHclTerraform(struct?: GoogleDiscoveryEngineChatEngineChatEngineMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -101,7 +101,7 @@ export function googleDiscoveryEngineChatEngineChatEngineMetadataToHclTerraform(
   return attrs;
 }
 
-export class GoogleDiscoveryEngineChatEngineChatEngineMetadataOutputReference extends cdktf.ComplexObject {
+export class GoogleDiscoveryEngineChatEngineChatEngineMetadataOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -110,7 +110,7 @@ export class GoogleDiscoveryEngineChatEngineChatEngineMetadataOutputReference ex
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -135,14 +135,14 @@ export class GoogleDiscoveryEngineChatEngineChatEngineMetadataOutputReference ex
   }
 }
 
-export class GoogleDiscoveryEngineChatEngineChatEngineMetadataList extends cdktf.ComplexList {
+export class GoogleDiscoveryEngineChatEngineChatEngineMetadataList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -181,45 +181,45 @@ export interface GoogleDiscoveryEngineChatEngineChatEngineConfigAgentCreationCon
 }
 
 export function googleDiscoveryEngineChatEngineChatEngineConfigAgentCreationConfigToTerraform(struct?: GoogleDiscoveryEngineChatEngineChatEngineConfigAgentCreationConfigOutputReference | GoogleDiscoveryEngineChatEngineChatEngineConfigAgentCreationConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    business: cdktf.stringToTerraform(struct!.business),
-    default_language_code: cdktf.stringToTerraform(struct!.defaultLanguageCode),
-    location: cdktf.stringToTerraform(struct!.location),
-    time_zone: cdktf.stringToTerraform(struct!.timeZone),
+    business: cdktn.stringToTerraform(struct!.business),
+    default_language_code: cdktn.stringToTerraform(struct!.defaultLanguageCode),
+    location: cdktn.stringToTerraform(struct!.location),
+    time_zone: cdktn.stringToTerraform(struct!.timeZone),
   }
 }
 
 
 export function googleDiscoveryEngineChatEngineChatEngineConfigAgentCreationConfigToHclTerraform(struct?: GoogleDiscoveryEngineChatEngineChatEngineConfigAgentCreationConfigOutputReference | GoogleDiscoveryEngineChatEngineChatEngineConfigAgentCreationConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     business: {
-      value: cdktf.stringToHclTerraform(struct!.business),
+      value: cdktn.stringToHclTerraform(struct!.business),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     default_language_code: {
-      value: cdktf.stringToHclTerraform(struct!.defaultLanguageCode),
+      value: cdktn.stringToHclTerraform(struct!.defaultLanguageCode),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     location: {
-      value: cdktf.stringToHclTerraform(struct!.location),
+      value: cdktn.stringToHclTerraform(struct!.location),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     time_zone: {
-      value: cdktf.stringToHclTerraform(struct!.timeZone),
+      value: cdktn.stringToHclTerraform(struct!.timeZone),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -230,14 +230,14 @@ export function googleDiscoveryEngineChatEngineChatEngineConfigAgentCreationConf
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDiscoveryEngineChatEngineChatEngineConfigAgentCreationConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDiscoveryEngineChatEngineChatEngineConfigAgentCreationConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -350,7 +350,7 @@ export interface GoogleDiscoveryEngineChatEngineChatEngineConfig {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_discovery_engine_chat_engine#allow_cross_region GoogleDiscoveryEngineChatEngine#allow_cross_region}
   */
-  readonly allowCrossRegion?: boolean | cdktf.IResolvable;
+  readonly allowCrossRegion?: boolean | cdktn.IResolvable;
   /**
   * The resource name of an existing Dialogflow agent to link to this Chat Engine. Format: 'projects/<Project_ID>/locations/<Location_ID>/agents/<Agent_ID>'.
   * Exactly one of 'agent_creation_config' or 'dialogflow_agent_to_link' must be set.
@@ -367,32 +367,32 @@ export interface GoogleDiscoveryEngineChatEngineChatEngineConfig {
 }
 
 export function googleDiscoveryEngineChatEngineChatEngineConfigToTerraform(struct?: GoogleDiscoveryEngineChatEngineChatEngineConfigOutputReference | GoogleDiscoveryEngineChatEngineChatEngineConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    allow_cross_region: cdktf.booleanToTerraform(struct!.allowCrossRegion),
-    dialogflow_agent_to_link: cdktf.stringToTerraform(struct!.dialogflowAgentToLink),
+    allow_cross_region: cdktn.booleanToTerraform(struct!.allowCrossRegion),
+    dialogflow_agent_to_link: cdktn.stringToTerraform(struct!.dialogflowAgentToLink),
     agent_creation_config: googleDiscoveryEngineChatEngineChatEngineConfigAgentCreationConfigToTerraform(struct!.agentCreationConfig),
   }
 }
 
 
 export function googleDiscoveryEngineChatEngineChatEngineConfigToHclTerraform(struct?: GoogleDiscoveryEngineChatEngineChatEngineConfigOutputReference | GoogleDiscoveryEngineChatEngineChatEngineConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     allow_cross_region: {
-      value: cdktf.booleanToHclTerraform(struct!.allowCrossRegion),
+      value: cdktn.booleanToHclTerraform(struct!.allowCrossRegion),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     dialogflow_agent_to_link: {
-      value: cdktf.stringToHclTerraform(struct!.dialogflowAgentToLink),
+      value: cdktn.stringToHclTerraform(struct!.dialogflowAgentToLink),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -409,14 +409,14 @@ export function googleDiscoveryEngineChatEngineChatEngineConfigToHclTerraform(st
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDiscoveryEngineChatEngineChatEngineConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDiscoveryEngineChatEngineChatEngineConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -454,11 +454,11 @@ export class GoogleDiscoveryEngineChatEngineChatEngineConfigOutputReference exte
   }
 
   // allow_cross_region - computed: false, optional: true, required: false
-  private _allowCrossRegion?: boolean | cdktf.IResolvable; 
+  private _allowCrossRegion?: boolean | cdktn.IResolvable; 
   public get allowCrossRegion() {
     return this.getBooleanAttribute('allow_cross_region');
   }
-  public set allowCrossRegion(value: boolean | cdktf.IResolvable) {
+  public set allowCrossRegion(value: boolean | cdktn.IResolvable) {
     this._allowCrossRegion = value;
   }
   public resetAllowCrossRegion() {
@@ -511,24 +511,24 @@ export interface GoogleDiscoveryEngineChatEngineCommonConfig {
 }
 
 export function googleDiscoveryEngineChatEngineCommonConfigToTerraform(struct?: GoogleDiscoveryEngineChatEngineCommonConfigOutputReference | GoogleDiscoveryEngineChatEngineCommonConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    company_name: cdktf.stringToTerraform(struct!.companyName),
+    company_name: cdktn.stringToTerraform(struct!.companyName),
   }
 }
 
 
 export function googleDiscoveryEngineChatEngineCommonConfigToHclTerraform(struct?: GoogleDiscoveryEngineChatEngineCommonConfigOutputReference | GoogleDiscoveryEngineChatEngineCommonConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     company_name: {
-      value: cdktf.stringToHclTerraform(struct!.companyName),
+      value: cdktn.stringToHclTerraform(struct!.companyName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -539,14 +539,14 @@ export function googleDiscoveryEngineChatEngineCommonConfigToHclTerraform(struct
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDiscoveryEngineChatEngineCommonConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDiscoveryEngineChatEngineCommonConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -602,39 +602,39 @@ export interface GoogleDiscoveryEngineChatEngineTimeouts {
   readonly update?: string;
 }
 
-export function googleDiscoveryEngineChatEngineTimeoutsToTerraform(struct?: GoogleDiscoveryEngineChatEngineTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDiscoveryEngineChatEngineTimeoutsToTerraform(struct?: GoogleDiscoveryEngineChatEngineTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleDiscoveryEngineChatEngineTimeoutsToHclTerraform(struct?: GoogleDiscoveryEngineChatEngineTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDiscoveryEngineChatEngineTimeoutsToHclTerraform(struct?: GoogleDiscoveryEngineChatEngineTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -645,19 +645,19 @@ export function googleDiscoveryEngineChatEngineTimeoutsToHclTerraform(struct?: G
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDiscoveryEngineChatEngineTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleDiscoveryEngineChatEngineTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleDiscoveryEngineChatEngineTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDiscoveryEngineChatEngineTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -678,7 +678,7 @@ export class GoogleDiscoveryEngineChatEngineTimeoutsOutputReference extends cdkt
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDiscoveryEngineChatEngineTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDiscoveryEngineChatEngineTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -686,7 +686,7 @@ export class GoogleDiscoveryEngineChatEngineTimeoutsOutputReference extends cdkt
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -751,7 +751,7 @@ export class GoogleDiscoveryEngineChatEngineTimeoutsOutputReference extends cdkt
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_discovery_engine_chat_engine google_discovery_engine_chat_engine}
 */
-export class GoogleDiscoveryEngineChatEngine extends cdktf.TerraformResource {
+export class GoogleDiscoveryEngineChatEngine extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -762,14 +762,14 @@ export class GoogleDiscoveryEngineChatEngine extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleDiscoveryEngineChatEngine resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleDiscoveryEngineChatEngine resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleDiscoveryEngineChatEngine to import
   * @param importFromId The id of the existing GoogleDiscoveryEngineChatEngine that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_discovery_engine_chat_engine#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleDiscoveryEngineChatEngine to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_discovery_engine_chat_engine", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_discovery_engine_chat_engine", importId: importFromId, provider });
       }
 
   // ===========
@@ -1001,14 +1001,14 @@ export class GoogleDiscoveryEngineChatEngine extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      collection_id: cdktf.stringToTerraform(this._collectionId),
-      data_store_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(this._dataStoreIds),
-      display_name: cdktf.stringToTerraform(this._displayName),
-      engine_id: cdktf.stringToTerraform(this._engineId),
-      id: cdktf.stringToTerraform(this._id),
-      industry_vertical: cdktf.stringToTerraform(this._industryVertical),
-      location: cdktf.stringToTerraform(this._location),
-      project: cdktf.stringToTerraform(this._project),
+      collection_id: cdktn.stringToTerraform(this._collectionId),
+      data_store_ids: cdktn.listMapper(cdktn.stringToTerraform, false)(this._dataStoreIds),
+      display_name: cdktn.stringToTerraform(this._displayName),
+      engine_id: cdktn.stringToTerraform(this._engineId),
+      id: cdktn.stringToTerraform(this._id),
+      industry_vertical: cdktn.stringToTerraform(this._industryVertical),
+      location: cdktn.stringToTerraform(this._location),
+      project: cdktn.stringToTerraform(this._project),
       chat_engine_config: googleDiscoveryEngineChatEngineChatEngineConfigToTerraform(this._chatEngineConfig.internalValue),
       common_config: googleDiscoveryEngineChatEngineCommonConfigToTerraform(this._commonConfig.internalValue),
       timeouts: googleDiscoveryEngineChatEngineTimeoutsToTerraform(this._timeouts.internalValue),
@@ -1018,49 +1018,49 @@ export class GoogleDiscoveryEngineChatEngine extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       collection_id: {
-        value: cdktf.stringToHclTerraform(this._collectionId),
+        value: cdktn.stringToHclTerraform(this._collectionId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       data_store_ids: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._dataStoreIds),
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._dataStoreIds),
         isBlock: false,
         type: "list",
         storageClassType: "stringList",
       },
       display_name: {
-        value: cdktf.stringToHclTerraform(this._displayName),
+        value: cdktn.stringToHclTerraform(this._displayName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       engine_id: {
-        value: cdktf.stringToHclTerraform(this._engineId),
+        value: cdktn.stringToHclTerraform(this._engineId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       industry_vertical: {
-        value: cdktf.stringToHclTerraform(this._industryVertical),
+        value: cdktn.stringToHclTerraform(this._industryVertical),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

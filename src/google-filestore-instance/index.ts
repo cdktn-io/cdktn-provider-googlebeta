@@ -7,17 +7,17 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleFilestoreInstanceConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleFilestoreInstanceConfig extends cdktn.TerraformMetaArguments {
   /**
   * Indicates whether the instance is protected against deletion.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#deletion_protection_enabled GoogleFilestoreInstance#deletion_protection_enabled}
   */
-  readonly deletionProtectionEnabled?: boolean | cdktf.IResolvable;
+  readonly deletionProtectionEnabled?: boolean | cdktn.IResolvable;
   /**
   * The reason for enabling deletion protection.
   *
@@ -128,7 +128,7 @@ export interface GoogleFilestoreInstanceConfig extends cdktf.TerraformMetaArgume
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#networks GoogleFilestoreInstance#networks}
   */
-  readonly networks: GoogleFilestoreInstanceNetworks[] | cdktf.IResolvable;
+  readonly networks: GoogleFilestoreInstanceNetworks[] | cdktn.IResolvable;
   /**
   * performance_config block
   *
@@ -146,8 +146,8 @@ export interface GoogleFilestoreInstanceEffectiveReplicationReplicas {
 }
 
 export function googleFilestoreInstanceEffectiveReplicationReplicasToTerraform(struct?: GoogleFilestoreInstanceEffectiveReplicationReplicas): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -156,8 +156,8 @@ export function googleFilestoreInstanceEffectiveReplicationReplicasToTerraform(s
 
 
 export function googleFilestoreInstanceEffectiveReplicationReplicasToHclTerraform(struct?: GoogleFilestoreInstanceEffectiveReplicationReplicas): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -165,7 +165,7 @@ export function googleFilestoreInstanceEffectiveReplicationReplicasToHclTerrafor
   return attrs;
 }
 
-export class GoogleFilestoreInstanceEffectiveReplicationReplicasOutputReference extends cdktf.ComplexObject {
+export class GoogleFilestoreInstanceEffectiveReplicationReplicasOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -174,7 +174,7 @@ export class GoogleFilestoreInstanceEffectiveReplicationReplicasOutputReference 
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -214,14 +214,14 @@ export class GoogleFilestoreInstanceEffectiveReplicationReplicasOutputReference 
   }
 }
 
-export class GoogleFilestoreInstanceEffectiveReplicationReplicasList extends cdktf.ComplexList {
+export class GoogleFilestoreInstanceEffectiveReplicationReplicasList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -236,8 +236,8 @@ export interface GoogleFilestoreInstanceEffectiveReplication {
 }
 
 export function googleFilestoreInstanceEffectiveReplicationToTerraform(struct?: GoogleFilestoreInstanceEffectiveReplication): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -246,8 +246,8 @@ export function googleFilestoreInstanceEffectiveReplicationToTerraform(struct?: 
 
 
 export function googleFilestoreInstanceEffectiveReplicationToHclTerraform(struct?: GoogleFilestoreInstanceEffectiveReplication): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -255,7 +255,7 @@ export function googleFilestoreInstanceEffectiveReplicationToHclTerraform(struct
   return attrs;
 }
 
-export class GoogleFilestoreInstanceEffectiveReplicationOutputReference extends cdktf.ComplexObject {
+export class GoogleFilestoreInstanceEffectiveReplicationOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -264,7 +264,7 @@ export class GoogleFilestoreInstanceEffectiveReplicationOutputReference extends 
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -295,14 +295,14 @@ export class GoogleFilestoreInstanceEffectiveReplicationOutputReference extends 
   }
 }
 
-export class GoogleFilestoreInstanceEffectiveReplicationList extends cdktf.ComplexList {
+export class GoogleFilestoreInstanceEffectiveReplicationList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -350,45 +350,45 @@ export interface GoogleFilestoreInstanceDirectoryServicesLdap {
 }
 
 export function googleFilestoreInstanceDirectoryServicesLdapToTerraform(struct?: GoogleFilestoreInstanceDirectoryServicesLdapOutputReference | GoogleFilestoreInstanceDirectoryServicesLdap): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    domain: cdktf.stringToTerraform(struct!.domain),
-    groups_ou: cdktf.stringToTerraform(struct!.groupsOu),
-    servers: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.servers),
-    users_ou: cdktf.stringToTerraform(struct!.usersOu),
+    domain: cdktn.stringToTerraform(struct!.domain),
+    groups_ou: cdktn.stringToTerraform(struct!.groupsOu),
+    servers: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.servers),
+    users_ou: cdktn.stringToTerraform(struct!.usersOu),
   }
 }
 
 
 export function googleFilestoreInstanceDirectoryServicesLdapToHclTerraform(struct?: GoogleFilestoreInstanceDirectoryServicesLdapOutputReference | GoogleFilestoreInstanceDirectoryServicesLdap): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     domain: {
-      value: cdktf.stringToHclTerraform(struct!.domain),
+      value: cdktn.stringToHclTerraform(struct!.domain),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     groups_ou: {
-      value: cdktf.stringToHclTerraform(struct!.groupsOu),
+      value: cdktn.stringToHclTerraform(struct!.groupsOu),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     servers: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.servers),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.servers),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     users_ou: {
-      value: cdktf.stringToHclTerraform(struct!.usersOu),
+      value: cdktn.stringToHclTerraform(struct!.usersOu),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -399,14 +399,14 @@ export function googleFilestoreInstanceDirectoryServicesLdapToHclTerraform(struc
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleFilestoreInstanceDirectoryServicesLdapOutputReference extends cdktf.ComplexObject {
+export class GoogleFilestoreInstanceDirectoryServicesLdapOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -517,8 +517,8 @@ export interface GoogleFilestoreInstanceDirectoryServices {
 }
 
 export function googleFilestoreInstanceDirectoryServicesToTerraform(struct?: GoogleFilestoreInstanceDirectoryServicesOutputReference | GoogleFilestoreInstanceDirectoryServices): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -528,8 +528,8 @@ export function googleFilestoreInstanceDirectoryServicesToTerraform(struct?: Goo
 
 
 export function googleFilestoreInstanceDirectoryServicesToHclTerraform(struct?: GoogleFilestoreInstanceDirectoryServicesOutputReference | GoogleFilestoreInstanceDirectoryServices): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -545,14 +545,14 @@ export function googleFilestoreInstanceDirectoryServicesToHclTerraform(struct?: 
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleFilestoreInstanceDirectoryServicesOutputReference extends cdktf.ComplexObject {
+export class GoogleFilestoreInstanceDirectoryServicesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -641,60 +641,60 @@ export interface GoogleFilestoreInstanceFileSharesNfsExportOptions {
   readonly squashMode?: string;
 }
 
-export function googleFilestoreInstanceFileSharesNfsExportOptionsToTerraform(struct?: GoogleFilestoreInstanceFileSharesNfsExportOptions | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleFilestoreInstanceFileSharesNfsExportOptionsToTerraform(struct?: GoogleFilestoreInstanceFileSharesNfsExportOptions | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    access_mode: cdktf.stringToTerraform(struct!.accessMode),
-    anon_gid: cdktf.numberToTerraform(struct!.anonGid),
-    anon_uid: cdktf.numberToTerraform(struct!.anonUid),
-    ip_ranges: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.ipRanges),
-    network: cdktf.stringToTerraform(struct!.network),
-    squash_mode: cdktf.stringToTerraform(struct!.squashMode),
+    access_mode: cdktn.stringToTerraform(struct!.accessMode),
+    anon_gid: cdktn.numberToTerraform(struct!.anonGid),
+    anon_uid: cdktn.numberToTerraform(struct!.anonUid),
+    ip_ranges: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.ipRanges),
+    network: cdktn.stringToTerraform(struct!.network),
+    squash_mode: cdktn.stringToTerraform(struct!.squashMode),
   }
 }
 
 
-export function googleFilestoreInstanceFileSharesNfsExportOptionsToHclTerraform(struct?: GoogleFilestoreInstanceFileSharesNfsExportOptions | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleFilestoreInstanceFileSharesNfsExportOptionsToHclTerraform(struct?: GoogleFilestoreInstanceFileSharesNfsExportOptions | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     access_mode: {
-      value: cdktf.stringToHclTerraform(struct!.accessMode),
+      value: cdktn.stringToHclTerraform(struct!.accessMode),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     anon_gid: {
-      value: cdktf.numberToHclTerraform(struct!.anonGid),
+      value: cdktn.numberToHclTerraform(struct!.anonGid),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     anon_uid: {
-      value: cdktf.numberToHclTerraform(struct!.anonUid),
+      value: cdktn.numberToHclTerraform(struct!.anonUid),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     ip_ranges: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.ipRanges),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.ipRanges),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     network: {
-      value: cdktf.stringToHclTerraform(struct!.network),
+      value: cdktn.stringToHclTerraform(struct!.network),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     squash_mode: {
-      value: cdktf.stringToHclTerraform(struct!.squashMode),
+      value: cdktn.stringToHclTerraform(struct!.squashMode),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -705,9 +705,9 @@ export function googleFilestoreInstanceFileSharesNfsExportOptionsToHclTerraform(
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleFilestoreInstanceFileSharesNfsExportOptionsOutputReference extends cdktf.ComplexObject {
+export class GoogleFilestoreInstanceFileSharesNfsExportOptionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -715,11 +715,11 @@ export class GoogleFilestoreInstanceFileSharesNfsExportOptionsOutputReference ex
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleFilestoreInstanceFileSharesNfsExportOptions | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleFilestoreInstanceFileSharesNfsExportOptions | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -752,7 +752,7 @@ export class GoogleFilestoreInstanceFileSharesNfsExportOptionsOutputReference ex
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleFilestoreInstanceFileSharesNfsExportOptions | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleFilestoreInstanceFileSharesNfsExportOptions | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -763,7 +763,7 @@ export class GoogleFilestoreInstanceFileSharesNfsExportOptionsOutputReference ex
       this._network = undefined;
       this._squashMode = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -876,15 +876,15 @@ export class GoogleFilestoreInstanceFileSharesNfsExportOptionsOutputReference ex
   }
 }
 
-export class GoogleFilestoreInstanceFileSharesNfsExportOptionsList extends cdktf.ComplexList {
-  public internalValue? : GoogleFilestoreInstanceFileSharesNfsExportOptions[] | cdktf.IResolvable
+export class GoogleFilestoreInstanceFileSharesNfsExportOptionsList extends cdktn.ComplexList {
+  public internalValue? : GoogleFilestoreInstanceFileSharesNfsExportOptions[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -922,49 +922,49 @@ export interface GoogleFilestoreInstanceFileShares {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#nfs_export_options GoogleFilestoreInstance#nfs_export_options}
   */
-  readonly nfsExportOptions?: GoogleFilestoreInstanceFileSharesNfsExportOptions[] | cdktf.IResolvable;
+  readonly nfsExportOptions?: GoogleFilestoreInstanceFileSharesNfsExportOptions[] | cdktn.IResolvable;
 }
 
 export function googleFilestoreInstanceFileSharesToTerraform(struct?: GoogleFilestoreInstanceFileSharesOutputReference | GoogleFilestoreInstanceFileShares): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    capacity_gb: cdktf.numberToTerraform(struct!.capacityGb),
-    name: cdktf.stringToTerraform(struct!.name),
-    source_backup: cdktf.stringToTerraform(struct!.sourceBackup),
-    nfs_export_options: cdktf.listMapper(googleFilestoreInstanceFileSharesNfsExportOptionsToTerraform, true)(struct!.nfsExportOptions),
+    capacity_gb: cdktn.numberToTerraform(struct!.capacityGb),
+    name: cdktn.stringToTerraform(struct!.name),
+    source_backup: cdktn.stringToTerraform(struct!.sourceBackup),
+    nfs_export_options: cdktn.listMapper(googleFilestoreInstanceFileSharesNfsExportOptionsToTerraform, true)(struct!.nfsExportOptions),
   }
 }
 
 
 export function googleFilestoreInstanceFileSharesToHclTerraform(struct?: GoogleFilestoreInstanceFileSharesOutputReference | GoogleFilestoreInstanceFileShares): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     capacity_gb: {
-      value: cdktf.numberToHclTerraform(struct!.capacityGb),
+      value: cdktn.numberToHclTerraform(struct!.capacityGb),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
+      value: cdktn.stringToHclTerraform(struct!.name),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     source_backup: {
-      value: cdktf.stringToHclTerraform(struct!.sourceBackup),
+      value: cdktn.stringToHclTerraform(struct!.sourceBackup),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     nfs_export_options: {
-      value: cdktf.listMapperHcl(googleFilestoreInstanceFileSharesNfsExportOptionsToHclTerraform, true)(struct!.nfsExportOptions),
+      value: cdktn.listMapperHcl(googleFilestoreInstanceFileSharesNfsExportOptionsToHclTerraform, true)(struct!.nfsExportOptions),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleFilestoreInstanceFileSharesNfsExportOptionsList",
@@ -975,14 +975,14 @@ export function googleFilestoreInstanceFileSharesToHclTerraform(struct?: GoogleF
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleFilestoreInstanceFileSharesOutputReference extends cdktf.ComplexObject {
+export class GoogleFilestoreInstanceFileSharesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1072,7 +1072,7 @@ export class GoogleFilestoreInstanceFileSharesOutputReference extends cdktf.Comp
   public get nfsExportOptions() {
     return this._nfsExportOptions;
   }
-  public putNfsExportOptions(value: GoogleFilestoreInstanceFileSharesNfsExportOptions[] | cdktf.IResolvable) {
+  public putNfsExportOptions(value: GoogleFilestoreInstanceFileSharesNfsExportOptions[] | cdktn.IResolvable) {
     this._nfsExportOptions.internalValue = value;
   }
   public resetNfsExportOptions() {
@@ -1092,25 +1092,25 @@ export interface GoogleFilestoreInstanceInitialReplicationReplicas {
   readonly peerInstance: string;
 }
 
-export function googleFilestoreInstanceInitialReplicationReplicasToTerraform(struct?: GoogleFilestoreInstanceInitialReplicationReplicas | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleFilestoreInstanceInitialReplicationReplicasToTerraform(struct?: GoogleFilestoreInstanceInitialReplicationReplicas | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    peer_instance: cdktf.stringToTerraform(struct!.peerInstance),
+    peer_instance: cdktn.stringToTerraform(struct!.peerInstance),
   }
 }
 
 
-export function googleFilestoreInstanceInitialReplicationReplicasToHclTerraform(struct?: GoogleFilestoreInstanceInitialReplicationReplicas | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleFilestoreInstanceInitialReplicationReplicasToHclTerraform(struct?: GoogleFilestoreInstanceInitialReplicationReplicas | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     peer_instance: {
-      value: cdktf.stringToHclTerraform(struct!.peerInstance),
+      value: cdktn.stringToHclTerraform(struct!.peerInstance),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1121,9 +1121,9 @@ export function googleFilestoreInstanceInitialReplicationReplicasToHclTerraform(
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleFilestoreInstanceInitialReplicationReplicasOutputReference extends cdktf.ComplexObject {
+export class GoogleFilestoreInstanceInitialReplicationReplicasOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -1131,11 +1131,11 @@ export class GoogleFilestoreInstanceInitialReplicationReplicasOutputReference ex
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleFilestoreInstanceInitialReplicationReplicas | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleFilestoreInstanceInitialReplicationReplicas | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1148,13 +1148,13 @@ export class GoogleFilestoreInstanceInitialReplicationReplicasOutputReference ex
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleFilestoreInstanceInitialReplicationReplicas | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleFilestoreInstanceInitialReplicationReplicas | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._peerInstance = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1179,15 +1179,15 @@ export class GoogleFilestoreInstanceInitialReplicationReplicasOutputReference ex
   }
 }
 
-export class GoogleFilestoreInstanceInitialReplicationReplicasList extends cdktf.ComplexList {
-  public internalValue? : GoogleFilestoreInstanceInitialReplicationReplicas[] | cdktf.IResolvable
+export class GoogleFilestoreInstanceInitialReplicationReplicasList extends cdktn.ComplexList {
+  public internalValue? : GoogleFilestoreInstanceInitialReplicationReplicas[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1210,35 +1210,35 @@ export interface GoogleFilestoreInstanceInitialReplication {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#replicas GoogleFilestoreInstance#replicas}
   */
-  readonly replicas?: GoogleFilestoreInstanceInitialReplicationReplicas[] | cdktf.IResolvable;
+  readonly replicas?: GoogleFilestoreInstanceInitialReplicationReplicas[] | cdktn.IResolvable;
 }
 
 export function googleFilestoreInstanceInitialReplicationToTerraform(struct?: GoogleFilestoreInstanceInitialReplicationOutputReference | GoogleFilestoreInstanceInitialReplication): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    role: cdktf.stringToTerraform(struct!.role),
-    replicas: cdktf.listMapper(googleFilestoreInstanceInitialReplicationReplicasToTerraform, true)(struct!.replicas),
+    role: cdktn.stringToTerraform(struct!.role),
+    replicas: cdktn.listMapper(googleFilestoreInstanceInitialReplicationReplicasToTerraform, true)(struct!.replicas),
   }
 }
 
 
 export function googleFilestoreInstanceInitialReplicationToHclTerraform(struct?: GoogleFilestoreInstanceInitialReplicationOutputReference | GoogleFilestoreInstanceInitialReplication): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     role: {
-      value: cdktf.stringToHclTerraform(struct!.role),
+      value: cdktn.stringToHclTerraform(struct!.role),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     replicas: {
-      value: cdktf.listMapperHcl(googleFilestoreInstanceInitialReplicationReplicasToHclTerraform, true)(struct!.replicas),
+      value: cdktn.listMapperHcl(googleFilestoreInstanceInitialReplicationReplicasToHclTerraform, true)(struct!.replicas),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleFilestoreInstanceInitialReplicationReplicasList",
@@ -1249,14 +1249,14 @@ export function googleFilestoreInstanceInitialReplicationToHclTerraform(struct?:
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleFilestoreInstanceInitialReplicationOutputReference extends cdktf.ComplexObject {
+export class GoogleFilestoreInstanceInitialReplicationOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1308,7 +1308,7 @@ export class GoogleFilestoreInstanceInitialReplicationOutputReference extends cd
   public get replicas() {
     return this._replicas;
   }
-  public putReplicas(value: GoogleFilestoreInstanceInitialReplicationReplicas[] | cdktf.IResolvable) {
+  public putReplicas(value: GoogleFilestoreInstanceInitialReplicationReplicas[] | cdktn.IResolvable) {
     this._replicas.internalValue = value;
   }
   public resetReplicas() {
@@ -1332,24 +1332,24 @@ export interface GoogleFilestoreInstanceNetworksPscConfig {
 }
 
 export function googleFilestoreInstanceNetworksPscConfigToTerraform(struct?: GoogleFilestoreInstanceNetworksPscConfigOutputReference | GoogleFilestoreInstanceNetworksPscConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    endpoint_project: cdktf.stringToTerraform(struct!.endpointProject),
+    endpoint_project: cdktn.stringToTerraform(struct!.endpointProject),
   }
 }
 
 
 export function googleFilestoreInstanceNetworksPscConfigToHclTerraform(struct?: GoogleFilestoreInstanceNetworksPscConfigOutputReference | GoogleFilestoreInstanceNetworksPscConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     endpoint_project: {
-      value: cdktf.stringToHclTerraform(struct!.endpointProject),
+      value: cdktn.stringToHclTerraform(struct!.endpointProject),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1360,14 +1360,14 @@ export function googleFilestoreInstanceNetworksPscConfigToHclTerraform(struct?: 
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleFilestoreInstanceNetworksPscConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleFilestoreInstanceNetworksPscConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1446,47 +1446,47 @@ export interface GoogleFilestoreInstanceNetworks {
   readonly pscConfig?: GoogleFilestoreInstanceNetworksPscConfig;
 }
 
-export function googleFilestoreInstanceNetworksToTerraform(struct?: GoogleFilestoreInstanceNetworks | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleFilestoreInstanceNetworksToTerraform(struct?: GoogleFilestoreInstanceNetworks | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    connect_mode: cdktf.stringToTerraform(struct!.connectMode),
-    modes: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.modes),
-    network: cdktf.stringToTerraform(struct!.network),
-    reserved_ip_range: cdktf.stringToTerraform(struct!.reservedIpRange),
+    connect_mode: cdktn.stringToTerraform(struct!.connectMode),
+    modes: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.modes),
+    network: cdktn.stringToTerraform(struct!.network),
+    reserved_ip_range: cdktn.stringToTerraform(struct!.reservedIpRange),
     psc_config: googleFilestoreInstanceNetworksPscConfigToTerraform(struct!.pscConfig),
   }
 }
 
 
-export function googleFilestoreInstanceNetworksToHclTerraform(struct?: GoogleFilestoreInstanceNetworks | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleFilestoreInstanceNetworksToHclTerraform(struct?: GoogleFilestoreInstanceNetworks | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     connect_mode: {
-      value: cdktf.stringToHclTerraform(struct!.connectMode),
+      value: cdktn.stringToHclTerraform(struct!.connectMode),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     modes: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.modes),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.modes),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     network: {
-      value: cdktf.stringToHclTerraform(struct!.network),
+      value: cdktn.stringToHclTerraform(struct!.network),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     reserved_ip_range: {
-      value: cdktf.stringToHclTerraform(struct!.reservedIpRange),
+      value: cdktn.stringToHclTerraform(struct!.reservedIpRange),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1503,9 +1503,9 @@ export function googleFilestoreInstanceNetworksToHclTerraform(struct?: GoogleFil
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleFilestoreInstanceNetworksOutputReference extends cdktf.ComplexObject {
+export class GoogleFilestoreInstanceNetworksOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -1513,11 +1513,11 @@ export class GoogleFilestoreInstanceNetworksOutputReference extends cdktf.Comple
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleFilestoreInstanceNetworks | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleFilestoreInstanceNetworks | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1546,7 +1546,7 @@ export class GoogleFilestoreInstanceNetworksOutputReference extends cdktf.Comple
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleFilestoreInstanceNetworks | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleFilestoreInstanceNetworks | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -1556,7 +1556,7 @@ export class GoogleFilestoreInstanceNetworksOutputReference extends cdktf.Comple
       this._reservedIpRange = undefined;
       this._pscConfig.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1651,15 +1651,15 @@ export class GoogleFilestoreInstanceNetworksOutputReference extends cdktf.Comple
   }
 }
 
-export class GoogleFilestoreInstanceNetworksList extends cdktf.ComplexList {
-  public internalValue? : GoogleFilestoreInstanceNetworks[] | cdktf.IResolvable
+export class GoogleFilestoreInstanceNetworksList extends cdktn.ComplexList {
+  public internalValue? : GoogleFilestoreInstanceNetworks[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1681,24 +1681,24 @@ export interface GoogleFilestoreInstancePerformanceConfigFixedIops {
 }
 
 export function googleFilestoreInstancePerformanceConfigFixedIopsToTerraform(struct?: GoogleFilestoreInstancePerformanceConfigFixedIopsOutputReference | GoogleFilestoreInstancePerformanceConfigFixedIops): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    max_iops: cdktf.numberToTerraform(struct!.maxIops),
+    max_iops: cdktn.numberToTerraform(struct!.maxIops),
   }
 }
 
 
 export function googleFilestoreInstancePerformanceConfigFixedIopsToHclTerraform(struct?: GoogleFilestoreInstancePerformanceConfigFixedIopsOutputReference | GoogleFilestoreInstancePerformanceConfigFixedIops): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     max_iops: {
-      value: cdktf.numberToHclTerraform(struct!.maxIops),
+      value: cdktn.numberToHclTerraform(struct!.maxIops),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1709,14 +1709,14 @@ export function googleFilestoreInstancePerformanceConfigFixedIopsToHclTerraform(
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleFilestoreInstancePerformanceConfigFixedIopsOutputReference extends cdktf.ComplexObject {
+export class GoogleFilestoreInstancePerformanceConfigFixedIopsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1771,24 +1771,24 @@ export interface GoogleFilestoreInstancePerformanceConfigIopsPerTb {
 }
 
 export function googleFilestoreInstancePerformanceConfigIopsPerTbToTerraform(struct?: GoogleFilestoreInstancePerformanceConfigIopsPerTbOutputReference | GoogleFilestoreInstancePerformanceConfigIopsPerTb): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    max_iops_per_tb: cdktf.numberToTerraform(struct!.maxIopsPerTb),
+    max_iops_per_tb: cdktn.numberToTerraform(struct!.maxIopsPerTb),
   }
 }
 
 
 export function googleFilestoreInstancePerformanceConfigIopsPerTbToHclTerraform(struct?: GoogleFilestoreInstancePerformanceConfigIopsPerTbOutputReference | GoogleFilestoreInstancePerformanceConfigIopsPerTb): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     max_iops_per_tb: {
-      value: cdktf.numberToHclTerraform(struct!.maxIopsPerTb),
+      value: cdktn.numberToHclTerraform(struct!.maxIopsPerTb),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1799,14 +1799,14 @@ export function googleFilestoreInstancePerformanceConfigIopsPerTbToHclTerraform(
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleFilestoreInstancePerformanceConfigIopsPerTbOutputReference extends cdktf.ComplexObject {
+export class GoogleFilestoreInstancePerformanceConfigIopsPerTbOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1863,8 +1863,8 @@ export interface GoogleFilestoreInstancePerformanceConfig {
 }
 
 export function googleFilestoreInstancePerformanceConfigToTerraform(struct?: GoogleFilestoreInstancePerformanceConfigOutputReference | GoogleFilestoreInstancePerformanceConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -1875,8 +1875,8 @@ export function googleFilestoreInstancePerformanceConfigToTerraform(struct?: Goo
 
 
 export function googleFilestoreInstancePerformanceConfigToHclTerraform(struct?: GoogleFilestoreInstancePerformanceConfigOutputReference | GoogleFilestoreInstancePerformanceConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -1898,14 +1898,14 @@ export function googleFilestoreInstancePerformanceConfigToHclTerraform(struct?: 
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleFilestoreInstancePerformanceConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleFilestoreInstancePerformanceConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1983,39 +1983,39 @@ export interface GoogleFilestoreInstanceTimeouts {
   readonly update?: string;
 }
 
-export function googleFilestoreInstanceTimeoutsToTerraform(struct?: GoogleFilestoreInstanceTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleFilestoreInstanceTimeoutsToTerraform(struct?: GoogleFilestoreInstanceTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleFilestoreInstanceTimeoutsToHclTerraform(struct?: GoogleFilestoreInstanceTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleFilestoreInstanceTimeoutsToHclTerraform(struct?: GoogleFilestoreInstanceTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2026,19 +2026,19 @@ export function googleFilestoreInstanceTimeoutsToHclTerraform(struct?: GoogleFil
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleFilestoreInstanceTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleFilestoreInstanceTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleFilestoreInstanceTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleFilestoreInstanceTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -2059,7 +2059,7 @@ export class GoogleFilestoreInstanceTimeoutsOutputReference extends cdktf.Comple
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleFilestoreInstanceTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleFilestoreInstanceTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -2067,7 +2067,7 @@ export class GoogleFilestoreInstanceTimeoutsOutputReference extends cdktf.Comple
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -2132,7 +2132,7 @@ export class GoogleFilestoreInstanceTimeoutsOutputReference extends cdktf.Comple
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance google_filestore_instance}
 */
-export class GoogleFilestoreInstance extends cdktf.TerraformResource {
+export class GoogleFilestoreInstance extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -2143,14 +2143,14 @@ export class GoogleFilestoreInstance extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleFilestoreInstance resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleFilestoreInstance resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleFilestoreInstance to import
   * @param importFromId The id of the existing GoogleFilestoreInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleFilestoreInstance to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_filestore_instance", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_filestore_instance", importId: importFromId, provider });
       }
 
   // ===========
@@ -2211,11 +2211,11 @@ export class GoogleFilestoreInstance extends cdktf.TerraformResource {
   }
 
   // deletion_protection_enabled - computed: false, optional: true, required: false
-  private _deletionProtectionEnabled?: boolean | cdktf.IResolvable; 
+  private _deletionProtectionEnabled?: boolean | cdktn.IResolvable; 
   public get deletionProtectionEnabled() {
     return this.getBooleanAttribute('deletion_protection_enabled');
   }
-  public set deletionProtectionEnabled(value: boolean | cdktf.IResolvable) {
+  public set deletionProtectionEnabled(value: boolean | cdktn.IResolvable) {
     this._deletionProtectionEnabled = value;
   }
   public resetDeletionProtectionEnabled() {
@@ -2259,7 +2259,7 @@ export class GoogleFilestoreInstance extends cdktf.TerraformResource {
   }
 
   // effective_labels - computed: true, optional: false, required: false
-  private _effectiveLabels = new cdktf.StringMap(this, "effective_labels");
+  private _effectiveLabels = new cdktn.StringMap(this, "effective_labels");
   public get effectiveLabels() {
     return this._effectiveLabels;
   }
@@ -2401,7 +2401,7 @@ export class GoogleFilestoreInstance extends cdktf.TerraformResource {
   }
 
   // terraform_labels - computed: true, optional: false, required: false
-  private _terraformLabels = new cdktf.StringMap(this, "terraform_labels");
+  private _terraformLabels = new cdktn.StringMap(this, "terraform_labels");
   public get terraformLabels() {
     return this._terraformLabels;
   }
@@ -2485,7 +2485,7 @@ export class GoogleFilestoreInstance extends cdktf.TerraformResource {
   public get networks() {
     return this._networks;
   }
-  public putNetworks(value: GoogleFilestoreInstanceNetworks[] | cdktf.IResolvable) {
+  public putNetworks(value: GoogleFilestoreInstanceNetworks[] | cdktn.IResolvable) {
     this._networks.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -2531,23 +2531,23 @@ export class GoogleFilestoreInstance extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      deletion_protection_enabled: cdktf.booleanToTerraform(this._deletionProtectionEnabled),
-      deletion_protection_reason: cdktf.stringToTerraform(this._deletionProtectionReason),
-      description: cdktf.stringToTerraform(this._description),
-      id: cdktf.stringToTerraform(this._id),
-      kms_key_name: cdktf.stringToTerraform(this._kmsKeyName),
-      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
-      location: cdktf.stringToTerraform(this._location),
-      name: cdktf.stringToTerraform(this._name),
-      project: cdktf.stringToTerraform(this._project),
-      protocol: cdktf.stringToTerraform(this._protocol),
-      tags: cdktf.hashMapper(cdktf.stringToTerraform)(this._tags),
-      tier: cdktf.stringToTerraform(this._tier),
-      zone: cdktf.stringToTerraform(this._zone),
+      deletion_protection_enabled: cdktn.booleanToTerraform(this._deletionProtectionEnabled),
+      deletion_protection_reason: cdktn.stringToTerraform(this._deletionProtectionReason),
+      description: cdktn.stringToTerraform(this._description),
+      id: cdktn.stringToTerraform(this._id),
+      kms_key_name: cdktn.stringToTerraform(this._kmsKeyName),
+      labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
+      location: cdktn.stringToTerraform(this._location),
+      name: cdktn.stringToTerraform(this._name),
+      project: cdktn.stringToTerraform(this._project),
+      protocol: cdktn.stringToTerraform(this._protocol),
+      tags: cdktn.hashMapper(cdktn.stringToTerraform)(this._tags),
+      tier: cdktn.stringToTerraform(this._tier),
+      zone: cdktn.stringToTerraform(this._zone),
       directory_services: googleFilestoreInstanceDirectoryServicesToTerraform(this._directoryServices.internalValue),
       file_shares: googleFilestoreInstanceFileSharesToTerraform(this._fileShares.internalValue),
       initial_replication: googleFilestoreInstanceInitialReplicationToTerraform(this._initialReplication.internalValue),
-      networks: cdktf.listMapper(googleFilestoreInstanceNetworksToTerraform, true)(this._networks.internalValue),
+      networks: cdktn.listMapper(googleFilestoreInstanceNetworksToTerraform, true)(this._networks.internalValue),
       performance_config: googleFilestoreInstancePerformanceConfigToTerraform(this._performanceConfig.internalValue),
       timeouts: googleFilestoreInstanceTimeoutsToTerraform(this._timeouts.internalValue),
     };
@@ -2556,79 +2556,79 @@ export class GoogleFilestoreInstance extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       deletion_protection_enabled: {
-        value: cdktf.booleanToHclTerraform(this._deletionProtectionEnabled),
+        value: cdktn.booleanToHclTerraform(this._deletionProtectionEnabled),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       deletion_protection_reason: {
-        value: cdktf.stringToHclTerraform(this._deletionProtectionReason),
+        value: cdktn.stringToHclTerraform(this._deletionProtectionReason),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       kms_key_name: {
-        value: cdktf.stringToHclTerraform(this._kmsKeyName),
+        value: cdktn.stringToHclTerraform(this._kmsKeyName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._labels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       protocol: {
-        value: cdktf.stringToHclTerraform(this._protocol),
+        value: cdktn.stringToHclTerraform(this._protocol),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       tags: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._tags),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._tags),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       tier: {
-        value: cdktf.stringToHclTerraform(this._tier),
+        value: cdktn.stringToHclTerraform(this._tier),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       zone: {
-        value: cdktf.stringToHclTerraform(this._zone),
+        value: cdktn.stringToHclTerraform(this._zone),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -2652,7 +2652,7 @@ export class GoogleFilestoreInstance extends cdktf.TerraformResource {
         storageClassType: "GoogleFilestoreInstanceInitialReplicationList",
       },
       networks: {
-        value: cdktf.listMapperHcl(googleFilestoreInstanceNetworksToHclTerraform, true)(this._networks.internalValue),
+        value: cdktn.listMapperHcl(googleFilestoreInstanceNetworksToHclTerraform, true)(this._networks.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "GoogleFilestoreInstanceNetworksList",

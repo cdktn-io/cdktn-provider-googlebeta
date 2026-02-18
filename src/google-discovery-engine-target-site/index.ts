@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleDiscoveryEngineTargetSiteConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleDiscoveryEngineTargetSiteConfig extends cdktn.TerraformMetaArguments {
   /**
   * The unique id of the data store.
   *
@@ -28,7 +28,7 @@ export interface GoogleDiscoveryEngineTargetSiteConfig extends cdktf.TerraformMe
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_discovery_engine_target_site#exact_match GoogleDiscoveryEngineTargetSite#exact_match}
   */
-  readonly exactMatch?: boolean | cdktf.IResolvable;
+  readonly exactMatch?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_discovery_engine_target_site#id GoogleDiscoveryEngineTargetSite#id}
   *
@@ -71,8 +71,8 @@ export interface GoogleDiscoveryEngineTargetSiteFailureReasonQuotaFailure {
 }
 
 export function googleDiscoveryEngineTargetSiteFailureReasonQuotaFailureToTerraform(struct?: GoogleDiscoveryEngineTargetSiteFailureReasonQuotaFailure): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -81,8 +81,8 @@ export function googleDiscoveryEngineTargetSiteFailureReasonQuotaFailureToTerraf
 
 
 export function googleDiscoveryEngineTargetSiteFailureReasonQuotaFailureToHclTerraform(struct?: GoogleDiscoveryEngineTargetSiteFailureReasonQuotaFailure): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -90,7 +90,7 @@ export function googleDiscoveryEngineTargetSiteFailureReasonQuotaFailureToHclTer
   return attrs;
 }
 
-export class GoogleDiscoveryEngineTargetSiteFailureReasonQuotaFailureOutputReference extends cdktf.ComplexObject {
+export class GoogleDiscoveryEngineTargetSiteFailureReasonQuotaFailureOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -99,7 +99,7 @@ export class GoogleDiscoveryEngineTargetSiteFailureReasonQuotaFailureOutputRefer
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -124,14 +124,14 @@ export class GoogleDiscoveryEngineTargetSiteFailureReasonQuotaFailureOutputRefer
   }
 }
 
-export class GoogleDiscoveryEngineTargetSiteFailureReasonQuotaFailureList extends cdktf.ComplexList {
+export class GoogleDiscoveryEngineTargetSiteFailureReasonQuotaFailureList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -146,8 +146,8 @@ export interface GoogleDiscoveryEngineTargetSiteFailureReason {
 }
 
 export function googleDiscoveryEngineTargetSiteFailureReasonToTerraform(struct?: GoogleDiscoveryEngineTargetSiteFailureReason): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -156,8 +156,8 @@ export function googleDiscoveryEngineTargetSiteFailureReasonToTerraform(struct?:
 
 
 export function googleDiscoveryEngineTargetSiteFailureReasonToHclTerraform(struct?: GoogleDiscoveryEngineTargetSiteFailureReason): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -165,7 +165,7 @@ export function googleDiscoveryEngineTargetSiteFailureReasonToHclTerraform(struc
   return attrs;
 }
 
-export class GoogleDiscoveryEngineTargetSiteFailureReasonOutputReference extends cdktf.ComplexObject {
+export class GoogleDiscoveryEngineTargetSiteFailureReasonOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -174,7 +174,7 @@ export class GoogleDiscoveryEngineTargetSiteFailureReasonOutputReference extends
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -200,14 +200,14 @@ export class GoogleDiscoveryEngineTargetSiteFailureReasonOutputReference extends
   }
 }
 
-export class GoogleDiscoveryEngineTargetSiteFailureReasonList extends cdktf.ComplexList {
+export class GoogleDiscoveryEngineTargetSiteFailureReasonList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -222,8 +222,8 @@ export interface GoogleDiscoveryEngineTargetSiteSiteVerificationInfo {
 }
 
 export function googleDiscoveryEngineTargetSiteSiteVerificationInfoToTerraform(struct?: GoogleDiscoveryEngineTargetSiteSiteVerificationInfo): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -232,8 +232,8 @@ export function googleDiscoveryEngineTargetSiteSiteVerificationInfoToTerraform(s
 
 
 export function googleDiscoveryEngineTargetSiteSiteVerificationInfoToHclTerraform(struct?: GoogleDiscoveryEngineTargetSiteSiteVerificationInfo): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -241,7 +241,7 @@ export function googleDiscoveryEngineTargetSiteSiteVerificationInfoToHclTerrafor
   return attrs;
 }
 
-export class GoogleDiscoveryEngineTargetSiteSiteVerificationInfoOutputReference extends cdktf.ComplexObject {
+export class GoogleDiscoveryEngineTargetSiteSiteVerificationInfoOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -250,7 +250,7 @@ export class GoogleDiscoveryEngineTargetSiteSiteVerificationInfoOutputReference 
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -280,14 +280,14 @@ export class GoogleDiscoveryEngineTargetSiteSiteVerificationInfoOutputReference 
   }
 }
 
-export class GoogleDiscoveryEngineTargetSiteSiteVerificationInfoList extends cdktf.ComplexList {
+export class GoogleDiscoveryEngineTargetSiteSiteVerificationInfoList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -309,32 +309,32 @@ export interface GoogleDiscoveryEngineTargetSiteTimeouts {
   readonly delete?: string;
 }
 
-export function googleDiscoveryEngineTargetSiteTimeoutsToTerraform(struct?: GoogleDiscoveryEngineTargetSiteTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDiscoveryEngineTargetSiteTimeoutsToTerraform(struct?: GoogleDiscoveryEngineTargetSiteTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
   }
 }
 
 
-export function googleDiscoveryEngineTargetSiteTimeoutsToHclTerraform(struct?: GoogleDiscoveryEngineTargetSiteTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDiscoveryEngineTargetSiteTimeoutsToHclTerraform(struct?: GoogleDiscoveryEngineTargetSiteTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -345,19 +345,19 @@ export function googleDiscoveryEngineTargetSiteTimeoutsToHclTerraform(struct?: G
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDiscoveryEngineTargetSiteTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleDiscoveryEngineTargetSiteTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleDiscoveryEngineTargetSiteTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDiscoveryEngineTargetSiteTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -374,14 +374,14 @@ export class GoogleDiscoveryEngineTargetSiteTimeoutsOutputReference extends cdkt
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDiscoveryEngineTargetSiteTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDiscoveryEngineTargetSiteTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._create = undefined;
       this._delete = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -429,7 +429,7 @@ export class GoogleDiscoveryEngineTargetSiteTimeoutsOutputReference extends cdkt
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_discovery_engine_target_site google_discovery_engine_target_site}
 */
-export class GoogleDiscoveryEngineTargetSite extends cdktf.TerraformResource {
+export class GoogleDiscoveryEngineTargetSite extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -440,14 +440,14 @@ export class GoogleDiscoveryEngineTargetSite extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleDiscoveryEngineTargetSite resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleDiscoveryEngineTargetSite resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleDiscoveryEngineTargetSite to import
   * @param importFromId The id of the existing GoogleDiscoveryEngineTargetSite that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_discovery_engine_target_site#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleDiscoveryEngineTargetSite to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_discovery_engine_target_site", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_discovery_engine_target_site", importId: importFromId, provider });
       }
 
   // ===========
@@ -505,11 +505,11 @@ export class GoogleDiscoveryEngineTargetSite extends cdktf.TerraformResource {
   }
 
   // exact_match - computed: false, optional: true, required: false
-  private _exactMatch?: boolean | cdktf.IResolvable; 
+  private _exactMatch?: boolean | cdktn.IResolvable; 
   public get exactMatch() {
     return this.getBooleanAttribute('exact_match');
   }
-  public set exactMatch(value: boolean | cdktf.IResolvable) {
+  public set exactMatch(value: boolean | cdktn.IResolvable) {
     this._exactMatch = value;
   }
   public resetExactMatch() {
@@ -658,13 +658,13 @@ export class GoogleDiscoveryEngineTargetSite extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      data_store_id: cdktf.stringToTerraform(this._dataStoreId),
-      exact_match: cdktf.booleanToTerraform(this._exactMatch),
-      id: cdktf.stringToTerraform(this._id),
-      location: cdktf.stringToTerraform(this._location),
-      project: cdktf.stringToTerraform(this._project),
-      provided_uri_pattern: cdktf.stringToTerraform(this._providedUriPattern),
-      type: cdktf.stringToTerraform(this._type),
+      data_store_id: cdktn.stringToTerraform(this._dataStoreId),
+      exact_match: cdktn.booleanToTerraform(this._exactMatch),
+      id: cdktn.stringToTerraform(this._id),
+      location: cdktn.stringToTerraform(this._location),
+      project: cdktn.stringToTerraform(this._project),
+      provided_uri_pattern: cdktn.stringToTerraform(this._providedUriPattern),
+      type: cdktn.stringToTerraform(this._type),
       timeouts: googleDiscoveryEngineTargetSiteTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -672,43 +672,43 @@ export class GoogleDiscoveryEngineTargetSite extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       data_store_id: {
-        value: cdktf.stringToHclTerraform(this._dataStoreId),
+        value: cdktn.stringToHclTerraform(this._dataStoreId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       exact_match: {
-        value: cdktf.booleanToHclTerraform(this._exactMatch),
+        value: cdktn.booleanToHclTerraform(this._exactMatch),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       provided_uri_pattern: {
-        value: cdktf.stringToHclTerraform(this._providedUriPattern),
+        value: cdktn.stringToHclTerraform(this._providedUriPattern),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       type: {
-        value: cdktf.stringToHclTerraform(this._type),
+        value: cdktn.stringToHclTerraform(this._type),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

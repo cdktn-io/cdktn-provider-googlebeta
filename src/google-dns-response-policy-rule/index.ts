@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleDnsResponsePolicyRuleConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleDnsResponsePolicyRuleConfig extends cdktn.TerraformMetaArguments {
   /**
   * Answer this query with a behavior rather than DNS data. Acceptable values are 'behaviorUnspecified', and 'bypassResponsePolicy'
   *
@@ -88,46 +88,46 @@ export interface GoogleDnsResponsePolicyRuleLocalDataLocalDatas {
   readonly type: string;
 }
 
-export function googleDnsResponsePolicyRuleLocalDataLocalDatasToTerraform(struct?: GoogleDnsResponsePolicyRuleLocalDataLocalDatas | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDnsResponsePolicyRuleLocalDataLocalDatasToTerraform(struct?: GoogleDnsResponsePolicyRuleLocalDataLocalDatas | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    name: cdktf.stringToTerraform(struct!.name),
-    rrdatas: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.rrdatas),
-    ttl: cdktf.numberToTerraform(struct!.ttl),
-    type: cdktf.stringToTerraform(struct!.type),
+    name: cdktn.stringToTerraform(struct!.name),
+    rrdatas: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.rrdatas),
+    ttl: cdktn.numberToTerraform(struct!.ttl),
+    type: cdktn.stringToTerraform(struct!.type),
   }
 }
 
 
-export function googleDnsResponsePolicyRuleLocalDataLocalDatasToHclTerraform(struct?: GoogleDnsResponsePolicyRuleLocalDataLocalDatas | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDnsResponsePolicyRuleLocalDataLocalDatasToHclTerraform(struct?: GoogleDnsResponsePolicyRuleLocalDataLocalDatas | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
+      value: cdktn.stringToHclTerraform(struct!.name),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     rrdatas: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.rrdatas),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.rrdatas),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     ttl: {
-      value: cdktf.numberToHclTerraform(struct!.ttl),
+      value: cdktn.numberToHclTerraform(struct!.ttl),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     type: {
-      value: cdktf.stringToHclTerraform(struct!.type),
+      value: cdktn.stringToHclTerraform(struct!.type),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -138,9 +138,9 @@ export function googleDnsResponsePolicyRuleLocalDataLocalDatasToHclTerraform(str
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDnsResponsePolicyRuleLocalDataLocalDatasOutputReference extends cdktf.ComplexObject {
+export class GoogleDnsResponsePolicyRuleLocalDataLocalDatasOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -148,11 +148,11 @@ export class GoogleDnsResponsePolicyRuleLocalDataLocalDatasOutputReference exten
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDnsResponsePolicyRuleLocalDataLocalDatas | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDnsResponsePolicyRuleLocalDataLocalDatas | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -177,7 +177,7 @@ export class GoogleDnsResponsePolicyRuleLocalDataLocalDatasOutputReference exten
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDnsResponsePolicyRuleLocalDataLocalDatas | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDnsResponsePolicyRuleLocalDataLocalDatas | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -186,7 +186,7 @@ export class GoogleDnsResponsePolicyRuleLocalDataLocalDatasOutputReference exten
       this._ttl = undefined;
       this._type = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -259,15 +259,15 @@ export class GoogleDnsResponsePolicyRuleLocalDataLocalDatasOutputReference exten
   }
 }
 
-export class GoogleDnsResponsePolicyRuleLocalDataLocalDatasList extends cdktf.ComplexList {
-  public internalValue? : GoogleDnsResponsePolicyRuleLocalDataLocalDatas[] | cdktf.IResolvable
+export class GoogleDnsResponsePolicyRuleLocalDataLocalDatasList extends cdktn.ComplexList {
+  public internalValue? : GoogleDnsResponsePolicyRuleLocalDataLocalDatas[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -284,28 +284,28 @@ export interface GoogleDnsResponsePolicyRuleLocalData {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_response_policy_rule#local_datas GoogleDnsResponsePolicyRule#local_datas}
   */
-  readonly localDatas: GoogleDnsResponsePolicyRuleLocalDataLocalDatas[] | cdktf.IResolvable;
+  readonly localDatas: GoogleDnsResponsePolicyRuleLocalDataLocalDatas[] | cdktn.IResolvable;
 }
 
 export function googleDnsResponsePolicyRuleLocalDataToTerraform(struct?: GoogleDnsResponsePolicyRuleLocalDataOutputReference | GoogleDnsResponsePolicyRuleLocalData): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    local_datas: cdktf.listMapper(googleDnsResponsePolicyRuleLocalDataLocalDatasToTerraform, true)(struct!.localDatas),
+    local_datas: cdktn.listMapper(googleDnsResponsePolicyRuleLocalDataLocalDatasToTerraform, true)(struct!.localDatas),
   }
 }
 
 
 export function googleDnsResponsePolicyRuleLocalDataToHclTerraform(struct?: GoogleDnsResponsePolicyRuleLocalDataOutputReference | GoogleDnsResponsePolicyRuleLocalData): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     local_datas: {
-      value: cdktf.listMapperHcl(googleDnsResponsePolicyRuleLocalDataLocalDatasToHclTerraform, true)(struct!.localDatas),
+      value: cdktn.listMapperHcl(googleDnsResponsePolicyRuleLocalDataLocalDatasToHclTerraform, true)(struct!.localDatas),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDnsResponsePolicyRuleLocalDataLocalDatasList",
@@ -316,14 +316,14 @@ export function googleDnsResponsePolicyRuleLocalDataToHclTerraform(struct?: Goog
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDnsResponsePolicyRuleLocalDataOutputReference extends cdktf.ComplexObject {
+export class GoogleDnsResponsePolicyRuleLocalDataOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -353,7 +353,7 @@ export class GoogleDnsResponsePolicyRuleLocalDataOutputReference extends cdktf.C
   public get localDatas() {
     return this._localDatas;
   }
-  public putLocalDatas(value: GoogleDnsResponsePolicyRuleLocalDataLocalDatas[] | cdktf.IResolvable) {
+  public putLocalDatas(value: GoogleDnsResponsePolicyRuleLocalDataLocalDatas[] | cdktn.IResolvable) {
     this._localDatas.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -376,39 +376,39 @@ export interface GoogleDnsResponsePolicyRuleTimeouts {
   readonly update?: string;
 }
 
-export function googleDnsResponsePolicyRuleTimeoutsToTerraform(struct?: GoogleDnsResponsePolicyRuleTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDnsResponsePolicyRuleTimeoutsToTerraform(struct?: GoogleDnsResponsePolicyRuleTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleDnsResponsePolicyRuleTimeoutsToHclTerraform(struct?: GoogleDnsResponsePolicyRuleTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDnsResponsePolicyRuleTimeoutsToHclTerraform(struct?: GoogleDnsResponsePolicyRuleTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -419,19 +419,19 @@ export function googleDnsResponsePolicyRuleTimeoutsToHclTerraform(struct?: Googl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDnsResponsePolicyRuleTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleDnsResponsePolicyRuleTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleDnsResponsePolicyRuleTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDnsResponsePolicyRuleTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -452,7 +452,7 @@ export class GoogleDnsResponsePolicyRuleTimeoutsOutputReference extends cdktf.Co
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDnsResponsePolicyRuleTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDnsResponsePolicyRuleTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -460,7 +460,7 @@ export class GoogleDnsResponsePolicyRuleTimeoutsOutputReference extends cdktf.Co
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -525,7 +525,7 @@ export class GoogleDnsResponsePolicyRuleTimeoutsOutputReference extends cdktf.Co
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_response_policy_rule google_dns_response_policy_rule}
 */
-export class GoogleDnsResponsePolicyRule extends cdktf.TerraformResource {
+export class GoogleDnsResponsePolicyRule extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -536,14 +536,14 @@ export class GoogleDnsResponsePolicyRule extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleDnsResponsePolicyRule resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleDnsResponsePolicyRule resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleDnsResponsePolicyRule to import
   * @param importFromId The id of the existing GoogleDnsResponsePolicyRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_response_policy_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleDnsResponsePolicyRule to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_dns_response_policy_rule", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_dns_response_policy_rule", importId: importFromId, provider });
       }
 
   // ===========
@@ -712,12 +712,12 @@ export class GoogleDnsResponsePolicyRule extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      behavior: cdktf.stringToTerraform(this._behavior),
-      dns_name: cdktf.stringToTerraform(this._dnsName),
-      id: cdktf.stringToTerraform(this._id),
-      project: cdktf.stringToTerraform(this._project),
-      response_policy: cdktf.stringToTerraform(this._responsePolicy),
-      rule_name: cdktf.stringToTerraform(this._ruleName),
+      behavior: cdktn.stringToTerraform(this._behavior),
+      dns_name: cdktn.stringToTerraform(this._dnsName),
+      id: cdktn.stringToTerraform(this._id),
+      project: cdktn.stringToTerraform(this._project),
+      response_policy: cdktn.stringToTerraform(this._responsePolicy),
+      rule_name: cdktn.stringToTerraform(this._ruleName),
       local_data: googleDnsResponsePolicyRuleLocalDataToTerraform(this._localData.internalValue),
       timeouts: googleDnsResponsePolicyRuleTimeoutsToTerraform(this._timeouts.internalValue),
     };
@@ -726,37 +726,37 @@ export class GoogleDnsResponsePolicyRule extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       behavior: {
-        value: cdktf.stringToHclTerraform(this._behavior),
+        value: cdktn.stringToHclTerraform(this._behavior),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       dns_name: {
-        value: cdktf.stringToHclTerraform(this._dnsName),
+        value: cdktn.stringToHclTerraform(this._dnsName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       response_policy: {
-        value: cdktf.stringToHclTerraform(this._responsePolicy),
+        value: cdktn.stringToHclTerraform(this._responsePolicy),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       rule_name: {
-        value: cdktf.stringToHclTerraform(this._ruleName),
+        value: cdktn.stringToHclTerraform(this._ruleName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

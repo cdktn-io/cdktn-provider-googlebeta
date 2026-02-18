@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleNetworkSecuritySecurityProfileConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleNetworkSecuritySecurityProfileConfig extends cdktn.TerraformMetaArguments {
   /**
   * An optional description of the security profile. The Max length is 512 characters.
   *
@@ -97,24 +97,24 @@ export interface GoogleNetworkSecuritySecurityProfileCustomInterceptProfile {
 }
 
 export function googleNetworkSecuritySecurityProfileCustomInterceptProfileToTerraform(struct?: GoogleNetworkSecuritySecurityProfileCustomInterceptProfileOutputReference | GoogleNetworkSecuritySecurityProfileCustomInterceptProfile): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    intercept_endpoint_group: cdktf.stringToTerraform(struct!.interceptEndpointGroup),
+    intercept_endpoint_group: cdktn.stringToTerraform(struct!.interceptEndpointGroup),
   }
 }
 
 
 export function googleNetworkSecuritySecurityProfileCustomInterceptProfileToHclTerraform(struct?: GoogleNetworkSecuritySecurityProfileCustomInterceptProfileOutputReference | GoogleNetworkSecuritySecurityProfileCustomInterceptProfile): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     intercept_endpoint_group: {
-      value: cdktf.stringToHclTerraform(struct!.interceptEndpointGroup),
+      value: cdktn.stringToHclTerraform(struct!.interceptEndpointGroup),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -125,14 +125,14 @@ export function googleNetworkSecuritySecurityProfileCustomInterceptProfileToHclT
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleNetworkSecuritySecurityProfileCustomInterceptProfileOutputReference extends cdktf.ComplexObject {
+export class GoogleNetworkSecuritySecurityProfileCustomInterceptProfileOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -181,24 +181,24 @@ export interface GoogleNetworkSecuritySecurityProfileCustomMirroringProfile {
 }
 
 export function googleNetworkSecuritySecurityProfileCustomMirroringProfileToTerraform(struct?: GoogleNetworkSecuritySecurityProfileCustomMirroringProfileOutputReference | GoogleNetworkSecuritySecurityProfileCustomMirroringProfile): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    mirroring_endpoint_group: cdktf.stringToTerraform(struct!.mirroringEndpointGroup),
+    mirroring_endpoint_group: cdktn.stringToTerraform(struct!.mirroringEndpointGroup),
   }
 }
 
 
 export function googleNetworkSecuritySecurityProfileCustomMirroringProfileToHclTerraform(struct?: GoogleNetworkSecuritySecurityProfileCustomMirroringProfileOutputReference | GoogleNetworkSecuritySecurityProfileCustomMirroringProfile): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     mirroring_endpoint_group: {
-      value: cdktf.stringToHclTerraform(struct!.mirroringEndpointGroup),
+      value: cdktn.stringToHclTerraform(struct!.mirroringEndpointGroup),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -209,14 +209,14 @@ export function googleNetworkSecuritySecurityProfileCustomMirroringProfileToHclT
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleNetworkSecuritySecurityProfileCustomMirroringProfileOutputReference extends cdktf.ComplexObject {
+export class GoogleNetworkSecuritySecurityProfileCustomMirroringProfileOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -269,32 +269,32 @@ export interface GoogleNetworkSecuritySecurityProfileThreatPreventionProfileAnti
   readonly protocol: string;
 }
 
-export function googleNetworkSecuritySecurityProfileThreatPreventionProfileAntivirusOverridesToTerraform(struct?: GoogleNetworkSecuritySecurityProfileThreatPreventionProfileAntivirusOverrides | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleNetworkSecuritySecurityProfileThreatPreventionProfileAntivirusOverridesToTerraform(struct?: GoogleNetworkSecuritySecurityProfileThreatPreventionProfileAntivirusOverrides | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    action: cdktf.stringToTerraform(struct!.action),
-    protocol: cdktf.stringToTerraform(struct!.protocol),
+    action: cdktn.stringToTerraform(struct!.action),
+    protocol: cdktn.stringToTerraform(struct!.protocol),
   }
 }
 
 
-export function googleNetworkSecuritySecurityProfileThreatPreventionProfileAntivirusOverridesToHclTerraform(struct?: GoogleNetworkSecuritySecurityProfileThreatPreventionProfileAntivirusOverrides | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleNetworkSecuritySecurityProfileThreatPreventionProfileAntivirusOverridesToHclTerraform(struct?: GoogleNetworkSecuritySecurityProfileThreatPreventionProfileAntivirusOverrides | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     action: {
-      value: cdktf.stringToHclTerraform(struct!.action),
+      value: cdktn.stringToHclTerraform(struct!.action),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     protocol: {
-      value: cdktf.stringToHclTerraform(struct!.protocol),
+      value: cdktn.stringToHclTerraform(struct!.protocol),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -305,9 +305,9 @@ export function googleNetworkSecuritySecurityProfileThreatPreventionProfileAntiv
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleNetworkSecuritySecurityProfileThreatPreventionProfileAntivirusOverridesOutputReference extends cdktf.ComplexObject {
+export class GoogleNetworkSecuritySecurityProfileThreatPreventionProfileAntivirusOverridesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -315,11 +315,11 @@ export class GoogleNetworkSecuritySecurityProfileThreatPreventionProfileAntiviru
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleNetworkSecuritySecurityProfileThreatPreventionProfileAntivirusOverrides | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleNetworkSecuritySecurityProfileThreatPreventionProfileAntivirusOverrides | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -336,14 +336,14 @@ export class GoogleNetworkSecuritySecurityProfileThreatPreventionProfileAntiviru
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleNetworkSecuritySecurityProfileThreatPreventionProfileAntivirusOverrides | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleNetworkSecuritySecurityProfileThreatPreventionProfileAntivirusOverrides | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._action = undefined;
       this._protocol = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -382,15 +382,15 @@ export class GoogleNetworkSecuritySecurityProfileThreatPreventionProfileAntiviru
   }
 }
 
-export class GoogleNetworkSecuritySecurityProfileThreatPreventionProfileAntivirusOverridesList extends cdktf.ComplexList {
-  public internalValue? : GoogleNetworkSecuritySecurityProfileThreatPreventionProfileAntivirusOverrides[] | cdktf.IResolvable
+export class GoogleNetworkSecuritySecurityProfileThreatPreventionProfileAntivirusOverridesList extends cdktn.ComplexList {
+  public internalValue? : GoogleNetworkSecuritySecurityProfileThreatPreventionProfileAntivirusOverrides[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -416,32 +416,32 @@ export interface GoogleNetworkSecuritySecurityProfileThreatPreventionProfileSeve
   readonly severity: string;
 }
 
-export function googleNetworkSecuritySecurityProfileThreatPreventionProfileSeverityOverridesToTerraform(struct?: GoogleNetworkSecuritySecurityProfileThreatPreventionProfileSeverityOverrides | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleNetworkSecuritySecurityProfileThreatPreventionProfileSeverityOverridesToTerraform(struct?: GoogleNetworkSecuritySecurityProfileThreatPreventionProfileSeverityOverrides | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    action: cdktf.stringToTerraform(struct!.action),
-    severity: cdktf.stringToTerraform(struct!.severity),
+    action: cdktn.stringToTerraform(struct!.action),
+    severity: cdktn.stringToTerraform(struct!.severity),
   }
 }
 
 
-export function googleNetworkSecuritySecurityProfileThreatPreventionProfileSeverityOverridesToHclTerraform(struct?: GoogleNetworkSecuritySecurityProfileThreatPreventionProfileSeverityOverrides | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleNetworkSecuritySecurityProfileThreatPreventionProfileSeverityOverridesToHclTerraform(struct?: GoogleNetworkSecuritySecurityProfileThreatPreventionProfileSeverityOverrides | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     action: {
-      value: cdktf.stringToHclTerraform(struct!.action),
+      value: cdktn.stringToHclTerraform(struct!.action),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     severity: {
-      value: cdktf.stringToHclTerraform(struct!.severity),
+      value: cdktn.stringToHclTerraform(struct!.severity),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -452,9 +452,9 @@ export function googleNetworkSecuritySecurityProfileThreatPreventionProfileSever
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleNetworkSecuritySecurityProfileThreatPreventionProfileSeverityOverridesOutputReference extends cdktf.ComplexObject {
+export class GoogleNetworkSecuritySecurityProfileThreatPreventionProfileSeverityOverridesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -462,11 +462,11 @@ export class GoogleNetworkSecuritySecurityProfileThreatPreventionProfileSeverity
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleNetworkSecuritySecurityProfileThreatPreventionProfileSeverityOverrides | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleNetworkSecuritySecurityProfileThreatPreventionProfileSeverityOverrides | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -483,14 +483,14 @@ export class GoogleNetworkSecuritySecurityProfileThreatPreventionProfileSeverity
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleNetworkSecuritySecurityProfileThreatPreventionProfileSeverityOverrides | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleNetworkSecuritySecurityProfileThreatPreventionProfileSeverityOverrides | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._action = undefined;
       this._severity = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -529,15 +529,15 @@ export class GoogleNetworkSecuritySecurityProfileThreatPreventionProfileSeverity
   }
 }
 
-export class GoogleNetworkSecuritySecurityProfileThreatPreventionProfileSeverityOverridesList extends cdktf.ComplexList {
-  public internalValue? : GoogleNetworkSecuritySecurityProfileThreatPreventionProfileSeverityOverrides[] | cdktf.IResolvable
+export class GoogleNetworkSecuritySecurityProfileThreatPreventionProfileSeverityOverridesList extends cdktn.ComplexList {
+  public internalValue? : GoogleNetworkSecuritySecurityProfileThreatPreventionProfileSeverityOverrides[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -563,32 +563,32 @@ export interface GoogleNetworkSecuritySecurityProfileThreatPreventionProfileThre
   readonly threatId: string;
 }
 
-export function googleNetworkSecuritySecurityProfileThreatPreventionProfileThreatOverridesToTerraform(struct?: GoogleNetworkSecuritySecurityProfileThreatPreventionProfileThreatOverrides | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleNetworkSecuritySecurityProfileThreatPreventionProfileThreatOverridesToTerraform(struct?: GoogleNetworkSecuritySecurityProfileThreatPreventionProfileThreatOverrides | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    action: cdktf.stringToTerraform(struct!.action),
-    threat_id: cdktf.stringToTerraform(struct!.threatId),
+    action: cdktn.stringToTerraform(struct!.action),
+    threat_id: cdktn.stringToTerraform(struct!.threatId),
   }
 }
 
 
-export function googleNetworkSecuritySecurityProfileThreatPreventionProfileThreatOverridesToHclTerraform(struct?: GoogleNetworkSecuritySecurityProfileThreatPreventionProfileThreatOverrides | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleNetworkSecuritySecurityProfileThreatPreventionProfileThreatOverridesToHclTerraform(struct?: GoogleNetworkSecuritySecurityProfileThreatPreventionProfileThreatOverrides | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     action: {
-      value: cdktf.stringToHclTerraform(struct!.action),
+      value: cdktn.stringToHclTerraform(struct!.action),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     threat_id: {
-      value: cdktf.stringToHclTerraform(struct!.threatId),
+      value: cdktn.stringToHclTerraform(struct!.threatId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -599,9 +599,9 @@ export function googleNetworkSecuritySecurityProfileThreatPreventionProfileThrea
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleNetworkSecuritySecurityProfileThreatPreventionProfileThreatOverridesOutputReference extends cdktf.ComplexObject {
+export class GoogleNetworkSecuritySecurityProfileThreatPreventionProfileThreatOverridesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -609,11 +609,11 @@ export class GoogleNetworkSecuritySecurityProfileThreatPreventionProfileThreatOv
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleNetworkSecuritySecurityProfileThreatPreventionProfileThreatOverrides | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleNetworkSecuritySecurityProfileThreatPreventionProfileThreatOverrides | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -630,14 +630,14 @@ export class GoogleNetworkSecuritySecurityProfileThreatPreventionProfileThreatOv
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleNetworkSecuritySecurityProfileThreatPreventionProfileThreatOverrides | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleNetworkSecuritySecurityProfileThreatPreventionProfileThreatOverrides | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._action = undefined;
       this._threatId = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -681,15 +681,15 @@ export class GoogleNetworkSecuritySecurityProfileThreatPreventionProfileThreatOv
   }
 }
 
-export class GoogleNetworkSecuritySecurityProfileThreatPreventionProfileThreatOverridesList extends cdktf.ComplexList {
-  public internalValue? : GoogleNetworkSecuritySecurityProfileThreatPreventionProfileThreatOverrides[] | cdktf.IResolvable
+export class GoogleNetworkSecuritySecurityProfileThreatPreventionProfileThreatOverridesList extends cdktn.ComplexList {
+  public internalValue? : GoogleNetworkSecuritySecurityProfileThreatPreventionProfileThreatOverrides[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -706,54 +706,54 @@ export interface GoogleNetworkSecuritySecurityProfileThreatPreventionProfile {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_security_security_profile#antivirus_overrides GoogleNetworkSecuritySecurityProfile#antivirus_overrides}
   */
-  readonly antivirusOverrides?: GoogleNetworkSecuritySecurityProfileThreatPreventionProfileAntivirusOverrides[] | cdktf.IResolvable;
+  readonly antivirusOverrides?: GoogleNetworkSecuritySecurityProfileThreatPreventionProfileAntivirusOverrides[] | cdktn.IResolvable;
   /**
   * severity_overrides block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_security_security_profile#severity_overrides GoogleNetworkSecuritySecurityProfile#severity_overrides}
   */
-  readonly severityOverrides?: GoogleNetworkSecuritySecurityProfileThreatPreventionProfileSeverityOverrides[] | cdktf.IResolvable;
+  readonly severityOverrides?: GoogleNetworkSecuritySecurityProfileThreatPreventionProfileSeverityOverrides[] | cdktn.IResolvable;
   /**
   * threat_overrides block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_security_security_profile#threat_overrides GoogleNetworkSecuritySecurityProfile#threat_overrides}
   */
-  readonly threatOverrides?: GoogleNetworkSecuritySecurityProfileThreatPreventionProfileThreatOverrides[] | cdktf.IResolvable;
+  readonly threatOverrides?: GoogleNetworkSecuritySecurityProfileThreatPreventionProfileThreatOverrides[] | cdktn.IResolvable;
 }
 
 export function googleNetworkSecuritySecurityProfileThreatPreventionProfileToTerraform(struct?: GoogleNetworkSecuritySecurityProfileThreatPreventionProfileOutputReference | GoogleNetworkSecuritySecurityProfileThreatPreventionProfile): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    antivirus_overrides: cdktf.listMapper(googleNetworkSecuritySecurityProfileThreatPreventionProfileAntivirusOverridesToTerraform, true)(struct!.antivirusOverrides),
-    severity_overrides: cdktf.listMapper(googleNetworkSecuritySecurityProfileThreatPreventionProfileSeverityOverridesToTerraform, true)(struct!.severityOverrides),
-    threat_overrides: cdktf.listMapper(googleNetworkSecuritySecurityProfileThreatPreventionProfileThreatOverridesToTerraform, true)(struct!.threatOverrides),
+    antivirus_overrides: cdktn.listMapper(googleNetworkSecuritySecurityProfileThreatPreventionProfileAntivirusOverridesToTerraform, true)(struct!.antivirusOverrides),
+    severity_overrides: cdktn.listMapper(googleNetworkSecuritySecurityProfileThreatPreventionProfileSeverityOverridesToTerraform, true)(struct!.severityOverrides),
+    threat_overrides: cdktn.listMapper(googleNetworkSecuritySecurityProfileThreatPreventionProfileThreatOverridesToTerraform, true)(struct!.threatOverrides),
   }
 }
 
 
 export function googleNetworkSecuritySecurityProfileThreatPreventionProfileToHclTerraform(struct?: GoogleNetworkSecuritySecurityProfileThreatPreventionProfileOutputReference | GoogleNetworkSecuritySecurityProfileThreatPreventionProfile): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     antivirus_overrides: {
-      value: cdktf.listMapperHcl(googleNetworkSecuritySecurityProfileThreatPreventionProfileAntivirusOverridesToHclTerraform, true)(struct!.antivirusOverrides),
+      value: cdktn.listMapperHcl(googleNetworkSecuritySecurityProfileThreatPreventionProfileAntivirusOverridesToHclTerraform, true)(struct!.antivirusOverrides),
       isBlock: true,
       type: "set",
       storageClassType: "GoogleNetworkSecuritySecurityProfileThreatPreventionProfileAntivirusOverridesList",
     },
     severity_overrides: {
-      value: cdktf.listMapperHcl(googleNetworkSecuritySecurityProfileThreatPreventionProfileSeverityOverridesToHclTerraform, true)(struct!.severityOverrides),
+      value: cdktn.listMapperHcl(googleNetworkSecuritySecurityProfileThreatPreventionProfileSeverityOverridesToHclTerraform, true)(struct!.severityOverrides),
       isBlock: true,
       type: "set",
       storageClassType: "GoogleNetworkSecuritySecurityProfileThreatPreventionProfileSeverityOverridesList",
     },
     threat_overrides: {
-      value: cdktf.listMapperHcl(googleNetworkSecuritySecurityProfileThreatPreventionProfileThreatOverridesToHclTerraform, true)(struct!.threatOverrides),
+      value: cdktn.listMapperHcl(googleNetworkSecuritySecurityProfileThreatPreventionProfileThreatOverridesToHclTerraform, true)(struct!.threatOverrides),
       isBlock: true,
       type: "set",
       storageClassType: "GoogleNetworkSecuritySecurityProfileThreatPreventionProfileThreatOverridesList",
@@ -764,14 +764,14 @@ export function googleNetworkSecuritySecurityProfileThreatPreventionProfileToHcl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleNetworkSecuritySecurityProfileThreatPreventionProfileOutputReference extends cdktf.ComplexObject {
+export class GoogleNetworkSecuritySecurityProfileThreatPreventionProfileOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -813,7 +813,7 @@ export class GoogleNetworkSecuritySecurityProfileThreatPreventionProfileOutputRe
   public get antivirusOverrides() {
     return this._antivirusOverrides;
   }
-  public putAntivirusOverrides(value: GoogleNetworkSecuritySecurityProfileThreatPreventionProfileAntivirusOverrides[] | cdktf.IResolvable) {
+  public putAntivirusOverrides(value: GoogleNetworkSecuritySecurityProfileThreatPreventionProfileAntivirusOverrides[] | cdktn.IResolvable) {
     this._antivirusOverrides.internalValue = value;
   }
   public resetAntivirusOverrides() {
@@ -829,7 +829,7 @@ export class GoogleNetworkSecuritySecurityProfileThreatPreventionProfileOutputRe
   public get severityOverrides() {
     return this._severityOverrides;
   }
-  public putSeverityOverrides(value: GoogleNetworkSecuritySecurityProfileThreatPreventionProfileSeverityOverrides[] | cdktf.IResolvable) {
+  public putSeverityOverrides(value: GoogleNetworkSecuritySecurityProfileThreatPreventionProfileSeverityOverrides[] | cdktn.IResolvable) {
     this._severityOverrides.internalValue = value;
   }
   public resetSeverityOverrides() {
@@ -845,7 +845,7 @@ export class GoogleNetworkSecuritySecurityProfileThreatPreventionProfileOutputRe
   public get threatOverrides() {
     return this._threatOverrides;
   }
-  public putThreatOverrides(value: GoogleNetworkSecuritySecurityProfileThreatPreventionProfileThreatOverrides[] | cdktf.IResolvable) {
+  public putThreatOverrides(value: GoogleNetworkSecuritySecurityProfileThreatPreventionProfileThreatOverrides[] | cdktn.IResolvable) {
     this._threatOverrides.internalValue = value;
   }
   public resetThreatOverrides() {
@@ -871,39 +871,39 @@ export interface GoogleNetworkSecuritySecurityProfileTimeouts {
   readonly update?: string;
 }
 
-export function googleNetworkSecuritySecurityProfileTimeoutsToTerraform(struct?: GoogleNetworkSecuritySecurityProfileTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleNetworkSecuritySecurityProfileTimeoutsToTerraform(struct?: GoogleNetworkSecuritySecurityProfileTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleNetworkSecuritySecurityProfileTimeoutsToHclTerraform(struct?: GoogleNetworkSecuritySecurityProfileTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleNetworkSecuritySecurityProfileTimeoutsToHclTerraform(struct?: GoogleNetworkSecuritySecurityProfileTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -914,19 +914,19 @@ export function googleNetworkSecuritySecurityProfileTimeoutsToHclTerraform(struc
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleNetworkSecuritySecurityProfileTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleNetworkSecuritySecurityProfileTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleNetworkSecuritySecurityProfileTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleNetworkSecuritySecurityProfileTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -947,7 +947,7 @@ export class GoogleNetworkSecuritySecurityProfileTimeoutsOutputReference extends
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleNetworkSecuritySecurityProfileTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleNetworkSecuritySecurityProfileTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -955,7 +955,7 @@ export class GoogleNetworkSecuritySecurityProfileTimeoutsOutputReference extends
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1020,7 +1020,7 @@ export class GoogleNetworkSecuritySecurityProfileTimeoutsOutputReference extends
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_security_security_profile google_network_security_security_profile}
 */
-export class GoogleNetworkSecuritySecurityProfile extends cdktf.TerraformResource {
+export class GoogleNetworkSecuritySecurityProfile extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -1031,14 +1031,14 @@ export class GoogleNetworkSecuritySecurityProfile extends cdktf.TerraformResourc
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleNetworkSecuritySecurityProfile resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleNetworkSecuritySecurityProfile resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleNetworkSecuritySecurityProfile to import
   * @param importFromId The id of the existing GoogleNetworkSecuritySecurityProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_security_security_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleNetworkSecuritySecurityProfile to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_network_security_security_profile", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_network_security_security_profile", importId: importFromId, provider });
       }
 
   // ===========
@@ -1107,7 +1107,7 @@ export class GoogleNetworkSecuritySecurityProfile extends cdktf.TerraformResourc
   }
 
   // effective_labels - computed: true, optional: false, required: false
-  private _effectiveLabels = new cdktf.StringMap(this, "effective_labels");
+  private _effectiveLabels = new cdktn.StringMap(this, "effective_labels");
   public get effectiveLabels() {
     return this._effectiveLabels;
   }
@@ -1200,7 +1200,7 @@ export class GoogleNetworkSecuritySecurityProfile extends cdktf.TerraformResourc
   }
 
   // terraform_labels - computed: true, optional: false, required: false
-  private _terraformLabels = new cdktf.StringMap(this, "terraform_labels");
+  private _terraformLabels = new cdktn.StringMap(this, "terraform_labels");
   public get terraformLabels() {
     return this._terraformLabels;
   }
@@ -1293,13 +1293,13 @@ export class GoogleNetworkSecuritySecurityProfile extends cdktf.TerraformResourc
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      description: cdktf.stringToTerraform(this._description),
-      id: cdktf.stringToTerraform(this._id),
-      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
-      location: cdktf.stringToTerraform(this._location),
-      name: cdktf.stringToTerraform(this._name),
-      parent: cdktf.stringToTerraform(this._parent),
-      type: cdktf.stringToTerraform(this._type),
+      description: cdktn.stringToTerraform(this._description),
+      id: cdktn.stringToTerraform(this._id),
+      labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
+      location: cdktn.stringToTerraform(this._location),
+      name: cdktn.stringToTerraform(this._name),
+      parent: cdktn.stringToTerraform(this._parent),
+      type: cdktn.stringToTerraform(this._type),
       custom_intercept_profile: googleNetworkSecuritySecurityProfileCustomInterceptProfileToTerraform(this._customInterceptProfile.internalValue),
       custom_mirroring_profile: googleNetworkSecuritySecurityProfileCustomMirroringProfileToTerraform(this._customMirroringProfile.internalValue),
       threat_prevention_profile: googleNetworkSecuritySecurityProfileThreatPreventionProfileToTerraform(this._threatPreventionProfile.internalValue),
@@ -1310,43 +1310,43 @@ export class GoogleNetworkSecuritySecurityProfile extends cdktf.TerraformResourc
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._labels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       parent: {
-        value: cdktf.stringToHclTerraform(this._parent),
+        value: cdktn.stringToHclTerraform(this._parent),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       type: {
-        value: cdktf.stringToHclTerraform(this._type),
+        value: cdktn.stringToHclTerraform(this._type),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

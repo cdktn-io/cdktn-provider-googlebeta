@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleFirebaseHostingChannelConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleFirebaseHostingChannelConfig extends cdktn.TerraformMetaArguments {
   /**
   * Required. Immutable. A unique ID within the site that identifies the channel.
   *
@@ -85,39 +85,39 @@ export interface GoogleFirebaseHostingChannelTimeouts {
   readonly update?: string;
 }
 
-export function googleFirebaseHostingChannelTimeoutsToTerraform(struct?: GoogleFirebaseHostingChannelTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleFirebaseHostingChannelTimeoutsToTerraform(struct?: GoogleFirebaseHostingChannelTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleFirebaseHostingChannelTimeoutsToHclTerraform(struct?: GoogleFirebaseHostingChannelTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleFirebaseHostingChannelTimeoutsToHclTerraform(struct?: GoogleFirebaseHostingChannelTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -128,19 +128,19 @@ export function googleFirebaseHostingChannelTimeoutsToHclTerraform(struct?: Goog
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleFirebaseHostingChannelTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleFirebaseHostingChannelTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleFirebaseHostingChannelTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleFirebaseHostingChannelTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -161,7 +161,7 @@ export class GoogleFirebaseHostingChannelTimeoutsOutputReference extends cdktf.C
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleFirebaseHostingChannelTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleFirebaseHostingChannelTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -169,7 +169,7 @@ export class GoogleFirebaseHostingChannelTimeoutsOutputReference extends cdktf.C
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -234,7 +234,7 @@ export class GoogleFirebaseHostingChannelTimeoutsOutputReference extends cdktf.C
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_hosting_channel google_firebase_hosting_channel}
 */
-export class GoogleFirebaseHostingChannel extends cdktf.TerraformResource {
+export class GoogleFirebaseHostingChannel extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -245,14 +245,14 @@ export class GoogleFirebaseHostingChannel extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleFirebaseHostingChannel resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleFirebaseHostingChannel resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleFirebaseHostingChannel to import
   * @param importFromId The id of the existing GoogleFirebaseHostingChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_hosting_channel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleFirebaseHostingChannel to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_firebase_hosting_channel", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_firebase_hosting_channel", importId: importFromId, provider });
       }
 
   // ===========
@@ -310,7 +310,7 @@ export class GoogleFirebaseHostingChannel extends cdktf.TerraformResource {
   }
 
   // effective_labels - computed: true, optional: false, required: false
-  private _effectiveLabels = new cdktf.StringMap(this, "effective_labels");
+  private _effectiveLabels = new cdktn.StringMap(this, "effective_labels");
   public get effectiveLabels() {
     return this._effectiveLabels;
   }
@@ -398,7 +398,7 @@ export class GoogleFirebaseHostingChannel extends cdktf.TerraformResource {
   }
 
   // terraform_labels - computed: true, optional: false, required: false
-  private _terraformLabels = new cdktf.StringMap(this, "terraform_labels");
+  private _terraformLabels = new cdktn.StringMap(this, "terraform_labels");
   public get terraformLabels() {
     return this._terraformLabels;
   }
@@ -441,13 +441,13 @@ export class GoogleFirebaseHostingChannel extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      channel_id: cdktf.stringToTerraform(this._channelId),
-      expire_time: cdktf.stringToTerraform(this._expireTime),
-      id: cdktf.stringToTerraform(this._id),
-      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
-      retained_release_count: cdktf.numberToTerraform(this._retainedReleaseCount),
-      site_id: cdktf.stringToTerraform(this._siteId),
-      ttl: cdktf.stringToTerraform(this._ttl),
+      channel_id: cdktn.stringToTerraform(this._channelId),
+      expire_time: cdktn.stringToTerraform(this._expireTime),
+      id: cdktn.stringToTerraform(this._id),
+      labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
+      retained_release_count: cdktn.numberToTerraform(this._retainedReleaseCount),
+      site_id: cdktn.stringToTerraform(this._siteId),
+      ttl: cdktn.stringToTerraform(this._ttl),
       timeouts: googleFirebaseHostingChannelTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -455,43 +455,43 @@ export class GoogleFirebaseHostingChannel extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       channel_id: {
-        value: cdktf.stringToHclTerraform(this._channelId),
+        value: cdktn.stringToHclTerraform(this._channelId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       expire_time: {
-        value: cdktf.stringToHclTerraform(this._expireTime),
+        value: cdktn.stringToHclTerraform(this._expireTime),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._labels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       retained_release_count: {
-        value: cdktf.numberToHclTerraform(this._retainedReleaseCount),
+        value: cdktn.numberToHclTerraform(this._retainedReleaseCount),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       site_id: {
-        value: cdktf.stringToHclTerraform(this._siteId),
+        value: cdktn.stringToHclTerraform(this._siteId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       ttl: {
-        value: cdktf.stringToHclTerraform(this._ttl),
+        value: cdktn.stringToHclTerraform(this._ttl),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

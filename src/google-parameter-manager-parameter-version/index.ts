@@ -7,17 +7,17 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleParameterManagerParameterVersionConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleParameterManagerParameterVersionConfig extends cdktn.TerraformMetaArguments {
   /**
   * The current state of Parameter Version. This field is only applicable for updating Parameter Version.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_parameter_manager_parameter_version#disabled GoogleParameterManagerParameterVersion#disabled}
   */
-  readonly disabled?: boolean | cdktf.IResolvable;
+  readonly disabled?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_parameter_manager_parameter_version#id GoogleParameterManagerParameterVersion#id}
   *
@@ -65,39 +65,39 @@ export interface GoogleParameterManagerParameterVersionTimeouts {
   readonly update?: string;
 }
 
-export function googleParameterManagerParameterVersionTimeoutsToTerraform(struct?: GoogleParameterManagerParameterVersionTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleParameterManagerParameterVersionTimeoutsToTerraform(struct?: GoogleParameterManagerParameterVersionTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleParameterManagerParameterVersionTimeoutsToHclTerraform(struct?: GoogleParameterManagerParameterVersionTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleParameterManagerParameterVersionTimeoutsToHclTerraform(struct?: GoogleParameterManagerParameterVersionTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -108,19 +108,19 @@ export function googleParameterManagerParameterVersionTimeoutsToHclTerraform(str
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleParameterManagerParameterVersionTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleParameterManagerParameterVersionTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleParameterManagerParameterVersionTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleParameterManagerParameterVersionTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -141,7 +141,7 @@ export class GoogleParameterManagerParameterVersionTimeoutsOutputReference exten
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleParameterManagerParameterVersionTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleParameterManagerParameterVersionTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -149,7 +149,7 @@ export class GoogleParameterManagerParameterVersionTimeoutsOutputReference exten
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -214,7 +214,7 @@ export class GoogleParameterManagerParameterVersionTimeoutsOutputReference exten
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_parameter_manager_parameter_version google_parameter_manager_parameter_version}
 */
-export class GoogleParameterManagerParameterVersion extends cdktf.TerraformResource {
+export class GoogleParameterManagerParameterVersion extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -225,14 +225,14 @@ export class GoogleParameterManagerParameterVersion extends cdktf.TerraformResou
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleParameterManagerParameterVersion resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleParameterManagerParameterVersion resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleParameterManagerParameterVersion to import
   * @param importFromId The id of the existing GoogleParameterManagerParameterVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_parameter_manager_parameter_version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleParameterManagerParameterVersion to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_parameter_manager_parameter_version", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_parameter_manager_parameter_version", importId: importFromId, provider });
       }
 
   // ===========
@@ -280,11 +280,11 @@ export class GoogleParameterManagerParameterVersion extends cdktf.TerraformResou
   }
 
   // disabled - computed: false, optional: true, required: false
-  private _disabled?: boolean | cdktf.IResolvable; 
+  private _disabled?: boolean | cdktn.IResolvable; 
   public get disabled() {
     return this.getBooleanAttribute('disabled');
   }
-  public set disabled(value: boolean | cdktf.IResolvable) {
+  public set disabled(value: boolean | cdktn.IResolvable) {
     this._disabled = value;
   }
   public resetDisabled() {
@@ -387,11 +387,11 @@ export class GoogleParameterManagerParameterVersion extends cdktf.TerraformResou
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      disabled: cdktf.booleanToTerraform(this._disabled),
-      id: cdktf.stringToTerraform(this._id),
-      parameter: cdktf.stringToTerraform(this._parameter),
-      parameter_data: cdktf.stringToTerraform(this._parameterData),
-      parameter_version_id: cdktf.stringToTerraform(this._parameterVersionId),
+      disabled: cdktn.booleanToTerraform(this._disabled),
+      id: cdktn.stringToTerraform(this._id),
+      parameter: cdktn.stringToTerraform(this._parameter),
+      parameter_data: cdktn.stringToTerraform(this._parameterData),
+      parameter_version_id: cdktn.stringToTerraform(this._parameterVersionId),
       timeouts: googleParameterManagerParameterVersionTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -399,31 +399,31 @@ export class GoogleParameterManagerParameterVersion extends cdktf.TerraformResou
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       disabled: {
-        value: cdktf.booleanToHclTerraform(this._disabled),
+        value: cdktn.booleanToHclTerraform(this._disabled),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       parameter: {
-        value: cdktf.stringToHclTerraform(this._parameter),
+        value: cdktn.stringToHclTerraform(this._parameter),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       parameter_data: {
-        value: cdktf.stringToHclTerraform(this._parameterData),
+        value: cdktn.stringToHclTerraform(this._parameterData),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       parameter_version_id: {
-        value: cdktf.stringToHclTerraform(this._parameterVersionId),
+        value: cdktn.stringToHclTerraform(this._parameterVersionId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

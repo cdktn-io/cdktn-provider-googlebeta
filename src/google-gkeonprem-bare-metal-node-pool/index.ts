@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleGkeonpremBareMetalNodePoolConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleGkeonpremBareMetalNodePoolConfig extends cdktn.TerraformMetaArguments {
   /**
   * Annotations on the Bare Metal Node Pool.
   * This field has the same restrictions as Kubernetes annotations.
@@ -81,8 +81,8 @@ export interface GoogleGkeonpremBareMetalNodePoolStatusConditions {
 }
 
 export function googleGkeonpremBareMetalNodePoolStatusConditionsToTerraform(struct?: GoogleGkeonpremBareMetalNodePoolStatusConditions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -91,8 +91,8 @@ export function googleGkeonpremBareMetalNodePoolStatusConditionsToTerraform(stru
 
 
 export function googleGkeonpremBareMetalNodePoolStatusConditionsToHclTerraform(struct?: GoogleGkeonpremBareMetalNodePoolStatusConditions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -100,7 +100,7 @@ export function googleGkeonpremBareMetalNodePoolStatusConditionsToHclTerraform(s
   return attrs;
 }
 
-export class GoogleGkeonpremBareMetalNodePoolStatusConditionsOutputReference extends cdktf.ComplexObject {
+export class GoogleGkeonpremBareMetalNodePoolStatusConditionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -109,7 +109,7 @@ export class GoogleGkeonpremBareMetalNodePoolStatusConditionsOutputReference ext
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -154,14 +154,14 @@ export class GoogleGkeonpremBareMetalNodePoolStatusConditionsOutputReference ext
   }
 }
 
-export class GoogleGkeonpremBareMetalNodePoolStatusConditionsList extends cdktf.ComplexList {
+export class GoogleGkeonpremBareMetalNodePoolStatusConditionsList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -176,8 +176,8 @@ export interface GoogleGkeonpremBareMetalNodePoolStatus {
 }
 
 export function googleGkeonpremBareMetalNodePoolStatusToTerraform(struct?: GoogleGkeonpremBareMetalNodePoolStatus): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -186,8 +186,8 @@ export function googleGkeonpremBareMetalNodePoolStatusToTerraform(struct?: Googl
 
 
 export function googleGkeonpremBareMetalNodePoolStatusToHclTerraform(struct?: GoogleGkeonpremBareMetalNodePoolStatus): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -195,7 +195,7 @@ export function googleGkeonpremBareMetalNodePoolStatusToHclTerraform(struct?: Go
   return attrs;
 }
 
-export class GoogleGkeonpremBareMetalNodePoolStatusOutputReference extends cdktf.ComplexObject {
+export class GoogleGkeonpremBareMetalNodePoolStatusOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -204,7 +204,7 @@ export class GoogleGkeonpremBareMetalNodePoolStatusOutputReference extends cdktf
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -235,14 +235,14 @@ export class GoogleGkeonpremBareMetalNodePoolStatusOutputReference extends cdktf
   }
 }
 
-export class GoogleGkeonpremBareMetalNodePoolStatusList extends cdktf.ComplexList {
+export class GoogleGkeonpremBareMetalNodePoolStatusList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -278,32 +278,32 @@ export interface GoogleGkeonpremBareMetalNodePoolNodePoolConfigNodeConfigs {
   readonly nodeIp?: string;
 }
 
-export function googleGkeonpremBareMetalNodePoolNodePoolConfigNodeConfigsToTerraform(struct?: GoogleGkeonpremBareMetalNodePoolNodePoolConfigNodeConfigs | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleGkeonpremBareMetalNodePoolNodePoolConfigNodeConfigsToTerraform(struct?: GoogleGkeonpremBareMetalNodePoolNodePoolConfigNodeConfigs | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    labels: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.labels),
-    node_ip: cdktf.stringToTerraform(struct!.nodeIp),
+    labels: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.labels),
+    node_ip: cdktn.stringToTerraform(struct!.nodeIp),
   }
 }
 
 
-export function googleGkeonpremBareMetalNodePoolNodePoolConfigNodeConfigsToHclTerraform(struct?: GoogleGkeonpremBareMetalNodePoolNodePoolConfigNodeConfigs | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleGkeonpremBareMetalNodePoolNodePoolConfigNodeConfigsToHclTerraform(struct?: GoogleGkeonpremBareMetalNodePoolNodePoolConfigNodeConfigs | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     labels: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.labels),
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.labels),
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
     },
     node_ip: {
-      value: cdktf.stringToHclTerraform(struct!.nodeIp),
+      value: cdktn.stringToHclTerraform(struct!.nodeIp),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -314,9 +314,9 @@ export function googleGkeonpremBareMetalNodePoolNodePoolConfigNodeConfigsToHclTe
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleGkeonpremBareMetalNodePoolNodePoolConfigNodeConfigsOutputReference extends cdktf.ComplexObject {
+export class GoogleGkeonpremBareMetalNodePoolNodePoolConfigNodeConfigsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -324,11 +324,11 @@ export class GoogleGkeonpremBareMetalNodePoolNodePoolConfigNodeConfigsOutputRefe
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleGkeonpremBareMetalNodePoolNodePoolConfigNodeConfigs | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleGkeonpremBareMetalNodePoolNodePoolConfigNodeConfigs | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -345,14 +345,14 @@ export class GoogleGkeonpremBareMetalNodePoolNodePoolConfigNodeConfigsOutputRefe
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleGkeonpremBareMetalNodePoolNodePoolConfigNodeConfigs | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleGkeonpremBareMetalNodePoolNodePoolConfigNodeConfigs | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._labels = undefined;
       this._nodeIp = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -397,15 +397,15 @@ export class GoogleGkeonpremBareMetalNodePoolNodePoolConfigNodeConfigsOutputRefe
   }
 }
 
-export class GoogleGkeonpremBareMetalNodePoolNodePoolConfigNodeConfigsList extends cdktf.ComplexList {
-  public internalValue? : GoogleGkeonpremBareMetalNodePoolNodePoolConfigNodeConfigs[] | cdktf.IResolvable
+export class GoogleGkeonpremBareMetalNodePoolNodePoolConfigNodeConfigsList extends cdktn.ComplexList {
+  public internalValue? : GoogleGkeonpremBareMetalNodePoolNodePoolConfigNodeConfigs[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -437,39 +437,39 @@ export interface GoogleGkeonpremBareMetalNodePoolNodePoolConfigTaints {
   readonly value?: string;
 }
 
-export function googleGkeonpremBareMetalNodePoolNodePoolConfigTaintsToTerraform(struct?: GoogleGkeonpremBareMetalNodePoolNodePoolConfigTaints | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleGkeonpremBareMetalNodePoolNodePoolConfigTaintsToTerraform(struct?: GoogleGkeonpremBareMetalNodePoolNodePoolConfigTaints | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    effect: cdktf.stringToTerraform(struct!.effect),
-    key: cdktf.stringToTerraform(struct!.key),
-    value: cdktf.stringToTerraform(struct!.value),
+    effect: cdktn.stringToTerraform(struct!.effect),
+    key: cdktn.stringToTerraform(struct!.key),
+    value: cdktn.stringToTerraform(struct!.value),
   }
 }
 
 
-export function googleGkeonpremBareMetalNodePoolNodePoolConfigTaintsToHclTerraform(struct?: GoogleGkeonpremBareMetalNodePoolNodePoolConfigTaints | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleGkeonpremBareMetalNodePoolNodePoolConfigTaintsToHclTerraform(struct?: GoogleGkeonpremBareMetalNodePoolNodePoolConfigTaints | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     effect: {
-      value: cdktf.stringToHclTerraform(struct!.effect),
+      value: cdktn.stringToHclTerraform(struct!.effect),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     key: {
-      value: cdktf.stringToHclTerraform(struct!.key),
+      value: cdktn.stringToHclTerraform(struct!.key),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     value: {
-      value: cdktf.stringToHclTerraform(struct!.value),
+      value: cdktn.stringToHclTerraform(struct!.value),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -480,9 +480,9 @@ export function googleGkeonpremBareMetalNodePoolNodePoolConfigTaintsToHclTerrafo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleGkeonpremBareMetalNodePoolNodePoolConfigTaintsOutputReference extends cdktf.ComplexObject {
+export class GoogleGkeonpremBareMetalNodePoolNodePoolConfigTaintsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -490,11 +490,11 @@ export class GoogleGkeonpremBareMetalNodePoolNodePoolConfigTaintsOutputReference
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleGkeonpremBareMetalNodePoolNodePoolConfigTaints | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleGkeonpremBareMetalNodePoolNodePoolConfigTaints | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -515,7 +515,7 @@ export class GoogleGkeonpremBareMetalNodePoolNodePoolConfigTaintsOutputReference
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleGkeonpremBareMetalNodePoolNodePoolConfigTaints | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleGkeonpremBareMetalNodePoolNodePoolConfigTaints | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -523,7 +523,7 @@ export class GoogleGkeonpremBareMetalNodePoolNodePoolConfigTaintsOutputReference
       this._key = undefined;
       this._value = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -585,15 +585,15 @@ export class GoogleGkeonpremBareMetalNodePoolNodePoolConfigTaintsOutputReference
   }
 }
 
-export class GoogleGkeonpremBareMetalNodePoolNodePoolConfigTaintsList extends cdktf.ComplexList {
-  public internalValue? : GoogleGkeonpremBareMetalNodePoolNodePoolConfigTaints[] | cdktf.IResolvable
+export class GoogleGkeonpremBareMetalNodePoolNodePoolConfigTaintsList extends cdktn.ComplexList {
+  public internalValue? : GoogleGkeonpremBareMetalNodePoolNodePoolConfigTaints[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -631,55 +631,55 @@ export interface GoogleGkeonpremBareMetalNodePoolNodePoolConfig {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_node_pool#node_configs GoogleGkeonpremBareMetalNodePool#node_configs}
   */
-  readonly nodeConfigs: GoogleGkeonpremBareMetalNodePoolNodePoolConfigNodeConfigs[] | cdktf.IResolvable;
+  readonly nodeConfigs: GoogleGkeonpremBareMetalNodePoolNodePoolConfigNodeConfigs[] | cdktn.IResolvable;
   /**
   * taints block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_node_pool#taints GoogleGkeonpremBareMetalNodePool#taints}
   */
-  readonly taints?: GoogleGkeonpremBareMetalNodePoolNodePoolConfigTaints[] | cdktf.IResolvable;
+  readonly taints?: GoogleGkeonpremBareMetalNodePoolNodePoolConfigTaints[] | cdktn.IResolvable;
 }
 
 export function googleGkeonpremBareMetalNodePoolNodePoolConfigToTerraform(struct?: GoogleGkeonpremBareMetalNodePoolNodePoolConfigOutputReference | GoogleGkeonpremBareMetalNodePoolNodePoolConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    labels: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.labels),
-    operating_system: cdktf.stringToTerraform(struct!.operatingSystem),
-    node_configs: cdktf.listMapper(googleGkeonpremBareMetalNodePoolNodePoolConfigNodeConfigsToTerraform, true)(struct!.nodeConfigs),
-    taints: cdktf.listMapper(googleGkeonpremBareMetalNodePoolNodePoolConfigTaintsToTerraform, true)(struct!.taints),
+    labels: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.labels),
+    operating_system: cdktn.stringToTerraform(struct!.operatingSystem),
+    node_configs: cdktn.listMapper(googleGkeonpremBareMetalNodePoolNodePoolConfigNodeConfigsToTerraform, true)(struct!.nodeConfigs),
+    taints: cdktn.listMapper(googleGkeonpremBareMetalNodePoolNodePoolConfigTaintsToTerraform, true)(struct!.taints),
   }
 }
 
 
 export function googleGkeonpremBareMetalNodePoolNodePoolConfigToHclTerraform(struct?: GoogleGkeonpremBareMetalNodePoolNodePoolConfigOutputReference | GoogleGkeonpremBareMetalNodePoolNodePoolConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     labels: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.labels),
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.labels),
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
     },
     operating_system: {
-      value: cdktf.stringToHclTerraform(struct!.operatingSystem),
+      value: cdktn.stringToHclTerraform(struct!.operatingSystem),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     node_configs: {
-      value: cdktf.listMapperHcl(googleGkeonpremBareMetalNodePoolNodePoolConfigNodeConfigsToHclTerraform, true)(struct!.nodeConfigs),
+      value: cdktn.listMapperHcl(googleGkeonpremBareMetalNodePoolNodePoolConfigNodeConfigsToHclTerraform, true)(struct!.nodeConfigs),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleGkeonpremBareMetalNodePoolNodePoolConfigNodeConfigsList",
     },
     taints: {
-      value: cdktf.listMapperHcl(googleGkeonpremBareMetalNodePoolNodePoolConfigTaintsToHclTerraform, true)(struct!.taints),
+      value: cdktn.listMapperHcl(googleGkeonpremBareMetalNodePoolNodePoolConfigTaintsToHclTerraform, true)(struct!.taints),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleGkeonpremBareMetalNodePoolNodePoolConfigTaintsList",
@@ -690,14 +690,14 @@ export function googleGkeonpremBareMetalNodePoolNodePoolConfigToHclTerraform(str
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleGkeonpremBareMetalNodePoolNodePoolConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleGkeonpremBareMetalNodePoolNodePoolConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -777,7 +777,7 @@ export class GoogleGkeonpremBareMetalNodePoolNodePoolConfigOutputReference exten
   public get nodeConfigs() {
     return this._nodeConfigs;
   }
-  public putNodeConfigs(value: GoogleGkeonpremBareMetalNodePoolNodePoolConfigNodeConfigs[] | cdktf.IResolvable) {
+  public putNodeConfigs(value: GoogleGkeonpremBareMetalNodePoolNodePoolConfigNodeConfigs[] | cdktn.IResolvable) {
     this._nodeConfigs.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -790,7 +790,7 @@ export class GoogleGkeonpremBareMetalNodePoolNodePoolConfigOutputReference exten
   public get taints() {
     return this._taints;
   }
-  public putTaints(value: GoogleGkeonpremBareMetalNodePoolNodePoolConfigTaints[] | cdktf.IResolvable) {
+  public putTaints(value: GoogleGkeonpremBareMetalNodePoolNodePoolConfigTaints[] | cdktn.IResolvable) {
     this._taints.internalValue = value;
   }
   public resetTaints() {
@@ -816,39 +816,39 @@ export interface GoogleGkeonpremBareMetalNodePoolTimeouts {
   readonly update?: string;
 }
 
-export function googleGkeonpremBareMetalNodePoolTimeoutsToTerraform(struct?: GoogleGkeonpremBareMetalNodePoolTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleGkeonpremBareMetalNodePoolTimeoutsToTerraform(struct?: GoogleGkeonpremBareMetalNodePoolTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleGkeonpremBareMetalNodePoolTimeoutsToHclTerraform(struct?: GoogleGkeonpremBareMetalNodePoolTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleGkeonpremBareMetalNodePoolTimeoutsToHclTerraform(struct?: GoogleGkeonpremBareMetalNodePoolTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -859,19 +859,19 @@ export function googleGkeonpremBareMetalNodePoolTimeoutsToHclTerraform(struct?: 
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleGkeonpremBareMetalNodePoolTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleGkeonpremBareMetalNodePoolTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleGkeonpremBareMetalNodePoolTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleGkeonpremBareMetalNodePoolTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -892,7 +892,7 @@ export class GoogleGkeonpremBareMetalNodePoolTimeoutsOutputReference extends cdk
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleGkeonpremBareMetalNodePoolTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleGkeonpremBareMetalNodePoolTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -900,7 +900,7 @@ export class GoogleGkeonpremBareMetalNodePoolTimeoutsOutputReference extends cdk
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -965,7 +965,7 @@ export class GoogleGkeonpremBareMetalNodePoolTimeoutsOutputReference extends cdk
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_node_pool google_gkeonprem_bare_metal_node_pool}
 */
-export class GoogleGkeonpremBareMetalNodePool extends cdktf.TerraformResource {
+export class GoogleGkeonpremBareMetalNodePool extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -976,14 +976,14 @@ export class GoogleGkeonpremBareMetalNodePool extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleGkeonpremBareMetalNodePool resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleGkeonpremBareMetalNodePool resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleGkeonpremBareMetalNodePool to import
   * @param importFromId The id of the existing GoogleGkeonpremBareMetalNodePool that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_node_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleGkeonpremBareMetalNodePool to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_gkeonprem_bare_metal_node_pool", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_gkeonprem_bare_metal_node_pool", importId: importFromId, provider });
       }
 
   // ===========
@@ -1084,7 +1084,7 @@ export class GoogleGkeonpremBareMetalNodePool extends cdktf.TerraformResource {
   }
 
   // effective_annotations - computed: true, optional: false, required: false
-  private _effectiveAnnotations = new cdktf.StringMap(this, "effective_annotations");
+  private _effectiveAnnotations = new cdktn.StringMap(this, "effective_annotations");
   public get effectiveAnnotations() {
     return this._effectiveAnnotations;
   }
@@ -1213,13 +1213,13 @@ export class GoogleGkeonpremBareMetalNodePool extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      annotations: cdktf.hashMapper(cdktf.stringToTerraform)(this._annotations),
-      bare_metal_cluster: cdktf.stringToTerraform(this._bareMetalCluster),
-      display_name: cdktf.stringToTerraform(this._displayName),
-      id: cdktf.stringToTerraform(this._id),
-      location: cdktf.stringToTerraform(this._location),
-      name: cdktf.stringToTerraform(this._name),
-      project: cdktf.stringToTerraform(this._project),
+      annotations: cdktn.hashMapper(cdktn.stringToTerraform)(this._annotations),
+      bare_metal_cluster: cdktn.stringToTerraform(this._bareMetalCluster),
+      display_name: cdktn.stringToTerraform(this._displayName),
+      id: cdktn.stringToTerraform(this._id),
+      location: cdktn.stringToTerraform(this._location),
+      name: cdktn.stringToTerraform(this._name),
+      project: cdktn.stringToTerraform(this._project),
       node_pool_config: googleGkeonpremBareMetalNodePoolNodePoolConfigToTerraform(this._nodePoolConfig.internalValue),
       timeouts: googleGkeonpremBareMetalNodePoolTimeoutsToTerraform(this._timeouts.internalValue),
     };
@@ -1228,43 +1228,43 @@ export class GoogleGkeonpremBareMetalNodePool extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       annotations: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._annotations),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._annotations),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       bare_metal_cluster: {
-        value: cdktf.stringToHclTerraform(this._bareMetalCluster),
+        value: cdktn.stringToHclTerraform(this._bareMetalCluster),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       display_name: {
-        value: cdktf.stringToHclTerraform(this._displayName),
+        value: cdktn.stringToHclTerraform(this._displayName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

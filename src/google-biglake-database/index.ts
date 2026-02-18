@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleBiglakeDatabaseConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleBiglakeDatabaseConfig extends cdktn.TerraformMetaArguments {
   /**
   * The parent catalog.
   *
@@ -68,31 +68,31 @@ export interface GoogleBiglakeDatabaseHiveOptions {
 }
 
 export function googleBiglakeDatabaseHiveOptionsToTerraform(struct?: GoogleBiglakeDatabaseHiveOptionsOutputReference | GoogleBiglakeDatabaseHiveOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    location_uri: cdktf.stringToTerraform(struct!.locationUri),
-    parameters: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.parameters),
+    location_uri: cdktn.stringToTerraform(struct!.locationUri),
+    parameters: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.parameters),
   }
 }
 
 
 export function googleBiglakeDatabaseHiveOptionsToHclTerraform(struct?: GoogleBiglakeDatabaseHiveOptionsOutputReference | GoogleBiglakeDatabaseHiveOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     location_uri: {
-      value: cdktf.stringToHclTerraform(struct!.locationUri),
+      value: cdktn.stringToHclTerraform(struct!.locationUri),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     parameters: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.parameters),
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.parameters),
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
@@ -103,14 +103,14 @@ export function googleBiglakeDatabaseHiveOptionsToHclTerraform(struct?: GoogleBi
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleBiglakeDatabaseHiveOptionsOutputReference extends cdktf.ComplexObject {
+export class GoogleBiglakeDatabaseHiveOptionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -188,39 +188,39 @@ export interface GoogleBiglakeDatabaseTimeouts {
   readonly update?: string;
 }
 
-export function googleBiglakeDatabaseTimeoutsToTerraform(struct?: GoogleBiglakeDatabaseTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleBiglakeDatabaseTimeoutsToTerraform(struct?: GoogleBiglakeDatabaseTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleBiglakeDatabaseTimeoutsToHclTerraform(struct?: GoogleBiglakeDatabaseTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleBiglakeDatabaseTimeoutsToHclTerraform(struct?: GoogleBiglakeDatabaseTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -231,19 +231,19 @@ export function googleBiglakeDatabaseTimeoutsToHclTerraform(struct?: GoogleBigla
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleBiglakeDatabaseTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleBiglakeDatabaseTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleBiglakeDatabaseTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleBiglakeDatabaseTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -264,7 +264,7 @@ export class GoogleBiglakeDatabaseTimeoutsOutputReference extends cdktf.ComplexO
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleBiglakeDatabaseTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleBiglakeDatabaseTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -272,7 +272,7 @@ export class GoogleBiglakeDatabaseTimeoutsOutputReference extends cdktf.ComplexO
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -337,7 +337,7 @@ export class GoogleBiglakeDatabaseTimeoutsOutputReference extends cdktf.ComplexO
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_biglake_database google_biglake_database}
 */
-export class GoogleBiglakeDatabase extends cdktf.TerraformResource {
+export class GoogleBiglakeDatabase extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -348,14 +348,14 @@ export class GoogleBiglakeDatabase extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleBiglakeDatabase resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleBiglakeDatabase resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleBiglakeDatabase to import
   * @param importFromId The id of the existing GoogleBiglakeDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_biglake_database#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleBiglakeDatabase to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_biglake_database", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_biglake_database", importId: importFromId, provider });
       }
 
   // ===========
@@ -507,10 +507,10 @@ export class GoogleBiglakeDatabase extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      catalog: cdktf.stringToTerraform(this._catalog),
-      id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
-      type: cdktf.stringToTerraform(this._type),
+      catalog: cdktn.stringToTerraform(this._catalog),
+      id: cdktn.stringToTerraform(this._id),
+      name: cdktn.stringToTerraform(this._name),
+      type: cdktn.stringToTerraform(this._type),
       hive_options: googleBiglakeDatabaseHiveOptionsToTerraform(this._hiveOptions.internalValue),
       timeouts: googleBiglakeDatabaseTimeoutsToTerraform(this._timeouts.internalValue),
     };
@@ -519,25 +519,25 @@ export class GoogleBiglakeDatabase extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       catalog: {
-        value: cdktf.stringToHclTerraform(this._catalog),
+        value: cdktn.stringToHclTerraform(this._catalog),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       type: {
-        value: cdktf.stringToHclTerraform(this._type),
+        value: cdktn.stringToHclTerraform(this._type),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

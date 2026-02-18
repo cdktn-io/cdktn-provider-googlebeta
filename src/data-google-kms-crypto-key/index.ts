@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface DataGoogleKmsCryptoKeyConfig extends cdktf.TerraformMetaArguments {
+export interface DataGoogleKmsCryptoKeyConfig extends cdktn.TerraformMetaArguments {
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_kms_crypto_key#id DataGoogleKmsCryptoKey#id}
   *
@@ -37,8 +37,8 @@ export interface DataGoogleKmsCryptoKeyKeyAccessJustificationsPolicy {
 }
 
 export function dataGoogleKmsCryptoKeyKeyAccessJustificationsPolicyToTerraform(struct?: DataGoogleKmsCryptoKeyKeyAccessJustificationsPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -47,8 +47,8 @@ export function dataGoogleKmsCryptoKeyKeyAccessJustificationsPolicyToTerraform(s
 
 
 export function dataGoogleKmsCryptoKeyKeyAccessJustificationsPolicyToHclTerraform(struct?: DataGoogleKmsCryptoKeyKeyAccessJustificationsPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -56,7 +56,7 @@ export function dataGoogleKmsCryptoKeyKeyAccessJustificationsPolicyToHclTerrafor
   return attrs;
 }
 
-export class DataGoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReference extends cdktf.ComplexObject {
+export class DataGoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -65,7 +65,7 @@ export class DataGoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReference 
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -90,14 +90,14 @@ export class DataGoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReference 
   }
 }
 
-export class DataGoogleKmsCryptoKeyKeyAccessJustificationsPolicyList extends cdktf.ComplexList {
+export class DataGoogleKmsCryptoKeyKeyAccessJustificationsPolicyList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -112,8 +112,8 @@ export interface DataGoogleKmsCryptoKeyPrimary {
 }
 
 export function dataGoogleKmsCryptoKeyPrimaryToTerraform(struct?: DataGoogleKmsCryptoKeyPrimary): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -122,8 +122,8 @@ export function dataGoogleKmsCryptoKeyPrimaryToTerraform(struct?: DataGoogleKmsC
 
 
 export function dataGoogleKmsCryptoKeyPrimaryToHclTerraform(struct?: DataGoogleKmsCryptoKeyPrimary): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -131,7 +131,7 @@ export function dataGoogleKmsCryptoKeyPrimaryToHclTerraform(struct?: DataGoogleK
   return attrs;
 }
 
-export class DataGoogleKmsCryptoKeyPrimaryOutputReference extends cdktf.ComplexObject {
+export class DataGoogleKmsCryptoKeyPrimaryOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -140,7 +140,7 @@ export class DataGoogleKmsCryptoKeyPrimaryOutputReference extends cdktf.ComplexO
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -170,14 +170,14 @@ export class DataGoogleKmsCryptoKeyPrimaryOutputReference extends cdktf.ComplexO
   }
 }
 
-export class DataGoogleKmsCryptoKeyPrimaryList extends cdktf.ComplexList {
+export class DataGoogleKmsCryptoKeyPrimaryList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -192,8 +192,8 @@ export interface DataGoogleKmsCryptoKeyVersionTemplate {
 }
 
 export function dataGoogleKmsCryptoKeyVersionTemplateToTerraform(struct?: DataGoogleKmsCryptoKeyVersionTemplate): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -202,8 +202,8 @@ export function dataGoogleKmsCryptoKeyVersionTemplateToTerraform(struct?: DataGo
 
 
 export function dataGoogleKmsCryptoKeyVersionTemplateToHclTerraform(struct?: DataGoogleKmsCryptoKeyVersionTemplate): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -211,7 +211,7 @@ export function dataGoogleKmsCryptoKeyVersionTemplateToHclTerraform(struct?: Dat
   return attrs;
 }
 
-export class DataGoogleKmsCryptoKeyVersionTemplateOutputReference extends cdktf.ComplexObject {
+export class DataGoogleKmsCryptoKeyVersionTemplateOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -220,7 +220,7 @@ export class DataGoogleKmsCryptoKeyVersionTemplateOutputReference extends cdktf.
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -250,14 +250,14 @@ export class DataGoogleKmsCryptoKeyVersionTemplateOutputReference extends cdktf.
   }
 }
 
-export class DataGoogleKmsCryptoKeyVersionTemplateList extends cdktf.ComplexList {
+export class DataGoogleKmsCryptoKeyVersionTemplateList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -272,7 +272,7 @@ export class DataGoogleKmsCryptoKeyVersionTemplateList extends cdktf.ComplexList
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_kms_crypto_key google_kms_crypto_key}
 */
-export class DataGoogleKmsCryptoKey extends cdktf.TerraformDataSource {
+export class DataGoogleKmsCryptoKey extends cdktn.TerraformDataSource {
 
   // =================
   // STATIC PROPERTIES
@@ -283,14 +283,14 @@ export class DataGoogleKmsCryptoKey extends cdktf.TerraformDataSource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a DataGoogleKmsCryptoKey resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a DataGoogleKmsCryptoKey resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGoogleKmsCryptoKey to import
   * @param importFromId The id of the existing DataGoogleKmsCryptoKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_kms_crypto_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGoogleKmsCryptoKey to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_kms_crypto_key", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_kms_crypto_key", importId: importFromId, provider });
       }
 
   // ===========
@@ -340,7 +340,7 @@ export class DataGoogleKmsCryptoKey extends cdktf.TerraformDataSource {
   }
 
   // effective_labels - computed: true, optional: false, required: false
-  private _effectiveLabels = new cdktf.StringMap(this, "effective_labels");
+  private _effectiveLabels = new cdktn.StringMap(this, "effective_labels");
   public get effectiveLabels() {
     return this._effectiveLabels;
   }
@@ -386,7 +386,7 @@ export class DataGoogleKmsCryptoKey extends cdktf.TerraformDataSource {
   }
 
   // labels - computed: true, optional: false, required: false
-  private _labels = new cdktf.StringMap(this, "labels");
+  private _labels = new cdktn.StringMap(this, "labels");
   public get labels() {
     return this._labels;
   }
@@ -426,7 +426,7 @@ export class DataGoogleKmsCryptoKey extends cdktf.TerraformDataSource {
   }
 
   // terraform_labels - computed: true, optional: false, required: false
-  private _terraformLabels = new cdktf.StringMap(this, "terraform_labels");
+  private _terraformLabels = new cdktn.StringMap(this, "terraform_labels");
   public get terraformLabels() {
     return this._terraformLabels;
   }
@@ -443,28 +443,28 @@ export class DataGoogleKmsCryptoKey extends cdktf.TerraformDataSource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      id: cdktf.stringToTerraform(this._id),
-      key_ring: cdktf.stringToTerraform(this._keyRing),
-      name: cdktf.stringToTerraform(this._name),
+      id: cdktn.stringToTerraform(this._id),
+      key_ring: cdktn.stringToTerraform(this._keyRing),
+      name: cdktn.stringToTerraform(this._name),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       key_ring: {
-        value: cdktf.stringToHclTerraform(this._keyRing),
+        value: cdktn.stringToHclTerraform(this._keyRing),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

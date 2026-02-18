@@ -7,17 +7,17 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleSourcerepoRepositoryConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleSourcerepoRepositoryConfig extends cdktn.TerraformMetaArguments {
   /**
   * If set to true, skip repository creation if a repository with the same name already exists.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sourcerepo_repository#create_ignore_already_exists GoogleSourcerepoRepository#create_ignore_already_exists}
   */
-  readonly createIgnoreAlreadyExists?: boolean | cdktf.IResolvable;
+  readonly createIgnoreAlreadyExists?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sourcerepo_repository#id GoogleSourcerepoRepository#id}
   *
@@ -41,7 +41,7 @@ export interface GoogleSourcerepoRepositoryConfig extends cdktf.TerraformMetaArg
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sourcerepo_repository#pubsub_configs GoogleSourcerepoRepository#pubsub_configs}
   */
-  readonly pubsubConfigs?: GoogleSourcerepoRepositoryPubsubConfigs[] | cdktf.IResolvable;
+  readonly pubsubConfigs?: GoogleSourcerepoRepositoryPubsubConfigs[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
@@ -73,39 +73,39 @@ export interface GoogleSourcerepoRepositoryPubsubConfigs {
   readonly topic: string;
 }
 
-export function googleSourcerepoRepositoryPubsubConfigsToTerraform(struct?: GoogleSourcerepoRepositoryPubsubConfigs | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleSourcerepoRepositoryPubsubConfigsToTerraform(struct?: GoogleSourcerepoRepositoryPubsubConfigs | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    message_format: cdktf.stringToTerraform(struct!.messageFormat),
-    service_account_email: cdktf.stringToTerraform(struct!.serviceAccountEmail),
-    topic: cdktf.stringToTerraform(struct!.topic),
+    message_format: cdktn.stringToTerraform(struct!.messageFormat),
+    service_account_email: cdktn.stringToTerraform(struct!.serviceAccountEmail),
+    topic: cdktn.stringToTerraform(struct!.topic),
   }
 }
 
 
-export function googleSourcerepoRepositoryPubsubConfigsToHclTerraform(struct?: GoogleSourcerepoRepositoryPubsubConfigs | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleSourcerepoRepositoryPubsubConfigsToHclTerraform(struct?: GoogleSourcerepoRepositoryPubsubConfigs | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     message_format: {
-      value: cdktf.stringToHclTerraform(struct!.messageFormat),
+      value: cdktn.stringToHclTerraform(struct!.messageFormat),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     service_account_email: {
-      value: cdktf.stringToHclTerraform(struct!.serviceAccountEmail),
+      value: cdktn.stringToHclTerraform(struct!.serviceAccountEmail),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     topic: {
-      value: cdktf.stringToHclTerraform(struct!.topic),
+      value: cdktn.stringToHclTerraform(struct!.topic),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -116,9 +116,9 @@ export function googleSourcerepoRepositoryPubsubConfigsToHclTerraform(struct?: G
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleSourcerepoRepositoryPubsubConfigsOutputReference extends cdktf.ComplexObject {
+export class GoogleSourcerepoRepositoryPubsubConfigsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -126,11 +126,11 @@ export class GoogleSourcerepoRepositoryPubsubConfigsOutputReference extends cdkt
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleSourcerepoRepositoryPubsubConfigs | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleSourcerepoRepositoryPubsubConfigs | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -151,7 +151,7 @@ export class GoogleSourcerepoRepositoryPubsubConfigsOutputReference extends cdkt
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleSourcerepoRepositoryPubsubConfigs | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleSourcerepoRepositoryPubsubConfigs | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -159,7 +159,7 @@ export class GoogleSourcerepoRepositoryPubsubConfigsOutputReference extends cdkt
       this._serviceAccountEmail = undefined;
       this._topic = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -215,15 +215,15 @@ export class GoogleSourcerepoRepositoryPubsubConfigsOutputReference extends cdkt
   }
 }
 
-export class GoogleSourcerepoRepositoryPubsubConfigsList extends cdktf.ComplexList {
-  public internalValue? : GoogleSourcerepoRepositoryPubsubConfigs[] | cdktf.IResolvable
+export class GoogleSourcerepoRepositoryPubsubConfigsList extends cdktn.ComplexList {
+  public internalValue? : GoogleSourcerepoRepositoryPubsubConfigs[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -249,39 +249,39 @@ export interface GoogleSourcerepoRepositoryTimeouts {
   readonly update?: string;
 }
 
-export function googleSourcerepoRepositoryTimeoutsToTerraform(struct?: GoogleSourcerepoRepositoryTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleSourcerepoRepositoryTimeoutsToTerraform(struct?: GoogleSourcerepoRepositoryTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleSourcerepoRepositoryTimeoutsToHclTerraform(struct?: GoogleSourcerepoRepositoryTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleSourcerepoRepositoryTimeoutsToHclTerraform(struct?: GoogleSourcerepoRepositoryTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -292,19 +292,19 @@ export function googleSourcerepoRepositoryTimeoutsToHclTerraform(struct?: Google
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleSourcerepoRepositoryTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleSourcerepoRepositoryTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleSourcerepoRepositoryTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleSourcerepoRepositoryTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -325,7 +325,7 @@ export class GoogleSourcerepoRepositoryTimeoutsOutputReference extends cdktf.Com
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleSourcerepoRepositoryTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleSourcerepoRepositoryTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -333,7 +333,7 @@ export class GoogleSourcerepoRepositoryTimeoutsOutputReference extends cdktf.Com
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -398,7 +398,7 @@ export class GoogleSourcerepoRepositoryTimeoutsOutputReference extends cdktf.Com
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sourcerepo_repository google_sourcerepo_repository}
 */
-export class GoogleSourcerepoRepository extends cdktf.TerraformResource {
+export class GoogleSourcerepoRepository extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -409,14 +409,14 @@ export class GoogleSourcerepoRepository extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleSourcerepoRepository resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleSourcerepoRepository resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleSourcerepoRepository to import
   * @param importFromId The id of the existing GoogleSourcerepoRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sourcerepo_repository#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleSourcerepoRepository to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_sourcerepo_repository", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_sourcerepo_repository", importId: importFromId, provider });
       }
 
   // ===========
@@ -459,11 +459,11 @@ export class GoogleSourcerepoRepository extends cdktf.TerraformResource {
   // ==========
 
   // create_ignore_already_exists - computed: false, optional: true, required: false
-  private _createIgnoreAlreadyExists?: boolean | cdktf.IResolvable; 
+  private _createIgnoreAlreadyExists?: boolean | cdktn.IResolvable; 
   public get createIgnoreAlreadyExists() {
     return this.getBooleanAttribute('create_ignore_already_exists');
   }
-  public set createIgnoreAlreadyExists(value: boolean | cdktf.IResolvable) {
+  public set createIgnoreAlreadyExists(value: boolean | cdktn.IResolvable) {
     this._createIgnoreAlreadyExists = value;
   }
   public resetCreateIgnoreAlreadyExists() {
@@ -534,7 +534,7 @@ export class GoogleSourcerepoRepository extends cdktf.TerraformResource {
   public get pubsubConfigs() {
     return this._pubsubConfigs;
   }
-  public putPubsubConfigs(value: GoogleSourcerepoRepositoryPubsubConfigs[] | cdktf.IResolvable) {
+  public putPubsubConfigs(value: GoogleSourcerepoRepositoryPubsubConfigs[] | cdktn.IResolvable) {
     this._pubsubConfigs.internalValue = value;
   }
   public resetPubsubConfigs() {
@@ -567,11 +567,11 @@ export class GoogleSourcerepoRepository extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      create_ignore_already_exists: cdktf.booleanToTerraform(this._createIgnoreAlreadyExists),
-      id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
-      project: cdktf.stringToTerraform(this._project),
-      pubsub_configs: cdktf.listMapper(googleSourcerepoRepositoryPubsubConfigsToTerraform, true)(this._pubsubConfigs.internalValue),
+      create_ignore_already_exists: cdktn.booleanToTerraform(this._createIgnoreAlreadyExists),
+      id: cdktn.stringToTerraform(this._id),
+      name: cdktn.stringToTerraform(this._name),
+      project: cdktn.stringToTerraform(this._project),
+      pubsub_configs: cdktn.listMapper(googleSourcerepoRepositoryPubsubConfigsToTerraform, true)(this._pubsubConfigs.internalValue),
       timeouts: googleSourcerepoRepositoryTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -579,31 +579,31 @@ export class GoogleSourcerepoRepository extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       create_ignore_already_exists: {
-        value: cdktf.booleanToHclTerraform(this._createIgnoreAlreadyExists),
+        value: cdktn.booleanToHclTerraform(this._createIgnoreAlreadyExists),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       pubsub_configs: {
-        value: cdktf.listMapperHcl(googleSourcerepoRepositoryPubsubConfigsToHclTerraform, true)(this._pubsubConfigs.internalValue),
+        value: cdktn.listMapperHcl(googleSourcerepoRepositoryPubsubConfigsToHclTerraform, true)(this._pubsubConfigs.internalValue),
         isBlock: true,
         type: "set",
         storageClassType: "GoogleSourcerepoRepositoryPubsubConfigsList",

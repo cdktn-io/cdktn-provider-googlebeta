@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleHealthcareConsentStoreConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleHealthcareConsentStoreConfig extends cdktn.TerraformMetaArguments {
   /**
   * Identifies the dataset addressed by this request. Must be in the format
   * 'projects/{project}/locations/{location}/datasets/{dataset}'
@@ -32,7 +32,7 @@ export interface GoogleHealthcareConsentStoreConfig extends cdktf.TerraformMetaA
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_consent_store#enable_consent_create_on_update GoogleHealthcareConsentStore#enable_consent_create_on_update}
   */
-  readonly enableConsentCreateOnUpdate?: boolean | cdktf.IResolvable;
+  readonly enableConsentCreateOnUpdate?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_consent_store#id GoogleHealthcareConsentStore#id}
   *
@@ -90,39 +90,39 @@ export interface GoogleHealthcareConsentStoreTimeouts {
   readonly update?: string;
 }
 
-export function googleHealthcareConsentStoreTimeoutsToTerraform(struct?: GoogleHealthcareConsentStoreTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleHealthcareConsentStoreTimeoutsToTerraform(struct?: GoogleHealthcareConsentStoreTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleHealthcareConsentStoreTimeoutsToHclTerraform(struct?: GoogleHealthcareConsentStoreTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleHealthcareConsentStoreTimeoutsToHclTerraform(struct?: GoogleHealthcareConsentStoreTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -133,19 +133,19 @@ export function googleHealthcareConsentStoreTimeoutsToHclTerraform(struct?: Goog
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleHealthcareConsentStoreTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleHealthcareConsentStoreTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleHealthcareConsentStoreTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleHealthcareConsentStoreTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -166,7 +166,7 @@ export class GoogleHealthcareConsentStoreTimeoutsOutputReference extends cdktf.C
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleHealthcareConsentStoreTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleHealthcareConsentStoreTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -174,7 +174,7 @@ export class GoogleHealthcareConsentStoreTimeoutsOutputReference extends cdktf.C
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -239,7 +239,7 @@ export class GoogleHealthcareConsentStoreTimeoutsOutputReference extends cdktf.C
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_consent_store google_healthcare_consent_store}
 */
-export class GoogleHealthcareConsentStore extends cdktf.TerraformResource {
+export class GoogleHealthcareConsentStore extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -250,14 +250,14 @@ export class GoogleHealthcareConsentStore extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleHealthcareConsentStore resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleHealthcareConsentStore resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleHealthcareConsentStore to import
   * @param importFromId The id of the existing GoogleHealthcareConsentStore that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_consent_store#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleHealthcareConsentStore to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_healthcare_consent_store", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_healthcare_consent_store", importId: importFromId, provider });
       }
 
   // ===========
@@ -330,17 +330,17 @@ export class GoogleHealthcareConsentStore extends cdktf.TerraformResource {
   }
 
   // effective_labels - computed: true, optional: false, required: false
-  private _effectiveLabels = new cdktf.StringMap(this, "effective_labels");
+  private _effectiveLabels = new cdktn.StringMap(this, "effective_labels");
   public get effectiveLabels() {
     return this._effectiveLabels;
   }
 
   // enable_consent_create_on_update - computed: false, optional: true, required: false
-  private _enableConsentCreateOnUpdate?: boolean | cdktf.IResolvable; 
+  private _enableConsentCreateOnUpdate?: boolean | cdktn.IResolvable; 
   public get enableConsentCreateOnUpdate() {
     return this.getBooleanAttribute('enable_consent_create_on_update');
   }
-  public set enableConsentCreateOnUpdate(value: boolean | cdktf.IResolvable) {
+  public set enableConsentCreateOnUpdate(value: boolean | cdktn.IResolvable) {
     this._enableConsentCreateOnUpdate = value;
   }
   public resetEnableConsentCreateOnUpdate() {
@@ -397,7 +397,7 @@ export class GoogleHealthcareConsentStore extends cdktf.TerraformResource {
   }
 
   // terraform_labels - computed: true, optional: false, required: false
-  private _terraformLabels = new cdktf.StringMap(this, "terraform_labels");
+  private _terraformLabels = new cdktn.StringMap(this, "terraform_labels");
   public get terraformLabels() {
     return this._terraformLabels;
   }
@@ -424,12 +424,12 @@ export class GoogleHealthcareConsentStore extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      dataset: cdktf.stringToTerraform(this._dataset),
-      default_consent_ttl: cdktf.stringToTerraform(this._defaultConsentTtl),
-      enable_consent_create_on_update: cdktf.booleanToTerraform(this._enableConsentCreateOnUpdate),
-      id: cdktf.stringToTerraform(this._id),
-      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
-      name: cdktf.stringToTerraform(this._name),
+      dataset: cdktn.stringToTerraform(this._dataset),
+      default_consent_ttl: cdktn.stringToTerraform(this._defaultConsentTtl),
+      enable_consent_create_on_update: cdktn.booleanToTerraform(this._enableConsentCreateOnUpdate),
+      id: cdktn.stringToTerraform(this._id),
+      labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
+      name: cdktn.stringToTerraform(this._name),
       timeouts: googleHealthcareConsentStoreTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -437,37 +437,37 @@ export class GoogleHealthcareConsentStore extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       dataset: {
-        value: cdktf.stringToHclTerraform(this._dataset),
+        value: cdktn.stringToHclTerraform(this._dataset),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       default_consent_ttl: {
-        value: cdktf.stringToHclTerraform(this._defaultConsentTtl),
+        value: cdktn.stringToHclTerraform(this._defaultConsentTtl),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       enable_consent_create_on_update: {
-        value: cdktf.booleanToHclTerraform(this._enableConsentCreateOnUpdate),
+        value: cdktn.booleanToHclTerraform(this._enableConsentCreateOnUpdate),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._labels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

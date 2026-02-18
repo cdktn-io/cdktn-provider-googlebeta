@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleCertificateManagerCertificateIssuanceConfigConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleCertificateManagerCertificateIssuanceConfigConfig extends cdktn.TerraformMetaArguments {
   /**
   * One or more paragraphs of text description of a CertificateIssuanceConfig.
   *
@@ -100,24 +100,24 @@ export interface GoogleCertificateManagerCertificateIssuanceConfigCertificateAut
 }
 
 export function googleCertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigCertificateAuthorityServiceConfigToTerraform(struct?: GoogleCertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigCertificateAuthorityServiceConfigOutputReference | GoogleCertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigCertificateAuthorityServiceConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    ca_pool: cdktf.stringToTerraform(struct!.caPool),
+    ca_pool: cdktn.stringToTerraform(struct!.caPool),
   }
 }
 
 
 export function googleCertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigCertificateAuthorityServiceConfigToHclTerraform(struct?: GoogleCertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigCertificateAuthorityServiceConfigOutputReference | GoogleCertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigCertificateAuthorityServiceConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     ca_pool: {
-      value: cdktf.stringToHclTerraform(struct!.caPool),
+      value: cdktn.stringToHclTerraform(struct!.caPool),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -128,14 +128,14 @@ export function googleCertificateManagerCertificateIssuanceConfigCertificateAuth
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleCertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigCertificateAuthorityServiceConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleCertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigCertificateAuthorityServiceConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -183,8 +183,8 @@ export interface GoogleCertificateManagerCertificateIssuanceConfigCertificateAut
 }
 
 export function googleCertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigToTerraform(struct?: GoogleCertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigOutputReference | GoogleCertificateManagerCertificateIssuanceConfigCertificateAuthorityConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -194,8 +194,8 @@ export function googleCertificateManagerCertificateIssuanceConfigCertificateAuth
 
 
 export function googleCertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigToHclTerraform(struct?: GoogleCertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigOutputReference | GoogleCertificateManagerCertificateIssuanceConfigCertificateAuthorityConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -211,14 +211,14 @@ export function googleCertificateManagerCertificateIssuanceConfigCertificateAuth
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleCertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleCertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -274,39 +274,39 @@ export interface GoogleCertificateManagerCertificateIssuanceConfigTimeouts {
   readonly update?: string;
 }
 
-export function googleCertificateManagerCertificateIssuanceConfigTimeoutsToTerraform(struct?: GoogleCertificateManagerCertificateIssuanceConfigTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleCertificateManagerCertificateIssuanceConfigTimeoutsToTerraform(struct?: GoogleCertificateManagerCertificateIssuanceConfigTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleCertificateManagerCertificateIssuanceConfigTimeoutsToHclTerraform(struct?: GoogleCertificateManagerCertificateIssuanceConfigTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleCertificateManagerCertificateIssuanceConfigTimeoutsToHclTerraform(struct?: GoogleCertificateManagerCertificateIssuanceConfigTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -317,19 +317,19 @@ export function googleCertificateManagerCertificateIssuanceConfigTimeoutsToHclTe
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleCertificateManagerCertificateIssuanceConfigTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleCertificateManagerCertificateIssuanceConfigTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleCertificateManagerCertificateIssuanceConfigTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleCertificateManagerCertificateIssuanceConfigTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -350,7 +350,7 @@ export class GoogleCertificateManagerCertificateIssuanceConfigTimeoutsOutputRefe
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleCertificateManagerCertificateIssuanceConfigTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleCertificateManagerCertificateIssuanceConfigTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -358,7 +358,7 @@ export class GoogleCertificateManagerCertificateIssuanceConfigTimeoutsOutputRefe
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -423,7 +423,7 @@ export class GoogleCertificateManagerCertificateIssuanceConfigTimeoutsOutputRefe
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_certificate_manager_certificate_issuance_config google_certificate_manager_certificate_issuance_config}
 */
-export class GoogleCertificateManagerCertificateIssuanceConfig extends cdktf.TerraformResource {
+export class GoogleCertificateManagerCertificateIssuanceConfig extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -434,14 +434,14 @@ export class GoogleCertificateManagerCertificateIssuanceConfig extends cdktf.Ter
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleCertificateManagerCertificateIssuanceConfig resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleCertificateManagerCertificateIssuanceConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleCertificateManagerCertificateIssuanceConfig to import
   * @param importFromId The id of the existing GoogleCertificateManagerCertificateIssuanceConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_certificate_manager_certificate_issuance_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleCertificateManagerCertificateIssuanceConfig to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_certificate_manager_certificate_issuance_config", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_certificate_manager_certificate_issuance_config", importId: importFromId, provider });
       }
 
   // ===========
@@ -510,7 +510,7 @@ export class GoogleCertificateManagerCertificateIssuanceConfig extends cdktf.Ter
   }
 
   // effective_labels - computed: true, optional: false, required: false
-  private _effectiveLabels = new cdktf.StringMap(this, "effective_labels");
+  private _effectiveLabels = new cdktn.StringMap(this, "effective_labels");
   public get effectiveLabels() {
     return this._effectiveLabels;
   }
@@ -632,7 +632,7 @@ export class GoogleCertificateManagerCertificateIssuanceConfig extends cdktf.Ter
   }
 
   // terraform_labels - computed: true, optional: false, required: false
-  private _terraformLabels = new cdktf.StringMap(this, "terraform_labels");
+  private _terraformLabels = new cdktn.StringMap(this, "terraform_labels");
   public get terraformLabels() {
     return this._terraformLabels;
   }
@@ -677,15 +677,15 @@ export class GoogleCertificateManagerCertificateIssuanceConfig extends cdktf.Ter
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      description: cdktf.stringToTerraform(this._description),
-      id: cdktf.stringToTerraform(this._id),
-      key_algorithm: cdktf.stringToTerraform(this._keyAlgorithm),
-      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
-      lifetime: cdktf.stringToTerraform(this._lifetime),
-      location: cdktf.stringToTerraform(this._location),
-      name: cdktf.stringToTerraform(this._name),
-      project: cdktf.stringToTerraform(this._project),
-      rotation_window_percentage: cdktf.numberToTerraform(this._rotationWindowPercentage),
+      description: cdktn.stringToTerraform(this._description),
+      id: cdktn.stringToTerraform(this._id),
+      key_algorithm: cdktn.stringToTerraform(this._keyAlgorithm),
+      labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
+      lifetime: cdktn.stringToTerraform(this._lifetime),
+      location: cdktn.stringToTerraform(this._location),
+      name: cdktn.stringToTerraform(this._name),
+      project: cdktn.stringToTerraform(this._project),
+      rotation_window_percentage: cdktn.numberToTerraform(this._rotationWindowPercentage),
       certificate_authority_config: googleCertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigToTerraform(this._certificateAuthorityConfig.internalValue),
       timeouts: googleCertificateManagerCertificateIssuanceConfigTimeoutsToTerraform(this._timeouts.internalValue),
     };
@@ -694,55 +694,55 @@ export class GoogleCertificateManagerCertificateIssuanceConfig extends cdktf.Ter
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       key_algorithm: {
-        value: cdktf.stringToHclTerraform(this._keyAlgorithm),
+        value: cdktn.stringToHclTerraform(this._keyAlgorithm),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._labels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       lifetime: {
-        value: cdktf.stringToHclTerraform(this._lifetime),
+        value: cdktn.stringToHclTerraform(this._lifetime),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       rotation_window_percentage: {
-        value: cdktf.numberToHclTerraform(this._rotationWindowPercentage),
+        value: cdktn.numberToHclTerraform(this._rotationWindowPercentage),
         isBlock: false,
         type: "simple",
         storageClassType: "number",

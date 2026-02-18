@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleComputeBackendBucketSignedUrlKeyConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleComputeBackendBucketSignedUrlKeyConfig extends cdktn.TerraformMetaArguments {
   /**
   * The backend bucket this signed URL key belongs.
   *
@@ -60,32 +60,32 @@ export interface GoogleComputeBackendBucketSignedUrlKeyTimeouts {
   readonly delete?: string;
 }
 
-export function googleComputeBackendBucketSignedUrlKeyTimeoutsToTerraform(struct?: GoogleComputeBackendBucketSignedUrlKeyTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeBackendBucketSignedUrlKeyTimeoutsToTerraform(struct?: GoogleComputeBackendBucketSignedUrlKeyTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
   }
 }
 
 
-export function googleComputeBackendBucketSignedUrlKeyTimeoutsToHclTerraform(struct?: GoogleComputeBackendBucketSignedUrlKeyTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeBackendBucketSignedUrlKeyTimeoutsToHclTerraform(struct?: GoogleComputeBackendBucketSignedUrlKeyTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -96,19 +96,19 @@ export function googleComputeBackendBucketSignedUrlKeyTimeoutsToHclTerraform(str
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeBackendBucketSignedUrlKeyTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeBackendBucketSignedUrlKeyTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleComputeBackendBucketSignedUrlKeyTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeBackendBucketSignedUrlKeyTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -125,14 +125,14 @@ export class GoogleComputeBackendBucketSignedUrlKeyTimeoutsOutputReference exten
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeBackendBucketSignedUrlKeyTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeBackendBucketSignedUrlKeyTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._create = undefined;
       this._delete = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -180,7 +180,7 @@ export class GoogleComputeBackendBucketSignedUrlKeyTimeoutsOutputReference exten
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_bucket_signed_url_key google_compute_backend_bucket_signed_url_key}
 */
-export class GoogleComputeBackendBucketSignedUrlKey extends cdktf.TerraformResource {
+export class GoogleComputeBackendBucketSignedUrlKey extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -191,14 +191,14 @@ export class GoogleComputeBackendBucketSignedUrlKey extends cdktf.TerraformResou
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleComputeBackendBucketSignedUrlKey resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleComputeBackendBucketSignedUrlKey resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleComputeBackendBucketSignedUrlKey to import
   * @param importFromId The id of the existing GoogleComputeBackendBucketSignedUrlKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_bucket_signed_url_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleComputeBackendBucketSignedUrlKey to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_compute_backend_bucket_signed_url_key", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_compute_backend_bucket_signed_url_key", importId: importFromId, provider });
       }
 
   // ===========
@@ -333,11 +333,11 @@ export class GoogleComputeBackendBucketSignedUrlKey extends cdktf.TerraformResou
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      backend_bucket: cdktf.stringToTerraform(this._backendBucket),
-      id: cdktf.stringToTerraform(this._id),
-      key_value: cdktf.stringToTerraform(this._keyValue),
-      name: cdktf.stringToTerraform(this._name),
-      project: cdktf.stringToTerraform(this._project),
+      backend_bucket: cdktn.stringToTerraform(this._backendBucket),
+      id: cdktn.stringToTerraform(this._id),
+      key_value: cdktn.stringToTerraform(this._keyValue),
+      name: cdktn.stringToTerraform(this._name),
+      project: cdktn.stringToTerraform(this._project),
       timeouts: googleComputeBackendBucketSignedUrlKeyTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -345,31 +345,31 @@ export class GoogleComputeBackendBucketSignedUrlKey extends cdktf.TerraformResou
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       backend_bucket: {
-        value: cdktf.stringToHclTerraform(this._backendBucket),
+        value: cdktn.stringToHclTerraform(this._backendBucket),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       key_value: {
-        value: cdktf.stringToHclTerraform(this._keyValue),
+        value: cdktn.stringToHclTerraform(this._keyValue),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

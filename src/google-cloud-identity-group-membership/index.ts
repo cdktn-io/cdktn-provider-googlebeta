@@ -7,17 +7,17 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleCloudIdentityGroupMembershipConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleCloudIdentityGroupMembershipConfig extends cdktn.TerraformMetaArguments {
   /**
   * If set to true, skip group member creation if a membership with the same name already exists. Defaults to false.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_identity_group_membership#create_ignore_already_exists GoogleCloudIdentityGroupMembership#create_ignore_already_exists}
   */
-  readonly createIgnoreAlreadyExists?: boolean | cdktf.IResolvable;
+  readonly createIgnoreAlreadyExists?: boolean | cdktn.IResolvable;
   /**
   * The name of the Group to create this membership in.
   *
@@ -48,7 +48,7 @@ export interface GoogleCloudIdentityGroupMembershipConfig extends cdktf.Terrafor
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_identity_group_membership#roles GoogleCloudIdentityGroupMembership#roles}
   */
-  readonly roles: GoogleCloudIdentityGroupMembershipRoles[] | cdktf.IResolvable;
+  readonly roles: GoogleCloudIdentityGroupMembershipRoles[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
@@ -90,31 +90,31 @@ export interface GoogleCloudIdentityGroupMembershipMemberKey {
 }
 
 export function googleCloudIdentityGroupMembershipMemberKeyToTerraform(struct?: GoogleCloudIdentityGroupMembershipMemberKeyOutputReference | GoogleCloudIdentityGroupMembershipMemberKey): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    id: cdktf.stringToTerraform(struct!.id),
-    namespace: cdktf.stringToTerraform(struct!.namespace),
+    id: cdktn.stringToTerraform(struct!.id),
+    namespace: cdktn.stringToTerraform(struct!.namespace),
   }
 }
 
 
 export function googleCloudIdentityGroupMembershipMemberKeyToHclTerraform(struct?: GoogleCloudIdentityGroupMembershipMemberKeyOutputReference | GoogleCloudIdentityGroupMembershipMemberKey): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     id: {
-      value: cdktf.stringToHclTerraform(struct!.id),
+      value: cdktn.stringToHclTerraform(struct!.id),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     namespace: {
-      value: cdktf.stringToHclTerraform(struct!.namespace),
+      value: cdktn.stringToHclTerraform(struct!.namespace),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -125,14 +125,14 @@ export function googleCloudIdentityGroupMembershipMemberKeyToHclTerraform(struct
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleCloudIdentityGroupMembershipMemberKeyOutputReference extends cdktf.ComplexObject {
+export class GoogleCloudIdentityGroupMembershipMemberKeyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -226,31 +226,31 @@ export interface GoogleCloudIdentityGroupMembershipPreferredMemberKey {
 }
 
 export function googleCloudIdentityGroupMembershipPreferredMemberKeyToTerraform(struct?: GoogleCloudIdentityGroupMembershipPreferredMemberKeyOutputReference | GoogleCloudIdentityGroupMembershipPreferredMemberKey): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    id: cdktf.stringToTerraform(struct!.id),
-    namespace: cdktf.stringToTerraform(struct!.namespace),
+    id: cdktn.stringToTerraform(struct!.id),
+    namespace: cdktn.stringToTerraform(struct!.namespace),
   }
 }
 
 
 export function googleCloudIdentityGroupMembershipPreferredMemberKeyToHclTerraform(struct?: GoogleCloudIdentityGroupMembershipPreferredMemberKeyOutputReference | GoogleCloudIdentityGroupMembershipPreferredMemberKey): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     id: {
-      value: cdktf.stringToHclTerraform(struct!.id),
+      value: cdktn.stringToHclTerraform(struct!.id),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     namespace: {
-      value: cdktf.stringToHclTerraform(struct!.namespace),
+      value: cdktn.stringToHclTerraform(struct!.namespace),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -261,14 +261,14 @@ export function googleCloudIdentityGroupMembershipPreferredMemberKeyToHclTerrafo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleCloudIdentityGroupMembershipPreferredMemberKeyOutputReference extends cdktf.ComplexObject {
+export class GoogleCloudIdentityGroupMembershipPreferredMemberKeyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -343,24 +343,24 @@ export interface GoogleCloudIdentityGroupMembershipRolesExpiryDetail {
 }
 
 export function googleCloudIdentityGroupMembershipRolesExpiryDetailToTerraform(struct?: GoogleCloudIdentityGroupMembershipRolesExpiryDetailOutputReference | GoogleCloudIdentityGroupMembershipRolesExpiryDetail): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    expire_time: cdktf.stringToTerraform(struct!.expireTime),
+    expire_time: cdktn.stringToTerraform(struct!.expireTime),
   }
 }
 
 
 export function googleCloudIdentityGroupMembershipRolesExpiryDetailToHclTerraform(struct?: GoogleCloudIdentityGroupMembershipRolesExpiryDetailOutputReference | GoogleCloudIdentityGroupMembershipRolesExpiryDetail): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     expire_time: {
-      value: cdktf.stringToHclTerraform(struct!.expireTime),
+      value: cdktn.stringToHclTerraform(struct!.expireTime),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -371,14 +371,14 @@ export function googleCloudIdentityGroupMembershipRolesExpiryDetailToHclTerrafor
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleCloudIdentityGroupMembershipRolesExpiryDetailOutputReference extends cdktf.ComplexObject {
+export class GoogleCloudIdentityGroupMembershipRolesExpiryDetailOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -431,26 +431,26 @@ export interface GoogleCloudIdentityGroupMembershipRoles {
   readonly expiryDetail?: GoogleCloudIdentityGroupMembershipRolesExpiryDetail;
 }
 
-export function googleCloudIdentityGroupMembershipRolesToTerraform(struct?: GoogleCloudIdentityGroupMembershipRoles | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleCloudIdentityGroupMembershipRolesToTerraform(struct?: GoogleCloudIdentityGroupMembershipRoles | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    name: cdktf.stringToTerraform(struct!.name),
+    name: cdktn.stringToTerraform(struct!.name),
     expiry_detail: googleCloudIdentityGroupMembershipRolesExpiryDetailToTerraform(struct!.expiryDetail),
   }
 }
 
 
-export function googleCloudIdentityGroupMembershipRolesToHclTerraform(struct?: GoogleCloudIdentityGroupMembershipRoles | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleCloudIdentityGroupMembershipRolesToHclTerraform(struct?: GoogleCloudIdentityGroupMembershipRoles | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
+      value: cdktn.stringToHclTerraform(struct!.name),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -467,9 +467,9 @@ export function googleCloudIdentityGroupMembershipRolesToHclTerraform(struct?: G
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleCloudIdentityGroupMembershipRolesOutputReference extends cdktf.ComplexObject {
+export class GoogleCloudIdentityGroupMembershipRolesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -477,11 +477,11 @@ export class GoogleCloudIdentityGroupMembershipRolesOutputReference extends cdkt
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleCloudIdentityGroupMembershipRoles | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleCloudIdentityGroupMembershipRoles | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -498,14 +498,14 @@ export class GoogleCloudIdentityGroupMembershipRolesOutputReference extends cdkt
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleCloudIdentityGroupMembershipRoles | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleCloudIdentityGroupMembershipRoles | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._name = undefined;
       this._expiryDetail.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -547,15 +547,15 @@ export class GoogleCloudIdentityGroupMembershipRolesOutputReference extends cdkt
   }
 }
 
-export class GoogleCloudIdentityGroupMembershipRolesList extends cdktf.ComplexList {
-  public internalValue? : GoogleCloudIdentityGroupMembershipRoles[] | cdktf.IResolvable
+export class GoogleCloudIdentityGroupMembershipRolesList extends cdktn.ComplexList {
+  public internalValue? : GoogleCloudIdentityGroupMembershipRoles[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -581,39 +581,39 @@ export interface GoogleCloudIdentityGroupMembershipTimeouts {
   readonly update?: string;
 }
 
-export function googleCloudIdentityGroupMembershipTimeoutsToTerraform(struct?: GoogleCloudIdentityGroupMembershipTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleCloudIdentityGroupMembershipTimeoutsToTerraform(struct?: GoogleCloudIdentityGroupMembershipTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleCloudIdentityGroupMembershipTimeoutsToHclTerraform(struct?: GoogleCloudIdentityGroupMembershipTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleCloudIdentityGroupMembershipTimeoutsToHclTerraform(struct?: GoogleCloudIdentityGroupMembershipTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -624,19 +624,19 @@ export function googleCloudIdentityGroupMembershipTimeoutsToHclTerraform(struct?
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleCloudIdentityGroupMembershipTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleCloudIdentityGroupMembershipTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleCloudIdentityGroupMembershipTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleCloudIdentityGroupMembershipTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -657,7 +657,7 @@ export class GoogleCloudIdentityGroupMembershipTimeoutsOutputReference extends c
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleCloudIdentityGroupMembershipTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleCloudIdentityGroupMembershipTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -665,7 +665,7 @@ export class GoogleCloudIdentityGroupMembershipTimeoutsOutputReference extends c
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -730,7 +730,7 @@ export class GoogleCloudIdentityGroupMembershipTimeoutsOutputReference extends c
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_identity_group_membership google_cloud_identity_group_membership}
 */
-export class GoogleCloudIdentityGroupMembership extends cdktf.TerraformResource {
+export class GoogleCloudIdentityGroupMembership extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -741,14 +741,14 @@ export class GoogleCloudIdentityGroupMembership extends cdktf.TerraformResource 
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleCloudIdentityGroupMembership resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleCloudIdentityGroupMembership resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleCloudIdentityGroupMembership to import
   * @param importFromId The id of the existing GoogleCloudIdentityGroupMembership that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_identity_group_membership#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleCloudIdentityGroupMembership to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_cloud_identity_group_membership", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_cloud_identity_group_membership", importId: importFromId, provider });
       }
 
   // ===========
@@ -792,11 +792,11 @@ export class GoogleCloudIdentityGroupMembership extends cdktf.TerraformResource 
   // ==========
 
   // create_ignore_already_exists - computed: false, optional: true, required: false
-  private _createIgnoreAlreadyExists?: boolean | cdktf.IResolvable; 
+  private _createIgnoreAlreadyExists?: boolean | cdktn.IResolvable; 
   public get createIgnoreAlreadyExists() {
     return this.getBooleanAttribute('create_ignore_already_exists');
   }
-  public set createIgnoreAlreadyExists(value: boolean | cdktf.IResolvable) {
+  public set createIgnoreAlreadyExists(value: boolean | cdktn.IResolvable) {
     this._createIgnoreAlreadyExists = value;
   }
   public resetCreateIgnoreAlreadyExists() {
@@ -893,7 +893,7 @@ export class GoogleCloudIdentityGroupMembership extends cdktf.TerraformResource 
   public get roles() {
     return this._roles;
   }
-  public putRoles(value: GoogleCloudIdentityGroupMembershipRoles[] | cdktf.IResolvable) {
+  public putRoles(value: GoogleCloudIdentityGroupMembershipRoles[] | cdktn.IResolvable) {
     this._roles.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -923,12 +923,12 @@ export class GoogleCloudIdentityGroupMembership extends cdktf.TerraformResource 
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      create_ignore_already_exists: cdktf.booleanToTerraform(this._createIgnoreAlreadyExists),
-      group: cdktf.stringToTerraform(this._group),
-      id: cdktf.stringToTerraform(this._id),
+      create_ignore_already_exists: cdktn.booleanToTerraform(this._createIgnoreAlreadyExists),
+      group: cdktn.stringToTerraform(this._group),
+      id: cdktn.stringToTerraform(this._id),
       member_key: googleCloudIdentityGroupMembershipMemberKeyToTerraform(this._memberKey.internalValue),
       preferred_member_key: googleCloudIdentityGroupMembershipPreferredMemberKeyToTerraform(this._preferredMemberKey.internalValue),
-      roles: cdktf.listMapper(googleCloudIdentityGroupMembershipRolesToTerraform, true)(this._roles.internalValue),
+      roles: cdktn.listMapper(googleCloudIdentityGroupMembershipRolesToTerraform, true)(this._roles.internalValue),
       timeouts: googleCloudIdentityGroupMembershipTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -936,19 +936,19 @@ export class GoogleCloudIdentityGroupMembership extends cdktf.TerraformResource 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       create_ignore_already_exists: {
-        value: cdktf.booleanToHclTerraform(this._createIgnoreAlreadyExists),
+        value: cdktn.booleanToHclTerraform(this._createIgnoreAlreadyExists),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       group: {
-        value: cdktf.stringToHclTerraform(this._group),
+        value: cdktn.stringToHclTerraform(this._group),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -966,7 +966,7 @@ export class GoogleCloudIdentityGroupMembership extends cdktf.TerraformResource 
         storageClassType: "GoogleCloudIdentityGroupMembershipPreferredMemberKeyList",
       },
       roles: {
-        value: cdktf.listMapperHcl(googleCloudIdentityGroupMembershipRolesToHclTerraform, true)(this._roles.internalValue),
+        value: cdktn.listMapperHcl(googleCloudIdentityGroupMembershipRolesToHclTerraform, true)(this._roles.internalValue),
         isBlock: true,
         type: "set",
         storageClassType: "GoogleCloudIdentityGroupMembershipRolesList",

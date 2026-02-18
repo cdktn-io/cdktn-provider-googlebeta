@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleComputeRouteConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleComputeRouteConfig extends cdktn.TerraformMetaArguments {
   /**
   * An optional description of this resource. Provide this property
   * when you create the resource.
@@ -152,8 +152,8 @@ export interface GoogleComputeRouteAsPaths {
 }
 
 export function googleComputeRouteAsPathsToTerraform(struct?: GoogleComputeRouteAsPaths): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -162,8 +162,8 @@ export function googleComputeRouteAsPathsToTerraform(struct?: GoogleComputeRoute
 
 
 export function googleComputeRouteAsPathsToHclTerraform(struct?: GoogleComputeRouteAsPaths): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -171,7 +171,7 @@ export function googleComputeRouteAsPathsToHclTerraform(struct?: GoogleComputeRo
   return attrs;
 }
 
-export class GoogleComputeRouteAsPathsOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeRouteAsPathsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -180,7 +180,7 @@ export class GoogleComputeRouteAsPathsOutputReference extends cdktf.ComplexObjec
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -210,14 +210,14 @@ export class GoogleComputeRouteAsPathsOutputReference extends cdktf.ComplexObjec
   }
 }
 
-export class GoogleComputeRouteAsPathsList extends cdktf.ComplexList {
+export class GoogleComputeRouteAsPathsList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -232,8 +232,8 @@ export interface GoogleComputeRouteWarningsData {
 }
 
 export function googleComputeRouteWarningsDataToTerraform(struct?: GoogleComputeRouteWarningsData): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -242,8 +242,8 @@ export function googleComputeRouteWarningsDataToTerraform(struct?: GoogleCompute
 
 
 export function googleComputeRouteWarningsDataToHclTerraform(struct?: GoogleComputeRouteWarningsData): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -251,7 +251,7 @@ export function googleComputeRouteWarningsDataToHclTerraform(struct?: GoogleComp
   return attrs;
 }
 
-export class GoogleComputeRouteWarningsDataOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeRouteWarningsDataOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -260,7 +260,7 @@ export class GoogleComputeRouteWarningsDataOutputReference extends cdktf.Complex
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -290,14 +290,14 @@ export class GoogleComputeRouteWarningsDataOutputReference extends cdktf.Complex
   }
 }
 
-export class GoogleComputeRouteWarningsDataList extends cdktf.ComplexList {
+export class GoogleComputeRouteWarningsDataList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -312,8 +312,8 @@ export interface GoogleComputeRouteWarnings {
 }
 
 export function googleComputeRouteWarningsToTerraform(struct?: GoogleComputeRouteWarnings): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -322,8 +322,8 @@ export function googleComputeRouteWarningsToTerraform(struct?: GoogleComputeRout
 
 
 export function googleComputeRouteWarningsToHclTerraform(struct?: GoogleComputeRouteWarnings): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -331,7 +331,7 @@ export function googleComputeRouteWarningsToHclTerraform(struct?: GoogleComputeR
   return attrs;
 }
 
-export class GoogleComputeRouteWarningsOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeRouteWarningsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -340,7 +340,7 @@ export class GoogleComputeRouteWarningsOutputReference extends cdktf.ComplexObje
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -376,14 +376,14 @@ export class GoogleComputeRouteWarningsOutputReference extends cdktf.ComplexObje
   }
 }
 
-export class GoogleComputeRouteWarningsList extends cdktf.ComplexList {
+export class GoogleComputeRouteWarningsList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -409,24 +409,24 @@ export interface GoogleComputeRouteParams {
 }
 
 export function googleComputeRouteParamsToTerraform(struct?: GoogleComputeRouteParamsOutputReference | GoogleComputeRouteParams): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    resource_manager_tags: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.resourceManagerTags),
+    resource_manager_tags: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.resourceManagerTags),
   }
 }
 
 
 export function googleComputeRouteParamsToHclTerraform(struct?: GoogleComputeRouteParamsOutputReference | GoogleComputeRouteParams): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     resource_manager_tags: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.resourceManagerTags),
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.resourceManagerTags),
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
@@ -437,14 +437,14 @@ export function googleComputeRouteParamsToHclTerraform(struct?: GoogleComputeRou
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeRouteParamsOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeRouteParamsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -496,32 +496,32 @@ export interface GoogleComputeRouteTimeouts {
   readonly delete?: string;
 }
 
-export function googleComputeRouteTimeoutsToTerraform(struct?: GoogleComputeRouteTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeRouteTimeoutsToTerraform(struct?: GoogleComputeRouteTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
   }
 }
 
 
-export function googleComputeRouteTimeoutsToHclTerraform(struct?: GoogleComputeRouteTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeRouteTimeoutsToHclTerraform(struct?: GoogleComputeRouteTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -532,19 +532,19 @@ export function googleComputeRouteTimeoutsToHclTerraform(struct?: GoogleComputeR
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeRouteTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeRouteTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleComputeRouteTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeRouteTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -561,14 +561,14 @@ export class GoogleComputeRouteTimeoutsOutputReference extends cdktf.ComplexObje
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeRouteTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeRouteTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._create = undefined;
       this._delete = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -616,7 +616,7 @@ export class GoogleComputeRouteTimeoutsOutputReference extends cdktf.ComplexObje
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_route google_compute_route}
 */
-export class GoogleComputeRoute extends cdktf.TerraformResource {
+export class GoogleComputeRoute extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -627,14 +627,14 @@ export class GoogleComputeRoute extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleComputeRoute resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleComputeRoute resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleComputeRoute to import
   * @param importFromId The id of the existing GoogleComputeRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_route#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleComputeRoute to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_compute_route", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_compute_route", importId: importFromId, provider });
       }
 
   // ===========
@@ -944,7 +944,7 @@ export class GoogleComputeRoute extends cdktf.TerraformResource {
   // tags - computed: false, optional: true, required: false
   private _tags?: string[]; 
   public get tags() {
-    return cdktf.Fn.tolist(this.getListAttribute('tags'));
+    return cdktn.Fn.tolist(this.getListAttribute('tags'));
   }
   public set tags(value: string[]) {
     this._tags = value;
@@ -1001,20 +1001,20 @@ export class GoogleComputeRoute extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      description: cdktf.stringToTerraform(this._description),
-      dest_range: cdktf.stringToTerraform(this._destRange),
-      id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
-      network: cdktf.stringToTerraform(this._network),
-      next_hop_gateway: cdktf.stringToTerraform(this._nextHopGateway),
-      next_hop_ilb: cdktf.stringToTerraform(this._nextHopIlb),
-      next_hop_instance: cdktf.stringToTerraform(this._nextHopInstance),
-      next_hop_instance_zone: cdktf.stringToTerraform(this._nextHopInstanceZone),
-      next_hop_ip: cdktf.stringToTerraform(this._nextHopIp),
-      next_hop_vpn_tunnel: cdktf.stringToTerraform(this._nextHopVpnTunnel),
-      priority: cdktf.numberToTerraform(this._priority),
-      project: cdktf.stringToTerraform(this._project),
-      tags: cdktf.listMapper(cdktf.stringToTerraform, false)(this._tags),
+      description: cdktn.stringToTerraform(this._description),
+      dest_range: cdktn.stringToTerraform(this._destRange),
+      id: cdktn.stringToTerraform(this._id),
+      name: cdktn.stringToTerraform(this._name),
+      network: cdktn.stringToTerraform(this._network),
+      next_hop_gateway: cdktn.stringToTerraform(this._nextHopGateway),
+      next_hop_ilb: cdktn.stringToTerraform(this._nextHopIlb),
+      next_hop_instance: cdktn.stringToTerraform(this._nextHopInstance),
+      next_hop_instance_zone: cdktn.stringToTerraform(this._nextHopInstanceZone),
+      next_hop_ip: cdktn.stringToTerraform(this._nextHopIp),
+      next_hop_vpn_tunnel: cdktn.stringToTerraform(this._nextHopVpnTunnel),
+      priority: cdktn.numberToTerraform(this._priority),
+      project: cdktn.stringToTerraform(this._project),
+      tags: cdktn.listMapper(cdktn.stringToTerraform, false)(this._tags),
       params: googleComputeRouteParamsToTerraform(this._params.internalValue),
       timeouts: googleComputeRouteTimeoutsToTerraform(this._timeouts.internalValue),
     };
@@ -1023,85 +1023,85 @@ export class GoogleComputeRoute extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       dest_range: {
-        value: cdktf.stringToHclTerraform(this._destRange),
+        value: cdktn.stringToHclTerraform(this._destRange),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       network: {
-        value: cdktf.stringToHclTerraform(this._network),
+        value: cdktn.stringToHclTerraform(this._network),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       next_hop_gateway: {
-        value: cdktf.stringToHclTerraform(this._nextHopGateway),
+        value: cdktn.stringToHclTerraform(this._nextHopGateway),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       next_hop_ilb: {
-        value: cdktf.stringToHclTerraform(this._nextHopIlb),
+        value: cdktn.stringToHclTerraform(this._nextHopIlb),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       next_hop_instance: {
-        value: cdktf.stringToHclTerraform(this._nextHopInstance),
+        value: cdktn.stringToHclTerraform(this._nextHopInstance),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       next_hop_instance_zone: {
-        value: cdktf.stringToHclTerraform(this._nextHopInstanceZone),
+        value: cdktn.stringToHclTerraform(this._nextHopInstanceZone),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       next_hop_ip: {
-        value: cdktf.stringToHclTerraform(this._nextHopIp),
+        value: cdktn.stringToHclTerraform(this._nextHopIp),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       next_hop_vpn_tunnel: {
-        value: cdktf.stringToHclTerraform(this._nextHopVpnTunnel),
+        value: cdktn.stringToHclTerraform(this._nextHopVpnTunnel),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       priority: {
-        value: cdktf.numberToHclTerraform(this._priority),
+        value: cdktn.numberToHclTerraform(this._priority),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       tags: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._tags),
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._tags),
         isBlock: false,
         type: "set",
         storageClassType: "stringList",

@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleComputeRegionCommitmentConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleComputeRegionCommitmentConfig extends cdktn.TerraformMetaArguments {
   /**
   * Specifies whether to enable automatic renewal for the commitment.
   * The default value is false if not specified.
@@ -20,7 +20,7 @@ export interface GoogleComputeRegionCommitmentConfig extends cdktf.TerraformMeta
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_commitment#auto_renew GoogleComputeRegionCommitment#auto_renew}
   */
-  readonly autoRenew?: boolean | cdktf.IResolvable;
+  readonly autoRenew?: boolean | cdktn.IResolvable;
   /**
   * The category of the commitment. Category MACHINE specifies commitments composed of
   * machine resources such as VCPU or MEMORY, listed in resources. Category LICENSE
@@ -97,7 +97,7 @@ export interface GoogleComputeRegionCommitmentConfig extends cdktf.TerraformMeta
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_commitment#resources GoogleComputeRegionCommitment#resources}
   */
-  readonly resources?: GoogleComputeRegionCommitmentResources[] | cdktf.IResolvable;
+  readonly resources?: GoogleComputeRegionCommitmentResources[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
@@ -127,38 +127,38 @@ export interface GoogleComputeRegionCommitmentLicenseResource {
 }
 
 export function googleComputeRegionCommitmentLicenseResourceToTerraform(struct?: GoogleComputeRegionCommitmentLicenseResourceOutputReference | GoogleComputeRegionCommitmentLicenseResource): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    amount: cdktf.stringToTerraform(struct!.amount),
-    cores_per_license: cdktf.stringToTerraform(struct!.coresPerLicense),
-    license: cdktf.stringToTerraform(struct!.license),
+    amount: cdktn.stringToTerraform(struct!.amount),
+    cores_per_license: cdktn.stringToTerraform(struct!.coresPerLicense),
+    license: cdktn.stringToTerraform(struct!.license),
   }
 }
 
 
 export function googleComputeRegionCommitmentLicenseResourceToHclTerraform(struct?: GoogleComputeRegionCommitmentLicenseResourceOutputReference | GoogleComputeRegionCommitmentLicenseResource): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     amount: {
-      value: cdktf.stringToHclTerraform(struct!.amount),
+      value: cdktn.stringToHclTerraform(struct!.amount),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     cores_per_license: {
-      value: cdktf.stringToHclTerraform(struct!.coresPerLicense),
+      value: cdktn.stringToHclTerraform(struct!.coresPerLicense),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     license: {
-      value: cdktf.stringToHclTerraform(struct!.license),
+      value: cdktn.stringToHclTerraform(struct!.license),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -169,14 +169,14 @@ export function googleComputeRegionCommitmentLicenseResourceToHclTerraform(struc
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeRegionCommitmentLicenseResourceOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeRegionCommitmentLicenseResourceOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -283,39 +283,39 @@ export interface GoogleComputeRegionCommitmentResources {
   readonly type?: string;
 }
 
-export function googleComputeRegionCommitmentResourcesToTerraform(struct?: GoogleComputeRegionCommitmentResources | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeRegionCommitmentResourcesToTerraform(struct?: GoogleComputeRegionCommitmentResources | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    accelerator_type: cdktf.stringToTerraform(struct!.acceleratorType),
-    amount: cdktf.stringToTerraform(struct!.amount),
-    type: cdktf.stringToTerraform(struct!.type),
+    accelerator_type: cdktn.stringToTerraform(struct!.acceleratorType),
+    amount: cdktn.stringToTerraform(struct!.amount),
+    type: cdktn.stringToTerraform(struct!.type),
   }
 }
 
 
-export function googleComputeRegionCommitmentResourcesToHclTerraform(struct?: GoogleComputeRegionCommitmentResources | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeRegionCommitmentResourcesToHclTerraform(struct?: GoogleComputeRegionCommitmentResources | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     accelerator_type: {
-      value: cdktf.stringToHclTerraform(struct!.acceleratorType),
+      value: cdktn.stringToHclTerraform(struct!.acceleratorType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     amount: {
-      value: cdktf.stringToHclTerraform(struct!.amount),
+      value: cdktn.stringToHclTerraform(struct!.amount),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     type: {
-      value: cdktf.stringToHclTerraform(struct!.type),
+      value: cdktn.stringToHclTerraform(struct!.type),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -326,9 +326,9 @@ export function googleComputeRegionCommitmentResourcesToHclTerraform(struct?: Go
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeRegionCommitmentResourcesOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeRegionCommitmentResourcesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -336,11 +336,11 @@ export class GoogleComputeRegionCommitmentResourcesOutputReference extends cdktf
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeRegionCommitmentResources | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeRegionCommitmentResources | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -361,7 +361,7 @@ export class GoogleComputeRegionCommitmentResourcesOutputReference extends cdktf
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeRegionCommitmentResources | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeRegionCommitmentResources | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -369,7 +369,7 @@ export class GoogleComputeRegionCommitmentResourcesOutputReference extends cdktf
       this._amount = undefined;
       this._type = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -431,15 +431,15 @@ export class GoogleComputeRegionCommitmentResourcesOutputReference extends cdktf
   }
 }
 
-export class GoogleComputeRegionCommitmentResourcesList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeRegionCommitmentResources[] | cdktf.IResolvable
+export class GoogleComputeRegionCommitmentResourcesList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeRegionCommitmentResources[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -461,32 +461,32 @@ export interface GoogleComputeRegionCommitmentTimeouts {
   readonly delete?: string;
 }
 
-export function googleComputeRegionCommitmentTimeoutsToTerraform(struct?: GoogleComputeRegionCommitmentTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeRegionCommitmentTimeoutsToTerraform(struct?: GoogleComputeRegionCommitmentTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
   }
 }
 
 
-export function googleComputeRegionCommitmentTimeoutsToHclTerraform(struct?: GoogleComputeRegionCommitmentTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeRegionCommitmentTimeoutsToHclTerraform(struct?: GoogleComputeRegionCommitmentTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -497,19 +497,19 @@ export function googleComputeRegionCommitmentTimeoutsToHclTerraform(struct?: Goo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeRegionCommitmentTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeRegionCommitmentTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleComputeRegionCommitmentTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeRegionCommitmentTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -526,14 +526,14 @@ export class GoogleComputeRegionCommitmentTimeoutsOutputReference extends cdktf.
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeRegionCommitmentTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeRegionCommitmentTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._create = undefined;
       this._delete = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -581,7 +581,7 @@ export class GoogleComputeRegionCommitmentTimeoutsOutputReference extends cdktf.
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_commitment google_compute_region_commitment}
 */
-export class GoogleComputeRegionCommitment extends cdktf.TerraformResource {
+export class GoogleComputeRegionCommitment extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -592,14 +592,14 @@ export class GoogleComputeRegionCommitment extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleComputeRegionCommitment resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleComputeRegionCommitment resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleComputeRegionCommitment to import
   * @param importFromId The id of the existing GoogleComputeRegionCommitment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_commitment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleComputeRegionCommitment to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_compute_region_commitment", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_compute_region_commitment", importId: importFromId, provider });
       }
 
   // ===========
@@ -649,11 +649,11 @@ export class GoogleComputeRegionCommitment extends cdktf.TerraformResource {
   // ==========
 
   // auto_renew - computed: true, optional: true, required: false
-  private _autoRenew?: boolean | cdktf.IResolvable; 
+  private _autoRenew?: boolean | cdktn.IResolvable; 
   public get autoRenew() {
     return this.getBooleanAttribute('auto_renew');
   }
-  public set autoRenew(value: boolean | cdktf.IResolvable) {
+  public set autoRenew(value: boolean | cdktn.IResolvable) {
     this._autoRenew = value;
   }
   public resetAutoRenew() {
@@ -858,7 +858,7 @@ export class GoogleComputeRegionCommitment extends cdktf.TerraformResource {
   public get resources() {
     return this._resources;
   }
-  public putResources(value: GoogleComputeRegionCommitmentResources[] | cdktf.IResolvable) {
+  public putResources(value: GoogleComputeRegionCommitmentResources[] | cdktn.IResolvable) {
     this._resources.internalValue = value;
   }
   public resetResources() {
@@ -891,18 +891,18 @@ export class GoogleComputeRegionCommitment extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      auto_renew: cdktf.booleanToTerraform(this._autoRenew),
-      category: cdktf.stringToTerraform(this._category),
-      description: cdktf.stringToTerraform(this._description),
-      existing_reservations: cdktf.stringToTerraform(this._existingReservations),
-      id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
-      plan: cdktf.stringToTerraform(this._plan),
-      project: cdktf.stringToTerraform(this._project),
-      region: cdktf.stringToTerraform(this._region),
-      type: cdktf.stringToTerraform(this._type),
+      auto_renew: cdktn.booleanToTerraform(this._autoRenew),
+      category: cdktn.stringToTerraform(this._category),
+      description: cdktn.stringToTerraform(this._description),
+      existing_reservations: cdktn.stringToTerraform(this._existingReservations),
+      id: cdktn.stringToTerraform(this._id),
+      name: cdktn.stringToTerraform(this._name),
+      plan: cdktn.stringToTerraform(this._plan),
+      project: cdktn.stringToTerraform(this._project),
+      region: cdktn.stringToTerraform(this._region),
+      type: cdktn.stringToTerraform(this._type),
       license_resource: googleComputeRegionCommitmentLicenseResourceToTerraform(this._licenseResource.internalValue),
-      resources: cdktf.listMapper(googleComputeRegionCommitmentResourcesToTerraform, true)(this._resources.internalValue),
+      resources: cdktn.listMapper(googleComputeRegionCommitmentResourcesToTerraform, true)(this._resources.internalValue),
       timeouts: googleComputeRegionCommitmentTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -910,61 +910,61 @@ export class GoogleComputeRegionCommitment extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       auto_renew: {
-        value: cdktf.booleanToHclTerraform(this._autoRenew),
+        value: cdktn.booleanToHclTerraform(this._autoRenew),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       category: {
-        value: cdktf.stringToHclTerraform(this._category),
+        value: cdktn.stringToHclTerraform(this._category),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       existing_reservations: {
-        value: cdktf.stringToHclTerraform(this._existingReservations),
+        value: cdktn.stringToHclTerraform(this._existingReservations),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       plan: {
-        value: cdktf.stringToHclTerraform(this._plan),
+        value: cdktn.stringToHclTerraform(this._plan),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       region: {
-        value: cdktf.stringToHclTerraform(this._region),
+        value: cdktn.stringToHclTerraform(this._region),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       type: {
-        value: cdktf.stringToHclTerraform(this._type),
+        value: cdktn.stringToHclTerraform(this._type),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -976,7 +976,7 @@ export class GoogleComputeRegionCommitment extends cdktf.TerraformResource {
         storageClassType: "GoogleComputeRegionCommitmentLicenseResourceList",
       },
       resources: {
-        value: cdktf.listMapperHcl(googleComputeRegionCommitmentResourcesToHclTerraform, true)(this._resources.internalValue),
+        value: cdktn.listMapperHcl(googleComputeRegionCommitmentResourcesToHclTerraform, true)(this._resources.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "GoogleComputeRegionCommitmentResourcesList",

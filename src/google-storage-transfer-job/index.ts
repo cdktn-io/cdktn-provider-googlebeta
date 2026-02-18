@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleStorageTransferJobConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleStorageTransferJobConfig extends cdktn.TerraformMetaArguments {
   /**
   * Unique description to identify the Transfer Job.
   *
@@ -102,38 +102,38 @@ export interface GoogleStorageTransferJobEventStream {
 }
 
 export function googleStorageTransferJobEventStreamToTerraform(struct?: GoogleStorageTransferJobEventStreamOutputReference | GoogleStorageTransferJobEventStream): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    event_stream_expiration_time: cdktf.stringToTerraform(struct!.eventStreamExpirationTime),
-    event_stream_start_time: cdktf.stringToTerraform(struct!.eventStreamStartTime),
-    name: cdktf.stringToTerraform(struct!.name),
+    event_stream_expiration_time: cdktn.stringToTerraform(struct!.eventStreamExpirationTime),
+    event_stream_start_time: cdktn.stringToTerraform(struct!.eventStreamStartTime),
+    name: cdktn.stringToTerraform(struct!.name),
   }
 }
 
 
 export function googleStorageTransferJobEventStreamToHclTerraform(struct?: GoogleStorageTransferJobEventStreamOutputReference | GoogleStorageTransferJobEventStream): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     event_stream_expiration_time: {
-      value: cdktf.stringToHclTerraform(struct!.eventStreamExpirationTime),
+      value: cdktn.stringToHclTerraform(struct!.eventStreamExpirationTime),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     event_stream_start_time: {
-      value: cdktf.stringToHclTerraform(struct!.eventStreamStartTime),
+      value: cdktn.stringToHclTerraform(struct!.eventStreamStartTime),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
+      value: cdktn.stringToHclTerraform(struct!.name),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -144,14 +144,14 @@ export function googleStorageTransferJobEventStreamToHclTerraform(struct?: Googl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageTransferJobEventStreamOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageTransferJobEventStreamOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -239,7 +239,7 @@ export interface GoogleStorageTransferJobLoggingConfig {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#enable_on_prem_gcs_transfer_logs GoogleStorageTransferJob#enable_on_prem_gcs_transfer_logs}
   */
-  readonly enableOnPremGcsTransferLogs?: boolean | cdktf.IResolvable;
+  readonly enableOnPremGcsTransferLogs?: boolean | cdktn.IResolvable;
   /**
   * States in which logActions are logged. Not supported for transfers with PosifxFilesystem data sources; use enable_on_prem_gcs_transfer_logs instead.
   *
@@ -255,38 +255,38 @@ export interface GoogleStorageTransferJobLoggingConfig {
 }
 
 export function googleStorageTransferJobLoggingConfigToTerraform(struct?: GoogleStorageTransferJobLoggingConfigOutputReference | GoogleStorageTransferJobLoggingConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    enable_on_prem_gcs_transfer_logs: cdktf.booleanToTerraform(struct!.enableOnPremGcsTransferLogs),
-    log_action_states: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.logActionStates),
-    log_actions: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.logActions),
+    enable_on_prem_gcs_transfer_logs: cdktn.booleanToTerraform(struct!.enableOnPremGcsTransferLogs),
+    log_action_states: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.logActionStates),
+    log_actions: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.logActions),
   }
 }
 
 
 export function googleStorageTransferJobLoggingConfigToHclTerraform(struct?: GoogleStorageTransferJobLoggingConfigOutputReference | GoogleStorageTransferJobLoggingConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     enable_on_prem_gcs_transfer_logs: {
-      value: cdktf.booleanToHclTerraform(struct!.enableOnPremGcsTransferLogs),
+      value: cdktn.booleanToHclTerraform(struct!.enableOnPremGcsTransferLogs),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     log_action_states: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.logActionStates),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.logActionStates),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     log_actions: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.logActions),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.logActions),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -297,14 +297,14 @@ export function googleStorageTransferJobLoggingConfigToHclTerraform(struct?: Goo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageTransferJobLoggingConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageTransferJobLoggingConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -342,11 +342,11 @@ export class GoogleStorageTransferJobLoggingConfigOutputReference extends cdktf.
   }
 
   // enable_on_prem_gcs_transfer_logs - computed: false, optional: true, required: false
-  private _enableOnPremGcsTransferLogs?: boolean | cdktf.IResolvable; 
+  private _enableOnPremGcsTransferLogs?: boolean | cdktn.IResolvable; 
   public get enableOnPremGcsTransferLogs() {
     return this.getBooleanAttribute('enable_on_prem_gcs_transfer_logs');
   }
-  public set enableOnPremGcsTransferLogs(value: boolean | cdktf.IResolvable) {
+  public set enableOnPremGcsTransferLogs(value: boolean | cdktn.IResolvable) {
     this._enableOnPremGcsTransferLogs = value;
   }
   public resetEnableOnPremGcsTransferLogs() {
@@ -411,38 +411,38 @@ export interface GoogleStorageTransferJobNotificationConfig {
 }
 
 export function googleStorageTransferJobNotificationConfigToTerraform(struct?: GoogleStorageTransferJobNotificationConfigOutputReference | GoogleStorageTransferJobNotificationConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    event_types: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.eventTypes),
-    payload_format: cdktf.stringToTerraform(struct!.payloadFormat),
-    pubsub_topic: cdktf.stringToTerraform(struct!.pubsubTopic),
+    event_types: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.eventTypes),
+    payload_format: cdktn.stringToTerraform(struct!.payloadFormat),
+    pubsub_topic: cdktn.stringToTerraform(struct!.pubsubTopic),
   }
 }
 
 
 export function googleStorageTransferJobNotificationConfigToHclTerraform(struct?: GoogleStorageTransferJobNotificationConfigOutputReference | GoogleStorageTransferJobNotificationConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     event_types: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.eventTypes),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.eventTypes),
       isBlock: false,
       type: "set",
       storageClassType: "stringList",
     },
     payload_format: {
-      value: cdktf.stringToHclTerraform(struct!.payloadFormat),
+      value: cdktn.stringToHclTerraform(struct!.payloadFormat),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     pubsub_topic: {
-      value: cdktf.stringToHclTerraform(struct!.pubsubTopic),
+      value: cdktn.stringToHclTerraform(struct!.pubsubTopic),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -453,14 +453,14 @@ export function googleStorageTransferJobNotificationConfigToHclTerraform(struct?
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageTransferJobNotificationConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageTransferJobNotificationConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -500,7 +500,7 @@ export class GoogleStorageTransferJobNotificationConfigOutputReference extends c
   // event_types - computed: false, optional: true, required: false
   private _eventTypes?: string[]; 
   public get eventTypes() {
-    return cdktf.Fn.tolist(this.getListAttribute('event_types'));
+    return cdktn.Fn.tolist(this.getListAttribute('event_types'));
   }
   public set eventTypes(value: string[]) {
     this._eventTypes = value;
@@ -555,31 +555,31 @@ export interface GoogleStorageTransferJobReplicationSpecGcsDataSink {
 }
 
 export function googleStorageTransferJobReplicationSpecGcsDataSinkToTerraform(struct?: GoogleStorageTransferJobReplicationSpecGcsDataSinkOutputReference | GoogleStorageTransferJobReplicationSpecGcsDataSink): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    bucket_name: cdktf.stringToTerraform(struct!.bucketName),
-    path: cdktf.stringToTerraform(struct!.path),
+    bucket_name: cdktn.stringToTerraform(struct!.bucketName),
+    path: cdktn.stringToTerraform(struct!.path),
   }
 }
 
 
 export function googleStorageTransferJobReplicationSpecGcsDataSinkToHclTerraform(struct?: GoogleStorageTransferJobReplicationSpecGcsDataSinkOutputReference | GoogleStorageTransferJobReplicationSpecGcsDataSink): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     bucket_name: {
-      value: cdktf.stringToHclTerraform(struct!.bucketName),
+      value: cdktn.stringToHclTerraform(struct!.bucketName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     path: {
-      value: cdktf.stringToHclTerraform(struct!.path),
+      value: cdktn.stringToHclTerraform(struct!.path),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -590,14 +590,14 @@ export function googleStorageTransferJobReplicationSpecGcsDataSinkToHclTerraform
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageTransferJobReplicationSpecGcsDataSinkOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageTransferJobReplicationSpecGcsDataSinkOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -673,31 +673,31 @@ export interface GoogleStorageTransferJobReplicationSpecGcsDataSource {
 }
 
 export function googleStorageTransferJobReplicationSpecGcsDataSourceToTerraform(struct?: GoogleStorageTransferJobReplicationSpecGcsDataSourceOutputReference | GoogleStorageTransferJobReplicationSpecGcsDataSource): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    bucket_name: cdktf.stringToTerraform(struct!.bucketName),
-    path: cdktf.stringToTerraform(struct!.path),
+    bucket_name: cdktn.stringToTerraform(struct!.bucketName),
+    path: cdktn.stringToTerraform(struct!.path),
   }
 }
 
 
 export function googleStorageTransferJobReplicationSpecGcsDataSourceToHclTerraform(struct?: GoogleStorageTransferJobReplicationSpecGcsDataSourceOutputReference | GoogleStorageTransferJobReplicationSpecGcsDataSource): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     bucket_name: {
-      value: cdktf.stringToHclTerraform(struct!.bucketName),
+      value: cdktn.stringToHclTerraform(struct!.bucketName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     path: {
-      value: cdktf.stringToHclTerraform(struct!.path),
+      value: cdktn.stringToHclTerraform(struct!.path),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -708,14 +708,14 @@ export function googleStorageTransferJobReplicationSpecGcsDataSourceToHclTerrafo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageTransferJobReplicationSpecGcsDataSourceOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageTransferJobReplicationSpecGcsDataSourceOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -815,59 +815,59 @@ export interface GoogleStorageTransferJobReplicationSpecObjectConditions {
 }
 
 export function googleStorageTransferJobReplicationSpecObjectConditionsToTerraform(struct?: GoogleStorageTransferJobReplicationSpecObjectConditionsOutputReference | GoogleStorageTransferJobReplicationSpecObjectConditions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    exclude_prefixes: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.excludePrefixes),
-    include_prefixes: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.includePrefixes),
-    last_modified_before: cdktf.stringToTerraform(struct!.lastModifiedBefore),
-    last_modified_since: cdktf.stringToTerraform(struct!.lastModifiedSince),
-    max_time_elapsed_since_last_modification: cdktf.stringToTerraform(struct!.maxTimeElapsedSinceLastModification),
-    min_time_elapsed_since_last_modification: cdktf.stringToTerraform(struct!.minTimeElapsedSinceLastModification),
+    exclude_prefixes: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.excludePrefixes),
+    include_prefixes: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.includePrefixes),
+    last_modified_before: cdktn.stringToTerraform(struct!.lastModifiedBefore),
+    last_modified_since: cdktn.stringToTerraform(struct!.lastModifiedSince),
+    max_time_elapsed_since_last_modification: cdktn.stringToTerraform(struct!.maxTimeElapsedSinceLastModification),
+    min_time_elapsed_since_last_modification: cdktn.stringToTerraform(struct!.minTimeElapsedSinceLastModification),
   }
 }
 
 
 export function googleStorageTransferJobReplicationSpecObjectConditionsToHclTerraform(struct?: GoogleStorageTransferJobReplicationSpecObjectConditionsOutputReference | GoogleStorageTransferJobReplicationSpecObjectConditions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     exclude_prefixes: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.excludePrefixes),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.excludePrefixes),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     include_prefixes: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.includePrefixes),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.includePrefixes),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     last_modified_before: {
-      value: cdktf.stringToHclTerraform(struct!.lastModifiedBefore),
+      value: cdktn.stringToHclTerraform(struct!.lastModifiedBefore),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     last_modified_since: {
-      value: cdktf.stringToHclTerraform(struct!.lastModifiedSince),
+      value: cdktn.stringToHclTerraform(struct!.lastModifiedSince),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     max_time_elapsed_since_last_modification: {
-      value: cdktf.stringToHclTerraform(struct!.maxTimeElapsedSinceLastModification),
+      value: cdktn.stringToHclTerraform(struct!.maxTimeElapsedSinceLastModification),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     min_time_elapsed_since_last_modification: {
-      value: cdktf.stringToHclTerraform(struct!.minTimeElapsedSinceLastModification),
+      value: cdktn.stringToHclTerraform(struct!.minTimeElapsedSinceLastModification),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -878,14 +878,14 @@ export function googleStorageTransferJobReplicationSpecObjectConditionsToHclTerr
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageTransferJobReplicationSpecObjectConditionsOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageTransferJobReplicationSpecObjectConditionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1094,80 +1094,80 @@ export interface GoogleStorageTransferJobReplicationSpecTransferOptionsMetadataO
 }
 
 export function googleStorageTransferJobReplicationSpecTransferOptionsMetadataOptionsToTerraform(struct?: GoogleStorageTransferJobReplicationSpecTransferOptionsMetadataOptionsOutputReference | GoogleStorageTransferJobReplicationSpecTransferOptionsMetadataOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    acl: cdktf.stringToTerraform(struct!.acl),
-    gid: cdktf.stringToTerraform(struct!.gid),
-    kms_key: cdktf.stringToTerraform(struct!.kmsKey),
-    mode: cdktf.stringToTerraform(struct!.mode),
-    storage_class: cdktf.stringToTerraform(struct!.storageClass),
-    symlink: cdktf.stringToTerraform(struct!.symlink),
-    temporary_hold: cdktf.stringToTerraform(struct!.temporaryHold),
-    time_created: cdktf.stringToTerraform(struct!.timeCreated),
-    uid: cdktf.stringToTerraform(struct!.uid),
+    acl: cdktn.stringToTerraform(struct!.acl),
+    gid: cdktn.stringToTerraform(struct!.gid),
+    kms_key: cdktn.stringToTerraform(struct!.kmsKey),
+    mode: cdktn.stringToTerraform(struct!.mode),
+    storage_class: cdktn.stringToTerraform(struct!.storageClass),
+    symlink: cdktn.stringToTerraform(struct!.symlink),
+    temporary_hold: cdktn.stringToTerraform(struct!.temporaryHold),
+    time_created: cdktn.stringToTerraform(struct!.timeCreated),
+    uid: cdktn.stringToTerraform(struct!.uid),
   }
 }
 
 
 export function googleStorageTransferJobReplicationSpecTransferOptionsMetadataOptionsToHclTerraform(struct?: GoogleStorageTransferJobReplicationSpecTransferOptionsMetadataOptionsOutputReference | GoogleStorageTransferJobReplicationSpecTransferOptionsMetadataOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     acl: {
-      value: cdktf.stringToHclTerraform(struct!.acl),
+      value: cdktn.stringToHclTerraform(struct!.acl),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     gid: {
-      value: cdktf.stringToHclTerraform(struct!.gid),
+      value: cdktn.stringToHclTerraform(struct!.gid),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     kms_key: {
-      value: cdktf.stringToHclTerraform(struct!.kmsKey),
+      value: cdktn.stringToHclTerraform(struct!.kmsKey),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     mode: {
-      value: cdktf.stringToHclTerraform(struct!.mode),
+      value: cdktn.stringToHclTerraform(struct!.mode),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     storage_class: {
-      value: cdktf.stringToHclTerraform(struct!.storageClass),
+      value: cdktn.stringToHclTerraform(struct!.storageClass),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     symlink: {
-      value: cdktf.stringToHclTerraform(struct!.symlink),
+      value: cdktn.stringToHclTerraform(struct!.symlink),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     temporary_hold: {
-      value: cdktf.stringToHclTerraform(struct!.temporaryHold),
+      value: cdktn.stringToHclTerraform(struct!.temporaryHold),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     time_created: {
-      value: cdktf.stringToHclTerraform(struct!.timeCreated),
+      value: cdktn.stringToHclTerraform(struct!.timeCreated),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     uid: {
-      value: cdktf.stringToHclTerraform(struct!.uid),
+      value: cdktn.stringToHclTerraform(struct!.uid),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1178,14 +1178,14 @@ export function googleStorageTransferJobReplicationSpecTransferOptionsMetadataOp
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageTransferJobReplicationSpecTransferOptionsMetadataOptionsOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageTransferJobReplicationSpecTransferOptionsMetadataOptionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1408,19 +1408,19 @@ export interface GoogleStorageTransferJobReplicationSpecTransferOptions {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#delete_objects_from_source_after_transfer GoogleStorageTransferJob#delete_objects_from_source_after_transfer}
   */
-  readonly deleteObjectsFromSourceAfterTransfer?: boolean | cdktf.IResolvable;
+  readonly deleteObjectsFromSourceAfterTransfer?: boolean | cdktn.IResolvable;
   /**
   * Whether objects that exist only in the sink should be deleted. Note that this option and delete_objects_from_source_after_transfer are mutually exclusive.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#delete_objects_unique_in_sink GoogleStorageTransferJob#delete_objects_unique_in_sink}
   */
-  readonly deleteObjectsUniqueInSink?: boolean | cdktf.IResolvable;
+  readonly deleteObjectsUniqueInSink?: boolean | cdktn.IResolvable;
   /**
   * Whether overwriting objects that already exist in the sink is allowed.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#overwrite_objects_already_existing_in_sink GoogleStorageTransferJob#overwrite_objects_already_existing_in_sink}
   */
-  readonly overwriteObjectsAlreadyExistingInSink?: boolean | cdktf.IResolvable;
+  readonly overwriteObjectsAlreadyExistingInSink?: boolean | cdktn.IResolvable;
   /**
   * When to overwrite objects that already exist in the sink. If not set, overwrite behavior is determined by overwriteObjectsAlreadyExistingInSink.
   *
@@ -1436,46 +1436,46 @@ export interface GoogleStorageTransferJobReplicationSpecTransferOptions {
 }
 
 export function googleStorageTransferJobReplicationSpecTransferOptionsToTerraform(struct?: GoogleStorageTransferJobReplicationSpecTransferOptionsOutputReference | GoogleStorageTransferJobReplicationSpecTransferOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    delete_objects_from_source_after_transfer: cdktf.booleanToTerraform(struct!.deleteObjectsFromSourceAfterTransfer),
-    delete_objects_unique_in_sink: cdktf.booleanToTerraform(struct!.deleteObjectsUniqueInSink),
-    overwrite_objects_already_existing_in_sink: cdktf.booleanToTerraform(struct!.overwriteObjectsAlreadyExistingInSink),
-    overwrite_when: cdktf.stringToTerraform(struct!.overwriteWhen),
+    delete_objects_from_source_after_transfer: cdktn.booleanToTerraform(struct!.deleteObjectsFromSourceAfterTransfer),
+    delete_objects_unique_in_sink: cdktn.booleanToTerraform(struct!.deleteObjectsUniqueInSink),
+    overwrite_objects_already_existing_in_sink: cdktn.booleanToTerraform(struct!.overwriteObjectsAlreadyExistingInSink),
+    overwrite_when: cdktn.stringToTerraform(struct!.overwriteWhen),
     metadata_options: googleStorageTransferJobReplicationSpecTransferOptionsMetadataOptionsToTerraform(struct!.metadataOptions),
   }
 }
 
 
 export function googleStorageTransferJobReplicationSpecTransferOptionsToHclTerraform(struct?: GoogleStorageTransferJobReplicationSpecTransferOptionsOutputReference | GoogleStorageTransferJobReplicationSpecTransferOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     delete_objects_from_source_after_transfer: {
-      value: cdktf.booleanToHclTerraform(struct!.deleteObjectsFromSourceAfterTransfer),
+      value: cdktn.booleanToHclTerraform(struct!.deleteObjectsFromSourceAfterTransfer),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     delete_objects_unique_in_sink: {
-      value: cdktf.booleanToHclTerraform(struct!.deleteObjectsUniqueInSink),
+      value: cdktn.booleanToHclTerraform(struct!.deleteObjectsUniqueInSink),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     overwrite_objects_already_existing_in_sink: {
-      value: cdktf.booleanToHclTerraform(struct!.overwriteObjectsAlreadyExistingInSink),
+      value: cdktn.booleanToHclTerraform(struct!.overwriteObjectsAlreadyExistingInSink),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     overwrite_when: {
-      value: cdktf.stringToHclTerraform(struct!.overwriteWhen),
+      value: cdktn.stringToHclTerraform(struct!.overwriteWhen),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1492,14 +1492,14 @@ export function googleStorageTransferJobReplicationSpecTransferOptionsToHclTerra
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageTransferJobReplicationSpecTransferOptionsOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageTransferJobReplicationSpecTransferOptionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1549,11 +1549,11 @@ export class GoogleStorageTransferJobReplicationSpecTransferOptionsOutputReferen
   }
 
   // delete_objects_from_source_after_transfer - computed: false, optional: true, required: false
-  private _deleteObjectsFromSourceAfterTransfer?: boolean | cdktf.IResolvable; 
+  private _deleteObjectsFromSourceAfterTransfer?: boolean | cdktn.IResolvable; 
   public get deleteObjectsFromSourceAfterTransfer() {
     return this.getBooleanAttribute('delete_objects_from_source_after_transfer');
   }
-  public set deleteObjectsFromSourceAfterTransfer(value: boolean | cdktf.IResolvable) {
+  public set deleteObjectsFromSourceAfterTransfer(value: boolean | cdktn.IResolvable) {
     this._deleteObjectsFromSourceAfterTransfer = value;
   }
   public resetDeleteObjectsFromSourceAfterTransfer() {
@@ -1565,11 +1565,11 @@ export class GoogleStorageTransferJobReplicationSpecTransferOptionsOutputReferen
   }
 
   // delete_objects_unique_in_sink - computed: false, optional: true, required: false
-  private _deleteObjectsUniqueInSink?: boolean | cdktf.IResolvable; 
+  private _deleteObjectsUniqueInSink?: boolean | cdktn.IResolvable; 
   public get deleteObjectsUniqueInSink() {
     return this.getBooleanAttribute('delete_objects_unique_in_sink');
   }
-  public set deleteObjectsUniqueInSink(value: boolean | cdktf.IResolvable) {
+  public set deleteObjectsUniqueInSink(value: boolean | cdktn.IResolvable) {
     this._deleteObjectsUniqueInSink = value;
   }
   public resetDeleteObjectsUniqueInSink() {
@@ -1581,11 +1581,11 @@ export class GoogleStorageTransferJobReplicationSpecTransferOptionsOutputReferen
   }
 
   // overwrite_objects_already_existing_in_sink - computed: false, optional: true, required: false
-  private _overwriteObjectsAlreadyExistingInSink?: boolean | cdktf.IResolvable; 
+  private _overwriteObjectsAlreadyExistingInSink?: boolean | cdktn.IResolvable; 
   public get overwriteObjectsAlreadyExistingInSink() {
     return this.getBooleanAttribute('overwrite_objects_already_existing_in_sink');
   }
-  public set overwriteObjectsAlreadyExistingInSink(value: boolean | cdktf.IResolvable) {
+  public set overwriteObjectsAlreadyExistingInSink(value: boolean | cdktn.IResolvable) {
     this._overwriteObjectsAlreadyExistingInSink = value;
   }
   public resetOverwriteObjectsAlreadyExistingInSink() {
@@ -1656,8 +1656,8 @@ export interface GoogleStorageTransferJobReplicationSpec {
 }
 
 export function googleStorageTransferJobReplicationSpecToTerraform(struct?: GoogleStorageTransferJobReplicationSpecOutputReference | GoogleStorageTransferJobReplicationSpec): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -1670,8 +1670,8 @@ export function googleStorageTransferJobReplicationSpecToTerraform(struct?: Goog
 
 
 export function googleStorageTransferJobReplicationSpecToHclTerraform(struct?: GoogleStorageTransferJobReplicationSpecOutputReference | GoogleStorageTransferJobReplicationSpec): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -1705,14 +1705,14 @@ export function googleStorageTransferJobReplicationSpecToHclTerraform(struct?: G
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageTransferJobReplicationSpecOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageTransferJobReplicationSpecOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1841,38 +1841,38 @@ export interface GoogleStorageTransferJobScheduleScheduleEndDate {
 }
 
 export function googleStorageTransferJobScheduleScheduleEndDateToTerraform(struct?: GoogleStorageTransferJobScheduleScheduleEndDateOutputReference | GoogleStorageTransferJobScheduleScheduleEndDate): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    day: cdktf.numberToTerraform(struct!.day),
-    month: cdktf.numberToTerraform(struct!.month),
-    year: cdktf.numberToTerraform(struct!.year),
+    day: cdktn.numberToTerraform(struct!.day),
+    month: cdktn.numberToTerraform(struct!.month),
+    year: cdktn.numberToTerraform(struct!.year),
   }
 }
 
 
 export function googleStorageTransferJobScheduleScheduleEndDateToHclTerraform(struct?: GoogleStorageTransferJobScheduleScheduleEndDateOutputReference | GoogleStorageTransferJobScheduleScheduleEndDate): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     day: {
-      value: cdktf.numberToHclTerraform(struct!.day),
+      value: cdktn.numberToHclTerraform(struct!.day),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     month: {
-      value: cdktf.numberToHclTerraform(struct!.month),
+      value: cdktn.numberToHclTerraform(struct!.month),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     year: {
-      value: cdktf.numberToHclTerraform(struct!.year),
+      value: cdktn.numberToHclTerraform(struct!.year),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1883,14 +1883,14 @@ export function googleStorageTransferJobScheduleScheduleEndDateToHclTerraform(st
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageTransferJobScheduleScheduleEndDateOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageTransferJobScheduleScheduleEndDateOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1988,38 +1988,38 @@ export interface GoogleStorageTransferJobScheduleScheduleStartDate {
 }
 
 export function googleStorageTransferJobScheduleScheduleStartDateToTerraform(struct?: GoogleStorageTransferJobScheduleScheduleStartDateOutputReference | GoogleStorageTransferJobScheduleScheduleStartDate): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    day: cdktf.numberToTerraform(struct!.day),
-    month: cdktf.numberToTerraform(struct!.month),
-    year: cdktf.numberToTerraform(struct!.year),
+    day: cdktn.numberToTerraform(struct!.day),
+    month: cdktn.numberToTerraform(struct!.month),
+    year: cdktn.numberToTerraform(struct!.year),
   }
 }
 
 
 export function googleStorageTransferJobScheduleScheduleStartDateToHclTerraform(struct?: GoogleStorageTransferJobScheduleScheduleStartDateOutputReference | GoogleStorageTransferJobScheduleScheduleStartDate): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     day: {
-      value: cdktf.numberToHclTerraform(struct!.day),
+      value: cdktn.numberToHclTerraform(struct!.day),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     month: {
-      value: cdktf.numberToHclTerraform(struct!.month),
+      value: cdktn.numberToHclTerraform(struct!.month),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     year: {
-      value: cdktf.numberToHclTerraform(struct!.year),
+      value: cdktn.numberToHclTerraform(struct!.year),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -2030,14 +2030,14 @@ export function googleStorageTransferJobScheduleScheduleStartDateToHclTerraform(
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageTransferJobScheduleScheduleStartDateOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageTransferJobScheduleScheduleStartDateOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2141,45 +2141,45 @@ export interface GoogleStorageTransferJobScheduleStartTimeOfDay {
 }
 
 export function googleStorageTransferJobScheduleStartTimeOfDayToTerraform(struct?: GoogleStorageTransferJobScheduleStartTimeOfDayOutputReference | GoogleStorageTransferJobScheduleStartTimeOfDay): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    hours: cdktf.numberToTerraform(struct!.hours),
-    minutes: cdktf.numberToTerraform(struct!.minutes),
-    nanos: cdktf.numberToTerraform(struct!.nanos),
-    seconds: cdktf.numberToTerraform(struct!.seconds),
+    hours: cdktn.numberToTerraform(struct!.hours),
+    minutes: cdktn.numberToTerraform(struct!.minutes),
+    nanos: cdktn.numberToTerraform(struct!.nanos),
+    seconds: cdktn.numberToTerraform(struct!.seconds),
   }
 }
 
 
 export function googleStorageTransferJobScheduleStartTimeOfDayToHclTerraform(struct?: GoogleStorageTransferJobScheduleStartTimeOfDayOutputReference | GoogleStorageTransferJobScheduleStartTimeOfDay): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     hours: {
-      value: cdktf.numberToHclTerraform(struct!.hours),
+      value: cdktn.numberToHclTerraform(struct!.hours),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     minutes: {
-      value: cdktf.numberToHclTerraform(struct!.minutes),
+      value: cdktn.numberToHclTerraform(struct!.minutes),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     nanos: {
-      value: cdktf.numberToHclTerraform(struct!.nanos),
+      value: cdktn.numberToHclTerraform(struct!.nanos),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     seconds: {
-      value: cdktf.numberToHclTerraform(struct!.seconds),
+      value: cdktn.numberToHclTerraform(struct!.seconds),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -2190,14 +2190,14 @@ export function googleStorageTransferJobScheduleStartTimeOfDayToHclTerraform(str
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageTransferJobScheduleStartTimeOfDayOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageTransferJobScheduleStartTimeOfDayOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2320,12 +2320,12 @@ export interface GoogleStorageTransferJobSchedule {
 }
 
 export function googleStorageTransferJobScheduleToTerraform(struct?: GoogleStorageTransferJobScheduleOutputReference | GoogleStorageTransferJobSchedule): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    repeat_interval: cdktf.stringToTerraform(struct!.repeatInterval),
+    repeat_interval: cdktn.stringToTerraform(struct!.repeatInterval),
     schedule_end_date: googleStorageTransferJobScheduleScheduleEndDateToTerraform(struct!.scheduleEndDate),
     schedule_start_date: googleStorageTransferJobScheduleScheduleStartDateToTerraform(struct!.scheduleStartDate),
     start_time_of_day: googleStorageTransferJobScheduleStartTimeOfDayToTerraform(struct!.startTimeOfDay),
@@ -2334,13 +2334,13 @@ export function googleStorageTransferJobScheduleToTerraform(struct?: GoogleStora
 
 
 export function googleStorageTransferJobScheduleToHclTerraform(struct?: GoogleStorageTransferJobScheduleOutputReference | GoogleStorageTransferJobSchedule): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     repeat_interval: {
-      value: cdktf.stringToHclTerraform(struct!.repeatInterval),
+      value: cdktn.stringToHclTerraform(struct!.repeatInterval),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2369,14 +2369,14 @@ export function googleStorageTransferJobScheduleToHclTerraform(struct?: GoogleSt
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageTransferJobScheduleOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageTransferJobScheduleOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2496,31 +2496,31 @@ export interface GoogleStorageTransferJobTransferSpecAwsS3DataSourceAwsAccessKey
 }
 
 export function googleStorageTransferJobTransferSpecAwsS3DataSourceAwsAccessKeyToTerraform(struct?: GoogleStorageTransferJobTransferSpecAwsS3DataSourceAwsAccessKeyOutputReference | GoogleStorageTransferJobTransferSpecAwsS3DataSourceAwsAccessKey): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    access_key_id: cdktf.stringToTerraform(struct!.accessKeyId),
-    secret_access_key: cdktf.stringToTerraform(struct!.secretAccessKey),
+    access_key_id: cdktn.stringToTerraform(struct!.accessKeyId),
+    secret_access_key: cdktn.stringToTerraform(struct!.secretAccessKey),
   }
 }
 
 
 export function googleStorageTransferJobTransferSpecAwsS3DataSourceAwsAccessKeyToHclTerraform(struct?: GoogleStorageTransferJobTransferSpecAwsS3DataSourceAwsAccessKeyOutputReference | GoogleStorageTransferJobTransferSpecAwsS3DataSourceAwsAccessKey): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     access_key_id: {
-      value: cdktf.stringToHclTerraform(struct!.accessKeyId),
+      value: cdktn.stringToHclTerraform(struct!.accessKeyId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     secret_access_key: {
-      value: cdktf.stringToHclTerraform(struct!.secretAccessKey),
+      value: cdktn.stringToHclTerraform(struct!.secretAccessKey),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2531,14 +2531,14 @@ export function googleStorageTransferJobTransferSpecAwsS3DataSourceAwsAccessKeyT
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageTransferJobTransferSpecAwsS3DataSourceAwsAccessKeyOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageTransferJobTransferSpecAwsS3DataSourceAwsAccessKeyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2613,7 +2613,7 @@ export interface GoogleStorageTransferJobTransferSpecAwsS3DataSource {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#managed_private_network GoogleStorageTransferJob#managed_private_network}
   */
-  readonly managedPrivateNetwork?: boolean | cdktf.IResolvable;
+  readonly managedPrivateNetwork?: boolean | cdktn.IResolvable;
   /**
   * S3 Bucket path in bucket to transfer.
   *
@@ -2635,53 +2635,53 @@ export interface GoogleStorageTransferJobTransferSpecAwsS3DataSource {
 }
 
 export function googleStorageTransferJobTransferSpecAwsS3DataSourceToTerraform(struct?: GoogleStorageTransferJobTransferSpecAwsS3DataSourceOutputReference | GoogleStorageTransferJobTransferSpecAwsS3DataSource): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    bucket_name: cdktf.stringToTerraform(struct!.bucketName),
-    cloudfront_domain: cdktf.stringToTerraform(struct!.cloudfrontDomain),
-    managed_private_network: cdktf.booleanToTerraform(struct!.managedPrivateNetwork),
-    path: cdktf.stringToTerraform(struct!.path),
-    role_arn: cdktf.stringToTerraform(struct!.roleArn),
+    bucket_name: cdktn.stringToTerraform(struct!.bucketName),
+    cloudfront_domain: cdktn.stringToTerraform(struct!.cloudfrontDomain),
+    managed_private_network: cdktn.booleanToTerraform(struct!.managedPrivateNetwork),
+    path: cdktn.stringToTerraform(struct!.path),
+    role_arn: cdktn.stringToTerraform(struct!.roleArn),
     aws_access_key: googleStorageTransferJobTransferSpecAwsS3DataSourceAwsAccessKeyToTerraform(struct!.awsAccessKey),
   }
 }
 
 
 export function googleStorageTransferJobTransferSpecAwsS3DataSourceToHclTerraform(struct?: GoogleStorageTransferJobTransferSpecAwsS3DataSourceOutputReference | GoogleStorageTransferJobTransferSpecAwsS3DataSource): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     bucket_name: {
-      value: cdktf.stringToHclTerraform(struct!.bucketName),
+      value: cdktn.stringToHclTerraform(struct!.bucketName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     cloudfront_domain: {
-      value: cdktf.stringToHclTerraform(struct!.cloudfrontDomain),
+      value: cdktn.stringToHclTerraform(struct!.cloudfrontDomain),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     managed_private_network: {
-      value: cdktf.booleanToHclTerraform(struct!.managedPrivateNetwork),
+      value: cdktn.booleanToHclTerraform(struct!.managedPrivateNetwork),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     path: {
-      value: cdktf.stringToHclTerraform(struct!.path),
+      value: cdktn.stringToHclTerraform(struct!.path),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     role_arn: {
-      value: cdktf.stringToHclTerraform(struct!.roleArn),
+      value: cdktn.stringToHclTerraform(struct!.roleArn),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2698,14 +2698,14 @@ export function googleStorageTransferJobTransferSpecAwsS3DataSourceToHclTerrafor
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageTransferJobTransferSpecAwsS3DataSourceOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageTransferJobTransferSpecAwsS3DataSourceOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2790,11 +2790,11 @@ export class GoogleStorageTransferJobTransferSpecAwsS3DataSourceOutputReference 
   }
 
   // managed_private_network - computed: false, optional: true, required: false
-  private _managedPrivateNetwork?: boolean | cdktf.IResolvable; 
+  private _managedPrivateNetwork?: boolean | cdktn.IResolvable; 
   public get managedPrivateNetwork() {
     return this.getBooleanAttribute('managed_private_network');
   }
-  public set managedPrivateNetwork(value: boolean | cdktf.IResolvable) {
+  public set managedPrivateNetwork(value: boolean | cdktn.IResolvable) {
     this._managedPrivateNetwork = value;
   }
   public resetManagedPrivateNetwork() {
@@ -2863,24 +2863,24 @@ export interface GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSourceA
 }
 
 export function googleStorageTransferJobTransferSpecAzureBlobStorageDataSourceAzureCredentialsToTerraform(struct?: GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSourceAzureCredentialsOutputReference | GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSourceAzureCredentials): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    sas_token: cdktf.stringToTerraform(struct!.sasToken),
+    sas_token: cdktn.stringToTerraform(struct!.sasToken),
   }
 }
 
 
 export function googleStorageTransferJobTransferSpecAzureBlobStorageDataSourceAzureCredentialsToHclTerraform(struct?: GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSourceAzureCredentialsOutputReference | GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSourceAzureCredentials): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     sas_token: {
-      value: cdktf.stringToHclTerraform(struct!.sasToken),
+      value: cdktn.stringToHclTerraform(struct!.sasToken),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2891,14 +2891,14 @@ export function googleStorageTransferJobTransferSpecAzureBlobStorageDataSourceAz
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSourceAzureCredentialsOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSourceAzureCredentialsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2952,31 +2952,31 @@ export interface GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSourceF
 }
 
 export function googleStorageTransferJobTransferSpecAzureBlobStorageDataSourceFederatedIdentityConfigToTerraform(struct?: GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSourceFederatedIdentityConfigOutputReference | GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSourceFederatedIdentityConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    client_id: cdktf.stringToTerraform(struct!.clientId),
-    tenant_id: cdktf.stringToTerraform(struct!.tenantId),
+    client_id: cdktn.stringToTerraform(struct!.clientId),
+    tenant_id: cdktn.stringToTerraform(struct!.tenantId),
   }
 }
 
 
 export function googleStorageTransferJobTransferSpecAzureBlobStorageDataSourceFederatedIdentityConfigToHclTerraform(struct?: GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSourceFederatedIdentityConfigOutputReference | GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSourceFederatedIdentityConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     client_id: {
-      value: cdktf.stringToHclTerraform(struct!.clientId),
+      value: cdktn.stringToHclTerraform(struct!.clientId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     tenant_id: {
-      value: cdktf.stringToHclTerraform(struct!.tenantId),
+      value: cdktn.stringToHclTerraform(struct!.tenantId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2987,14 +2987,14 @@ export function googleStorageTransferJobTransferSpecAzureBlobStorageDataSourceFe
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSourceFederatedIdentityConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSourceFederatedIdentityConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3091,15 +3091,15 @@ export interface GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSource 
 }
 
 export function googleStorageTransferJobTransferSpecAzureBlobStorageDataSourceToTerraform(struct?: GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSourceOutputReference | GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSource): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    container: cdktf.stringToTerraform(struct!.container),
-    credentials_secret: cdktf.stringToTerraform(struct!.credentialsSecret),
-    path: cdktf.stringToTerraform(struct!.path),
-    storage_account: cdktf.stringToTerraform(struct!.storageAccount),
+    container: cdktn.stringToTerraform(struct!.container),
+    credentials_secret: cdktn.stringToTerraform(struct!.credentialsSecret),
+    path: cdktn.stringToTerraform(struct!.path),
+    storage_account: cdktn.stringToTerraform(struct!.storageAccount),
     azure_credentials: googleStorageTransferJobTransferSpecAzureBlobStorageDataSourceAzureCredentialsToTerraform(struct!.azureCredentials),
     federated_identity_config: googleStorageTransferJobTransferSpecAzureBlobStorageDataSourceFederatedIdentityConfigToTerraform(struct!.federatedIdentityConfig),
   }
@@ -3107,31 +3107,31 @@ export function googleStorageTransferJobTransferSpecAzureBlobStorageDataSourceTo
 
 
 export function googleStorageTransferJobTransferSpecAzureBlobStorageDataSourceToHclTerraform(struct?: GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSourceOutputReference | GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSource): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     container: {
-      value: cdktf.stringToHclTerraform(struct!.container),
+      value: cdktn.stringToHclTerraform(struct!.container),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     credentials_secret: {
-      value: cdktf.stringToHclTerraform(struct!.credentialsSecret),
+      value: cdktn.stringToHclTerraform(struct!.credentialsSecret),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     path: {
-      value: cdktf.stringToHclTerraform(struct!.path),
+      value: cdktn.stringToHclTerraform(struct!.path),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     storage_account: {
-      value: cdktf.stringToHclTerraform(struct!.storageAccount),
+      value: cdktn.stringToHclTerraform(struct!.storageAccount),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3154,14 +3154,14 @@ export function googleStorageTransferJobTransferSpecAzureBlobStorageDataSourceTo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSourceOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSourceOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3322,31 +3322,31 @@ export interface GoogleStorageTransferJobTransferSpecGcsDataSink {
 }
 
 export function googleStorageTransferJobTransferSpecGcsDataSinkToTerraform(struct?: GoogleStorageTransferJobTransferSpecGcsDataSinkOutputReference | GoogleStorageTransferJobTransferSpecGcsDataSink): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    bucket_name: cdktf.stringToTerraform(struct!.bucketName),
-    path: cdktf.stringToTerraform(struct!.path),
+    bucket_name: cdktn.stringToTerraform(struct!.bucketName),
+    path: cdktn.stringToTerraform(struct!.path),
   }
 }
 
 
 export function googleStorageTransferJobTransferSpecGcsDataSinkToHclTerraform(struct?: GoogleStorageTransferJobTransferSpecGcsDataSinkOutputReference | GoogleStorageTransferJobTransferSpecGcsDataSink): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     bucket_name: {
-      value: cdktf.stringToHclTerraform(struct!.bucketName),
+      value: cdktn.stringToHclTerraform(struct!.bucketName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     path: {
-      value: cdktf.stringToHclTerraform(struct!.path),
+      value: cdktn.stringToHclTerraform(struct!.path),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3357,14 +3357,14 @@ export function googleStorageTransferJobTransferSpecGcsDataSinkToHclTerraform(st
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageTransferJobTransferSpecGcsDataSinkOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageTransferJobTransferSpecGcsDataSinkOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3440,31 +3440,31 @@ export interface GoogleStorageTransferJobTransferSpecGcsDataSource {
 }
 
 export function googleStorageTransferJobTransferSpecGcsDataSourceToTerraform(struct?: GoogleStorageTransferJobTransferSpecGcsDataSourceOutputReference | GoogleStorageTransferJobTransferSpecGcsDataSource): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    bucket_name: cdktf.stringToTerraform(struct!.bucketName),
-    path: cdktf.stringToTerraform(struct!.path),
+    bucket_name: cdktn.stringToTerraform(struct!.bucketName),
+    path: cdktn.stringToTerraform(struct!.path),
   }
 }
 
 
 export function googleStorageTransferJobTransferSpecGcsDataSourceToHclTerraform(struct?: GoogleStorageTransferJobTransferSpecGcsDataSourceOutputReference | GoogleStorageTransferJobTransferSpecGcsDataSource): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     bucket_name: {
-      value: cdktf.stringToHclTerraform(struct!.bucketName),
+      value: cdktn.stringToHclTerraform(struct!.bucketName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     path: {
-      value: cdktf.stringToHclTerraform(struct!.path),
+      value: cdktn.stringToHclTerraform(struct!.path),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3475,14 +3475,14 @@ export function googleStorageTransferJobTransferSpecGcsDataSourceToHclTerraform(
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageTransferJobTransferSpecGcsDataSourceOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageTransferJobTransferSpecGcsDataSourceOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3552,24 +3552,24 @@ export interface GoogleStorageTransferJobTransferSpecHdfsDataSource {
 }
 
 export function googleStorageTransferJobTransferSpecHdfsDataSourceToTerraform(struct?: GoogleStorageTransferJobTransferSpecHdfsDataSourceOutputReference | GoogleStorageTransferJobTransferSpecHdfsDataSource): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    path: cdktf.stringToTerraform(struct!.path),
+    path: cdktn.stringToTerraform(struct!.path),
   }
 }
 
 
 export function googleStorageTransferJobTransferSpecHdfsDataSourceToHclTerraform(struct?: GoogleStorageTransferJobTransferSpecHdfsDataSourceOutputReference | GoogleStorageTransferJobTransferSpecHdfsDataSource): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     path: {
-      value: cdktf.stringToHclTerraform(struct!.path),
+      value: cdktn.stringToHclTerraform(struct!.path),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3580,14 +3580,14 @@ export function googleStorageTransferJobTransferSpecHdfsDataSourceToHclTerraform
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageTransferJobTransferSpecHdfsDataSourceOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageTransferJobTransferSpecHdfsDataSourceOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3635,24 +3635,24 @@ export interface GoogleStorageTransferJobTransferSpecHttpDataSource {
 }
 
 export function googleStorageTransferJobTransferSpecHttpDataSourceToTerraform(struct?: GoogleStorageTransferJobTransferSpecHttpDataSourceOutputReference | GoogleStorageTransferJobTransferSpecHttpDataSource): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    list_url: cdktf.stringToTerraform(struct!.listUrl),
+    list_url: cdktn.stringToTerraform(struct!.listUrl),
   }
 }
 
 
 export function googleStorageTransferJobTransferSpecHttpDataSourceToHclTerraform(struct?: GoogleStorageTransferJobTransferSpecHttpDataSourceOutputReference | GoogleStorageTransferJobTransferSpecHttpDataSource): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     list_url: {
-      value: cdktf.stringToHclTerraform(struct!.listUrl),
+      value: cdktn.stringToHclTerraform(struct!.listUrl),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3663,14 +3663,14 @@ export function googleStorageTransferJobTransferSpecHttpDataSourceToHclTerraform
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageTransferJobTransferSpecHttpDataSourceOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageTransferJobTransferSpecHttpDataSourceOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3748,59 +3748,59 @@ export interface GoogleStorageTransferJobTransferSpecObjectConditions {
 }
 
 export function googleStorageTransferJobTransferSpecObjectConditionsToTerraform(struct?: GoogleStorageTransferJobTransferSpecObjectConditionsOutputReference | GoogleStorageTransferJobTransferSpecObjectConditions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    exclude_prefixes: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.excludePrefixes),
-    include_prefixes: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.includePrefixes),
-    last_modified_before: cdktf.stringToTerraform(struct!.lastModifiedBefore),
-    last_modified_since: cdktf.stringToTerraform(struct!.lastModifiedSince),
-    max_time_elapsed_since_last_modification: cdktf.stringToTerraform(struct!.maxTimeElapsedSinceLastModification),
-    min_time_elapsed_since_last_modification: cdktf.stringToTerraform(struct!.minTimeElapsedSinceLastModification),
+    exclude_prefixes: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.excludePrefixes),
+    include_prefixes: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.includePrefixes),
+    last_modified_before: cdktn.stringToTerraform(struct!.lastModifiedBefore),
+    last_modified_since: cdktn.stringToTerraform(struct!.lastModifiedSince),
+    max_time_elapsed_since_last_modification: cdktn.stringToTerraform(struct!.maxTimeElapsedSinceLastModification),
+    min_time_elapsed_since_last_modification: cdktn.stringToTerraform(struct!.minTimeElapsedSinceLastModification),
   }
 }
 
 
 export function googleStorageTransferJobTransferSpecObjectConditionsToHclTerraform(struct?: GoogleStorageTransferJobTransferSpecObjectConditionsOutputReference | GoogleStorageTransferJobTransferSpecObjectConditions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     exclude_prefixes: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.excludePrefixes),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.excludePrefixes),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     include_prefixes: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.includePrefixes),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.includePrefixes),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     last_modified_before: {
-      value: cdktf.stringToHclTerraform(struct!.lastModifiedBefore),
+      value: cdktn.stringToHclTerraform(struct!.lastModifiedBefore),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     last_modified_since: {
-      value: cdktf.stringToHclTerraform(struct!.lastModifiedSince),
+      value: cdktn.stringToHclTerraform(struct!.lastModifiedSince),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     max_time_elapsed_since_last_modification: {
-      value: cdktf.stringToHclTerraform(struct!.maxTimeElapsedSinceLastModification),
+      value: cdktn.stringToHclTerraform(struct!.maxTimeElapsedSinceLastModification),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     min_time_elapsed_since_last_modification: {
-      value: cdktf.stringToHclTerraform(struct!.minTimeElapsedSinceLastModification),
+      value: cdktn.stringToHclTerraform(struct!.minTimeElapsedSinceLastModification),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3811,14 +3811,14 @@ export function googleStorageTransferJobTransferSpecObjectConditionsToHclTerrafo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageTransferJobTransferSpecObjectConditionsOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageTransferJobTransferSpecObjectConditionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3979,24 +3979,24 @@ export interface GoogleStorageTransferJobTransferSpecPosixDataSink {
 }
 
 export function googleStorageTransferJobTransferSpecPosixDataSinkToTerraform(struct?: GoogleStorageTransferJobTransferSpecPosixDataSinkOutputReference | GoogleStorageTransferJobTransferSpecPosixDataSink): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    root_directory: cdktf.stringToTerraform(struct!.rootDirectory),
+    root_directory: cdktn.stringToTerraform(struct!.rootDirectory),
   }
 }
 
 
 export function googleStorageTransferJobTransferSpecPosixDataSinkToHclTerraform(struct?: GoogleStorageTransferJobTransferSpecPosixDataSinkOutputReference | GoogleStorageTransferJobTransferSpecPosixDataSink): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     root_directory: {
-      value: cdktf.stringToHclTerraform(struct!.rootDirectory),
+      value: cdktn.stringToHclTerraform(struct!.rootDirectory),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -4007,14 +4007,14 @@ export function googleStorageTransferJobTransferSpecPosixDataSinkToHclTerraform(
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageTransferJobTransferSpecPosixDataSinkOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageTransferJobTransferSpecPosixDataSinkOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -4062,24 +4062,24 @@ export interface GoogleStorageTransferJobTransferSpecPosixDataSource {
 }
 
 export function googleStorageTransferJobTransferSpecPosixDataSourceToTerraform(struct?: GoogleStorageTransferJobTransferSpecPosixDataSourceOutputReference | GoogleStorageTransferJobTransferSpecPosixDataSource): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    root_directory: cdktf.stringToTerraform(struct!.rootDirectory),
+    root_directory: cdktn.stringToTerraform(struct!.rootDirectory),
   }
 }
 
 
 export function googleStorageTransferJobTransferSpecPosixDataSourceToHclTerraform(struct?: GoogleStorageTransferJobTransferSpecPosixDataSourceOutputReference | GoogleStorageTransferJobTransferSpecPosixDataSource): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     root_directory: {
-      value: cdktf.stringToHclTerraform(struct!.rootDirectory),
+      value: cdktn.stringToHclTerraform(struct!.rootDirectory),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -4090,14 +4090,14 @@ export function googleStorageTransferJobTransferSpecPosixDataSourceToHclTerrafor
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageTransferJobTransferSpecPosixDataSourceOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageTransferJobTransferSpecPosixDataSourceOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -4193,80 +4193,80 @@ export interface GoogleStorageTransferJobTransferSpecTransferOptionsMetadataOpti
 }
 
 export function googleStorageTransferJobTransferSpecTransferOptionsMetadataOptionsToTerraform(struct?: GoogleStorageTransferJobTransferSpecTransferOptionsMetadataOptionsOutputReference | GoogleStorageTransferJobTransferSpecTransferOptionsMetadataOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    acl: cdktf.stringToTerraform(struct!.acl),
-    gid: cdktf.stringToTerraform(struct!.gid),
-    kms_key: cdktf.stringToTerraform(struct!.kmsKey),
-    mode: cdktf.stringToTerraform(struct!.mode),
-    storage_class: cdktf.stringToTerraform(struct!.storageClass),
-    symlink: cdktf.stringToTerraform(struct!.symlink),
-    temporary_hold: cdktf.stringToTerraform(struct!.temporaryHold),
-    time_created: cdktf.stringToTerraform(struct!.timeCreated),
-    uid: cdktf.stringToTerraform(struct!.uid),
+    acl: cdktn.stringToTerraform(struct!.acl),
+    gid: cdktn.stringToTerraform(struct!.gid),
+    kms_key: cdktn.stringToTerraform(struct!.kmsKey),
+    mode: cdktn.stringToTerraform(struct!.mode),
+    storage_class: cdktn.stringToTerraform(struct!.storageClass),
+    symlink: cdktn.stringToTerraform(struct!.symlink),
+    temporary_hold: cdktn.stringToTerraform(struct!.temporaryHold),
+    time_created: cdktn.stringToTerraform(struct!.timeCreated),
+    uid: cdktn.stringToTerraform(struct!.uid),
   }
 }
 
 
 export function googleStorageTransferJobTransferSpecTransferOptionsMetadataOptionsToHclTerraform(struct?: GoogleStorageTransferJobTransferSpecTransferOptionsMetadataOptionsOutputReference | GoogleStorageTransferJobTransferSpecTransferOptionsMetadataOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     acl: {
-      value: cdktf.stringToHclTerraform(struct!.acl),
+      value: cdktn.stringToHclTerraform(struct!.acl),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     gid: {
-      value: cdktf.stringToHclTerraform(struct!.gid),
+      value: cdktn.stringToHclTerraform(struct!.gid),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     kms_key: {
-      value: cdktf.stringToHclTerraform(struct!.kmsKey),
+      value: cdktn.stringToHclTerraform(struct!.kmsKey),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     mode: {
-      value: cdktf.stringToHclTerraform(struct!.mode),
+      value: cdktn.stringToHclTerraform(struct!.mode),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     storage_class: {
-      value: cdktf.stringToHclTerraform(struct!.storageClass),
+      value: cdktn.stringToHclTerraform(struct!.storageClass),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     symlink: {
-      value: cdktf.stringToHclTerraform(struct!.symlink),
+      value: cdktn.stringToHclTerraform(struct!.symlink),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     temporary_hold: {
-      value: cdktf.stringToHclTerraform(struct!.temporaryHold),
+      value: cdktn.stringToHclTerraform(struct!.temporaryHold),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     time_created: {
-      value: cdktf.stringToHclTerraform(struct!.timeCreated),
+      value: cdktn.stringToHclTerraform(struct!.timeCreated),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     uid: {
-      value: cdktf.stringToHclTerraform(struct!.uid),
+      value: cdktn.stringToHclTerraform(struct!.uid),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -4277,14 +4277,14 @@ export function googleStorageTransferJobTransferSpecTransferOptionsMetadataOptio
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageTransferJobTransferSpecTransferOptionsMetadataOptionsOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageTransferJobTransferSpecTransferOptionsMetadataOptionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -4507,19 +4507,19 @@ export interface GoogleStorageTransferJobTransferSpecTransferOptions {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#delete_objects_from_source_after_transfer GoogleStorageTransferJob#delete_objects_from_source_after_transfer}
   */
-  readonly deleteObjectsFromSourceAfterTransfer?: boolean | cdktf.IResolvable;
+  readonly deleteObjectsFromSourceAfterTransfer?: boolean | cdktn.IResolvable;
   /**
   * Whether objects that exist only in the sink should be deleted. Note that this option and delete_objects_from_source_after_transfer are mutually exclusive.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#delete_objects_unique_in_sink GoogleStorageTransferJob#delete_objects_unique_in_sink}
   */
-  readonly deleteObjectsUniqueInSink?: boolean | cdktf.IResolvable;
+  readonly deleteObjectsUniqueInSink?: boolean | cdktn.IResolvable;
   /**
   * Whether overwriting objects that already exist in the sink is allowed.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#overwrite_objects_already_existing_in_sink GoogleStorageTransferJob#overwrite_objects_already_existing_in_sink}
   */
-  readonly overwriteObjectsAlreadyExistingInSink?: boolean | cdktf.IResolvable;
+  readonly overwriteObjectsAlreadyExistingInSink?: boolean | cdktn.IResolvable;
   /**
   * When to overwrite objects that already exist in the sink. If not set, overwrite behavior is determined by overwriteObjectsAlreadyExistingInSink.
   *
@@ -4535,46 +4535,46 @@ export interface GoogleStorageTransferJobTransferSpecTransferOptions {
 }
 
 export function googleStorageTransferJobTransferSpecTransferOptionsToTerraform(struct?: GoogleStorageTransferJobTransferSpecTransferOptionsOutputReference | GoogleStorageTransferJobTransferSpecTransferOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    delete_objects_from_source_after_transfer: cdktf.booleanToTerraform(struct!.deleteObjectsFromSourceAfterTransfer),
-    delete_objects_unique_in_sink: cdktf.booleanToTerraform(struct!.deleteObjectsUniqueInSink),
-    overwrite_objects_already_existing_in_sink: cdktf.booleanToTerraform(struct!.overwriteObjectsAlreadyExistingInSink),
-    overwrite_when: cdktf.stringToTerraform(struct!.overwriteWhen),
+    delete_objects_from_source_after_transfer: cdktn.booleanToTerraform(struct!.deleteObjectsFromSourceAfterTransfer),
+    delete_objects_unique_in_sink: cdktn.booleanToTerraform(struct!.deleteObjectsUniqueInSink),
+    overwrite_objects_already_existing_in_sink: cdktn.booleanToTerraform(struct!.overwriteObjectsAlreadyExistingInSink),
+    overwrite_when: cdktn.stringToTerraform(struct!.overwriteWhen),
     metadata_options: googleStorageTransferJobTransferSpecTransferOptionsMetadataOptionsToTerraform(struct!.metadataOptions),
   }
 }
 
 
 export function googleStorageTransferJobTransferSpecTransferOptionsToHclTerraform(struct?: GoogleStorageTransferJobTransferSpecTransferOptionsOutputReference | GoogleStorageTransferJobTransferSpecTransferOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     delete_objects_from_source_after_transfer: {
-      value: cdktf.booleanToHclTerraform(struct!.deleteObjectsFromSourceAfterTransfer),
+      value: cdktn.booleanToHclTerraform(struct!.deleteObjectsFromSourceAfterTransfer),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     delete_objects_unique_in_sink: {
-      value: cdktf.booleanToHclTerraform(struct!.deleteObjectsUniqueInSink),
+      value: cdktn.booleanToHclTerraform(struct!.deleteObjectsUniqueInSink),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     overwrite_objects_already_existing_in_sink: {
-      value: cdktf.booleanToHclTerraform(struct!.overwriteObjectsAlreadyExistingInSink),
+      value: cdktn.booleanToHclTerraform(struct!.overwriteObjectsAlreadyExistingInSink),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     overwrite_when: {
-      value: cdktf.stringToHclTerraform(struct!.overwriteWhen),
+      value: cdktn.stringToHclTerraform(struct!.overwriteWhen),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -4591,14 +4591,14 @@ export function googleStorageTransferJobTransferSpecTransferOptionsToHclTerrafor
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageTransferJobTransferSpecTransferOptionsOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageTransferJobTransferSpecTransferOptionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -4648,11 +4648,11 @@ export class GoogleStorageTransferJobTransferSpecTransferOptionsOutputReference 
   }
 
   // delete_objects_from_source_after_transfer - computed: false, optional: true, required: false
-  private _deleteObjectsFromSourceAfterTransfer?: boolean | cdktf.IResolvable; 
+  private _deleteObjectsFromSourceAfterTransfer?: boolean | cdktn.IResolvable; 
   public get deleteObjectsFromSourceAfterTransfer() {
     return this.getBooleanAttribute('delete_objects_from_source_after_transfer');
   }
-  public set deleteObjectsFromSourceAfterTransfer(value: boolean | cdktf.IResolvable) {
+  public set deleteObjectsFromSourceAfterTransfer(value: boolean | cdktn.IResolvable) {
     this._deleteObjectsFromSourceAfterTransfer = value;
   }
   public resetDeleteObjectsFromSourceAfterTransfer() {
@@ -4664,11 +4664,11 @@ export class GoogleStorageTransferJobTransferSpecTransferOptionsOutputReference 
   }
 
   // delete_objects_unique_in_sink - computed: false, optional: true, required: false
-  private _deleteObjectsUniqueInSink?: boolean | cdktf.IResolvable; 
+  private _deleteObjectsUniqueInSink?: boolean | cdktn.IResolvable; 
   public get deleteObjectsUniqueInSink() {
     return this.getBooleanAttribute('delete_objects_unique_in_sink');
   }
-  public set deleteObjectsUniqueInSink(value: boolean | cdktf.IResolvable) {
+  public set deleteObjectsUniqueInSink(value: boolean | cdktn.IResolvable) {
     this._deleteObjectsUniqueInSink = value;
   }
   public resetDeleteObjectsUniqueInSink() {
@@ -4680,11 +4680,11 @@ export class GoogleStorageTransferJobTransferSpecTransferOptionsOutputReference 
   }
 
   // overwrite_objects_already_existing_in_sink - computed: false, optional: true, required: false
-  private _overwriteObjectsAlreadyExistingInSink?: boolean | cdktf.IResolvable; 
+  private _overwriteObjectsAlreadyExistingInSink?: boolean | cdktn.IResolvable; 
   public get overwriteObjectsAlreadyExistingInSink() {
     return this.getBooleanAttribute('overwrite_objects_already_existing_in_sink');
   }
-  public set overwriteObjectsAlreadyExistingInSink(value: boolean | cdktf.IResolvable) {
+  public set overwriteObjectsAlreadyExistingInSink(value: boolean | cdktn.IResolvable) {
     this._overwriteObjectsAlreadyExistingInSink = value;
   }
   public resetOverwriteObjectsAlreadyExistingInSink() {
@@ -4803,13 +4803,13 @@ export interface GoogleStorageTransferJobTransferSpec {
 }
 
 export function googleStorageTransferJobTransferSpecToTerraform(struct?: GoogleStorageTransferJobTransferSpecOutputReference | GoogleStorageTransferJobTransferSpec): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    sink_agent_pool_name: cdktf.stringToTerraform(struct!.sinkAgentPoolName),
-    source_agent_pool_name: cdktf.stringToTerraform(struct!.sourceAgentPoolName),
+    sink_agent_pool_name: cdktn.stringToTerraform(struct!.sinkAgentPoolName),
+    source_agent_pool_name: cdktn.stringToTerraform(struct!.sourceAgentPoolName),
     aws_s3_data_source: googleStorageTransferJobTransferSpecAwsS3DataSourceToTerraform(struct!.awsS3DataSource),
     azure_blob_storage_data_source: googleStorageTransferJobTransferSpecAzureBlobStorageDataSourceToTerraform(struct!.azureBlobStorageDataSource),
     gcs_data_sink: googleStorageTransferJobTransferSpecGcsDataSinkToTerraform(struct!.gcsDataSink),
@@ -4825,19 +4825,19 @@ export function googleStorageTransferJobTransferSpecToTerraform(struct?: GoogleS
 
 
 export function googleStorageTransferJobTransferSpecToHclTerraform(struct?: GoogleStorageTransferJobTransferSpecOutputReference | GoogleStorageTransferJobTransferSpec): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     sink_agent_pool_name: {
-      value: cdktf.stringToHclTerraform(struct!.sinkAgentPoolName),
+      value: cdktn.stringToHclTerraform(struct!.sinkAgentPoolName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     source_agent_pool_name: {
-      value: cdktf.stringToHclTerraform(struct!.sourceAgentPoolName),
+      value: cdktn.stringToHclTerraform(struct!.sourceAgentPoolName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -4908,14 +4908,14 @@ export function googleStorageTransferJobTransferSpecToHclTerraform(struct?: Goog
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageTransferJobTransferSpecOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageTransferJobTransferSpecOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -5202,7 +5202,7 @@ export class GoogleStorageTransferJobTransferSpecOutputReference extends cdktf.C
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job google_storage_transfer_job}
 */
-export class GoogleStorageTransferJob extends cdktf.TerraformResource {
+export class GoogleStorageTransferJob extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -5213,14 +5213,14 @@ export class GoogleStorageTransferJob extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleStorageTransferJob resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleStorageTransferJob resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleStorageTransferJob to import
   * @param importFromId The id of the existing GoogleStorageTransferJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_job#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleStorageTransferJob to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_storage_transfer_job", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_storage_transfer_job", importId: importFromId, provider });
       }
 
   // ===========
@@ -5461,11 +5461,11 @@ export class GoogleStorageTransferJob extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      description: cdktf.stringToTerraform(this._description),
-      id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
-      project: cdktf.stringToTerraform(this._project),
-      status: cdktf.stringToTerraform(this._status),
+      description: cdktn.stringToTerraform(this._description),
+      id: cdktn.stringToTerraform(this._id),
+      name: cdktn.stringToTerraform(this._name),
+      project: cdktn.stringToTerraform(this._project),
+      status: cdktn.stringToTerraform(this._status),
       event_stream: googleStorageTransferJobEventStreamToTerraform(this._eventStream.internalValue),
       logging_config: googleStorageTransferJobLoggingConfigToTerraform(this._loggingConfig.internalValue),
       notification_config: googleStorageTransferJobNotificationConfigToTerraform(this._notificationConfig.internalValue),
@@ -5478,31 +5478,31 @@ export class GoogleStorageTransferJob extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       status: {
-        value: cdktf.stringToHclTerraform(this._status),
+        value: cdktn.stringToHclTerraform(this._status),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

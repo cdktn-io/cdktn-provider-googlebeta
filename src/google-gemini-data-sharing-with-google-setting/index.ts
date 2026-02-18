@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleGeminiDataSharingWithGoogleSettingConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleGeminiDataSharingWithGoogleSettingConfig extends cdktn.TerraformMetaArguments {
   /**
   * Id of the Data Sharing With Google Setting.
   *
@@ -23,13 +23,13 @@ export interface GoogleGeminiDataSharingWithGoogleSettingConfig extends cdktf.Te
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_data_sharing_with_google_setting#enable_data_sharing GoogleGeminiDataSharingWithGoogleSetting#enable_data_sharing}
   */
-  readonly enableDataSharing?: boolean | cdktf.IResolvable;
+  readonly enableDataSharing?: boolean | cdktn.IResolvable;
   /**
   * Whether data sharing should be enabled in Preview products.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_data_sharing_with_google_setting#enable_preview_data_sharing GoogleGeminiDataSharingWithGoogleSetting#enable_preview_data_sharing}
   */
-  readonly enablePreviewDataSharing?: boolean | cdktf.IResolvable;
+  readonly enablePreviewDataSharing?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_data_sharing_with_google_setting#id GoogleGeminiDataSharingWithGoogleSetting#id}
   *
@@ -78,39 +78,39 @@ export interface GoogleGeminiDataSharingWithGoogleSettingTimeouts {
   readonly update?: string;
 }
 
-export function googleGeminiDataSharingWithGoogleSettingTimeoutsToTerraform(struct?: GoogleGeminiDataSharingWithGoogleSettingTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleGeminiDataSharingWithGoogleSettingTimeoutsToTerraform(struct?: GoogleGeminiDataSharingWithGoogleSettingTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleGeminiDataSharingWithGoogleSettingTimeoutsToHclTerraform(struct?: GoogleGeminiDataSharingWithGoogleSettingTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleGeminiDataSharingWithGoogleSettingTimeoutsToHclTerraform(struct?: GoogleGeminiDataSharingWithGoogleSettingTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -121,19 +121,19 @@ export function googleGeminiDataSharingWithGoogleSettingTimeoutsToHclTerraform(s
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleGeminiDataSharingWithGoogleSettingTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleGeminiDataSharingWithGoogleSettingTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleGeminiDataSharingWithGoogleSettingTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleGeminiDataSharingWithGoogleSettingTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -154,7 +154,7 @@ export class GoogleGeminiDataSharingWithGoogleSettingTimeoutsOutputReference ext
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleGeminiDataSharingWithGoogleSettingTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleGeminiDataSharingWithGoogleSettingTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -162,7 +162,7 @@ export class GoogleGeminiDataSharingWithGoogleSettingTimeoutsOutputReference ext
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -227,7 +227,7 @@ export class GoogleGeminiDataSharingWithGoogleSettingTimeoutsOutputReference ext
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_data_sharing_with_google_setting google_gemini_data_sharing_with_google_setting}
 */
-export class GoogleGeminiDataSharingWithGoogleSetting extends cdktf.TerraformResource {
+export class GoogleGeminiDataSharingWithGoogleSetting extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -238,14 +238,14 @@ export class GoogleGeminiDataSharingWithGoogleSetting extends cdktf.TerraformRes
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleGeminiDataSharingWithGoogleSetting resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleGeminiDataSharingWithGoogleSetting resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleGeminiDataSharingWithGoogleSetting to import
   * @param importFromId The id of the existing GoogleGeminiDataSharingWithGoogleSetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_data_sharing_with_google_setting#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleGeminiDataSharingWithGoogleSetting to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_gemini_data_sharing_with_google_setting", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_gemini_data_sharing_with_google_setting", importId: importFromId, provider });
       }
 
   // ===========
@@ -308,17 +308,17 @@ export class GoogleGeminiDataSharingWithGoogleSetting extends cdktf.TerraformRes
   }
 
   // effective_labels - computed: true, optional: false, required: false
-  private _effectiveLabels = new cdktf.StringMap(this, "effective_labels");
+  private _effectiveLabels = new cdktn.StringMap(this, "effective_labels");
   public get effectiveLabels() {
     return this._effectiveLabels;
   }
 
   // enable_data_sharing - computed: false, optional: true, required: false
-  private _enableDataSharing?: boolean | cdktf.IResolvable; 
+  private _enableDataSharing?: boolean | cdktn.IResolvable; 
   public get enableDataSharing() {
     return this.getBooleanAttribute('enable_data_sharing');
   }
-  public set enableDataSharing(value: boolean | cdktf.IResolvable) {
+  public set enableDataSharing(value: boolean | cdktn.IResolvable) {
     this._enableDataSharing = value;
   }
   public resetEnableDataSharing() {
@@ -330,11 +330,11 @@ export class GoogleGeminiDataSharingWithGoogleSetting extends cdktf.TerraformRes
   }
 
   // enable_preview_data_sharing - computed: false, optional: true, required: false
-  private _enablePreviewDataSharing?: boolean | cdktf.IResolvable; 
+  private _enablePreviewDataSharing?: boolean | cdktn.IResolvable; 
   public get enablePreviewDataSharing() {
     return this.getBooleanAttribute('enable_preview_data_sharing');
   }
-  public set enablePreviewDataSharing(value: boolean | cdktf.IResolvable) {
+  public set enablePreviewDataSharing(value: boolean | cdktn.IResolvable) {
     this._enablePreviewDataSharing = value;
   }
   public resetEnablePreviewDataSharing() {
@@ -415,7 +415,7 @@ export class GoogleGeminiDataSharingWithGoogleSetting extends cdktf.TerraformRes
   }
 
   // terraform_labels - computed: true, optional: false, required: false
-  private _terraformLabels = new cdktf.StringMap(this, "terraform_labels");
+  private _terraformLabels = new cdktn.StringMap(this, "terraform_labels");
   public get terraformLabels() {
     return this._terraformLabels;
   }
@@ -447,13 +447,13 @@ export class GoogleGeminiDataSharingWithGoogleSetting extends cdktf.TerraformRes
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      data_sharing_with_google_setting_id: cdktf.stringToTerraform(this._dataSharingWithGoogleSettingId),
-      enable_data_sharing: cdktf.booleanToTerraform(this._enableDataSharing),
-      enable_preview_data_sharing: cdktf.booleanToTerraform(this._enablePreviewDataSharing),
-      id: cdktf.stringToTerraform(this._id),
-      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
-      location: cdktf.stringToTerraform(this._location),
-      project: cdktf.stringToTerraform(this._project),
+      data_sharing_with_google_setting_id: cdktn.stringToTerraform(this._dataSharingWithGoogleSettingId),
+      enable_data_sharing: cdktn.booleanToTerraform(this._enableDataSharing),
+      enable_preview_data_sharing: cdktn.booleanToTerraform(this._enablePreviewDataSharing),
+      id: cdktn.stringToTerraform(this._id),
+      labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
+      location: cdktn.stringToTerraform(this._location),
+      project: cdktn.stringToTerraform(this._project),
       timeouts: googleGeminiDataSharingWithGoogleSettingTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -461,43 +461,43 @@ export class GoogleGeminiDataSharingWithGoogleSetting extends cdktf.TerraformRes
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       data_sharing_with_google_setting_id: {
-        value: cdktf.stringToHclTerraform(this._dataSharingWithGoogleSettingId),
+        value: cdktn.stringToHclTerraform(this._dataSharingWithGoogleSettingId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       enable_data_sharing: {
-        value: cdktf.booleanToHclTerraform(this._enableDataSharing),
+        value: cdktn.booleanToHclTerraform(this._enableDataSharing),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       enable_preview_data_sharing: {
-        value: cdktf.booleanToHclTerraform(this._enablePreviewDataSharing),
+        value: cdktn.booleanToHclTerraform(this._enablePreviewDataSharing),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._labels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleEventarcPipelineConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleEventarcPipelineConfig extends cdktn.TerraformMetaArguments {
   /**
   * User-defined annotations. See https://google.aip.dev/128#annotations.
   * 
@@ -76,7 +76,7 @@ export interface GoogleEventarcPipelineConfig extends cdktf.TerraformMetaArgumen
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_pipeline#destinations GoogleEventarcPipeline#destinations}
   */
-  readonly destinations: GoogleEventarcPipelineDestinations[] | cdktf.IResolvable;
+  readonly destinations: GoogleEventarcPipelineDestinations[] | cdktn.IResolvable;
   /**
   * input_payload_format block
   *
@@ -94,7 +94,7 @@ export interface GoogleEventarcPipelineConfig extends cdktf.TerraformMetaArgumen
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_pipeline#mediations GoogleEventarcPipeline#mediations}
   */
-  readonly mediations?: GoogleEventarcPipelineMediations[] | cdktf.IResolvable;
+  readonly mediations?: GoogleEventarcPipelineMediations[] | cdktn.IResolvable;
   /**
   * retry_policy block
   *
@@ -132,31 +132,31 @@ export interface GoogleEventarcPipelineDestinationsAuthenticationConfigGoogleOid
 }
 
 export function googleEventarcPipelineDestinationsAuthenticationConfigGoogleOidcToTerraform(struct?: GoogleEventarcPipelineDestinationsAuthenticationConfigGoogleOidcOutputReference | GoogleEventarcPipelineDestinationsAuthenticationConfigGoogleOidc): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    audience: cdktf.stringToTerraform(struct!.audience),
-    service_account: cdktf.stringToTerraform(struct!.serviceAccount),
+    audience: cdktn.stringToTerraform(struct!.audience),
+    service_account: cdktn.stringToTerraform(struct!.serviceAccount),
   }
 }
 
 
 export function googleEventarcPipelineDestinationsAuthenticationConfigGoogleOidcToHclTerraform(struct?: GoogleEventarcPipelineDestinationsAuthenticationConfigGoogleOidcOutputReference | GoogleEventarcPipelineDestinationsAuthenticationConfigGoogleOidc): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     audience: {
-      value: cdktf.stringToHclTerraform(struct!.audience),
+      value: cdktn.stringToHclTerraform(struct!.audience),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     service_account: {
-      value: cdktf.stringToHclTerraform(struct!.serviceAccount),
+      value: cdktn.stringToHclTerraform(struct!.serviceAccount),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -167,14 +167,14 @@ export function googleEventarcPipelineDestinationsAuthenticationConfigGoogleOidc
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleEventarcPipelineDestinationsAuthenticationConfigGoogleOidcOutputReference extends cdktf.ComplexObject {
+export class GoogleEventarcPipelineDestinationsAuthenticationConfigGoogleOidcOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -259,31 +259,31 @@ export interface GoogleEventarcPipelineDestinationsAuthenticationConfigOauthToke
 }
 
 export function googleEventarcPipelineDestinationsAuthenticationConfigOauthTokenToTerraform(struct?: GoogleEventarcPipelineDestinationsAuthenticationConfigOauthTokenOutputReference | GoogleEventarcPipelineDestinationsAuthenticationConfigOauthToken): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    scope: cdktf.stringToTerraform(struct!.scope),
-    service_account: cdktf.stringToTerraform(struct!.serviceAccount),
+    scope: cdktn.stringToTerraform(struct!.scope),
+    service_account: cdktn.stringToTerraform(struct!.serviceAccount),
   }
 }
 
 
 export function googleEventarcPipelineDestinationsAuthenticationConfigOauthTokenToHclTerraform(struct?: GoogleEventarcPipelineDestinationsAuthenticationConfigOauthTokenOutputReference | GoogleEventarcPipelineDestinationsAuthenticationConfigOauthToken): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     scope: {
-      value: cdktf.stringToHclTerraform(struct!.scope),
+      value: cdktn.stringToHclTerraform(struct!.scope),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     service_account: {
-      value: cdktf.stringToHclTerraform(struct!.serviceAccount),
+      value: cdktn.stringToHclTerraform(struct!.serviceAccount),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -294,14 +294,14 @@ export function googleEventarcPipelineDestinationsAuthenticationConfigOauthToken
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleEventarcPipelineDestinationsAuthenticationConfigOauthTokenOutputReference extends cdktf.ComplexObject {
+export class GoogleEventarcPipelineDestinationsAuthenticationConfigOauthTokenOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -377,8 +377,8 @@ export interface GoogleEventarcPipelineDestinationsAuthenticationConfig {
 }
 
 export function googleEventarcPipelineDestinationsAuthenticationConfigToTerraform(struct?: GoogleEventarcPipelineDestinationsAuthenticationConfigOutputReference | GoogleEventarcPipelineDestinationsAuthenticationConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -389,8 +389,8 @@ export function googleEventarcPipelineDestinationsAuthenticationConfigToTerrafor
 
 
 export function googleEventarcPipelineDestinationsAuthenticationConfigToHclTerraform(struct?: GoogleEventarcPipelineDestinationsAuthenticationConfigOutputReference | GoogleEventarcPipelineDestinationsAuthenticationConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -412,14 +412,14 @@ export function googleEventarcPipelineDestinationsAuthenticationConfigToHclTerra
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleEventarcPipelineDestinationsAuthenticationConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleEventarcPipelineDestinationsAuthenticationConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -667,31 +667,31 @@ export interface GoogleEventarcPipelineDestinationsHttpEndpoint {
 }
 
 export function googleEventarcPipelineDestinationsHttpEndpointToTerraform(struct?: GoogleEventarcPipelineDestinationsHttpEndpointOutputReference | GoogleEventarcPipelineDestinationsHttpEndpoint): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    message_binding_template: cdktf.stringToTerraform(struct!.messageBindingTemplate),
-    uri: cdktf.stringToTerraform(struct!.uri),
+    message_binding_template: cdktn.stringToTerraform(struct!.messageBindingTemplate),
+    uri: cdktn.stringToTerraform(struct!.uri),
   }
 }
 
 
 export function googleEventarcPipelineDestinationsHttpEndpointToHclTerraform(struct?: GoogleEventarcPipelineDestinationsHttpEndpointOutputReference | GoogleEventarcPipelineDestinationsHttpEndpoint): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     message_binding_template: {
-      value: cdktf.stringToHclTerraform(struct!.messageBindingTemplate),
+      value: cdktn.stringToHclTerraform(struct!.messageBindingTemplate),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     uri: {
-      value: cdktf.stringToHclTerraform(struct!.uri),
+      value: cdktn.stringToHclTerraform(struct!.uri),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -702,14 +702,14 @@ export function googleEventarcPipelineDestinationsHttpEndpointToHclTerraform(str
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleEventarcPipelineDestinationsHttpEndpointOutputReference extends cdktf.ComplexObject {
+export class GoogleEventarcPipelineDestinationsHttpEndpointOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -785,24 +785,24 @@ export interface GoogleEventarcPipelineDestinationsNetworkConfig {
 }
 
 export function googleEventarcPipelineDestinationsNetworkConfigToTerraform(struct?: GoogleEventarcPipelineDestinationsNetworkConfigOutputReference | GoogleEventarcPipelineDestinationsNetworkConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    network_attachment: cdktf.stringToTerraform(struct!.networkAttachment),
+    network_attachment: cdktn.stringToTerraform(struct!.networkAttachment),
   }
 }
 
 
 export function googleEventarcPipelineDestinationsNetworkConfigToHclTerraform(struct?: GoogleEventarcPipelineDestinationsNetworkConfigOutputReference | GoogleEventarcPipelineDestinationsNetworkConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     network_attachment: {
-      value: cdktf.stringToHclTerraform(struct!.networkAttachment),
+      value: cdktn.stringToHclTerraform(struct!.networkAttachment),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -813,14 +813,14 @@ export function googleEventarcPipelineDestinationsNetworkConfigToHclTerraform(st
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleEventarcPipelineDestinationsNetworkConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleEventarcPipelineDestinationsNetworkConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -871,24 +871,24 @@ export interface GoogleEventarcPipelineDestinationsOutputPayloadFormatAvro {
 }
 
 export function googleEventarcPipelineDestinationsOutputPayloadFormatAvroToTerraform(struct?: GoogleEventarcPipelineDestinationsOutputPayloadFormatAvroOutputReference | GoogleEventarcPipelineDestinationsOutputPayloadFormatAvro): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    schema_definition: cdktf.stringToTerraform(struct!.schemaDefinition),
+    schema_definition: cdktn.stringToTerraform(struct!.schemaDefinition),
   }
 }
 
 
 export function googleEventarcPipelineDestinationsOutputPayloadFormatAvroToHclTerraform(struct?: GoogleEventarcPipelineDestinationsOutputPayloadFormatAvroOutputReference | GoogleEventarcPipelineDestinationsOutputPayloadFormatAvro): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     schema_definition: {
-      value: cdktf.stringToHclTerraform(struct!.schemaDefinition),
+      value: cdktn.stringToHclTerraform(struct!.schemaDefinition),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -899,14 +899,14 @@ export function googleEventarcPipelineDestinationsOutputPayloadFormatAvroToHclTe
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleEventarcPipelineDestinationsOutputPayloadFormatAvroOutputReference extends cdktf.ComplexObject {
+export class GoogleEventarcPipelineDestinationsOutputPayloadFormatAvroOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -951,8 +951,8 @@ export interface GoogleEventarcPipelineDestinationsOutputPayloadFormatJson {
 }
 
 export function googleEventarcPipelineDestinationsOutputPayloadFormatJsonToTerraform(struct?: GoogleEventarcPipelineDestinationsOutputPayloadFormatJsonOutputReference | GoogleEventarcPipelineDestinationsOutputPayloadFormatJson): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -961,8 +961,8 @@ export function googleEventarcPipelineDestinationsOutputPayloadFormatJsonToTerra
 
 
 export function googleEventarcPipelineDestinationsOutputPayloadFormatJsonToHclTerraform(struct?: GoogleEventarcPipelineDestinationsOutputPayloadFormatJsonOutputReference | GoogleEventarcPipelineDestinationsOutputPayloadFormatJson): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -970,14 +970,14 @@ export function googleEventarcPipelineDestinationsOutputPayloadFormatJsonToHclTe
   return attrs;
 }
 
-export class GoogleEventarcPipelineDestinationsOutputPayloadFormatJsonOutputReference extends cdktf.ComplexObject {
+export class GoogleEventarcPipelineDestinationsOutputPayloadFormatJsonOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1006,24 +1006,24 @@ export interface GoogleEventarcPipelineDestinationsOutputPayloadFormatProtobuf {
 }
 
 export function googleEventarcPipelineDestinationsOutputPayloadFormatProtobufToTerraform(struct?: GoogleEventarcPipelineDestinationsOutputPayloadFormatProtobufOutputReference | GoogleEventarcPipelineDestinationsOutputPayloadFormatProtobuf): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    schema_definition: cdktf.stringToTerraform(struct!.schemaDefinition),
+    schema_definition: cdktn.stringToTerraform(struct!.schemaDefinition),
   }
 }
 
 
 export function googleEventarcPipelineDestinationsOutputPayloadFormatProtobufToHclTerraform(struct?: GoogleEventarcPipelineDestinationsOutputPayloadFormatProtobufOutputReference | GoogleEventarcPipelineDestinationsOutputPayloadFormatProtobuf): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     schema_definition: {
-      value: cdktf.stringToHclTerraform(struct!.schemaDefinition),
+      value: cdktn.stringToHclTerraform(struct!.schemaDefinition),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1034,14 +1034,14 @@ export function googleEventarcPipelineDestinationsOutputPayloadFormatProtobufToH
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleEventarcPipelineDestinationsOutputPayloadFormatProtobufOutputReference extends cdktf.ComplexObject {
+export class GoogleEventarcPipelineDestinationsOutputPayloadFormatProtobufOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1104,8 +1104,8 @@ export interface GoogleEventarcPipelineDestinationsOutputPayloadFormat {
 }
 
 export function googleEventarcPipelineDestinationsOutputPayloadFormatToTerraform(struct?: GoogleEventarcPipelineDestinationsOutputPayloadFormatOutputReference | GoogleEventarcPipelineDestinationsOutputPayloadFormat): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -1117,8 +1117,8 @@ export function googleEventarcPipelineDestinationsOutputPayloadFormatToTerraform
 
 
 export function googleEventarcPipelineDestinationsOutputPayloadFormatToHclTerraform(struct?: GoogleEventarcPipelineDestinationsOutputPayloadFormatOutputReference | GoogleEventarcPipelineDestinationsOutputPayloadFormat): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -1146,14 +1146,14 @@ export function googleEventarcPipelineDestinationsOutputPayloadFormatToHclTerraf
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleEventarcPipelineDestinationsOutputPayloadFormatOutputReference extends cdktf.ComplexObject {
+export class GoogleEventarcPipelineDestinationsOutputPayloadFormatOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1291,15 +1291,15 @@ export interface GoogleEventarcPipelineDestinations {
   readonly outputPayloadFormat?: GoogleEventarcPipelineDestinationsOutputPayloadFormat;
 }
 
-export function googleEventarcPipelineDestinationsToTerraform(struct?: GoogleEventarcPipelineDestinations | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleEventarcPipelineDestinationsToTerraform(struct?: GoogleEventarcPipelineDestinations | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    message_bus: cdktf.stringToTerraform(struct!.messageBus),
-    topic: cdktf.stringToTerraform(struct!.topic),
-    workflow: cdktf.stringToTerraform(struct!.workflow),
+    message_bus: cdktn.stringToTerraform(struct!.messageBus),
+    topic: cdktn.stringToTerraform(struct!.topic),
+    workflow: cdktn.stringToTerraform(struct!.workflow),
     authentication_config: googleEventarcPipelineDestinationsAuthenticationConfigToTerraform(struct!.authenticationConfig),
     http_endpoint: googleEventarcPipelineDestinationsHttpEndpointToTerraform(struct!.httpEndpoint),
     network_config: googleEventarcPipelineDestinationsNetworkConfigToTerraform(struct!.networkConfig),
@@ -1308,26 +1308,26 @@ export function googleEventarcPipelineDestinationsToTerraform(struct?: GoogleEve
 }
 
 
-export function googleEventarcPipelineDestinationsToHclTerraform(struct?: GoogleEventarcPipelineDestinations | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleEventarcPipelineDestinationsToHclTerraform(struct?: GoogleEventarcPipelineDestinations | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     message_bus: {
-      value: cdktf.stringToHclTerraform(struct!.messageBus),
+      value: cdktn.stringToHclTerraform(struct!.messageBus),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     topic: {
-      value: cdktf.stringToHclTerraform(struct!.topic),
+      value: cdktn.stringToHclTerraform(struct!.topic),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     workflow: {
-      value: cdktf.stringToHclTerraform(struct!.workflow),
+      value: cdktn.stringToHclTerraform(struct!.workflow),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1362,9 +1362,9 @@ export function googleEventarcPipelineDestinationsToHclTerraform(struct?: Google
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleEventarcPipelineDestinationsOutputReference extends cdktf.ComplexObject {
+export class GoogleEventarcPipelineDestinationsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -1372,11 +1372,11 @@ export class GoogleEventarcPipelineDestinationsOutputReference extends cdktf.Com
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleEventarcPipelineDestinations | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleEventarcPipelineDestinations | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1413,7 +1413,7 @@ export class GoogleEventarcPipelineDestinationsOutputReference extends cdktf.Com
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleEventarcPipelineDestinations | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleEventarcPipelineDestinations | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -1425,7 +1425,7 @@ export class GoogleEventarcPipelineDestinationsOutputReference extends cdktf.Com
       this._networkConfig.internalValue = undefined;
       this._outputPayloadFormat.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1555,15 +1555,15 @@ export class GoogleEventarcPipelineDestinationsOutputReference extends cdktf.Com
   }
 }
 
-export class GoogleEventarcPipelineDestinationsList extends cdktf.ComplexList {
-  public internalValue? : GoogleEventarcPipelineDestinations[] | cdktf.IResolvable
+export class GoogleEventarcPipelineDestinationsList extends cdktn.ComplexList {
+  public internalValue? : GoogleEventarcPipelineDestinations[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1584,24 +1584,24 @@ export interface GoogleEventarcPipelineInputPayloadFormatAvro {
 }
 
 export function googleEventarcPipelineInputPayloadFormatAvroToTerraform(struct?: GoogleEventarcPipelineInputPayloadFormatAvroOutputReference | GoogleEventarcPipelineInputPayloadFormatAvro): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    schema_definition: cdktf.stringToTerraform(struct!.schemaDefinition),
+    schema_definition: cdktn.stringToTerraform(struct!.schemaDefinition),
   }
 }
 
 
 export function googleEventarcPipelineInputPayloadFormatAvroToHclTerraform(struct?: GoogleEventarcPipelineInputPayloadFormatAvroOutputReference | GoogleEventarcPipelineInputPayloadFormatAvro): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     schema_definition: {
-      value: cdktf.stringToHclTerraform(struct!.schemaDefinition),
+      value: cdktn.stringToHclTerraform(struct!.schemaDefinition),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1612,14 +1612,14 @@ export function googleEventarcPipelineInputPayloadFormatAvroToHclTerraform(struc
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleEventarcPipelineInputPayloadFormatAvroOutputReference extends cdktf.ComplexObject {
+export class GoogleEventarcPipelineInputPayloadFormatAvroOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1664,8 +1664,8 @@ export interface GoogleEventarcPipelineInputPayloadFormatJson {
 }
 
 export function googleEventarcPipelineInputPayloadFormatJsonToTerraform(struct?: GoogleEventarcPipelineInputPayloadFormatJsonOutputReference | GoogleEventarcPipelineInputPayloadFormatJson): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -1674,8 +1674,8 @@ export function googleEventarcPipelineInputPayloadFormatJsonToTerraform(struct?:
 
 
 export function googleEventarcPipelineInputPayloadFormatJsonToHclTerraform(struct?: GoogleEventarcPipelineInputPayloadFormatJsonOutputReference | GoogleEventarcPipelineInputPayloadFormatJson): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -1683,14 +1683,14 @@ export function googleEventarcPipelineInputPayloadFormatJsonToHclTerraform(struc
   return attrs;
 }
 
-export class GoogleEventarcPipelineInputPayloadFormatJsonOutputReference extends cdktf.ComplexObject {
+export class GoogleEventarcPipelineInputPayloadFormatJsonOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1719,24 +1719,24 @@ export interface GoogleEventarcPipelineInputPayloadFormatProtobuf {
 }
 
 export function googleEventarcPipelineInputPayloadFormatProtobufToTerraform(struct?: GoogleEventarcPipelineInputPayloadFormatProtobufOutputReference | GoogleEventarcPipelineInputPayloadFormatProtobuf): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    schema_definition: cdktf.stringToTerraform(struct!.schemaDefinition),
+    schema_definition: cdktn.stringToTerraform(struct!.schemaDefinition),
   }
 }
 
 
 export function googleEventarcPipelineInputPayloadFormatProtobufToHclTerraform(struct?: GoogleEventarcPipelineInputPayloadFormatProtobufOutputReference | GoogleEventarcPipelineInputPayloadFormatProtobuf): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     schema_definition: {
-      value: cdktf.stringToHclTerraform(struct!.schemaDefinition),
+      value: cdktn.stringToHclTerraform(struct!.schemaDefinition),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1747,14 +1747,14 @@ export function googleEventarcPipelineInputPayloadFormatProtobufToHclTerraform(s
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleEventarcPipelineInputPayloadFormatProtobufOutputReference extends cdktf.ComplexObject {
+export class GoogleEventarcPipelineInputPayloadFormatProtobufOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1817,8 +1817,8 @@ export interface GoogleEventarcPipelineInputPayloadFormat {
 }
 
 export function googleEventarcPipelineInputPayloadFormatToTerraform(struct?: GoogleEventarcPipelineInputPayloadFormatOutputReference | GoogleEventarcPipelineInputPayloadFormat): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -1830,8 +1830,8 @@ export function googleEventarcPipelineInputPayloadFormatToTerraform(struct?: Goo
 
 
 export function googleEventarcPipelineInputPayloadFormatToHclTerraform(struct?: GoogleEventarcPipelineInputPayloadFormatOutputReference | GoogleEventarcPipelineInputPayloadFormat): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -1859,14 +1859,14 @@ export function googleEventarcPipelineInputPayloadFormatToHclTerraform(struct?: 
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleEventarcPipelineInputPayloadFormatOutputReference extends cdktf.ComplexObject {
+export class GoogleEventarcPipelineInputPayloadFormatOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1962,24 +1962,24 @@ export interface GoogleEventarcPipelineLoggingConfig {
 }
 
 export function googleEventarcPipelineLoggingConfigToTerraform(struct?: GoogleEventarcPipelineLoggingConfigOutputReference | GoogleEventarcPipelineLoggingConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    log_severity: cdktf.stringToTerraform(struct!.logSeverity),
+    log_severity: cdktn.stringToTerraform(struct!.logSeverity),
   }
 }
 
 
 export function googleEventarcPipelineLoggingConfigToHclTerraform(struct?: GoogleEventarcPipelineLoggingConfigOutputReference | GoogleEventarcPipelineLoggingConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     log_severity: {
-      value: cdktf.stringToHclTerraform(struct!.logSeverity),
+      value: cdktn.stringToHclTerraform(struct!.logSeverity),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1990,14 +1990,14 @@ export function googleEventarcPipelineLoggingConfigToHclTerraform(struct?: Googl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleEventarcPipelineLoggingConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleEventarcPipelineLoggingConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2123,24 +2123,24 @@ export interface GoogleEventarcPipelineMediationsTransformation {
 }
 
 export function googleEventarcPipelineMediationsTransformationToTerraform(struct?: GoogleEventarcPipelineMediationsTransformationOutputReference | GoogleEventarcPipelineMediationsTransformation): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    transformation_template: cdktf.stringToTerraform(struct!.transformationTemplate),
+    transformation_template: cdktn.stringToTerraform(struct!.transformationTemplate),
   }
 }
 
 
 export function googleEventarcPipelineMediationsTransformationToHclTerraform(struct?: GoogleEventarcPipelineMediationsTransformationOutputReference | GoogleEventarcPipelineMediationsTransformation): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     transformation_template: {
-      value: cdktf.stringToHclTerraform(struct!.transformationTemplate),
+      value: cdktn.stringToHclTerraform(struct!.transformationTemplate),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2151,14 +2151,14 @@ export function googleEventarcPipelineMediationsTransformationToHclTerraform(str
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleEventarcPipelineMediationsTransformationOutputReference extends cdktf.ComplexObject {
+export class GoogleEventarcPipelineMediationsTransformationOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2208,9 +2208,9 @@ export interface GoogleEventarcPipelineMediations {
   readonly transformation?: GoogleEventarcPipelineMediationsTransformation;
 }
 
-export function googleEventarcPipelineMediationsToTerraform(struct?: GoogleEventarcPipelineMediations | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleEventarcPipelineMediationsToTerraform(struct?: GoogleEventarcPipelineMediations | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -2219,9 +2219,9 @@ export function googleEventarcPipelineMediationsToTerraform(struct?: GoogleEvent
 }
 
 
-export function googleEventarcPipelineMediationsToHclTerraform(struct?: GoogleEventarcPipelineMediations | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleEventarcPipelineMediationsToHclTerraform(struct?: GoogleEventarcPipelineMediations | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -2237,9 +2237,9 @@ export function googleEventarcPipelineMediationsToHclTerraform(struct?: GoogleEv
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleEventarcPipelineMediationsOutputReference extends cdktf.ComplexObject {
+export class GoogleEventarcPipelineMediationsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -2247,11 +2247,11 @@ export class GoogleEventarcPipelineMediationsOutputReference extends cdktf.Compl
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleEventarcPipelineMediations | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleEventarcPipelineMediations | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -2264,13 +2264,13 @@ export class GoogleEventarcPipelineMediationsOutputReference extends cdktf.Compl
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleEventarcPipelineMediations | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleEventarcPipelineMediations | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._transformation.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -2298,15 +2298,15 @@ export class GoogleEventarcPipelineMediationsOutputReference extends cdktf.Compl
   }
 }
 
-export class GoogleEventarcPipelineMediationsList extends cdktf.ComplexList {
-  public internalValue? : GoogleEventarcPipelineMediations[] | cdktf.IResolvable
+export class GoogleEventarcPipelineMediationsList extends cdktn.ComplexList {
+  public internalValue? : GoogleEventarcPipelineMediations[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -2345,38 +2345,38 @@ export interface GoogleEventarcPipelineRetryPolicy {
 }
 
 export function googleEventarcPipelineRetryPolicyToTerraform(struct?: GoogleEventarcPipelineRetryPolicyOutputReference | GoogleEventarcPipelineRetryPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    max_attempts: cdktf.numberToTerraform(struct!.maxAttempts),
-    max_retry_delay: cdktf.stringToTerraform(struct!.maxRetryDelay),
-    min_retry_delay: cdktf.stringToTerraform(struct!.minRetryDelay),
+    max_attempts: cdktn.numberToTerraform(struct!.maxAttempts),
+    max_retry_delay: cdktn.stringToTerraform(struct!.maxRetryDelay),
+    min_retry_delay: cdktn.stringToTerraform(struct!.minRetryDelay),
   }
 }
 
 
 export function googleEventarcPipelineRetryPolicyToHclTerraform(struct?: GoogleEventarcPipelineRetryPolicyOutputReference | GoogleEventarcPipelineRetryPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     max_attempts: {
-      value: cdktf.numberToHclTerraform(struct!.maxAttempts),
+      value: cdktn.numberToHclTerraform(struct!.maxAttempts),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     max_retry_delay: {
-      value: cdktf.stringToHclTerraform(struct!.maxRetryDelay),
+      value: cdktn.stringToHclTerraform(struct!.maxRetryDelay),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     min_retry_delay: {
-      value: cdktf.stringToHclTerraform(struct!.minRetryDelay),
+      value: cdktn.stringToHclTerraform(struct!.minRetryDelay),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2387,14 +2387,14 @@ export function googleEventarcPipelineRetryPolicyToHclTerraform(struct?: GoogleE
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleEventarcPipelineRetryPolicyOutputReference extends cdktf.ComplexObject {
+export class GoogleEventarcPipelineRetryPolicyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2494,39 +2494,39 @@ export interface GoogleEventarcPipelineTimeouts {
   readonly update?: string;
 }
 
-export function googleEventarcPipelineTimeoutsToTerraform(struct?: GoogleEventarcPipelineTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleEventarcPipelineTimeoutsToTerraform(struct?: GoogleEventarcPipelineTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleEventarcPipelineTimeoutsToHclTerraform(struct?: GoogleEventarcPipelineTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleEventarcPipelineTimeoutsToHclTerraform(struct?: GoogleEventarcPipelineTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2537,19 +2537,19 @@ export function googleEventarcPipelineTimeoutsToHclTerraform(struct?: GoogleEven
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleEventarcPipelineTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleEventarcPipelineTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleEventarcPipelineTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleEventarcPipelineTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -2570,7 +2570,7 @@ export class GoogleEventarcPipelineTimeoutsOutputReference extends cdktf.Complex
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleEventarcPipelineTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleEventarcPipelineTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -2578,7 +2578,7 @@ export class GoogleEventarcPipelineTimeoutsOutputReference extends cdktf.Complex
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -2643,7 +2643,7 @@ export class GoogleEventarcPipelineTimeoutsOutputReference extends cdktf.Complex
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_pipeline google_eventarc_pipeline}
 */
-export class GoogleEventarcPipeline extends cdktf.TerraformResource {
+export class GoogleEventarcPipeline extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -2654,14 +2654,14 @@ export class GoogleEventarcPipeline extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleEventarcPipeline resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleEventarcPipeline resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleEventarcPipeline to import
   * @param importFromId The id of the existing GoogleEventarcPipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_pipeline#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleEventarcPipeline to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_eventarc_pipeline", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_eventarc_pipeline", importId: importFromId, provider });
       }
 
   // ===========
@@ -2765,13 +2765,13 @@ export class GoogleEventarcPipeline extends cdktf.TerraformResource {
   }
 
   // effective_annotations - computed: true, optional: false, required: false
-  private _effectiveAnnotations = new cdktf.StringMap(this, "effective_annotations");
+  private _effectiveAnnotations = new cdktn.StringMap(this, "effective_annotations");
   public get effectiveAnnotations() {
     return this._effectiveAnnotations;
   }
 
   // effective_labels - computed: true, optional: false, required: false
-  private _effectiveLabels = new cdktf.StringMap(this, "effective_labels");
+  private _effectiveLabels = new cdktn.StringMap(this, "effective_labels");
   public get effectiveLabels() {
     return this._effectiveLabels;
   }
@@ -2861,7 +2861,7 @@ export class GoogleEventarcPipeline extends cdktf.TerraformResource {
   }
 
   // terraform_labels - computed: true, optional: false, required: false
-  private _terraformLabels = new cdktf.StringMap(this, "terraform_labels");
+  private _terraformLabels = new cdktn.StringMap(this, "terraform_labels");
   public get terraformLabels() {
     return this._terraformLabels;
   }
@@ -2881,7 +2881,7 @@ export class GoogleEventarcPipeline extends cdktf.TerraformResource {
   public get destinations() {
     return this._destinations;
   }
-  public putDestinations(value: GoogleEventarcPipelineDestinations[] | cdktf.IResolvable) {
+  public putDestinations(value: GoogleEventarcPipelineDestinations[] | cdktn.IResolvable) {
     this._destinations.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -2926,7 +2926,7 @@ export class GoogleEventarcPipeline extends cdktf.TerraformResource {
   public get mediations() {
     return this._mediations;
   }
-  public putMediations(value: GoogleEventarcPipelineMediations[] | cdktf.IResolvable) {
+  public putMediations(value: GoogleEventarcPipelineMediations[] | cdktn.IResolvable) {
     this._mediations.internalValue = value;
   }
   public resetMediations() {
@@ -2975,18 +2975,18 @@ export class GoogleEventarcPipeline extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      annotations: cdktf.hashMapper(cdktf.stringToTerraform)(this._annotations),
-      crypto_key_name: cdktf.stringToTerraform(this._cryptoKeyName),
-      display_name: cdktf.stringToTerraform(this._displayName),
-      id: cdktf.stringToTerraform(this._id),
-      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
-      location: cdktf.stringToTerraform(this._location),
-      pipeline_id: cdktf.stringToTerraform(this._pipelineId),
-      project: cdktf.stringToTerraform(this._project),
-      destinations: cdktf.listMapper(googleEventarcPipelineDestinationsToTerraform, true)(this._destinations.internalValue),
+      annotations: cdktn.hashMapper(cdktn.stringToTerraform)(this._annotations),
+      crypto_key_name: cdktn.stringToTerraform(this._cryptoKeyName),
+      display_name: cdktn.stringToTerraform(this._displayName),
+      id: cdktn.stringToTerraform(this._id),
+      labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
+      location: cdktn.stringToTerraform(this._location),
+      pipeline_id: cdktn.stringToTerraform(this._pipelineId),
+      project: cdktn.stringToTerraform(this._project),
+      destinations: cdktn.listMapper(googleEventarcPipelineDestinationsToTerraform, true)(this._destinations.internalValue),
       input_payload_format: googleEventarcPipelineInputPayloadFormatToTerraform(this._inputPayloadFormat.internalValue),
       logging_config: googleEventarcPipelineLoggingConfigToTerraform(this._loggingConfig.internalValue),
-      mediations: cdktf.listMapper(googleEventarcPipelineMediationsToTerraform, true)(this._mediations.internalValue),
+      mediations: cdktn.listMapper(googleEventarcPipelineMediationsToTerraform, true)(this._mediations.internalValue),
       retry_policy: googleEventarcPipelineRetryPolicyToTerraform(this._retryPolicy.internalValue),
       timeouts: googleEventarcPipelineTimeoutsToTerraform(this._timeouts.internalValue),
     };
@@ -2995,55 +2995,55 @@ export class GoogleEventarcPipeline extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       annotations: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._annotations),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._annotations),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       crypto_key_name: {
-        value: cdktf.stringToHclTerraform(this._cryptoKeyName),
+        value: cdktn.stringToHclTerraform(this._cryptoKeyName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       display_name: {
-        value: cdktf.stringToHclTerraform(this._displayName),
+        value: cdktn.stringToHclTerraform(this._displayName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._labels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       pipeline_id: {
-        value: cdktf.stringToHclTerraform(this._pipelineId),
+        value: cdktn.stringToHclTerraform(this._pipelineId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       destinations: {
-        value: cdktf.listMapperHcl(googleEventarcPipelineDestinationsToHclTerraform, true)(this._destinations.internalValue),
+        value: cdktn.listMapperHcl(googleEventarcPipelineDestinationsToHclTerraform, true)(this._destinations.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "GoogleEventarcPipelineDestinationsList",
@@ -3061,7 +3061,7 @@ export class GoogleEventarcPipeline extends cdktf.TerraformResource {
         storageClassType: "GoogleEventarcPipelineLoggingConfigList",
       },
       mediations: {
-        value: cdktf.listMapperHcl(googleEventarcPipelineMediationsToHclTerraform, true)(this._mediations.internalValue),
+        value: cdktn.listMapperHcl(googleEventarcPipelineMediationsToHclTerraform, true)(this._mediations.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "GoogleEventarcPipelineMediationsList",

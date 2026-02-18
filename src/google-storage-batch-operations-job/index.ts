@@ -7,17 +7,17 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleStorageBatchOperationsJobConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleStorageBatchOperationsJobConfig extends cdktn.TerraformMetaArguments {
   /**
   * If set to 'true', the storage batch operation job will not be deleted and new job will be created.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_batch_operations_job#delete_protection GoogleStorageBatchOperationsJob#delete_protection}
   */
-  readonly deleteProtection?: boolean | cdktf.IResolvable;
+  readonly deleteProtection?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_batch_operations_job#id GoogleStorageBatchOperationsJob#id}
   *
@@ -82,24 +82,24 @@ export interface GoogleStorageBatchOperationsJobBucketListBucketsManifest {
 }
 
 export function googleStorageBatchOperationsJobBucketListBucketsManifestToTerraform(struct?: GoogleStorageBatchOperationsJobBucketListBucketsManifestOutputReference | GoogleStorageBatchOperationsJobBucketListBucketsManifest): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    manifest_location: cdktf.stringToTerraform(struct!.manifestLocation),
+    manifest_location: cdktn.stringToTerraform(struct!.manifestLocation),
   }
 }
 
 
 export function googleStorageBatchOperationsJobBucketListBucketsManifestToHclTerraform(struct?: GoogleStorageBatchOperationsJobBucketListBucketsManifestOutputReference | GoogleStorageBatchOperationsJobBucketListBucketsManifest): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     manifest_location: {
-      value: cdktf.stringToHclTerraform(struct!.manifestLocation),
+      value: cdktn.stringToHclTerraform(struct!.manifestLocation),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -110,14 +110,14 @@ export function googleStorageBatchOperationsJobBucketListBucketsManifestToHclTer
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageBatchOperationsJobBucketListBucketsManifestOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageBatchOperationsJobBucketListBucketsManifestOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -166,24 +166,24 @@ export interface GoogleStorageBatchOperationsJobBucketListBucketsPrefixListStruc
 }
 
 export function googleStorageBatchOperationsJobBucketListBucketsPrefixListStructToTerraform(struct?: GoogleStorageBatchOperationsJobBucketListBucketsPrefixListStructOutputReference | GoogleStorageBatchOperationsJobBucketListBucketsPrefixListStruct): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    included_object_prefixes: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.includedObjectPrefixes),
+    included_object_prefixes: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.includedObjectPrefixes),
   }
 }
 
 
 export function googleStorageBatchOperationsJobBucketListBucketsPrefixListStructToHclTerraform(struct?: GoogleStorageBatchOperationsJobBucketListBucketsPrefixListStructOutputReference | GoogleStorageBatchOperationsJobBucketListBucketsPrefixListStruct): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     included_object_prefixes: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.includedObjectPrefixes),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.includedObjectPrefixes),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -194,14 +194,14 @@ export function googleStorageBatchOperationsJobBucketListBucketsPrefixListStruct
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageBatchOperationsJobBucketListBucketsPrefixListStructOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageBatchOperationsJobBucketListBucketsPrefixListStructOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -264,12 +264,12 @@ export interface GoogleStorageBatchOperationsJobBucketListBuckets {
 }
 
 export function googleStorageBatchOperationsJobBucketListBucketsToTerraform(struct?: GoogleStorageBatchOperationsJobBucketListBucketsOutputReference | GoogleStorageBatchOperationsJobBucketListBuckets): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    bucket: cdktf.stringToTerraform(struct!.bucket),
+    bucket: cdktn.stringToTerraform(struct!.bucket),
     manifest: googleStorageBatchOperationsJobBucketListBucketsManifestToTerraform(struct!.manifest),
     prefix_list: googleStorageBatchOperationsJobBucketListBucketsPrefixListStructToTerraform(struct!.prefixList),
   }
@@ -277,13 +277,13 @@ export function googleStorageBatchOperationsJobBucketListBucketsToTerraform(stru
 
 
 export function googleStorageBatchOperationsJobBucketListBucketsToHclTerraform(struct?: GoogleStorageBatchOperationsJobBucketListBucketsOutputReference | GoogleStorageBatchOperationsJobBucketListBuckets): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     bucket: {
-      value: cdktf.stringToHclTerraform(struct!.bucket),
+      value: cdktn.stringToHclTerraform(struct!.bucket),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -306,14 +306,14 @@ export function googleStorageBatchOperationsJobBucketListBucketsToHclTerraform(s
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageBatchOperationsJobBucketListBucketsOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageBatchOperationsJobBucketListBucketsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -405,8 +405,8 @@ export interface GoogleStorageBatchOperationsJobBucketListStruct {
 }
 
 export function googleStorageBatchOperationsJobBucketListStructToTerraform(struct?: GoogleStorageBatchOperationsJobBucketListStructOutputReference | GoogleStorageBatchOperationsJobBucketListStruct): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -416,8 +416,8 @@ export function googleStorageBatchOperationsJobBucketListStructToTerraform(struc
 
 
 export function googleStorageBatchOperationsJobBucketListStructToHclTerraform(struct?: GoogleStorageBatchOperationsJobBucketListStructOutputReference | GoogleStorageBatchOperationsJobBucketListStruct): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -433,14 +433,14 @@ export function googleStorageBatchOperationsJobBucketListStructToHclTerraform(st
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageBatchOperationsJobBucketListStructOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageBatchOperationsJobBucketListStructOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -484,28 +484,28 @@ export interface GoogleStorageBatchOperationsJobDeleteObject {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_batch_operations_job#permanent_object_deletion_enabled GoogleStorageBatchOperationsJob#permanent_object_deletion_enabled}
   */
-  readonly permanentObjectDeletionEnabled: boolean | cdktf.IResolvable;
+  readonly permanentObjectDeletionEnabled: boolean | cdktn.IResolvable;
 }
 
 export function googleStorageBatchOperationsJobDeleteObjectToTerraform(struct?: GoogleStorageBatchOperationsJobDeleteObjectOutputReference | GoogleStorageBatchOperationsJobDeleteObject): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    permanent_object_deletion_enabled: cdktf.booleanToTerraform(struct!.permanentObjectDeletionEnabled),
+    permanent_object_deletion_enabled: cdktn.booleanToTerraform(struct!.permanentObjectDeletionEnabled),
   }
 }
 
 
 export function googleStorageBatchOperationsJobDeleteObjectToHclTerraform(struct?: GoogleStorageBatchOperationsJobDeleteObjectOutputReference | GoogleStorageBatchOperationsJobDeleteObject): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     permanent_object_deletion_enabled: {
-      value: cdktf.booleanToHclTerraform(struct!.permanentObjectDeletionEnabled),
+      value: cdktn.booleanToHclTerraform(struct!.permanentObjectDeletionEnabled),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -516,14 +516,14 @@ export function googleStorageBatchOperationsJobDeleteObjectToHclTerraform(struct
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageBatchOperationsJobDeleteObjectOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageBatchOperationsJobDeleteObjectOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -549,11 +549,11 @@ export class GoogleStorageBatchOperationsJobDeleteObjectOutputReference extends 
   }
 
   // permanent_object_deletion_enabled - computed: false, optional: false, required: true
-  private _permanentObjectDeletionEnabled?: boolean | cdktf.IResolvable; 
+  private _permanentObjectDeletionEnabled?: boolean | cdktn.IResolvable; 
   public get permanentObjectDeletionEnabled() {
     return this.getBooleanAttribute('permanent_object_deletion_enabled');
   }
-  public set permanentObjectDeletionEnabled(value: boolean | cdktf.IResolvable) {
+  public set permanentObjectDeletionEnabled(value: boolean | cdktn.IResolvable) {
     this._permanentObjectDeletionEnabled = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -607,66 +607,66 @@ export interface GoogleStorageBatchOperationsJobPutMetadata {
 }
 
 export function googleStorageBatchOperationsJobPutMetadataToTerraform(struct?: GoogleStorageBatchOperationsJobPutMetadataOutputReference | GoogleStorageBatchOperationsJobPutMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    cache_control: cdktf.stringToTerraform(struct!.cacheControl),
-    content_disposition: cdktf.stringToTerraform(struct!.contentDisposition),
-    content_encoding: cdktf.stringToTerraform(struct!.contentEncoding),
-    content_language: cdktf.stringToTerraform(struct!.contentLanguage),
-    content_type: cdktf.stringToTerraform(struct!.contentType),
-    custom_metadata: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.customMetadata),
-    custom_time: cdktf.stringToTerraform(struct!.customTime),
+    cache_control: cdktn.stringToTerraform(struct!.cacheControl),
+    content_disposition: cdktn.stringToTerraform(struct!.contentDisposition),
+    content_encoding: cdktn.stringToTerraform(struct!.contentEncoding),
+    content_language: cdktn.stringToTerraform(struct!.contentLanguage),
+    content_type: cdktn.stringToTerraform(struct!.contentType),
+    custom_metadata: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.customMetadata),
+    custom_time: cdktn.stringToTerraform(struct!.customTime),
   }
 }
 
 
 export function googleStorageBatchOperationsJobPutMetadataToHclTerraform(struct?: GoogleStorageBatchOperationsJobPutMetadataOutputReference | GoogleStorageBatchOperationsJobPutMetadata): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     cache_control: {
-      value: cdktf.stringToHclTerraform(struct!.cacheControl),
+      value: cdktn.stringToHclTerraform(struct!.cacheControl),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     content_disposition: {
-      value: cdktf.stringToHclTerraform(struct!.contentDisposition),
+      value: cdktn.stringToHclTerraform(struct!.contentDisposition),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     content_encoding: {
-      value: cdktf.stringToHclTerraform(struct!.contentEncoding),
+      value: cdktn.stringToHclTerraform(struct!.contentEncoding),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     content_language: {
-      value: cdktf.stringToHclTerraform(struct!.contentLanguage),
+      value: cdktn.stringToHclTerraform(struct!.contentLanguage),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     content_type: {
-      value: cdktf.stringToHclTerraform(struct!.contentType),
+      value: cdktn.stringToHclTerraform(struct!.contentType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     custom_metadata: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.customMetadata),
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.customMetadata),
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
     },
     custom_time: {
-      value: cdktf.stringToHclTerraform(struct!.customTime),
+      value: cdktn.stringToHclTerraform(struct!.customTime),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -677,14 +677,14 @@ export function googleStorageBatchOperationsJobPutMetadataToHclTerraform(struct?
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageBatchOperationsJobPutMetadataOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageBatchOperationsJobPutMetadataOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -873,31 +873,31 @@ export interface GoogleStorageBatchOperationsJobPutObjectHold {
 }
 
 export function googleStorageBatchOperationsJobPutObjectHoldToTerraform(struct?: GoogleStorageBatchOperationsJobPutObjectHoldOutputReference | GoogleStorageBatchOperationsJobPutObjectHold): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    event_based_hold: cdktf.stringToTerraform(struct!.eventBasedHold),
-    temporary_hold: cdktf.stringToTerraform(struct!.temporaryHold),
+    event_based_hold: cdktn.stringToTerraform(struct!.eventBasedHold),
+    temporary_hold: cdktn.stringToTerraform(struct!.temporaryHold),
   }
 }
 
 
 export function googleStorageBatchOperationsJobPutObjectHoldToHclTerraform(struct?: GoogleStorageBatchOperationsJobPutObjectHoldOutputReference | GoogleStorageBatchOperationsJobPutObjectHold): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     event_based_hold: {
-      value: cdktf.stringToHclTerraform(struct!.eventBasedHold),
+      value: cdktn.stringToHclTerraform(struct!.eventBasedHold),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     temporary_hold: {
-      value: cdktf.stringToHclTerraform(struct!.temporaryHold),
+      value: cdktn.stringToHclTerraform(struct!.temporaryHold),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -908,14 +908,14 @@ export function googleStorageBatchOperationsJobPutObjectHoldToHclTerraform(struc
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageBatchOperationsJobPutObjectHoldOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageBatchOperationsJobPutObjectHoldOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -988,24 +988,24 @@ export interface GoogleStorageBatchOperationsJobRewriteObject {
 }
 
 export function googleStorageBatchOperationsJobRewriteObjectToTerraform(struct?: GoogleStorageBatchOperationsJobRewriteObjectOutputReference | GoogleStorageBatchOperationsJobRewriteObject): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    kms_key: cdktf.stringToTerraform(struct!.kmsKey),
+    kms_key: cdktn.stringToTerraform(struct!.kmsKey),
   }
 }
 
 
 export function googleStorageBatchOperationsJobRewriteObjectToHclTerraform(struct?: GoogleStorageBatchOperationsJobRewriteObjectOutputReference | GoogleStorageBatchOperationsJobRewriteObject): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     kms_key: {
-      value: cdktf.stringToHclTerraform(struct!.kmsKey),
+      value: cdktn.stringToHclTerraform(struct!.kmsKey),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1016,14 +1016,14 @@ export function googleStorageBatchOperationsJobRewriteObjectToHclTerraform(struc
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageBatchOperationsJobRewriteObjectOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageBatchOperationsJobRewriteObjectOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1076,39 +1076,39 @@ export interface GoogleStorageBatchOperationsJobTimeouts {
   readonly update?: string;
 }
 
-export function googleStorageBatchOperationsJobTimeoutsToTerraform(struct?: GoogleStorageBatchOperationsJobTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleStorageBatchOperationsJobTimeoutsToTerraform(struct?: GoogleStorageBatchOperationsJobTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleStorageBatchOperationsJobTimeoutsToHclTerraform(struct?: GoogleStorageBatchOperationsJobTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleStorageBatchOperationsJobTimeoutsToHclTerraform(struct?: GoogleStorageBatchOperationsJobTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1119,19 +1119,19 @@ export function googleStorageBatchOperationsJobTimeoutsToHclTerraform(struct?: G
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleStorageBatchOperationsJobTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleStorageBatchOperationsJobTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleStorageBatchOperationsJobTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleStorageBatchOperationsJobTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1152,7 +1152,7 @@ export class GoogleStorageBatchOperationsJobTimeoutsOutputReference extends cdkt
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleStorageBatchOperationsJobTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleStorageBatchOperationsJobTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -1160,7 +1160,7 @@ export class GoogleStorageBatchOperationsJobTimeoutsOutputReference extends cdkt
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1225,7 +1225,7 @@ export class GoogleStorageBatchOperationsJobTimeoutsOutputReference extends cdkt
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_batch_operations_job google_storage_batch_operations_job}
 */
-export class GoogleStorageBatchOperationsJob extends cdktf.TerraformResource {
+export class GoogleStorageBatchOperationsJob extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -1236,14 +1236,14 @@ export class GoogleStorageBatchOperationsJob extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleStorageBatchOperationsJob resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleStorageBatchOperationsJob resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleStorageBatchOperationsJob to import
   * @param importFromId The id of the existing GoogleStorageBatchOperationsJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_batch_operations_job#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleStorageBatchOperationsJob to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_storage_batch_operations_job", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_storage_batch_operations_job", importId: importFromId, provider });
       }
 
   // ===========
@@ -1300,11 +1300,11 @@ export class GoogleStorageBatchOperationsJob extends cdktf.TerraformResource {
   }
 
   // delete_protection - computed: false, optional: true, required: false
-  private _deleteProtection?: boolean | cdktf.IResolvable; 
+  private _deleteProtection?: boolean | cdktn.IResolvable; 
   public get deleteProtection() {
     return this.getBooleanAttribute('delete_protection');
   }
-  public set deleteProtection(value: boolean | cdktf.IResolvable) {
+  public set deleteProtection(value: boolean | cdktn.IResolvable) {
     this._deleteProtection = value;
   }
   public resetDeleteProtection() {
@@ -1480,10 +1480,10 @@ export class GoogleStorageBatchOperationsJob extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      delete_protection: cdktf.booleanToTerraform(this._deleteProtection),
-      id: cdktf.stringToTerraform(this._id),
-      job_id: cdktf.stringToTerraform(this._jobId),
-      project: cdktf.stringToTerraform(this._project),
+      delete_protection: cdktn.booleanToTerraform(this._deleteProtection),
+      id: cdktn.stringToTerraform(this._id),
+      job_id: cdktn.stringToTerraform(this._jobId),
+      project: cdktn.stringToTerraform(this._project),
       bucket_list: googleStorageBatchOperationsJobBucketListStructToTerraform(this._bucketList.internalValue),
       delete_object: googleStorageBatchOperationsJobDeleteObjectToTerraform(this._deleteObject.internalValue),
       put_metadata: googleStorageBatchOperationsJobPutMetadataToTerraform(this._putMetadata.internalValue),
@@ -1496,25 +1496,25 @@ export class GoogleStorageBatchOperationsJob extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       delete_protection: {
-        value: cdktf.booleanToHclTerraform(this._deleteProtection),
+        value: cdktn.booleanToHclTerraform(this._deleteProtection),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       job_id: {
-        value: cdktf.stringToHclTerraform(this._jobId),
+        value: cdktn.stringToHclTerraform(this._jobId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleBeyondcorpSecurityGatewayApplicationConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleBeyondcorpSecurityGatewayApplicationConfig extends cdktn.TerraformMetaArguments {
   /**
   * User-settable Application resource ID.
   * * Must start with a letter.
@@ -50,7 +50,7 @@ export interface GoogleBeyondcorpSecurityGatewayApplicationConfig extends cdktf.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_beyondcorp_security_gateway_application#endpoint_matchers GoogleBeyondcorpSecurityGatewayApplication#endpoint_matchers}
   */
-  readonly endpointMatchers: GoogleBeyondcorpSecurityGatewayApplicationEndpointMatchers[] | cdktf.IResolvable;
+  readonly endpointMatchers: GoogleBeyondcorpSecurityGatewayApplicationEndpointMatchers[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
@@ -62,7 +62,7 @@ export interface GoogleBeyondcorpSecurityGatewayApplicationConfig extends cdktf.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_beyondcorp_security_gateway_application#upstreams GoogleBeyondcorpSecurityGatewayApplication#upstreams}
   */
-  readonly upstreams?: GoogleBeyondcorpSecurityGatewayApplicationUpstreams[] | cdktf.IResolvable;
+  readonly upstreams?: GoogleBeyondcorpSecurityGatewayApplicationUpstreams[] | cdktn.IResolvable;
 }
 export interface GoogleBeyondcorpSecurityGatewayApplicationEndpointMatchers {
   /**
@@ -79,32 +79,32 @@ export interface GoogleBeyondcorpSecurityGatewayApplicationEndpointMatchers {
   readonly ports?: number[];
 }
 
-export function googleBeyondcorpSecurityGatewayApplicationEndpointMatchersToTerraform(struct?: GoogleBeyondcorpSecurityGatewayApplicationEndpointMatchers | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleBeyondcorpSecurityGatewayApplicationEndpointMatchersToTerraform(struct?: GoogleBeyondcorpSecurityGatewayApplicationEndpointMatchers | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    hostname: cdktf.stringToTerraform(struct!.hostname),
-    ports: cdktf.listMapper(cdktf.numberToTerraform, false)(struct!.ports),
+    hostname: cdktn.stringToTerraform(struct!.hostname),
+    ports: cdktn.listMapper(cdktn.numberToTerraform, false)(struct!.ports),
   }
 }
 
 
-export function googleBeyondcorpSecurityGatewayApplicationEndpointMatchersToHclTerraform(struct?: GoogleBeyondcorpSecurityGatewayApplicationEndpointMatchers | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleBeyondcorpSecurityGatewayApplicationEndpointMatchersToHclTerraform(struct?: GoogleBeyondcorpSecurityGatewayApplicationEndpointMatchers | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     hostname: {
-      value: cdktf.stringToHclTerraform(struct!.hostname),
+      value: cdktn.stringToHclTerraform(struct!.hostname),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     ports: {
-      value: cdktf.listMapperHcl(cdktf.numberToHclTerraform, false)(struct!.ports),
+      value: cdktn.listMapperHcl(cdktn.numberToHclTerraform, false)(struct!.ports),
       isBlock: false,
       type: "list",
       storageClassType: "numberList",
@@ -115,9 +115,9 @@ export function googleBeyondcorpSecurityGatewayApplicationEndpointMatchersToHclT
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleBeyondcorpSecurityGatewayApplicationEndpointMatchersOutputReference extends cdktf.ComplexObject {
+export class GoogleBeyondcorpSecurityGatewayApplicationEndpointMatchersOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -125,11 +125,11 @@ export class GoogleBeyondcorpSecurityGatewayApplicationEndpointMatchersOutputRef
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleBeyondcorpSecurityGatewayApplicationEndpointMatchers | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleBeyondcorpSecurityGatewayApplicationEndpointMatchers | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -146,14 +146,14 @@ export class GoogleBeyondcorpSecurityGatewayApplicationEndpointMatchersOutputRef
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleBeyondcorpSecurityGatewayApplicationEndpointMatchers | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleBeyondcorpSecurityGatewayApplicationEndpointMatchers | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._hostname = undefined;
       this._ports = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -195,15 +195,15 @@ export class GoogleBeyondcorpSecurityGatewayApplicationEndpointMatchersOutputRef
   }
 }
 
-export class GoogleBeyondcorpSecurityGatewayApplicationEndpointMatchersList extends cdktf.ComplexList {
-  public internalValue? : GoogleBeyondcorpSecurityGatewayApplicationEndpointMatchers[] | cdktf.IResolvable
+export class GoogleBeyondcorpSecurityGatewayApplicationEndpointMatchersList extends cdktn.ComplexList {
+  public internalValue? : GoogleBeyondcorpSecurityGatewayApplicationEndpointMatchers[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -229,39 +229,39 @@ export interface GoogleBeyondcorpSecurityGatewayApplicationTimeouts {
   readonly update?: string;
 }
 
-export function googleBeyondcorpSecurityGatewayApplicationTimeoutsToTerraform(struct?: GoogleBeyondcorpSecurityGatewayApplicationTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleBeyondcorpSecurityGatewayApplicationTimeoutsToTerraform(struct?: GoogleBeyondcorpSecurityGatewayApplicationTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleBeyondcorpSecurityGatewayApplicationTimeoutsToHclTerraform(struct?: GoogleBeyondcorpSecurityGatewayApplicationTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleBeyondcorpSecurityGatewayApplicationTimeoutsToHclTerraform(struct?: GoogleBeyondcorpSecurityGatewayApplicationTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -272,19 +272,19 @@ export function googleBeyondcorpSecurityGatewayApplicationTimeoutsToHclTerraform
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleBeyondcorpSecurityGatewayApplicationTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleBeyondcorpSecurityGatewayApplicationTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleBeyondcorpSecurityGatewayApplicationTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleBeyondcorpSecurityGatewayApplicationTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -305,7 +305,7 @@ export class GoogleBeyondcorpSecurityGatewayApplicationTimeoutsOutputReference e
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleBeyondcorpSecurityGatewayApplicationTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleBeyondcorpSecurityGatewayApplicationTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -313,7 +313,7 @@ export class GoogleBeyondcorpSecurityGatewayApplicationTimeoutsOutputReference e
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -384,24 +384,24 @@ export interface GoogleBeyondcorpSecurityGatewayApplicationUpstreamsEgressPolicy
 }
 
 export function googleBeyondcorpSecurityGatewayApplicationUpstreamsEgressPolicyToTerraform(struct?: GoogleBeyondcorpSecurityGatewayApplicationUpstreamsEgressPolicyOutputReference | GoogleBeyondcorpSecurityGatewayApplicationUpstreamsEgressPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    regions: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.regions),
+    regions: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.regions),
   }
 }
 
 
 export function googleBeyondcorpSecurityGatewayApplicationUpstreamsEgressPolicyToHclTerraform(struct?: GoogleBeyondcorpSecurityGatewayApplicationUpstreamsEgressPolicyOutputReference | GoogleBeyondcorpSecurityGatewayApplicationUpstreamsEgressPolicy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     regions: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.regions),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.regions),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -412,14 +412,14 @@ export function googleBeyondcorpSecurityGatewayApplicationUpstreamsEgressPolicyT
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleBeyondcorpSecurityGatewayApplicationUpstreamsEgressPolicyOutputReference extends cdktf.ComplexObject {
+export class GoogleBeyondcorpSecurityGatewayApplicationUpstreamsEgressPolicyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -468,24 +468,24 @@ export interface GoogleBeyondcorpSecurityGatewayApplicationUpstreamsNetwork {
 }
 
 export function googleBeyondcorpSecurityGatewayApplicationUpstreamsNetworkToTerraform(struct?: GoogleBeyondcorpSecurityGatewayApplicationUpstreamsNetworkOutputReference | GoogleBeyondcorpSecurityGatewayApplicationUpstreamsNetwork): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    name: cdktf.stringToTerraform(struct!.name),
+    name: cdktn.stringToTerraform(struct!.name),
   }
 }
 
 
 export function googleBeyondcorpSecurityGatewayApplicationUpstreamsNetworkToHclTerraform(struct?: GoogleBeyondcorpSecurityGatewayApplicationUpstreamsNetworkOutputReference | GoogleBeyondcorpSecurityGatewayApplicationUpstreamsNetwork): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
+      value: cdktn.stringToHclTerraform(struct!.name),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -496,14 +496,14 @@ export function googleBeyondcorpSecurityGatewayApplicationUpstreamsNetworkToHclT
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleBeyondcorpSecurityGatewayApplicationUpstreamsNetworkOutputReference extends cdktf.ComplexObject {
+export class GoogleBeyondcorpSecurityGatewayApplicationUpstreamsNetworkOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -556,9 +556,9 @@ export interface GoogleBeyondcorpSecurityGatewayApplicationUpstreams {
   readonly network?: GoogleBeyondcorpSecurityGatewayApplicationUpstreamsNetwork;
 }
 
-export function googleBeyondcorpSecurityGatewayApplicationUpstreamsToTerraform(struct?: GoogleBeyondcorpSecurityGatewayApplicationUpstreams | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleBeyondcorpSecurityGatewayApplicationUpstreamsToTerraform(struct?: GoogleBeyondcorpSecurityGatewayApplicationUpstreams | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -568,9 +568,9 @@ export function googleBeyondcorpSecurityGatewayApplicationUpstreamsToTerraform(s
 }
 
 
-export function googleBeyondcorpSecurityGatewayApplicationUpstreamsToHclTerraform(struct?: GoogleBeyondcorpSecurityGatewayApplicationUpstreams | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleBeyondcorpSecurityGatewayApplicationUpstreamsToHclTerraform(struct?: GoogleBeyondcorpSecurityGatewayApplicationUpstreams | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -592,9 +592,9 @@ export function googleBeyondcorpSecurityGatewayApplicationUpstreamsToHclTerrafor
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleBeyondcorpSecurityGatewayApplicationUpstreamsOutputReference extends cdktf.ComplexObject {
+export class GoogleBeyondcorpSecurityGatewayApplicationUpstreamsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -602,11 +602,11 @@ export class GoogleBeyondcorpSecurityGatewayApplicationUpstreamsOutputReference 
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleBeyondcorpSecurityGatewayApplicationUpstreams | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleBeyondcorpSecurityGatewayApplicationUpstreams | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -623,14 +623,14 @@ export class GoogleBeyondcorpSecurityGatewayApplicationUpstreamsOutputReference 
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleBeyondcorpSecurityGatewayApplicationUpstreams | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleBeyondcorpSecurityGatewayApplicationUpstreams | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._egressPolicy.internalValue = undefined;
       this._network.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -675,15 +675,15 @@ export class GoogleBeyondcorpSecurityGatewayApplicationUpstreamsOutputReference 
   }
 }
 
-export class GoogleBeyondcorpSecurityGatewayApplicationUpstreamsList extends cdktf.ComplexList {
-  public internalValue? : GoogleBeyondcorpSecurityGatewayApplicationUpstreams[] | cdktf.IResolvable
+export class GoogleBeyondcorpSecurityGatewayApplicationUpstreamsList extends cdktn.ComplexList {
+  public internalValue? : GoogleBeyondcorpSecurityGatewayApplicationUpstreams[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -698,7 +698,7 @@ export class GoogleBeyondcorpSecurityGatewayApplicationUpstreamsList extends cdk
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_beyondcorp_security_gateway_application google_beyondcorp_security_gateway_application}
 */
-export class GoogleBeyondcorpSecurityGatewayApplication extends cdktf.TerraformResource {
+export class GoogleBeyondcorpSecurityGatewayApplication extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -709,14 +709,14 @@ export class GoogleBeyondcorpSecurityGatewayApplication extends cdktf.TerraformR
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleBeyondcorpSecurityGatewayApplication resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleBeyondcorpSecurityGatewayApplication resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleBeyondcorpSecurityGatewayApplication to import
   * @param importFromId The id of the existing GoogleBeyondcorpSecurityGatewayApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_beyondcorp_security_gateway_application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleBeyondcorpSecurityGatewayApplication to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_beyondcorp_security_gateway_application", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_beyondcorp_security_gateway_application", importId: importFromId, provider });
       }
 
   // ===========
@@ -854,7 +854,7 @@ export class GoogleBeyondcorpSecurityGatewayApplication extends cdktf.TerraformR
   public get endpointMatchers() {
     return this._endpointMatchers;
   }
-  public putEndpointMatchers(value: GoogleBeyondcorpSecurityGatewayApplicationEndpointMatchers[] | cdktf.IResolvable) {
+  public putEndpointMatchers(value: GoogleBeyondcorpSecurityGatewayApplicationEndpointMatchers[] | cdktn.IResolvable) {
     this._endpointMatchers.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -883,7 +883,7 @@ export class GoogleBeyondcorpSecurityGatewayApplication extends cdktf.TerraformR
   public get upstreams() {
     return this._upstreams;
   }
-  public putUpstreams(value: GoogleBeyondcorpSecurityGatewayApplicationUpstreams[] | cdktf.IResolvable) {
+  public putUpstreams(value: GoogleBeyondcorpSecurityGatewayApplicationUpstreams[] | cdktn.IResolvable) {
     this._upstreams.internalValue = value;
   }
   public resetUpstreams() {
@@ -900,51 +900,51 @@ export class GoogleBeyondcorpSecurityGatewayApplication extends cdktf.TerraformR
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      application_id: cdktf.stringToTerraform(this._applicationId),
-      display_name: cdktf.stringToTerraform(this._displayName),
-      id: cdktf.stringToTerraform(this._id),
-      project: cdktf.stringToTerraform(this._project),
-      security_gateway_id: cdktf.stringToTerraform(this._securityGatewayId),
-      endpoint_matchers: cdktf.listMapper(googleBeyondcorpSecurityGatewayApplicationEndpointMatchersToTerraform, true)(this._endpointMatchers.internalValue),
+      application_id: cdktn.stringToTerraform(this._applicationId),
+      display_name: cdktn.stringToTerraform(this._displayName),
+      id: cdktn.stringToTerraform(this._id),
+      project: cdktn.stringToTerraform(this._project),
+      security_gateway_id: cdktn.stringToTerraform(this._securityGatewayId),
+      endpoint_matchers: cdktn.listMapper(googleBeyondcorpSecurityGatewayApplicationEndpointMatchersToTerraform, true)(this._endpointMatchers.internalValue),
       timeouts: googleBeyondcorpSecurityGatewayApplicationTimeoutsToTerraform(this._timeouts.internalValue),
-      upstreams: cdktf.listMapper(googleBeyondcorpSecurityGatewayApplicationUpstreamsToTerraform, true)(this._upstreams.internalValue),
+      upstreams: cdktn.listMapper(googleBeyondcorpSecurityGatewayApplicationUpstreamsToTerraform, true)(this._upstreams.internalValue),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       application_id: {
-        value: cdktf.stringToHclTerraform(this._applicationId),
+        value: cdktn.stringToHclTerraform(this._applicationId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       display_name: {
-        value: cdktf.stringToHclTerraform(this._displayName),
+        value: cdktn.stringToHclTerraform(this._displayName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       security_gateway_id: {
-        value: cdktf.stringToHclTerraform(this._securityGatewayId),
+        value: cdktn.stringToHclTerraform(this._securityGatewayId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       endpoint_matchers: {
-        value: cdktf.listMapperHcl(googleBeyondcorpSecurityGatewayApplicationEndpointMatchersToHclTerraform, true)(this._endpointMatchers.internalValue),
+        value: cdktn.listMapperHcl(googleBeyondcorpSecurityGatewayApplicationEndpointMatchersToHclTerraform, true)(this._endpointMatchers.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "GoogleBeyondcorpSecurityGatewayApplicationEndpointMatchersList",
@@ -956,7 +956,7 @@ export class GoogleBeyondcorpSecurityGatewayApplication extends cdktf.TerraformR
         storageClassType: "GoogleBeyondcorpSecurityGatewayApplicationTimeouts",
       },
       upstreams: {
-        value: cdktf.listMapperHcl(googleBeyondcorpSecurityGatewayApplicationUpstreamsToHclTerraform, true)(this._upstreams.internalValue),
+        value: cdktn.listMapperHcl(googleBeyondcorpSecurityGatewayApplicationUpstreamsToHclTerraform, true)(this._upstreams.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "GoogleBeyondcorpSecurityGatewayApplicationUpstreamsList",

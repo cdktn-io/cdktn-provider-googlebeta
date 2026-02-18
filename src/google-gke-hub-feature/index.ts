@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleGkeHubFeatureConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleGkeHubFeatureConfig extends cdktn.TerraformMetaArguments {
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_hub_feature#id GoogleGkeHubFeature#id}
   *
@@ -67,8 +67,8 @@ export interface GoogleGkeHubFeatureResourceState {
 }
 
 export function googleGkeHubFeatureResourceStateToTerraform(struct?: GoogleGkeHubFeatureResourceState): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -77,8 +77,8 @@ export function googleGkeHubFeatureResourceStateToTerraform(struct?: GoogleGkeHu
 
 
 export function googleGkeHubFeatureResourceStateToHclTerraform(struct?: GoogleGkeHubFeatureResourceState): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -86,7 +86,7 @@ export function googleGkeHubFeatureResourceStateToHclTerraform(struct?: GoogleGk
   return attrs;
 }
 
-export class GoogleGkeHubFeatureResourceStateOutputReference extends cdktf.ComplexObject {
+export class GoogleGkeHubFeatureResourceStateOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -95,7 +95,7 @@ export class GoogleGkeHubFeatureResourceStateOutputReference extends cdktf.Compl
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -125,14 +125,14 @@ export class GoogleGkeHubFeatureResourceStateOutputReference extends cdktf.Compl
   }
 }
 
-export class GoogleGkeHubFeatureResourceStateList extends cdktf.ComplexList {
+export class GoogleGkeHubFeatureResourceStateList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -147,8 +147,8 @@ export interface GoogleGkeHubFeatureStateState {
 }
 
 export function googleGkeHubFeatureStateStateToTerraform(struct?: GoogleGkeHubFeatureStateState): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -157,8 +157,8 @@ export function googleGkeHubFeatureStateStateToTerraform(struct?: GoogleGkeHubFe
 
 
 export function googleGkeHubFeatureStateStateToHclTerraform(struct?: GoogleGkeHubFeatureStateState): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -166,7 +166,7 @@ export function googleGkeHubFeatureStateStateToHclTerraform(struct?: GoogleGkeHu
   return attrs;
 }
 
-export class GoogleGkeHubFeatureStateStateOutputReference extends cdktf.ComplexObject {
+export class GoogleGkeHubFeatureStateStateOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -175,7 +175,7 @@ export class GoogleGkeHubFeatureStateStateOutputReference extends cdktf.ComplexO
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -210,14 +210,14 @@ export class GoogleGkeHubFeatureStateStateOutputReference extends cdktf.ComplexO
   }
 }
 
-export class GoogleGkeHubFeatureStateStateList extends cdktf.ComplexList {
+export class GoogleGkeHubFeatureStateStateList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -232,8 +232,8 @@ export interface GoogleGkeHubFeatureState {
 }
 
 export function googleGkeHubFeatureStateToTerraform(struct?: GoogleGkeHubFeatureState): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -242,8 +242,8 @@ export function googleGkeHubFeatureStateToTerraform(struct?: GoogleGkeHubFeature
 
 
 export function googleGkeHubFeatureStateToHclTerraform(struct?: GoogleGkeHubFeatureState): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -251,7 +251,7 @@ export function googleGkeHubFeatureStateToHclTerraform(struct?: GoogleGkeHubFeat
   return attrs;
 }
 
-export class GoogleGkeHubFeatureStateOutputReference extends cdktf.ComplexObject {
+export class GoogleGkeHubFeatureStateOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -260,7 +260,7 @@ export class GoogleGkeHubFeatureStateOutputReference extends cdktf.ComplexObject
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -286,14 +286,14 @@ export class GoogleGkeHubFeatureStateOutputReference extends cdktf.ComplexObject
   }
 }
 
-export class GoogleGkeHubFeatureStateList extends cdktf.ComplexList {
+export class GoogleGkeHubFeatureStateList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -356,73 +356,73 @@ export interface GoogleGkeHubFeatureFleetDefaultMemberConfigConfigmanagementConf
 }
 
 export function googleGkeHubFeatureFleetDefaultMemberConfigConfigmanagementConfigSyncGitToTerraform(struct?: GoogleGkeHubFeatureFleetDefaultMemberConfigConfigmanagementConfigSyncGitOutputReference | GoogleGkeHubFeatureFleetDefaultMemberConfigConfigmanagementConfigSyncGit): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    gcp_service_account_email: cdktf.stringToTerraform(struct!.gcpServiceAccountEmail),
-    https_proxy: cdktf.stringToTerraform(struct!.httpsProxy),
-    policy_dir: cdktf.stringToTerraform(struct!.policyDir),
-    secret_type: cdktf.stringToTerraform(struct!.secretType),
-    sync_branch: cdktf.stringToTerraform(struct!.syncBranch),
-    sync_repo: cdktf.stringToTerraform(struct!.syncRepo),
-    sync_rev: cdktf.stringToTerraform(struct!.syncRev),
-    sync_wait_secs: cdktf.stringToTerraform(struct!.syncWaitSecs),
+    gcp_service_account_email: cdktn.stringToTerraform(struct!.gcpServiceAccountEmail),
+    https_proxy: cdktn.stringToTerraform(struct!.httpsProxy),
+    policy_dir: cdktn.stringToTerraform(struct!.policyDir),
+    secret_type: cdktn.stringToTerraform(struct!.secretType),
+    sync_branch: cdktn.stringToTerraform(struct!.syncBranch),
+    sync_repo: cdktn.stringToTerraform(struct!.syncRepo),
+    sync_rev: cdktn.stringToTerraform(struct!.syncRev),
+    sync_wait_secs: cdktn.stringToTerraform(struct!.syncWaitSecs),
   }
 }
 
 
 export function googleGkeHubFeatureFleetDefaultMemberConfigConfigmanagementConfigSyncGitToHclTerraform(struct?: GoogleGkeHubFeatureFleetDefaultMemberConfigConfigmanagementConfigSyncGitOutputReference | GoogleGkeHubFeatureFleetDefaultMemberConfigConfigmanagementConfigSyncGit): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     gcp_service_account_email: {
-      value: cdktf.stringToHclTerraform(struct!.gcpServiceAccountEmail),
+      value: cdktn.stringToHclTerraform(struct!.gcpServiceAccountEmail),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     https_proxy: {
-      value: cdktf.stringToHclTerraform(struct!.httpsProxy),
+      value: cdktn.stringToHclTerraform(struct!.httpsProxy),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     policy_dir: {
-      value: cdktf.stringToHclTerraform(struct!.policyDir),
+      value: cdktn.stringToHclTerraform(struct!.policyDir),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     secret_type: {
-      value: cdktf.stringToHclTerraform(struct!.secretType),
+      value: cdktn.stringToHclTerraform(struct!.secretType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     sync_branch: {
-      value: cdktf.stringToHclTerraform(struct!.syncBranch),
+      value: cdktn.stringToHclTerraform(struct!.syncBranch),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     sync_repo: {
-      value: cdktf.stringToHclTerraform(struct!.syncRepo),
+      value: cdktn.stringToHclTerraform(struct!.syncRepo),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     sync_rev: {
-      value: cdktf.stringToHclTerraform(struct!.syncRev),
+      value: cdktn.stringToHclTerraform(struct!.syncRev),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     sync_wait_secs: {
-      value: cdktf.stringToHclTerraform(struct!.syncWaitSecs),
+      value: cdktn.stringToHclTerraform(struct!.syncWaitSecs),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -433,14 +433,14 @@ export function googleGkeHubFeatureFleetDefaultMemberConfigConfigmanagementConfi
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleGkeHubFeatureFleetDefaultMemberConfigConfigmanagementConfigSyncGitOutputReference extends cdktf.ComplexObject {
+export class GoogleGkeHubFeatureFleetDefaultMemberConfigConfigmanagementConfigSyncGitOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -672,59 +672,59 @@ export interface GoogleGkeHubFeatureFleetDefaultMemberConfigConfigmanagementConf
 }
 
 export function googleGkeHubFeatureFleetDefaultMemberConfigConfigmanagementConfigSyncOciToTerraform(struct?: GoogleGkeHubFeatureFleetDefaultMemberConfigConfigmanagementConfigSyncOciOutputReference | GoogleGkeHubFeatureFleetDefaultMemberConfigConfigmanagementConfigSyncOci): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    gcp_service_account_email: cdktf.stringToTerraform(struct!.gcpServiceAccountEmail),
-    policy_dir: cdktf.stringToTerraform(struct!.policyDir),
-    secret_type: cdktf.stringToTerraform(struct!.secretType),
-    sync_repo: cdktf.stringToTerraform(struct!.syncRepo),
-    sync_wait_secs: cdktf.stringToTerraform(struct!.syncWaitSecs),
-    version: cdktf.stringToTerraform(struct!.version),
+    gcp_service_account_email: cdktn.stringToTerraform(struct!.gcpServiceAccountEmail),
+    policy_dir: cdktn.stringToTerraform(struct!.policyDir),
+    secret_type: cdktn.stringToTerraform(struct!.secretType),
+    sync_repo: cdktn.stringToTerraform(struct!.syncRepo),
+    sync_wait_secs: cdktn.stringToTerraform(struct!.syncWaitSecs),
+    version: cdktn.stringToTerraform(struct!.version),
   }
 }
 
 
 export function googleGkeHubFeatureFleetDefaultMemberConfigConfigmanagementConfigSyncOciToHclTerraform(struct?: GoogleGkeHubFeatureFleetDefaultMemberConfigConfigmanagementConfigSyncOciOutputReference | GoogleGkeHubFeatureFleetDefaultMemberConfigConfigmanagementConfigSyncOci): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     gcp_service_account_email: {
-      value: cdktf.stringToHclTerraform(struct!.gcpServiceAccountEmail),
+      value: cdktn.stringToHclTerraform(struct!.gcpServiceAccountEmail),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     policy_dir: {
-      value: cdktf.stringToHclTerraform(struct!.policyDir),
+      value: cdktn.stringToHclTerraform(struct!.policyDir),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     secret_type: {
-      value: cdktf.stringToHclTerraform(struct!.secretType),
+      value: cdktn.stringToHclTerraform(struct!.secretType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     sync_repo: {
-      value: cdktf.stringToHclTerraform(struct!.syncRepo),
+      value: cdktn.stringToHclTerraform(struct!.syncRepo),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     sync_wait_secs: {
-      value: cdktf.stringToHclTerraform(struct!.syncWaitSecs),
+      value: cdktn.stringToHclTerraform(struct!.syncWaitSecs),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     version: {
-      value: cdktf.stringToHclTerraform(struct!.version),
+      value: cdktn.stringToHclTerraform(struct!.version),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -735,14 +735,14 @@ export function googleGkeHubFeatureFleetDefaultMemberConfigConfigmanagementConfi
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleGkeHubFeatureFleetDefaultMemberConfigConfigmanagementConfigSyncOciOutputReference extends cdktf.ComplexObject {
+export class GoogleGkeHubFeatureFleetDefaultMemberConfigConfigmanagementConfigSyncOciOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -896,7 +896,7 @@ export interface GoogleGkeHubFeatureFleetDefaultMemberConfigConfigmanagementConf
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_hub_feature#enabled GoogleGkeHubFeature#enabled}
   */
-  readonly enabled?: boolean | cdktf.IResolvable;
+  readonly enabled?: boolean | cdktn.IResolvable;
   /**
   * The Email of the Google Cloud Service Account (GSA) used for exporting Config Sync metrics to Cloud Monitoring. The GSA should have the Monitoring Metric Writer(roles/monitoring.metricWriter) IAM role. The Kubernetes ServiceAccount 'default' in the namespace 'config-management-monitoring' should be bound to the GSA.
   *
@@ -908,7 +908,7 @@ export interface GoogleGkeHubFeatureFleetDefaultMemberConfigConfigmanagementConf
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_hub_feature#prevent_drift GoogleGkeHubFeature#prevent_drift}
   */
-  readonly preventDrift?: boolean | cdktf.IResolvable;
+  readonly preventDrift?: boolean | cdktn.IResolvable;
   /**
   * Specifies whether the Config Sync Repo is in hierarchical or unstructured mode
   *
@@ -930,15 +930,15 @@ export interface GoogleGkeHubFeatureFleetDefaultMemberConfigConfigmanagementConf
 }
 
 export function googleGkeHubFeatureFleetDefaultMemberConfigConfigmanagementConfigSyncToTerraform(struct?: GoogleGkeHubFeatureFleetDefaultMemberConfigConfigmanagementConfigSyncOutputReference | GoogleGkeHubFeatureFleetDefaultMemberConfigConfigmanagementConfigSync): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    enabled: cdktf.booleanToTerraform(struct!.enabled),
-    metrics_gcp_service_account_email: cdktf.stringToTerraform(struct!.metricsGcpServiceAccountEmail),
-    prevent_drift: cdktf.booleanToTerraform(struct!.preventDrift),
-    source_format: cdktf.stringToTerraform(struct!.sourceFormat),
+    enabled: cdktn.booleanToTerraform(struct!.enabled),
+    metrics_gcp_service_account_email: cdktn.stringToTerraform(struct!.metricsGcpServiceAccountEmail),
+    prevent_drift: cdktn.booleanToTerraform(struct!.preventDrift),
+    source_format: cdktn.stringToTerraform(struct!.sourceFormat),
     git: googleGkeHubFeatureFleetDefaultMemberConfigConfigmanagementConfigSyncGitToTerraform(struct!.git),
     oci: googleGkeHubFeatureFleetDefaultMemberConfigConfigmanagementConfigSyncOciToTerraform(struct!.oci),
   }
@@ -946,31 +946,31 @@ export function googleGkeHubFeatureFleetDefaultMemberConfigConfigmanagementConfi
 
 
 export function googleGkeHubFeatureFleetDefaultMemberConfigConfigmanagementConfigSyncToHclTerraform(struct?: GoogleGkeHubFeatureFleetDefaultMemberConfigConfigmanagementConfigSyncOutputReference | GoogleGkeHubFeatureFleetDefaultMemberConfigConfigmanagementConfigSync): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     enabled: {
-      value: cdktf.booleanToHclTerraform(struct!.enabled),
+      value: cdktn.booleanToHclTerraform(struct!.enabled),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     metrics_gcp_service_account_email: {
-      value: cdktf.stringToHclTerraform(struct!.metricsGcpServiceAccountEmail),
+      value: cdktn.stringToHclTerraform(struct!.metricsGcpServiceAccountEmail),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     prevent_drift: {
-      value: cdktf.booleanToHclTerraform(struct!.preventDrift),
+      value: cdktn.booleanToHclTerraform(struct!.preventDrift),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     source_format: {
-      value: cdktf.stringToHclTerraform(struct!.sourceFormat),
+      value: cdktn.stringToHclTerraform(struct!.sourceFormat),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -993,14 +993,14 @@ export function googleGkeHubFeatureFleetDefaultMemberConfigConfigmanagementConfi
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleGkeHubFeatureFleetDefaultMemberConfigConfigmanagementConfigSyncOutputReference extends cdktf.ComplexObject {
+export class GoogleGkeHubFeatureFleetDefaultMemberConfigConfigmanagementConfigSyncOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1056,11 +1056,11 @@ export class GoogleGkeHubFeatureFleetDefaultMemberConfigConfigmanagementConfigSy
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktf.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
-  public set enabled(value: boolean | cdktf.IResolvable) {
+  public set enabled(value: boolean | cdktn.IResolvable) {
     this._enabled = value;
   }
   public resetEnabled() {
@@ -1088,11 +1088,11 @@ export class GoogleGkeHubFeatureFleetDefaultMemberConfigConfigmanagementConfigSy
   }
 
   // prevent_drift - computed: false, optional: true, required: false
-  private _preventDrift?: boolean | cdktf.IResolvable; 
+  private _preventDrift?: boolean | cdktn.IResolvable; 
   public get preventDrift() {
     return this.getBooleanAttribute('prevent_drift');
   }
-  public set preventDrift(value: boolean | cdktf.IResolvable) {
+  public set preventDrift(value: boolean | cdktn.IResolvable) {
     this._preventDrift = value;
   }
   public resetPreventDrift() {
@@ -1173,32 +1173,32 @@ export interface GoogleGkeHubFeatureFleetDefaultMemberConfigConfigmanagement {
 }
 
 export function googleGkeHubFeatureFleetDefaultMemberConfigConfigmanagementToTerraform(struct?: GoogleGkeHubFeatureFleetDefaultMemberConfigConfigmanagementOutputReference | GoogleGkeHubFeatureFleetDefaultMemberConfigConfigmanagement): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    management: cdktf.stringToTerraform(struct!.management),
-    version: cdktf.stringToTerraform(struct!.version),
+    management: cdktn.stringToTerraform(struct!.management),
+    version: cdktn.stringToTerraform(struct!.version),
     config_sync: googleGkeHubFeatureFleetDefaultMemberConfigConfigmanagementConfigSyncToTerraform(struct!.configSync),
   }
 }
 
 
 export function googleGkeHubFeatureFleetDefaultMemberConfigConfigmanagementToHclTerraform(struct?: GoogleGkeHubFeatureFleetDefaultMemberConfigConfigmanagementOutputReference | GoogleGkeHubFeatureFleetDefaultMemberConfigConfigmanagement): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     management: {
-      value: cdktf.stringToHclTerraform(struct!.management),
+      value: cdktn.stringToHclTerraform(struct!.management),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     version: {
-      value: cdktf.stringToHclTerraform(struct!.version),
+      value: cdktn.stringToHclTerraform(struct!.version),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1215,14 +1215,14 @@ export function googleGkeHubFeatureFleetDefaultMemberConfigConfigmanagementToHcl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleGkeHubFeatureFleetDefaultMemberConfigConfigmanagementOutputReference extends cdktf.ComplexObject {
+export class GoogleGkeHubFeatureFleetDefaultMemberConfigConfigmanagementOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1317,24 +1317,24 @@ export interface GoogleGkeHubFeatureFleetDefaultMemberConfigMesh {
 }
 
 export function googleGkeHubFeatureFleetDefaultMemberConfigMeshToTerraform(struct?: GoogleGkeHubFeatureFleetDefaultMemberConfigMeshOutputReference | GoogleGkeHubFeatureFleetDefaultMemberConfigMesh): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    management: cdktf.stringToTerraform(struct!.management),
+    management: cdktn.stringToTerraform(struct!.management),
   }
 }
 
 
 export function googleGkeHubFeatureFleetDefaultMemberConfigMeshToHclTerraform(struct?: GoogleGkeHubFeatureFleetDefaultMemberConfigMeshOutputReference | GoogleGkeHubFeatureFleetDefaultMemberConfigMesh): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     management: {
-      value: cdktf.stringToHclTerraform(struct!.management),
+      value: cdktn.stringToHclTerraform(struct!.management),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1345,14 +1345,14 @@ export function googleGkeHubFeatureFleetDefaultMemberConfigMeshToHclTerraform(st
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleGkeHubFeatureFleetDefaultMemberConfigMeshOutputReference extends cdktf.ComplexObject {
+export class GoogleGkeHubFeatureFleetDefaultMemberConfigMeshOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1406,31 +1406,31 @@ export interface GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPoli
 }
 
 export function googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsContainerResourcesLimitsToTerraform(struct?: GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsContainerResourcesLimitsOutputReference | GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsContainerResourcesLimits): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    cpu: cdktf.stringToTerraform(struct!.cpu),
-    memory: cdktf.stringToTerraform(struct!.memory),
+    cpu: cdktn.stringToTerraform(struct!.cpu),
+    memory: cdktn.stringToTerraform(struct!.memory),
   }
 }
 
 
 export function googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsContainerResourcesLimitsToHclTerraform(struct?: GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsContainerResourcesLimitsOutputReference | GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsContainerResourcesLimits): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     cpu: {
-      value: cdktf.stringToHclTerraform(struct!.cpu),
+      value: cdktn.stringToHclTerraform(struct!.cpu),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     memory: {
-      value: cdktf.stringToHclTerraform(struct!.memory),
+      value: cdktn.stringToHclTerraform(struct!.memory),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1441,14 +1441,14 @@ export function googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolic
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsContainerResourcesLimitsOutputReference extends cdktf.ComplexObject {
+export class GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsContainerResourcesLimitsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1527,31 +1527,31 @@ export interface GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPoli
 }
 
 export function googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsContainerResourcesRequestsToTerraform(struct?: GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsContainerResourcesRequestsOutputReference | GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsContainerResourcesRequests): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    cpu: cdktf.stringToTerraform(struct!.cpu),
-    memory: cdktf.stringToTerraform(struct!.memory),
+    cpu: cdktn.stringToTerraform(struct!.cpu),
+    memory: cdktn.stringToTerraform(struct!.memory),
   }
 }
 
 
 export function googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsContainerResourcesRequestsToHclTerraform(struct?: GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsContainerResourcesRequestsOutputReference | GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsContainerResourcesRequests): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     cpu: {
-      value: cdktf.stringToHclTerraform(struct!.cpu),
+      value: cdktn.stringToHclTerraform(struct!.cpu),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     memory: {
-      value: cdktf.stringToHclTerraform(struct!.memory),
+      value: cdktn.stringToHclTerraform(struct!.memory),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1562,14 +1562,14 @@ export function googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolic
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsContainerResourcesRequestsOutputReference extends cdktf.ComplexObject {
+export class GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsContainerResourcesRequestsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1648,8 +1648,8 @@ export interface GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPoli
 }
 
 export function googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsContainerResourcesToTerraform(struct?: GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsContainerResourcesOutputReference | GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsContainerResources): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -1660,8 +1660,8 @@ export function googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolic
 
 
 export function googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsContainerResourcesToHclTerraform(struct?: GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsContainerResourcesOutputReference | GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsContainerResources): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -1683,14 +1683,14 @@ export function googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolic
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsContainerResourcesOutputReference extends cdktf.ComplexObject {
+export class GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsContainerResourcesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1780,46 +1780,46 @@ export interface GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPoli
   readonly value?: string;
 }
 
-export function googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsPodTolerationToTerraform(struct?: GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsPodToleration | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsPodTolerationToTerraform(struct?: GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsPodToleration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    effect: cdktf.stringToTerraform(struct!.effect),
-    key: cdktf.stringToTerraform(struct!.key),
-    operator: cdktf.stringToTerraform(struct!.operator),
-    value: cdktf.stringToTerraform(struct!.value),
+    effect: cdktn.stringToTerraform(struct!.effect),
+    key: cdktn.stringToTerraform(struct!.key),
+    operator: cdktn.stringToTerraform(struct!.operator),
+    value: cdktn.stringToTerraform(struct!.value),
   }
 }
 
 
-export function googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsPodTolerationToHclTerraform(struct?: GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsPodToleration | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsPodTolerationToHclTerraform(struct?: GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsPodToleration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     effect: {
-      value: cdktf.stringToHclTerraform(struct!.effect),
+      value: cdktn.stringToHclTerraform(struct!.effect),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     key: {
-      value: cdktf.stringToHclTerraform(struct!.key),
+      value: cdktn.stringToHclTerraform(struct!.key),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     operator: {
-      value: cdktf.stringToHclTerraform(struct!.operator),
+      value: cdktn.stringToHclTerraform(struct!.operator),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     value: {
-      value: cdktf.stringToHclTerraform(struct!.value),
+      value: cdktn.stringToHclTerraform(struct!.value),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1830,9 +1830,9 @@ export function googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolic
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsPodTolerationOutputReference extends cdktf.ComplexObject {
+export class GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsPodTolerationOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -1840,11 +1840,11 @@ export class GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyCo
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsPodToleration | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsPodToleration | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1869,7 +1869,7 @@ export class GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyCo
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsPodToleration | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsPodToleration | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -1878,7 +1878,7 @@ export class GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyCo
       this._operator = undefined;
       this._value = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1957,15 +1957,15 @@ export class GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyCo
   }
 }
 
-export class GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsPodTolerationList extends cdktf.ComplexList {
-  public internalValue? : GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsPodToleration[] | cdktf.IResolvable
+export class GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsPodTolerationList extends cdktn.ComplexList {
+  public internalValue? : GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsPodToleration[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -2004,44 +2004,44 @@ export interface GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPoli
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_hub_feature#pod_toleration GoogleGkeHubFeature#pod_toleration}
   */
-  readonly podToleration?: GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsPodToleration[] | cdktf.IResolvable;
+  readonly podToleration?: GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsPodToleration[] | cdktn.IResolvable;
 }
 
-export function googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsToTerraform(struct?: GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigs | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsToTerraform(struct?: GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigs | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    component: cdktf.stringToTerraform(struct!.component),
-    pod_affinity: cdktf.stringToTerraform(struct!.podAffinity),
-    replica_count: cdktf.numberToTerraform(struct!.replicaCount),
+    component: cdktn.stringToTerraform(struct!.component),
+    pod_affinity: cdktn.stringToTerraform(struct!.podAffinity),
+    replica_count: cdktn.numberToTerraform(struct!.replicaCount),
     container_resources: googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsContainerResourcesToTerraform(struct!.containerResources),
-    pod_toleration: cdktf.listMapper(googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsPodTolerationToTerraform, true)(struct!.podToleration),
+    pod_toleration: cdktn.listMapper(googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsPodTolerationToTerraform, true)(struct!.podToleration),
   }
 }
 
 
-export function googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsToHclTerraform(struct?: GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigs | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsToHclTerraform(struct?: GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigs | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     component: {
-      value: cdktf.stringToHclTerraform(struct!.component),
+      value: cdktn.stringToHclTerraform(struct!.component),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     pod_affinity: {
-      value: cdktf.stringToHclTerraform(struct!.podAffinity),
+      value: cdktn.stringToHclTerraform(struct!.podAffinity),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     replica_count: {
-      value: cdktf.numberToHclTerraform(struct!.replicaCount),
+      value: cdktn.numberToHclTerraform(struct!.replicaCount),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -2053,7 +2053,7 @@ export function googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolic
       storageClassType: "GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsContainerResourcesList",
     },
     pod_toleration: {
-      value: cdktf.listMapperHcl(googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsPodTolerationToHclTerraform, true)(struct!.podToleration),
+      value: cdktn.listMapperHcl(googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsPodTolerationToHclTerraform, true)(struct!.podToleration),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsPodTolerationList",
@@ -2064,9 +2064,9 @@ export function googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolic
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsOutputReference extends cdktf.ComplexObject {
+export class GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -2074,11 +2074,11 @@ export class GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyCo
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigs | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigs | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -2107,7 +2107,7 @@ export class GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyCo
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigs | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigs | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -2117,7 +2117,7 @@ export class GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyCo
       this._containerResources.internalValue = undefined;
       this._podToleration.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -2198,7 +2198,7 @@ export class GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyCo
   public get podToleration() {
     return this._podToleration;
   }
-  public putPodToleration(value: GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsPodToleration[] | cdktf.IResolvable) {
+  public putPodToleration(value: GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsPodToleration[] | cdktn.IResolvable) {
     this._podToleration.internalValue = value;
   }
   public resetPodToleration() {
@@ -2210,15 +2210,15 @@ export class GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyCo
   }
 }
 
-export class GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsList extends cdktf.ComplexList {
-  public internalValue? : GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigs[] | cdktf.IResolvable
+export class GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsList extends cdktn.ComplexList {
+  public internalValue? : GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigs[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -2239,24 +2239,24 @@ export interface GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPoli
 }
 
 export function googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigMonitoringToTerraform(struct?: GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigMonitoringOutputReference | GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigMonitoring): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    backends: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.backends),
+    backends: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.backends),
   }
 }
 
 
 export function googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigMonitoringToHclTerraform(struct?: GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigMonitoringOutputReference | GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigMonitoring): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     backends: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.backends),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.backends),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -2267,14 +2267,14 @@ export function googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolic
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigMonitoringOutputReference extends cdktf.ComplexObject {
+export class GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigMonitoringOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2328,32 +2328,32 @@ export interface GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPoli
   readonly exemptedNamespaces?: string[];
 }
 
-export function googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigPolicyContentBundlesToTerraform(struct?: GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigPolicyContentBundles | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigPolicyContentBundlesToTerraform(struct?: GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigPolicyContentBundles | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    bundle: cdktf.stringToTerraform(struct!.bundle),
-    exempted_namespaces: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.exemptedNamespaces),
+    bundle: cdktn.stringToTerraform(struct!.bundle),
+    exempted_namespaces: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.exemptedNamespaces),
   }
 }
 
 
-export function googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigPolicyContentBundlesToHclTerraform(struct?: GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigPolicyContentBundles | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigPolicyContentBundlesToHclTerraform(struct?: GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigPolicyContentBundles | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     bundle: {
-      value: cdktf.stringToHclTerraform(struct!.bundle),
+      value: cdktn.stringToHclTerraform(struct!.bundle),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     exempted_namespaces: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.exemptedNamespaces),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.exemptedNamespaces),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -2364,9 +2364,9 @@ export function googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolic
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigPolicyContentBundlesOutputReference extends cdktf.ComplexObject {
+export class GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigPolicyContentBundlesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -2374,11 +2374,11 @@ export class GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyCo
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigPolicyContentBundles | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigPolicyContentBundles | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -2395,14 +2395,14 @@ export class GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyCo
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigPolicyContentBundles | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigPolicyContentBundles | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._bundle = undefined;
       this._exemptedNamespaces = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -2444,15 +2444,15 @@ export class GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyCo
   }
 }
 
-export class GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigPolicyContentBundlesList extends cdktf.ComplexList {
-  public internalValue? : GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigPolicyContentBundles[] | cdktf.IResolvable
+export class GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigPolicyContentBundlesList extends cdktn.ComplexList {
+  public internalValue? : GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigPolicyContentBundles[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -2473,24 +2473,24 @@ export interface GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPoli
 }
 
 export function googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigPolicyContentTemplateLibraryToTerraform(struct?: GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigPolicyContentTemplateLibraryOutputReference | GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigPolicyContentTemplateLibrary): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    installation: cdktf.stringToTerraform(struct!.installation),
+    installation: cdktn.stringToTerraform(struct!.installation),
   }
 }
 
 
 export function googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigPolicyContentTemplateLibraryToHclTerraform(struct?: GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigPolicyContentTemplateLibraryOutputReference | GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigPolicyContentTemplateLibrary): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     installation: {
-      value: cdktf.stringToHclTerraform(struct!.installation),
+      value: cdktn.stringToHclTerraform(struct!.installation),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2501,14 +2501,14 @@ export function googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolic
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigPolicyContentTemplateLibraryOutputReference extends cdktf.ComplexObject {
+export class GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigPolicyContentTemplateLibraryOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2555,7 +2555,7 @@ export interface GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPoli
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_hub_feature#bundles GoogleGkeHubFeature#bundles}
   */
-  readonly bundles?: GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigPolicyContentBundles[] | cdktf.IResolvable;
+  readonly bundles?: GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigPolicyContentBundles[] | cdktn.IResolvable;
   /**
   * template_library block
   *
@@ -2565,25 +2565,25 @@ export interface GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPoli
 }
 
 export function googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigPolicyContentToTerraform(struct?: GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigPolicyContentOutputReference | GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigPolicyContent): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    bundles: cdktf.listMapper(googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigPolicyContentBundlesToTerraform, true)(struct!.bundles),
+    bundles: cdktn.listMapper(googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigPolicyContentBundlesToTerraform, true)(struct!.bundles),
     template_library: googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigPolicyContentTemplateLibraryToTerraform(struct!.templateLibrary),
   }
 }
 
 
 export function googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigPolicyContentToHclTerraform(struct?: GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigPolicyContentOutputReference | GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigPolicyContent): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     bundles: {
-      value: cdktf.listMapperHcl(googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigPolicyContentBundlesToHclTerraform, true)(struct!.bundles),
+      value: cdktn.listMapperHcl(googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigPolicyContentBundlesToHclTerraform, true)(struct!.bundles),
       isBlock: true,
       type: "set",
       storageClassType: "GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigPolicyContentBundlesList",
@@ -2600,14 +2600,14 @@ export function googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolic
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigPolicyContentOutputReference extends cdktf.ComplexObject {
+export class GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigPolicyContentOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2643,7 +2643,7 @@ export class GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyCo
   public get bundles() {
     return this._bundles;
   }
-  public putBundles(value: GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigPolicyContentBundles[] | cdktf.IResolvable) {
+  public putBundles(value: GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigPolicyContentBundles[] | cdktn.IResolvable) {
     this._bundles.internalValue = value;
   }
   public resetBundles() {
@@ -2700,25 +2700,25 @@ export interface GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPoli
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_hub_feature#log_denies_enabled GoogleGkeHubFeature#log_denies_enabled}
   */
-  readonly logDeniesEnabled?: boolean | cdktf.IResolvable;
+  readonly logDeniesEnabled?: boolean | cdktn.IResolvable;
   /**
   * Enables the ability to mutate resources using Policy Controller.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_hub_feature#mutation_enabled GoogleGkeHubFeature#mutation_enabled}
   */
-  readonly mutationEnabled?: boolean | cdktf.IResolvable;
+  readonly mutationEnabled?: boolean | cdktn.IResolvable;
   /**
   * Enables the ability to use Constraint Templates that reference to objects other than the object currently being evaluated.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_hub_feature#referential_rules_enabled GoogleGkeHubFeature#referential_rules_enabled}
   */
-  readonly referentialRulesEnabled?: boolean | cdktf.IResolvable;
+  readonly referentialRulesEnabled?: boolean | cdktn.IResolvable;
   /**
   * deployment_configs block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_hub_feature#deployment_configs GoogleGkeHubFeature#deployment_configs}
   */
-  readonly deploymentConfigs?: GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigs[] | cdktf.IResolvable;
+  readonly deploymentConfigs?: GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigs[] | cdktn.IResolvable;
   /**
   * monitoring block
   *
@@ -2734,19 +2734,19 @@ export interface GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPoli
 }
 
 export function googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigToTerraform(struct?: GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigOutputReference | GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    audit_interval_seconds: cdktf.numberToTerraform(struct!.auditIntervalSeconds),
-    constraint_violation_limit: cdktf.numberToTerraform(struct!.constraintViolationLimit),
-    exemptable_namespaces: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.exemptableNamespaces),
-    install_spec: cdktf.stringToTerraform(struct!.installSpec),
-    log_denies_enabled: cdktf.booleanToTerraform(struct!.logDeniesEnabled),
-    mutation_enabled: cdktf.booleanToTerraform(struct!.mutationEnabled),
-    referential_rules_enabled: cdktf.booleanToTerraform(struct!.referentialRulesEnabled),
-    deployment_configs: cdktf.listMapper(googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsToTerraform, true)(struct!.deploymentConfigs),
+    audit_interval_seconds: cdktn.numberToTerraform(struct!.auditIntervalSeconds),
+    constraint_violation_limit: cdktn.numberToTerraform(struct!.constraintViolationLimit),
+    exemptable_namespaces: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.exemptableNamespaces),
+    install_spec: cdktn.stringToTerraform(struct!.installSpec),
+    log_denies_enabled: cdktn.booleanToTerraform(struct!.logDeniesEnabled),
+    mutation_enabled: cdktn.booleanToTerraform(struct!.mutationEnabled),
+    referential_rules_enabled: cdktn.booleanToTerraform(struct!.referentialRulesEnabled),
+    deployment_configs: cdktn.listMapper(googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsToTerraform, true)(struct!.deploymentConfigs),
     monitoring: googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigMonitoringToTerraform(struct!.monitoring),
     policy_content: googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigPolicyContentToTerraform(struct!.policyContent),
   }
@@ -2754,55 +2754,55 @@ export function googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolic
 
 
 export function googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigToHclTerraform(struct?: GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigOutputReference | GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     audit_interval_seconds: {
-      value: cdktf.numberToHclTerraform(struct!.auditIntervalSeconds),
+      value: cdktn.numberToHclTerraform(struct!.auditIntervalSeconds),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     constraint_violation_limit: {
-      value: cdktf.numberToHclTerraform(struct!.constraintViolationLimit),
+      value: cdktn.numberToHclTerraform(struct!.constraintViolationLimit),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     exemptable_namespaces: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.exemptableNamespaces),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.exemptableNamespaces),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     install_spec: {
-      value: cdktf.stringToHclTerraform(struct!.installSpec),
+      value: cdktn.stringToHclTerraform(struct!.installSpec),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     log_denies_enabled: {
-      value: cdktf.booleanToHclTerraform(struct!.logDeniesEnabled),
+      value: cdktn.booleanToHclTerraform(struct!.logDeniesEnabled),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     mutation_enabled: {
-      value: cdktf.booleanToHclTerraform(struct!.mutationEnabled),
+      value: cdktn.booleanToHclTerraform(struct!.mutationEnabled),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     referential_rules_enabled: {
-      value: cdktf.booleanToHclTerraform(struct!.referentialRulesEnabled),
+      value: cdktn.booleanToHclTerraform(struct!.referentialRulesEnabled),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     deployment_configs: {
-      value: cdktf.listMapperHcl(googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsToHclTerraform, true)(struct!.deploymentConfigs),
+      value: cdktn.listMapperHcl(googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsToHclTerraform, true)(struct!.deploymentConfigs),
       isBlock: true,
       type: "set",
       storageClassType: "GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigsList",
@@ -2825,14 +2825,14 @@ export function googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolic
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2973,11 +2973,11 @@ export class GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyCo
   }
 
   // log_denies_enabled - computed: false, optional: true, required: false
-  private _logDeniesEnabled?: boolean | cdktf.IResolvable; 
+  private _logDeniesEnabled?: boolean | cdktn.IResolvable; 
   public get logDeniesEnabled() {
     return this.getBooleanAttribute('log_denies_enabled');
   }
-  public set logDeniesEnabled(value: boolean | cdktf.IResolvable) {
+  public set logDeniesEnabled(value: boolean | cdktn.IResolvable) {
     this._logDeniesEnabled = value;
   }
   public resetLogDeniesEnabled() {
@@ -2989,11 +2989,11 @@ export class GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyCo
   }
 
   // mutation_enabled - computed: false, optional: true, required: false
-  private _mutationEnabled?: boolean | cdktf.IResolvable; 
+  private _mutationEnabled?: boolean | cdktn.IResolvable; 
   public get mutationEnabled() {
     return this.getBooleanAttribute('mutation_enabled');
   }
-  public set mutationEnabled(value: boolean | cdktf.IResolvable) {
+  public set mutationEnabled(value: boolean | cdktn.IResolvable) {
     this._mutationEnabled = value;
   }
   public resetMutationEnabled() {
@@ -3005,11 +3005,11 @@ export class GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyCo
   }
 
   // referential_rules_enabled - computed: false, optional: true, required: false
-  private _referentialRulesEnabled?: boolean | cdktf.IResolvable; 
+  private _referentialRulesEnabled?: boolean | cdktn.IResolvable; 
   public get referentialRulesEnabled() {
     return this.getBooleanAttribute('referential_rules_enabled');
   }
-  public set referentialRulesEnabled(value: boolean | cdktf.IResolvable) {
+  public set referentialRulesEnabled(value: boolean | cdktn.IResolvable) {
     this._referentialRulesEnabled = value;
   }
   public resetReferentialRulesEnabled() {
@@ -3025,7 +3025,7 @@ export class GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyCo
   public get deploymentConfigs() {
     return this._deploymentConfigs;
   }
-  public putDeploymentConfigs(value: GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigs[] | cdktf.IResolvable) {
+  public putDeploymentConfigs(value: GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigDeploymentConfigs[] | cdktn.IResolvable) {
     this._deploymentConfigs.internalValue = value;
   }
   public resetDeploymentConfigs() {
@@ -3084,25 +3084,25 @@ export interface GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontroller {
 }
 
 export function googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerToTerraform(struct?: GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerOutputReference | GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontroller): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    version: cdktf.stringToTerraform(struct!.version),
+    version: cdktn.stringToTerraform(struct!.version),
     policy_controller_hub_config: googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerPolicyControllerHubConfigToTerraform(struct!.policyControllerHubConfig),
   }
 }
 
 
 export function googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerToHclTerraform(struct?: GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerOutputReference | GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontroller): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     version: {
-      value: cdktf.stringToHclTerraform(struct!.version),
+      value: cdktn.stringToHclTerraform(struct!.version),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3119,14 +3119,14 @@ export function googleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerToHcl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerOutputReference extends cdktf.ComplexObject {
+export class GoogleGkeHubFeatureFleetDefaultMemberConfigPolicycontrollerOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3208,8 +3208,8 @@ export interface GoogleGkeHubFeatureFleetDefaultMemberConfig {
 }
 
 export function googleGkeHubFeatureFleetDefaultMemberConfigToTerraform(struct?: GoogleGkeHubFeatureFleetDefaultMemberConfigOutputReference | GoogleGkeHubFeatureFleetDefaultMemberConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -3221,8 +3221,8 @@ export function googleGkeHubFeatureFleetDefaultMemberConfigToTerraform(struct?: 
 
 
 export function googleGkeHubFeatureFleetDefaultMemberConfigToHclTerraform(struct?: GoogleGkeHubFeatureFleetDefaultMemberConfigOutputReference | GoogleGkeHubFeatureFleetDefaultMemberConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -3250,14 +3250,14 @@ export function googleGkeHubFeatureFleetDefaultMemberConfigToHclTerraform(struct
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleGkeHubFeatureFleetDefaultMemberConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleGkeHubFeatureFleetDefaultMemberConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3352,24 +3352,24 @@ export interface GoogleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverridesPostCon
 }
 
 export function googleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverridesPostConditionsToTerraform(struct?: GoogleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverridesPostConditionsOutputReference | GoogleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverridesPostConditions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    soaking: cdktf.stringToTerraform(struct!.soaking),
+    soaking: cdktn.stringToTerraform(struct!.soaking),
   }
 }
 
 
 export function googleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverridesPostConditionsToHclTerraform(struct?: GoogleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverridesPostConditionsOutputReference | GoogleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverridesPostConditions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     soaking: {
-      value: cdktf.stringToHclTerraform(struct!.soaking),
+      value: cdktn.stringToHclTerraform(struct!.soaking),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3380,14 +3380,14 @@ export function googleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverridesPostCond
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverridesPostConditionsOutputReference extends cdktf.ComplexObject {
+export class GoogleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverridesPostConditionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3441,31 +3441,31 @@ export interface GoogleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverridesUpgrade
 }
 
 export function googleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverridesUpgradeToTerraform(struct?: GoogleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverridesUpgradeOutputReference | GoogleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverridesUpgrade): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    name: cdktf.stringToTerraform(struct!.name),
-    version: cdktf.stringToTerraform(struct!.version),
+    name: cdktn.stringToTerraform(struct!.name),
+    version: cdktn.stringToTerraform(struct!.version),
   }
 }
 
 
 export function googleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverridesUpgradeToHclTerraform(struct?: GoogleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverridesUpgradeOutputReference | GoogleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverridesUpgrade): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
+      value: cdktn.stringToHclTerraform(struct!.name),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     version: {
-      value: cdktf.stringToHclTerraform(struct!.version),
+      value: cdktn.stringToHclTerraform(struct!.version),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3476,14 +3476,14 @@ export function googleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverridesUpgradeT
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverridesUpgradeOutputReference extends cdktf.ComplexObject {
+export class GoogleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverridesUpgradeOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3555,9 +3555,9 @@ export interface GoogleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverrides {
   readonly upgrade: GoogleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverridesUpgrade;
 }
 
-export function googleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverridesToTerraform(struct?: GoogleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverrides | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverridesToTerraform(struct?: GoogleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverrides | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -3567,9 +3567,9 @@ export function googleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverridesToTerraf
 }
 
 
-export function googleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverridesToHclTerraform(struct?: GoogleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverrides | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverridesToHclTerraform(struct?: GoogleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverrides | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -3591,9 +3591,9 @@ export function googleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverridesToHclTer
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverridesOutputReference extends cdktf.ComplexObject {
+export class GoogleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverridesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -3601,11 +3601,11 @@ export class GoogleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverridesOutputRefer
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverrides | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverrides | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -3622,14 +3622,14 @@ export class GoogleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverridesOutputRefer
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverrides | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverrides | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._postConditions.internalValue = undefined;
       this._upgrade.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -3668,15 +3668,15 @@ export class GoogleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverridesOutputRefer
   }
 }
 
-export class GoogleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverridesList extends cdktf.ComplexList {
-  public internalValue? : GoogleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverrides[] | cdktf.IResolvable
+export class GoogleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverridesList extends cdktn.ComplexList {
+  public internalValue? : GoogleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverrides[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -3697,24 +3697,24 @@ export interface GoogleGkeHubFeatureSpecClusterupgradePostConditions {
 }
 
 export function googleGkeHubFeatureSpecClusterupgradePostConditionsToTerraform(struct?: GoogleGkeHubFeatureSpecClusterupgradePostConditionsOutputReference | GoogleGkeHubFeatureSpecClusterupgradePostConditions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    soaking: cdktf.stringToTerraform(struct!.soaking),
+    soaking: cdktn.stringToTerraform(struct!.soaking),
   }
 }
 
 
 export function googleGkeHubFeatureSpecClusterupgradePostConditionsToHclTerraform(struct?: GoogleGkeHubFeatureSpecClusterupgradePostConditionsOutputReference | GoogleGkeHubFeatureSpecClusterupgradePostConditions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     soaking: {
-      value: cdktf.stringToHclTerraform(struct!.soaking),
+      value: cdktn.stringToHclTerraform(struct!.soaking),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3725,14 +3725,14 @@ export function googleGkeHubFeatureSpecClusterupgradePostConditionsToHclTerrafor
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleGkeHubFeatureSpecClusterupgradePostConditionsOutputReference extends cdktf.ComplexObject {
+export class GoogleGkeHubFeatureSpecClusterupgradePostConditionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3782,7 +3782,7 @@ export interface GoogleGkeHubFeatureSpecClusterupgrade {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_hub_feature#gke_upgrade_overrides GoogleGkeHubFeature#gke_upgrade_overrides}
   */
-  readonly gkeUpgradeOverrides?: GoogleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverrides[] | cdktf.IResolvable;
+  readonly gkeUpgradeOverrides?: GoogleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverrides[] | cdktn.IResolvable;
   /**
   * post_conditions block
   *
@@ -3792,32 +3792,32 @@ export interface GoogleGkeHubFeatureSpecClusterupgrade {
 }
 
 export function googleGkeHubFeatureSpecClusterupgradeToTerraform(struct?: GoogleGkeHubFeatureSpecClusterupgradeOutputReference | GoogleGkeHubFeatureSpecClusterupgrade): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    upstream_fleets: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.upstreamFleets),
-    gke_upgrade_overrides: cdktf.listMapper(googleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverridesToTerraform, true)(struct!.gkeUpgradeOverrides),
+    upstream_fleets: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.upstreamFleets),
+    gke_upgrade_overrides: cdktn.listMapper(googleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverridesToTerraform, true)(struct!.gkeUpgradeOverrides),
     post_conditions: googleGkeHubFeatureSpecClusterupgradePostConditionsToTerraform(struct!.postConditions),
   }
 }
 
 
 export function googleGkeHubFeatureSpecClusterupgradeToHclTerraform(struct?: GoogleGkeHubFeatureSpecClusterupgradeOutputReference | GoogleGkeHubFeatureSpecClusterupgrade): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     upstream_fleets: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.upstreamFleets),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.upstreamFleets),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     gke_upgrade_overrides: {
-      value: cdktf.listMapperHcl(googleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverridesToHclTerraform, true)(struct!.gkeUpgradeOverrides),
+      value: cdktn.listMapperHcl(googleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverridesToHclTerraform, true)(struct!.gkeUpgradeOverrides),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverridesList",
@@ -3834,14 +3834,14 @@ export function googleGkeHubFeatureSpecClusterupgradeToHclTerraform(struct?: Goo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleGkeHubFeatureSpecClusterupgradeOutputReference extends cdktf.ComplexObject {
+export class GoogleGkeHubFeatureSpecClusterupgradeOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3896,7 +3896,7 @@ export class GoogleGkeHubFeatureSpecClusterupgradeOutputReference extends cdktf.
   public get gkeUpgradeOverrides() {
     return this._gkeUpgradeOverrides;
   }
-  public putGkeUpgradeOverrides(value: GoogleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverrides[] | cdktf.IResolvable) {
+  public putGkeUpgradeOverrides(value: GoogleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverrides[] | cdktn.IResolvable) {
     this._gkeUpgradeOverrides.internalValue = value;
   }
   public resetGkeUpgradeOverrides() {
@@ -3933,24 +3933,24 @@ export interface GoogleGkeHubFeatureSpecFleetobservabilityLoggingConfigDefaultCo
 }
 
 export function googleGkeHubFeatureSpecFleetobservabilityLoggingConfigDefaultConfigToTerraform(struct?: GoogleGkeHubFeatureSpecFleetobservabilityLoggingConfigDefaultConfigOutputReference | GoogleGkeHubFeatureSpecFleetobservabilityLoggingConfigDefaultConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    mode: cdktf.stringToTerraform(struct!.mode),
+    mode: cdktn.stringToTerraform(struct!.mode),
   }
 }
 
 
 export function googleGkeHubFeatureSpecFleetobservabilityLoggingConfigDefaultConfigToHclTerraform(struct?: GoogleGkeHubFeatureSpecFleetobservabilityLoggingConfigDefaultConfigOutputReference | GoogleGkeHubFeatureSpecFleetobservabilityLoggingConfigDefaultConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     mode: {
-      value: cdktf.stringToHclTerraform(struct!.mode),
+      value: cdktn.stringToHclTerraform(struct!.mode),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3961,14 +3961,14 @@ export function googleGkeHubFeatureSpecFleetobservabilityLoggingConfigDefaultCon
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleGkeHubFeatureSpecFleetobservabilityLoggingConfigDefaultConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleGkeHubFeatureSpecFleetobservabilityLoggingConfigDefaultConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -4019,24 +4019,24 @@ export interface GoogleGkeHubFeatureSpecFleetobservabilityLoggingConfigFleetScop
 }
 
 export function googleGkeHubFeatureSpecFleetobservabilityLoggingConfigFleetScopeLogsConfigToTerraform(struct?: GoogleGkeHubFeatureSpecFleetobservabilityLoggingConfigFleetScopeLogsConfigOutputReference | GoogleGkeHubFeatureSpecFleetobservabilityLoggingConfigFleetScopeLogsConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    mode: cdktf.stringToTerraform(struct!.mode),
+    mode: cdktn.stringToTerraform(struct!.mode),
   }
 }
 
 
 export function googleGkeHubFeatureSpecFleetobservabilityLoggingConfigFleetScopeLogsConfigToHclTerraform(struct?: GoogleGkeHubFeatureSpecFleetobservabilityLoggingConfigFleetScopeLogsConfigOutputReference | GoogleGkeHubFeatureSpecFleetobservabilityLoggingConfigFleetScopeLogsConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     mode: {
-      value: cdktf.stringToHclTerraform(struct!.mode),
+      value: cdktn.stringToHclTerraform(struct!.mode),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -4047,14 +4047,14 @@ export function googleGkeHubFeatureSpecFleetobservabilityLoggingConfigFleetScope
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleGkeHubFeatureSpecFleetobservabilityLoggingConfigFleetScopeLogsConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleGkeHubFeatureSpecFleetobservabilityLoggingConfigFleetScopeLogsConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -4111,8 +4111,8 @@ export interface GoogleGkeHubFeatureSpecFleetobservabilityLoggingConfig {
 }
 
 export function googleGkeHubFeatureSpecFleetobservabilityLoggingConfigToTerraform(struct?: GoogleGkeHubFeatureSpecFleetobservabilityLoggingConfigOutputReference | GoogleGkeHubFeatureSpecFleetobservabilityLoggingConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -4123,8 +4123,8 @@ export function googleGkeHubFeatureSpecFleetobservabilityLoggingConfigToTerrafor
 
 
 export function googleGkeHubFeatureSpecFleetobservabilityLoggingConfigToHclTerraform(struct?: GoogleGkeHubFeatureSpecFleetobservabilityLoggingConfigOutputReference | GoogleGkeHubFeatureSpecFleetobservabilityLoggingConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -4146,14 +4146,14 @@ export function googleGkeHubFeatureSpecFleetobservabilityLoggingConfigToHclTerra
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleGkeHubFeatureSpecFleetobservabilityLoggingConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleGkeHubFeatureSpecFleetobservabilityLoggingConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -4226,8 +4226,8 @@ export interface GoogleGkeHubFeatureSpecFleetobservability {
 }
 
 export function googleGkeHubFeatureSpecFleetobservabilityToTerraform(struct?: GoogleGkeHubFeatureSpecFleetobservabilityOutputReference | GoogleGkeHubFeatureSpecFleetobservability): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -4237,8 +4237,8 @@ export function googleGkeHubFeatureSpecFleetobservabilityToTerraform(struct?: Go
 
 
 export function googleGkeHubFeatureSpecFleetobservabilityToHclTerraform(struct?: GoogleGkeHubFeatureSpecFleetobservabilityOutputReference | GoogleGkeHubFeatureSpecFleetobservability): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -4254,14 +4254,14 @@ export function googleGkeHubFeatureSpecFleetobservabilityToHclTerraform(struct?:
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleGkeHubFeatureSpecFleetobservabilityOutputReference extends cdktf.ComplexObject {
+export class GoogleGkeHubFeatureSpecFleetobservabilityOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -4312,24 +4312,24 @@ export interface GoogleGkeHubFeatureSpecMulticlusteringress {
 }
 
 export function googleGkeHubFeatureSpecMulticlusteringressToTerraform(struct?: GoogleGkeHubFeatureSpecMulticlusteringressOutputReference | GoogleGkeHubFeatureSpecMulticlusteringress): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    config_membership: cdktf.stringToTerraform(struct!.configMembership),
+    config_membership: cdktn.stringToTerraform(struct!.configMembership),
   }
 }
 
 
 export function googleGkeHubFeatureSpecMulticlusteringressToHclTerraform(struct?: GoogleGkeHubFeatureSpecMulticlusteringressOutputReference | GoogleGkeHubFeatureSpecMulticlusteringress): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     config_membership: {
-      value: cdktf.stringToHclTerraform(struct!.configMembership),
+      value: cdktn.stringToHclTerraform(struct!.configMembership),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -4340,14 +4340,14 @@ export function googleGkeHubFeatureSpecMulticlusteringressToHclTerraform(struct?
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleGkeHubFeatureSpecMulticlusteringressOutputReference extends cdktf.ComplexObject {
+export class GoogleGkeHubFeatureSpecMulticlusteringressOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -4395,24 +4395,24 @@ export interface GoogleGkeHubFeatureSpecRbacrolebindingactuation {
 }
 
 export function googleGkeHubFeatureSpecRbacrolebindingactuationToTerraform(struct?: GoogleGkeHubFeatureSpecRbacrolebindingactuationOutputReference | GoogleGkeHubFeatureSpecRbacrolebindingactuation): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    allowed_custom_roles: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.allowedCustomRoles),
+    allowed_custom_roles: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.allowedCustomRoles),
   }
 }
 
 
 export function googleGkeHubFeatureSpecRbacrolebindingactuationToHclTerraform(struct?: GoogleGkeHubFeatureSpecRbacrolebindingactuationOutputReference | GoogleGkeHubFeatureSpecRbacrolebindingactuation): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     allowed_custom_roles: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.allowedCustomRoles),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.allowedCustomRoles),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -4423,14 +4423,14 @@ export function googleGkeHubFeatureSpecRbacrolebindingactuationToHclTerraform(st
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleGkeHubFeatureSpecRbacrolebindingactuationOutputReference extends cdktf.ComplexObject {
+export class GoogleGkeHubFeatureSpecRbacrolebindingactuationOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -4499,8 +4499,8 @@ export interface GoogleGkeHubFeatureSpec {
 }
 
 export function googleGkeHubFeatureSpecToTerraform(struct?: GoogleGkeHubFeatureSpecOutputReference | GoogleGkeHubFeatureSpec): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -4513,8 +4513,8 @@ export function googleGkeHubFeatureSpecToTerraform(struct?: GoogleGkeHubFeatureS
 
 
 export function googleGkeHubFeatureSpecToHclTerraform(struct?: GoogleGkeHubFeatureSpecOutputReference | GoogleGkeHubFeatureSpec): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -4548,14 +4548,14 @@ export function googleGkeHubFeatureSpecToHclTerraform(struct?: GoogleGkeHubFeatu
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleGkeHubFeatureSpecOutputReference extends cdktf.ComplexObject {
+export class GoogleGkeHubFeatureSpecOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -4677,39 +4677,39 @@ export interface GoogleGkeHubFeatureTimeouts {
   readonly update?: string;
 }
 
-export function googleGkeHubFeatureTimeoutsToTerraform(struct?: GoogleGkeHubFeatureTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleGkeHubFeatureTimeoutsToTerraform(struct?: GoogleGkeHubFeatureTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleGkeHubFeatureTimeoutsToHclTerraform(struct?: GoogleGkeHubFeatureTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleGkeHubFeatureTimeoutsToHclTerraform(struct?: GoogleGkeHubFeatureTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -4720,19 +4720,19 @@ export function googleGkeHubFeatureTimeoutsToHclTerraform(struct?: GoogleGkeHubF
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleGkeHubFeatureTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleGkeHubFeatureTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleGkeHubFeatureTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleGkeHubFeatureTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -4753,7 +4753,7 @@ export class GoogleGkeHubFeatureTimeoutsOutputReference extends cdktf.ComplexObj
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleGkeHubFeatureTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleGkeHubFeatureTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -4761,7 +4761,7 @@ export class GoogleGkeHubFeatureTimeoutsOutputReference extends cdktf.ComplexObj
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -4826,7 +4826,7 @@ export class GoogleGkeHubFeatureTimeoutsOutputReference extends cdktf.ComplexObj
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_hub_feature google_gke_hub_feature}
 */
-export class GoogleGkeHubFeature extends cdktf.TerraformResource {
+export class GoogleGkeHubFeature extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -4837,14 +4837,14 @@ export class GoogleGkeHubFeature extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleGkeHubFeature resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleGkeHubFeature resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleGkeHubFeature to import
   * @param importFromId The id of the existing GoogleGkeHubFeature that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_hub_feature#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleGkeHubFeature to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_gke_hub_feature", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_gke_hub_feature", importId: importFromId, provider });
       }
 
   // ===========
@@ -4899,7 +4899,7 @@ export class GoogleGkeHubFeature extends cdktf.TerraformResource {
   }
 
   // effective_labels - computed: true, optional: false, required: false
-  private _effectiveLabels = new cdktf.StringMap(this, "effective_labels");
+  private _effectiveLabels = new cdktn.StringMap(this, "effective_labels");
   public get effectiveLabels() {
     return this._effectiveLabels;
   }
@@ -4994,7 +4994,7 @@ export class GoogleGkeHubFeature extends cdktf.TerraformResource {
   }
 
   // terraform_labels - computed: true, optional: false, required: false
-  private _terraformLabels = new cdktf.StringMap(this, "terraform_labels");
+  private _terraformLabels = new cdktn.StringMap(this, "terraform_labels");
   public get terraformLabels() {
     return this._terraformLabels;
   }
@@ -5058,11 +5058,11 @@ export class GoogleGkeHubFeature extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      id: cdktf.stringToTerraform(this._id),
-      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
-      location: cdktf.stringToTerraform(this._location),
-      name: cdktf.stringToTerraform(this._name),
-      project: cdktf.stringToTerraform(this._project),
+      id: cdktn.stringToTerraform(this._id),
+      labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
+      location: cdktn.stringToTerraform(this._location),
+      name: cdktn.stringToTerraform(this._name),
+      project: cdktn.stringToTerraform(this._project),
       fleet_default_member_config: googleGkeHubFeatureFleetDefaultMemberConfigToTerraform(this._fleetDefaultMemberConfig.internalValue),
       spec: googleGkeHubFeatureSpecToTerraform(this._spec.internalValue),
       timeouts: googleGkeHubFeatureTimeoutsToTerraform(this._timeouts.internalValue),
@@ -5072,31 +5072,31 @@ export class GoogleGkeHubFeature extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._labels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

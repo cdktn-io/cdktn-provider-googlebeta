@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleLoggingProjectSinkConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleLoggingProjectSinkConfig extends cdktn.TerraformMetaArguments {
   /**
   * A service account provided by the caller that will be used to write the log entries. The format must be serviceAccount:some@email. This field can only be specified if you are routing logs to a destination outside this sink's project. If not specified, a Logging service account will automatically be generated.
   *
@@ -35,7 +35,7 @@ export interface GoogleLoggingProjectSinkConfig extends cdktf.TerraformMetaArgum
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_logging_project_sink#disabled GoogleLoggingProjectSink#disabled}
   */
-  readonly disabled?: boolean | cdktf.IResolvable;
+  readonly disabled?: boolean | cdktn.IResolvable;
   /**
   * The filter to apply when exporting logs. Only log entries that match the filter are exported.
   *
@@ -66,7 +66,7 @@ export interface GoogleLoggingProjectSinkConfig extends cdktf.TerraformMetaArgum
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_logging_project_sink#unique_writer_identity GoogleLoggingProjectSink#unique_writer_identity}
   */
-  readonly uniqueWriterIdentity?: boolean | cdktf.IResolvable;
+  readonly uniqueWriterIdentity?: boolean | cdktn.IResolvable;
   /**
   * bigquery_options block
   *
@@ -78,7 +78,7 @@ export interface GoogleLoggingProjectSinkConfig extends cdktf.TerraformMetaArgum
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_logging_project_sink#exclusions GoogleLoggingProjectSink#exclusions}
   */
-  readonly exclusions?: GoogleLoggingProjectSinkExclusions[] | cdktf.IResolvable;
+  readonly exclusions?: GoogleLoggingProjectSinkExclusions[] | cdktn.IResolvable;
 }
 export interface GoogleLoggingProjectSinkBigqueryOptions {
   /**
@@ -86,28 +86,28 @@ export interface GoogleLoggingProjectSinkBigqueryOptions {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_logging_project_sink#use_partitioned_tables GoogleLoggingProjectSink#use_partitioned_tables}
   */
-  readonly usePartitionedTables: boolean | cdktf.IResolvable;
+  readonly usePartitionedTables: boolean | cdktn.IResolvable;
 }
 
 export function googleLoggingProjectSinkBigqueryOptionsToTerraform(struct?: GoogleLoggingProjectSinkBigqueryOptionsOutputReference | GoogleLoggingProjectSinkBigqueryOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    use_partitioned_tables: cdktf.booleanToTerraform(struct!.usePartitionedTables),
+    use_partitioned_tables: cdktn.booleanToTerraform(struct!.usePartitionedTables),
   }
 }
 
 
 export function googleLoggingProjectSinkBigqueryOptionsToHclTerraform(struct?: GoogleLoggingProjectSinkBigqueryOptionsOutputReference | GoogleLoggingProjectSinkBigqueryOptions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     use_partitioned_tables: {
-      value: cdktf.booleanToHclTerraform(struct!.usePartitionedTables),
+      value: cdktn.booleanToHclTerraform(struct!.usePartitionedTables),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -118,14 +118,14 @@ export function googleLoggingProjectSinkBigqueryOptionsToHclTerraform(struct?: G
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleLoggingProjectSinkBigqueryOptionsOutputReference extends cdktf.ComplexObject {
+export class GoogleLoggingProjectSinkBigqueryOptionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -151,11 +151,11 @@ export class GoogleLoggingProjectSinkBigqueryOptionsOutputReference extends cdkt
   }
 
   // use_partitioned_tables - computed: false, optional: false, required: true
-  private _usePartitionedTables?: boolean | cdktf.IResolvable; 
+  private _usePartitionedTables?: boolean | cdktn.IResolvable; 
   public get usePartitionedTables() {
     return this.getBooleanAttribute('use_partitioned_tables');
   }
-  public set usePartitionedTables(value: boolean | cdktf.IResolvable) {
+  public set usePartitionedTables(value: boolean | cdktn.IResolvable) {
     this._usePartitionedTables = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -175,7 +175,7 @@ export interface GoogleLoggingProjectSinkExclusions {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_logging_project_sink#disabled GoogleLoggingProjectSink#disabled}
   */
-  readonly disabled?: boolean | cdktf.IResolvable;
+  readonly disabled?: boolean | cdktn.IResolvable;
   /**
   * An advanced logs filter that matches the log entries to be excluded. By using the sample function, you can exclude less than 100% of the matching log entries
   *
@@ -190,46 +190,46 @@ export interface GoogleLoggingProjectSinkExclusions {
   readonly name: string;
 }
 
-export function googleLoggingProjectSinkExclusionsToTerraform(struct?: GoogleLoggingProjectSinkExclusions | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleLoggingProjectSinkExclusionsToTerraform(struct?: GoogleLoggingProjectSinkExclusions | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    description: cdktf.stringToTerraform(struct!.description),
-    disabled: cdktf.booleanToTerraform(struct!.disabled),
-    filter: cdktf.stringToTerraform(struct!.filter),
-    name: cdktf.stringToTerraform(struct!.name),
+    description: cdktn.stringToTerraform(struct!.description),
+    disabled: cdktn.booleanToTerraform(struct!.disabled),
+    filter: cdktn.stringToTerraform(struct!.filter),
+    name: cdktn.stringToTerraform(struct!.name),
   }
 }
 
 
-export function googleLoggingProjectSinkExclusionsToHclTerraform(struct?: GoogleLoggingProjectSinkExclusions | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleLoggingProjectSinkExclusionsToHclTerraform(struct?: GoogleLoggingProjectSinkExclusions | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     description: {
-      value: cdktf.stringToHclTerraform(struct!.description),
+      value: cdktn.stringToHclTerraform(struct!.description),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     disabled: {
-      value: cdktf.booleanToHclTerraform(struct!.disabled),
+      value: cdktn.booleanToHclTerraform(struct!.disabled),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     filter: {
-      value: cdktf.stringToHclTerraform(struct!.filter),
+      value: cdktn.stringToHclTerraform(struct!.filter),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
+      value: cdktn.stringToHclTerraform(struct!.name),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -240,9 +240,9 @@ export function googleLoggingProjectSinkExclusionsToHclTerraform(struct?: Google
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleLoggingProjectSinkExclusionsOutputReference extends cdktf.ComplexObject {
+export class GoogleLoggingProjectSinkExclusionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -250,11 +250,11 @@ export class GoogleLoggingProjectSinkExclusionsOutputReference extends cdktf.Com
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleLoggingProjectSinkExclusions | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleLoggingProjectSinkExclusions | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -279,7 +279,7 @@ export class GoogleLoggingProjectSinkExclusionsOutputReference extends cdktf.Com
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleLoggingProjectSinkExclusions | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleLoggingProjectSinkExclusions | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -288,7 +288,7 @@ export class GoogleLoggingProjectSinkExclusionsOutputReference extends cdktf.Com
       this._filter = undefined;
       this._name = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -319,11 +319,11 @@ export class GoogleLoggingProjectSinkExclusionsOutputReference extends cdktf.Com
   }
 
   // disabled - computed: false, optional: true, required: false
-  private _disabled?: boolean | cdktf.IResolvable; 
+  private _disabled?: boolean | cdktn.IResolvable; 
   public get disabled() {
     return this.getBooleanAttribute('disabled');
   }
-  public set disabled(value: boolean | cdktf.IResolvable) {
+  public set disabled(value: boolean | cdktn.IResolvable) {
     this._disabled = value;
   }
   public resetDisabled() {
@@ -361,15 +361,15 @@ export class GoogleLoggingProjectSinkExclusionsOutputReference extends cdktf.Com
   }
 }
 
-export class GoogleLoggingProjectSinkExclusionsList extends cdktf.ComplexList {
-  public internalValue? : GoogleLoggingProjectSinkExclusions[] | cdktf.IResolvable
+export class GoogleLoggingProjectSinkExclusionsList extends cdktn.ComplexList {
+  public internalValue? : GoogleLoggingProjectSinkExclusions[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -384,7 +384,7 @@ export class GoogleLoggingProjectSinkExclusionsList extends cdktf.ComplexList {
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_logging_project_sink google_logging_project_sink}
 */
-export class GoogleLoggingProjectSink extends cdktf.TerraformResource {
+export class GoogleLoggingProjectSink extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -395,14 +395,14 @@ export class GoogleLoggingProjectSink extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleLoggingProjectSink resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleLoggingProjectSink resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleLoggingProjectSink to import
   * @param importFromId The id of the existing GoogleLoggingProjectSink that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_logging_project_sink#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleLoggingProjectSink to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_logging_project_sink", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_logging_project_sink", importId: importFromId, provider });
       }
 
   // ===========
@@ -495,11 +495,11 @@ export class GoogleLoggingProjectSink extends cdktf.TerraformResource {
   }
 
   // disabled - computed: false, optional: true, required: false
-  private _disabled?: boolean | cdktf.IResolvable; 
+  private _disabled?: boolean | cdktn.IResolvable; 
   public get disabled() {
     return this.getBooleanAttribute('disabled');
   }
-  public set disabled(value: boolean | cdktf.IResolvable) {
+  public set disabled(value: boolean | cdktn.IResolvable) {
     this._disabled = value;
   }
   public resetDisabled() {
@@ -572,11 +572,11 @@ export class GoogleLoggingProjectSink extends cdktf.TerraformResource {
   }
 
   // unique_writer_identity - computed: false, optional: true, required: false
-  private _uniqueWriterIdentity?: boolean | cdktf.IResolvable; 
+  private _uniqueWriterIdentity?: boolean | cdktn.IResolvable; 
   public get uniqueWriterIdentity() {
     return this.getBooleanAttribute('unique_writer_identity');
   }
-  public set uniqueWriterIdentity(value: boolean | cdktf.IResolvable) {
+  public set uniqueWriterIdentity(value: boolean | cdktn.IResolvable) {
     this._uniqueWriterIdentity = value;
   }
   public resetUniqueWriterIdentity() {
@@ -613,7 +613,7 @@ export class GoogleLoggingProjectSink extends cdktf.TerraformResource {
   public get exclusions() {
     return this._exclusions;
   }
-  public putExclusions(value: GoogleLoggingProjectSinkExclusions[] | cdktf.IResolvable) {
+  public putExclusions(value: GoogleLoggingProjectSinkExclusions[] | cdktn.IResolvable) {
     this._exclusions.internalValue = value;
   }
   public resetExclusions() {
@@ -630,72 +630,72 @@ export class GoogleLoggingProjectSink extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      custom_writer_identity: cdktf.stringToTerraform(this._customWriterIdentity),
-      description: cdktf.stringToTerraform(this._description),
-      destination: cdktf.stringToTerraform(this._destination),
-      disabled: cdktf.booleanToTerraform(this._disabled),
-      filter: cdktf.stringToTerraform(this._filter),
-      id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
-      project: cdktf.stringToTerraform(this._project),
-      unique_writer_identity: cdktf.booleanToTerraform(this._uniqueWriterIdentity),
+      custom_writer_identity: cdktn.stringToTerraform(this._customWriterIdentity),
+      description: cdktn.stringToTerraform(this._description),
+      destination: cdktn.stringToTerraform(this._destination),
+      disabled: cdktn.booleanToTerraform(this._disabled),
+      filter: cdktn.stringToTerraform(this._filter),
+      id: cdktn.stringToTerraform(this._id),
+      name: cdktn.stringToTerraform(this._name),
+      project: cdktn.stringToTerraform(this._project),
+      unique_writer_identity: cdktn.booleanToTerraform(this._uniqueWriterIdentity),
       bigquery_options: googleLoggingProjectSinkBigqueryOptionsToTerraform(this._bigqueryOptions.internalValue),
-      exclusions: cdktf.listMapper(googleLoggingProjectSinkExclusionsToTerraform, true)(this._exclusions.internalValue),
+      exclusions: cdktn.listMapper(googleLoggingProjectSinkExclusionsToTerraform, true)(this._exclusions.internalValue),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       custom_writer_identity: {
-        value: cdktf.stringToHclTerraform(this._customWriterIdentity),
+        value: cdktn.stringToHclTerraform(this._customWriterIdentity),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       destination: {
-        value: cdktf.stringToHclTerraform(this._destination),
+        value: cdktn.stringToHclTerraform(this._destination),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       disabled: {
-        value: cdktf.booleanToHclTerraform(this._disabled),
+        value: cdktn.booleanToHclTerraform(this._disabled),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       filter: {
-        value: cdktf.stringToHclTerraform(this._filter),
+        value: cdktn.stringToHclTerraform(this._filter),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       unique_writer_identity: {
-        value: cdktf.booleanToHclTerraform(this._uniqueWriterIdentity),
+        value: cdktn.booleanToHclTerraform(this._uniqueWriterIdentity),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
@@ -707,7 +707,7 @@ export class GoogleLoggingProjectSink extends cdktf.TerraformResource {
         storageClassType: "GoogleLoggingProjectSinkBigqueryOptionsList",
       },
       exclusions: {
-        value: cdktf.listMapperHcl(googleLoggingProjectSinkExclusionsToHclTerraform, true)(this._exclusions.internalValue),
+        value: cdktn.listMapperHcl(googleLoggingProjectSinkExclusionsToHclTerraform, true)(this._exclusions.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "GoogleLoggingProjectSinkExclusionsList",

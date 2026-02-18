@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleDataformRepositoryConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleDataformRepositoryConfig extends cdktn.TerraformMetaArguments {
   /**
   * Policy to control how the repository and its child resources are deleted. When set to 'FORCE', any child resources of this repository will also be deleted. Possible values: 'DELETE', 'FORCE'. Defaults to 'DELETE'. Default value: "DELETE" Possible values: ["DELETE", "FORCE"]
   *
@@ -116,31 +116,31 @@ export interface GoogleDataformRepositoryGitRemoteSettingsSshAuthenticationConfi
 }
 
 export function googleDataformRepositoryGitRemoteSettingsSshAuthenticationConfigToTerraform(struct?: GoogleDataformRepositoryGitRemoteSettingsSshAuthenticationConfigOutputReference | GoogleDataformRepositoryGitRemoteSettingsSshAuthenticationConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    host_public_key: cdktf.stringToTerraform(struct!.hostPublicKey),
-    user_private_key_secret_version: cdktf.stringToTerraform(struct!.userPrivateKeySecretVersion),
+    host_public_key: cdktn.stringToTerraform(struct!.hostPublicKey),
+    user_private_key_secret_version: cdktn.stringToTerraform(struct!.userPrivateKeySecretVersion),
   }
 }
 
 
 export function googleDataformRepositoryGitRemoteSettingsSshAuthenticationConfigToHclTerraform(struct?: GoogleDataformRepositoryGitRemoteSettingsSshAuthenticationConfigOutputReference | GoogleDataformRepositoryGitRemoteSettingsSshAuthenticationConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     host_public_key: {
-      value: cdktf.stringToHclTerraform(struct!.hostPublicKey),
+      value: cdktn.stringToHclTerraform(struct!.hostPublicKey),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     user_private_key_secret_version: {
-      value: cdktf.stringToHclTerraform(struct!.userPrivateKeySecretVersion),
+      value: cdktn.stringToHclTerraform(struct!.userPrivateKeySecretVersion),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -151,14 +151,14 @@ export function googleDataformRepositoryGitRemoteSettingsSshAuthenticationConfig
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataformRepositoryGitRemoteSettingsSshAuthenticationConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDataformRepositoryGitRemoteSettingsSshAuthenticationConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -245,39 +245,39 @@ export interface GoogleDataformRepositoryGitRemoteSettings {
 }
 
 export function googleDataformRepositoryGitRemoteSettingsToTerraform(struct?: GoogleDataformRepositoryGitRemoteSettingsOutputReference | GoogleDataformRepositoryGitRemoteSettings): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    authentication_token_secret_version: cdktf.stringToTerraform(struct!.authenticationTokenSecretVersion),
-    default_branch: cdktf.stringToTerraform(struct!.defaultBranch),
-    url: cdktf.stringToTerraform(struct!.url),
+    authentication_token_secret_version: cdktn.stringToTerraform(struct!.authenticationTokenSecretVersion),
+    default_branch: cdktn.stringToTerraform(struct!.defaultBranch),
+    url: cdktn.stringToTerraform(struct!.url),
     ssh_authentication_config: googleDataformRepositoryGitRemoteSettingsSshAuthenticationConfigToTerraform(struct!.sshAuthenticationConfig),
   }
 }
 
 
 export function googleDataformRepositoryGitRemoteSettingsToHclTerraform(struct?: GoogleDataformRepositoryGitRemoteSettingsOutputReference | GoogleDataformRepositoryGitRemoteSettings): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     authentication_token_secret_version: {
-      value: cdktf.stringToHclTerraform(struct!.authenticationTokenSecretVersion),
+      value: cdktn.stringToHclTerraform(struct!.authenticationTokenSecretVersion),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     default_branch: {
-      value: cdktf.stringToHclTerraform(struct!.defaultBranch),
+      value: cdktn.stringToHclTerraform(struct!.defaultBranch),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     url: {
-      value: cdktf.stringToHclTerraform(struct!.url),
+      value: cdktn.stringToHclTerraform(struct!.url),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -294,14 +294,14 @@ export function googleDataformRepositoryGitRemoteSettingsToHclTerraform(struct?:
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataformRepositoryGitRemoteSettingsOutputReference extends cdktf.ComplexObject {
+export class GoogleDataformRepositoryGitRemoteSettingsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -422,39 +422,39 @@ export interface GoogleDataformRepositoryTimeouts {
   readonly update?: string;
 }
 
-export function googleDataformRepositoryTimeoutsToTerraform(struct?: GoogleDataformRepositoryTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDataformRepositoryTimeoutsToTerraform(struct?: GoogleDataformRepositoryTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleDataformRepositoryTimeoutsToHclTerraform(struct?: GoogleDataformRepositoryTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDataformRepositoryTimeoutsToHclTerraform(struct?: GoogleDataformRepositoryTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -465,19 +465,19 @@ export function googleDataformRepositoryTimeoutsToHclTerraform(struct?: GoogleDa
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataformRepositoryTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleDataformRepositoryTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleDataformRepositoryTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDataformRepositoryTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -498,7 +498,7 @@ export class GoogleDataformRepositoryTimeoutsOutputReference extends cdktf.Compl
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDataformRepositoryTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDataformRepositoryTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -506,7 +506,7 @@ export class GoogleDataformRepositoryTimeoutsOutputReference extends cdktf.Compl
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -589,38 +589,38 @@ export interface GoogleDataformRepositoryWorkspaceCompilationOverrides {
 }
 
 export function googleDataformRepositoryWorkspaceCompilationOverridesToTerraform(struct?: GoogleDataformRepositoryWorkspaceCompilationOverridesOutputReference | GoogleDataformRepositoryWorkspaceCompilationOverrides): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    default_database: cdktf.stringToTerraform(struct!.defaultDatabase),
-    schema_suffix: cdktf.stringToTerraform(struct!.schemaSuffix),
-    table_prefix: cdktf.stringToTerraform(struct!.tablePrefix),
+    default_database: cdktn.stringToTerraform(struct!.defaultDatabase),
+    schema_suffix: cdktn.stringToTerraform(struct!.schemaSuffix),
+    table_prefix: cdktn.stringToTerraform(struct!.tablePrefix),
   }
 }
 
 
 export function googleDataformRepositoryWorkspaceCompilationOverridesToHclTerraform(struct?: GoogleDataformRepositoryWorkspaceCompilationOverridesOutputReference | GoogleDataformRepositoryWorkspaceCompilationOverrides): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     default_database: {
-      value: cdktf.stringToHclTerraform(struct!.defaultDatabase),
+      value: cdktn.stringToHclTerraform(struct!.defaultDatabase),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     schema_suffix: {
-      value: cdktf.stringToHclTerraform(struct!.schemaSuffix),
+      value: cdktn.stringToHclTerraform(struct!.schemaSuffix),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     table_prefix: {
-      value: cdktf.stringToHclTerraform(struct!.tablePrefix),
+      value: cdktn.stringToHclTerraform(struct!.tablePrefix),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -631,14 +631,14 @@ export function googleDataformRepositoryWorkspaceCompilationOverridesToHclTerraf
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataformRepositoryWorkspaceCompilationOverridesOutputReference extends cdktf.ComplexObject {
+export class GoogleDataformRepositoryWorkspaceCompilationOverridesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -727,7 +727,7 @@ export class GoogleDataformRepositoryWorkspaceCompilationOverridesOutputReferenc
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository google_dataform_repository}
 */
-export class GoogleDataformRepository extends cdktf.TerraformResource {
+export class GoogleDataformRepository extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -738,14 +738,14 @@ export class GoogleDataformRepository extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleDataformRepository resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleDataformRepository resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleDataformRepository to import
   * @param importFromId The id of the existing GoogleDataformRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleDataformRepository to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_dataform_repository", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_dataform_repository", importId: importFromId, provider });
       }
 
   // ===========
@@ -827,7 +827,7 @@ export class GoogleDataformRepository extends cdktf.TerraformResource {
   }
 
   // effective_labels - computed: true, optional: false, required: false
-  private _effectiveLabels = new cdktf.StringMap(this, "effective_labels");
+  private _effectiveLabels = new cdktn.StringMap(this, "effective_labels");
   public get effectiveLabels() {
     return this._effectiveLabels;
   }
@@ -958,7 +958,7 @@ export class GoogleDataformRepository extends cdktf.TerraformResource {
   }
 
   // terraform_labels - computed: true, optional: false, required: false
-  private _terraformLabels = new cdktf.StringMap(this, "terraform_labels");
+  private _terraformLabels = new cdktn.StringMap(this, "terraform_labels");
   public get terraformLabels() {
     return this._terraformLabels;
   }
@@ -1017,16 +1017,16 @@ export class GoogleDataformRepository extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      deletion_policy: cdktf.stringToTerraform(this._deletionPolicy),
-      display_name: cdktf.stringToTerraform(this._displayName),
-      id: cdktf.stringToTerraform(this._id),
-      kms_key_name: cdktf.stringToTerraform(this._kmsKeyName),
-      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
-      name: cdktf.stringToTerraform(this._name),
-      npmrc_environment_variables_secret_version: cdktf.stringToTerraform(this._npmrcEnvironmentVariablesSecretVersion),
-      project: cdktf.stringToTerraform(this._project),
-      region: cdktf.stringToTerraform(this._region),
-      service_account: cdktf.stringToTerraform(this._serviceAccount),
+      deletion_policy: cdktn.stringToTerraform(this._deletionPolicy),
+      display_name: cdktn.stringToTerraform(this._displayName),
+      id: cdktn.stringToTerraform(this._id),
+      kms_key_name: cdktn.stringToTerraform(this._kmsKeyName),
+      labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
+      name: cdktn.stringToTerraform(this._name),
+      npmrc_environment_variables_secret_version: cdktn.stringToTerraform(this._npmrcEnvironmentVariablesSecretVersion),
+      project: cdktn.stringToTerraform(this._project),
+      region: cdktn.stringToTerraform(this._region),
+      service_account: cdktn.stringToTerraform(this._serviceAccount),
       git_remote_settings: googleDataformRepositoryGitRemoteSettingsToTerraform(this._gitRemoteSettings.internalValue),
       timeouts: googleDataformRepositoryTimeoutsToTerraform(this._timeouts.internalValue),
       workspace_compilation_overrides: googleDataformRepositoryWorkspaceCompilationOverridesToTerraform(this._workspaceCompilationOverrides.internalValue),
@@ -1036,61 +1036,61 @@ export class GoogleDataformRepository extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       deletion_policy: {
-        value: cdktf.stringToHclTerraform(this._deletionPolicy),
+        value: cdktn.stringToHclTerraform(this._deletionPolicy),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       display_name: {
-        value: cdktf.stringToHclTerraform(this._displayName),
+        value: cdktn.stringToHclTerraform(this._displayName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       kms_key_name: {
-        value: cdktf.stringToHclTerraform(this._kmsKeyName),
+        value: cdktn.stringToHclTerraform(this._kmsKeyName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._labels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       npmrc_environment_variables_secret_version: {
-        value: cdktf.stringToHclTerraform(this._npmrcEnvironmentVariablesSecretVersion),
+        value: cdktn.stringToHclTerraform(this._npmrcEnvironmentVariablesSecretVersion),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       region: {
-        value: cdktf.stringToHclTerraform(this._region),
+        value: cdktn.stringToHclTerraform(this._region),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       service_account: {
-        value: cdktf.stringToHclTerraform(this._serviceAccount),
+        value: cdktn.stringToHclTerraform(this._serviceAccount),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

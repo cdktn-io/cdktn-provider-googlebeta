@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleSpannerDatabaseConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleSpannerDatabaseConfig extends cdktn.TerraformMetaArguments {
   /**
   * The dialect of the Cloud Spanner Database.
   * If it is not provided, "GOOGLE_STANDARD_SQL" will be used. Possible values: ["GOOGLE_STANDARD_SQL", "POSTGRESQL"]
@@ -51,7 +51,7 @@ export interface GoogleSpannerDatabaseConfig extends cdktf.TerraformMetaArgument
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_database#deletion_protection GoogleSpannerDatabase#deletion_protection}
   */
-  readonly deletionProtection?: boolean | cdktf.IResolvable;
+  readonly deletionProtection?: boolean | cdktn.IResolvable;
   /**
   * Whether drop protection is enabled for this database. Defaults to false.
   * Drop protection is different from
@@ -63,7 +63,7 @@ export interface GoogleSpannerDatabaseConfig extends cdktf.TerraformMetaArgument
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_database#enable_drop_protection GoogleSpannerDatabase#enable_drop_protection}
   */
-  readonly enableDropProtection?: boolean | cdktf.IResolvable;
+  readonly enableDropProtection?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_database#id GoogleSpannerDatabase#id}
   *
@@ -129,31 +129,31 @@ export interface GoogleSpannerDatabaseEncryptionConfig {
 }
 
 export function googleSpannerDatabaseEncryptionConfigToTerraform(struct?: GoogleSpannerDatabaseEncryptionConfigOutputReference | GoogleSpannerDatabaseEncryptionConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    kms_key_name: cdktf.stringToTerraform(struct!.kmsKeyName),
-    kms_key_names: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.kmsKeyNames),
+    kms_key_name: cdktn.stringToTerraform(struct!.kmsKeyName),
+    kms_key_names: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.kmsKeyNames),
   }
 }
 
 
 export function googleSpannerDatabaseEncryptionConfigToHclTerraform(struct?: GoogleSpannerDatabaseEncryptionConfigOutputReference | GoogleSpannerDatabaseEncryptionConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     kms_key_name: {
-      value: cdktf.stringToHclTerraform(struct!.kmsKeyName),
+      value: cdktn.stringToHclTerraform(struct!.kmsKeyName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     kms_key_names: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.kmsKeyNames),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.kmsKeyNames),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -164,14 +164,14 @@ export function googleSpannerDatabaseEncryptionConfigToHclTerraform(struct?: Goo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleSpannerDatabaseEncryptionConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleSpannerDatabaseEncryptionConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -249,39 +249,39 @@ export interface GoogleSpannerDatabaseTimeouts {
   readonly update?: string;
 }
 
-export function googleSpannerDatabaseTimeoutsToTerraform(struct?: GoogleSpannerDatabaseTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleSpannerDatabaseTimeoutsToTerraform(struct?: GoogleSpannerDatabaseTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleSpannerDatabaseTimeoutsToHclTerraform(struct?: GoogleSpannerDatabaseTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleSpannerDatabaseTimeoutsToHclTerraform(struct?: GoogleSpannerDatabaseTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -292,19 +292,19 @@ export function googleSpannerDatabaseTimeoutsToHclTerraform(struct?: GoogleSpann
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleSpannerDatabaseTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleSpannerDatabaseTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleSpannerDatabaseTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleSpannerDatabaseTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -325,7 +325,7 @@ export class GoogleSpannerDatabaseTimeoutsOutputReference extends cdktf.ComplexO
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleSpannerDatabaseTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleSpannerDatabaseTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -333,7 +333,7 @@ export class GoogleSpannerDatabaseTimeoutsOutputReference extends cdktf.ComplexO
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -398,7 +398,7 @@ export class GoogleSpannerDatabaseTimeoutsOutputReference extends cdktf.ComplexO
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_database google_spanner_database}
 */
-export class GoogleSpannerDatabase extends cdktf.TerraformResource {
+export class GoogleSpannerDatabase extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -409,14 +409,14 @@ export class GoogleSpannerDatabase extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleSpannerDatabase resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleSpannerDatabase resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleSpannerDatabase to import
   * @param importFromId The id of the existing GoogleSpannerDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_database#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleSpannerDatabase to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_spanner_database", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_spanner_database", importId: importFromId, provider });
       }
 
   // ===========
@@ -513,11 +513,11 @@ export class GoogleSpannerDatabase extends cdktf.TerraformResource {
   }
 
   // deletion_protection - computed: false, optional: true, required: false
-  private _deletionProtection?: boolean | cdktf.IResolvable; 
+  private _deletionProtection?: boolean | cdktn.IResolvable; 
   public get deletionProtection() {
     return this.getBooleanAttribute('deletion_protection');
   }
-  public set deletionProtection(value: boolean | cdktf.IResolvable) {
+  public set deletionProtection(value: boolean | cdktn.IResolvable) {
     this._deletionProtection = value;
   }
   public resetDeletionProtection() {
@@ -529,11 +529,11 @@ export class GoogleSpannerDatabase extends cdktf.TerraformResource {
   }
 
   // enable_drop_protection - computed: false, optional: true, required: false
-  private _enableDropProtection?: boolean | cdktf.IResolvable; 
+  private _enableDropProtection?: boolean | cdktn.IResolvable; 
   public get enableDropProtection() {
     return this.getBooleanAttribute('enable_drop_protection');
   }
-  public set enableDropProtection(value: boolean | cdktf.IResolvable) {
+  public set enableDropProtection(value: boolean | cdktn.IResolvable) {
     this._enableDropProtection = value;
   }
   public resetEnableDropProtection() {
@@ -661,16 +661,16 @@ export class GoogleSpannerDatabase extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      database_dialect: cdktf.stringToTerraform(this._databaseDialect),
-      ddl: cdktf.listMapper(cdktf.stringToTerraform, false)(this._ddl),
-      default_time_zone: cdktf.stringToTerraform(this._defaultTimeZone),
-      deletion_protection: cdktf.booleanToTerraform(this._deletionProtection),
-      enable_drop_protection: cdktf.booleanToTerraform(this._enableDropProtection),
-      id: cdktf.stringToTerraform(this._id),
-      instance: cdktf.stringToTerraform(this._instance),
-      name: cdktf.stringToTerraform(this._name),
-      project: cdktf.stringToTerraform(this._project),
-      version_retention_period: cdktf.stringToTerraform(this._versionRetentionPeriod),
+      database_dialect: cdktn.stringToTerraform(this._databaseDialect),
+      ddl: cdktn.listMapper(cdktn.stringToTerraform, false)(this._ddl),
+      default_time_zone: cdktn.stringToTerraform(this._defaultTimeZone),
+      deletion_protection: cdktn.booleanToTerraform(this._deletionProtection),
+      enable_drop_protection: cdktn.booleanToTerraform(this._enableDropProtection),
+      id: cdktn.stringToTerraform(this._id),
+      instance: cdktn.stringToTerraform(this._instance),
+      name: cdktn.stringToTerraform(this._name),
+      project: cdktn.stringToTerraform(this._project),
+      version_retention_period: cdktn.stringToTerraform(this._versionRetentionPeriod),
       encryption_config: googleSpannerDatabaseEncryptionConfigToTerraform(this._encryptionConfig.internalValue),
       timeouts: googleSpannerDatabaseTimeoutsToTerraform(this._timeouts.internalValue),
     };
@@ -679,61 +679,61 @@ export class GoogleSpannerDatabase extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       database_dialect: {
-        value: cdktf.stringToHclTerraform(this._databaseDialect),
+        value: cdktn.stringToHclTerraform(this._databaseDialect),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       ddl: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._ddl),
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._ddl),
         isBlock: false,
         type: "list",
         storageClassType: "stringList",
       },
       default_time_zone: {
-        value: cdktf.stringToHclTerraform(this._defaultTimeZone),
+        value: cdktn.stringToHclTerraform(this._defaultTimeZone),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       deletion_protection: {
-        value: cdktf.booleanToHclTerraform(this._deletionProtection),
+        value: cdktn.booleanToHclTerraform(this._deletionProtection),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       enable_drop_protection: {
-        value: cdktf.booleanToHclTerraform(this._enableDropProtection),
+        value: cdktn.booleanToHclTerraform(this._enableDropProtection),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       instance: {
-        value: cdktf.stringToHclTerraform(this._instance),
+        value: cdktn.stringToHclTerraform(this._instance),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       version_retention_period: {
-        value: cdktf.stringToHclTerraform(this._versionRetentionPeriod),
+        value: cdktn.stringToHclTerraform(this._versionRetentionPeriod),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

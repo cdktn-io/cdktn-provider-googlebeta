@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleAppEngineDomainMappingConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleAppEngineDomainMappingConfig extends cdktn.TerraformMetaArguments {
   /**
   * Relative name of the domain serving the application. Example: example.com.
   *
@@ -53,8 +53,8 @@ export interface GoogleAppEngineDomainMappingResourceRecords {
 }
 
 export function googleAppEngineDomainMappingResourceRecordsToTerraform(struct?: GoogleAppEngineDomainMappingResourceRecords): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -63,8 +63,8 @@ export function googleAppEngineDomainMappingResourceRecordsToTerraform(struct?: 
 
 
 export function googleAppEngineDomainMappingResourceRecordsToHclTerraform(struct?: GoogleAppEngineDomainMappingResourceRecords): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -72,7 +72,7 @@ export function googleAppEngineDomainMappingResourceRecordsToHclTerraform(struct
   return attrs;
 }
 
-export class GoogleAppEngineDomainMappingResourceRecordsOutputReference extends cdktf.ComplexObject {
+export class GoogleAppEngineDomainMappingResourceRecordsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -81,7 +81,7 @@ export class GoogleAppEngineDomainMappingResourceRecordsOutputReference extends 
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -116,14 +116,14 @@ export class GoogleAppEngineDomainMappingResourceRecordsOutputReference extends 
   }
 }
 
-export class GoogleAppEngineDomainMappingResourceRecordsList extends cdktf.ComplexList {
+export class GoogleAppEngineDomainMappingResourceRecordsList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -156,31 +156,31 @@ export interface GoogleAppEngineDomainMappingSslSettings {
 }
 
 export function googleAppEngineDomainMappingSslSettingsToTerraform(struct?: GoogleAppEngineDomainMappingSslSettingsOutputReference | GoogleAppEngineDomainMappingSslSettings): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    certificate_id: cdktf.stringToTerraform(struct!.certificateId),
-    ssl_management_type: cdktf.stringToTerraform(struct!.sslManagementType),
+    certificate_id: cdktn.stringToTerraform(struct!.certificateId),
+    ssl_management_type: cdktn.stringToTerraform(struct!.sslManagementType),
   }
 }
 
 
 export function googleAppEngineDomainMappingSslSettingsToHclTerraform(struct?: GoogleAppEngineDomainMappingSslSettingsOutputReference | GoogleAppEngineDomainMappingSslSettings): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     certificate_id: {
-      value: cdktf.stringToHclTerraform(struct!.certificateId),
+      value: cdktn.stringToHclTerraform(struct!.certificateId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     ssl_management_type: {
-      value: cdktf.stringToHclTerraform(struct!.sslManagementType),
+      value: cdktn.stringToHclTerraform(struct!.sslManagementType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -191,14 +191,14 @@ export function googleAppEngineDomainMappingSslSettingsToHclTerraform(struct?: G
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleAppEngineDomainMappingSslSettingsOutputReference extends cdktf.ComplexObject {
+export class GoogleAppEngineDomainMappingSslSettingsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -278,39 +278,39 @@ export interface GoogleAppEngineDomainMappingTimeouts {
   readonly update?: string;
 }
 
-export function googleAppEngineDomainMappingTimeoutsToTerraform(struct?: GoogleAppEngineDomainMappingTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleAppEngineDomainMappingTimeoutsToTerraform(struct?: GoogleAppEngineDomainMappingTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleAppEngineDomainMappingTimeoutsToHclTerraform(struct?: GoogleAppEngineDomainMappingTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleAppEngineDomainMappingTimeoutsToHclTerraform(struct?: GoogleAppEngineDomainMappingTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -321,19 +321,19 @@ export function googleAppEngineDomainMappingTimeoutsToHclTerraform(struct?: Goog
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleAppEngineDomainMappingTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleAppEngineDomainMappingTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleAppEngineDomainMappingTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleAppEngineDomainMappingTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -354,7 +354,7 @@ export class GoogleAppEngineDomainMappingTimeoutsOutputReference extends cdktf.C
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleAppEngineDomainMappingTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleAppEngineDomainMappingTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -362,7 +362,7 @@ export class GoogleAppEngineDomainMappingTimeoutsOutputReference extends cdktf.C
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -427,7 +427,7 @@ export class GoogleAppEngineDomainMappingTimeoutsOutputReference extends cdktf.C
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_app_engine_domain_mapping google_app_engine_domain_mapping}
 */
-export class GoogleAppEngineDomainMapping extends cdktf.TerraformResource {
+export class GoogleAppEngineDomainMapping extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -438,14 +438,14 @@ export class GoogleAppEngineDomainMapping extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleAppEngineDomainMapping resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleAppEngineDomainMapping resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleAppEngineDomainMapping to import
   * @param importFromId The id of the existing GoogleAppEngineDomainMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_app_engine_domain_mapping#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleAppEngineDomainMapping to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_app_engine_domain_mapping", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_app_engine_domain_mapping", importId: importFromId, provider });
       }
 
   // ===========
@@ -597,10 +597,10 @@ export class GoogleAppEngineDomainMapping extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      domain_name: cdktf.stringToTerraform(this._domainName),
-      id: cdktf.stringToTerraform(this._id),
-      override_strategy: cdktf.stringToTerraform(this._overrideStrategy),
-      project: cdktf.stringToTerraform(this._project),
+      domain_name: cdktn.stringToTerraform(this._domainName),
+      id: cdktn.stringToTerraform(this._id),
+      override_strategy: cdktn.stringToTerraform(this._overrideStrategy),
+      project: cdktn.stringToTerraform(this._project),
       ssl_settings: googleAppEngineDomainMappingSslSettingsToTerraform(this._sslSettings.internalValue),
       timeouts: googleAppEngineDomainMappingTimeoutsToTerraform(this._timeouts.internalValue),
     };
@@ -609,25 +609,25 @@ export class GoogleAppEngineDomainMapping extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       domain_name: {
-        value: cdktf.stringToHclTerraform(this._domainName),
+        value: cdktn.stringToHclTerraform(this._domainName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       override_strategy: {
-        value: cdktf.stringToHclTerraform(this._overrideStrategy),
+        value: cdktn.stringToHclTerraform(this._overrideStrategy),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

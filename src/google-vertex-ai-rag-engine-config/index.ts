@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleVertexAiRagEngineConfigConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleVertexAiRagEngineConfigConfig extends cdktn.TerraformMetaArguments {
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_rag_engine_config#id GoogleVertexAiRagEngineConfig#id}
   *
@@ -46,8 +46,8 @@ export interface GoogleVertexAiRagEngineConfigRagManagedDbConfigBasic {
 }
 
 export function googleVertexAiRagEngineConfigRagManagedDbConfigBasicToTerraform(struct?: GoogleVertexAiRagEngineConfigRagManagedDbConfigBasicOutputReference | GoogleVertexAiRagEngineConfigRagManagedDbConfigBasic): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -56,8 +56,8 @@ export function googleVertexAiRagEngineConfigRagManagedDbConfigBasicToTerraform(
 
 
 export function googleVertexAiRagEngineConfigRagManagedDbConfigBasicToHclTerraform(struct?: GoogleVertexAiRagEngineConfigRagManagedDbConfigBasicOutputReference | GoogleVertexAiRagEngineConfigRagManagedDbConfigBasic): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -65,14 +65,14 @@ export function googleVertexAiRagEngineConfigRagManagedDbConfigBasicToHclTerrafo
   return attrs;
 }
 
-export class GoogleVertexAiRagEngineConfigRagManagedDbConfigBasicOutputReference extends cdktf.ComplexObject {
+export class GoogleVertexAiRagEngineConfigRagManagedDbConfigBasicOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -95,8 +95,8 @@ export interface GoogleVertexAiRagEngineConfigRagManagedDbConfigScaled {
 }
 
 export function googleVertexAiRagEngineConfigRagManagedDbConfigScaledToTerraform(struct?: GoogleVertexAiRagEngineConfigRagManagedDbConfigScaledOutputReference | GoogleVertexAiRagEngineConfigRagManagedDbConfigScaled): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -105,8 +105,8 @@ export function googleVertexAiRagEngineConfigRagManagedDbConfigScaledToTerraform
 
 
 export function googleVertexAiRagEngineConfigRagManagedDbConfigScaledToHclTerraform(struct?: GoogleVertexAiRagEngineConfigRagManagedDbConfigScaledOutputReference | GoogleVertexAiRagEngineConfigRagManagedDbConfigScaled): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -114,14 +114,14 @@ export function googleVertexAiRagEngineConfigRagManagedDbConfigScaledToHclTerraf
   return attrs;
 }
 
-export class GoogleVertexAiRagEngineConfigRagManagedDbConfigScaledOutputReference extends cdktf.ComplexObject {
+export class GoogleVertexAiRagEngineConfigRagManagedDbConfigScaledOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -144,8 +144,8 @@ export interface GoogleVertexAiRagEngineConfigRagManagedDbConfigUnprovisioned {
 }
 
 export function googleVertexAiRagEngineConfigRagManagedDbConfigUnprovisionedToTerraform(struct?: GoogleVertexAiRagEngineConfigRagManagedDbConfigUnprovisionedOutputReference | GoogleVertexAiRagEngineConfigRagManagedDbConfigUnprovisioned): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -154,8 +154,8 @@ export function googleVertexAiRagEngineConfigRagManagedDbConfigUnprovisionedToTe
 
 
 export function googleVertexAiRagEngineConfigRagManagedDbConfigUnprovisionedToHclTerraform(struct?: GoogleVertexAiRagEngineConfigRagManagedDbConfigUnprovisionedOutputReference | GoogleVertexAiRagEngineConfigRagManagedDbConfigUnprovisioned): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -163,14 +163,14 @@ export function googleVertexAiRagEngineConfigRagManagedDbConfigUnprovisionedToHc
   return attrs;
 }
 
-export class GoogleVertexAiRagEngineConfigRagManagedDbConfigUnprovisionedOutputReference extends cdktf.ComplexObject {
+export class GoogleVertexAiRagEngineConfigRagManagedDbConfigUnprovisionedOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -211,8 +211,8 @@ export interface GoogleVertexAiRagEngineConfigRagManagedDbConfig {
 }
 
 export function googleVertexAiRagEngineConfigRagManagedDbConfigToTerraform(struct?: GoogleVertexAiRagEngineConfigRagManagedDbConfigOutputReference | GoogleVertexAiRagEngineConfigRagManagedDbConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -224,8 +224,8 @@ export function googleVertexAiRagEngineConfigRagManagedDbConfigToTerraform(struc
 
 
 export function googleVertexAiRagEngineConfigRagManagedDbConfigToHclTerraform(struct?: GoogleVertexAiRagEngineConfigRagManagedDbConfigOutputReference | GoogleVertexAiRagEngineConfigRagManagedDbConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -253,14 +253,14 @@ export function googleVertexAiRagEngineConfigRagManagedDbConfigToHclTerraform(st
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleVertexAiRagEngineConfigRagManagedDbConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleVertexAiRagEngineConfigRagManagedDbConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -360,39 +360,39 @@ export interface GoogleVertexAiRagEngineConfigTimeouts {
   readonly update?: string;
 }
 
-export function googleVertexAiRagEngineConfigTimeoutsToTerraform(struct?: GoogleVertexAiRagEngineConfigTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleVertexAiRagEngineConfigTimeoutsToTerraform(struct?: GoogleVertexAiRagEngineConfigTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleVertexAiRagEngineConfigTimeoutsToHclTerraform(struct?: GoogleVertexAiRagEngineConfigTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleVertexAiRagEngineConfigTimeoutsToHclTerraform(struct?: GoogleVertexAiRagEngineConfigTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -403,19 +403,19 @@ export function googleVertexAiRagEngineConfigTimeoutsToHclTerraform(struct?: Goo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleVertexAiRagEngineConfigTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleVertexAiRagEngineConfigTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleVertexAiRagEngineConfigTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleVertexAiRagEngineConfigTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -436,7 +436,7 @@ export class GoogleVertexAiRagEngineConfigTimeoutsOutputReference extends cdktf.
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleVertexAiRagEngineConfigTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleVertexAiRagEngineConfigTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -444,7 +444,7 @@ export class GoogleVertexAiRagEngineConfigTimeoutsOutputReference extends cdktf.
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -509,7 +509,7 @@ export class GoogleVertexAiRagEngineConfigTimeoutsOutputReference extends cdktf.
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_rag_engine_config google_vertex_ai_rag_engine_config}
 */
-export class GoogleVertexAiRagEngineConfig extends cdktf.TerraformResource {
+export class GoogleVertexAiRagEngineConfig extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -520,14 +520,14 @@ export class GoogleVertexAiRagEngineConfig extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleVertexAiRagEngineConfig resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleVertexAiRagEngineConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleVertexAiRagEngineConfig to import
   * @param importFromId The id of the existing GoogleVertexAiRagEngineConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_rag_engine_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleVertexAiRagEngineConfig to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_vertex_ai_rag_engine_config", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_vertex_ai_rag_engine_config", importId: importFromId, provider });
       }
 
   // ===========
@@ -656,9 +656,9 @@ export class GoogleVertexAiRagEngineConfig extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      id: cdktf.stringToTerraform(this._id),
-      project: cdktf.stringToTerraform(this._project),
-      region: cdktf.stringToTerraform(this._region),
+      id: cdktn.stringToTerraform(this._id),
+      project: cdktn.stringToTerraform(this._project),
+      region: cdktn.stringToTerraform(this._region),
       rag_managed_db_config: googleVertexAiRagEngineConfigRagManagedDbConfigToTerraform(this._ragManagedDbConfig.internalValue),
       timeouts: googleVertexAiRagEngineConfigTimeoutsToTerraform(this._timeouts.internalValue),
     };
@@ -667,19 +667,19 @@ export class GoogleVertexAiRagEngineConfig extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       region: {
-        value: cdktf.stringToHclTerraform(this._region),
+        value: cdktn.stringToHclTerraform(this._region),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

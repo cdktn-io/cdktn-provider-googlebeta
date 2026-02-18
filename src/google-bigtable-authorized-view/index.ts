@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleBigtableAuthorizedViewConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleBigtableAuthorizedViewConfig extends cdktn.TerraformMetaArguments {
   /**
   * A field to make the authorized view protected against data loss i.e. when set to PROTECTED, deleting the authorized view, the table containing the authorized view, and the instance containing the authorized view would be prohibited.
   * If not provided, currently deletion protection will be set to UNPROTECTED as it is the API default value. Note this field configs the deletion protection provided by the API in the backend, and should not be confused with Terraform-side deletion protection.
@@ -84,39 +84,39 @@ export interface GoogleBigtableAuthorizedViewSubsetViewFamilySubsets {
   readonly qualifiers?: string[];
 }
 
-export function googleBigtableAuthorizedViewSubsetViewFamilySubsetsToTerraform(struct?: GoogleBigtableAuthorizedViewSubsetViewFamilySubsets | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleBigtableAuthorizedViewSubsetViewFamilySubsetsToTerraform(struct?: GoogleBigtableAuthorizedViewSubsetViewFamilySubsets | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    family_name: cdktf.stringToTerraform(struct!.familyName),
-    qualifier_prefixes: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.qualifierPrefixes),
-    qualifiers: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.qualifiers),
+    family_name: cdktn.stringToTerraform(struct!.familyName),
+    qualifier_prefixes: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.qualifierPrefixes),
+    qualifiers: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.qualifiers),
   }
 }
 
 
-export function googleBigtableAuthorizedViewSubsetViewFamilySubsetsToHclTerraform(struct?: GoogleBigtableAuthorizedViewSubsetViewFamilySubsets | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleBigtableAuthorizedViewSubsetViewFamilySubsetsToHclTerraform(struct?: GoogleBigtableAuthorizedViewSubsetViewFamilySubsets | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     family_name: {
-      value: cdktf.stringToHclTerraform(struct!.familyName),
+      value: cdktn.stringToHclTerraform(struct!.familyName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     qualifier_prefixes: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.qualifierPrefixes),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.qualifierPrefixes),
       isBlock: false,
       type: "set",
       storageClassType: "stringList",
     },
     qualifiers: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.qualifiers),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.qualifiers),
       isBlock: false,
       type: "set",
       storageClassType: "stringList",
@@ -127,9 +127,9 @@ export function googleBigtableAuthorizedViewSubsetViewFamilySubsetsToHclTerrafor
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleBigtableAuthorizedViewSubsetViewFamilySubsetsOutputReference extends cdktf.ComplexObject {
+export class GoogleBigtableAuthorizedViewSubsetViewFamilySubsetsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -137,11 +137,11 @@ export class GoogleBigtableAuthorizedViewSubsetViewFamilySubsetsOutputReference 
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleBigtableAuthorizedViewSubsetViewFamilySubsets | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleBigtableAuthorizedViewSubsetViewFamilySubsets | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -162,7 +162,7 @@ export class GoogleBigtableAuthorizedViewSubsetViewFamilySubsetsOutputReference 
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleBigtableAuthorizedViewSubsetViewFamilySubsets | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleBigtableAuthorizedViewSubsetViewFamilySubsets | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -170,7 +170,7 @@ export class GoogleBigtableAuthorizedViewSubsetViewFamilySubsetsOutputReference 
       this._qualifierPrefixes = undefined;
       this._qualifiers = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -199,7 +199,7 @@ export class GoogleBigtableAuthorizedViewSubsetViewFamilySubsetsOutputReference 
   // qualifier_prefixes - computed: false, optional: true, required: false
   private _qualifierPrefixes?: string[]; 
   public get qualifierPrefixes() {
-    return cdktf.Fn.tolist(this.getListAttribute('qualifier_prefixes'));
+    return cdktn.Fn.tolist(this.getListAttribute('qualifier_prefixes'));
   }
   public set qualifierPrefixes(value: string[]) {
     this._qualifierPrefixes = value;
@@ -215,7 +215,7 @@ export class GoogleBigtableAuthorizedViewSubsetViewFamilySubsetsOutputReference 
   // qualifiers - computed: false, optional: true, required: false
   private _qualifiers?: string[]; 
   public get qualifiers() {
-    return cdktf.Fn.tolist(this.getListAttribute('qualifiers'));
+    return cdktn.Fn.tolist(this.getListAttribute('qualifiers'));
   }
   public set qualifiers(value: string[]) {
     this._qualifiers = value;
@@ -229,15 +229,15 @@ export class GoogleBigtableAuthorizedViewSubsetViewFamilySubsetsOutputReference 
   }
 }
 
-export class GoogleBigtableAuthorizedViewSubsetViewFamilySubsetsList extends cdktf.ComplexList {
-  public internalValue? : GoogleBigtableAuthorizedViewSubsetViewFamilySubsets[] | cdktf.IResolvable
+export class GoogleBigtableAuthorizedViewSubsetViewFamilySubsetsList extends cdktn.ComplexList {
+  public internalValue? : GoogleBigtableAuthorizedViewSubsetViewFamilySubsets[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -260,35 +260,35 @@ export interface GoogleBigtableAuthorizedViewSubsetView {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_authorized_view#family_subsets GoogleBigtableAuthorizedView#family_subsets}
   */
-  readonly familySubsets?: GoogleBigtableAuthorizedViewSubsetViewFamilySubsets[] | cdktf.IResolvable;
+  readonly familySubsets?: GoogleBigtableAuthorizedViewSubsetViewFamilySubsets[] | cdktn.IResolvable;
 }
 
 export function googleBigtableAuthorizedViewSubsetViewToTerraform(struct?: GoogleBigtableAuthorizedViewSubsetViewOutputReference | GoogleBigtableAuthorizedViewSubsetView): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    row_prefixes: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.rowPrefixes),
-    family_subsets: cdktf.listMapper(googleBigtableAuthorizedViewSubsetViewFamilySubsetsToTerraform, true)(struct!.familySubsets),
+    row_prefixes: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.rowPrefixes),
+    family_subsets: cdktn.listMapper(googleBigtableAuthorizedViewSubsetViewFamilySubsetsToTerraform, true)(struct!.familySubsets),
   }
 }
 
 
 export function googleBigtableAuthorizedViewSubsetViewToHclTerraform(struct?: GoogleBigtableAuthorizedViewSubsetViewOutputReference | GoogleBigtableAuthorizedViewSubsetView): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     row_prefixes: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.rowPrefixes),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.rowPrefixes),
       isBlock: false,
       type: "set",
       storageClassType: "stringList",
     },
     family_subsets: {
-      value: cdktf.listMapperHcl(googleBigtableAuthorizedViewSubsetViewFamilySubsetsToHclTerraform, true)(struct!.familySubsets),
+      value: cdktn.listMapperHcl(googleBigtableAuthorizedViewSubsetViewFamilySubsetsToHclTerraform, true)(struct!.familySubsets),
       isBlock: true,
       type: "set",
       storageClassType: "GoogleBigtableAuthorizedViewSubsetViewFamilySubsetsList",
@@ -299,14 +299,14 @@ export function googleBigtableAuthorizedViewSubsetViewToHclTerraform(struct?: Go
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleBigtableAuthorizedViewSubsetViewOutputReference extends cdktf.ComplexObject {
+export class GoogleBigtableAuthorizedViewSubsetViewOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -340,7 +340,7 @@ export class GoogleBigtableAuthorizedViewSubsetViewOutputReference extends cdktf
   // row_prefixes - computed: false, optional: true, required: false
   private _rowPrefixes?: string[]; 
   public get rowPrefixes() {
-    return cdktf.Fn.tolist(this.getListAttribute('row_prefixes'));
+    return cdktn.Fn.tolist(this.getListAttribute('row_prefixes'));
   }
   public set rowPrefixes(value: string[]) {
     this._rowPrefixes = value;
@@ -358,7 +358,7 @@ export class GoogleBigtableAuthorizedViewSubsetViewOutputReference extends cdktf
   public get familySubsets() {
     return this._familySubsets;
   }
-  public putFamilySubsets(value: GoogleBigtableAuthorizedViewSubsetViewFamilySubsets[] | cdktf.IResolvable) {
+  public putFamilySubsets(value: GoogleBigtableAuthorizedViewSubsetViewFamilySubsets[] | cdktn.IResolvable) {
     this._familySubsets.internalValue = value;
   }
   public resetFamilySubsets() {
@@ -380,32 +380,32 @@ export interface GoogleBigtableAuthorizedViewTimeouts {
   readonly update?: string;
 }
 
-export function googleBigtableAuthorizedViewTimeoutsToTerraform(struct?: GoogleBigtableAuthorizedViewTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleBigtableAuthorizedViewTimeoutsToTerraform(struct?: GoogleBigtableAuthorizedViewTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleBigtableAuthorizedViewTimeoutsToHclTerraform(struct?: GoogleBigtableAuthorizedViewTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleBigtableAuthorizedViewTimeoutsToHclTerraform(struct?: GoogleBigtableAuthorizedViewTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -416,19 +416,19 @@ export function googleBigtableAuthorizedViewTimeoutsToHclTerraform(struct?: Goog
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleBigtableAuthorizedViewTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleBigtableAuthorizedViewTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleBigtableAuthorizedViewTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleBigtableAuthorizedViewTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -445,14 +445,14 @@ export class GoogleBigtableAuthorizedViewTimeoutsOutputReference extends cdktf.C
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleBigtableAuthorizedViewTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleBigtableAuthorizedViewTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._create = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -500,7 +500,7 @@ export class GoogleBigtableAuthorizedViewTimeoutsOutputReference extends cdktf.C
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_authorized_view google_bigtable_authorized_view}
 */
-export class GoogleBigtableAuthorizedView extends cdktf.TerraformResource {
+export class GoogleBigtableAuthorizedView extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -511,14 +511,14 @@ export class GoogleBigtableAuthorizedView extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleBigtableAuthorizedView resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleBigtableAuthorizedView resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleBigtableAuthorizedView to import
   * @param importFromId The id of the existing GoogleBigtableAuthorizedView that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_authorized_view#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleBigtableAuthorizedView to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_bigtable_authorized_view", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_bigtable_authorized_view", importId: importFromId, provider });
       }
 
   // ===========
@@ -687,12 +687,12 @@ export class GoogleBigtableAuthorizedView extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      deletion_protection: cdktf.stringToTerraform(this._deletionProtection),
-      id: cdktf.stringToTerraform(this._id),
-      instance_name: cdktf.stringToTerraform(this._instanceName),
-      name: cdktf.stringToTerraform(this._name),
-      project: cdktf.stringToTerraform(this._project),
-      table_name: cdktf.stringToTerraform(this._tableName),
+      deletion_protection: cdktn.stringToTerraform(this._deletionProtection),
+      id: cdktn.stringToTerraform(this._id),
+      instance_name: cdktn.stringToTerraform(this._instanceName),
+      name: cdktn.stringToTerraform(this._name),
+      project: cdktn.stringToTerraform(this._project),
+      table_name: cdktn.stringToTerraform(this._tableName),
       subset_view: googleBigtableAuthorizedViewSubsetViewToTerraform(this._subsetView.internalValue),
       timeouts: googleBigtableAuthorizedViewTimeoutsToTerraform(this._timeouts.internalValue),
     };
@@ -701,37 +701,37 @@ export class GoogleBigtableAuthorizedView extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       deletion_protection: {
-        value: cdktf.stringToHclTerraform(this._deletionProtection),
+        value: cdktn.stringToHclTerraform(this._deletionProtection),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       instance_name: {
-        value: cdktf.stringToHclTerraform(this._instanceName),
+        value: cdktn.stringToHclTerraform(this._instanceName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       table_name: {
-        value: cdktf.stringToHclTerraform(this._tableName),
+        value: cdktn.stringToHclTerraform(this._tableName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

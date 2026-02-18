@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleFirestoreFieldConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleFirestoreFieldConfig extends cdktn.TerraformMetaArguments {
   /**
   * The id of the collection group to configure.
   *
@@ -85,39 +85,39 @@ export interface GoogleFirestoreFieldIndexConfigIndexes {
   readonly queryScope?: string;
 }
 
-export function googleFirestoreFieldIndexConfigIndexesToTerraform(struct?: GoogleFirestoreFieldIndexConfigIndexes | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleFirestoreFieldIndexConfigIndexesToTerraform(struct?: GoogleFirestoreFieldIndexConfigIndexes | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    array_config: cdktf.stringToTerraform(struct!.arrayConfig),
-    order: cdktf.stringToTerraform(struct!.order),
-    query_scope: cdktf.stringToTerraform(struct!.queryScope),
+    array_config: cdktn.stringToTerraform(struct!.arrayConfig),
+    order: cdktn.stringToTerraform(struct!.order),
+    query_scope: cdktn.stringToTerraform(struct!.queryScope),
   }
 }
 
 
-export function googleFirestoreFieldIndexConfigIndexesToHclTerraform(struct?: GoogleFirestoreFieldIndexConfigIndexes | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleFirestoreFieldIndexConfigIndexesToHclTerraform(struct?: GoogleFirestoreFieldIndexConfigIndexes | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     array_config: {
-      value: cdktf.stringToHclTerraform(struct!.arrayConfig),
+      value: cdktn.stringToHclTerraform(struct!.arrayConfig),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     order: {
-      value: cdktf.stringToHclTerraform(struct!.order),
+      value: cdktn.stringToHclTerraform(struct!.order),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     query_scope: {
-      value: cdktf.stringToHclTerraform(struct!.queryScope),
+      value: cdktn.stringToHclTerraform(struct!.queryScope),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -128,9 +128,9 @@ export function googleFirestoreFieldIndexConfigIndexesToHclTerraform(struct?: Go
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleFirestoreFieldIndexConfigIndexesOutputReference extends cdktf.ComplexObject {
+export class GoogleFirestoreFieldIndexConfigIndexesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -138,11 +138,11 @@ export class GoogleFirestoreFieldIndexConfigIndexesOutputReference extends cdktf
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleFirestoreFieldIndexConfigIndexes | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleFirestoreFieldIndexConfigIndexes | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -163,7 +163,7 @@ export class GoogleFirestoreFieldIndexConfigIndexesOutputReference extends cdktf
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleFirestoreFieldIndexConfigIndexes | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleFirestoreFieldIndexConfigIndexes | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -171,7 +171,7 @@ export class GoogleFirestoreFieldIndexConfigIndexesOutputReference extends cdktf
       this._order = undefined;
       this._queryScope = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -233,15 +233,15 @@ export class GoogleFirestoreFieldIndexConfigIndexesOutputReference extends cdktf
   }
 }
 
-export class GoogleFirestoreFieldIndexConfigIndexesList extends cdktf.ComplexList {
-  public internalValue? : GoogleFirestoreFieldIndexConfigIndexes[] | cdktf.IResolvable
+export class GoogleFirestoreFieldIndexConfigIndexesList extends cdktn.ComplexList {
+  public internalValue? : GoogleFirestoreFieldIndexConfigIndexes[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -258,28 +258,28 @@ export interface GoogleFirestoreFieldIndexConfig {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firestore_field#indexes GoogleFirestoreField#indexes}
   */
-  readonly indexes?: GoogleFirestoreFieldIndexConfigIndexes[] | cdktf.IResolvable;
+  readonly indexes?: GoogleFirestoreFieldIndexConfigIndexes[] | cdktn.IResolvable;
 }
 
 export function googleFirestoreFieldIndexConfigToTerraform(struct?: GoogleFirestoreFieldIndexConfigOutputReference | GoogleFirestoreFieldIndexConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    indexes: cdktf.listMapper(googleFirestoreFieldIndexConfigIndexesToTerraform, true)(struct!.indexes),
+    indexes: cdktn.listMapper(googleFirestoreFieldIndexConfigIndexesToTerraform, true)(struct!.indexes),
   }
 }
 
 
 export function googleFirestoreFieldIndexConfigToHclTerraform(struct?: GoogleFirestoreFieldIndexConfigOutputReference | GoogleFirestoreFieldIndexConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     indexes: {
-      value: cdktf.listMapperHcl(googleFirestoreFieldIndexConfigIndexesToHclTerraform, true)(struct!.indexes),
+      value: cdktn.listMapperHcl(googleFirestoreFieldIndexConfigIndexesToHclTerraform, true)(struct!.indexes),
       isBlock: true,
       type: "set",
       storageClassType: "GoogleFirestoreFieldIndexConfigIndexesList",
@@ -290,14 +290,14 @@ export function googleFirestoreFieldIndexConfigToHclTerraform(struct?: GoogleFir
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleFirestoreFieldIndexConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleFirestoreFieldIndexConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -327,7 +327,7 @@ export class GoogleFirestoreFieldIndexConfigOutputReference extends cdktf.Comple
   public get indexes() {
     return this._indexes;
   }
-  public putIndexes(value: GoogleFirestoreFieldIndexConfigIndexes[] | cdktf.IResolvable) {
+  public putIndexes(value: GoogleFirestoreFieldIndexConfigIndexes[] | cdktn.IResolvable) {
     this._indexes.internalValue = value;
   }
   public resetIndexes() {
@@ -353,39 +353,39 @@ export interface GoogleFirestoreFieldTimeouts {
   readonly update?: string;
 }
 
-export function googleFirestoreFieldTimeoutsToTerraform(struct?: GoogleFirestoreFieldTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleFirestoreFieldTimeoutsToTerraform(struct?: GoogleFirestoreFieldTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleFirestoreFieldTimeoutsToHclTerraform(struct?: GoogleFirestoreFieldTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleFirestoreFieldTimeoutsToHclTerraform(struct?: GoogleFirestoreFieldTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -396,19 +396,19 @@ export function googleFirestoreFieldTimeoutsToHclTerraform(struct?: GoogleFirest
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleFirestoreFieldTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleFirestoreFieldTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleFirestoreFieldTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleFirestoreFieldTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -429,7 +429,7 @@ export class GoogleFirestoreFieldTimeoutsOutputReference extends cdktf.ComplexOb
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleFirestoreFieldTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleFirestoreFieldTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -437,7 +437,7 @@ export class GoogleFirestoreFieldTimeoutsOutputReference extends cdktf.ComplexOb
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -502,8 +502,8 @@ export interface GoogleFirestoreFieldTtlConfig {
 }
 
 export function googleFirestoreFieldTtlConfigToTerraform(struct?: GoogleFirestoreFieldTtlConfigOutputReference | GoogleFirestoreFieldTtlConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -512,8 +512,8 @@ export function googleFirestoreFieldTtlConfigToTerraform(struct?: GoogleFirestor
 
 
 export function googleFirestoreFieldTtlConfigToHclTerraform(struct?: GoogleFirestoreFieldTtlConfigOutputReference | GoogleFirestoreFieldTtlConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -521,14 +521,14 @@ export function googleFirestoreFieldTtlConfigToHclTerraform(struct?: GoogleFires
   return attrs;
 }
 
-export class GoogleFirestoreFieldTtlConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleFirestoreFieldTtlConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -556,7 +556,7 @@ export class GoogleFirestoreFieldTtlConfigOutputReference extends cdktf.ComplexO
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firestore_field google_firestore_field}
 */
-export class GoogleFirestoreField extends cdktf.TerraformResource {
+export class GoogleFirestoreField extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -567,14 +567,14 @@ export class GoogleFirestoreField extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleFirestoreField resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleFirestoreField resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleFirestoreField to import
   * @param importFromId The id of the existing GoogleFirestoreField that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firestore_field#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleFirestoreField to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_firestore_field", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_firestore_field", importId: importFromId, provider });
       }
 
   // ===========
@@ -751,11 +751,11 @@ export class GoogleFirestoreField extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      collection: cdktf.stringToTerraform(this._collection),
-      database: cdktf.stringToTerraform(this._database),
-      field: cdktf.stringToTerraform(this._field),
-      id: cdktf.stringToTerraform(this._id),
-      project: cdktf.stringToTerraform(this._project),
+      collection: cdktn.stringToTerraform(this._collection),
+      database: cdktn.stringToTerraform(this._database),
+      field: cdktn.stringToTerraform(this._field),
+      id: cdktn.stringToTerraform(this._id),
+      project: cdktn.stringToTerraform(this._project),
       index_config: googleFirestoreFieldIndexConfigToTerraform(this._indexConfig.internalValue),
       timeouts: googleFirestoreFieldTimeoutsToTerraform(this._timeouts.internalValue),
       ttl_config: googleFirestoreFieldTtlConfigToTerraform(this._ttlConfig.internalValue),
@@ -765,31 +765,31 @@ export class GoogleFirestoreField extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       collection: {
-        value: cdktf.stringToHclTerraform(this._collection),
+        value: cdktn.stringToHclTerraform(this._collection),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       database: {
-        value: cdktf.stringToHclTerraform(this._database),
+        value: cdktn.stringToHclTerraform(this._database),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       field: {
-        value: cdktf.stringToHclTerraform(this._field),
+        value: cdktn.stringToHclTerraform(this._field),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

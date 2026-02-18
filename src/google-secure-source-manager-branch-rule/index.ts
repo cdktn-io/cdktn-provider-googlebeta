@@ -7,17 +7,17 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleSecureSourceManagerBranchRuleConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleSecureSourceManagerBranchRuleConfig extends cdktn.TerraformMetaArguments {
   /**
   * Determines if allow stale reviews or approvals before merging to the branch.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_branch_rule#allow_stale_reviews GoogleSecureSourceManagerBranchRule#allow_stale_reviews}
   */
-  readonly allowStaleReviews?: boolean | cdktf.IResolvable;
+  readonly allowStaleReviews?: boolean | cdktn.IResolvable;
   /**
   * The ID for the BranchRule.
   *
@@ -29,7 +29,7 @@ export interface GoogleSecureSourceManagerBranchRuleConfig extends cdktf.Terrafo
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_branch_rule#disabled GoogleSecureSourceManagerBranchRule#disabled}
   */
-  readonly disabled?: boolean | cdktf.IResolvable;
+  readonly disabled?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_branch_rule#id GoogleSecureSourceManagerBranchRule#id}
   *
@@ -76,19 +76,19 @@ export interface GoogleSecureSourceManagerBranchRuleConfig extends cdktf.Terrafo
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_branch_rule#require_comments_resolved GoogleSecureSourceManagerBranchRule#require_comments_resolved}
   */
-  readonly requireCommentsResolved?: boolean | cdktf.IResolvable;
+  readonly requireCommentsResolved?: boolean | cdktn.IResolvable;
   /**
   * Determines if require linear history before merging to the branch.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_branch_rule#require_linear_history GoogleSecureSourceManagerBranchRule#require_linear_history}
   */
-  readonly requireLinearHistory?: boolean | cdktf.IResolvable;
+  readonly requireLinearHistory?: boolean | cdktn.IResolvable;
   /**
   * Determines if the branch rule requires a pull request or not.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_branch_rule#require_pull_request GoogleSecureSourceManagerBranchRule#require_pull_request}
   */
-  readonly requirePullRequest?: boolean | cdktf.IResolvable;
+  readonly requirePullRequest?: boolean | cdktn.IResolvable;
   /**
   * timeouts block
   *
@@ -111,39 +111,39 @@ export interface GoogleSecureSourceManagerBranchRuleTimeouts {
   readonly update?: string;
 }
 
-export function googleSecureSourceManagerBranchRuleTimeoutsToTerraform(struct?: GoogleSecureSourceManagerBranchRuleTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleSecureSourceManagerBranchRuleTimeoutsToTerraform(struct?: GoogleSecureSourceManagerBranchRuleTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleSecureSourceManagerBranchRuleTimeoutsToHclTerraform(struct?: GoogleSecureSourceManagerBranchRuleTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleSecureSourceManagerBranchRuleTimeoutsToHclTerraform(struct?: GoogleSecureSourceManagerBranchRuleTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -154,19 +154,19 @@ export function googleSecureSourceManagerBranchRuleTimeoutsToHclTerraform(struct
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleSecureSourceManagerBranchRuleTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleSecureSourceManagerBranchRuleTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleSecureSourceManagerBranchRuleTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleSecureSourceManagerBranchRuleTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -187,7 +187,7 @@ export class GoogleSecureSourceManagerBranchRuleTimeoutsOutputReference extends 
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleSecureSourceManagerBranchRuleTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleSecureSourceManagerBranchRuleTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -195,7 +195,7 @@ export class GoogleSecureSourceManagerBranchRuleTimeoutsOutputReference extends 
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -260,7 +260,7 @@ export class GoogleSecureSourceManagerBranchRuleTimeoutsOutputReference extends 
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_branch_rule google_secure_source_manager_branch_rule}
 */
-export class GoogleSecureSourceManagerBranchRule extends cdktf.TerraformResource {
+export class GoogleSecureSourceManagerBranchRule extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -271,14 +271,14 @@ export class GoogleSecureSourceManagerBranchRule extends cdktf.TerraformResource
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleSecureSourceManagerBranchRule resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleSecureSourceManagerBranchRule resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleSecureSourceManagerBranchRule to import
   * @param importFromId The id of the existing GoogleSecureSourceManagerBranchRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_branch_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleSecureSourceManagerBranchRule to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_secure_source_manager_branch_rule", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_secure_source_manager_branch_rule", importId: importFromId, provider });
       }
 
   // ===========
@@ -329,11 +329,11 @@ export class GoogleSecureSourceManagerBranchRule extends cdktf.TerraformResource
   // ==========
 
   // allow_stale_reviews - computed: false, optional: true, required: false
-  private _allowStaleReviews?: boolean | cdktf.IResolvable; 
+  private _allowStaleReviews?: boolean | cdktn.IResolvable; 
   public get allowStaleReviews() {
     return this.getBooleanAttribute('allow_stale_reviews');
   }
-  public set allowStaleReviews(value: boolean | cdktf.IResolvable) {
+  public set allowStaleReviews(value: boolean | cdktn.IResolvable) {
     this._allowStaleReviews = value;
   }
   public resetAllowStaleReviews() {
@@ -363,11 +363,11 @@ export class GoogleSecureSourceManagerBranchRule extends cdktf.TerraformResource
   }
 
   // disabled - computed: false, optional: true, required: false
-  private _disabled?: boolean | cdktf.IResolvable; 
+  private _disabled?: boolean | cdktn.IResolvable; 
   public get disabled() {
     return this.getBooleanAttribute('disabled');
   }
-  public set disabled(value: boolean | cdktf.IResolvable) {
+  public set disabled(value: boolean | cdktn.IResolvable) {
     this._disabled = value;
   }
   public resetDisabled() {
@@ -487,11 +487,11 @@ export class GoogleSecureSourceManagerBranchRule extends cdktf.TerraformResource
   }
 
   // require_comments_resolved - computed: false, optional: true, required: false
-  private _requireCommentsResolved?: boolean | cdktf.IResolvable; 
+  private _requireCommentsResolved?: boolean | cdktn.IResolvable; 
   public get requireCommentsResolved() {
     return this.getBooleanAttribute('require_comments_resolved');
   }
-  public set requireCommentsResolved(value: boolean | cdktf.IResolvable) {
+  public set requireCommentsResolved(value: boolean | cdktn.IResolvable) {
     this._requireCommentsResolved = value;
   }
   public resetRequireCommentsResolved() {
@@ -503,11 +503,11 @@ export class GoogleSecureSourceManagerBranchRule extends cdktf.TerraformResource
   }
 
   // require_linear_history - computed: false, optional: true, required: false
-  private _requireLinearHistory?: boolean | cdktf.IResolvable; 
+  private _requireLinearHistory?: boolean | cdktn.IResolvable; 
   public get requireLinearHistory() {
     return this.getBooleanAttribute('require_linear_history');
   }
-  public set requireLinearHistory(value: boolean | cdktf.IResolvable) {
+  public set requireLinearHistory(value: boolean | cdktn.IResolvable) {
     this._requireLinearHistory = value;
   }
   public resetRequireLinearHistory() {
@@ -519,11 +519,11 @@ export class GoogleSecureSourceManagerBranchRule extends cdktf.TerraformResource
   }
 
   // require_pull_request - computed: false, optional: true, required: false
-  private _requirePullRequest?: boolean | cdktf.IResolvable; 
+  private _requirePullRequest?: boolean | cdktn.IResolvable; 
   public get requirePullRequest() {
     return this.getBooleanAttribute('require_pull_request');
   }
-  public set requirePullRequest(value: boolean | cdktf.IResolvable) {
+  public set requirePullRequest(value: boolean | cdktn.IResolvable) {
     this._requirePullRequest = value;
   }
   public resetRequirePullRequest() {
@@ -566,19 +566,19 @@ export class GoogleSecureSourceManagerBranchRule extends cdktf.TerraformResource
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      allow_stale_reviews: cdktf.booleanToTerraform(this._allowStaleReviews),
-      branch_rule_id: cdktf.stringToTerraform(this._branchRuleId),
-      disabled: cdktf.booleanToTerraform(this._disabled),
-      id: cdktf.stringToTerraform(this._id),
-      include_pattern: cdktf.stringToTerraform(this._includePattern),
-      location: cdktf.stringToTerraform(this._location),
-      minimum_approvals_count: cdktf.numberToTerraform(this._minimumApprovalsCount),
-      minimum_reviews_count: cdktf.numberToTerraform(this._minimumReviewsCount),
-      project: cdktf.stringToTerraform(this._project),
-      repository_id: cdktf.stringToTerraform(this._repositoryId),
-      require_comments_resolved: cdktf.booleanToTerraform(this._requireCommentsResolved),
-      require_linear_history: cdktf.booleanToTerraform(this._requireLinearHistory),
-      require_pull_request: cdktf.booleanToTerraform(this._requirePullRequest),
+      allow_stale_reviews: cdktn.booleanToTerraform(this._allowStaleReviews),
+      branch_rule_id: cdktn.stringToTerraform(this._branchRuleId),
+      disabled: cdktn.booleanToTerraform(this._disabled),
+      id: cdktn.stringToTerraform(this._id),
+      include_pattern: cdktn.stringToTerraform(this._includePattern),
+      location: cdktn.stringToTerraform(this._location),
+      minimum_approvals_count: cdktn.numberToTerraform(this._minimumApprovalsCount),
+      minimum_reviews_count: cdktn.numberToTerraform(this._minimumReviewsCount),
+      project: cdktn.stringToTerraform(this._project),
+      repository_id: cdktn.stringToTerraform(this._repositoryId),
+      require_comments_resolved: cdktn.booleanToTerraform(this._requireCommentsResolved),
+      require_linear_history: cdktn.booleanToTerraform(this._requireLinearHistory),
+      require_pull_request: cdktn.booleanToTerraform(this._requirePullRequest),
       timeouts: googleSecureSourceManagerBranchRuleTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -586,79 +586,79 @@ export class GoogleSecureSourceManagerBranchRule extends cdktf.TerraformResource
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       allow_stale_reviews: {
-        value: cdktf.booleanToHclTerraform(this._allowStaleReviews),
+        value: cdktn.booleanToHclTerraform(this._allowStaleReviews),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       branch_rule_id: {
-        value: cdktf.stringToHclTerraform(this._branchRuleId),
+        value: cdktn.stringToHclTerraform(this._branchRuleId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       disabled: {
-        value: cdktf.booleanToHclTerraform(this._disabled),
+        value: cdktn.booleanToHclTerraform(this._disabled),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       include_pattern: {
-        value: cdktf.stringToHclTerraform(this._includePattern),
+        value: cdktn.stringToHclTerraform(this._includePattern),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       minimum_approvals_count: {
-        value: cdktf.numberToHclTerraform(this._minimumApprovalsCount),
+        value: cdktn.numberToHclTerraform(this._minimumApprovalsCount),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       minimum_reviews_count: {
-        value: cdktf.numberToHclTerraform(this._minimumReviewsCount),
+        value: cdktn.numberToHclTerraform(this._minimumReviewsCount),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       repository_id: {
-        value: cdktf.stringToHclTerraform(this._repositoryId),
+        value: cdktn.stringToHclTerraform(this._repositoryId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       require_comments_resolved: {
-        value: cdktf.booleanToHclTerraform(this._requireCommentsResolved),
+        value: cdktn.booleanToHclTerraform(this._requireCommentsResolved),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       require_linear_history: {
-        value: cdktf.booleanToHclTerraform(this._requireLinearHistory),
+        value: cdktn.booleanToHclTerraform(this._requireLinearHistory),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       require_pull_request: {
-        value: cdktf.booleanToHclTerraform(this._requirePullRequest),
+        value: cdktn.booleanToHclTerraform(this._requirePullRequest),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",

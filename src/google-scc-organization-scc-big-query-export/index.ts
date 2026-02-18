@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleSccOrganizationSccBigQueryExportConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleSccOrganizationSccBigQueryExportConfig extends cdktn.TerraformMetaArguments {
   /**
   * This must be unique within the organization.
   *
@@ -98,39 +98,39 @@ export interface GoogleSccOrganizationSccBigQueryExportTimeouts {
   readonly update?: string;
 }
 
-export function googleSccOrganizationSccBigQueryExportTimeoutsToTerraform(struct?: GoogleSccOrganizationSccBigQueryExportTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleSccOrganizationSccBigQueryExportTimeoutsToTerraform(struct?: GoogleSccOrganizationSccBigQueryExportTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleSccOrganizationSccBigQueryExportTimeoutsToHclTerraform(struct?: GoogleSccOrganizationSccBigQueryExportTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleSccOrganizationSccBigQueryExportTimeoutsToHclTerraform(struct?: GoogleSccOrganizationSccBigQueryExportTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -141,19 +141,19 @@ export function googleSccOrganizationSccBigQueryExportTimeoutsToHclTerraform(str
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleSccOrganizationSccBigQueryExportTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleSccOrganizationSccBigQueryExportTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleSccOrganizationSccBigQueryExportTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleSccOrganizationSccBigQueryExportTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -174,7 +174,7 @@ export class GoogleSccOrganizationSccBigQueryExportTimeoutsOutputReference exten
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleSccOrganizationSccBigQueryExportTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleSccOrganizationSccBigQueryExportTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -182,7 +182,7 @@ export class GoogleSccOrganizationSccBigQueryExportTimeoutsOutputReference exten
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -247,7 +247,7 @@ export class GoogleSccOrganizationSccBigQueryExportTimeoutsOutputReference exten
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_organization_scc_big_query_export google_scc_organization_scc_big_query_export}
 */
-export class GoogleSccOrganizationSccBigQueryExport extends cdktf.TerraformResource {
+export class GoogleSccOrganizationSccBigQueryExport extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -258,14 +258,14 @@ export class GoogleSccOrganizationSccBigQueryExport extends cdktf.TerraformResou
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleSccOrganizationSccBigQueryExport resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleSccOrganizationSccBigQueryExport resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleSccOrganizationSccBigQueryExport to import
   * @param importFromId The id of the existing GoogleSccOrganizationSccBigQueryExport that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_organization_scc_big_query_export#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleSccOrganizationSccBigQueryExport to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_scc_organization_scc_big_query_export", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_scc_organization_scc_big_query_export", importId: importFromId, provider });
       }
 
   // ===========
@@ -445,12 +445,12 @@ export class GoogleSccOrganizationSccBigQueryExport extends cdktf.TerraformResou
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      big_query_export_id: cdktf.stringToTerraform(this._bigQueryExportId),
-      dataset: cdktf.stringToTerraform(this._dataset),
-      description: cdktf.stringToTerraform(this._description),
-      filter: cdktf.stringToTerraform(this._filter),
-      id: cdktf.stringToTerraform(this._id),
-      organization: cdktf.stringToTerraform(this._organization),
+      big_query_export_id: cdktn.stringToTerraform(this._bigQueryExportId),
+      dataset: cdktn.stringToTerraform(this._dataset),
+      description: cdktn.stringToTerraform(this._description),
+      filter: cdktn.stringToTerraform(this._filter),
+      id: cdktn.stringToTerraform(this._id),
+      organization: cdktn.stringToTerraform(this._organization),
       timeouts: googleSccOrganizationSccBigQueryExportTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -458,37 +458,37 @@ export class GoogleSccOrganizationSccBigQueryExport extends cdktf.TerraformResou
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       big_query_export_id: {
-        value: cdktf.stringToHclTerraform(this._bigQueryExportId),
+        value: cdktn.stringToHclTerraform(this._bigQueryExportId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       dataset: {
-        value: cdktf.stringToHclTerraform(this._dataset),
+        value: cdktn.stringToHclTerraform(this._dataset),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       filter: {
-        value: cdktf.stringToHclTerraform(this._filter),
+        value: cdktn.stringToHclTerraform(this._filter),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       organization: {
-        value: cdktf.stringToHclTerraform(this._organization),
+        value: cdktn.stringToHclTerraform(this._organization),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

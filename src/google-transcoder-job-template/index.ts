@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleTranscoderJobTemplateConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleTranscoderJobTemplateConfig extends cdktn.TerraformMetaArguments {
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_transcoder_job_template#id GoogleTranscoderJobTemplate#id}
   *
@@ -67,25 +67,25 @@ export interface GoogleTranscoderJobTemplateConfigAdBreaks {
   readonly startTimeOffset?: string;
 }
 
-export function googleTranscoderJobTemplateConfigAdBreaksToTerraform(struct?: GoogleTranscoderJobTemplateConfigAdBreaks | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleTranscoderJobTemplateConfigAdBreaksToTerraform(struct?: GoogleTranscoderJobTemplateConfigAdBreaks | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    start_time_offset: cdktf.stringToTerraform(struct!.startTimeOffset),
+    start_time_offset: cdktn.stringToTerraform(struct!.startTimeOffset),
   }
 }
 
 
-export function googleTranscoderJobTemplateConfigAdBreaksToHclTerraform(struct?: GoogleTranscoderJobTemplateConfigAdBreaks | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleTranscoderJobTemplateConfigAdBreaksToHclTerraform(struct?: GoogleTranscoderJobTemplateConfigAdBreaks | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     start_time_offset: {
-      value: cdktf.stringToHclTerraform(struct!.startTimeOffset),
+      value: cdktn.stringToHclTerraform(struct!.startTimeOffset),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -96,9 +96,9 @@ export function googleTranscoderJobTemplateConfigAdBreaksToHclTerraform(struct?:
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleTranscoderJobTemplateConfigAdBreaksOutputReference extends cdktf.ComplexObject {
+export class GoogleTranscoderJobTemplateConfigAdBreaksOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -106,11 +106,11 @@ export class GoogleTranscoderJobTemplateConfigAdBreaksOutputReference extends cd
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleTranscoderJobTemplateConfigAdBreaks | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleTranscoderJobTemplateConfigAdBreaks | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -123,13 +123,13 @@ export class GoogleTranscoderJobTemplateConfigAdBreaksOutputReference extends cd
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleTranscoderJobTemplateConfigAdBreaks | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleTranscoderJobTemplateConfigAdBreaks | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._startTimeOffset = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -157,15 +157,15 @@ export class GoogleTranscoderJobTemplateConfigAdBreaksOutputReference extends cd
   }
 }
 
-export class GoogleTranscoderJobTemplateConfigAdBreaksList extends cdktf.ComplexList {
-  public internalValue? : GoogleTranscoderJobTemplateConfigAdBreaks[] | cdktf.IResolvable
+export class GoogleTranscoderJobTemplateConfigAdBreaksList extends cdktn.ComplexList {
+  public internalValue? : GoogleTranscoderJobTemplateConfigAdBreaks[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -197,39 +197,39 @@ export interface GoogleTranscoderJobTemplateConfigEditListStruct {
   readonly startTimeOffset?: string;
 }
 
-export function googleTranscoderJobTemplateConfigEditListStructToTerraform(struct?: GoogleTranscoderJobTemplateConfigEditListStruct | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleTranscoderJobTemplateConfigEditListStructToTerraform(struct?: GoogleTranscoderJobTemplateConfigEditListStruct | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    inputs: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.inputs),
-    key: cdktf.stringToTerraform(struct!.key),
-    start_time_offset: cdktf.stringToTerraform(struct!.startTimeOffset),
+    inputs: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.inputs),
+    key: cdktn.stringToTerraform(struct!.key),
+    start_time_offset: cdktn.stringToTerraform(struct!.startTimeOffset),
   }
 }
 
 
-export function googleTranscoderJobTemplateConfigEditListStructToHclTerraform(struct?: GoogleTranscoderJobTemplateConfigEditListStruct | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleTranscoderJobTemplateConfigEditListStructToHclTerraform(struct?: GoogleTranscoderJobTemplateConfigEditListStruct | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     inputs: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.inputs),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.inputs),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     key: {
-      value: cdktf.stringToHclTerraform(struct!.key),
+      value: cdktn.stringToHclTerraform(struct!.key),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     start_time_offset: {
-      value: cdktf.stringToHclTerraform(struct!.startTimeOffset),
+      value: cdktn.stringToHclTerraform(struct!.startTimeOffset),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -240,9 +240,9 @@ export function googleTranscoderJobTemplateConfigEditListStructToHclTerraform(st
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleTranscoderJobTemplateConfigEditListStructOutputReference extends cdktf.ComplexObject {
+export class GoogleTranscoderJobTemplateConfigEditListStructOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -250,11 +250,11 @@ export class GoogleTranscoderJobTemplateConfigEditListStructOutputReference exte
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleTranscoderJobTemplateConfigEditListStruct | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleTranscoderJobTemplateConfigEditListStruct | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -275,7 +275,7 @@ export class GoogleTranscoderJobTemplateConfigEditListStructOutputReference exte
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleTranscoderJobTemplateConfigEditListStruct | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleTranscoderJobTemplateConfigEditListStruct | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -283,7 +283,7 @@ export class GoogleTranscoderJobTemplateConfigEditListStructOutputReference exte
       this._key = undefined;
       this._startTimeOffset = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -345,15 +345,15 @@ export class GoogleTranscoderJobTemplateConfigEditListStructOutputReference exte
   }
 }
 
-export class GoogleTranscoderJobTemplateConfigEditListStructList extends cdktf.ComplexList {
-  public internalValue? : GoogleTranscoderJobTemplateConfigEditListStruct[] | cdktf.IResolvable
+export class GoogleTranscoderJobTemplateConfigEditListStructList extends cdktn.ComplexList {
+  public internalValue? : GoogleTranscoderJobTemplateConfigEditListStruct[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -398,52 +398,52 @@ export interface GoogleTranscoderJobTemplateConfigElementaryStreamsAudioStream {
 }
 
 export function googleTranscoderJobTemplateConfigElementaryStreamsAudioStreamToTerraform(struct?: GoogleTranscoderJobTemplateConfigElementaryStreamsAudioStreamOutputReference | GoogleTranscoderJobTemplateConfigElementaryStreamsAudioStream): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    bitrate_bps: cdktf.numberToTerraform(struct!.bitrateBps),
-    channel_count: cdktf.numberToTerraform(struct!.channelCount),
-    channel_layout: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.channelLayout),
-    codec: cdktf.stringToTerraform(struct!.codec),
-    sample_rate_hertz: cdktf.numberToTerraform(struct!.sampleRateHertz),
+    bitrate_bps: cdktn.numberToTerraform(struct!.bitrateBps),
+    channel_count: cdktn.numberToTerraform(struct!.channelCount),
+    channel_layout: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.channelLayout),
+    codec: cdktn.stringToTerraform(struct!.codec),
+    sample_rate_hertz: cdktn.numberToTerraform(struct!.sampleRateHertz),
   }
 }
 
 
 export function googleTranscoderJobTemplateConfigElementaryStreamsAudioStreamToHclTerraform(struct?: GoogleTranscoderJobTemplateConfigElementaryStreamsAudioStreamOutputReference | GoogleTranscoderJobTemplateConfigElementaryStreamsAudioStream): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     bitrate_bps: {
-      value: cdktf.numberToHclTerraform(struct!.bitrateBps),
+      value: cdktn.numberToHclTerraform(struct!.bitrateBps),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     channel_count: {
-      value: cdktf.numberToHclTerraform(struct!.channelCount),
+      value: cdktn.numberToHclTerraform(struct!.channelCount),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     channel_layout: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.channelLayout),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.channelLayout),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     codec: {
-      value: cdktf.stringToHclTerraform(struct!.codec),
+      value: cdktn.stringToHclTerraform(struct!.codec),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     sample_rate_hertz: {
-      value: cdktf.numberToHclTerraform(struct!.sampleRateHertz),
+      value: cdktn.numberToHclTerraform(struct!.sampleRateHertz),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -454,14 +454,14 @@ export function googleTranscoderJobTemplateConfigElementaryStreamsAudioStreamToH
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleTranscoderJobTemplateConfigElementaryStreamsAudioStreamOutputReference extends cdktf.ComplexObject {
+export class GoogleTranscoderJobTemplateConfigElementaryStreamsAudioStreamOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -591,8 +591,8 @@ export interface GoogleTranscoderJobTemplateConfigElementaryStreamsVideoStreamH2
 }
 
 export function googleTranscoderJobTemplateConfigElementaryStreamsVideoStreamH264HlgToTerraform(struct?: GoogleTranscoderJobTemplateConfigElementaryStreamsVideoStreamH264HlgOutputReference | GoogleTranscoderJobTemplateConfigElementaryStreamsVideoStreamH264Hlg): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -601,8 +601,8 @@ export function googleTranscoderJobTemplateConfigElementaryStreamsVideoStreamH26
 
 
 export function googleTranscoderJobTemplateConfigElementaryStreamsVideoStreamH264HlgToHclTerraform(struct?: GoogleTranscoderJobTemplateConfigElementaryStreamsVideoStreamH264HlgOutputReference | GoogleTranscoderJobTemplateConfigElementaryStreamsVideoStreamH264Hlg): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -610,14 +610,14 @@ export function googleTranscoderJobTemplateConfigElementaryStreamsVideoStreamH26
   return attrs;
 }
 
-export class GoogleTranscoderJobTemplateConfigElementaryStreamsVideoStreamH264HlgOutputReference extends cdktf.ComplexObject {
+export class GoogleTranscoderJobTemplateConfigElementaryStreamsVideoStreamH264HlgOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -640,8 +640,8 @@ export interface GoogleTranscoderJobTemplateConfigElementaryStreamsVideoStreamH2
 }
 
 export function googleTranscoderJobTemplateConfigElementaryStreamsVideoStreamH264SdrToTerraform(struct?: GoogleTranscoderJobTemplateConfigElementaryStreamsVideoStreamH264SdrOutputReference | GoogleTranscoderJobTemplateConfigElementaryStreamsVideoStreamH264Sdr): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -650,8 +650,8 @@ export function googleTranscoderJobTemplateConfigElementaryStreamsVideoStreamH26
 
 
 export function googleTranscoderJobTemplateConfigElementaryStreamsVideoStreamH264SdrToHclTerraform(struct?: GoogleTranscoderJobTemplateConfigElementaryStreamsVideoStreamH264SdrOutputReference | GoogleTranscoderJobTemplateConfigElementaryStreamsVideoStreamH264Sdr): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -659,14 +659,14 @@ export function googleTranscoderJobTemplateConfigElementaryStreamsVideoStreamH26
   return attrs;
 }
 
-export class GoogleTranscoderJobTemplateConfigElementaryStreamsVideoStreamH264SdrOutputReference extends cdktf.ComplexObject {
+export class GoogleTranscoderJobTemplateConfigElementaryStreamsVideoStreamH264SdrOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -779,24 +779,24 @@ export interface GoogleTranscoderJobTemplateConfigElementaryStreamsVideoStreamH2
 }
 
 export function googleTranscoderJobTemplateConfigElementaryStreamsVideoStreamH264ToTerraform(struct?: GoogleTranscoderJobTemplateConfigElementaryStreamsVideoStreamH264OutputReference | GoogleTranscoderJobTemplateConfigElementaryStreamsVideoStreamH264): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    bitrate_bps: cdktf.numberToTerraform(struct!.bitrateBps),
-    crf_level: cdktf.numberToTerraform(struct!.crfLevel),
-    entropy_coder: cdktf.stringToTerraform(struct!.entropyCoder),
-    frame_rate: cdktf.numberToTerraform(struct!.frameRate),
-    gop_duration: cdktf.stringToTerraform(struct!.gopDuration),
-    height_pixels: cdktf.numberToTerraform(struct!.heightPixels),
-    pixel_format: cdktf.stringToTerraform(struct!.pixelFormat),
-    preset: cdktf.stringToTerraform(struct!.preset),
-    profile: cdktf.stringToTerraform(struct!.profile),
-    rate_control_mode: cdktf.stringToTerraform(struct!.rateControlMode),
-    vbv_fullness_bits: cdktf.numberToTerraform(struct!.vbvFullnessBits),
-    vbv_size_bits: cdktf.numberToTerraform(struct!.vbvSizeBits),
-    width_pixels: cdktf.numberToTerraform(struct!.widthPixels),
+    bitrate_bps: cdktn.numberToTerraform(struct!.bitrateBps),
+    crf_level: cdktn.numberToTerraform(struct!.crfLevel),
+    entropy_coder: cdktn.stringToTerraform(struct!.entropyCoder),
+    frame_rate: cdktn.numberToTerraform(struct!.frameRate),
+    gop_duration: cdktn.stringToTerraform(struct!.gopDuration),
+    height_pixels: cdktn.numberToTerraform(struct!.heightPixels),
+    pixel_format: cdktn.stringToTerraform(struct!.pixelFormat),
+    preset: cdktn.stringToTerraform(struct!.preset),
+    profile: cdktn.stringToTerraform(struct!.profile),
+    rate_control_mode: cdktn.stringToTerraform(struct!.rateControlMode),
+    vbv_fullness_bits: cdktn.numberToTerraform(struct!.vbvFullnessBits),
+    vbv_size_bits: cdktn.numberToTerraform(struct!.vbvSizeBits),
+    width_pixels: cdktn.numberToTerraform(struct!.widthPixels),
     hlg: googleTranscoderJobTemplateConfigElementaryStreamsVideoStreamH264HlgToTerraform(struct!.hlg),
     sdr: googleTranscoderJobTemplateConfigElementaryStreamsVideoStreamH264SdrToTerraform(struct!.sdr),
   }
@@ -804,85 +804,85 @@ export function googleTranscoderJobTemplateConfigElementaryStreamsVideoStreamH26
 
 
 export function googleTranscoderJobTemplateConfigElementaryStreamsVideoStreamH264ToHclTerraform(struct?: GoogleTranscoderJobTemplateConfigElementaryStreamsVideoStreamH264OutputReference | GoogleTranscoderJobTemplateConfigElementaryStreamsVideoStreamH264): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     bitrate_bps: {
-      value: cdktf.numberToHclTerraform(struct!.bitrateBps),
+      value: cdktn.numberToHclTerraform(struct!.bitrateBps),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     crf_level: {
-      value: cdktf.numberToHclTerraform(struct!.crfLevel),
+      value: cdktn.numberToHclTerraform(struct!.crfLevel),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     entropy_coder: {
-      value: cdktf.stringToHclTerraform(struct!.entropyCoder),
+      value: cdktn.stringToHclTerraform(struct!.entropyCoder),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     frame_rate: {
-      value: cdktf.numberToHclTerraform(struct!.frameRate),
+      value: cdktn.numberToHclTerraform(struct!.frameRate),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     gop_duration: {
-      value: cdktf.stringToHclTerraform(struct!.gopDuration),
+      value: cdktn.stringToHclTerraform(struct!.gopDuration),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     height_pixels: {
-      value: cdktf.numberToHclTerraform(struct!.heightPixels),
+      value: cdktn.numberToHclTerraform(struct!.heightPixels),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     pixel_format: {
-      value: cdktf.stringToHclTerraform(struct!.pixelFormat),
+      value: cdktn.stringToHclTerraform(struct!.pixelFormat),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     preset: {
-      value: cdktf.stringToHclTerraform(struct!.preset),
+      value: cdktn.stringToHclTerraform(struct!.preset),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     profile: {
-      value: cdktf.stringToHclTerraform(struct!.profile),
+      value: cdktn.stringToHclTerraform(struct!.profile),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     rate_control_mode: {
-      value: cdktf.stringToHclTerraform(struct!.rateControlMode),
+      value: cdktn.stringToHclTerraform(struct!.rateControlMode),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     vbv_fullness_bits: {
-      value: cdktf.numberToHclTerraform(struct!.vbvFullnessBits),
+      value: cdktn.numberToHclTerraform(struct!.vbvFullnessBits),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     vbv_size_bits: {
-      value: cdktf.numberToHclTerraform(struct!.vbvSizeBits),
+      value: cdktn.numberToHclTerraform(struct!.vbvSizeBits),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     width_pixels: {
-      value: cdktf.numberToHclTerraform(struct!.widthPixels),
+      value: cdktn.numberToHclTerraform(struct!.widthPixels),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -905,14 +905,14 @@ export function googleTranscoderJobTemplateConfigElementaryStreamsVideoStreamH26
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleTranscoderJobTemplateConfigElementaryStreamsVideoStreamH264OutputReference extends cdktf.ComplexObject {
+export class GoogleTranscoderJobTemplateConfigElementaryStreamsVideoStreamH264OutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1265,8 +1265,8 @@ export interface GoogleTranscoderJobTemplateConfigElementaryStreamsVideoStream {
 }
 
 export function googleTranscoderJobTemplateConfigElementaryStreamsVideoStreamToTerraform(struct?: GoogleTranscoderJobTemplateConfigElementaryStreamsVideoStreamOutputReference | GoogleTranscoderJobTemplateConfigElementaryStreamsVideoStream): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -1276,8 +1276,8 @@ export function googleTranscoderJobTemplateConfigElementaryStreamsVideoStreamToT
 
 
 export function googleTranscoderJobTemplateConfigElementaryStreamsVideoStreamToHclTerraform(struct?: GoogleTranscoderJobTemplateConfigElementaryStreamsVideoStreamOutputReference | GoogleTranscoderJobTemplateConfigElementaryStreamsVideoStream): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -1293,14 +1293,14 @@ export function googleTranscoderJobTemplateConfigElementaryStreamsVideoStreamToH
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleTranscoderJobTemplateConfigElementaryStreamsVideoStreamOutputReference extends cdktf.ComplexObject {
+export class GoogleTranscoderJobTemplateConfigElementaryStreamsVideoStreamOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1362,27 +1362,27 @@ export interface GoogleTranscoderJobTemplateConfigElementaryStreams {
   readonly videoStream?: GoogleTranscoderJobTemplateConfigElementaryStreamsVideoStream;
 }
 
-export function googleTranscoderJobTemplateConfigElementaryStreamsToTerraform(struct?: GoogleTranscoderJobTemplateConfigElementaryStreams | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleTranscoderJobTemplateConfigElementaryStreamsToTerraform(struct?: GoogleTranscoderJobTemplateConfigElementaryStreams | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    key: cdktf.stringToTerraform(struct!.key),
+    key: cdktn.stringToTerraform(struct!.key),
     audio_stream: googleTranscoderJobTemplateConfigElementaryStreamsAudioStreamToTerraform(struct!.audioStream),
     video_stream: googleTranscoderJobTemplateConfigElementaryStreamsVideoStreamToTerraform(struct!.videoStream),
   }
 }
 
 
-export function googleTranscoderJobTemplateConfigElementaryStreamsToHclTerraform(struct?: GoogleTranscoderJobTemplateConfigElementaryStreams | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleTranscoderJobTemplateConfigElementaryStreamsToHclTerraform(struct?: GoogleTranscoderJobTemplateConfigElementaryStreams | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     key: {
-      value: cdktf.stringToHclTerraform(struct!.key),
+      value: cdktn.stringToHclTerraform(struct!.key),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1405,9 +1405,9 @@ export function googleTranscoderJobTemplateConfigElementaryStreamsToHclTerraform
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleTranscoderJobTemplateConfigElementaryStreamsOutputReference extends cdktf.ComplexObject {
+export class GoogleTranscoderJobTemplateConfigElementaryStreamsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -1415,11 +1415,11 @@ export class GoogleTranscoderJobTemplateConfigElementaryStreamsOutputReference e
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleTranscoderJobTemplateConfigElementaryStreams | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleTranscoderJobTemplateConfigElementaryStreams | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1440,7 +1440,7 @@ export class GoogleTranscoderJobTemplateConfigElementaryStreamsOutputReference e
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleTranscoderJobTemplateConfigElementaryStreams | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleTranscoderJobTemplateConfigElementaryStreams | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -1448,7 +1448,7 @@ export class GoogleTranscoderJobTemplateConfigElementaryStreamsOutputReference e
       this._audioStream.internalValue = undefined;
       this._videoStream.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1510,15 +1510,15 @@ export class GoogleTranscoderJobTemplateConfigElementaryStreamsOutputReference e
   }
 }
 
-export class GoogleTranscoderJobTemplateConfigElementaryStreamsList extends cdktf.ComplexList {
-  public internalValue? : GoogleTranscoderJobTemplateConfigElementaryStreams[] | cdktf.IResolvable
+export class GoogleTranscoderJobTemplateConfigElementaryStreamsList extends cdktn.ComplexList {
+  public internalValue? : GoogleTranscoderJobTemplateConfigElementaryStreams[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1533,8 +1533,8 @@ export interface GoogleTranscoderJobTemplateConfigEncryptionsAes128 {
 }
 
 export function googleTranscoderJobTemplateConfigEncryptionsAes128ToTerraform(struct?: GoogleTranscoderJobTemplateConfigEncryptionsAes128OutputReference | GoogleTranscoderJobTemplateConfigEncryptionsAes128): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -1543,8 +1543,8 @@ export function googleTranscoderJobTemplateConfigEncryptionsAes128ToTerraform(st
 
 
 export function googleTranscoderJobTemplateConfigEncryptionsAes128ToHclTerraform(struct?: GoogleTranscoderJobTemplateConfigEncryptionsAes128OutputReference | GoogleTranscoderJobTemplateConfigEncryptionsAes128): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -1552,14 +1552,14 @@ export function googleTranscoderJobTemplateConfigEncryptionsAes128ToHclTerraform
   return attrs;
 }
 
-export class GoogleTranscoderJobTemplateConfigEncryptionsAes128OutputReference extends cdktf.ComplexObject {
+export class GoogleTranscoderJobTemplateConfigEncryptionsAes128OutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1582,8 +1582,8 @@ export interface GoogleTranscoderJobTemplateConfigEncryptionsDrmSystemsClearkey 
 }
 
 export function googleTranscoderJobTemplateConfigEncryptionsDrmSystemsClearkeyToTerraform(struct?: GoogleTranscoderJobTemplateConfigEncryptionsDrmSystemsClearkeyOutputReference | GoogleTranscoderJobTemplateConfigEncryptionsDrmSystemsClearkey): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -1592,8 +1592,8 @@ export function googleTranscoderJobTemplateConfigEncryptionsDrmSystemsClearkeyTo
 
 
 export function googleTranscoderJobTemplateConfigEncryptionsDrmSystemsClearkeyToHclTerraform(struct?: GoogleTranscoderJobTemplateConfigEncryptionsDrmSystemsClearkeyOutputReference | GoogleTranscoderJobTemplateConfigEncryptionsDrmSystemsClearkey): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -1601,14 +1601,14 @@ export function googleTranscoderJobTemplateConfigEncryptionsDrmSystemsClearkeyTo
   return attrs;
 }
 
-export class GoogleTranscoderJobTemplateConfigEncryptionsDrmSystemsClearkeyOutputReference extends cdktf.ComplexObject {
+export class GoogleTranscoderJobTemplateConfigEncryptionsDrmSystemsClearkeyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1631,8 +1631,8 @@ export interface GoogleTranscoderJobTemplateConfigEncryptionsDrmSystemsFairplay 
 }
 
 export function googleTranscoderJobTemplateConfigEncryptionsDrmSystemsFairplayToTerraform(struct?: GoogleTranscoderJobTemplateConfigEncryptionsDrmSystemsFairplayOutputReference | GoogleTranscoderJobTemplateConfigEncryptionsDrmSystemsFairplay): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -1641,8 +1641,8 @@ export function googleTranscoderJobTemplateConfigEncryptionsDrmSystemsFairplayTo
 
 
 export function googleTranscoderJobTemplateConfigEncryptionsDrmSystemsFairplayToHclTerraform(struct?: GoogleTranscoderJobTemplateConfigEncryptionsDrmSystemsFairplayOutputReference | GoogleTranscoderJobTemplateConfigEncryptionsDrmSystemsFairplay): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -1650,14 +1650,14 @@ export function googleTranscoderJobTemplateConfigEncryptionsDrmSystemsFairplayTo
   return attrs;
 }
 
-export class GoogleTranscoderJobTemplateConfigEncryptionsDrmSystemsFairplayOutputReference extends cdktf.ComplexObject {
+export class GoogleTranscoderJobTemplateConfigEncryptionsDrmSystemsFairplayOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1680,8 +1680,8 @@ export interface GoogleTranscoderJobTemplateConfigEncryptionsDrmSystemsPlayready
 }
 
 export function googleTranscoderJobTemplateConfigEncryptionsDrmSystemsPlayreadyToTerraform(struct?: GoogleTranscoderJobTemplateConfigEncryptionsDrmSystemsPlayreadyOutputReference | GoogleTranscoderJobTemplateConfigEncryptionsDrmSystemsPlayready): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -1690,8 +1690,8 @@ export function googleTranscoderJobTemplateConfigEncryptionsDrmSystemsPlayreadyT
 
 
 export function googleTranscoderJobTemplateConfigEncryptionsDrmSystemsPlayreadyToHclTerraform(struct?: GoogleTranscoderJobTemplateConfigEncryptionsDrmSystemsPlayreadyOutputReference | GoogleTranscoderJobTemplateConfigEncryptionsDrmSystemsPlayready): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -1699,14 +1699,14 @@ export function googleTranscoderJobTemplateConfigEncryptionsDrmSystemsPlayreadyT
   return attrs;
 }
 
-export class GoogleTranscoderJobTemplateConfigEncryptionsDrmSystemsPlayreadyOutputReference extends cdktf.ComplexObject {
+export class GoogleTranscoderJobTemplateConfigEncryptionsDrmSystemsPlayreadyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1729,8 +1729,8 @@ export interface GoogleTranscoderJobTemplateConfigEncryptionsDrmSystemsWidevine 
 }
 
 export function googleTranscoderJobTemplateConfigEncryptionsDrmSystemsWidevineToTerraform(struct?: GoogleTranscoderJobTemplateConfigEncryptionsDrmSystemsWidevineOutputReference | GoogleTranscoderJobTemplateConfigEncryptionsDrmSystemsWidevine): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -1739,8 +1739,8 @@ export function googleTranscoderJobTemplateConfigEncryptionsDrmSystemsWidevineTo
 
 
 export function googleTranscoderJobTemplateConfigEncryptionsDrmSystemsWidevineToHclTerraform(struct?: GoogleTranscoderJobTemplateConfigEncryptionsDrmSystemsWidevineOutputReference | GoogleTranscoderJobTemplateConfigEncryptionsDrmSystemsWidevine): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -1748,14 +1748,14 @@ export function googleTranscoderJobTemplateConfigEncryptionsDrmSystemsWidevineTo
   return attrs;
 }
 
-export class GoogleTranscoderJobTemplateConfigEncryptionsDrmSystemsWidevineOutputReference extends cdktf.ComplexObject {
+export class GoogleTranscoderJobTemplateConfigEncryptionsDrmSystemsWidevineOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1802,8 +1802,8 @@ export interface GoogleTranscoderJobTemplateConfigEncryptionsDrmSystems {
 }
 
 export function googleTranscoderJobTemplateConfigEncryptionsDrmSystemsToTerraform(struct?: GoogleTranscoderJobTemplateConfigEncryptionsDrmSystemsOutputReference | GoogleTranscoderJobTemplateConfigEncryptionsDrmSystems): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -1816,8 +1816,8 @@ export function googleTranscoderJobTemplateConfigEncryptionsDrmSystemsToTerrafor
 
 
 export function googleTranscoderJobTemplateConfigEncryptionsDrmSystemsToHclTerraform(struct?: GoogleTranscoderJobTemplateConfigEncryptionsDrmSystemsOutputReference | GoogleTranscoderJobTemplateConfigEncryptionsDrmSystems): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -1851,14 +1851,14 @@ export function googleTranscoderJobTemplateConfigEncryptionsDrmSystemsToHclTerra
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleTranscoderJobTemplateConfigEncryptionsDrmSystemsOutputReference extends cdktf.ComplexObject {
+export class GoogleTranscoderJobTemplateConfigEncryptionsDrmSystemsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1975,24 +1975,24 @@ export interface GoogleTranscoderJobTemplateConfigEncryptionsMpegCenc {
 }
 
 export function googleTranscoderJobTemplateConfigEncryptionsMpegCencToTerraform(struct?: GoogleTranscoderJobTemplateConfigEncryptionsMpegCencOutputReference | GoogleTranscoderJobTemplateConfigEncryptionsMpegCenc): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    scheme: cdktf.stringToTerraform(struct!.scheme),
+    scheme: cdktn.stringToTerraform(struct!.scheme),
   }
 }
 
 
 export function googleTranscoderJobTemplateConfigEncryptionsMpegCencToHclTerraform(struct?: GoogleTranscoderJobTemplateConfigEncryptionsMpegCencOutputReference | GoogleTranscoderJobTemplateConfigEncryptionsMpegCenc): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     scheme: {
-      value: cdktf.stringToHclTerraform(struct!.scheme),
+      value: cdktn.stringToHclTerraform(struct!.scheme),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2003,14 +2003,14 @@ export function googleTranscoderJobTemplateConfigEncryptionsMpegCencToHclTerrafo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleTranscoderJobTemplateConfigEncryptionsMpegCencOutputReference extends cdktf.ComplexObject {
+export class GoogleTranscoderJobTemplateConfigEncryptionsMpegCencOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2052,8 +2052,8 @@ export interface GoogleTranscoderJobTemplateConfigEncryptionsSampleAes {
 }
 
 export function googleTranscoderJobTemplateConfigEncryptionsSampleAesToTerraform(struct?: GoogleTranscoderJobTemplateConfigEncryptionsSampleAesOutputReference | GoogleTranscoderJobTemplateConfigEncryptionsSampleAes): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -2062,8 +2062,8 @@ export function googleTranscoderJobTemplateConfigEncryptionsSampleAesToTerraform
 
 
 export function googleTranscoderJobTemplateConfigEncryptionsSampleAesToHclTerraform(struct?: GoogleTranscoderJobTemplateConfigEncryptionsSampleAesOutputReference | GoogleTranscoderJobTemplateConfigEncryptionsSampleAes): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -2071,14 +2071,14 @@ export function googleTranscoderJobTemplateConfigEncryptionsSampleAesToHclTerraf
   return attrs;
 }
 
-export class GoogleTranscoderJobTemplateConfigEncryptionsSampleAesOutputReference extends cdktf.ComplexObject {
+export class GoogleTranscoderJobTemplateConfigEncryptionsSampleAesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2107,24 +2107,24 @@ export interface GoogleTranscoderJobTemplateConfigEncryptionsSecretManagerKeySou
 }
 
 export function googleTranscoderJobTemplateConfigEncryptionsSecretManagerKeySourceToTerraform(struct?: GoogleTranscoderJobTemplateConfigEncryptionsSecretManagerKeySourceOutputReference | GoogleTranscoderJobTemplateConfigEncryptionsSecretManagerKeySource): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    secret_version: cdktf.stringToTerraform(struct!.secretVersion),
+    secret_version: cdktn.stringToTerraform(struct!.secretVersion),
   }
 }
 
 
 export function googleTranscoderJobTemplateConfigEncryptionsSecretManagerKeySourceToHclTerraform(struct?: GoogleTranscoderJobTemplateConfigEncryptionsSecretManagerKeySourceOutputReference | GoogleTranscoderJobTemplateConfigEncryptionsSecretManagerKeySource): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     secret_version: {
-      value: cdktf.stringToHclTerraform(struct!.secretVersion),
+      value: cdktn.stringToHclTerraform(struct!.secretVersion),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2135,14 +2135,14 @@ export function googleTranscoderJobTemplateConfigEncryptionsSecretManagerKeySour
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleTranscoderJobTemplateConfigEncryptionsSecretManagerKeySourceOutputReference extends cdktf.ComplexObject {
+export class GoogleTranscoderJobTemplateConfigEncryptionsSecretManagerKeySourceOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2222,13 +2222,13 @@ export interface GoogleTranscoderJobTemplateConfigEncryptions {
   readonly secretManagerKeySource?: GoogleTranscoderJobTemplateConfigEncryptionsSecretManagerKeySource;
 }
 
-export function googleTranscoderJobTemplateConfigEncryptionsToTerraform(struct?: GoogleTranscoderJobTemplateConfigEncryptions | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleTranscoderJobTemplateConfigEncryptionsToTerraform(struct?: GoogleTranscoderJobTemplateConfigEncryptions | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    id: cdktf.stringToTerraform(struct!.id),
+    id: cdktn.stringToTerraform(struct!.id),
     aes128: googleTranscoderJobTemplateConfigEncryptionsAes128ToTerraform(struct!.aes128),
     drm_systems: googleTranscoderJobTemplateConfigEncryptionsDrmSystemsToTerraform(struct!.drmSystems),
     mpeg_cenc: googleTranscoderJobTemplateConfigEncryptionsMpegCencToTerraform(struct!.mpegCenc),
@@ -2238,14 +2238,14 @@ export function googleTranscoderJobTemplateConfigEncryptionsToTerraform(struct?:
 }
 
 
-export function googleTranscoderJobTemplateConfigEncryptionsToHclTerraform(struct?: GoogleTranscoderJobTemplateConfigEncryptions | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleTranscoderJobTemplateConfigEncryptionsToHclTerraform(struct?: GoogleTranscoderJobTemplateConfigEncryptions | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     id: {
-      value: cdktf.stringToHclTerraform(struct!.id),
+      value: cdktn.stringToHclTerraform(struct!.id),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2286,9 +2286,9 @@ export function googleTranscoderJobTemplateConfigEncryptionsToHclTerraform(struc
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleTranscoderJobTemplateConfigEncryptionsOutputReference extends cdktf.ComplexObject {
+export class GoogleTranscoderJobTemplateConfigEncryptionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -2296,11 +2296,11 @@ export class GoogleTranscoderJobTemplateConfigEncryptionsOutputReference extends
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleTranscoderJobTemplateConfigEncryptions | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleTranscoderJobTemplateConfigEncryptions | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -2333,7 +2333,7 @@ export class GoogleTranscoderJobTemplateConfigEncryptionsOutputReference extends
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleTranscoderJobTemplateConfigEncryptions | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleTranscoderJobTemplateConfigEncryptions | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -2344,7 +2344,7 @@ export class GoogleTranscoderJobTemplateConfigEncryptionsOutputReference extends
       this._sampleAes.internalValue = undefined;
       this._secretManagerKeySource.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -2454,15 +2454,15 @@ export class GoogleTranscoderJobTemplateConfigEncryptionsOutputReference extends
   }
 }
 
-export class GoogleTranscoderJobTemplateConfigEncryptionsList extends cdktf.ComplexList {
-  public internalValue? : GoogleTranscoderJobTemplateConfigEncryptions[] | cdktf.IResolvable
+export class GoogleTranscoderJobTemplateConfigEncryptionsList extends cdktn.ComplexList {
+  public internalValue? : GoogleTranscoderJobTemplateConfigEncryptions[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -2489,32 +2489,32 @@ export interface GoogleTranscoderJobTemplateConfigInputs {
   readonly uri?: string;
 }
 
-export function googleTranscoderJobTemplateConfigInputsToTerraform(struct?: GoogleTranscoderJobTemplateConfigInputs | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleTranscoderJobTemplateConfigInputsToTerraform(struct?: GoogleTranscoderJobTemplateConfigInputs | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    key: cdktf.stringToTerraform(struct!.key),
-    uri: cdktf.stringToTerraform(struct!.uri),
+    key: cdktn.stringToTerraform(struct!.key),
+    uri: cdktn.stringToTerraform(struct!.uri),
   }
 }
 
 
-export function googleTranscoderJobTemplateConfigInputsToHclTerraform(struct?: GoogleTranscoderJobTemplateConfigInputs | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleTranscoderJobTemplateConfigInputsToHclTerraform(struct?: GoogleTranscoderJobTemplateConfigInputs | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     key: {
-      value: cdktf.stringToHclTerraform(struct!.key),
+      value: cdktn.stringToHclTerraform(struct!.key),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     uri: {
-      value: cdktf.stringToHclTerraform(struct!.uri),
+      value: cdktn.stringToHclTerraform(struct!.uri),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2525,9 +2525,9 @@ export function googleTranscoderJobTemplateConfigInputsToHclTerraform(struct?: G
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleTranscoderJobTemplateConfigInputsOutputReference extends cdktf.ComplexObject {
+export class GoogleTranscoderJobTemplateConfigInputsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -2535,11 +2535,11 @@ export class GoogleTranscoderJobTemplateConfigInputsOutputReference extends cdkt
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleTranscoderJobTemplateConfigInputs | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleTranscoderJobTemplateConfigInputs | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -2556,14 +2556,14 @@ export class GoogleTranscoderJobTemplateConfigInputsOutputReference extends cdkt
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleTranscoderJobTemplateConfigInputs | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleTranscoderJobTemplateConfigInputs | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._key = undefined;
       this._uri = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -2608,15 +2608,15 @@ export class GoogleTranscoderJobTemplateConfigInputsOutputReference extends cdkt
   }
 }
 
-export class GoogleTranscoderJobTemplateConfigInputsList extends cdktf.ComplexList {
-  public internalValue? : GoogleTranscoderJobTemplateConfigInputs[] | cdktf.IResolvable
+export class GoogleTranscoderJobTemplateConfigInputsList extends cdktn.ComplexList {
+  public internalValue? : GoogleTranscoderJobTemplateConfigInputs[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -2648,39 +2648,39 @@ export interface GoogleTranscoderJobTemplateConfigManifests {
   readonly type?: string;
 }
 
-export function googleTranscoderJobTemplateConfigManifestsToTerraform(struct?: GoogleTranscoderJobTemplateConfigManifests | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleTranscoderJobTemplateConfigManifestsToTerraform(struct?: GoogleTranscoderJobTemplateConfigManifests | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    file_name: cdktf.stringToTerraform(struct!.fileName),
-    mux_streams: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.muxStreams),
-    type: cdktf.stringToTerraform(struct!.type),
+    file_name: cdktn.stringToTerraform(struct!.fileName),
+    mux_streams: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.muxStreams),
+    type: cdktn.stringToTerraform(struct!.type),
   }
 }
 
 
-export function googleTranscoderJobTemplateConfigManifestsToHclTerraform(struct?: GoogleTranscoderJobTemplateConfigManifests | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleTranscoderJobTemplateConfigManifestsToHclTerraform(struct?: GoogleTranscoderJobTemplateConfigManifests | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     file_name: {
-      value: cdktf.stringToHclTerraform(struct!.fileName),
+      value: cdktn.stringToHclTerraform(struct!.fileName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     mux_streams: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.muxStreams),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.muxStreams),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     type: {
-      value: cdktf.stringToHclTerraform(struct!.type),
+      value: cdktn.stringToHclTerraform(struct!.type),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2691,9 +2691,9 @@ export function googleTranscoderJobTemplateConfigManifestsToHclTerraform(struct?
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleTranscoderJobTemplateConfigManifestsOutputReference extends cdktf.ComplexObject {
+export class GoogleTranscoderJobTemplateConfigManifestsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -2701,11 +2701,11 @@ export class GoogleTranscoderJobTemplateConfigManifestsOutputReference extends c
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleTranscoderJobTemplateConfigManifests | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleTranscoderJobTemplateConfigManifests | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -2726,7 +2726,7 @@ export class GoogleTranscoderJobTemplateConfigManifestsOutputReference extends c
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleTranscoderJobTemplateConfigManifests | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleTranscoderJobTemplateConfigManifests | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -2734,7 +2734,7 @@ export class GoogleTranscoderJobTemplateConfigManifestsOutputReference extends c
       this._muxStreams = undefined;
       this._type = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -2796,15 +2796,15 @@ export class GoogleTranscoderJobTemplateConfigManifestsOutputReference extends c
   }
 }
 
-export class GoogleTranscoderJobTemplateConfigManifestsList extends cdktf.ComplexList {
-  public internalValue? : GoogleTranscoderJobTemplateConfigManifests[] | cdktf.IResolvable
+export class GoogleTranscoderJobTemplateConfigManifestsList extends cdktn.ComplexList {
+  public internalValue? : GoogleTranscoderJobTemplateConfigManifests[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -2825,24 +2825,24 @@ export interface GoogleTranscoderJobTemplateConfigMuxStreamsSegmentSettings {
 }
 
 export function googleTranscoderJobTemplateConfigMuxStreamsSegmentSettingsToTerraform(struct?: GoogleTranscoderJobTemplateConfigMuxStreamsSegmentSettingsOutputReference | GoogleTranscoderJobTemplateConfigMuxStreamsSegmentSettings): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    segment_duration: cdktf.stringToTerraform(struct!.segmentDuration),
+    segment_duration: cdktn.stringToTerraform(struct!.segmentDuration),
   }
 }
 
 
 export function googleTranscoderJobTemplateConfigMuxStreamsSegmentSettingsToHclTerraform(struct?: GoogleTranscoderJobTemplateConfigMuxStreamsSegmentSettingsOutputReference | GoogleTranscoderJobTemplateConfigMuxStreamsSegmentSettings): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     segment_duration: {
-      value: cdktf.stringToHclTerraform(struct!.segmentDuration),
+      value: cdktn.stringToHclTerraform(struct!.segmentDuration),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2853,14 +2853,14 @@ export function googleTranscoderJobTemplateConfigMuxStreamsSegmentSettingsToHclT
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleTranscoderJobTemplateConfigMuxStreamsSegmentSettingsOutputReference extends cdktf.ComplexObject {
+export class GoogleTranscoderJobTemplateConfigMuxStreamsSegmentSettingsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2940,54 +2940,54 @@ export interface GoogleTranscoderJobTemplateConfigMuxStreams {
   readonly segmentSettings?: GoogleTranscoderJobTemplateConfigMuxStreamsSegmentSettings;
 }
 
-export function googleTranscoderJobTemplateConfigMuxStreamsToTerraform(struct?: GoogleTranscoderJobTemplateConfigMuxStreams | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleTranscoderJobTemplateConfigMuxStreamsToTerraform(struct?: GoogleTranscoderJobTemplateConfigMuxStreams | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    container: cdktf.stringToTerraform(struct!.container),
-    elementary_streams: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.elementaryStreams),
-    encryption_id: cdktf.stringToTerraform(struct!.encryptionId),
-    file_name: cdktf.stringToTerraform(struct!.fileName),
-    key: cdktf.stringToTerraform(struct!.key),
+    container: cdktn.stringToTerraform(struct!.container),
+    elementary_streams: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.elementaryStreams),
+    encryption_id: cdktn.stringToTerraform(struct!.encryptionId),
+    file_name: cdktn.stringToTerraform(struct!.fileName),
+    key: cdktn.stringToTerraform(struct!.key),
     segment_settings: googleTranscoderJobTemplateConfigMuxStreamsSegmentSettingsToTerraform(struct!.segmentSettings),
   }
 }
 
 
-export function googleTranscoderJobTemplateConfigMuxStreamsToHclTerraform(struct?: GoogleTranscoderJobTemplateConfigMuxStreams | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleTranscoderJobTemplateConfigMuxStreamsToHclTerraform(struct?: GoogleTranscoderJobTemplateConfigMuxStreams | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     container: {
-      value: cdktf.stringToHclTerraform(struct!.container),
+      value: cdktn.stringToHclTerraform(struct!.container),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     elementary_streams: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.elementaryStreams),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.elementaryStreams),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     encryption_id: {
-      value: cdktf.stringToHclTerraform(struct!.encryptionId),
+      value: cdktn.stringToHclTerraform(struct!.encryptionId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     file_name: {
-      value: cdktf.stringToHclTerraform(struct!.fileName),
+      value: cdktn.stringToHclTerraform(struct!.fileName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     key: {
-      value: cdktf.stringToHclTerraform(struct!.key),
+      value: cdktn.stringToHclTerraform(struct!.key),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3004,9 +3004,9 @@ export function googleTranscoderJobTemplateConfigMuxStreamsToHclTerraform(struct
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleTranscoderJobTemplateConfigMuxStreamsOutputReference extends cdktf.ComplexObject {
+export class GoogleTranscoderJobTemplateConfigMuxStreamsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -3014,11 +3014,11 @@ export class GoogleTranscoderJobTemplateConfigMuxStreamsOutputReference extends 
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleTranscoderJobTemplateConfigMuxStreams | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleTranscoderJobTemplateConfigMuxStreams | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -3051,7 +3051,7 @@ export class GoogleTranscoderJobTemplateConfigMuxStreamsOutputReference extends 
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleTranscoderJobTemplateConfigMuxStreams | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleTranscoderJobTemplateConfigMuxStreams | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -3062,7 +3062,7 @@ export class GoogleTranscoderJobTemplateConfigMuxStreamsOutputReference extends 
       this._key = undefined;
       this._segmentSettings.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -3175,15 +3175,15 @@ export class GoogleTranscoderJobTemplateConfigMuxStreamsOutputReference extends 
   }
 }
 
-export class GoogleTranscoderJobTemplateConfigMuxStreamsList extends cdktf.ComplexList {
-  public internalValue? : GoogleTranscoderJobTemplateConfigMuxStreams[] | cdktf.IResolvable
+export class GoogleTranscoderJobTemplateConfigMuxStreamsList extends cdktn.ComplexList {
+  public internalValue? : GoogleTranscoderJobTemplateConfigMuxStreams[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -3204,24 +3204,24 @@ export interface GoogleTranscoderJobTemplateConfigOutput {
 }
 
 export function googleTranscoderJobTemplateConfigOutputToTerraform(struct?: GoogleTranscoderJobTemplateConfigOutputOutputReference | GoogleTranscoderJobTemplateConfigOutput): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    uri: cdktf.stringToTerraform(struct!.uri),
+    uri: cdktn.stringToTerraform(struct!.uri),
   }
 }
 
 
 export function googleTranscoderJobTemplateConfigOutputToHclTerraform(struct?: GoogleTranscoderJobTemplateConfigOutputOutputReference | GoogleTranscoderJobTemplateConfigOutput): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     uri: {
-      value: cdktf.stringToHclTerraform(struct!.uri),
+      value: cdktn.stringToHclTerraform(struct!.uri),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3232,14 +3232,14 @@ export function googleTranscoderJobTemplateConfigOutputToHclTerraform(struct?: G
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleTranscoderJobTemplateConfigOutputOutputReference extends cdktf.ComplexObject {
+export class GoogleTranscoderJobTemplateConfigOutputOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3296,31 +3296,31 @@ export interface GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFad
 }
 
 export function googleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeXyToTerraform(struct?: GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeXyOutputReference | GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeXy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    x: cdktf.numberToTerraform(struct!.x),
-    y: cdktf.numberToTerraform(struct!.y),
+    x: cdktn.numberToTerraform(struct!.x),
+    y: cdktn.numberToTerraform(struct!.y),
   }
 }
 
 
 export function googleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeXyToHclTerraform(struct?: GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeXyOutputReference | GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeXy): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     x: {
-      value: cdktf.numberToHclTerraform(struct!.x),
+      value: cdktn.numberToHclTerraform(struct!.x),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     y: {
-      value: cdktf.numberToHclTerraform(struct!.y),
+      value: cdktn.numberToHclTerraform(struct!.y),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -3331,14 +3331,14 @@ export function googleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFade
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeXyOutputReference extends cdktf.ComplexObject {
+export class GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeXyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3436,39 +3436,39 @@ export interface GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFad
 }
 
 export function googleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeToTerraform(struct?: GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeOutputReference | GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFade): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    end_time_offset: cdktf.stringToTerraform(struct!.endTimeOffset),
-    fade_type: cdktf.stringToTerraform(struct!.fadeType),
-    start_time_offset: cdktf.stringToTerraform(struct!.startTimeOffset),
+    end_time_offset: cdktn.stringToTerraform(struct!.endTimeOffset),
+    fade_type: cdktn.stringToTerraform(struct!.fadeType),
+    start_time_offset: cdktn.stringToTerraform(struct!.startTimeOffset),
     xy: googleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeXyToTerraform(struct!.xy),
   }
 }
 
 
 export function googleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeToHclTerraform(struct?: GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeOutputReference | GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFade): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     end_time_offset: {
-      value: cdktf.stringToHclTerraform(struct!.endTimeOffset),
+      value: cdktn.stringToHclTerraform(struct!.endTimeOffset),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     fade_type: {
-      value: cdktf.stringToHclTerraform(struct!.fadeType),
+      value: cdktn.stringToHclTerraform(struct!.fadeType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     start_time_offset: {
-      value: cdktf.stringToHclTerraform(struct!.startTimeOffset),
+      value: cdktn.stringToHclTerraform(struct!.startTimeOffset),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3485,14 +3485,14 @@ export function googleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFade
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeOutputReference extends cdktf.ComplexObject {
+export class GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3605,9 +3605,9 @@ export interface GoogleTranscoderJobTemplateConfigOverlaysAnimations {
   readonly animationFade?: GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFade;
 }
 
-export function googleTranscoderJobTemplateConfigOverlaysAnimationsToTerraform(struct?: GoogleTranscoderJobTemplateConfigOverlaysAnimations | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleTranscoderJobTemplateConfigOverlaysAnimationsToTerraform(struct?: GoogleTranscoderJobTemplateConfigOverlaysAnimations | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -3616,9 +3616,9 @@ export function googleTranscoderJobTemplateConfigOverlaysAnimationsToTerraform(s
 }
 
 
-export function googleTranscoderJobTemplateConfigOverlaysAnimationsToHclTerraform(struct?: GoogleTranscoderJobTemplateConfigOverlaysAnimations | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleTranscoderJobTemplateConfigOverlaysAnimationsToHclTerraform(struct?: GoogleTranscoderJobTemplateConfigOverlaysAnimations | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -3634,9 +3634,9 @@ export function googleTranscoderJobTemplateConfigOverlaysAnimationsToHclTerrafor
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleTranscoderJobTemplateConfigOverlaysAnimationsOutputReference extends cdktf.ComplexObject {
+export class GoogleTranscoderJobTemplateConfigOverlaysAnimationsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -3644,11 +3644,11 @@ export class GoogleTranscoderJobTemplateConfigOverlaysAnimationsOutputReference 
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleTranscoderJobTemplateConfigOverlaysAnimations | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleTranscoderJobTemplateConfigOverlaysAnimations | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -3661,13 +3661,13 @@ export class GoogleTranscoderJobTemplateConfigOverlaysAnimationsOutputReference 
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleTranscoderJobTemplateConfigOverlaysAnimations | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleTranscoderJobTemplateConfigOverlaysAnimations | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._animationFade.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -3695,15 +3695,15 @@ export class GoogleTranscoderJobTemplateConfigOverlaysAnimationsOutputReference 
   }
 }
 
-export class GoogleTranscoderJobTemplateConfigOverlaysAnimationsList extends cdktf.ComplexList {
-  public internalValue? : GoogleTranscoderJobTemplateConfigOverlaysAnimations[] | cdktf.IResolvable
+export class GoogleTranscoderJobTemplateConfigOverlaysAnimationsList extends cdktn.ComplexList {
+  public internalValue? : GoogleTranscoderJobTemplateConfigOverlaysAnimations[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -3724,24 +3724,24 @@ export interface GoogleTranscoderJobTemplateConfigOverlaysImage {
 }
 
 export function googleTranscoderJobTemplateConfigOverlaysImageToTerraform(struct?: GoogleTranscoderJobTemplateConfigOverlaysImageOutputReference | GoogleTranscoderJobTemplateConfigOverlaysImage): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    uri: cdktf.stringToTerraform(struct!.uri),
+    uri: cdktn.stringToTerraform(struct!.uri),
   }
 }
 
 
 export function googleTranscoderJobTemplateConfigOverlaysImageToHclTerraform(struct?: GoogleTranscoderJobTemplateConfigOverlaysImageOutputReference | GoogleTranscoderJobTemplateConfigOverlaysImage): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     uri: {
-      value: cdktf.stringToHclTerraform(struct!.uri),
+      value: cdktn.stringToHclTerraform(struct!.uri),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3752,14 +3752,14 @@ export function googleTranscoderJobTemplateConfigOverlaysImageToHclTerraform(str
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleTranscoderJobTemplateConfigOverlaysImageOutputReference extends cdktf.ComplexObject {
+export class GoogleTranscoderJobTemplateConfigOverlaysImageOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3803,7 +3803,7 @@ export interface GoogleTranscoderJobTemplateConfigOverlays {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_transcoder_job_template#animations GoogleTranscoderJobTemplate#animations}
   */
-  readonly animations?: GoogleTranscoderJobTemplateConfigOverlaysAnimations[] | cdktf.IResolvable;
+  readonly animations?: GoogleTranscoderJobTemplateConfigOverlaysAnimations[] | cdktn.IResolvable;
   /**
   * image block
   *
@@ -3812,26 +3812,26 @@ export interface GoogleTranscoderJobTemplateConfigOverlays {
   readonly image?: GoogleTranscoderJobTemplateConfigOverlaysImage;
 }
 
-export function googleTranscoderJobTemplateConfigOverlaysToTerraform(struct?: GoogleTranscoderJobTemplateConfigOverlays | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleTranscoderJobTemplateConfigOverlaysToTerraform(struct?: GoogleTranscoderJobTemplateConfigOverlays | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    animations: cdktf.listMapper(googleTranscoderJobTemplateConfigOverlaysAnimationsToTerraform, true)(struct!.animations),
+    animations: cdktn.listMapper(googleTranscoderJobTemplateConfigOverlaysAnimationsToTerraform, true)(struct!.animations),
     image: googleTranscoderJobTemplateConfigOverlaysImageToTerraform(struct!.image),
   }
 }
 
 
-export function googleTranscoderJobTemplateConfigOverlaysToHclTerraform(struct?: GoogleTranscoderJobTemplateConfigOverlays | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleTranscoderJobTemplateConfigOverlaysToHclTerraform(struct?: GoogleTranscoderJobTemplateConfigOverlays | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     animations: {
-      value: cdktf.listMapperHcl(googleTranscoderJobTemplateConfigOverlaysAnimationsToHclTerraform, true)(struct!.animations),
+      value: cdktn.listMapperHcl(googleTranscoderJobTemplateConfigOverlaysAnimationsToHclTerraform, true)(struct!.animations),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleTranscoderJobTemplateConfigOverlaysAnimationsList",
@@ -3848,9 +3848,9 @@ export function googleTranscoderJobTemplateConfigOverlaysToHclTerraform(struct?:
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleTranscoderJobTemplateConfigOverlaysOutputReference extends cdktf.ComplexObject {
+export class GoogleTranscoderJobTemplateConfigOverlaysOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -3858,11 +3858,11 @@ export class GoogleTranscoderJobTemplateConfigOverlaysOutputReference extends cd
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleTranscoderJobTemplateConfigOverlays | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleTranscoderJobTemplateConfigOverlays | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -3879,14 +3879,14 @@ export class GoogleTranscoderJobTemplateConfigOverlaysOutputReference extends cd
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleTranscoderJobTemplateConfigOverlays | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleTranscoderJobTemplateConfigOverlays | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._animations.internalValue = undefined;
       this._image.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -3903,7 +3903,7 @@ export class GoogleTranscoderJobTemplateConfigOverlaysOutputReference extends cd
   public get animations() {
     return this._animations;
   }
-  public putAnimations(value: GoogleTranscoderJobTemplateConfigOverlaysAnimations[] | cdktf.IResolvable) {
+  public putAnimations(value: GoogleTranscoderJobTemplateConfigOverlaysAnimations[] | cdktn.IResolvable) {
     this._animations.internalValue = value;
   }
   public resetAnimations() {
@@ -3931,15 +3931,15 @@ export class GoogleTranscoderJobTemplateConfigOverlaysOutputReference extends cd
   }
 }
 
-export class GoogleTranscoderJobTemplateConfigOverlaysList extends cdktf.ComplexList {
-  public internalValue? : GoogleTranscoderJobTemplateConfigOverlays[] | cdktf.IResolvable
+export class GoogleTranscoderJobTemplateConfigOverlaysList extends cdktn.ComplexList {
+  public internalValue? : GoogleTranscoderJobTemplateConfigOverlays[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -3960,24 +3960,24 @@ export interface GoogleTranscoderJobTemplateConfigPubsubDestination {
 }
 
 export function googleTranscoderJobTemplateConfigPubsubDestinationToTerraform(struct?: GoogleTranscoderJobTemplateConfigPubsubDestinationOutputReference | GoogleTranscoderJobTemplateConfigPubsubDestination): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    topic: cdktf.stringToTerraform(struct!.topic),
+    topic: cdktn.stringToTerraform(struct!.topic),
   }
 }
 
 
 export function googleTranscoderJobTemplateConfigPubsubDestinationToHclTerraform(struct?: GoogleTranscoderJobTemplateConfigPubsubDestinationOutputReference | GoogleTranscoderJobTemplateConfigPubsubDestination): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     topic: {
-      value: cdktf.stringToHclTerraform(struct!.topic),
+      value: cdktn.stringToHclTerraform(struct!.topic),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3988,14 +3988,14 @@ export function googleTranscoderJobTemplateConfigPubsubDestinationToHclTerraform
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleTranscoderJobTemplateConfigPubsubDestinationOutputReference extends cdktf.ComplexObject {
+export class GoogleTranscoderJobTemplateConfigPubsubDestinationOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -4042,43 +4042,43 @@ export interface GoogleTranscoderJobTemplateConfigA {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_transcoder_job_template#ad_breaks GoogleTranscoderJobTemplate#ad_breaks}
   */
-  readonly adBreaks?: GoogleTranscoderJobTemplateConfigAdBreaks[] | cdktf.IResolvable;
+  readonly adBreaks?: GoogleTranscoderJobTemplateConfigAdBreaks[] | cdktn.IResolvable;
   /**
   * edit_list block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_transcoder_job_template#edit_list GoogleTranscoderJobTemplate#edit_list}
   */
-  readonly editList?: GoogleTranscoderJobTemplateConfigEditListStruct[] | cdktf.IResolvable;
+  readonly editList?: GoogleTranscoderJobTemplateConfigEditListStruct[] | cdktn.IResolvable;
   /**
   * elementary_streams block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_transcoder_job_template#elementary_streams GoogleTranscoderJobTemplate#elementary_streams}
   */
-  readonly elementaryStreams?: GoogleTranscoderJobTemplateConfigElementaryStreams[] | cdktf.IResolvable;
+  readonly elementaryStreams?: GoogleTranscoderJobTemplateConfigElementaryStreams[] | cdktn.IResolvable;
   /**
   * encryptions block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_transcoder_job_template#encryptions GoogleTranscoderJobTemplate#encryptions}
   */
-  readonly encryptions?: GoogleTranscoderJobTemplateConfigEncryptions[] | cdktf.IResolvable;
+  readonly encryptions?: GoogleTranscoderJobTemplateConfigEncryptions[] | cdktn.IResolvable;
   /**
   * inputs block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_transcoder_job_template#inputs GoogleTranscoderJobTemplate#inputs}
   */
-  readonly inputs?: GoogleTranscoderJobTemplateConfigInputs[] | cdktf.IResolvable;
+  readonly inputs?: GoogleTranscoderJobTemplateConfigInputs[] | cdktn.IResolvable;
   /**
   * manifests block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_transcoder_job_template#manifests GoogleTranscoderJobTemplate#manifests}
   */
-  readonly manifests?: GoogleTranscoderJobTemplateConfigManifests[] | cdktf.IResolvable;
+  readonly manifests?: GoogleTranscoderJobTemplateConfigManifests[] | cdktn.IResolvable;
   /**
   * mux_streams block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_transcoder_job_template#mux_streams GoogleTranscoderJobTemplate#mux_streams}
   */
-  readonly muxStreams?: GoogleTranscoderJobTemplateConfigMuxStreams[] | cdktf.IResolvable;
+  readonly muxStreams?: GoogleTranscoderJobTemplateConfigMuxStreams[] | cdktn.IResolvable;
   /**
   * output block
   *
@@ -4090,7 +4090,7 @@ export interface GoogleTranscoderJobTemplateConfigA {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_transcoder_job_template#overlays GoogleTranscoderJobTemplate#overlays}
   */
-  readonly overlays?: GoogleTranscoderJobTemplateConfigOverlays[] | cdktf.IResolvable;
+  readonly overlays?: GoogleTranscoderJobTemplateConfigOverlays[] | cdktn.IResolvable;
   /**
   * pubsub_destination block
   *
@@ -4100,69 +4100,69 @@ export interface GoogleTranscoderJobTemplateConfigA {
 }
 
 export function googleTranscoderJobTemplateConfigAToTerraform(struct?: GoogleTranscoderJobTemplateConfigAOutputReference | GoogleTranscoderJobTemplateConfigA): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    ad_breaks: cdktf.listMapper(googleTranscoderJobTemplateConfigAdBreaksToTerraform, true)(struct!.adBreaks),
-    edit_list: cdktf.listMapper(googleTranscoderJobTemplateConfigEditListStructToTerraform, true)(struct!.editList),
-    elementary_streams: cdktf.listMapper(googleTranscoderJobTemplateConfigElementaryStreamsToTerraform, true)(struct!.elementaryStreams),
-    encryptions: cdktf.listMapper(googleTranscoderJobTemplateConfigEncryptionsToTerraform, true)(struct!.encryptions),
-    inputs: cdktf.listMapper(googleTranscoderJobTemplateConfigInputsToTerraform, true)(struct!.inputs),
-    manifests: cdktf.listMapper(googleTranscoderJobTemplateConfigManifestsToTerraform, true)(struct!.manifests),
-    mux_streams: cdktf.listMapper(googleTranscoderJobTemplateConfigMuxStreamsToTerraform, true)(struct!.muxStreams),
+    ad_breaks: cdktn.listMapper(googleTranscoderJobTemplateConfigAdBreaksToTerraform, true)(struct!.adBreaks),
+    edit_list: cdktn.listMapper(googleTranscoderJobTemplateConfigEditListStructToTerraform, true)(struct!.editList),
+    elementary_streams: cdktn.listMapper(googleTranscoderJobTemplateConfigElementaryStreamsToTerraform, true)(struct!.elementaryStreams),
+    encryptions: cdktn.listMapper(googleTranscoderJobTemplateConfigEncryptionsToTerraform, true)(struct!.encryptions),
+    inputs: cdktn.listMapper(googleTranscoderJobTemplateConfigInputsToTerraform, true)(struct!.inputs),
+    manifests: cdktn.listMapper(googleTranscoderJobTemplateConfigManifestsToTerraform, true)(struct!.manifests),
+    mux_streams: cdktn.listMapper(googleTranscoderJobTemplateConfigMuxStreamsToTerraform, true)(struct!.muxStreams),
     output: googleTranscoderJobTemplateConfigOutputToTerraform(struct!.output),
-    overlays: cdktf.listMapper(googleTranscoderJobTemplateConfigOverlaysToTerraform, true)(struct!.overlays),
+    overlays: cdktn.listMapper(googleTranscoderJobTemplateConfigOverlaysToTerraform, true)(struct!.overlays),
     pubsub_destination: googleTranscoderJobTemplateConfigPubsubDestinationToTerraform(struct!.pubsubDestination),
   }
 }
 
 
 export function googleTranscoderJobTemplateConfigAToHclTerraform(struct?: GoogleTranscoderJobTemplateConfigAOutputReference | GoogleTranscoderJobTemplateConfigA): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     ad_breaks: {
-      value: cdktf.listMapperHcl(googleTranscoderJobTemplateConfigAdBreaksToHclTerraform, true)(struct!.adBreaks),
+      value: cdktn.listMapperHcl(googleTranscoderJobTemplateConfigAdBreaksToHclTerraform, true)(struct!.adBreaks),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleTranscoderJobTemplateConfigAdBreaksList",
     },
     edit_list: {
-      value: cdktf.listMapperHcl(googleTranscoderJobTemplateConfigEditListStructToHclTerraform, true)(struct!.editList),
+      value: cdktn.listMapperHcl(googleTranscoderJobTemplateConfigEditListStructToHclTerraform, true)(struct!.editList),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleTranscoderJobTemplateConfigEditListStructList",
     },
     elementary_streams: {
-      value: cdktf.listMapperHcl(googleTranscoderJobTemplateConfigElementaryStreamsToHclTerraform, true)(struct!.elementaryStreams),
+      value: cdktn.listMapperHcl(googleTranscoderJobTemplateConfigElementaryStreamsToHclTerraform, true)(struct!.elementaryStreams),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleTranscoderJobTemplateConfigElementaryStreamsList",
     },
     encryptions: {
-      value: cdktf.listMapperHcl(googleTranscoderJobTemplateConfigEncryptionsToHclTerraform, true)(struct!.encryptions),
+      value: cdktn.listMapperHcl(googleTranscoderJobTemplateConfigEncryptionsToHclTerraform, true)(struct!.encryptions),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleTranscoderJobTemplateConfigEncryptionsList",
     },
     inputs: {
-      value: cdktf.listMapperHcl(googleTranscoderJobTemplateConfigInputsToHclTerraform, true)(struct!.inputs),
+      value: cdktn.listMapperHcl(googleTranscoderJobTemplateConfigInputsToHclTerraform, true)(struct!.inputs),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleTranscoderJobTemplateConfigInputsList",
     },
     manifests: {
-      value: cdktf.listMapperHcl(googleTranscoderJobTemplateConfigManifestsToHclTerraform, true)(struct!.manifests),
+      value: cdktn.listMapperHcl(googleTranscoderJobTemplateConfigManifestsToHclTerraform, true)(struct!.manifests),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleTranscoderJobTemplateConfigManifestsList",
     },
     mux_streams: {
-      value: cdktf.listMapperHcl(googleTranscoderJobTemplateConfigMuxStreamsToHclTerraform, true)(struct!.muxStreams),
+      value: cdktn.listMapperHcl(googleTranscoderJobTemplateConfigMuxStreamsToHclTerraform, true)(struct!.muxStreams),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleTranscoderJobTemplateConfigMuxStreamsList",
@@ -4174,7 +4174,7 @@ export function googleTranscoderJobTemplateConfigAToHclTerraform(struct?: Google
       storageClassType: "GoogleTranscoderJobTemplateConfigOutputList",
     },
     overlays: {
-      value: cdktf.listMapperHcl(googleTranscoderJobTemplateConfigOverlaysToHclTerraform, true)(struct!.overlays),
+      value: cdktn.listMapperHcl(googleTranscoderJobTemplateConfigOverlaysToHclTerraform, true)(struct!.overlays),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleTranscoderJobTemplateConfigOverlaysList",
@@ -4191,14 +4191,14 @@ export function googleTranscoderJobTemplateConfigAToHclTerraform(struct?: Google
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleTranscoderJobTemplateConfigAOutputReference extends cdktf.ComplexObject {
+export class GoogleTranscoderJobTemplateConfigAOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -4282,7 +4282,7 @@ export class GoogleTranscoderJobTemplateConfigAOutputReference extends cdktf.Com
   public get adBreaks() {
     return this._adBreaks;
   }
-  public putAdBreaks(value: GoogleTranscoderJobTemplateConfigAdBreaks[] | cdktf.IResolvable) {
+  public putAdBreaks(value: GoogleTranscoderJobTemplateConfigAdBreaks[] | cdktn.IResolvable) {
     this._adBreaks.internalValue = value;
   }
   public resetAdBreaks() {
@@ -4298,7 +4298,7 @@ export class GoogleTranscoderJobTemplateConfigAOutputReference extends cdktf.Com
   public get editList() {
     return this._editList;
   }
-  public putEditList(value: GoogleTranscoderJobTemplateConfigEditListStruct[] | cdktf.IResolvable) {
+  public putEditList(value: GoogleTranscoderJobTemplateConfigEditListStruct[] | cdktn.IResolvable) {
     this._editList.internalValue = value;
   }
   public resetEditList() {
@@ -4314,7 +4314,7 @@ export class GoogleTranscoderJobTemplateConfigAOutputReference extends cdktf.Com
   public get elementaryStreams() {
     return this._elementaryStreams;
   }
-  public putElementaryStreams(value: GoogleTranscoderJobTemplateConfigElementaryStreams[] | cdktf.IResolvable) {
+  public putElementaryStreams(value: GoogleTranscoderJobTemplateConfigElementaryStreams[] | cdktn.IResolvable) {
     this._elementaryStreams.internalValue = value;
   }
   public resetElementaryStreams() {
@@ -4330,7 +4330,7 @@ export class GoogleTranscoderJobTemplateConfigAOutputReference extends cdktf.Com
   public get encryptions() {
     return this._encryptions;
   }
-  public putEncryptions(value: GoogleTranscoderJobTemplateConfigEncryptions[] | cdktf.IResolvable) {
+  public putEncryptions(value: GoogleTranscoderJobTemplateConfigEncryptions[] | cdktn.IResolvable) {
     this._encryptions.internalValue = value;
   }
   public resetEncryptions() {
@@ -4346,7 +4346,7 @@ export class GoogleTranscoderJobTemplateConfigAOutputReference extends cdktf.Com
   public get inputs() {
     return this._inputs;
   }
-  public putInputs(value: GoogleTranscoderJobTemplateConfigInputs[] | cdktf.IResolvable) {
+  public putInputs(value: GoogleTranscoderJobTemplateConfigInputs[] | cdktn.IResolvable) {
     this._inputs.internalValue = value;
   }
   public resetInputs() {
@@ -4362,7 +4362,7 @@ export class GoogleTranscoderJobTemplateConfigAOutputReference extends cdktf.Com
   public get manifests() {
     return this._manifests;
   }
-  public putManifests(value: GoogleTranscoderJobTemplateConfigManifests[] | cdktf.IResolvable) {
+  public putManifests(value: GoogleTranscoderJobTemplateConfigManifests[] | cdktn.IResolvable) {
     this._manifests.internalValue = value;
   }
   public resetManifests() {
@@ -4378,7 +4378,7 @@ export class GoogleTranscoderJobTemplateConfigAOutputReference extends cdktf.Com
   public get muxStreams() {
     return this._muxStreams;
   }
-  public putMuxStreams(value: GoogleTranscoderJobTemplateConfigMuxStreams[] | cdktf.IResolvable) {
+  public putMuxStreams(value: GoogleTranscoderJobTemplateConfigMuxStreams[] | cdktn.IResolvable) {
     this._muxStreams.internalValue = value;
   }
   public resetMuxStreams() {
@@ -4410,7 +4410,7 @@ export class GoogleTranscoderJobTemplateConfigAOutputReference extends cdktf.Com
   public get overlays() {
     return this._overlays;
   }
-  public putOverlays(value: GoogleTranscoderJobTemplateConfigOverlays[] | cdktf.IResolvable) {
+  public putOverlays(value: GoogleTranscoderJobTemplateConfigOverlays[] | cdktn.IResolvable) {
     this._overlays.internalValue = value;
   }
   public resetOverlays() {
@@ -4452,39 +4452,39 @@ export interface GoogleTranscoderJobTemplateTimeouts {
   readonly update?: string;
 }
 
-export function googleTranscoderJobTemplateTimeoutsToTerraform(struct?: GoogleTranscoderJobTemplateTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleTranscoderJobTemplateTimeoutsToTerraform(struct?: GoogleTranscoderJobTemplateTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleTranscoderJobTemplateTimeoutsToHclTerraform(struct?: GoogleTranscoderJobTemplateTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleTranscoderJobTemplateTimeoutsToHclTerraform(struct?: GoogleTranscoderJobTemplateTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -4495,19 +4495,19 @@ export function googleTranscoderJobTemplateTimeoutsToHclTerraform(struct?: Googl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleTranscoderJobTemplateTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleTranscoderJobTemplateTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleTranscoderJobTemplateTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleTranscoderJobTemplateTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -4528,7 +4528,7 @@ export class GoogleTranscoderJobTemplateTimeoutsOutputReference extends cdktf.Co
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleTranscoderJobTemplateTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleTranscoderJobTemplateTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -4536,7 +4536,7 @@ export class GoogleTranscoderJobTemplateTimeoutsOutputReference extends cdktf.Co
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -4601,7 +4601,7 @@ export class GoogleTranscoderJobTemplateTimeoutsOutputReference extends cdktf.Co
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_transcoder_job_template google_transcoder_job_template}
 */
-export class GoogleTranscoderJobTemplate extends cdktf.TerraformResource {
+export class GoogleTranscoderJobTemplate extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -4612,14 +4612,14 @@ export class GoogleTranscoderJobTemplate extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleTranscoderJobTemplate resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleTranscoderJobTemplate resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleTranscoderJobTemplate to import
   * @param importFromId The id of the existing GoogleTranscoderJobTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_transcoder_job_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleTranscoderJobTemplate to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_transcoder_job_template", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_transcoder_job_template", importId: importFromId, provider });
       }
 
   // ===========
@@ -4663,7 +4663,7 @@ export class GoogleTranscoderJobTemplate extends cdktf.TerraformResource {
   // ==========
 
   // effective_labels - computed: true, optional: false, required: false
-  private _effectiveLabels = new cdktf.StringMap(this, "effective_labels");
+  private _effectiveLabels = new cdktn.StringMap(this, "effective_labels");
   public get effectiveLabels() {
     return this._effectiveLabels;
   }
@@ -4748,7 +4748,7 @@ export class GoogleTranscoderJobTemplate extends cdktf.TerraformResource {
   }
 
   // terraform_labels - computed: true, optional: false, required: false
-  private _terraformLabels = new cdktf.StringMap(this, "terraform_labels");
+  private _terraformLabels = new cdktn.StringMap(this, "terraform_labels");
   public get terraformLabels() {
     return this._terraformLabels;
   }
@@ -4791,11 +4791,11 @@ export class GoogleTranscoderJobTemplate extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      id: cdktf.stringToTerraform(this._id),
-      job_template_id: cdktf.stringToTerraform(this._jobTemplateId),
-      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
-      location: cdktf.stringToTerraform(this._location),
-      project: cdktf.stringToTerraform(this._project),
+      id: cdktn.stringToTerraform(this._id),
+      job_template_id: cdktn.stringToTerraform(this._jobTemplateId),
+      labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
+      location: cdktn.stringToTerraform(this._location),
+      project: cdktn.stringToTerraform(this._project),
       config: googleTranscoderJobTemplateConfigAToTerraform(this._config.internalValue),
       timeouts: googleTranscoderJobTemplateTimeoutsToTerraform(this._timeouts.internalValue),
     };
@@ -4804,31 +4804,31 @@ export class GoogleTranscoderJobTemplate extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       job_template_id: {
-        value: cdktf.stringToHclTerraform(this._jobTemplateId),
+        value: cdktn.stringToHclTerraform(this._jobTemplateId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._labels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

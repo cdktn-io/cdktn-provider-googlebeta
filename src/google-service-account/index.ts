@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleServiceAccountConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleServiceAccountConfig extends cdktn.TerraformMetaArguments {
   /**
   * The account id that is used to generate the service account email address and a stable unique id. It is unique within a project, must be 6-30 characters long, and match the regular expression [a-z]([-a-z0-9]*[a-z0-9]) to comply with RFC1035. Changing this forces a new service account to be created.
   *
@@ -23,7 +23,7 @@ export interface GoogleServiceAccountConfig extends cdktf.TerraformMetaArguments
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_service_account#create_ignore_already_exists GoogleServiceAccount#create_ignore_already_exists}
   */
-  readonly createIgnoreAlreadyExists?: boolean | cdktf.IResolvable;
+  readonly createIgnoreAlreadyExists?: boolean | cdktn.IResolvable;
   /**
   * A text description of the service account. Must be less than or equal to 256 UTF-8 bytes.
   *
@@ -35,7 +35,7 @@ export interface GoogleServiceAccountConfig extends cdktf.TerraformMetaArguments
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_service_account#disabled GoogleServiceAccount#disabled}
   */
-  readonly disabled?: boolean | cdktf.IResolvable;
+  readonly disabled?: boolean | cdktn.IResolvable;
   /**
   * The display name for the service account. Can be updated without creating a new resource.
   *
@@ -69,25 +69,25 @@ export interface GoogleServiceAccountTimeouts {
   readonly create?: string;
 }
 
-export function googleServiceAccountTimeoutsToTerraform(struct?: GoogleServiceAccountTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleServiceAccountTimeoutsToTerraform(struct?: GoogleServiceAccountTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
+    create: cdktn.stringToTerraform(struct!.create),
   }
 }
 
 
-export function googleServiceAccountTimeoutsToHclTerraform(struct?: GoogleServiceAccountTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleServiceAccountTimeoutsToHclTerraform(struct?: GoogleServiceAccountTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -98,19 +98,19 @@ export function googleServiceAccountTimeoutsToHclTerraform(struct?: GoogleServic
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleServiceAccountTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleServiceAccountTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleServiceAccountTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleServiceAccountTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -123,13 +123,13 @@ export class GoogleServiceAccountTimeoutsOutputReference extends cdktf.ComplexOb
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleServiceAccountTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleServiceAccountTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._create = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -160,7 +160,7 @@ export class GoogleServiceAccountTimeoutsOutputReference extends cdktf.ComplexOb
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_service_account google_service_account}
 */
-export class GoogleServiceAccount extends cdktf.TerraformResource {
+export class GoogleServiceAccount extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -171,14 +171,14 @@ export class GoogleServiceAccount extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleServiceAccount resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleServiceAccount resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleServiceAccount to import
   * @param importFromId The id of the existing GoogleServiceAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_service_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleServiceAccount to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_service_account", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_service_account", importId: importFromId, provider });
       }
 
   // ===========
@@ -236,11 +236,11 @@ export class GoogleServiceAccount extends cdktf.TerraformResource {
   }
 
   // create_ignore_already_exists - computed: false, optional: true, required: false
-  private _createIgnoreAlreadyExists?: boolean | cdktf.IResolvable; 
+  private _createIgnoreAlreadyExists?: boolean | cdktn.IResolvable; 
   public get createIgnoreAlreadyExists() {
     return this.getBooleanAttribute('create_ignore_already_exists');
   }
-  public set createIgnoreAlreadyExists(value: boolean | cdktf.IResolvable) {
+  public set createIgnoreAlreadyExists(value: boolean | cdktn.IResolvable) {
     this._createIgnoreAlreadyExists = value;
   }
   public resetCreateIgnoreAlreadyExists() {
@@ -268,11 +268,11 @@ export class GoogleServiceAccount extends cdktf.TerraformResource {
   }
 
   // disabled - computed: false, optional: true, required: false
-  private _disabled?: boolean | cdktf.IResolvable; 
+  private _disabled?: boolean | cdktn.IResolvable; 
   public get disabled() {
     return this.getBooleanAttribute('disabled');
   }
-  public set disabled(value: boolean | cdktf.IResolvable) {
+  public set disabled(value: boolean | cdktn.IResolvable) {
     this._disabled = value;
   }
   public resetDisabled() {
@@ -373,13 +373,13 @@ export class GoogleServiceAccount extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      account_id: cdktf.stringToTerraform(this._accountId),
-      create_ignore_already_exists: cdktf.booleanToTerraform(this._createIgnoreAlreadyExists),
-      description: cdktf.stringToTerraform(this._description),
-      disabled: cdktf.booleanToTerraform(this._disabled),
-      display_name: cdktf.stringToTerraform(this._displayName),
-      id: cdktf.stringToTerraform(this._id),
-      project: cdktf.stringToTerraform(this._project),
+      account_id: cdktn.stringToTerraform(this._accountId),
+      create_ignore_already_exists: cdktn.booleanToTerraform(this._createIgnoreAlreadyExists),
+      description: cdktn.stringToTerraform(this._description),
+      disabled: cdktn.booleanToTerraform(this._disabled),
+      display_name: cdktn.stringToTerraform(this._displayName),
+      id: cdktn.stringToTerraform(this._id),
+      project: cdktn.stringToTerraform(this._project),
       timeouts: googleServiceAccountTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -387,43 +387,43 @@ export class GoogleServiceAccount extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       account_id: {
-        value: cdktf.stringToHclTerraform(this._accountId),
+        value: cdktn.stringToHclTerraform(this._accountId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       create_ignore_already_exists: {
-        value: cdktf.booleanToHclTerraform(this._createIgnoreAlreadyExists),
+        value: cdktn.booleanToHclTerraform(this._createIgnoreAlreadyExists),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       disabled: {
-        value: cdktf.booleanToHclTerraform(this._disabled),
+        value: cdktn.booleanToHclTerraform(this._disabled),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       display_name: {
-        value: cdktf.stringToHclTerraform(this._displayName),
+        value: cdktn.stringToHclTerraform(this._displayName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

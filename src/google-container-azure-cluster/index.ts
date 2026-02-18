@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleContainerAzureClusterConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleContainerAzureClusterConfig extends cdktn.TerraformMetaArguments {
   /**
   * Optional. Annotations on the cluster. This field has the same restrictions as Kubernetes annotations. The total size of all keys and values combined is limited to 256k. Keys can have 2 segments: prefix (optional) and name (required), separated by a slash (/). Prefix must be a DNS subdomain. Name must be 63 characters or less, begin and end with alphanumerics, with dashes (-), underscores (_), dots (.), and alphanumerics between.
   * 
@@ -119,8 +119,8 @@ export interface GoogleContainerAzureClusterWorkloadIdentityConfig {
 }
 
 export function googleContainerAzureClusterWorkloadIdentityConfigToTerraform(struct?: GoogleContainerAzureClusterWorkloadIdentityConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -129,8 +129,8 @@ export function googleContainerAzureClusterWorkloadIdentityConfigToTerraform(str
 
 
 export function googleContainerAzureClusterWorkloadIdentityConfigToHclTerraform(struct?: GoogleContainerAzureClusterWorkloadIdentityConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -138,7 +138,7 @@ export function googleContainerAzureClusterWorkloadIdentityConfigToHclTerraform(
   return attrs;
 }
 
-export class GoogleContainerAzureClusterWorkloadIdentityConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleContainerAzureClusterWorkloadIdentityConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -147,7 +147,7 @@ export class GoogleContainerAzureClusterWorkloadIdentityConfigOutputReference ex
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -182,14 +182,14 @@ export class GoogleContainerAzureClusterWorkloadIdentityConfigOutputReference ex
   }
 }
 
-export class GoogleContainerAzureClusterWorkloadIdentityConfigList extends cdktf.ComplexList {
+export class GoogleContainerAzureClusterWorkloadIdentityConfigList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -209,25 +209,25 @@ export interface GoogleContainerAzureClusterAuthorizationAdminGroups {
   readonly group: string;
 }
 
-export function googleContainerAzureClusterAuthorizationAdminGroupsToTerraform(struct?: GoogleContainerAzureClusterAuthorizationAdminGroups | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleContainerAzureClusterAuthorizationAdminGroupsToTerraform(struct?: GoogleContainerAzureClusterAuthorizationAdminGroups | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    group: cdktf.stringToTerraform(struct!.group),
+    group: cdktn.stringToTerraform(struct!.group),
   }
 }
 
 
-export function googleContainerAzureClusterAuthorizationAdminGroupsToHclTerraform(struct?: GoogleContainerAzureClusterAuthorizationAdminGroups | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleContainerAzureClusterAuthorizationAdminGroupsToHclTerraform(struct?: GoogleContainerAzureClusterAuthorizationAdminGroups | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     group: {
-      value: cdktf.stringToHclTerraform(struct!.group),
+      value: cdktn.stringToHclTerraform(struct!.group),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -238,9 +238,9 @@ export function googleContainerAzureClusterAuthorizationAdminGroupsToHclTerrafor
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleContainerAzureClusterAuthorizationAdminGroupsOutputReference extends cdktf.ComplexObject {
+export class GoogleContainerAzureClusterAuthorizationAdminGroupsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -248,11 +248,11 @@ export class GoogleContainerAzureClusterAuthorizationAdminGroupsOutputReference 
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleContainerAzureClusterAuthorizationAdminGroups | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleContainerAzureClusterAuthorizationAdminGroups | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -265,13 +265,13 @@ export class GoogleContainerAzureClusterAuthorizationAdminGroupsOutputReference 
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleContainerAzureClusterAuthorizationAdminGroups | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleContainerAzureClusterAuthorizationAdminGroups | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._group = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -296,15 +296,15 @@ export class GoogleContainerAzureClusterAuthorizationAdminGroupsOutputReference 
   }
 }
 
-export class GoogleContainerAzureClusterAuthorizationAdminGroupsList extends cdktf.ComplexList {
-  public internalValue? : GoogleContainerAzureClusterAuthorizationAdminGroups[] | cdktf.IResolvable
+export class GoogleContainerAzureClusterAuthorizationAdminGroupsList extends cdktn.ComplexList {
+  public internalValue? : GoogleContainerAzureClusterAuthorizationAdminGroups[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -324,25 +324,25 @@ export interface GoogleContainerAzureClusterAuthorizationAdminUsers {
   readonly username: string;
 }
 
-export function googleContainerAzureClusterAuthorizationAdminUsersToTerraform(struct?: GoogleContainerAzureClusterAuthorizationAdminUsers | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleContainerAzureClusterAuthorizationAdminUsersToTerraform(struct?: GoogleContainerAzureClusterAuthorizationAdminUsers | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    username: cdktf.stringToTerraform(struct!.username),
+    username: cdktn.stringToTerraform(struct!.username),
   }
 }
 
 
-export function googleContainerAzureClusterAuthorizationAdminUsersToHclTerraform(struct?: GoogleContainerAzureClusterAuthorizationAdminUsers | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleContainerAzureClusterAuthorizationAdminUsersToHclTerraform(struct?: GoogleContainerAzureClusterAuthorizationAdminUsers | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     username: {
-      value: cdktf.stringToHclTerraform(struct!.username),
+      value: cdktn.stringToHclTerraform(struct!.username),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -353,9 +353,9 @@ export function googleContainerAzureClusterAuthorizationAdminUsersToHclTerraform
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleContainerAzureClusterAuthorizationAdminUsersOutputReference extends cdktf.ComplexObject {
+export class GoogleContainerAzureClusterAuthorizationAdminUsersOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -363,11 +363,11 @@ export class GoogleContainerAzureClusterAuthorizationAdminUsersOutputReference e
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleContainerAzureClusterAuthorizationAdminUsers | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleContainerAzureClusterAuthorizationAdminUsers | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -380,13 +380,13 @@ export class GoogleContainerAzureClusterAuthorizationAdminUsersOutputReference e
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleContainerAzureClusterAuthorizationAdminUsers | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleContainerAzureClusterAuthorizationAdminUsers | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._username = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -411,15 +411,15 @@ export class GoogleContainerAzureClusterAuthorizationAdminUsersOutputReference e
   }
 }
 
-export class GoogleContainerAzureClusterAuthorizationAdminUsersList extends cdktf.ComplexList {
-  public internalValue? : GoogleContainerAzureClusterAuthorizationAdminUsers[] | cdktf.IResolvable
+export class GoogleContainerAzureClusterAuthorizationAdminUsersList extends cdktn.ComplexList {
+  public internalValue? : GoogleContainerAzureClusterAuthorizationAdminUsers[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -436,41 +436,41 @@ export interface GoogleContainerAzureClusterAuthorization {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_azure_cluster#admin_groups GoogleContainerAzureCluster#admin_groups}
   */
-  readonly adminGroups?: GoogleContainerAzureClusterAuthorizationAdminGroups[] | cdktf.IResolvable;
+  readonly adminGroups?: GoogleContainerAzureClusterAuthorizationAdminGroups[] | cdktn.IResolvable;
   /**
   * admin_users block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_azure_cluster#admin_users GoogleContainerAzureCluster#admin_users}
   */
-  readonly adminUsers: GoogleContainerAzureClusterAuthorizationAdminUsers[] | cdktf.IResolvable;
+  readonly adminUsers: GoogleContainerAzureClusterAuthorizationAdminUsers[] | cdktn.IResolvable;
 }
 
 export function googleContainerAzureClusterAuthorizationToTerraform(struct?: GoogleContainerAzureClusterAuthorizationOutputReference | GoogleContainerAzureClusterAuthorization): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    admin_groups: cdktf.listMapper(googleContainerAzureClusterAuthorizationAdminGroupsToTerraform, true)(struct!.adminGroups),
-    admin_users: cdktf.listMapper(googleContainerAzureClusterAuthorizationAdminUsersToTerraform, true)(struct!.adminUsers),
+    admin_groups: cdktn.listMapper(googleContainerAzureClusterAuthorizationAdminGroupsToTerraform, true)(struct!.adminGroups),
+    admin_users: cdktn.listMapper(googleContainerAzureClusterAuthorizationAdminUsersToTerraform, true)(struct!.adminUsers),
   }
 }
 
 
 export function googleContainerAzureClusterAuthorizationToHclTerraform(struct?: GoogleContainerAzureClusterAuthorizationOutputReference | GoogleContainerAzureClusterAuthorization): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     admin_groups: {
-      value: cdktf.listMapperHcl(googleContainerAzureClusterAuthorizationAdminGroupsToHclTerraform, true)(struct!.adminGroups),
+      value: cdktn.listMapperHcl(googleContainerAzureClusterAuthorizationAdminGroupsToHclTerraform, true)(struct!.adminGroups),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleContainerAzureClusterAuthorizationAdminGroupsList",
     },
     admin_users: {
-      value: cdktf.listMapperHcl(googleContainerAzureClusterAuthorizationAdminUsersToHclTerraform, true)(struct!.adminUsers),
+      value: cdktn.listMapperHcl(googleContainerAzureClusterAuthorizationAdminUsersToHclTerraform, true)(struct!.adminUsers),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleContainerAzureClusterAuthorizationAdminUsersList",
@@ -481,14 +481,14 @@ export function googleContainerAzureClusterAuthorizationToHclTerraform(struct?: 
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleContainerAzureClusterAuthorizationOutputReference extends cdktf.ComplexObject {
+export class GoogleContainerAzureClusterAuthorizationOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -524,7 +524,7 @@ export class GoogleContainerAzureClusterAuthorizationOutputReference extends cdk
   public get adminGroups() {
     return this._adminGroups;
   }
-  public putAdminGroups(value: GoogleContainerAzureClusterAuthorizationAdminGroups[] | cdktf.IResolvable) {
+  public putAdminGroups(value: GoogleContainerAzureClusterAuthorizationAdminGroups[] | cdktn.IResolvable) {
     this._adminGroups.internalValue = value;
   }
   public resetAdminGroups() {
@@ -540,7 +540,7 @@ export class GoogleContainerAzureClusterAuthorizationOutputReference extends cdk
   public get adminUsers() {
     return this._adminUsers;
   }
-  public putAdminUsers(value: GoogleContainerAzureClusterAuthorizationAdminUsers[] | cdktf.IResolvable) {
+  public putAdminUsers(value: GoogleContainerAzureClusterAuthorizationAdminUsers[] | cdktn.IResolvable) {
     this._adminUsers.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -564,31 +564,31 @@ export interface GoogleContainerAzureClusterAzureServicesAuthentication {
 }
 
 export function googleContainerAzureClusterAzureServicesAuthenticationToTerraform(struct?: GoogleContainerAzureClusterAzureServicesAuthenticationOutputReference | GoogleContainerAzureClusterAzureServicesAuthentication): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    application_id: cdktf.stringToTerraform(struct!.applicationId),
-    tenant_id: cdktf.stringToTerraform(struct!.tenantId),
+    application_id: cdktn.stringToTerraform(struct!.applicationId),
+    tenant_id: cdktn.stringToTerraform(struct!.tenantId),
   }
 }
 
 
 export function googleContainerAzureClusterAzureServicesAuthenticationToHclTerraform(struct?: GoogleContainerAzureClusterAzureServicesAuthenticationOutputReference | GoogleContainerAzureClusterAzureServicesAuthentication): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     application_id: {
-      value: cdktf.stringToHclTerraform(struct!.applicationId),
+      value: cdktn.stringToHclTerraform(struct!.applicationId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     tenant_id: {
-      value: cdktf.stringToHclTerraform(struct!.tenantId),
+      value: cdktn.stringToHclTerraform(struct!.tenantId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -599,14 +599,14 @@ export function googleContainerAzureClusterAzureServicesAuthenticationToHclTerra
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleContainerAzureClusterAzureServicesAuthenticationOutputReference extends cdktf.ComplexObject {
+export class GoogleContainerAzureClusterAzureServicesAuthenticationOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -673,24 +673,24 @@ export interface GoogleContainerAzureClusterControlPlaneDatabaseEncryption {
 }
 
 export function googleContainerAzureClusterControlPlaneDatabaseEncryptionToTerraform(struct?: GoogleContainerAzureClusterControlPlaneDatabaseEncryptionOutputReference | GoogleContainerAzureClusterControlPlaneDatabaseEncryption): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    key_id: cdktf.stringToTerraform(struct!.keyId),
+    key_id: cdktn.stringToTerraform(struct!.keyId),
   }
 }
 
 
 export function googleContainerAzureClusterControlPlaneDatabaseEncryptionToHclTerraform(struct?: GoogleContainerAzureClusterControlPlaneDatabaseEncryptionOutputReference | GoogleContainerAzureClusterControlPlaneDatabaseEncryption): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     key_id: {
-      value: cdktf.stringToHclTerraform(struct!.keyId),
+      value: cdktn.stringToHclTerraform(struct!.keyId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -701,14 +701,14 @@ export function googleContainerAzureClusterControlPlaneDatabaseEncryptionToHclTe
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleContainerAzureClusterControlPlaneDatabaseEncryptionOutputReference extends cdktf.ComplexObject {
+export class GoogleContainerAzureClusterControlPlaneDatabaseEncryptionOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -756,24 +756,24 @@ export interface GoogleContainerAzureClusterControlPlaneMainVolume {
 }
 
 export function googleContainerAzureClusterControlPlaneMainVolumeToTerraform(struct?: GoogleContainerAzureClusterControlPlaneMainVolumeOutputReference | GoogleContainerAzureClusterControlPlaneMainVolume): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    size_gib: cdktf.numberToTerraform(struct!.sizeGib),
+    size_gib: cdktn.numberToTerraform(struct!.sizeGib),
   }
 }
 
 
 export function googleContainerAzureClusterControlPlaneMainVolumeToHclTerraform(struct?: GoogleContainerAzureClusterControlPlaneMainVolumeOutputReference | GoogleContainerAzureClusterControlPlaneMainVolume): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     size_gib: {
-      value: cdktf.numberToHclTerraform(struct!.sizeGib),
+      value: cdktn.numberToHclTerraform(struct!.sizeGib),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -784,14 +784,14 @@ export function googleContainerAzureClusterControlPlaneMainVolumeToHclTerraform(
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleContainerAzureClusterControlPlaneMainVolumeOutputReference extends cdktf.ComplexObject {
+export class GoogleContainerAzureClusterControlPlaneMainVolumeOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -848,31 +848,31 @@ export interface GoogleContainerAzureClusterControlPlaneProxyConfig {
 }
 
 export function googleContainerAzureClusterControlPlaneProxyConfigToTerraform(struct?: GoogleContainerAzureClusterControlPlaneProxyConfigOutputReference | GoogleContainerAzureClusterControlPlaneProxyConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    resource_group_id: cdktf.stringToTerraform(struct!.resourceGroupId),
-    secret_id: cdktf.stringToTerraform(struct!.secretId),
+    resource_group_id: cdktn.stringToTerraform(struct!.resourceGroupId),
+    secret_id: cdktn.stringToTerraform(struct!.secretId),
   }
 }
 
 
 export function googleContainerAzureClusterControlPlaneProxyConfigToHclTerraform(struct?: GoogleContainerAzureClusterControlPlaneProxyConfigOutputReference | GoogleContainerAzureClusterControlPlaneProxyConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     resource_group_id: {
-      value: cdktf.stringToHclTerraform(struct!.resourceGroupId),
+      value: cdktn.stringToHclTerraform(struct!.resourceGroupId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     secret_id: {
-      value: cdktf.stringToHclTerraform(struct!.secretId),
+      value: cdktn.stringToHclTerraform(struct!.secretId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -883,14 +883,14 @@ export function googleContainerAzureClusterControlPlaneProxyConfigToHclTerraform
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleContainerAzureClusterControlPlaneProxyConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleContainerAzureClusterControlPlaneProxyConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -962,32 +962,32 @@ export interface GoogleContainerAzureClusterControlPlaneReplicaPlacements {
   readonly subnetId: string;
 }
 
-export function googleContainerAzureClusterControlPlaneReplicaPlacementsToTerraform(struct?: GoogleContainerAzureClusterControlPlaneReplicaPlacements | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleContainerAzureClusterControlPlaneReplicaPlacementsToTerraform(struct?: GoogleContainerAzureClusterControlPlaneReplicaPlacements | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    azure_availability_zone: cdktf.stringToTerraform(struct!.azureAvailabilityZone),
-    subnet_id: cdktf.stringToTerraform(struct!.subnetId),
+    azure_availability_zone: cdktn.stringToTerraform(struct!.azureAvailabilityZone),
+    subnet_id: cdktn.stringToTerraform(struct!.subnetId),
   }
 }
 
 
-export function googleContainerAzureClusterControlPlaneReplicaPlacementsToHclTerraform(struct?: GoogleContainerAzureClusterControlPlaneReplicaPlacements | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleContainerAzureClusterControlPlaneReplicaPlacementsToHclTerraform(struct?: GoogleContainerAzureClusterControlPlaneReplicaPlacements | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     azure_availability_zone: {
-      value: cdktf.stringToHclTerraform(struct!.azureAvailabilityZone),
+      value: cdktn.stringToHclTerraform(struct!.azureAvailabilityZone),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     subnet_id: {
-      value: cdktf.stringToHclTerraform(struct!.subnetId),
+      value: cdktn.stringToHclTerraform(struct!.subnetId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -998,9 +998,9 @@ export function googleContainerAzureClusterControlPlaneReplicaPlacementsToHclTer
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleContainerAzureClusterControlPlaneReplicaPlacementsOutputReference extends cdktf.ComplexObject {
+export class GoogleContainerAzureClusterControlPlaneReplicaPlacementsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -1008,11 +1008,11 @@ export class GoogleContainerAzureClusterControlPlaneReplicaPlacementsOutputRefer
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleContainerAzureClusterControlPlaneReplicaPlacements | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleContainerAzureClusterControlPlaneReplicaPlacements | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1029,14 +1029,14 @@ export class GoogleContainerAzureClusterControlPlaneReplicaPlacementsOutputRefer
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleContainerAzureClusterControlPlaneReplicaPlacements | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleContainerAzureClusterControlPlaneReplicaPlacements | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._azureAvailabilityZone = undefined;
       this._subnetId = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1075,15 +1075,15 @@ export class GoogleContainerAzureClusterControlPlaneReplicaPlacementsOutputRefer
   }
 }
 
-export class GoogleContainerAzureClusterControlPlaneReplicaPlacementsList extends cdktf.ComplexList {
-  public internalValue? : GoogleContainerAzureClusterControlPlaneReplicaPlacements[] | cdktf.IResolvable
+export class GoogleContainerAzureClusterControlPlaneReplicaPlacementsList extends cdktn.ComplexList {
+  public internalValue? : GoogleContainerAzureClusterControlPlaneReplicaPlacements[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1104,24 +1104,24 @@ export interface GoogleContainerAzureClusterControlPlaneRootVolume {
 }
 
 export function googleContainerAzureClusterControlPlaneRootVolumeToTerraform(struct?: GoogleContainerAzureClusterControlPlaneRootVolumeOutputReference | GoogleContainerAzureClusterControlPlaneRootVolume): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    size_gib: cdktf.numberToTerraform(struct!.sizeGib),
+    size_gib: cdktn.numberToTerraform(struct!.sizeGib),
   }
 }
 
 
 export function googleContainerAzureClusterControlPlaneRootVolumeToHclTerraform(struct?: GoogleContainerAzureClusterControlPlaneRootVolumeOutputReference | GoogleContainerAzureClusterControlPlaneRootVolume): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     size_gib: {
-      value: cdktf.numberToHclTerraform(struct!.sizeGib),
+      value: cdktn.numberToHclTerraform(struct!.sizeGib),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1132,14 +1132,14 @@ export function googleContainerAzureClusterControlPlaneRootVolumeToHclTerraform(
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleContainerAzureClusterControlPlaneRootVolumeOutputReference extends cdktf.ComplexObject {
+export class GoogleContainerAzureClusterControlPlaneRootVolumeOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1190,24 +1190,24 @@ export interface GoogleContainerAzureClusterControlPlaneSshConfig {
 }
 
 export function googleContainerAzureClusterControlPlaneSshConfigToTerraform(struct?: GoogleContainerAzureClusterControlPlaneSshConfigOutputReference | GoogleContainerAzureClusterControlPlaneSshConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    authorized_key: cdktf.stringToTerraform(struct!.authorizedKey),
+    authorized_key: cdktn.stringToTerraform(struct!.authorizedKey),
   }
 }
 
 
 export function googleContainerAzureClusterControlPlaneSshConfigToHclTerraform(struct?: GoogleContainerAzureClusterControlPlaneSshConfigOutputReference | GoogleContainerAzureClusterControlPlaneSshConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     authorized_key: {
-      value: cdktf.stringToHclTerraform(struct!.authorizedKey),
+      value: cdktn.stringToHclTerraform(struct!.authorizedKey),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1218,14 +1218,14 @@ export function googleContainerAzureClusterControlPlaneSshConfigToHclTerraform(s
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleContainerAzureClusterControlPlaneSshConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleContainerAzureClusterControlPlaneSshConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1311,7 +1311,7 @@ export interface GoogleContainerAzureClusterControlPlane {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_azure_cluster#replica_placements GoogleContainerAzureCluster#replica_placements}
   */
-  readonly replicaPlacements?: GoogleContainerAzureClusterControlPlaneReplicaPlacements[] | cdktf.IResolvable;
+  readonly replicaPlacements?: GoogleContainerAzureClusterControlPlaneReplicaPlacements[] | cdktn.IResolvable;
   /**
   * root_volume block
   *
@@ -1327,19 +1327,19 @@ export interface GoogleContainerAzureClusterControlPlane {
 }
 
 export function googleContainerAzureClusterControlPlaneToTerraform(struct?: GoogleContainerAzureClusterControlPlaneOutputReference | GoogleContainerAzureClusterControlPlane): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    subnet_id: cdktf.stringToTerraform(struct!.subnetId),
-    tags: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.tags),
-    version: cdktf.stringToTerraform(struct!.version),
-    vm_size: cdktf.stringToTerraform(struct!.vmSize),
+    subnet_id: cdktn.stringToTerraform(struct!.subnetId),
+    tags: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.tags),
+    version: cdktn.stringToTerraform(struct!.version),
+    vm_size: cdktn.stringToTerraform(struct!.vmSize),
     database_encryption: googleContainerAzureClusterControlPlaneDatabaseEncryptionToTerraform(struct!.databaseEncryption),
     main_volume: googleContainerAzureClusterControlPlaneMainVolumeToTerraform(struct!.mainVolume),
     proxy_config: googleContainerAzureClusterControlPlaneProxyConfigToTerraform(struct!.proxyConfig),
-    replica_placements: cdktf.listMapper(googleContainerAzureClusterControlPlaneReplicaPlacementsToTerraform, true)(struct!.replicaPlacements),
+    replica_placements: cdktn.listMapper(googleContainerAzureClusterControlPlaneReplicaPlacementsToTerraform, true)(struct!.replicaPlacements),
     root_volume: googleContainerAzureClusterControlPlaneRootVolumeToTerraform(struct!.rootVolume),
     ssh_config: googleContainerAzureClusterControlPlaneSshConfigToTerraform(struct!.sshConfig),
   }
@@ -1347,31 +1347,31 @@ export function googleContainerAzureClusterControlPlaneToTerraform(struct?: Goog
 
 
 export function googleContainerAzureClusterControlPlaneToHclTerraform(struct?: GoogleContainerAzureClusterControlPlaneOutputReference | GoogleContainerAzureClusterControlPlane): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     subnet_id: {
-      value: cdktf.stringToHclTerraform(struct!.subnetId),
+      value: cdktn.stringToHclTerraform(struct!.subnetId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     tags: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.tags),
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.tags),
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
     },
     version: {
-      value: cdktf.stringToHclTerraform(struct!.version),
+      value: cdktn.stringToHclTerraform(struct!.version),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     vm_size: {
-      value: cdktf.stringToHclTerraform(struct!.vmSize),
+      value: cdktn.stringToHclTerraform(struct!.vmSize),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1395,7 +1395,7 @@ export function googleContainerAzureClusterControlPlaneToHclTerraform(struct?: G
       storageClassType: "GoogleContainerAzureClusterControlPlaneProxyConfigList",
     },
     replica_placements: {
-      value: cdktf.listMapperHcl(googleContainerAzureClusterControlPlaneReplicaPlacementsToHclTerraform, true)(struct!.replicaPlacements),
+      value: cdktn.listMapperHcl(googleContainerAzureClusterControlPlaneReplicaPlacementsToHclTerraform, true)(struct!.replicaPlacements),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleContainerAzureClusterControlPlaneReplicaPlacementsList",
@@ -1418,14 +1418,14 @@ export function googleContainerAzureClusterControlPlaneToHclTerraform(struct?: G
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleContainerAzureClusterControlPlaneOutputReference extends cdktf.ComplexObject {
+export class GoogleContainerAzureClusterControlPlaneOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1615,7 +1615,7 @@ export class GoogleContainerAzureClusterControlPlaneOutputReference extends cdkt
   public get replicaPlacements() {
     return this._replicaPlacements;
   }
-  public putReplicaPlacements(value: GoogleContainerAzureClusterControlPlaneReplicaPlacements[] | cdktf.IResolvable) {
+  public putReplicaPlacements(value: GoogleContainerAzureClusterControlPlaneReplicaPlacements[] | cdktn.IResolvable) {
     this._replicaPlacements.internalValue = value;
   }
   public resetReplicaPlacements() {
@@ -1665,24 +1665,24 @@ export interface GoogleContainerAzureClusterFleet {
 }
 
 export function googleContainerAzureClusterFleetToTerraform(struct?: GoogleContainerAzureClusterFleetOutputReference | GoogleContainerAzureClusterFleet): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    project: cdktf.stringToTerraform(struct!.project),
+    project: cdktn.stringToTerraform(struct!.project),
   }
 }
 
 
 export function googleContainerAzureClusterFleetToHclTerraform(struct?: GoogleContainerAzureClusterFleetOutputReference | GoogleContainerAzureClusterFleet): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     project: {
-      value: cdktf.stringToHclTerraform(struct!.project),
+      value: cdktn.stringToHclTerraform(struct!.project),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1693,14 +1693,14 @@ export function googleContainerAzureClusterFleetToHclTerraform(struct?: GoogleCo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleContainerAzureClusterFleetOutputReference extends cdktf.ComplexObject {
+export class GoogleContainerAzureClusterFleetOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1756,24 +1756,24 @@ export interface GoogleContainerAzureClusterLoggingConfigComponentConfig {
 }
 
 export function googleContainerAzureClusterLoggingConfigComponentConfigToTerraform(struct?: GoogleContainerAzureClusterLoggingConfigComponentConfigOutputReference | GoogleContainerAzureClusterLoggingConfigComponentConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    enable_components: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.enableComponents),
+    enable_components: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.enableComponents),
   }
 }
 
 
 export function googleContainerAzureClusterLoggingConfigComponentConfigToHclTerraform(struct?: GoogleContainerAzureClusterLoggingConfigComponentConfigOutputReference | GoogleContainerAzureClusterLoggingConfigComponentConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     enable_components: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.enableComponents),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.enableComponents),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -1784,14 +1784,14 @@ export function googleContainerAzureClusterLoggingConfigComponentConfigToHclTerr
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleContainerAzureClusterLoggingConfigComponentConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleContainerAzureClusterLoggingConfigComponentConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1842,8 +1842,8 @@ export interface GoogleContainerAzureClusterLoggingConfig {
 }
 
 export function googleContainerAzureClusterLoggingConfigToTerraform(struct?: GoogleContainerAzureClusterLoggingConfigOutputReference | GoogleContainerAzureClusterLoggingConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -1853,8 +1853,8 @@ export function googleContainerAzureClusterLoggingConfigToTerraform(struct?: Goo
 
 
 export function googleContainerAzureClusterLoggingConfigToHclTerraform(struct?: GoogleContainerAzureClusterLoggingConfigOutputReference | GoogleContainerAzureClusterLoggingConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -1870,14 +1870,14 @@ export function googleContainerAzureClusterLoggingConfigToHclTerraform(struct?: 
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleContainerAzureClusterLoggingConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleContainerAzureClusterLoggingConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1942,38 +1942,38 @@ export interface GoogleContainerAzureClusterNetworking {
 }
 
 export function googleContainerAzureClusterNetworkingToTerraform(struct?: GoogleContainerAzureClusterNetworkingOutputReference | GoogleContainerAzureClusterNetworking): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    pod_address_cidr_blocks: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.podAddressCidrBlocks),
-    service_address_cidr_blocks: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.serviceAddressCidrBlocks),
-    virtual_network_id: cdktf.stringToTerraform(struct!.virtualNetworkId),
+    pod_address_cidr_blocks: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.podAddressCidrBlocks),
+    service_address_cidr_blocks: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.serviceAddressCidrBlocks),
+    virtual_network_id: cdktn.stringToTerraform(struct!.virtualNetworkId),
   }
 }
 
 
 export function googleContainerAzureClusterNetworkingToHclTerraform(struct?: GoogleContainerAzureClusterNetworkingOutputReference | GoogleContainerAzureClusterNetworking): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     pod_address_cidr_blocks: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.podAddressCidrBlocks),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.podAddressCidrBlocks),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     service_address_cidr_blocks: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.serviceAddressCidrBlocks),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.serviceAddressCidrBlocks),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     virtual_network_id: {
-      value: cdktf.stringToHclTerraform(struct!.virtualNetworkId),
+      value: cdktn.stringToHclTerraform(struct!.virtualNetworkId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1984,14 +1984,14 @@ export function googleContainerAzureClusterNetworkingToHclTerraform(struct?: Goo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleContainerAzureClusterNetworkingOutputReference extends cdktf.ComplexObject {
+export class GoogleContainerAzureClusterNetworkingOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2082,39 +2082,39 @@ export interface GoogleContainerAzureClusterTimeouts {
   readonly update?: string;
 }
 
-export function googleContainerAzureClusterTimeoutsToTerraform(struct?: GoogleContainerAzureClusterTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleContainerAzureClusterTimeoutsToTerraform(struct?: GoogleContainerAzureClusterTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleContainerAzureClusterTimeoutsToHclTerraform(struct?: GoogleContainerAzureClusterTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleContainerAzureClusterTimeoutsToHclTerraform(struct?: GoogleContainerAzureClusterTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2125,19 +2125,19 @@ export function googleContainerAzureClusterTimeoutsToHclTerraform(struct?: Googl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleContainerAzureClusterTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleContainerAzureClusterTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleContainerAzureClusterTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleContainerAzureClusterTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -2158,7 +2158,7 @@ export class GoogleContainerAzureClusterTimeoutsOutputReference extends cdktf.Co
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleContainerAzureClusterTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleContainerAzureClusterTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -2166,7 +2166,7 @@ export class GoogleContainerAzureClusterTimeoutsOutputReference extends cdktf.Co
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -2231,7 +2231,7 @@ export class GoogleContainerAzureClusterTimeoutsOutputReference extends cdktf.Co
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_azure_cluster google_container_azure_cluster}
 */
-export class GoogleContainerAzureCluster extends cdktf.TerraformResource {
+export class GoogleContainerAzureCluster extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -2242,14 +2242,14 @@ export class GoogleContainerAzureCluster extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleContainerAzureCluster resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleContainerAzureCluster resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleContainerAzureCluster to import
   * @param importFromId The id of the existing GoogleContainerAzureCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_azure_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleContainerAzureCluster to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_container_azure_cluster", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_container_azure_cluster", importId: importFromId, provider });
       }
 
   // ===========
@@ -2368,7 +2368,7 @@ export class GoogleContainerAzureCluster extends cdktf.TerraformResource {
   }
 
   // effective_annotations - computed: true, optional: false, required: false
-  private _effectiveAnnotations = new cdktf.StringMap(this, "effective_annotations");
+  private _effectiveAnnotations = new cdktn.StringMap(this, "effective_annotations");
   public get effectiveAnnotations() {
     return this._effectiveAnnotations;
   }
@@ -2586,15 +2586,15 @@ export class GoogleContainerAzureCluster extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      annotations: cdktf.hashMapper(cdktf.stringToTerraform)(this._annotations),
-      azure_region: cdktf.stringToTerraform(this._azureRegion),
-      client: cdktf.stringToTerraform(this._client),
-      description: cdktf.stringToTerraform(this._description),
-      id: cdktf.stringToTerraform(this._id),
-      location: cdktf.stringToTerraform(this._location),
-      name: cdktf.stringToTerraform(this._name),
-      project: cdktf.stringToTerraform(this._project),
-      resource_group_id: cdktf.stringToTerraform(this._resourceGroupId),
+      annotations: cdktn.hashMapper(cdktn.stringToTerraform)(this._annotations),
+      azure_region: cdktn.stringToTerraform(this._azureRegion),
+      client: cdktn.stringToTerraform(this._client),
+      description: cdktn.stringToTerraform(this._description),
+      id: cdktn.stringToTerraform(this._id),
+      location: cdktn.stringToTerraform(this._location),
+      name: cdktn.stringToTerraform(this._name),
+      project: cdktn.stringToTerraform(this._project),
+      resource_group_id: cdktn.stringToTerraform(this._resourceGroupId),
       authorization: googleContainerAzureClusterAuthorizationToTerraform(this._authorization.internalValue),
       azure_services_authentication: googleContainerAzureClusterAzureServicesAuthenticationToTerraform(this._azureServicesAuthentication.internalValue),
       control_plane: googleContainerAzureClusterControlPlaneToTerraform(this._controlPlane.internalValue),
@@ -2608,55 +2608,55 @@ export class GoogleContainerAzureCluster extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       annotations: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._annotations),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._annotations),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       azure_region: {
-        value: cdktf.stringToHclTerraform(this._azureRegion),
+        value: cdktn.stringToHclTerraform(this._azureRegion),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       client: {
-        value: cdktf.stringToHclTerraform(this._client),
+        value: cdktn.stringToHclTerraform(this._client),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       resource_group_id: {
-        value: cdktf.stringToHclTerraform(this._resourceGroupId),
+        value: cdktn.stringToHclTerraform(this._resourceGroupId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

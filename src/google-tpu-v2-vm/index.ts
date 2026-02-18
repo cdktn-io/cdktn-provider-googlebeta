@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleTpuV2VmConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleTpuV2VmConfig extends cdktn.TerraformMetaArguments {
   /**
   * TPU accelerator type for the TPU. 'accelerator_type' cannot be used at the same time as
   * 'accelerator_config'. If neither is specified, 'accelerator_type' defaults to 'v2-8'.
@@ -97,7 +97,7 @@ export interface GoogleTpuV2VmConfig extends cdktf.TerraformMetaArguments {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_tpu_v2_vm#data_disks GoogleTpuV2Vm#data_disks}
   */
-  readonly dataDisks?: GoogleTpuV2VmDataDisks[] | cdktf.IResolvable;
+  readonly dataDisks?: GoogleTpuV2VmDataDisks[] | cdktn.IResolvable;
   /**
   * network_config block
   *
@@ -109,7 +109,7 @@ export interface GoogleTpuV2VmConfig extends cdktf.TerraformMetaArguments {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_tpu_v2_vm#network_configs GoogleTpuV2Vm#network_configs}
   */
-  readonly networkConfigs?: GoogleTpuV2VmNetworkConfigs[] | cdktf.IResolvable;
+  readonly networkConfigs?: GoogleTpuV2VmNetworkConfigs[] | cdktn.IResolvable;
   /**
   * scheduling_config block
   *
@@ -139,8 +139,8 @@ export interface GoogleTpuV2VmNetworkEndpointsAccessConfig {
 }
 
 export function googleTpuV2VmNetworkEndpointsAccessConfigToTerraform(struct?: GoogleTpuV2VmNetworkEndpointsAccessConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -149,8 +149,8 @@ export function googleTpuV2VmNetworkEndpointsAccessConfigToTerraform(struct?: Go
 
 
 export function googleTpuV2VmNetworkEndpointsAccessConfigToHclTerraform(struct?: GoogleTpuV2VmNetworkEndpointsAccessConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -158,7 +158,7 @@ export function googleTpuV2VmNetworkEndpointsAccessConfigToHclTerraform(struct?:
   return attrs;
 }
 
-export class GoogleTpuV2VmNetworkEndpointsAccessConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleTpuV2VmNetworkEndpointsAccessConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -167,7 +167,7 @@ export class GoogleTpuV2VmNetworkEndpointsAccessConfigOutputReference extends cd
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -192,14 +192,14 @@ export class GoogleTpuV2VmNetworkEndpointsAccessConfigOutputReference extends cd
   }
 }
 
-export class GoogleTpuV2VmNetworkEndpointsAccessConfigList extends cdktf.ComplexList {
+export class GoogleTpuV2VmNetworkEndpointsAccessConfigList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -214,8 +214,8 @@ export interface GoogleTpuV2VmNetworkEndpoints {
 }
 
 export function googleTpuV2VmNetworkEndpointsToTerraform(struct?: GoogleTpuV2VmNetworkEndpoints): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -224,8 +224,8 @@ export function googleTpuV2VmNetworkEndpointsToTerraform(struct?: GoogleTpuV2VmN
 
 
 export function googleTpuV2VmNetworkEndpointsToHclTerraform(struct?: GoogleTpuV2VmNetworkEndpoints): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -233,7 +233,7 @@ export function googleTpuV2VmNetworkEndpointsToHclTerraform(struct?: GoogleTpuV2
   return attrs;
 }
 
-export class GoogleTpuV2VmNetworkEndpointsOutputReference extends cdktf.ComplexObject {
+export class GoogleTpuV2VmNetworkEndpointsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -242,7 +242,7 @@ export class GoogleTpuV2VmNetworkEndpointsOutputReference extends cdktf.ComplexO
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -278,14 +278,14 @@ export class GoogleTpuV2VmNetworkEndpointsOutputReference extends cdktf.ComplexO
   }
 }
 
-export class GoogleTpuV2VmNetworkEndpointsList extends cdktf.ComplexList {
+export class GoogleTpuV2VmNetworkEndpointsList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -300,8 +300,8 @@ export interface GoogleTpuV2VmSymptoms {
 }
 
 export function googleTpuV2VmSymptomsToTerraform(struct?: GoogleTpuV2VmSymptoms): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -310,8 +310,8 @@ export function googleTpuV2VmSymptomsToTerraform(struct?: GoogleTpuV2VmSymptoms)
 
 
 export function googleTpuV2VmSymptomsToHclTerraform(struct?: GoogleTpuV2VmSymptoms): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -319,7 +319,7 @@ export function googleTpuV2VmSymptomsToHclTerraform(struct?: GoogleTpuV2VmSympto
   return attrs;
 }
 
-export class GoogleTpuV2VmSymptomsOutputReference extends cdktf.ComplexObject {
+export class GoogleTpuV2VmSymptomsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -328,7 +328,7 @@ export class GoogleTpuV2VmSymptomsOutputReference extends cdktf.ComplexObject {
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -368,14 +368,14 @@ export class GoogleTpuV2VmSymptomsOutputReference extends cdktf.ComplexObject {
   }
 }
 
-export class GoogleTpuV2VmSymptomsList extends cdktf.ComplexList {
+export class GoogleTpuV2VmSymptomsList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -402,31 +402,31 @@ export interface GoogleTpuV2VmAcceleratorConfig {
 }
 
 export function googleTpuV2VmAcceleratorConfigToTerraform(struct?: GoogleTpuV2VmAcceleratorConfigOutputReference | GoogleTpuV2VmAcceleratorConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    topology: cdktf.stringToTerraform(struct!.topology),
-    type: cdktf.stringToTerraform(struct!.type),
+    topology: cdktn.stringToTerraform(struct!.topology),
+    type: cdktn.stringToTerraform(struct!.type),
   }
 }
 
 
 export function googleTpuV2VmAcceleratorConfigToHclTerraform(struct?: GoogleTpuV2VmAcceleratorConfigOutputReference | GoogleTpuV2VmAcceleratorConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     topology: {
-      value: cdktf.stringToHclTerraform(struct!.topology),
+      value: cdktn.stringToHclTerraform(struct!.topology),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     type: {
-      value: cdktf.stringToHclTerraform(struct!.type),
+      value: cdktn.stringToHclTerraform(struct!.type),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -437,14 +437,14 @@ export function googleTpuV2VmAcceleratorConfigToHclTerraform(struct?: GoogleTpuV
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleTpuV2VmAcceleratorConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleTpuV2VmAcceleratorConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -518,32 +518,32 @@ export interface GoogleTpuV2VmDataDisks {
   readonly sourceDisk: string;
 }
 
-export function googleTpuV2VmDataDisksToTerraform(struct?: GoogleTpuV2VmDataDisks | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleTpuV2VmDataDisksToTerraform(struct?: GoogleTpuV2VmDataDisks | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    mode: cdktf.stringToTerraform(struct!.mode),
-    source_disk: cdktf.stringToTerraform(struct!.sourceDisk),
+    mode: cdktn.stringToTerraform(struct!.mode),
+    source_disk: cdktn.stringToTerraform(struct!.sourceDisk),
   }
 }
 
 
-export function googleTpuV2VmDataDisksToHclTerraform(struct?: GoogleTpuV2VmDataDisks | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleTpuV2VmDataDisksToHclTerraform(struct?: GoogleTpuV2VmDataDisks | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     mode: {
-      value: cdktf.stringToHclTerraform(struct!.mode),
+      value: cdktn.stringToHclTerraform(struct!.mode),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     source_disk: {
-      value: cdktf.stringToHclTerraform(struct!.sourceDisk),
+      value: cdktn.stringToHclTerraform(struct!.sourceDisk),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -554,9 +554,9 @@ export function googleTpuV2VmDataDisksToHclTerraform(struct?: GoogleTpuV2VmDataD
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleTpuV2VmDataDisksOutputReference extends cdktf.ComplexObject {
+export class GoogleTpuV2VmDataDisksOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -564,11 +564,11 @@ export class GoogleTpuV2VmDataDisksOutputReference extends cdktf.ComplexObject {
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleTpuV2VmDataDisks | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleTpuV2VmDataDisks | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -585,14 +585,14 @@ export class GoogleTpuV2VmDataDisksOutputReference extends cdktf.ComplexObject {
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleTpuV2VmDataDisks | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleTpuV2VmDataDisks | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._mode = undefined;
       this._sourceDisk = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -634,15 +634,15 @@ export class GoogleTpuV2VmDataDisksOutputReference extends cdktf.ComplexObject {
   }
 }
 
-export class GoogleTpuV2VmDataDisksList extends cdktf.ComplexList {
-  public internalValue? : GoogleTpuV2VmDataDisks[] | cdktf.IResolvable
+export class GoogleTpuV2VmDataDisksList extends cdktn.ComplexList {
+  public internalValue? : GoogleTpuV2VmDataDisks[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -660,14 +660,14 @@ export interface GoogleTpuV2VmNetworkConfig {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_tpu_v2_vm#can_ip_forward GoogleTpuV2Vm#can_ip_forward}
   */
-  readonly canIpForward?: boolean | cdktf.IResolvable;
+  readonly canIpForward?: boolean | cdktn.IResolvable;
   /**
   * Indicates that external IP addresses would be associated with the TPU workers. If set to
   * false, the specified subnetwork or network should have Private Google Access enabled.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_tpu_v2_vm#enable_external_ips GoogleTpuV2Vm#enable_external_ips}
   */
-  readonly enableExternalIps?: boolean | cdktf.IResolvable;
+  readonly enableExternalIps?: boolean | cdktn.IResolvable;
   /**
   * The name of the network for the TPU node. It must be a preexisting Google Compute Engine
   * network. If none is provided, "default" will be used.
@@ -691,52 +691,52 @@ export interface GoogleTpuV2VmNetworkConfig {
 }
 
 export function googleTpuV2VmNetworkConfigToTerraform(struct?: GoogleTpuV2VmNetworkConfigOutputReference | GoogleTpuV2VmNetworkConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    can_ip_forward: cdktf.booleanToTerraform(struct!.canIpForward),
-    enable_external_ips: cdktf.booleanToTerraform(struct!.enableExternalIps),
-    network: cdktf.stringToTerraform(struct!.network),
-    queue_count: cdktf.numberToTerraform(struct!.queueCount),
-    subnetwork: cdktf.stringToTerraform(struct!.subnetwork),
+    can_ip_forward: cdktn.booleanToTerraform(struct!.canIpForward),
+    enable_external_ips: cdktn.booleanToTerraform(struct!.enableExternalIps),
+    network: cdktn.stringToTerraform(struct!.network),
+    queue_count: cdktn.numberToTerraform(struct!.queueCount),
+    subnetwork: cdktn.stringToTerraform(struct!.subnetwork),
   }
 }
 
 
 export function googleTpuV2VmNetworkConfigToHclTerraform(struct?: GoogleTpuV2VmNetworkConfigOutputReference | GoogleTpuV2VmNetworkConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     can_ip_forward: {
-      value: cdktf.booleanToHclTerraform(struct!.canIpForward),
+      value: cdktn.booleanToHclTerraform(struct!.canIpForward),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     enable_external_ips: {
-      value: cdktf.booleanToHclTerraform(struct!.enableExternalIps),
+      value: cdktn.booleanToHclTerraform(struct!.enableExternalIps),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     network: {
-      value: cdktf.stringToHclTerraform(struct!.network),
+      value: cdktn.stringToHclTerraform(struct!.network),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     queue_count: {
-      value: cdktf.numberToHclTerraform(struct!.queueCount),
+      value: cdktn.numberToHclTerraform(struct!.queueCount),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     subnetwork: {
-      value: cdktf.stringToHclTerraform(struct!.subnetwork),
+      value: cdktn.stringToHclTerraform(struct!.subnetwork),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -747,14 +747,14 @@ export function googleTpuV2VmNetworkConfigToHclTerraform(struct?: GoogleTpuV2VmN
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleTpuV2VmNetworkConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleTpuV2VmNetworkConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -804,11 +804,11 @@ export class GoogleTpuV2VmNetworkConfigOutputReference extends cdktf.ComplexObje
   }
 
   // can_ip_forward - computed: false, optional: true, required: false
-  private _canIpForward?: boolean | cdktf.IResolvable; 
+  private _canIpForward?: boolean | cdktn.IResolvable; 
   public get canIpForward() {
     return this.getBooleanAttribute('can_ip_forward');
   }
-  public set canIpForward(value: boolean | cdktf.IResolvable) {
+  public set canIpForward(value: boolean | cdktn.IResolvable) {
     this._canIpForward = value;
   }
   public resetCanIpForward() {
@@ -820,11 +820,11 @@ export class GoogleTpuV2VmNetworkConfigOutputReference extends cdktf.ComplexObje
   }
 
   // enable_external_ips - computed: false, optional: true, required: false
-  private _enableExternalIps?: boolean | cdktf.IResolvable; 
+  private _enableExternalIps?: boolean | cdktn.IResolvable; 
   public get enableExternalIps() {
     return this.getBooleanAttribute('enable_external_ips');
   }
-  public set enableExternalIps(value: boolean | cdktf.IResolvable) {
+  public set enableExternalIps(value: boolean | cdktn.IResolvable) {
     this._enableExternalIps = value;
   }
   public resetEnableExternalIps() {
@@ -890,14 +890,14 @@ export interface GoogleTpuV2VmNetworkConfigs {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_tpu_v2_vm#can_ip_forward GoogleTpuV2Vm#can_ip_forward}
   */
-  readonly canIpForward?: boolean | cdktf.IResolvable;
+  readonly canIpForward?: boolean | cdktn.IResolvable;
   /**
   * Indicates that external IP addresses would be associated with the TPU workers. If set to
   * false, the specified subnetwork or network should have Private Google Access enabled.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_tpu_v2_vm#enable_external_ips GoogleTpuV2Vm#enable_external_ips}
   */
-  readonly enableExternalIps?: boolean | cdktf.IResolvable;
+  readonly enableExternalIps?: boolean | cdktn.IResolvable;
   /**
   * The name of the network for the TPU node. It must be a preexisting Google Compute Engine
   * network. If none is provided, "default" will be used.
@@ -920,53 +920,53 @@ export interface GoogleTpuV2VmNetworkConfigs {
   readonly subnetwork?: string;
 }
 
-export function googleTpuV2VmNetworkConfigsToTerraform(struct?: GoogleTpuV2VmNetworkConfigs | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleTpuV2VmNetworkConfigsToTerraform(struct?: GoogleTpuV2VmNetworkConfigs | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    can_ip_forward: cdktf.booleanToTerraform(struct!.canIpForward),
-    enable_external_ips: cdktf.booleanToTerraform(struct!.enableExternalIps),
-    network: cdktf.stringToTerraform(struct!.network),
-    queue_count: cdktf.numberToTerraform(struct!.queueCount),
-    subnetwork: cdktf.stringToTerraform(struct!.subnetwork),
+    can_ip_forward: cdktn.booleanToTerraform(struct!.canIpForward),
+    enable_external_ips: cdktn.booleanToTerraform(struct!.enableExternalIps),
+    network: cdktn.stringToTerraform(struct!.network),
+    queue_count: cdktn.numberToTerraform(struct!.queueCount),
+    subnetwork: cdktn.stringToTerraform(struct!.subnetwork),
   }
 }
 
 
-export function googleTpuV2VmNetworkConfigsToHclTerraform(struct?: GoogleTpuV2VmNetworkConfigs | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleTpuV2VmNetworkConfigsToHclTerraform(struct?: GoogleTpuV2VmNetworkConfigs | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     can_ip_forward: {
-      value: cdktf.booleanToHclTerraform(struct!.canIpForward),
+      value: cdktn.booleanToHclTerraform(struct!.canIpForward),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     enable_external_ips: {
-      value: cdktf.booleanToHclTerraform(struct!.enableExternalIps),
+      value: cdktn.booleanToHclTerraform(struct!.enableExternalIps),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     network: {
-      value: cdktf.stringToHclTerraform(struct!.network),
+      value: cdktn.stringToHclTerraform(struct!.network),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     queue_count: {
-      value: cdktf.numberToHclTerraform(struct!.queueCount),
+      value: cdktn.numberToHclTerraform(struct!.queueCount),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     subnetwork: {
-      value: cdktf.stringToHclTerraform(struct!.subnetwork),
+      value: cdktn.stringToHclTerraform(struct!.subnetwork),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -977,9 +977,9 @@ export function googleTpuV2VmNetworkConfigsToHclTerraform(struct?: GoogleTpuV2Vm
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleTpuV2VmNetworkConfigsOutputReference extends cdktf.ComplexObject {
+export class GoogleTpuV2VmNetworkConfigsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -987,11 +987,11 @@ export class GoogleTpuV2VmNetworkConfigsOutputReference extends cdktf.ComplexObj
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleTpuV2VmNetworkConfigs | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleTpuV2VmNetworkConfigs | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1020,7 +1020,7 @@ export class GoogleTpuV2VmNetworkConfigsOutputReference extends cdktf.ComplexObj
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleTpuV2VmNetworkConfigs | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleTpuV2VmNetworkConfigs | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -1030,7 +1030,7 @@ export class GoogleTpuV2VmNetworkConfigsOutputReference extends cdktf.ComplexObj
       this._queueCount = undefined;
       this._subnetwork = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1046,11 +1046,11 @@ export class GoogleTpuV2VmNetworkConfigsOutputReference extends cdktf.ComplexObj
   }
 
   // can_ip_forward - computed: false, optional: true, required: false
-  private _canIpForward?: boolean | cdktf.IResolvable; 
+  private _canIpForward?: boolean | cdktn.IResolvable; 
   public get canIpForward() {
     return this.getBooleanAttribute('can_ip_forward');
   }
-  public set canIpForward(value: boolean | cdktf.IResolvable) {
+  public set canIpForward(value: boolean | cdktn.IResolvable) {
     this._canIpForward = value;
   }
   public resetCanIpForward() {
@@ -1062,11 +1062,11 @@ export class GoogleTpuV2VmNetworkConfigsOutputReference extends cdktf.ComplexObj
   }
 
   // enable_external_ips - computed: false, optional: true, required: false
-  private _enableExternalIps?: boolean | cdktf.IResolvable; 
+  private _enableExternalIps?: boolean | cdktn.IResolvable; 
   public get enableExternalIps() {
     return this.getBooleanAttribute('enable_external_ips');
   }
-  public set enableExternalIps(value: boolean | cdktf.IResolvable) {
+  public set enableExternalIps(value: boolean | cdktn.IResolvable) {
     this._enableExternalIps = value;
   }
   public resetEnableExternalIps() {
@@ -1126,15 +1126,15 @@ export class GoogleTpuV2VmNetworkConfigsOutputReference extends cdktf.ComplexObj
   }
 }
 
-export class GoogleTpuV2VmNetworkConfigsList extends cdktf.ComplexList {
-  public internalValue? : GoogleTpuV2VmNetworkConfigs[] | cdktf.IResolvable
+export class GoogleTpuV2VmNetworkConfigsList extends cdktn.ComplexList {
+  public internalValue? : GoogleTpuV2VmNetworkConfigs[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -1151,54 +1151,54 @@ export interface GoogleTpuV2VmSchedulingConfig {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_tpu_v2_vm#preemptible GoogleTpuV2Vm#preemptible}
   */
-  readonly preemptible?: boolean | cdktf.IResolvable;
+  readonly preemptible?: boolean | cdktn.IResolvable;
   /**
   * Whether the node is created under a reservation.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_tpu_v2_vm#reserved GoogleTpuV2Vm#reserved}
   */
-  readonly reserved?: boolean | cdktf.IResolvable;
+  readonly reserved?: boolean | cdktn.IResolvable;
   /**
   * Optional. Defines whether the node is Spot VM.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_tpu_v2_vm#spot GoogleTpuV2Vm#spot}
   */
-  readonly spot?: boolean | cdktf.IResolvable;
+  readonly spot?: boolean | cdktn.IResolvable;
 }
 
 export function googleTpuV2VmSchedulingConfigToTerraform(struct?: GoogleTpuV2VmSchedulingConfigOutputReference | GoogleTpuV2VmSchedulingConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    preemptible: cdktf.booleanToTerraform(struct!.preemptible),
-    reserved: cdktf.booleanToTerraform(struct!.reserved),
-    spot: cdktf.booleanToTerraform(struct!.spot),
+    preemptible: cdktn.booleanToTerraform(struct!.preemptible),
+    reserved: cdktn.booleanToTerraform(struct!.reserved),
+    spot: cdktn.booleanToTerraform(struct!.spot),
   }
 }
 
 
 export function googleTpuV2VmSchedulingConfigToHclTerraform(struct?: GoogleTpuV2VmSchedulingConfigOutputReference | GoogleTpuV2VmSchedulingConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     preemptible: {
-      value: cdktf.booleanToHclTerraform(struct!.preemptible),
+      value: cdktn.booleanToHclTerraform(struct!.preemptible),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     reserved: {
-      value: cdktf.booleanToHclTerraform(struct!.reserved),
+      value: cdktn.booleanToHclTerraform(struct!.reserved),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     spot: {
-      value: cdktf.booleanToHclTerraform(struct!.spot),
+      value: cdktn.booleanToHclTerraform(struct!.spot),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -1209,14 +1209,14 @@ export function googleTpuV2VmSchedulingConfigToHclTerraform(struct?: GoogleTpuV2
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleTpuV2VmSchedulingConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleTpuV2VmSchedulingConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1254,11 +1254,11 @@ export class GoogleTpuV2VmSchedulingConfigOutputReference extends cdktf.ComplexO
   }
 
   // preemptible - computed: false, optional: true, required: false
-  private _preemptible?: boolean | cdktf.IResolvable; 
+  private _preemptible?: boolean | cdktn.IResolvable; 
   public get preemptible() {
     return this.getBooleanAttribute('preemptible');
   }
-  public set preemptible(value: boolean | cdktf.IResolvable) {
+  public set preemptible(value: boolean | cdktn.IResolvable) {
     this._preemptible = value;
   }
   public resetPreemptible() {
@@ -1270,11 +1270,11 @@ export class GoogleTpuV2VmSchedulingConfigOutputReference extends cdktf.ComplexO
   }
 
   // reserved - computed: false, optional: true, required: false
-  private _reserved?: boolean | cdktf.IResolvable; 
+  private _reserved?: boolean | cdktn.IResolvable; 
   public get reserved() {
     return this.getBooleanAttribute('reserved');
   }
-  public set reserved(value: boolean | cdktf.IResolvable) {
+  public set reserved(value: boolean | cdktn.IResolvable) {
     this._reserved = value;
   }
   public resetReserved() {
@@ -1286,11 +1286,11 @@ export class GoogleTpuV2VmSchedulingConfigOutputReference extends cdktf.ComplexO
   }
 
   // spot - computed: false, optional: true, required: false
-  private _spot?: boolean | cdktf.IResolvable; 
+  private _spot?: boolean | cdktn.IResolvable; 
   public get spot() {
     return this.getBooleanAttribute('spot');
   }
-  public set spot(value: boolean | cdktf.IResolvable) {
+  public set spot(value: boolean | cdktn.IResolvable) {
     this._spot = value;
   }
   public resetSpot() {
@@ -1318,31 +1318,31 @@ export interface GoogleTpuV2VmServiceAccount {
 }
 
 export function googleTpuV2VmServiceAccountToTerraform(struct?: GoogleTpuV2VmServiceAccountOutputReference | GoogleTpuV2VmServiceAccount): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    email: cdktf.stringToTerraform(struct!.email),
-    scope: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.scope),
+    email: cdktn.stringToTerraform(struct!.email),
+    scope: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.scope),
   }
 }
 
 
 export function googleTpuV2VmServiceAccountToHclTerraform(struct?: GoogleTpuV2VmServiceAccountOutputReference | GoogleTpuV2VmServiceAccount): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     email: {
-      value: cdktf.stringToHclTerraform(struct!.email),
+      value: cdktn.stringToHclTerraform(struct!.email),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     scope: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.scope),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.scope),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -1353,14 +1353,14 @@ export function googleTpuV2VmServiceAccountToHclTerraform(struct?: GoogleTpuV2Vm
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleTpuV2VmServiceAccountOutputReference extends cdktf.ComplexObject {
+export class GoogleTpuV2VmServiceAccountOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1429,28 +1429,28 @@ export interface GoogleTpuV2VmShieldedInstanceConfig {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_tpu_v2_vm#enable_secure_boot GoogleTpuV2Vm#enable_secure_boot}
   */
-  readonly enableSecureBoot: boolean | cdktf.IResolvable;
+  readonly enableSecureBoot: boolean | cdktn.IResolvable;
 }
 
 export function googleTpuV2VmShieldedInstanceConfigToTerraform(struct?: GoogleTpuV2VmShieldedInstanceConfigOutputReference | GoogleTpuV2VmShieldedInstanceConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    enable_secure_boot: cdktf.booleanToTerraform(struct!.enableSecureBoot),
+    enable_secure_boot: cdktn.booleanToTerraform(struct!.enableSecureBoot),
   }
 }
 
 
 export function googleTpuV2VmShieldedInstanceConfigToHclTerraform(struct?: GoogleTpuV2VmShieldedInstanceConfigOutputReference | GoogleTpuV2VmShieldedInstanceConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     enable_secure_boot: {
-      value: cdktf.booleanToHclTerraform(struct!.enableSecureBoot),
+      value: cdktn.booleanToHclTerraform(struct!.enableSecureBoot),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -1461,14 +1461,14 @@ export function googleTpuV2VmShieldedInstanceConfigToHclTerraform(struct?: Googl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleTpuV2VmShieldedInstanceConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleTpuV2VmShieldedInstanceConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1494,11 +1494,11 @@ export class GoogleTpuV2VmShieldedInstanceConfigOutputReference extends cdktf.Co
   }
 
   // enable_secure_boot - computed: false, optional: false, required: true
-  private _enableSecureBoot?: boolean | cdktf.IResolvable; 
+  private _enableSecureBoot?: boolean | cdktn.IResolvable; 
   public get enableSecureBoot() {
     return this.getBooleanAttribute('enable_secure_boot');
   }
-  public set enableSecureBoot(value: boolean | cdktf.IResolvable) {
+  public set enableSecureBoot(value: boolean | cdktn.IResolvable) {
     this._enableSecureBoot = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -1521,39 +1521,39 @@ export interface GoogleTpuV2VmTimeouts {
   readonly update?: string;
 }
 
-export function googleTpuV2VmTimeoutsToTerraform(struct?: GoogleTpuV2VmTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleTpuV2VmTimeoutsToTerraform(struct?: GoogleTpuV2VmTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleTpuV2VmTimeoutsToHclTerraform(struct?: GoogleTpuV2VmTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleTpuV2VmTimeoutsToHclTerraform(struct?: GoogleTpuV2VmTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1564,19 +1564,19 @@ export function googleTpuV2VmTimeoutsToHclTerraform(struct?: GoogleTpuV2VmTimeou
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleTpuV2VmTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleTpuV2VmTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleTpuV2VmTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleTpuV2VmTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1597,7 +1597,7 @@ export class GoogleTpuV2VmTimeoutsOutputReference extends cdktf.ComplexObject {
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleTpuV2VmTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleTpuV2VmTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -1605,7 +1605,7 @@ export class GoogleTpuV2VmTimeoutsOutputReference extends cdktf.ComplexObject {
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1670,7 +1670,7 @@ export class GoogleTpuV2VmTimeoutsOutputReference extends cdktf.ComplexObject {
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_tpu_v2_vm google_tpu_v2_vm}
 */
-export class GoogleTpuV2Vm extends cdktf.TerraformResource {
+export class GoogleTpuV2Vm extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -1681,14 +1681,14 @@ export class GoogleTpuV2Vm extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleTpuV2Vm resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleTpuV2Vm resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleTpuV2Vm to import
   * @param importFromId The id of the existing GoogleTpuV2Vm that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_tpu_v2_vm#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleTpuV2Vm to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_tpu_v2_vm", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_tpu_v2_vm", importId: importFromId, provider });
       }
 
   // ===========
@@ -1797,7 +1797,7 @@ export class GoogleTpuV2Vm extends cdktf.TerraformResource {
   }
 
   // effective_labels - computed: true, optional: false, required: false
-  private _effectiveLabels = new cdktf.StringMap(this, "effective_labels");
+  private _effectiveLabels = new cdktn.StringMap(this, "effective_labels");
   public get effectiveLabels() {
     return this._effectiveLabels;
   }
@@ -1946,7 +1946,7 @@ export class GoogleTpuV2Vm extends cdktf.TerraformResource {
   }
 
   // terraform_labels - computed: true, optional: false, required: false
-  private _terraformLabels = new cdktf.StringMap(this, "terraform_labels");
+  private _terraformLabels = new cdktn.StringMap(this, "terraform_labels");
   public get terraformLabels() {
     return this._terraformLabels;
   }
@@ -1988,7 +1988,7 @@ export class GoogleTpuV2Vm extends cdktf.TerraformResource {
   public get dataDisks() {
     return this._dataDisks;
   }
-  public putDataDisks(value: GoogleTpuV2VmDataDisks[] | cdktf.IResolvable) {
+  public putDataDisks(value: GoogleTpuV2VmDataDisks[] | cdktn.IResolvable) {
     this._dataDisks.internalValue = value;
   }
   public resetDataDisks() {
@@ -2020,7 +2020,7 @@ export class GoogleTpuV2Vm extends cdktf.TerraformResource {
   public get networkConfigs() {
     return this._networkConfigs;
   }
-  public putNetworkConfigs(value: GoogleTpuV2VmNetworkConfigs[] | cdktf.IResolvable) {
+  public putNetworkConfigs(value: GoogleTpuV2VmNetworkConfigs[] | cdktn.IResolvable) {
     this._networkConfigs.internalValue = value;
   }
   public resetNetworkConfigs() {
@@ -2101,21 +2101,21 @@ export class GoogleTpuV2Vm extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      accelerator_type: cdktf.stringToTerraform(this._acceleratorType),
-      cidr_block: cdktf.stringToTerraform(this._cidrBlock),
-      description: cdktf.stringToTerraform(this._description),
-      id: cdktf.stringToTerraform(this._id),
-      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
-      metadata: cdktf.hashMapper(cdktf.stringToTerraform)(this._metadata),
-      name: cdktf.stringToTerraform(this._name),
-      project: cdktf.stringToTerraform(this._project),
-      runtime_version: cdktf.stringToTerraform(this._runtimeVersion),
-      tags: cdktf.listMapper(cdktf.stringToTerraform, false)(this._tags),
-      zone: cdktf.stringToTerraform(this._zone),
+      accelerator_type: cdktn.stringToTerraform(this._acceleratorType),
+      cidr_block: cdktn.stringToTerraform(this._cidrBlock),
+      description: cdktn.stringToTerraform(this._description),
+      id: cdktn.stringToTerraform(this._id),
+      labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
+      metadata: cdktn.hashMapper(cdktn.stringToTerraform)(this._metadata),
+      name: cdktn.stringToTerraform(this._name),
+      project: cdktn.stringToTerraform(this._project),
+      runtime_version: cdktn.stringToTerraform(this._runtimeVersion),
+      tags: cdktn.listMapper(cdktn.stringToTerraform, false)(this._tags),
+      zone: cdktn.stringToTerraform(this._zone),
       accelerator_config: googleTpuV2VmAcceleratorConfigToTerraform(this._acceleratorConfig.internalValue),
-      data_disks: cdktf.listMapper(googleTpuV2VmDataDisksToTerraform, true)(this._dataDisks.internalValue),
+      data_disks: cdktn.listMapper(googleTpuV2VmDataDisksToTerraform, true)(this._dataDisks.internalValue),
       network_config: googleTpuV2VmNetworkConfigToTerraform(this._networkConfig.internalValue),
-      network_configs: cdktf.listMapper(googleTpuV2VmNetworkConfigsToTerraform, true)(this._networkConfigs.internalValue),
+      network_configs: cdktn.listMapper(googleTpuV2VmNetworkConfigsToTerraform, true)(this._networkConfigs.internalValue),
       scheduling_config: googleTpuV2VmSchedulingConfigToTerraform(this._schedulingConfig.internalValue),
       service_account: googleTpuV2VmServiceAccountToTerraform(this._serviceAccount.internalValue),
       shielded_instance_config: googleTpuV2VmShieldedInstanceConfigToTerraform(this._shieldedInstanceConfig.internalValue),
@@ -2126,67 +2126,67 @@ export class GoogleTpuV2Vm extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       accelerator_type: {
-        value: cdktf.stringToHclTerraform(this._acceleratorType),
+        value: cdktn.stringToHclTerraform(this._acceleratorType),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       cidr_block: {
-        value: cdktf.stringToHclTerraform(this._cidrBlock),
+        value: cdktn.stringToHclTerraform(this._cidrBlock),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._labels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       metadata: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._metadata),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._metadata),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       runtime_version: {
-        value: cdktf.stringToHclTerraform(this._runtimeVersion),
+        value: cdktn.stringToHclTerraform(this._runtimeVersion),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       tags: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._tags),
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._tags),
         isBlock: false,
         type: "list",
         storageClassType: "stringList",
       },
       zone: {
-        value: cdktf.stringToHclTerraform(this._zone),
+        value: cdktn.stringToHclTerraform(this._zone),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -2198,7 +2198,7 @@ export class GoogleTpuV2Vm extends cdktf.TerraformResource {
         storageClassType: "GoogleTpuV2VmAcceleratorConfigList",
       },
       data_disks: {
-        value: cdktf.listMapperHcl(googleTpuV2VmDataDisksToHclTerraform, true)(this._dataDisks.internalValue),
+        value: cdktn.listMapperHcl(googleTpuV2VmDataDisksToHclTerraform, true)(this._dataDisks.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "GoogleTpuV2VmDataDisksList",
@@ -2210,7 +2210,7 @@ export class GoogleTpuV2Vm extends cdktf.TerraformResource {
         storageClassType: "GoogleTpuV2VmNetworkConfigList",
       },
       network_configs: {
-        value: cdktf.listMapperHcl(googleTpuV2VmNetworkConfigsToHclTerraform, true)(this._networkConfigs.internalValue),
+        value: cdktn.listMapperHcl(googleTpuV2VmNetworkConfigsToHclTerraform, true)(this._networkConfigs.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "GoogleTpuV2VmNetworkConfigsList",

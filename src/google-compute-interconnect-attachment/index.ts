@@ -7,18 +7,18 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleComputeInterconnectAttachmentConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleComputeInterconnectAttachmentConfig extends cdktn.TerraformMetaArguments {
   /**
   * Whether the VLAN attachment is enabled or disabled.  When using
   * PARTNER type this will Pre-Activate the interconnect attachment
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_interconnect_attachment#admin_enabled GoogleComputeInterconnectAttachment#admin_enabled}
   */
-  readonly adminEnabled?: boolean | cdktf.IResolvable;
+  readonly adminEnabled?: boolean | cdktn.IResolvable;
   /**
   * Provisioned bandwidth capacity for the interconnect attachment.
   * For attachments of type DEDICATED, the user can set the bandwidth.
@@ -230,8 +230,8 @@ export interface GoogleComputeInterconnectAttachmentPrivateInterconnectInfo {
 }
 
 export function googleComputeInterconnectAttachmentPrivateInterconnectInfoToTerraform(struct?: GoogleComputeInterconnectAttachmentPrivateInterconnectInfo): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -240,8 +240,8 @@ export function googleComputeInterconnectAttachmentPrivateInterconnectInfoToTerr
 
 
 export function googleComputeInterconnectAttachmentPrivateInterconnectInfoToHclTerraform(struct?: GoogleComputeInterconnectAttachmentPrivateInterconnectInfo): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -249,7 +249,7 @@ export function googleComputeInterconnectAttachmentPrivateInterconnectInfoToHclT
   return attrs;
 }
 
-export class GoogleComputeInterconnectAttachmentPrivateInterconnectInfoOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeInterconnectAttachmentPrivateInterconnectInfoOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -258,7 +258,7 @@ export class GoogleComputeInterconnectAttachmentPrivateInterconnectInfoOutputRef
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -283,14 +283,14 @@ export class GoogleComputeInterconnectAttachmentPrivateInterconnectInfoOutputRef
   }
 }
 
-export class GoogleComputeInterconnectAttachmentPrivateInterconnectInfoList extends cdktf.ComplexList {
+export class GoogleComputeInterconnectAttachmentPrivateInterconnectInfoList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -316,39 +316,39 @@ export interface GoogleComputeInterconnectAttachmentTimeouts {
   readonly update?: string;
 }
 
-export function googleComputeInterconnectAttachmentTimeoutsToTerraform(struct?: GoogleComputeInterconnectAttachmentTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeInterconnectAttachmentTimeoutsToTerraform(struct?: GoogleComputeInterconnectAttachmentTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleComputeInterconnectAttachmentTimeoutsToHclTerraform(struct?: GoogleComputeInterconnectAttachmentTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeInterconnectAttachmentTimeoutsToHclTerraform(struct?: GoogleComputeInterconnectAttachmentTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -359,19 +359,19 @@ export function googleComputeInterconnectAttachmentTimeoutsToHclTerraform(struct
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeInterconnectAttachmentTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeInterconnectAttachmentTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleComputeInterconnectAttachmentTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeInterconnectAttachmentTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -392,7 +392,7 @@ export class GoogleComputeInterconnectAttachmentTimeoutsOutputReference extends 
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeInterconnectAttachmentTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeInterconnectAttachmentTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -400,7 +400,7 @@ export class GoogleComputeInterconnectAttachmentTimeoutsOutputReference extends 
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -465,7 +465,7 @@ export class GoogleComputeInterconnectAttachmentTimeoutsOutputReference extends 
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_interconnect_attachment google_compute_interconnect_attachment}
 */
-export class GoogleComputeInterconnectAttachment extends cdktf.TerraformResource {
+export class GoogleComputeInterconnectAttachment extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -476,14 +476,14 @@ export class GoogleComputeInterconnectAttachment extends cdktf.TerraformResource
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleComputeInterconnectAttachment resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleComputeInterconnectAttachment resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleComputeInterconnectAttachment to import
   * @param importFromId The id of the existing GoogleComputeInterconnectAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_interconnect_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleComputeInterconnectAttachment to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_compute_interconnect_attachment", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_compute_interconnect_attachment", importId: importFromId, provider });
       }
 
   // ===========
@@ -544,11 +544,11 @@ export class GoogleComputeInterconnectAttachment extends cdktf.TerraformResource
   // ==========
 
   // admin_enabled - computed: false, optional: true, required: false
-  private _adminEnabled?: boolean | cdktf.IResolvable; 
+  private _adminEnabled?: boolean | cdktn.IResolvable; 
   public get adminEnabled() {
     return this.getBooleanAttribute('admin_enabled');
   }
-  public set adminEnabled(value: boolean | cdktf.IResolvable) {
+  public set adminEnabled(value: boolean | cdktn.IResolvable) {
     this._adminEnabled = value;
   }
   public resetAdminEnabled() {
@@ -718,7 +718,7 @@ export class GoogleComputeInterconnectAttachment extends cdktf.TerraformResource
   }
 
   // effective_labels - computed: true, optional: false, required: false
-  private _effectiveLabels = new cdktf.StringMap(this, "effective_labels");
+  private _effectiveLabels = new cdktn.StringMap(this, "effective_labels");
   public get effectiveLabels() {
     return this._effectiveLabels;
   }
@@ -946,7 +946,7 @@ export class GoogleComputeInterconnectAttachment extends cdktf.TerraformResource
   }
 
   // terraform_labels - computed: true, optional: false, required: false
-  private _terraformLabels = new cdktf.StringMap(this, "terraform_labels");
+  private _terraformLabels = new cdktn.StringMap(this, "terraform_labels");
   public get terraformLabels() {
     return this._terraformLabels;
   }
@@ -1005,29 +1005,29 @@ export class GoogleComputeInterconnectAttachment extends cdktf.TerraformResource
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      admin_enabled: cdktf.booleanToTerraform(this._adminEnabled),
-      bandwidth: cdktf.stringToTerraform(this._bandwidth),
-      candidate_cloud_router_ip_address: cdktf.stringToTerraform(this._candidateCloudRouterIpAddress),
-      candidate_cloud_router_ipv6_address: cdktf.stringToTerraform(this._candidateCloudRouterIpv6Address),
-      candidate_customer_router_ip_address: cdktf.stringToTerraform(this._candidateCustomerRouterIpAddress),
-      candidate_customer_router_ipv6_address: cdktf.stringToTerraform(this._candidateCustomerRouterIpv6Address),
-      candidate_subnets: cdktf.listMapper(cdktf.stringToTerraform, false)(this._candidateSubnets),
-      description: cdktf.stringToTerraform(this._description),
-      edge_availability_domain: cdktf.stringToTerraform(this._edgeAvailabilityDomain),
-      encryption: cdktf.stringToTerraform(this._encryption),
-      id: cdktf.stringToTerraform(this._id),
-      interconnect: cdktf.stringToTerraform(this._interconnect),
-      ipsec_internal_addresses: cdktf.listMapper(cdktf.stringToTerraform, false)(this._ipsecInternalAddresses),
-      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
-      mtu: cdktf.stringToTerraform(this._mtu),
-      name: cdktf.stringToTerraform(this._name),
-      project: cdktf.stringToTerraform(this._project),
-      region: cdktf.stringToTerraform(this._region),
-      router: cdktf.stringToTerraform(this._router),
-      stack_type: cdktf.stringToTerraform(this._stackType),
-      subnet_length: cdktf.numberToTerraform(this._subnetLength),
-      type: cdktf.stringToTerraform(this._type),
-      vlan_tag8021q: cdktf.numberToTerraform(this._vlanTag8021Q),
+      admin_enabled: cdktn.booleanToTerraform(this._adminEnabled),
+      bandwidth: cdktn.stringToTerraform(this._bandwidth),
+      candidate_cloud_router_ip_address: cdktn.stringToTerraform(this._candidateCloudRouterIpAddress),
+      candidate_cloud_router_ipv6_address: cdktn.stringToTerraform(this._candidateCloudRouterIpv6Address),
+      candidate_customer_router_ip_address: cdktn.stringToTerraform(this._candidateCustomerRouterIpAddress),
+      candidate_customer_router_ipv6_address: cdktn.stringToTerraform(this._candidateCustomerRouterIpv6Address),
+      candidate_subnets: cdktn.listMapper(cdktn.stringToTerraform, false)(this._candidateSubnets),
+      description: cdktn.stringToTerraform(this._description),
+      edge_availability_domain: cdktn.stringToTerraform(this._edgeAvailabilityDomain),
+      encryption: cdktn.stringToTerraform(this._encryption),
+      id: cdktn.stringToTerraform(this._id),
+      interconnect: cdktn.stringToTerraform(this._interconnect),
+      ipsec_internal_addresses: cdktn.listMapper(cdktn.stringToTerraform, false)(this._ipsecInternalAddresses),
+      labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
+      mtu: cdktn.stringToTerraform(this._mtu),
+      name: cdktn.stringToTerraform(this._name),
+      project: cdktn.stringToTerraform(this._project),
+      region: cdktn.stringToTerraform(this._region),
+      router: cdktn.stringToTerraform(this._router),
+      stack_type: cdktn.stringToTerraform(this._stackType),
+      subnet_length: cdktn.numberToTerraform(this._subnetLength),
+      type: cdktn.stringToTerraform(this._type),
+      vlan_tag8021q: cdktn.numberToTerraform(this._vlanTag8021Q),
       timeouts: googleComputeInterconnectAttachmentTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -1035,139 +1035,139 @@ export class GoogleComputeInterconnectAttachment extends cdktf.TerraformResource
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       admin_enabled: {
-        value: cdktf.booleanToHclTerraform(this._adminEnabled),
+        value: cdktn.booleanToHclTerraform(this._adminEnabled),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       bandwidth: {
-        value: cdktf.stringToHclTerraform(this._bandwidth),
+        value: cdktn.stringToHclTerraform(this._bandwidth),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       candidate_cloud_router_ip_address: {
-        value: cdktf.stringToHclTerraform(this._candidateCloudRouterIpAddress),
+        value: cdktn.stringToHclTerraform(this._candidateCloudRouterIpAddress),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       candidate_cloud_router_ipv6_address: {
-        value: cdktf.stringToHclTerraform(this._candidateCloudRouterIpv6Address),
+        value: cdktn.stringToHclTerraform(this._candidateCloudRouterIpv6Address),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       candidate_customer_router_ip_address: {
-        value: cdktf.stringToHclTerraform(this._candidateCustomerRouterIpAddress),
+        value: cdktn.stringToHclTerraform(this._candidateCustomerRouterIpAddress),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       candidate_customer_router_ipv6_address: {
-        value: cdktf.stringToHclTerraform(this._candidateCustomerRouterIpv6Address),
+        value: cdktn.stringToHclTerraform(this._candidateCustomerRouterIpv6Address),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       candidate_subnets: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._candidateSubnets),
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._candidateSubnets),
         isBlock: false,
         type: "list",
         storageClassType: "stringList",
       },
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       edge_availability_domain: {
-        value: cdktf.stringToHclTerraform(this._edgeAvailabilityDomain),
+        value: cdktn.stringToHclTerraform(this._edgeAvailabilityDomain),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       encryption: {
-        value: cdktf.stringToHclTerraform(this._encryption),
+        value: cdktn.stringToHclTerraform(this._encryption),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       interconnect: {
-        value: cdktf.stringToHclTerraform(this._interconnect),
+        value: cdktn.stringToHclTerraform(this._interconnect),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       ipsec_internal_addresses: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._ipsecInternalAddresses),
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._ipsecInternalAddresses),
         isBlock: false,
         type: "list",
         storageClassType: "stringList",
       },
       labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._labels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       mtu: {
-        value: cdktf.stringToHclTerraform(this._mtu),
+        value: cdktn.stringToHclTerraform(this._mtu),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       region: {
-        value: cdktf.stringToHclTerraform(this._region),
+        value: cdktn.stringToHclTerraform(this._region),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       router: {
-        value: cdktf.stringToHclTerraform(this._router),
+        value: cdktn.stringToHclTerraform(this._router),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       stack_type: {
-        value: cdktf.stringToHclTerraform(this._stackType),
+        value: cdktn.stringToHclTerraform(this._stackType),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       subnet_length: {
-        value: cdktf.numberToHclTerraform(this._subnetLength),
+        value: cdktn.numberToHclTerraform(this._subnetLength),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       type: {
-        value: cdktf.stringToHclTerraform(this._type),
+        value: cdktn.stringToHclTerraform(this._type),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       vlan_tag8021q: {
-        value: cdktf.numberToHclTerraform(this._vlanTag8021Q),
+        value: cdktn.numberToHclTerraform(this._vlanTag8021Q),
         isBlock: false,
         type: "simple",
         storageClassType: "number",

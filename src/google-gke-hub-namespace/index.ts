@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleGkeHubNamespaceConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleGkeHubNamespaceConfig extends cdktn.TerraformMetaArguments {
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_hub_namespace#id GoogleGkeHubNamespace#id}
   *
@@ -72,8 +72,8 @@ export interface GoogleGkeHubNamespaceState {
 }
 
 export function googleGkeHubNamespaceStateToTerraform(struct?: GoogleGkeHubNamespaceState): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -82,8 +82,8 @@ export function googleGkeHubNamespaceStateToTerraform(struct?: GoogleGkeHubNames
 
 
 export function googleGkeHubNamespaceStateToHclTerraform(struct?: GoogleGkeHubNamespaceState): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -91,7 +91,7 @@ export function googleGkeHubNamespaceStateToHclTerraform(struct?: GoogleGkeHubNa
   return attrs;
 }
 
-export class GoogleGkeHubNamespaceStateOutputReference extends cdktf.ComplexObject {
+export class GoogleGkeHubNamespaceStateOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -100,7 +100,7 @@ export class GoogleGkeHubNamespaceStateOutputReference extends cdktf.ComplexObje
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -125,14 +125,14 @@ export class GoogleGkeHubNamespaceStateOutputReference extends cdktf.ComplexObje
   }
 }
 
-export class GoogleGkeHubNamespaceStateList extends cdktf.ComplexList {
+export class GoogleGkeHubNamespaceStateList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -158,39 +158,39 @@ export interface GoogleGkeHubNamespaceTimeouts {
   readonly update?: string;
 }
 
-export function googleGkeHubNamespaceTimeoutsToTerraform(struct?: GoogleGkeHubNamespaceTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleGkeHubNamespaceTimeoutsToTerraform(struct?: GoogleGkeHubNamespaceTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleGkeHubNamespaceTimeoutsToHclTerraform(struct?: GoogleGkeHubNamespaceTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleGkeHubNamespaceTimeoutsToHclTerraform(struct?: GoogleGkeHubNamespaceTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -201,19 +201,19 @@ export function googleGkeHubNamespaceTimeoutsToHclTerraform(struct?: GoogleGkeHu
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleGkeHubNamespaceTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleGkeHubNamespaceTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleGkeHubNamespaceTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleGkeHubNamespaceTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -234,7 +234,7 @@ export class GoogleGkeHubNamespaceTimeoutsOutputReference extends cdktf.ComplexO
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleGkeHubNamespaceTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleGkeHubNamespaceTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -242,7 +242,7 @@ export class GoogleGkeHubNamespaceTimeoutsOutputReference extends cdktf.ComplexO
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -307,7 +307,7 @@ export class GoogleGkeHubNamespaceTimeoutsOutputReference extends cdktf.ComplexO
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_hub_namespace google_gke_hub_namespace}
 */
-export class GoogleGkeHubNamespace extends cdktf.TerraformResource {
+export class GoogleGkeHubNamespace extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -318,14 +318,14 @@ export class GoogleGkeHubNamespace extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleGkeHubNamespace resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleGkeHubNamespace resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleGkeHubNamespace to import
   * @param importFromId The id of the existing GoogleGkeHubNamespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_hub_namespace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleGkeHubNamespace to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_gke_hub_namespace", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_gke_hub_namespace", importId: importFromId, provider });
       }
 
   // ===========
@@ -380,7 +380,7 @@ export class GoogleGkeHubNamespace extends cdktf.TerraformResource {
   }
 
   // effective_labels - computed: true, optional: false, required: false
-  private _effectiveLabels = new cdktf.StringMap(this, "effective_labels");
+  private _effectiveLabels = new cdktn.StringMap(this, "effective_labels");
   public get effectiveLabels() {
     return this._effectiveLabels;
   }
@@ -500,7 +500,7 @@ export class GoogleGkeHubNamespace extends cdktf.TerraformResource {
   }
 
   // terraform_labels - computed: true, optional: false, required: false
-  private _terraformLabels = new cdktf.StringMap(this, "terraform_labels");
+  private _terraformLabels = new cdktn.StringMap(this, "terraform_labels");
   public get terraformLabels() {
     return this._terraformLabels;
   }
@@ -537,13 +537,13 @@ export class GoogleGkeHubNamespace extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      id: cdktf.stringToTerraform(this._id),
-      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
-      namespace_labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._namespaceLabels),
-      project: cdktf.stringToTerraform(this._project),
-      scope: cdktf.stringToTerraform(this._scope),
-      scope_id: cdktf.stringToTerraform(this._scopeId),
-      scope_namespace_id: cdktf.stringToTerraform(this._scopeNamespaceId),
+      id: cdktn.stringToTerraform(this._id),
+      labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
+      namespace_labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._namespaceLabels),
+      project: cdktn.stringToTerraform(this._project),
+      scope: cdktn.stringToTerraform(this._scope),
+      scope_id: cdktn.stringToTerraform(this._scopeId),
+      scope_namespace_id: cdktn.stringToTerraform(this._scopeNamespaceId),
       timeouts: googleGkeHubNamespaceTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -551,43 +551,43 @@ export class GoogleGkeHubNamespace extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._labels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       namespace_labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._namespaceLabels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._namespaceLabels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       scope: {
-        value: cdktf.stringToHclTerraform(this._scope),
+        value: cdktn.stringToHclTerraform(this._scope),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       scope_id: {
-        value: cdktf.stringToHclTerraform(this._scopeId),
+        value: cdktn.stringToHclTerraform(this._scopeId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       scope_namespace_id: {
-        value: cdktf.stringToHclTerraform(this._scopeNamespaceId),
+        value: cdktn.stringToHclTerraform(this._scopeNamespaceId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

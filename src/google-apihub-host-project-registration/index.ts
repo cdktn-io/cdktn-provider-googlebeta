@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleApihubHostProjectRegistrationConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleApihubHostProjectRegistrationConfig extends cdktn.TerraformMetaArguments {
   /**
   * Required. Immutable. Google cloud project name in the format: "projects/abc" or "projects/123".
   * As input, project name with either project id or number are accepted.
@@ -64,32 +64,32 @@ export interface GoogleApihubHostProjectRegistrationTimeouts {
   readonly delete?: string;
 }
 
-export function googleApihubHostProjectRegistrationTimeoutsToTerraform(struct?: GoogleApihubHostProjectRegistrationTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleApihubHostProjectRegistrationTimeoutsToTerraform(struct?: GoogleApihubHostProjectRegistrationTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
   }
 }
 
 
-export function googleApihubHostProjectRegistrationTimeoutsToHclTerraform(struct?: GoogleApihubHostProjectRegistrationTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleApihubHostProjectRegistrationTimeoutsToHclTerraform(struct?: GoogleApihubHostProjectRegistrationTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -100,19 +100,19 @@ export function googleApihubHostProjectRegistrationTimeoutsToHclTerraform(struct
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleApihubHostProjectRegistrationTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleApihubHostProjectRegistrationTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleApihubHostProjectRegistrationTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleApihubHostProjectRegistrationTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -129,14 +129,14 @@ export class GoogleApihubHostProjectRegistrationTimeoutsOutputReference extends 
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleApihubHostProjectRegistrationTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleApihubHostProjectRegistrationTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._create = undefined;
       this._delete = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -184,7 +184,7 @@ export class GoogleApihubHostProjectRegistrationTimeoutsOutputReference extends 
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apihub_host_project_registration google_apihub_host_project_registration}
 */
-export class GoogleApihubHostProjectRegistration extends cdktf.TerraformResource {
+export class GoogleApihubHostProjectRegistration extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -195,14 +195,14 @@ export class GoogleApihubHostProjectRegistration extends cdktf.TerraformResource
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleApihubHostProjectRegistration resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleApihubHostProjectRegistration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleApihubHostProjectRegistration to import
   * @param importFromId The id of the existing GoogleApihubHostProjectRegistration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apihub_host_project_registration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleApihubHostProjectRegistration to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_apihub_host_project_registration", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_apihub_host_project_registration", importId: importFromId, provider });
       }
 
   // ===========
@@ -347,11 +347,11 @@ export class GoogleApihubHostProjectRegistration extends cdktf.TerraformResource
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      gcp_project: cdktf.stringToTerraform(this._gcpProject),
-      host_project_registration_id: cdktf.stringToTerraform(this._hostProjectRegistrationId),
-      id: cdktf.stringToTerraform(this._id),
-      location: cdktf.stringToTerraform(this._location),
-      project: cdktf.stringToTerraform(this._project),
+      gcp_project: cdktn.stringToTerraform(this._gcpProject),
+      host_project_registration_id: cdktn.stringToTerraform(this._hostProjectRegistrationId),
+      id: cdktn.stringToTerraform(this._id),
+      location: cdktn.stringToTerraform(this._location),
+      project: cdktn.stringToTerraform(this._project),
       timeouts: googleApihubHostProjectRegistrationTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -359,31 +359,31 @@ export class GoogleApihubHostProjectRegistration extends cdktf.TerraformResource
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       gcp_project: {
-        value: cdktf.stringToHclTerraform(this._gcpProject),
+        value: cdktn.stringToHclTerraform(this._gcpProject),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       host_project_registration_id: {
-        value: cdktf.stringToHclTerraform(this._hostProjectRegistrationId),
+        value: cdktn.stringToHclTerraform(this._hostProjectRegistrationId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

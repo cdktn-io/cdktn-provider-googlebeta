@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleDataformRepositoryWorkflowConfigConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleDataformRepositoryWorkflowConfigConfig extends cdktn.TerraformMetaArguments {
   /**
   * Optional. Optional schedule (in cron format) for automatic creation of compilation results.
   *
@@ -78,8 +78,8 @@ export interface GoogleDataformRepositoryWorkflowConfigRecentScheduledExecutionR
 }
 
 export function googleDataformRepositoryWorkflowConfigRecentScheduledExecutionRecordsErrorStatusToTerraform(struct?: GoogleDataformRepositoryWorkflowConfigRecentScheduledExecutionRecordsErrorStatus): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -88,8 +88,8 @@ export function googleDataformRepositoryWorkflowConfigRecentScheduledExecutionRe
 
 
 export function googleDataformRepositoryWorkflowConfigRecentScheduledExecutionRecordsErrorStatusToHclTerraform(struct?: GoogleDataformRepositoryWorkflowConfigRecentScheduledExecutionRecordsErrorStatus): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -97,7 +97,7 @@ export function googleDataformRepositoryWorkflowConfigRecentScheduledExecutionRe
   return attrs;
 }
 
-export class GoogleDataformRepositoryWorkflowConfigRecentScheduledExecutionRecordsErrorStatusOutputReference extends cdktf.ComplexObject {
+export class GoogleDataformRepositoryWorkflowConfigRecentScheduledExecutionRecordsErrorStatusOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -106,7 +106,7 @@ export class GoogleDataformRepositoryWorkflowConfigRecentScheduledExecutionRecor
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -136,14 +136,14 @@ export class GoogleDataformRepositoryWorkflowConfigRecentScheduledExecutionRecor
   }
 }
 
-export class GoogleDataformRepositoryWorkflowConfigRecentScheduledExecutionRecordsErrorStatusList extends cdktf.ComplexList {
+export class GoogleDataformRepositoryWorkflowConfigRecentScheduledExecutionRecordsErrorStatusList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -158,8 +158,8 @@ export interface GoogleDataformRepositoryWorkflowConfigRecentScheduledExecutionR
 }
 
 export function googleDataformRepositoryWorkflowConfigRecentScheduledExecutionRecordsToTerraform(struct?: GoogleDataformRepositoryWorkflowConfigRecentScheduledExecutionRecords): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -168,8 +168,8 @@ export function googleDataformRepositoryWorkflowConfigRecentScheduledExecutionRe
 
 
 export function googleDataformRepositoryWorkflowConfigRecentScheduledExecutionRecordsToHclTerraform(struct?: GoogleDataformRepositoryWorkflowConfigRecentScheduledExecutionRecords): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -177,7 +177,7 @@ export function googleDataformRepositoryWorkflowConfigRecentScheduledExecutionRe
   return attrs;
 }
 
-export class GoogleDataformRepositoryWorkflowConfigRecentScheduledExecutionRecordsOutputReference extends cdktf.ComplexObject {
+export class GoogleDataformRepositoryWorkflowConfigRecentScheduledExecutionRecordsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -186,7 +186,7 @@ export class GoogleDataformRepositoryWorkflowConfigRecentScheduledExecutionRecor
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -222,14 +222,14 @@ export class GoogleDataformRepositoryWorkflowConfigRecentScheduledExecutionRecor
   }
 }
 
-export class GoogleDataformRepositoryWorkflowConfigRecentScheduledExecutionRecordsList extends cdktf.ComplexList {
+export class GoogleDataformRepositoryWorkflowConfigRecentScheduledExecutionRecordsList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -261,39 +261,39 @@ export interface GoogleDataformRepositoryWorkflowConfigInvocationConfigIncludedT
   readonly schema?: string;
 }
 
-export function googleDataformRepositoryWorkflowConfigInvocationConfigIncludedTargetsToTerraform(struct?: GoogleDataformRepositoryWorkflowConfigInvocationConfigIncludedTargets | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDataformRepositoryWorkflowConfigInvocationConfigIncludedTargetsToTerraform(struct?: GoogleDataformRepositoryWorkflowConfigInvocationConfigIncludedTargets | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    database: cdktf.stringToTerraform(struct!.database),
-    name: cdktf.stringToTerraform(struct!.name),
-    schema: cdktf.stringToTerraform(struct!.schema),
+    database: cdktn.stringToTerraform(struct!.database),
+    name: cdktn.stringToTerraform(struct!.name),
+    schema: cdktn.stringToTerraform(struct!.schema),
   }
 }
 
 
-export function googleDataformRepositoryWorkflowConfigInvocationConfigIncludedTargetsToHclTerraform(struct?: GoogleDataformRepositoryWorkflowConfigInvocationConfigIncludedTargets | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDataformRepositoryWorkflowConfigInvocationConfigIncludedTargetsToHclTerraform(struct?: GoogleDataformRepositoryWorkflowConfigInvocationConfigIncludedTargets | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     database: {
-      value: cdktf.stringToHclTerraform(struct!.database),
+      value: cdktn.stringToHclTerraform(struct!.database),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
+      value: cdktn.stringToHclTerraform(struct!.name),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     schema: {
-      value: cdktf.stringToHclTerraform(struct!.schema),
+      value: cdktn.stringToHclTerraform(struct!.schema),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -304,9 +304,9 @@ export function googleDataformRepositoryWorkflowConfigInvocationConfigIncludedTa
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataformRepositoryWorkflowConfigInvocationConfigIncludedTargetsOutputReference extends cdktf.ComplexObject {
+export class GoogleDataformRepositoryWorkflowConfigInvocationConfigIncludedTargetsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -314,11 +314,11 @@ export class GoogleDataformRepositoryWorkflowConfigInvocationConfigIncludedTarge
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDataformRepositoryWorkflowConfigInvocationConfigIncludedTargets | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDataformRepositoryWorkflowConfigInvocationConfigIncludedTargets | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -339,7 +339,7 @@ export class GoogleDataformRepositoryWorkflowConfigInvocationConfigIncludedTarge
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDataformRepositoryWorkflowConfigInvocationConfigIncludedTargets | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDataformRepositoryWorkflowConfigInvocationConfigIncludedTargets | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -347,7 +347,7 @@ export class GoogleDataformRepositoryWorkflowConfigInvocationConfigIncludedTarge
       this._name = undefined;
       this._schema = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -409,15 +409,15 @@ export class GoogleDataformRepositoryWorkflowConfigInvocationConfigIncludedTarge
   }
 }
 
-export class GoogleDataformRepositoryWorkflowConfigInvocationConfigIncludedTargetsList extends cdktf.ComplexList {
-  public internalValue? : GoogleDataformRepositoryWorkflowConfigInvocationConfigIncludedTargets[] | cdktf.IResolvable
+export class GoogleDataformRepositoryWorkflowConfigInvocationConfigIncludedTargetsList extends cdktn.ComplexList {
+  public internalValue? : GoogleDataformRepositoryWorkflowConfigInvocationConfigIncludedTargets[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -434,7 +434,7 @@ export interface GoogleDataformRepositoryWorkflowConfigInvocationConfig {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_workflow_config#fully_refresh_incremental_tables_enabled GoogleDataformRepositoryWorkflowConfig#fully_refresh_incremental_tables_enabled}
   */
-  readonly fullyRefreshIncrementalTablesEnabled?: boolean | cdktf.IResolvable;
+  readonly fullyRefreshIncrementalTablesEnabled?: boolean | cdktn.IResolvable;
   /**
   * Optional. The set of tags to include.
   *
@@ -452,75 +452,75 @@ export interface GoogleDataformRepositoryWorkflowConfigInvocationConfig {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_workflow_config#transitive_dependencies_included GoogleDataformRepositoryWorkflowConfig#transitive_dependencies_included}
   */
-  readonly transitiveDependenciesIncluded?: boolean | cdktf.IResolvable;
+  readonly transitiveDependenciesIncluded?: boolean | cdktn.IResolvable;
   /**
   * Optional. When set to true, transitive dependents of included actions will be executed.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_workflow_config#transitive_dependents_included GoogleDataformRepositoryWorkflowConfig#transitive_dependents_included}
   */
-  readonly transitiveDependentsIncluded?: boolean | cdktf.IResolvable;
+  readonly transitiveDependentsIncluded?: boolean | cdktn.IResolvable;
   /**
   * included_targets block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_workflow_config#included_targets GoogleDataformRepositoryWorkflowConfig#included_targets}
   */
-  readonly includedTargets?: GoogleDataformRepositoryWorkflowConfigInvocationConfigIncludedTargets[] | cdktf.IResolvable;
+  readonly includedTargets?: GoogleDataformRepositoryWorkflowConfigInvocationConfigIncludedTargets[] | cdktn.IResolvable;
 }
 
 export function googleDataformRepositoryWorkflowConfigInvocationConfigToTerraform(struct?: GoogleDataformRepositoryWorkflowConfigInvocationConfigOutputReference | GoogleDataformRepositoryWorkflowConfigInvocationConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    fully_refresh_incremental_tables_enabled: cdktf.booleanToTerraform(struct!.fullyRefreshIncrementalTablesEnabled),
-    included_tags: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.includedTags),
-    service_account: cdktf.stringToTerraform(struct!.serviceAccount),
-    transitive_dependencies_included: cdktf.booleanToTerraform(struct!.transitiveDependenciesIncluded),
-    transitive_dependents_included: cdktf.booleanToTerraform(struct!.transitiveDependentsIncluded),
-    included_targets: cdktf.listMapper(googleDataformRepositoryWorkflowConfigInvocationConfigIncludedTargetsToTerraform, true)(struct!.includedTargets),
+    fully_refresh_incremental_tables_enabled: cdktn.booleanToTerraform(struct!.fullyRefreshIncrementalTablesEnabled),
+    included_tags: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.includedTags),
+    service_account: cdktn.stringToTerraform(struct!.serviceAccount),
+    transitive_dependencies_included: cdktn.booleanToTerraform(struct!.transitiveDependenciesIncluded),
+    transitive_dependents_included: cdktn.booleanToTerraform(struct!.transitiveDependentsIncluded),
+    included_targets: cdktn.listMapper(googleDataformRepositoryWorkflowConfigInvocationConfigIncludedTargetsToTerraform, true)(struct!.includedTargets),
   }
 }
 
 
 export function googleDataformRepositoryWorkflowConfigInvocationConfigToHclTerraform(struct?: GoogleDataformRepositoryWorkflowConfigInvocationConfigOutputReference | GoogleDataformRepositoryWorkflowConfigInvocationConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     fully_refresh_incremental_tables_enabled: {
-      value: cdktf.booleanToHclTerraform(struct!.fullyRefreshIncrementalTablesEnabled),
+      value: cdktn.booleanToHclTerraform(struct!.fullyRefreshIncrementalTablesEnabled),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     included_tags: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.includedTags),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.includedTags),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     service_account: {
-      value: cdktf.stringToHclTerraform(struct!.serviceAccount),
+      value: cdktn.stringToHclTerraform(struct!.serviceAccount),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     transitive_dependencies_included: {
-      value: cdktf.booleanToHclTerraform(struct!.transitiveDependenciesIncluded),
+      value: cdktn.booleanToHclTerraform(struct!.transitiveDependenciesIncluded),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     transitive_dependents_included: {
-      value: cdktf.booleanToHclTerraform(struct!.transitiveDependentsIncluded),
+      value: cdktn.booleanToHclTerraform(struct!.transitiveDependentsIncluded),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     included_targets: {
-      value: cdktf.listMapperHcl(googleDataformRepositoryWorkflowConfigInvocationConfigIncludedTargetsToHclTerraform, true)(struct!.includedTargets),
+      value: cdktn.listMapperHcl(googleDataformRepositoryWorkflowConfigInvocationConfigIncludedTargetsToHclTerraform, true)(struct!.includedTargets),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDataformRepositoryWorkflowConfigInvocationConfigIncludedTargetsList",
@@ -531,14 +531,14 @@ export function googleDataformRepositoryWorkflowConfigInvocationConfigToHclTerra
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataformRepositoryWorkflowConfigInvocationConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDataformRepositoryWorkflowConfigInvocationConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -594,11 +594,11 @@ export class GoogleDataformRepositoryWorkflowConfigInvocationConfigOutputReferen
   }
 
   // fully_refresh_incremental_tables_enabled - computed: false, optional: true, required: false
-  private _fullyRefreshIncrementalTablesEnabled?: boolean | cdktf.IResolvable; 
+  private _fullyRefreshIncrementalTablesEnabled?: boolean | cdktn.IResolvable; 
   public get fullyRefreshIncrementalTablesEnabled() {
     return this.getBooleanAttribute('fully_refresh_incremental_tables_enabled');
   }
-  public set fullyRefreshIncrementalTablesEnabled(value: boolean | cdktf.IResolvable) {
+  public set fullyRefreshIncrementalTablesEnabled(value: boolean | cdktn.IResolvable) {
     this._fullyRefreshIncrementalTablesEnabled = value;
   }
   public resetFullyRefreshIncrementalTablesEnabled() {
@@ -642,11 +642,11 @@ export class GoogleDataformRepositoryWorkflowConfigInvocationConfigOutputReferen
   }
 
   // transitive_dependencies_included - computed: false, optional: true, required: false
-  private _transitiveDependenciesIncluded?: boolean | cdktf.IResolvable; 
+  private _transitiveDependenciesIncluded?: boolean | cdktn.IResolvable; 
   public get transitiveDependenciesIncluded() {
     return this.getBooleanAttribute('transitive_dependencies_included');
   }
-  public set transitiveDependenciesIncluded(value: boolean | cdktf.IResolvable) {
+  public set transitiveDependenciesIncluded(value: boolean | cdktn.IResolvable) {
     this._transitiveDependenciesIncluded = value;
   }
   public resetTransitiveDependenciesIncluded() {
@@ -658,11 +658,11 @@ export class GoogleDataformRepositoryWorkflowConfigInvocationConfigOutputReferen
   }
 
   // transitive_dependents_included - computed: false, optional: true, required: false
-  private _transitiveDependentsIncluded?: boolean | cdktf.IResolvable; 
+  private _transitiveDependentsIncluded?: boolean | cdktn.IResolvable; 
   public get transitiveDependentsIncluded() {
     return this.getBooleanAttribute('transitive_dependents_included');
   }
-  public set transitiveDependentsIncluded(value: boolean | cdktf.IResolvable) {
+  public set transitiveDependentsIncluded(value: boolean | cdktn.IResolvable) {
     this._transitiveDependentsIncluded = value;
   }
   public resetTransitiveDependentsIncluded() {
@@ -678,7 +678,7 @@ export class GoogleDataformRepositoryWorkflowConfigInvocationConfigOutputReferen
   public get includedTargets() {
     return this._includedTargets;
   }
-  public putIncludedTargets(value: GoogleDataformRepositoryWorkflowConfigInvocationConfigIncludedTargets[] | cdktf.IResolvable) {
+  public putIncludedTargets(value: GoogleDataformRepositoryWorkflowConfigInvocationConfigIncludedTargets[] | cdktn.IResolvable) {
     this._includedTargets.internalValue = value;
   }
   public resetIncludedTargets() {
@@ -704,39 +704,39 @@ export interface GoogleDataformRepositoryWorkflowConfigTimeouts {
   readonly update?: string;
 }
 
-export function googleDataformRepositoryWorkflowConfigTimeoutsToTerraform(struct?: GoogleDataformRepositoryWorkflowConfigTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDataformRepositoryWorkflowConfigTimeoutsToTerraform(struct?: GoogleDataformRepositoryWorkflowConfigTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleDataformRepositoryWorkflowConfigTimeoutsToHclTerraform(struct?: GoogleDataformRepositoryWorkflowConfigTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDataformRepositoryWorkflowConfigTimeoutsToHclTerraform(struct?: GoogleDataformRepositoryWorkflowConfigTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -747,19 +747,19 @@ export function googleDataformRepositoryWorkflowConfigTimeoutsToHclTerraform(str
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataformRepositoryWorkflowConfigTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleDataformRepositoryWorkflowConfigTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleDataformRepositoryWorkflowConfigTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDataformRepositoryWorkflowConfigTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -780,7 +780,7 @@ export class GoogleDataformRepositoryWorkflowConfigTimeoutsOutputReference exten
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDataformRepositoryWorkflowConfigTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDataformRepositoryWorkflowConfigTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -788,7 +788,7 @@ export class GoogleDataformRepositoryWorkflowConfigTimeoutsOutputReference exten
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -853,7 +853,7 @@ export class GoogleDataformRepositoryWorkflowConfigTimeoutsOutputReference exten
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_workflow_config google_dataform_repository_workflow_config}
 */
-export class GoogleDataformRepositoryWorkflowConfig extends cdktf.TerraformResource {
+export class GoogleDataformRepositoryWorkflowConfig extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -864,14 +864,14 @@ export class GoogleDataformRepositoryWorkflowConfig extends cdktf.TerraformResou
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleDataformRepositoryWorkflowConfig resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleDataformRepositoryWorkflowConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleDataformRepositoryWorkflowConfig to import
   * @param importFromId The id of the existing GoogleDataformRepositoryWorkflowConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_workflow_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleDataformRepositoryWorkflowConfig to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_dataform_repository_workflow_config", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_dataform_repository_workflow_config", importId: importFromId, provider });
       }
 
   // ===========
@@ -1083,14 +1083,14 @@ export class GoogleDataformRepositoryWorkflowConfig extends cdktf.TerraformResou
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      cron_schedule: cdktf.stringToTerraform(this._cronSchedule),
-      id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
-      project: cdktf.stringToTerraform(this._project),
-      region: cdktf.stringToTerraform(this._region),
-      release_config: cdktf.stringToTerraform(this._releaseConfig),
-      repository: cdktf.stringToTerraform(this._repository),
-      time_zone: cdktf.stringToTerraform(this._timeZone),
+      cron_schedule: cdktn.stringToTerraform(this._cronSchedule),
+      id: cdktn.stringToTerraform(this._id),
+      name: cdktn.stringToTerraform(this._name),
+      project: cdktn.stringToTerraform(this._project),
+      region: cdktn.stringToTerraform(this._region),
+      release_config: cdktn.stringToTerraform(this._releaseConfig),
+      repository: cdktn.stringToTerraform(this._repository),
+      time_zone: cdktn.stringToTerraform(this._timeZone),
       invocation_config: googleDataformRepositoryWorkflowConfigInvocationConfigToTerraform(this._invocationConfig.internalValue),
       timeouts: googleDataformRepositoryWorkflowConfigTimeoutsToTerraform(this._timeouts.internalValue),
     };
@@ -1099,49 +1099,49 @@ export class GoogleDataformRepositoryWorkflowConfig extends cdktf.TerraformResou
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       cron_schedule: {
-        value: cdktf.stringToHclTerraform(this._cronSchedule),
+        value: cdktn.stringToHclTerraform(this._cronSchedule),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       region: {
-        value: cdktf.stringToHclTerraform(this._region),
+        value: cdktn.stringToHclTerraform(this._region),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       release_config: {
-        value: cdktf.stringToHclTerraform(this._releaseConfig),
+        value: cdktn.stringToHclTerraform(this._releaseConfig),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       repository: {
-        value: cdktf.stringToHclTerraform(this._repository),
+        value: cdktn.stringToHclTerraform(this._repository),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       time_zone: {
-        value: cdktf.stringToHclTerraform(this._timeZone),
+        value: cdktn.stringToHclTerraform(this._timeZone),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

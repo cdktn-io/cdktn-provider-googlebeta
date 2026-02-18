@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleProjectIamAuditConfigConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleProjectIamAuditConfigConfig extends cdktn.TerraformMetaArguments {
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_project_iam_audit_config#id GoogleProjectIamAuditConfig#id}
   *
@@ -34,7 +34,7 @@ export interface GoogleProjectIamAuditConfigConfig extends cdktf.TerraformMetaAr
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_project_iam_audit_config#audit_log_config GoogleProjectIamAuditConfig#audit_log_config}
   */
-  readonly auditLogConfig: GoogleProjectIamAuditConfigAuditLogConfig[] | cdktf.IResolvable;
+  readonly auditLogConfig: GoogleProjectIamAuditConfigAuditLogConfig[] | cdktn.IResolvable;
 }
 export interface GoogleProjectIamAuditConfigAuditLogConfig {
   /**
@@ -51,32 +51,32 @@ export interface GoogleProjectIamAuditConfigAuditLogConfig {
   readonly logType: string;
 }
 
-export function googleProjectIamAuditConfigAuditLogConfigToTerraform(struct?: GoogleProjectIamAuditConfigAuditLogConfig | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleProjectIamAuditConfigAuditLogConfigToTerraform(struct?: GoogleProjectIamAuditConfigAuditLogConfig | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    exempted_members: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.exemptedMembers),
-    log_type: cdktf.stringToTerraform(struct!.logType),
+    exempted_members: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.exemptedMembers),
+    log_type: cdktn.stringToTerraform(struct!.logType),
   }
 }
 
 
-export function googleProjectIamAuditConfigAuditLogConfigToHclTerraform(struct?: GoogleProjectIamAuditConfigAuditLogConfig | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleProjectIamAuditConfigAuditLogConfigToHclTerraform(struct?: GoogleProjectIamAuditConfigAuditLogConfig | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     exempted_members: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.exemptedMembers),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.exemptedMembers),
       isBlock: false,
       type: "set",
       storageClassType: "stringList",
     },
     log_type: {
-      value: cdktf.stringToHclTerraform(struct!.logType),
+      value: cdktn.stringToHclTerraform(struct!.logType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -87,9 +87,9 @@ export function googleProjectIamAuditConfigAuditLogConfigToHclTerraform(struct?:
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleProjectIamAuditConfigAuditLogConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleProjectIamAuditConfigAuditLogConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -97,11 +97,11 @@ export class GoogleProjectIamAuditConfigAuditLogConfigOutputReference extends cd
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleProjectIamAuditConfigAuditLogConfig | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleProjectIamAuditConfigAuditLogConfig | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -118,14 +118,14 @@ export class GoogleProjectIamAuditConfigAuditLogConfigOutputReference extends cd
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleProjectIamAuditConfigAuditLogConfig | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleProjectIamAuditConfigAuditLogConfig | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._exemptedMembers = undefined;
       this._logType = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -140,7 +140,7 @@ export class GoogleProjectIamAuditConfigAuditLogConfigOutputReference extends cd
   // exempted_members - computed: false, optional: true, required: false
   private _exemptedMembers?: string[]; 
   public get exemptedMembers() {
-    return cdktf.Fn.tolist(this.getListAttribute('exempted_members'));
+    return cdktn.Fn.tolist(this.getListAttribute('exempted_members'));
   }
   public set exemptedMembers(value: string[]) {
     this._exemptedMembers = value;
@@ -167,15 +167,15 @@ export class GoogleProjectIamAuditConfigAuditLogConfigOutputReference extends cd
   }
 }
 
-export class GoogleProjectIamAuditConfigAuditLogConfigList extends cdktf.ComplexList {
-  public internalValue? : GoogleProjectIamAuditConfigAuditLogConfig[] | cdktf.IResolvable
+export class GoogleProjectIamAuditConfigAuditLogConfigList extends cdktn.ComplexList {
+  public internalValue? : GoogleProjectIamAuditConfigAuditLogConfig[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -190,7 +190,7 @@ export class GoogleProjectIamAuditConfigAuditLogConfigList extends cdktf.Complex
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_project_iam_audit_config google_project_iam_audit_config}
 */
-export class GoogleProjectIamAuditConfig extends cdktf.TerraformResource {
+export class GoogleProjectIamAuditConfig extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -201,14 +201,14 @@ export class GoogleProjectIamAuditConfig extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleProjectIamAuditConfig resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleProjectIamAuditConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleProjectIamAuditConfig to import
   * @param importFromId The id of the existing GoogleProjectIamAuditConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_project_iam_audit_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleProjectIamAuditConfig to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_project_iam_audit_config", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_project_iam_audit_config", importId: importFromId, provider });
       }
 
   // ===========
@@ -300,7 +300,7 @@ export class GoogleProjectIamAuditConfig extends cdktf.TerraformResource {
   public get auditLogConfig() {
     return this._auditLogConfig;
   }
-  public putAuditLogConfig(value: GoogleProjectIamAuditConfigAuditLogConfig[] | cdktf.IResolvable) {
+  public putAuditLogConfig(value: GoogleProjectIamAuditConfigAuditLogConfig[] | cdktn.IResolvable) {
     this._auditLogConfig.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -314,35 +314,35 @@ export class GoogleProjectIamAuditConfig extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      id: cdktf.stringToTerraform(this._id),
-      project: cdktf.stringToTerraform(this._project),
-      service: cdktf.stringToTerraform(this._service),
-      audit_log_config: cdktf.listMapper(googleProjectIamAuditConfigAuditLogConfigToTerraform, true)(this._auditLogConfig.internalValue),
+      id: cdktn.stringToTerraform(this._id),
+      project: cdktn.stringToTerraform(this._project),
+      service: cdktn.stringToTerraform(this._service),
+      audit_log_config: cdktn.listMapper(googleProjectIamAuditConfigAuditLogConfigToTerraform, true)(this._auditLogConfig.internalValue),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       service: {
-        value: cdktf.stringToHclTerraform(this._service),
+        value: cdktn.stringToHclTerraform(this._service),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       audit_log_config: {
-        value: cdktf.listMapperHcl(googleProjectIamAuditConfigAuditLogConfigToHclTerraform, true)(this._auditLogConfig.internalValue),
+        value: cdktn.listMapperHcl(googleProjectIamAuditConfigAuditLogConfigToHclTerraform, true)(this._auditLogConfig.internalValue),
         isBlock: true,
         type: "set",
         storageClassType: "GoogleProjectIamAuditConfigAuditLogConfigList",

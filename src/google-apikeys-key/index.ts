@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleApikeysKeyConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleApikeysKeyConfig extends cdktn.TerraformMetaArguments {
   /**
   * Human-readable display name of this API key. Modifiable by user.
   *
@@ -71,32 +71,32 @@ export interface GoogleApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplic
   readonly sha1Fingerprint: string;
 }
 
-export function googleApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplicationsToTerraform(struct?: GoogleApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplications | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplicationsToTerraform(struct?: GoogleApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplications | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    package_name: cdktf.stringToTerraform(struct!.packageName),
-    sha1_fingerprint: cdktf.stringToTerraform(struct!.sha1Fingerprint),
+    package_name: cdktn.stringToTerraform(struct!.packageName),
+    sha1_fingerprint: cdktn.stringToTerraform(struct!.sha1Fingerprint),
   }
 }
 
 
-export function googleApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplicationsToHclTerraform(struct?: GoogleApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplications | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplicationsToHclTerraform(struct?: GoogleApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplications | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     package_name: {
-      value: cdktf.stringToHclTerraform(struct!.packageName),
+      value: cdktn.stringToHclTerraform(struct!.packageName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     sha1_fingerprint: {
-      value: cdktf.stringToHclTerraform(struct!.sha1Fingerprint),
+      value: cdktn.stringToHclTerraform(struct!.sha1Fingerprint),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -107,9 +107,9 @@ export function googleApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplica
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplicationsOutputReference extends cdktf.ComplexObject {
+export class GoogleApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplicationsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -117,11 +117,11 @@ export class GoogleApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplicatio
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplications | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplications | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -138,14 +138,14 @@ export class GoogleApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplicatio
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplications | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplications | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._packageName = undefined;
       this._sha1Fingerprint = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -184,15 +184,15 @@ export class GoogleApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplicatio
   }
 }
 
-export class GoogleApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplicationsList extends cdktf.ComplexList {
-  public internalValue? : GoogleApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplications[] | cdktf.IResolvable
+export class GoogleApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplicationsList extends cdktn.ComplexList {
+  public internalValue? : GoogleApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplications[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -209,28 +209,28 @@ export interface GoogleApikeysKeyRestrictionsAndroidKeyRestrictions {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apikeys_key#allowed_applications GoogleApikeysKey#allowed_applications}
   */
-  readonly allowedApplications: GoogleApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplications[] | cdktf.IResolvable;
+  readonly allowedApplications: GoogleApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplications[] | cdktn.IResolvable;
 }
 
 export function googleApikeysKeyRestrictionsAndroidKeyRestrictionsToTerraform(struct?: GoogleApikeysKeyRestrictionsAndroidKeyRestrictionsOutputReference | GoogleApikeysKeyRestrictionsAndroidKeyRestrictions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    allowed_applications: cdktf.listMapper(googleApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplicationsToTerraform, true)(struct!.allowedApplications),
+    allowed_applications: cdktn.listMapper(googleApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplicationsToTerraform, true)(struct!.allowedApplications),
   }
 }
 
 
 export function googleApikeysKeyRestrictionsAndroidKeyRestrictionsToHclTerraform(struct?: GoogleApikeysKeyRestrictionsAndroidKeyRestrictionsOutputReference | GoogleApikeysKeyRestrictionsAndroidKeyRestrictions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     allowed_applications: {
-      value: cdktf.listMapperHcl(googleApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplicationsToHclTerraform, true)(struct!.allowedApplications),
+      value: cdktn.listMapperHcl(googleApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplicationsToHclTerraform, true)(struct!.allowedApplications),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplicationsList",
@@ -241,14 +241,14 @@ export function googleApikeysKeyRestrictionsAndroidKeyRestrictionsToHclTerraform
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleApikeysKeyRestrictionsAndroidKeyRestrictionsOutputReference extends cdktf.ComplexObject {
+export class GoogleApikeysKeyRestrictionsAndroidKeyRestrictionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -278,7 +278,7 @@ export class GoogleApikeysKeyRestrictionsAndroidKeyRestrictionsOutputReference e
   public get allowedApplications() {
     return this._allowedApplications;
   }
-  public putAllowedApplications(value: GoogleApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplications[] | cdktf.IResolvable) {
+  public putAllowedApplications(value: GoogleApikeysKeyRestrictionsAndroidKeyRestrictionsAllowedApplications[] | cdktn.IResolvable) {
     this._allowedApplications.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -301,32 +301,32 @@ export interface GoogleApikeysKeyRestrictionsApiTargets {
   readonly service: string;
 }
 
-export function googleApikeysKeyRestrictionsApiTargetsToTerraform(struct?: GoogleApikeysKeyRestrictionsApiTargets | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleApikeysKeyRestrictionsApiTargetsToTerraform(struct?: GoogleApikeysKeyRestrictionsApiTargets | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    methods: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.methods),
-    service: cdktf.stringToTerraform(struct!.service),
+    methods: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.methods),
+    service: cdktn.stringToTerraform(struct!.service),
   }
 }
 
 
-export function googleApikeysKeyRestrictionsApiTargetsToHclTerraform(struct?: GoogleApikeysKeyRestrictionsApiTargets | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleApikeysKeyRestrictionsApiTargetsToHclTerraform(struct?: GoogleApikeysKeyRestrictionsApiTargets | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     methods: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.methods),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.methods),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     service: {
-      value: cdktf.stringToHclTerraform(struct!.service),
+      value: cdktn.stringToHclTerraform(struct!.service),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -337,9 +337,9 @@ export function googleApikeysKeyRestrictionsApiTargetsToHclTerraform(struct?: Go
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleApikeysKeyRestrictionsApiTargetsOutputReference extends cdktf.ComplexObject {
+export class GoogleApikeysKeyRestrictionsApiTargetsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -347,11 +347,11 @@ export class GoogleApikeysKeyRestrictionsApiTargetsOutputReference extends cdktf
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleApikeysKeyRestrictionsApiTargets | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleApikeysKeyRestrictionsApiTargets | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -368,14 +368,14 @@ export class GoogleApikeysKeyRestrictionsApiTargetsOutputReference extends cdktf
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleApikeysKeyRestrictionsApiTargets | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleApikeysKeyRestrictionsApiTargets | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._methods = undefined;
       this._service = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -417,15 +417,15 @@ export class GoogleApikeysKeyRestrictionsApiTargetsOutputReference extends cdktf
   }
 }
 
-export class GoogleApikeysKeyRestrictionsApiTargetsList extends cdktf.ComplexList {
-  public internalValue? : GoogleApikeysKeyRestrictionsApiTargets[] | cdktf.IResolvable
+export class GoogleApikeysKeyRestrictionsApiTargetsList extends cdktn.ComplexList {
+  public internalValue? : GoogleApikeysKeyRestrictionsApiTargets[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -446,24 +446,24 @@ export interface GoogleApikeysKeyRestrictionsBrowserKeyRestrictions {
 }
 
 export function googleApikeysKeyRestrictionsBrowserKeyRestrictionsToTerraform(struct?: GoogleApikeysKeyRestrictionsBrowserKeyRestrictionsOutputReference | GoogleApikeysKeyRestrictionsBrowserKeyRestrictions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    allowed_referrers: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.allowedReferrers),
+    allowed_referrers: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.allowedReferrers),
   }
 }
 
 
 export function googleApikeysKeyRestrictionsBrowserKeyRestrictionsToHclTerraform(struct?: GoogleApikeysKeyRestrictionsBrowserKeyRestrictionsOutputReference | GoogleApikeysKeyRestrictionsBrowserKeyRestrictions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     allowed_referrers: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.allowedReferrers),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.allowedReferrers),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -474,14 +474,14 @@ export function googleApikeysKeyRestrictionsBrowserKeyRestrictionsToHclTerraform
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleApikeysKeyRestrictionsBrowserKeyRestrictionsOutputReference extends cdktf.ComplexObject {
+export class GoogleApikeysKeyRestrictionsBrowserKeyRestrictionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -529,24 +529,24 @@ export interface GoogleApikeysKeyRestrictionsIosKeyRestrictions {
 }
 
 export function googleApikeysKeyRestrictionsIosKeyRestrictionsToTerraform(struct?: GoogleApikeysKeyRestrictionsIosKeyRestrictionsOutputReference | GoogleApikeysKeyRestrictionsIosKeyRestrictions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    allowed_bundle_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.allowedBundleIds),
+    allowed_bundle_ids: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.allowedBundleIds),
   }
 }
 
 
 export function googleApikeysKeyRestrictionsIosKeyRestrictionsToHclTerraform(struct?: GoogleApikeysKeyRestrictionsIosKeyRestrictionsOutputReference | GoogleApikeysKeyRestrictionsIosKeyRestrictions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     allowed_bundle_ids: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.allowedBundleIds),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.allowedBundleIds),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -557,14 +557,14 @@ export function googleApikeysKeyRestrictionsIosKeyRestrictionsToHclTerraform(str
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleApikeysKeyRestrictionsIosKeyRestrictionsOutputReference extends cdktf.ComplexObject {
+export class GoogleApikeysKeyRestrictionsIosKeyRestrictionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -612,24 +612,24 @@ export interface GoogleApikeysKeyRestrictionsServerKeyRestrictions {
 }
 
 export function googleApikeysKeyRestrictionsServerKeyRestrictionsToTerraform(struct?: GoogleApikeysKeyRestrictionsServerKeyRestrictionsOutputReference | GoogleApikeysKeyRestrictionsServerKeyRestrictions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    allowed_ips: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.allowedIps),
+    allowed_ips: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.allowedIps),
   }
 }
 
 
 export function googleApikeysKeyRestrictionsServerKeyRestrictionsToHclTerraform(struct?: GoogleApikeysKeyRestrictionsServerKeyRestrictionsOutputReference | GoogleApikeysKeyRestrictionsServerKeyRestrictions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     allowed_ips: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.allowedIps),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.allowedIps),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -640,14 +640,14 @@ export function googleApikeysKeyRestrictionsServerKeyRestrictionsToHclTerraform(
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleApikeysKeyRestrictionsServerKeyRestrictionsOutputReference extends cdktf.ComplexObject {
+export class GoogleApikeysKeyRestrictionsServerKeyRestrictionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -697,7 +697,7 @@ export interface GoogleApikeysKeyRestrictions {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apikeys_key#api_targets GoogleApikeysKey#api_targets}
   */
-  readonly apiTargets?: GoogleApikeysKeyRestrictionsApiTargets[] | cdktf.IResolvable;
+  readonly apiTargets?: GoogleApikeysKeyRestrictionsApiTargets[] | cdktn.IResolvable;
   /**
   * browser_key_restrictions block
   *
@@ -719,13 +719,13 @@ export interface GoogleApikeysKeyRestrictions {
 }
 
 export function googleApikeysKeyRestrictionsToTerraform(struct?: GoogleApikeysKeyRestrictionsOutputReference | GoogleApikeysKeyRestrictions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
     android_key_restrictions: googleApikeysKeyRestrictionsAndroidKeyRestrictionsToTerraform(struct!.androidKeyRestrictions),
-    api_targets: cdktf.listMapper(googleApikeysKeyRestrictionsApiTargetsToTerraform, true)(struct!.apiTargets),
+    api_targets: cdktn.listMapper(googleApikeysKeyRestrictionsApiTargetsToTerraform, true)(struct!.apiTargets),
     browser_key_restrictions: googleApikeysKeyRestrictionsBrowserKeyRestrictionsToTerraform(struct!.browserKeyRestrictions),
     ios_key_restrictions: googleApikeysKeyRestrictionsIosKeyRestrictionsToTerraform(struct!.iosKeyRestrictions),
     server_key_restrictions: googleApikeysKeyRestrictionsServerKeyRestrictionsToTerraform(struct!.serverKeyRestrictions),
@@ -734,8 +734,8 @@ export function googleApikeysKeyRestrictionsToTerraform(struct?: GoogleApikeysKe
 
 
 export function googleApikeysKeyRestrictionsToHclTerraform(struct?: GoogleApikeysKeyRestrictionsOutputReference | GoogleApikeysKeyRestrictions): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -746,7 +746,7 @@ export function googleApikeysKeyRestrictionsToHclTerraform(struct?: GoogleApikey
       storageClassType: "GoogleApikeysKeyRestrictionsAndroidKeyRestrictionsList",
     },
     api_targets: {
-      value: cdktf.listMapperHcl(googleApikeysKeyRestrictionsApiTargetsToHclTerraform, true)(struct!.apiTargets),
+      value: cdktn.listMapperHcl(googleApikeysKeyRestrictionsApiTargetsToHclTerraform, true)(struct!.apiTargets),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleApikeysKeyRestrictionsApiTargetsList",
@@ -775,14 +775,14 @@ export function googleApikeysKeyRestrictionsToHclTerraform(struct?: GoogleApikey
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleApikeysKeyRestrictionsOutputReference extends cdktf.ComplexObject {
+export class GoogleApikeysKeyRestrictionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -852,7 +852,7 @@ export class GoogleApikeysKeyRestrictionsOutputReference extends cdktf.ComplexOb
   public get apiTargets() {
     return this._apiTargets;
   }
-  public putApiTargets(value: GoogleApikeysKeyRestrictionsApiTargets[] | cdktf.IResolvable) {
+  public putApiTargets(value: GoogleApikeysKeyRestrictionsApiTargets[] | cdktn.IResolvable) {
     this._apiTargets.internalValue = value;
   }
   public resetApiTargets() {
@@ -926,39 +926,39 @@ export interface GoogleApikeysKeyTimeouts {
   readonly update?: string;
 }
 
-export function googleApikeysKeyTimeoutsToTerraform(struct?: GoogleApikeysKeyTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleApikeysKeyTimeoutsToTerraform(struct?: GoogleApikeysKeyTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleApikeysKeyTimeoutsToHclTerraform(struct?: GoogleApikeysKeyTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleApikeysKeyTimeoutsToHclTerraform(struct?: GoogleApikeysKeyTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -969,19 +969,19 @@ export function googleApikeysKeyTimeoutsToHclTerraform(struct?: GoogleApikeysKey
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleApikeysKeyTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleApikeysKeyTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleApikeysKeyTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleApikeysKeyTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -1002,7 +1002,7 @@ export class GoogleApikeysKeyTimeoutsOutputReference extends cdktf.ComplexObject
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleApikeysKeyTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleApikeysKeyTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -1010,7 +1010,7 @@ export class GoogleApikeysKeyTimeoutsOutputReference extends cdktf.ComplexObject
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -1075,7 +1075,7 @@ export class GoogleApikeysKeyTimeoutsOutputReference extends cdktf.ComplexObject
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apikeys_key google_apikeys_key}
 */
-export class GoogleApikeysKey extends cdktf.TerraformResource {
+export class GoogleApikeysKey extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -1086,14 +1086,14 @@ export class GoogleApikeysKey extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleApikeysKey resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleApikeysKey resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleApikeysKey to import
   * @param importFromId The id of the existing GoogleApikeysKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apikeys_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleApikeysKey to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_apikeys_key", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_apikeys_key", importId: importFromId, provider });
       }
 
   // ===========
@@ -1261,11 +1261,11 @@ export class GoogleApikeysKey extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      display_name: cdktf.stringToTerraform(this._displayName),
-      id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
-      project: cdktf.stringToTerraform(this._project),
-      service_account_email: cdktf.stringToTerraform(this._serviceAccountEmail),
+      display_name: cdktn.stringToTerraform(this._displayName),
+      id: cdktn.stringToTerraform(this._id),
+      name: cdktn.stringToTerraform(this._name),
+      project: cdktn.stringToTerraform(this._project),
+      service_account_email: cdktn.stringToTerraform(this._serviceAccountEmail),
       restrictions: googleApikeysKeyRestrictionsToTerraform(this._restrictions.internalValue),
       timeouts: googleApikeysKeyTimeoutsToTerraform(this._timeouts.internalValue),
     };
@@ -1274,31 +1274,31 @@ export class GoogleApikeysKey extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       display_name: {
-        value: cdktf.stringToHclTerraform(this._displayName),
+        value: cdktn.stringToHclTerraform(this._displayName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       service_account_email: {
-        value: cdktf.stringToHclTerraform(this._serviceAccountEmail),
+        value: cdktn.stringToHclTerraform(this._serviceAccountEmail),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

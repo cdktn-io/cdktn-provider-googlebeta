@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleComputeVpnTunnelConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleComputeVpnTunnelConfig extends cdktn.TerraformMetaArguments {
   /**
   * An optional description of this resource.
   *
@@ -184,45 +184,45 @@ export interface GoogleComputeVpnTunnelCipherSuitePhase1 {
 }
 
 export function googleComputeVpnTunnelCipherSuitePhase1ToTerraform(struct?: GoogleComputeVpnTunnelCipherSuitePhase1OutputReference | GoogleComputeVpnTunnelCipherSuitePhase1): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    dh: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.dh),
-    encryption: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.encryption),
-    integrity: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.integrity),
-    prf: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.prf),
+    dh: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.dh),
+    encryption: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.encryption),
+    integrity: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.integrity),
+    prf: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.prf),
   }
 }
 
 
 export function googleComputeVpnTunnelCipherSuitePhase1ToHclTerraform(struct?: GoogleComputeVpnTunnelCipherSuitePhase1OutputReference | GoogleComputeVpnTunnelCipherSuitePhase1): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     dh: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.dh),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.dh),
       isBlock: false,
       type: "set",
       storageClassType: "stringList",
     },
     encryption: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.encryption),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.encryption),
       isBlock: false,
       type: "set",
       storageClassType: "stringList",
     },
     integrity: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.integrity),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.integrity),
       isBlock: false,
       type: "set",
       storageClassType: "stringList",
     },
     prf: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.prf),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.prf),
       isBlock: false,
       type: "set",
       storageClassType: "stringList",
@@ -233,14 +233,14 @@ export function googleComputeVpnTunnelCipherSuitePhase1ToHclTerraform(struct?: G
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeVpnTunnelCipherSuitePhase1OutputReference extends cdktf.ComplexObject {
+export class GoogleComputeVpnTunnelCipherSuitePhase1OutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -286,7 +286,7 @@ export class GoogleComputeVpnTunnelCipherSuitePhase1OutputReference extends cdkt
   // dh - computed: false, optional: true, required: false
   private _dh?: string[]; 
   public get dh() {
-    return cdktf.Fn.tolist(this.getListAttribute('dh'));
+    return cdktn.Fn.tolist(this.getListAttribute('dh'));
   }
   public set dh(value: string[]) {
     this._dh = value;
@@ -302,7 +302,7 @@ export class GoogleComputeVpnTunnelCipherSuitePhase1OutputReference extends cdkt
   // encryption - computed: false, optional: true, required: false
   private _encryption?: string[]; 
   public get encryption() {
-    return cdktf.Fn.tolist(this.getListAttribute('encryption'));
+    return cdktn.Fn.tolist(this.getListAttribute('encryption'));
   }
   public set encryption(value: string[]) {
     this._encryption = value;
@@ -318,7 +318,7 @@ export class GoogleComputeVpnTunnelCipherSuitePhase1OutputReference extends cdkt
   // integrity - computed: false, optional: true, required: false
   private _integrity?: string[]; 
   public get integrity() {
-    return cdktf.Fn.tolist(this.getListAttribute('integrity'));
+    return cdktn.Fn.tolist(this.getListAttribute('integrity'));
   }
   public set integrity(value: string[]) {
     this._integrity = value;
@@ -334,7 +334,7 @@ export class GoogleComputeVpnTunnelCipherSuitePhase1OutputReference extends cdkt
   // prf - computed: false, optional: true, required: false
   private _prf?: string[]; 
   public get prf() {
-    return cdktf.Fn.tolist(this.getListAttribute('prf'));
+    return cdktn.Fn.tolist(this.getListAttribute('prf'));
   }
   public set prf(value: string[]) {
     this._prf = value;
@@ -369,38 +369,38 @@ export interface GoogleComputeVpnTunnelCipherSuitePhase2 {
 }
 
 export function googleComputeVpnTunnelCipherSuitePhase2ToTerraform(struct?: GoogleComputeVpnTunnelCipherSuitePhase2OutputReference | GoogleComputeVpnTunnelCipherSuitePhase2): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    encryption: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.encryption),
-    integrity: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.integrity),
-    pfs: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.pfs),
+    encryption: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.encryption),
+    integrity: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.integrity),
+    pfs: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.pfs),
   }
 }
 
 
 export function googleComputeVpnTunnelCipherSuitePhase2ToHclTerraform(struct?: GoogleComputeVpnTunnelCipherSuitePhase2OutputReference | GoogleComputeVpnTunnelCipherSuitePhase2): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     encryption: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.encryption),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.encryption),
       isBlock: false,
       type: "set",
       storageClassType: "stringList",
     },
     integrity: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.integrity),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.integrity),
       isBlock: false,
       type: "set",
       storageClassType: "stringList",
     },
     pfs: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.pfs),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.pfs),
       isBlock: false,
       type: "set",
       storageClassType: "stringList",
@@ -411,14 +411,14 @@ export function googleComputeVpnTunnelCipherSuitePhase2ToHclTerraform(struct?: G
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeVpnTunnelCipherSuitePhase2OutputReference extends cdktf.ComplexObject {
+export class GoogleComputeVpnTunnelCipherSuitePhase2OutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -458,7 +458,7 @@ export class GoogleComputeVpnTunnelCipherSuitePhase2OutputReference extends cdkt
   // encryption - computed: false, optional: true, required: false
   private _encryption?: string[]; 
   public get encryption() {
-    return cdktf.Fn.tolist(this.getListAttribute('encryption'));
+    return cdktn.Fn.tolist(this.getListAttribute('encryption'));
   }
   public set encryption(value: string[]) {
     this._encryption = value;
@@ -474,7 +474,7 @@ export class GoogleComputeVpnTunnelCipherSuitePhase2OutputReference extends cdkt
   // integrity - computed: false, optional: true, required: false
   private _integrity?: string[]; 
   public get integrity() {
-    return cdktf.Fn.tolist(this.getListAttribute('integrity'));
+    return cdktn.Fn.tolist(this.getListAttribute('integrity'));
   }
   public set integrity(value: string[]) {
     this._integrity = value;
@@ -490,7 +490,7 @@ export class GoogleComputeVpnTunnelCipherSuitePhase2OutputReference extends cdkt
   // pfs - computed: false, optional: true, required: false
   private _pfs?: string[]; 
   public get pfs() {
-    return cdktf.Fn.tolist(this.getListAttribute('pfs'));
+    return cdktn.Fn.tolist(this.getListAttribute('pfs'));
   }
   public set pfs(value: string[]) {
     this._pfs = value;
@@ -519,8 +519,8 @@ export interface GoogleComputeVpnTunnelCipherSuite {
 }
 
 export function googleComputeVpnTunnelCipherSuiteToTerraform(struct?: GoogleComputeVpnTunnelCipherSuiteOutputReference | GoogleComputeVpnTunnelCipherSuite): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -531,8 +531,8 @@ export function googleComputeVpnTunnelCipherSuiteToTerraform(struct?: GoogleComp
 
 
 export function googleComputeVpnTunnelCipherSuiteToHclTerraform(struct?: GoogleComputeVpnTunnelCipherSuiteOutputReference | GoogleComputeVpnTunnelCipherSuite): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -554,14 +554,14 @@ export function googleComputeVpnTunnelCipherSuiteToHclTerraform(struct?: GoogleC
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeVpnTunnelCipherSuiteOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeVpnTunnelCipherSuiteOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -639,39 +639,39 @@ export interface GoogleComputeVpnTunnelTimeouts {
   readonly update?: string;
 }
 
-export function googleComputeVpnTunnelTimeoutsToTerraform(struct?: GoogleComputeVpnTunnelTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeVpnTunnelTimeoutsToTerraform(struct?: GoogleComputeVpnTunnelTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleComputeVpnTunnelTimeoutsToHclTerraform(struct?: GoogleComputeVpnTunnelTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeVpnTunnelTimeoutsToHclTerraform(struct?: GoogleComputeVpnTunnelTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -682,19 +682,19 @@ export function googleComputeVpnTunnelTimeoutsToHclTerraform(struct?: GoogleComp
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeVpnTunnelTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeVpnTunnelTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleComputeVpnTunnelTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeVpnTunnelTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -715,7 +715,7 @@ export class GoogleComputeVpnTunnelTimeoutsOutputReference extends cdktf.Complex
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeVpnTunnelTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeVpnTunnelTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -723,7 +723,7 @@ export class GoogleComputeVpnTunnelTimeoutsOutputReference extends cdktf.Complex
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -788,7 +788,7 @@ export class GoogleComputeVpnTunnelTimeoutsOutputReference extends cdktf.Complex
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel google_compute_vpn_tunnel}
 */
-export class GoogleComputeVpnTunnel extends cdktf.TerraformResource {
+export class GoogleComputeVpnTunnel extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -799,14 +799,14 @@ export class GoogleComputeVpnTunnel extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleComputeVpnTunnel resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleComputeVpnTunnel resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleComputeVpnTunnel to import
   * @param importFromId The id of the existing GoogleComputeVpnTunnel that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_vpn_tunnel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleComputeVpnTunnel to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_compute_vpn_tunnel", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_compute_vpn_tunnel", importId: importFromId, provider });
       }
 
   // ===========
@@ -889,7 +889,7 @@ export class GoogleComputeVpnTunnel extends cdktf.TerraformResource {
   }
 
   // effective_labels - computed: true, optional: false, required: false
-  private _effectiveLabels = new cdktf.StringMap(this, "effective_labels");
+  private _effectiveLabels = new cdktn.StringMap(this, "effective_labels");
   public get effectiveLabels() {
     return this._effectiveLabels;
   }
@@ -950,7 +950,7 @@ export class GoogleComputeVpnTunnel extends cdktf.TerraformResource {
   // local_traffic_selector - computed: true, optional: true, required: false
   private _localTrafficSelector?: string[]; 
   public get localTrafficSelector() {
-    return cdktf.Fn.tolist(this.getListAttribute('local_traffic_selector'));
+    return cdktn.Fn.tolist(this.getListAttribute('local_traffic_selector'));
   }
   public set localTrafficSelector(value: string[]) {
     this._localTrafficSelector = value;
@@ -1075,7 +1075,7 @@ export class GoogleComputeVpnTunnel extends cdktf.TerraformResource {
   // remote_traffic_selector - computed: true, optional: true, required: false
   private _remoteTrafficSelector?: string[]; 
   public get remoteTrafficSelector() {
-    return cdktf.Fn.tolist(this.getListAttribute('remote_traffic_selector'));
+    return cdktn.Fn.tolist(this.getListAttribute('remote_traffic_selector'));
   }
   public set remoteTrafficSelector(value: string[]) {
     this._remoteTrafficSelector = value;
@@ -1144,7 +1144,7 @@ export class GoogleComputeVpnTunnel extends cdktf.TerraformResource {
   }
 
   // terraform_labels - computed: true, optional: false, required: false
-  private _terraformLabels = new cdktf.StringMap(this, "terraform_labels");
+  private _terraformLabels = new cdktn.StringMap(this, "terraform_labels");
   public get terraformLabels() {
     return this._terraformLabels;
   }
@@ -1224,24 +1224,24 @@ export class GoogleComputeVpnTunnel extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      description: cdktf.stringToTerraform(this._description),
-      id: cdktf.stringToTerraform(this._id),
-      ike_version: cdktf.numberToTerraform(this._ikeVersion),
-      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
-      local_traffic_selector: cdktf.listMapper(cdktf.stringToTerraform, false)(this._localTrafficSelector),
-      name: cdktf.stringToTerraform(this._name),
-      peer_external_gateway: cdktf.stringToTerraform(this._peerExternalGateway),
-      peer_external_gateway_interface: cdktf.numberToTerraform(this._peerExternalGatewayInterface),
-      peer_gcp_gateway: cdktf.stringToTerraform(this._peerGcpGateway),
-      peer_ip: cdktf.stringToTerraform(this._peerIp),
-      project: cdktf.stringToTerraform(this._project),
-      region: cdktf.stringToTerraform(this._region),
-      remote_traffic_selector: cdktf.listMapper(cdktf.stringToTerraform, false)(this._remoteTrafficSelector),
-      router: cdktf.stringToTerraform(this._router),
-      shared_secret: cdktf.stringToTerraform(this._sharedSecret),
-      target_vpn_gateway: cdktf.stringToTerraform(this._targetVpnGateway),
-      vpn_gateway: cdktf.stringToTerraform(this._vpnGateway),
-      vpn_gateway_interface: cdktf.numberToTerraform(this._vpnGatewayInterface),
+      description: cdktn.stringToTerraform(this._description),
+      id: cdktn.stringToTerraform(this._id),
+      ike_version: cdktn.numberToTerraform(this._ikeVersion),
+      labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
+      local_traffic_selector: cdktn.listMapper(cdktn.stringToTerraform, false)(this._localTrafficSelector),
+      name: cdktn.stringToTerraform(this._name),
+      peer_external_gateway: cdktn.stringToTerraform(this._peerExternalGateway),
+      peer_external_gateway_interface: cdktn.numberToTerraform(this._peerExternalGatewayInterface),
+      peer_gcp_gateway: cdktn.stringToTerraform(this._peerGcpGateway),
+      peer_ip: cdktn.stringToTerraform(this._peerIp),
+      project: cdktn.stringToTerraform(this._project),
+      region: cdktn.stringToTerraform(this._region),
+      remote_traffic_selector: cdktn.listMapper(cdktn.stringToTerraform, false)(this._remoteTrafficSelector),
+      router: cdktn.stringToTerraform(this._router),
+      shared_secret: cdktn.stringToTerraform(this._sharedSecret),
+      target_vpn_gateway: cdktn.stringToTerraform(this._targetVpnGateway),
+      vpn_gateway: cdktn.stringToTerraform(this._vpnGateway),
+      vpn_gateway_interface: cdktn.numberToTerraform(this._vpnGatewayInterface),
       cipher_suite: googleComputeVpnTunnelCipherSuiteToTerraform(this._cipherSuite.internalValue),
       timeouts: googleComputeVpnTunnelTimeoutsToTerraform(this._timeouts.internalValue),
     };
@@ -1250,109 +1250,109 @@ export class GoogleComputeVpnTunnel extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       ike_version: {
-        value: cdktf.numberToHclTerraform(this._ikeVersion),
+        value: cdktn.numberToHclTerraform(this._ikeVersion),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._labels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       local_traffic_selector: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._localTrafficSelector),
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._localTrafficSelector),
         isBlock: false,
         type: "set",
         storageClassType: "stringList",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       peer_external_gateway: {
-        value: cdktf.stringToHclTerraform(this._peerExternalGateway),
+        value: cdktn.stringToHclTerraform(this._peerExternalGateway),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       peer_external_gateway_interface: {
-        value: cdktf.numberToHclTerraform(this._peerExternalGatewayInterface),
+        value: cdktn.numberToHclTerraform(this._peerExternalGatewayInterface),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
       },
       peer_gcp_gateway: {
-        value: cdktf.stringToHclTerraform(this._peerGcpGateway),
+        value: cdktn.stringToHclTerraform(this._peerGcpGateway),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       peer_ip: {
-        value: cdktf.stringToHclTerraform(this._peerIp),
+        value: cdktn.stringToHclTerraform(this._peerIp),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       region: {
-        value: cdktf.stringToHclTerraform(this._region),
+        value: cdktn.stringToHclTerraform(this._region),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       remote_traffic_selector: {
-        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._remoteTrafficSelector),
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._remoteTrafficSelector),
         isBlock: false,
         type: "set",
         storageClassType: "stringList",
       },
       router: {
-        value: cdktf.stringToHclTerraform(this._router),
+        value: cdktn.stringToHclTerraform(this._router),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       shared_secret: {
-        value: cdktf.stringToHclTerraform(this._sharedSecret),
+        value: cdktn.stringToHclTerraform(this._sharedSecret),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       target_vpn_gateway: {
-        value: cdktf.stringToHclTerraform(this._targetVpnGateway),
+        value: cdktn.stringToHclTerraform(this._targetVpnGateway),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       vpn_gateway: {
-        value: cdktf.stringToHclTerraform(this._vpnGateway),
+        value: cdktn.stringToHclTerraform(this._vpnGateway),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       vpn_gateway_interface: {
-        value: cdktf.numberToHclTerraform(this._vpnGatewayInterface),
+        value: cdktn.numberToHclTerraform(this._vpnGatewayInterface),
         isBlock: false,
         type: "simple",
         storageClassType: "number",

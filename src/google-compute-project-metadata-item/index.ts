@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleComputeProjectMetadataItemConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleComputeProjectMetadataItemConfig extends cdktn.TerraformMetaArguments {
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_project_metadata_item#id GoogleComputeProjectMetadataItem#id}
   *
@@ -59,39 +59,39 @@ export interface GoogleComputeProjectMetadataItemTimeouts {
   readonly update?: string;
 }
 
-export function googleComputeProjectMetadataItemTimeoutsToTerraform(struct?: GoogleComputeProjectMetadataItemTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeProjectMetadataItemTimeoutsToTerraform(struct?: GoogleComputeProjectMetadataItemTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleComputeProjectMetadataItemTimeoutsToHclTerraform(struct?: GoogleComputeProjectMetadataItemTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeProjectMetadataItemTimeoutsToHclTerraform(struct?: GoogleComputeProjectMetadataItemTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -102,19 +102,19 @@ export function googleComputeProjectMetadataItemTimeoutsToHclTerraform(struct?: 
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeProjectMetadataItemTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeProjectMetadataItemTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleComputeProjectMetadataItemTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeProjectMetadataItemTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -135,7 +135,7 @@ export class GoogleComputeProjectMetadataItemTimeoutsOutputReference extends cdk
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeProjectMetadataItemTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeProjectMetadataItemTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -143,7 +143,7 @@ export class GoogleComputeProjectMetadataItemTimeoutsOutputReference extends cdk
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -208,7 +208,7 @@ export class GoogleComputeProjectMetadataItemTimeoutsOutputReference extends cdk
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_project_metadata_item google_compute_project_metadata_item}
 */
-export class GoogleComputeProjectMetadataItem extends cdktf.TerraformResource {
+export class GoogleComputeProjectMetadataItem extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -219,14 +219,14 @@ export class GoogleComputeProjectMetadataItem extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleComputeProjectMetadataItem resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleComputeProjectMetadataItem resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleComputeProjectMetadataItem to import
   * @param importFromId The id of the existing GoogleComputeProjectMetadataItem that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_project_metadata_item#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleComputeProjectMetadataItem to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_compute_project_metadata_item", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_compute_project_metadata_item", importId: importFromId, provider });
       }
 
   // ===========
@@ -347,10 +347,10 @@ export class GoogleComputeProjectMetadataItem extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      id: cdktf.stringToTerraform(this._id),
-      key: cdktf.stringToTerraform(this._key),
-      project: cdktf.stringToTerraform(this._project),
-      value: cdktf.stringToTerraform(this._value),
+      id: cdktn.stringToTerraform(this._id),
+      key: cdktn.stringToTerraform(this._key),
+      project: cdktn.stringToTerraform(this._project),
+      value: cdktn.stringToTerraform(this._value),
       timeouts: googleComputeProjectMetadataItemTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -358,25 +358,25 @@ export class GoogleComputeProjectMetadataItem extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       key: {
-        value: cdktf.stringToHclTerraform(this._key),
+        value: cdktn.stringToHclTerraform(this._key),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       value: {
-        value: cdktf.stringToHclTerraform(this._value),
+        value: cdktn.stringToHclTerraform(this._value),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

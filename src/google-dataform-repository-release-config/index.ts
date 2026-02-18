@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleDataformRepositoryReleaseConfigConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleDataformRepositoryReleaseConfigConfig extends cdktn.TerraformMetaArguments {
   /**
   * Optional. Optional schedule (in cron format) for automatic creation of compilation results.
   *
@@ -76,8 +76,8 @@ export interface GoogleDataformRepositoryReleaseConfigRecentScheduledReleaseReco
 }
 
 export function googleDataformRepositoryReleaseConfigRecentScheduledReleaseRecordsErrorStatusToTerraform(struct?: GoogleDataformRepositoryReleaseConfigRecentScheduledReleaseRecordsErrorStatus): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -86,8 +86,8 @@ export function googleDataformRepositoryReleaseConfigRecentScheduledReleaseRecor
 
 
 export function googleDataformRepositoryReleaseConfigRecentScheduledReleaseRecordsErrorStatusToHclTerraform(struct?: GoogleDataformRepositoryReleaseConfigRecentScheduledReleaseRecordsErrorStatus): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -95,7 +95,7 @@ export function googleDataformRepositoryReleaseConfigRecentScheduledReleaseRecor
   return attrs;
 }
 
-export class GoogleDataformRepositoryReleaseConfigRecentScheduledReleaseRecordsErrorStatusOutputReference extends cdktf.ComplexObject {
+export class GoogleDataformRepositoryReleaseConfigRecentScheduledReleaseRecordsErrorStatusOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -104,7 +104,7 @@ export class GoogleDataformRepositoryReleaseConfigRecentScheduledReleaseRecordsE
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -134,14 +134,14 @@ export class GoogleDataformRepositoryReleaseConfigRecentScheduledReleaseRecordsE
   }
 }
 
-export class GoogleDataformRepositoryReleaseConfigRecentScheduledReleaseRecordsErrorStatusList extends cdktf.ComplexList {
+export class GoogleDataformRepositoryReleaseConfigRecentScheduledReleaseRecordsErrorStatusList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -156,8 +156,8 @@ export interface GoogleDataformRepositoryReleaseConfigRecentScheduledReleaseReco
 }
 
 export function googleDataformRepositoryReleaseConfigRecentScheduledReleaseRecordsToTerraform(struct?: GoogleDataformRepositoryReleaseConfigRecentScheduledReleaseRecords): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -166,8 +166,8 @@ export function googleDataformRepositoryReleaseConfigRecentScheduledReleaseRecor
 
 
 export function googleDataformRepositoryReleaseConfigRecentScheduledReleaseRecordsToHclTerraform(struct?: GoogleDataformRepositoryReleaseConfigRecentScheduledReleaseRecords): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -175,7 +175,7 @@ export function googleDataformRepositoryReleaseConfigRecentScheduledReleaseRecor
   return attrs;
 }
 
-export class GoogleDataformRepositoryReleaseConfigRecentScheduledReleaseRecordsOutputReference extends cdktf.ComplexObject {
+export class GoogleDataformRepositoryReleaseConfigRecentScheduledReleaseRecordsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -184,7 +184,7 @@ export class GoogleDataformRepositoryReleaseConfigRecentScheduledReleaseRecordsO
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -220,14 +220,14 @@ export class GoogleDataformRepositoryReleaseConfigRecentScheduledReleaseRecordsO
   }
 }
 
-export class GoogleDataformRepositoryReleaseConfigRecentScheduledReleaseRecordsList extends cdktf.ComplexList {
+export class GoogleDataformRepositoryReleaseConfigRecentScheduledReleaseRecordsList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -293,73 +293,73 @@ export interface GoogleDataformRepositoryReleaseConfigCodeCompilationConfig {
 }
 
 export function googleDataformRepositoryReleaseConfigCodeCompilationConfigToTerraform(struct?: GoogleDataformRepositoryReleaseConfigCodeCompilationConfigOutputReference | GoogleDataformRepositoryReleaseConfigCodeCompilationConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    assertion_schema: cdktf.stringToTerraform(struct!.assertionSchema),
-    database_suffix: cdktf.stringToTerraform(struct!.databaseSuffix),
-    default_database: cdktf.stringToTerraform(struct!.defaultDatabase),
-    default_location: cdktf.stringToTerraform(struct!.defaultLocation),
-    default_schema: cdktf.stringToTerraform(struct!.defaultSchema),
-    schema_suffix: cdktf.stringToTerraform(struct!.schemaSuffix),
-    table_prefix: cdktf.stringToTerraform(struct!.tablePrefix),
-    vars: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.vars),
+    assertion_schema: cdktn.stringToTerraform(struct!.assertionSchema),
+    database_suffix: cdktn.stringToTerraform(struct!.databaseSuffix),
+    default_database: cdktn.stringToTerraform(struct!.defaultDatabase),
+    default_location: cdktn.stringToTerraform(struct!.defaultLocation),
+    default_schema: cdktn.stringToTerraform(struct!.defaultSchema),
+    schema_suffix: cdktn.stringToTerraform(struct!.schemaSuffix),
+    table_prefix: cdktn.stringToTerraform(struct!.tablePrefix),
+    vars: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.vars),
   }
 }
 
 
 export function googleDataformRepositoryReleaseConfigCodeCompilationConfigToHclTerraform(struct?: GoogleDataformRepositoryReleaseConfigCodeCompilationConfigOutputReference | GoogleDataformRepositoryReleaseConfigCodeCompilationConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     assertion_schema: {
-      value: cdktf.stringToHclTerraform(struct!.assertionSchema),
+      value: cdktn.stringToHclTerraform(struct!.assertionSchema),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     database_suffix: {
-      value: cdktf.stringToHclTerraform(struct!.databaseSuffix),
+      value: cdktn.stringToHclTerraform(struct!.databaseSuffix),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     default_database: {
-      value: cdktf.stringToHclTerraform(struct!.defaultDatabase),
+      value: cdktn.stringToHclTerraform(struct!.defaultDatabase),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     default_location: {
-      value: cdktf.stringToHclTerraform(struct!.defaultLocation),
+      value: cdktn.stringToHclTerraform(struct!.defaultLocation),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     default_schema: {
-      value: cdktf.stringToHclTerraform(struct!.defaultSchema),
+      value: cdktn.stringToHclTerraform(struct!.defaultSchema),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     schema_suffix: {
-      value: cdktf.stringToHclTerraform(struct!.schemaSuffix),
+      value: cdktn.stringToHclTerraform(struct!.schemaSuffix),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     table_prefix: {
-      value: cdktf.stringToHclTerraform(struct!.tablePrefix),
+      value: cdktn.stringToHclTerraform(struct!.tablePrefix),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     vars: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.vars),
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.vars),
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
@@ -370,14 +370,14 @@ export function googleDataformRepositoryReleaseConfigCodeCompilationConfigToHclT
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataformRepositoryReleaseConfigCodeCompilationConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDataformRepositoryReleaseConfigCodeCompilationConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -587,39 +587,39 @@ export interface GoogleDataformRepositoryReleaseConfigTimeouts {
   readonly update?: string;
 }
 
-export function googleDataformRepositoryReleaseConfigTimeoutsToTerraform(struct?: GoogleDataformRepositoryReleaseConfigTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDataformRepositoryReleaseConfigTimeoutsToTerraform(struct?: GoogleDataformRepositoryReleaseConfigTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleDataformRepositoryReleaseConfigTimeoutsToHclTerraform(struct?: GoogleDataformRepositoryReleaseConfigTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDataformRepositoryReleaseConfigTimeoutsToHclTerraform(struct?: GoogleDataformRepositoryReleaseConfigTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -630,19 +630,19 @@ export function googleDataformRepositoryReleaseConfigTimeoutsToHclTerraform(stru
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataformRepositoryReleaseConfigTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleDataformRepositoryReleaseConfigTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleDataformRepositoryReleaseConfigTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDataformRepositoryReleaseConfigTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -663,7 +663,7 @@ export class GoogleDataformRepositoryReleaseConfigTimeoutsOutputReference extend
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDataformRepositoryReleaseConfigTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDataformRepositoryReleaseConfigTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -671,7 +671,7 @@ export class GoogleDataformRepositoryReleaseConfigTimeoutsOutputReference extend
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -736,7 +736,7 @@ export class GoogleDataformRepositoryReleaseConfigTimeoutsOutputReference extend
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_release_config google_dataform_repository_release_config}
 */
-export class GoogleDataformRepositoryReleaseConfig extends cdktf.TerraformResource {
+export class GoogleDataformRepositoryReleaseConfig extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -747,14 +747,14 @@ export class GoogleDataformRepositoryReleaseConfig extends cdktf.TerraformResour
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleDataformRepositoryReleaseConfig resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleDataformRepositoryReleaseConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleDataformRepositoryReleaseConfig to import
   * @param importFromId The id of the existing GoogleDataformRepositoryReleaseConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataform_repository_release_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleDataformRepositoryReleaseConfig to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_dataform_repository_release_config", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_dataform_repository_release_config", importId: importFromId, provider });
       }
 
   // ===========
@@ -966,14 +966,14 @@ export class GoogleDataformRepositoryReleaseConfig extends cdktf.TerraformResour
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      cron_schedule: cdktf.stringToTerraform(this._cronSchedule),
-      git_commitish: cdktf.stringToTerraform(this._gitCommitish),
-      id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
-      project: cdktf.stringToTerraform(this._project),
-      region: cdktf.stringToTerraform(this._region),
-      repository: cdktf.stringToTerraform(this._repository),
-      time_zone: cdktf.stringToTerraform(this._timeZone),
+      cron_schedule: cdktn.stringToTerraform(this._cronSchedule),
+      git_commitish: cdktn.stringToTerraform(this._gitCommitish),
+      id: cdktn.stringToTerraform(this._id),
+      name: cdktn.stringToTerraform(this._name),
+      project: cdktn.stringToTerraform(this._project),
+      region: cdktn.stringToTerraform(this._region),
+      repository: cdktn.stringToTerraform(this._repository),
+      time_zone: cdktn.stringToTerraform(this._timeZone),
       code_compilation_config: googleDataformRepositoryReleaseConfigCodeCompilationConfigToTerraform(this._codeCompilationConfig.internalValue),
       timeouts: googleDataformRepositoryReleaseConfigTimeoutsToTerraform(this._timeouts.internalValue),
     };
@@ -982,49 +982,49 @@ export class GoogleDataformRepositoryReleaseConfig extends cdktf.TerraformResour
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       cron_schedule: {
-        value: cdktf.stringToHclTerraform(this._cronSchedule),
+        value: cdktn.stringToHclTerraform(this._cronSchedule),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       git_commitish: {
-        value: cdktf.stringToHclTerraform(this._gitCommitish),
+        value: cdktn.stringToHclTerraform(this._gitCommitish),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       region: {
-        value: cdktf.stringToHclTerraform(this._region),
+        value: cdktn.stringToHclTerraform(this._region),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       repository: {
-        value: cdktf.stringToHclTerraform(this._repository),
+        value: cdktn.stringToHclTerraform(this._repository),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       time_zone: {
-        value: cdktf.stringToHclTerraform(this._timeZone),
+        value: cdktn.stringToHclTerraform(this._timeZone),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

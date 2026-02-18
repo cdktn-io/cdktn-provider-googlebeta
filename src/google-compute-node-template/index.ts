@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleComputeNodeTemplateConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleComputeNodeTemplateConfig extends cdktn.TerraformMetaArguments {
   /**
   * CPU overcommit. Default value: "NONE" Possible values: ["ENABLED", "NONE"]
   *
@@ -67,13 +67,13 @@ export interface GoogleComputeNodeTemplateConfig extends cdktf.TerraformMetaArgu
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_node_template#accelerators GoogleComputeNodeTemplate#accelerators}
   */
-  readonly accelerators?: GoogleComputeNodeTemplateAccelerators[] | cdktf.IResolvable;
+  readonly accelerators?: GoogleComputeNodeTemplateAccelerators[] | cdktn.IResolvable;
   /**
   * disks block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_node_template#disks GoogleComputeNodeTemplate#disks}
   */
-  readonly disks?: GoogleComputeNodeTemplateDisks[] | cdktf.IResolvable;
+  readonly disks?: GoogleComputeNodeTemplateDisks[] | cdktn.IResolvable;
   /**
   * node_type_flexibility block
   *
@@ -110,32 +110,32 @@ export interface GoogleComputeNodeTemplateAccelerators {
   readonly acceleratorType?: string;
 }
 
-export function googleComputeNodeTemplateAcceleratorsToTerraform(struct?: GoogleComputeNodeTemplateAccelerators | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeNodeTemplateAcceleratorsToTerraform(struct?: GoogleComputeNodeTemplateAccelerators | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    accelerator_count: cdktf.numberToTerraform(struct!.acceleratorCount),
-    accelerator_type: cdktf.stringToTerraform(struct!.acceleratorType),
+    accelerator_count: cdktn.numberToTerraform(struct!.acceleratorCount),
+    accelerator_type: cdktn.stringToTerraform(struct!.acceleratorType),
   }
 }
 
 
-export function googleComputeNodeTemplateAcceleratorsToHclTerraform(struct?: GoogleComputeNodeTemplateAccelerators | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeNodeTemplateAcceleratorsToHclTerraform(struct?: GoogleComputeNodeTemplateAccelerators | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     accelerator_count: {
-      value: cdktf.numberToHclTerraform(struct!.acceleratorCount),
+      value: cdktn.numberToHclTerraform(struct!.acceleratorCount),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     accelerator_type: {
-      value: cdktf.stringToHclTerraform(struct!.acceleratorType),
+      value: cdktn.stringToHclTerraform(struct!.acceleratorType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -146,9 +146,9 @@ export function googleComputeNodeTemplateAcceleratorsToHclTerraform(struct?: Goo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeNodeTemplateAcceleratorsOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeNodeTemplateAcceleratorsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -156,11 +156,11 @@ export class GoogleComputeNodeTemplateAcceleratorsOutputReference extends cdktf.
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeNodeTemplateAccelerators | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeNodeTemplateAccelerators | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -177,14 +177,14 @@ export class GoogleComputeNodeTemplateAcceleratorsOutputReference extends cdktf.
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeNodeTemplateAccelerators | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeNodeTemplateAccelerators | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._acceleratorCount = undefined;
       this._acceleratorType = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -229,15 +229,15 @@ export class GoogleComputeNodeTemplateAcceleratorsOutputReference extends cdktf.
   }
 }
 
-export class GoogleComputeNodeTemplateAcceleratorsList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeNodeTemplateAccelerators[] | cdktf.IResolvable
+export class GoogleComputeNodeTemplateAcceleratorsList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeNodeTemplateAccelerators[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -269,39 +269,39 @@ export interface GoogleComputeNodeTemplateDisks {
   readonly diskType?: string;
 }
 
-export function googleComputeNodeTemplateDisksToTerraform(struct?: GoogleComputeNodeTemplateDisks | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeNodeTemplateDisksToTerraform(struct?: GoogleComputeNodeTemplateDisks | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    disk_count: cdktf.numberToTerraform(struct!.diskCount),
-    disk_size_gb: cdktf.numberToTerraform(struct!.diskSizeGb),
-    disk_type: cdktf.stringToTerraform(struct!.diskType),
+    disk_count: cdktn.numberToTerraform(struct!.diskCount),
+    disk_size_gb: cdktn.numberToTerraform(struct!.diskSizeGb),
+    disk_type: cdktn.stringToTerraform(struct!.diskType),
   }
 }
 
 
-export function googleComputeNodeTemplateDisksToHclTerraform(struct?: GoogleComputeNodeTemplateDisks | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeNodeTemplateDisksToHclTerraform(struct?: GoogleComputeNodeTemplateDisks | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     disk_count: {
-      value: cdktf.numberToHclTerraform(struct!.diskCount),
+      value: cdktn.numberToHclTerraform(struct!.diskCount),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     disk_size_gb: {
-      value: cdktf.numberToHclTerraform(struct!.diskSizeGb),
+      value: cdktn.numberToHclTerraform(struct!.diskSizeGb),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     disk_type: {
-      value: cdktf.stringToHclTerraform(struct!.diskType),
+      value: cdktn.stringToHclTerraform(struct!.diskType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -312,9 +312,9 @@ export function googleComputeNodeTemplateDisksToHclTerraform(struct?: GoogleComp
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeNodeTemplateDisksOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeNodeTemplateDisksOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -322,11 +322,11 @@ export class GoogleComputeNodeTemplateDisksOutputReference extends cdktf.Complex
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleComputeNodeTemplateDisks | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeNodeTemplateDisks | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -347,7 +347,7 @@ export class GoogleComputeNodeTemplateDisksOutputReference extends cdktf.Complex
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeNodeTemplateDisks | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeNodeTemplateDisks | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -355,7 +355,7 @@ export class GoogleComputeNodeTemplateDisksOutputReference extends cdktf.Complex
       this._diskSizeGb = undefined;
       this._diskType = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -417,15 +417,15 @@ export class GoogleComputeNodeTemplateDisksOutputReference extends cdktf.Complex
   }
 }
 
-export class GoogleComputeNodeTemplateDisksList extends cdktf.ComplexList {
-  public internalValue? : GoogleComputeNodeTemplateDisks[] | cdktf.IResolvable
+export class GoogleComputeNodeTemplateDisksList extends cdktn.ComplexList {
+  public internalValue? : GoogleComputeNodeTemplateDisks[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -452,31 +452,31 @@ export interface GoogleComputeNodeTemplateNodeTypeFlexibility {
 }
 
 export function googleComputeNodeTemplateNodeTypeFlexibilityToTerraform(struct?: GoogleComputeNodeTemplateNodeTypeFlexibilityOutputReference | GoogleComputeNodeTemplateNodeTypeFlexibility): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    cpus: cdktf.stringToTerraform(struct!.cpus),
-    memory: cdktf.stringToTerraform(struct!.memory),
+    cpus: cdktn.stringToTerraform(struct!.cpus),
+    memory: cdktn.stringToTerraform(struct!.memory),
   }
 }
 
 
 export function googleComputeNodeTemplateNodeTypeFlexibilityToHclTerraform(struct?: GoogleComputeNodeTemplateNodeTypeFlexibilityOutputReference | GoogleComputeNodeTemplateNodeTypeFlexibility): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     cpus: {
-      value: cdktf.stringToHclTerraform(struct!.cpus),
+      value: cdktn.stringToHclTerraform(struct!.cpus),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     memory: {
-      value: cdktf.stringToHclTerraform(struct!.memory),
+      value: cdktn.stringToHclTerraform(struct!.memory),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -487,14 +487,14 @@ export function googleComputeNodeTemplateNodeTypeFlexibilityToHclTerraform(struc
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeNodeTemplateNodeTypeFlexibilityOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeNodeTemplateNodeTypeFlexibilityOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -583,24 +583,24 @@ export interface GoogleComputeNodeTemplateServerBinding {
 }
 
 export function googleComputeNodeTemplateServerBindingToTerraform(struct?: GoogleComputeNodeTemplateServerBindingOutputReference | GoogleComputeNodeTemplateServerBinding): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    type: cdktf.stringToTerraform(struct!.type),
+    type: cdktn.stringToTerraform(struct!.type),
   }
 }
 
 
 export function googleComputeNodeTemplateServerBindingToHclTerraform(struct?: GoogleComputeNodeTemplateServerBindingOutputReference | GoogleComputeNodeTemplateServerBinding): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     type: {
-      value: cdktf.stringToHclTerraform(struct!.type),
+      value: cdktn.stringToHclTerraform(struct!.type),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -611,14 +611,14 @@ export function googleComputeNodeTemplateServerBindingToHclTerraform(struct?: Go
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeNodeTemplateServerBindingOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeNodeTemplateServerBindingOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -667,32 +667,32 @@ export interface GoogleComputeNodeTemplateTimeouts {
   readonly delete?: string;
 }
 
-export function googleComputeNodeTemplateTimeoutsToTerraform(struct?: GoogleComputeNodeTemplateTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeNodeTemplateTimeoutsToTerraform(struct?: GoogleComputeNodeTemplateTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
   }
 }
 
 
-export function googleComputeNodeTemplateTimeoutsToHclTerraform(struct?: GoogleComputeNodeTemplateTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleComputeNodeTemplateTimeoutsToHclTerraform(struct?: GoogleComputeNodeTemplateTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -703,19 +703,19 @@ export function googleComputeNodeTemplateTimeoutsToHclTerraform(struct?: GoogleC
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleComputeNodeTemplateTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleComputeNodeTemplateTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleComputeNodeTemplateTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleComputeNodeTemplateTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -732,14 +732,14 @@ export class GoogleComputeNodeTemplateTimeoutsOutputReference extends cdktf.Comp
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleComputeNodeTemplateTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleComputeNodeTemplateTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._create = undefined;
       this._delete = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -787,7 +787,7 @@ export class GoogleComputeNodeTemplateTimeoutsOutputReference extends cdktf.Comp
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_node_template google_compute_node_template}
 */
-export class GoogleComputeNodeTemplate extends cdktf.TerraformResource {
+export class GoogleComputeNodeTemplate extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -798,14 +798,14 @@ export class GoogleComputeNodeTemplate extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleComputeNodeTemplate resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleComputeNodeTemplate resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleComputeNodeTemplate to import
   * @param importFromId The id of the existing GoogleComputeNodeTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_node_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleComputeNodeTemplate to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_compute_node_template", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_compute_node_template", importId: importFromId, provider });
       }
 
   // ===========
@@ -994,7 +994,7 @@ export class GoogleComputeNodeTemplate extends cdktf.TerraformResource {
   public get accelerators() {
     return this._accelerators;
   }
-  public putAccelerators(value: GoogleComputeNodeTemplateAccelerators[] | cdktf.IResolvable) {
+  public putAccelerators(value: GoogleComputeNodeTemplateAccelerators[] | cdktn.IResolvable) {
     this._accelerators.internalValue = value;
   }
   public resetAccelerators() {
@@ -1010,7 +1010,7 @@ export class GoogleComputeNodeTemplate extends cdktf.TerraformResource {
   public get disks() {
     return this._disks;
   }
-  public putDisks(value: GoogleComputeNodeTemplateDisks[] | cdktf.IResolvable) {
+  public putDisks(value: GoogleComputeNodeTemplateDisks[] | cdktn.IResolvable) {
     this._disks.internalValue = value;
   }
   public resetDisks() {
@@ -1075,16 +1075,16 @@ export class GoogleComputeNodeTemplate extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      cpu_overcommit_type: cdktf.stringToTerraform(this._cpuOvercommitType),
-      description: cdktf.stringToTerraform(this._description),
-      id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
-      node_affinity_labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._nodeAffinityLabels),
-      node_type: cdktf.stringToTerraform(this._nodeType),
-      project: cdktf.stringToTerraform(this._project),
-      region: cdktf.stringToTerraform(this._region),
-      accelerators: cdktf.listMapper(googleComputeNodeTemplateAcceleratorsToTerraform, true)(this._accelerators.internalValue),
-      disks: cdktf.listMapper(googleComputeNodeTemplateDisksToTerraform, true)(this._disks.internalValue),
+      cpu_overcommit_type: cdktn.stringToTerraform(this._cpuOvercommitType),
+      description: cdktn.stringToTerraform(this._description),
+      id: cdktn.stringToTerraform(this._id),
+      name: cdktn.stringToTerraform(this._name),
+      node_affinity_labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._nodeAffinityLabels),
+      node_type: cdktn.stringToTerraform(this._nodeType),
+      project: cdktn.stringToTerraform(this._project),
+      region: cdktn.stringToTerraform(this._region),
+      accelerators: cdktn.listMapper(googleComputeNodeTemplateAcceleratorsToTerraform, true)(this._accelerators.internalValue),
+      disks: cdktn.listMapper(googleComputeNodeTemplateDisksToTerraform, true)(this._disks.internalValue),
       node_type_flexibility: googleComputeNodeTemplateNodeTypeFlexibilityToTerraform(this._nodeTypeFlexibility.internalValue),
       server_binding: googleComputeNodeTemplateServerBindingToTerraform(this._serverBinding.internalValue),
       timeouts: googleComputeNodeTemplateTimeoutsToTerraform(this._timeouts.internalValue),
@@ -1094,61 +1094,61 @@ export class GoogleComputeNodeTemplate extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       cpu_overcommit_type: {
-        value: cdktf.stringToHclTerraform(this._cpuOvercommitType),
+        value: cdktn.stringToHclTerraform(this._cpuOvercommitType),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       node_affinity_labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._nodeAffinityLabels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._nodeAffinityLabels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       node_type: {
-        value: cdktf.stringToHclTerraform(this._nodeType),
+        value: cdktn.stringToHclTerraform(this._nodeType),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       region: {
-        value: cdktf.stringToHclTerraform(this._region),
+        value: cdktn.stringToHclTerraform(this._region),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       accelerators: {
-        value: cdktf.listMapperHcl(googleComputeNodeTemplateAcceleratorsToHclTerraform, true)(this._accelerators.internalValue),
+        value: cdktn.listMapperHcl(googleComputeNodeTemplateAcceleratorsToHclTerraform, true)(this._accelerators.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "GoogleComputeNodeTemplateAcceleratorsList",
       },
       disks: {
-        value: cdktf.listMapperHcl(googleComputeNodeTemplateDisksToHclTerraform, true)(this._disks.internalValue),
+        value: cdktn.listMapperHcl(googleComputeNodeTemplateDisksToHclTerraform, true)(this._disks.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "GoogleComputeNodeTemplateDisksList",

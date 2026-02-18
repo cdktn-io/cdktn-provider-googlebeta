@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleServiceUsageConsumerQuotaOverrideConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleServiceUsageConsumerQuotaOverrideConfig extends cdktn.TerraformMetaArguments {
   /**
   * If this map is nonempty, then this override applies only to specific values for dimensions defined in the limit unit.
   *
@@ -24,7 +24,7 @@ export interface GoogleServiceUsageConsumerQuotaOverrideConfig extends cdktf.Ter
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_service_usage_consumer_quota_override#force GoogleServiceUsageConsumerQuotaOverride#force}
   */
-  readonly force?: boolean | cdktf.IResolvable;
+  readonly force?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_service_usage_consumer_quota_override#id GoogleServiceUsageConsumerQuotaOverride#id}
   *
@@ -85,39 +85,39 @@ export interface GoogleServiceUsageConsumerQuotaOverrideTimeouts {
   readonly update?: string;
 }
 
-export function googleServiceUsageConsumerQuotaOverrideTimeoutsToTerraform(struct?: GoogleServiceUsageConsumerQuotaOverrideTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleServiceUsageConsumerQuotaOverrideTimeoutsToTerraform(struct?: GoogleServiceUsageConsumerQuotaOverrideTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleServiceUsageConsumerQuotaOverrideTimeoutsToHclTerraform(struct?: GoogleServiceUsageConsumerQuotaOverrideTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleServiceUsageConsumerQuotaOverrideTimeoutsToHclTerraform(struct?: GoogleServiceUsageConsumerQuotaOverrideTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -128,19 +128,19 @@ export function googleServiceUsageConsumerQuotaOverrideTimeoutsToHclTerraform(st
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleServiceUsageConsumerQuotaOverrideTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleServiceUsageConsumerQuotaOverrideTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleServiceUsageConsumerQuotaOverrideTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleServiceUsageConsumerQuotaOverrideTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -161,7 +161,7 @@ export class GoogleServiceUsageConsumerQuotaOverrideTimeoutsOutputReference exte
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleServiceUsageConsumerQuotaOverrideTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleServiceUsageConsumerQuotaOverrideTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -169,7 +169,7 @@ export class GoogleServiceUsageConsumerQuotaOverrideTimeoutsOutputReference exte
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -234,7 +234,7 @@ export class GoogleServiceUsageConsumerQuotaOverrideTimeoutsOutputReference exte
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_service_usage_consumer_quota_override google_service_usage_consumer_quota_override}
 */
-export class GoogleServiceUsageConsumerQuotaOverride extends cdktf.TerraformResource {
+export class GoogleServiceUsageConsumerQuotaOverride extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -245,14 +245,14 @@ export class GoogleServiceUsageConsumerQuotaOverride extends cdktf.TerraformReso
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleServiceUsageConsumerQuotaOverride resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleServiceUsageConsumerQuotaOverride resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleServiceUsageConsumerQuotaOverride to import
   * @param importFromId The id of the existing GoogleServiceUsageConsumerQuotaOverride that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_service_usage_consumer_quota_override#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleServiceUsageConsumerQuotaOverride to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_service_usage_consumer_quota_override", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_service_usage_consumer_quota_override", importId: importFromId, provider });
       }
 
   // ===========
@@ -314,11 +314,11 @@ export class GoogleServiceUsageConsumerQuotaOverride extends cdktf.TerraformReso
   }
 
   // force - computed: false, optional: true, required: false
-  private _force?: boolean | cdktf.IResolvable; 
+  private _force?: boolean | cdktn.IResolvable; 
   public get force() {
     return this.getBooleanAttribute('force');
   }
-  public set force(value: boolean | cdktf.IResolvable) {
+  public set force(value: boolean | cdktn.IResolvable) {
     this._force = value;
   }
   public resetForce() {
@@ -440,14 +440,14 @@ export class GoogleServiceUsageConsumerQuotaOverride extends cdktf.TerraformReso
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      dimensions: cdktf.hashMapper(cdktf.stringToTerraform)(this._dimensions),
-      force: cdktf.booleanToTerraform(this._force),
-      id: cdktf.stringToTerraform(this._id),
-      limit: cdktf.stringToTerraform(this._limit),
-      metric: cdktf.stringToTerraform(this._metric),
-      override_value: cdktf.stringToTerraform(this._overrideValue),
-      project: cdktf.stringToTerraform(this._project),
-      service: cdktf.stringToTerraform(this._service),
+      dimensions: cdktn.hashMapper(cdktn.stringToTerraform)(this._dimensions),
+      force: cdktn.booleanToTerraform(this._force),
+      id: cdktn.stringToTerraform(this._id),
+      limit: cdktn.stringToTerraform(this._limit),
+      metric: cdktn.stringToTerraform(this._metric),
+      override_value: cdktn.stringToTerraform(this._overrideValue),
+      project: cdktn.stringToTerraform(this._project),
+      service: cdktn.stringToTerraform(this._service),
       timeouts: googleServiceUsageConsumerQuotaOverrideTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -455,49 +455,49 @@ export class GoogleServiceUsageConsumerQuotaOverride extends cdktf.TerraformReso
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       dimensions: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._dimensions),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._dimensions),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       force: {
-        value: cdktf.booleanToHclTerraform(this._force),
+        value: cdktn.booleanToHclTerraform(this._force),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       limit: {
-        value: cdktf.stringToHclTerraform(this._limit),
+        value: cdktn.stringToHclTerraform(this._limit),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       metric: {
-        value: cdktf.stringToHclTerraform(this._metric),
+        value: cdktn.stringToHclTerraform(this._metric),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       override_value: {
-        value: cdktf.stringToHclTerraform(this._overrideValue),
+        value: cdktn.stringToHclTerraform(this._overrideValue),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       service: {
-        value: cdktf.stringToHclTerraform(this._service),
+        value: cdktn.stringToHclTerraform(this._service),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

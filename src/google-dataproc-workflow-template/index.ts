@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleDataprocWorkflowTemplateConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleDataprocWorkflowTemplateConfig extends cdktn.TerraformMetaArguments {
   /**
   * Optional. Timeout duration for the DAG of jobs, expressed in seconds (see [JSON representation of duration](https://developers.google.com/protocol-buffers/docs/proto3#json)). The timeout duration must be from 10 minutes ("600s") to 24 hours ("86400s"). The timer begins when the first job is submitted. If the workflow is running at the end of the timeout period, any remaining jobs are cancelled, the workflow is ended, and if the workflow was running on a [managed cluster](/dataproc/docs/concepts/workflows/using-workflows#configuring_or_selecting_a_cluster), the cluster is deleted.
   *
@@ -69,13 +69,13 @@ export interface GoogleDataprocWorkflowTemplateConfig extends cdktf.TerraformMet
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_workflow_template#jobs GoogleDataprocWorkflowTemplate#jobs}
   */
-  readonly jobs: GoogleDataprocWorkflowTemplateJobs[] | cdktf.IResolvable;
+  readonly jobs: GoogleDataprocWorkflowTemplateJobs[] | cdktn.IResolvable;
   /**
   * parameters block
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_workflow_template#parameters GoogleDataprocWorkflowTemplate#parameters}
   */
-  readonly parameters?: GoogleDataprocWorkflowTemplateParameters[] | cdktf.IResolvable;
+  readonly parameters?: GoogleDataprocWorkflowTemplateParameters[] | cdktn.IResolvable;
   /**
   * placement block
   *
@@ -99,24 +99,24 @@ export interface GoogleDataprocWorkflowTemplateEncryptionConfig {
 }
 
 export function googleDataprocWorkflowTemplateEncryptionConfigToTerraform(struct?: GoogleDataprocWorkflowTemplateEncryptionConfigOutputReference | GoogleDataprocWorkflowTemplateEncryptionConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    kms_key: cdktf.stringToTerraform(struct!.kmsKey),
+    kms_key: cdktn.stringToTerraform(struct!.kmsKey),
   }
 }
 
 
 export function googleDataprocWorkflowTemplateEncryptionConfigToHclTerraform(struct?: GoogleDataprocWorkflowTemplateEncryptionConfigOutputReference | GoogleDataprocWorkflowTemplateEncryptionConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     kms_key: {
-      value: cdktf.stringToHclTerraform(struct!.kmsKey),
+      value: cdktn.stringToHclTerraform(struct!.kmsKey),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -127,14 +127,14 @@ export function googleDataprocWorkflowTemplateEncryptionConfigToHclTerraform(str
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplateEncryptionConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplateEncryptionConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -185,24 +185,24 @@ export interface GoogleDataprocWorkflowTemplateJobsHadoopJobLoggingConfig {
 }
 
 export function googleDataprocWorkflowTemplateJobsHadoopJobLoggingConfigToTerraform(struct?: GoogleDataprocWorkflowTemplateJobsHadoopJobLoggingConfigOutputReference | GoogleDataprocWorkflowTemplateJobsHadoopJobLoggingConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    driver_log_levels: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.driverLogLevels),
+    driver_log_levels: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.driverLogLevels),
   }
 }
 
 
 export function googleDataprocWorkflowTemplateJobsHadoopJobLoggingConfigToHclTerraform(struct?: GoogleDataprocWorkflowTemplateJobsHadoopJobLoggingConfigOutputReference | GoogleDataprocWorkflowTemplateJobsHadoopJobLoggingConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     driver_log_levels: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.driverLogLevels),
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.driverLogLevels),
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
@@ -213,14 +213,14 @@ export function googleDataprocWorkflowTemplateJobsHadoopJobLoggingConfigToHclTer
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplateJobsHadoopJobLoggingConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplateJobsHadoopJobLoggingConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -313,67 +313,67 @@ export interface GoogleDataprocWorkflowTemplateJobsHadoopJob {
 }
 
 export function googleDataprocWorkflowTemplateJobsHadoopJobToTerraform(struct?: GoogleDataprocWorkflowTemplateJobsHadoopJobOutputReference | GoogleDataprocWorkflowTemplateJobsHadoopJob): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    archive_uris: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.archiveUris),
-    args: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.args),
-    file_uris: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.fileUris),
-    jar_file_uris: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.jarFileUris),
-    main_class: cdktf.stringToTerraform(struct!.mainClass),
-    main_jar_file_uri: cdktf.stringToTerraform(struct!.mainJarFileUri),
-    properties: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.properties),
+    archive_uris: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.archiveUris),
+    args: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.args),
+    file_uris: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.fileUris),
+    jar_file_uris: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.jarFileUris),
+    main_class: cdktn.stringToTerraform(struct!.mainClass),
+    main_jar_file_uri: cdktn.stringToTerraform(struct!.mainJarFileUri),
+    properties: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.properties),
     logging_config: googleDataprocWorkflowTemplateJobsHadoopJobLoggingConfigToTerraform(struct!.loggingConfig),
   }
 }
 
 
 export function googleDataprocWorkflowTemplateJobsHadoopJobToHclTerraform(struct?: GoogleDataprocWorkflowTemplateJobsHadoopJobOutputReference | GoogleDataprocWorkflowTemplateJobsHadoopJob): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     archive_uris: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.archiveUris),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.archiveUris),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     args: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.args),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.args),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     file_uris: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.fileUris),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.fileUris),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     jar_file_uris: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.jarFileUris),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.jarFileUris),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     main_class: {
-      value: cdktf.stringToHclTerraform(struct!.mainClass),
+      value: cdktn.stringToHclTerraform(struct!.mainClass),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     main_jar_file_uri: {
-      value: cdktf.stringToHclTerraform(struct!.mainJarFileUri),
+      value: cdktn.stringToHclTerraform(struct!.mainJarFileUri),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     properties: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.properties),
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.properties),
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
@@ -390,14 +390,14 @@ export function googleDataprocWorkflowTemplateJobsHadoopJobToHclTerraform(struct
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplateJobsHadoopJobOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplateJobsHadoopJobOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -602,24 +602,24 @@ export interface GoogleDataprocWorkflowTemplateJobsHiveJobQueryListStruct {
 }
 
 export function googleDataprocWorkflowTemplateJobsHiveJobQueryListStructToTerraform(struct?: GoogleDataprocWorkflowTemplateJobsHiveJobQueryListStructOutputReference | GoogleDataprocWorkflowTemplateJobsHiveJobQueryListStruct): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    queries: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.queries),
+    queries: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.queries),
   }
 }
 
 
 export function googleDataprocWorkflowTemplateJobsHiveJobQueryListStructToHclTerraform(struct?: GoogleDataprocWorkflowTemplateJobsHiveJobQueryListStructOutputReference | GoogleDataprocWorkflowTemplateJobsHiveJobQueryListStruct): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     queries: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.queries),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.queries),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -630,14 +630,14 @@ export function googleDataprocWorkflowTemplateJobsHiveJobQueryListStructToHclTer
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplateJobsHiveJobQueryListStructOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplateJobsHiveJobQueryListStructOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -681,7 +681,7 @@ export interface GoogleDataprocWorkflowTemplateJobsHiveJob {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_workflow_template#continue_on_failure GoogleDataprocWorkflowTemplate#continue_on_failure}
   */
-  readonly continueOnFailure?: boolean | cdktf.IResolvable;
+  readonly continueOnFailure?: boolean | cdktn.IResolvable;
   /**
   * Optional. HCFS URIs of jar files to add to the CLASSPATH of the Hive server and Hadoop MapReduce (MR) tasks. Can contain Hive SerDes and UDFs.
   *
@@ -715,53 +715,53 @@ export interface GoogleDataprocWorkflowTemplateJobsHiveJob {
 }
 
 export function googleDataprocWorkflowTemplateJobsHiveJobToTerraform(struct?: GoogleDataprocWorkflowTemplateJobsHiveJobOutputReference | GoogleDataprocWorkflowTemplateJobsHiveJob): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    continue_on_failure: cdktf.booleanToTerraform(struct!.continueOnFailure),
-    jar_file_uris: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.jarFileUris),
-    properties: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.properties),
-    query_file_uri: cdktf.stringToTerraform(struct!.queryFileUri),
-    script_variables: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.scriptVariables),
+    continue_on_failure: cdktn.booleanToTerraform(struct!.continueOnFailure),
+    jar_file_uris: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.jarFileUris),
+    properties: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.properties),
+    query_file_uri: cdktn.stringToTerraform(struct!.queryFileUri),
+    script_variables: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.scriptVariables),
     query_list: googleDataprocWorkflowTemplateJobsHiveJobQueryListStructToTerraform(struct!.queryList),
   }
 }
 
 
 export function googleDataprocWorkflowTemplateJobsHiveJobToHclTerraform(struct?: GoogleDataprocWorkflowTemplateJobsHiveJobOutputReference | GoogleDataprocWorkflowTemplateJobsHiveJob): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     continue_on_failure: {
-      value: cdktf.booleanToHclTerraform(struct!.continueOnFailure),
+      value: cdktn.booleanToHclTerraform(struct!.continueOnFailure),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     jar_file_uris: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.jarFileUris),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.jarFileUris),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     properties: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.properties),
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.properties),
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
     },
     query_file_uri: {
-      value: cdktf.stringToHclTerraform(struct!.queryFileUri),
+      value: cdktn.stringToHclTerraform(struct!.queryFileUri),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     script_variables: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.scriptVariables),
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.scriptVariables),
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
@@ -778,14 +778,14 @@ export function googleDataprocWorkflowTemplateJobsHiveJobToHclTerraform(struct?:
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplateJobsHiveJobOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplateJobsHiveJobOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -841,11 +841,11 @@ export class GoogleDataprocWorkflowTemplateJobsHiveJobOutputReference extends cd
   }
 
   // continue_on_failure - computed: false, optional: true, required: false
-  private _continueOnFailure?: boolean | cdktf.IResolvable; 
+  private _continueOnFailure?: boolean | cdktn.IResolvable; 
   public get continueOnFailure() {
     return this.getBooleanAttribute('continue_on_failure');
   }
-  public set continueOnFailure(value: boolean | cdktf.IResolvable) {
+  public set continueOnFailure(value: boolean | cdktn.IResolvable) {
     this._continueOnFailure = value;
   }
   public resetContinueOnFailure() {
@@ -946,24 +946,24 @@ export interface GoogleDataprocWorkflowTemplateJobsPigJobLoggingConfig {
 }
 
 export function googleDataprocWorkflowTemplateJobsPigJobLoggingConfigToTerraform(struct?: GoogleDataprocWorkflowTemplateJobsPigJobLoggingConfigOutputReference | GoogleDataprocWorkflowTemplateJobsPigJobLoggingConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    driver_log_levels: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.driverLogLevels),
+    driver_log_levels: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.driverLogLevels),
   }
 }
 
 
 export function googleDataprocWorkflowTemplateJobsPigJobLoggingConfigToHclTerraform(struct?: GoogleDataprocWorkflowTemplateJobsPigJobLoggingConfigOutputReference | GoogleDataprocWorkflowTemplateJobsPigJobLoggingConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     driver_log_levels: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.driverLogLevels),
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.driverLogLevels),
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
@@ -974,14 +974,14 @@ export function googleDataprocWorkflowTemplateJobsPigJobLoggingConfigToHclTerraf
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplateJobsPigJobLoggingConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplateJobsPigJobLoggingConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1032,24 +1032,24 @@ export interface GoogleDataprocWorkflowTemplateJobsPigJobQueryListStruct {
 }
 
 export function googleDataprocWorkflowTemplateJobsPigJobQueryListStructToTerraform(struct?: GoogleDataprocWorkflowTemplateJobsPigJobQueryListStructOutputReference | GoogleDataprocWorkflowTemplateJobsPigJobQueryListStruct): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    queries: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.queries),
+    queries: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.queries),
   }
 }
 
 
 export function googleDataprocWorkflowTemplateJobsPigJobQueryListStructToHclTerraform(struct?: GoogleDataprocWorkflowTemplateJobsPigJobQueryListStructOutputReference | GoogleDataprocWorkflowTemplateJobsPigJobQueryListStruct): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     queries: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.queries),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.queries),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -1060,14 +1060,14 @@ export function googleDataprocWorkflowTemplateJobsPigJobQueryListStructToHclTerr
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplateJobsPigJobQueryListStructOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplateJobsPigJobQueryListStructOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1111,7 +1111,7 @@ export interface GoogleDataprocWorkflowTemplateJobsPigJob {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_workflow_template#continue_on_failure GoogleDataprocWorkflowTemplate#continue_on_failure}
   */
-  readonly continueOnFailure?: boolean | cdktf.IResolvable;
+  readonly continueOnFailure?: boolean | cdktn.IResolvable;
   /**
   * Optional. HCFS URIs of jar files to add to the CLASSPATH of the Pig Client and Hadoop MapReduce (MR) tasks. Can contain Pig UDFs.
   *
@@ -1151,16 +1151,16 @@ export interface GoogleDataprocWorkflowTemplateJobsPigJob {
 }
 
 export function googleDataprocWorkflowTemplateJobsPigJobToTerraform(struct?: GoogleDataprocWorkflowTemplateJobsPigJobOutputReference | GoogleDataprocWorkflowTemplateJobsPigJob): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    continue_on_failure: cdktf.booleanToTerraform(struct!.continueOnFailure),
-    jar_file_uris: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.jarFileUris),
-    properties: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.properties),
-    query_file_uri: cdktf.stringToTerraform(struct!.queryFileUri),
-    script_variables: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.scriptVariables),
+    continue_on_failure: cdktn.booleanToTerraform(struct!.continueOnFailure),
+    jar_file_uris: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.jarFileUris),
+    properties: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.properties),
+    query_file_uri: cdktn.stringToTerraform(struct!.queryFileUri),
+    script_variables: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.scriptVariables),
     logging_config: googleDataprocWorkflowTemplateJobsPigJobLoggingConfigToTerraform(struct!.loggingConfig),
     query_list: googleDataprocWorkflowTemplateJobsPigJobQueryListStructToTerraform(struct!.queryList),
   }
@@ -1168,37 +1168,37 @@ export function googleDataprocWorkflowTemplateJobsPigJobToTerraform(struct?: Goo
 
 
 export function googleDataprocWorkflowTemplateJobsPigJobToHclTerraform(struct?: GoogleDataprocWorkflowTemplateJobsPigJobOutputReference | GoogleDataprocWorkflowTemplateJobsPigJob): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     continue_on_failure: {
-      value: cdktf.booleanToHclTerraform(struct!.continueOnFailure),
+      value: cdktn.booleanToHclTerraform(struct!.continueOnFailure),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     jar_file_uris: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.jarFileUris),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.jarFileUris),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     properties: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.properties),
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.properties),
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
     },
     query_file_uri: {
-      value: cdktf.stringToHclTerraform(struct!.queryFileUri),
+      value: cdktn.stringToHclTerraform(struct!.queryFileUri),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     script_variables: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.scriptVariables),
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.scriptVariables),
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
@@ -1221,14 +1221,14 @@ export function googleDataprocWorkflowTemplateJobsPigJobToHclTerraform(struct?: 
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplateJobsPigJobOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplateJobsPigJobOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1290,11 +1290,11 @@ export class GoogleDataprocWorkflowTemplateJobsPigJobOutputReference extends cdk
   }
 
   // continue_on_failure - computed: false, optional: true, required: false
-  private _continueOnFailure?: boolean | cdktf.IResolvable; 
+  private _continueOnFailure?: boolean | cdktn.IResolvable; 
   public get continueOnFailure() {
     return this.getBooleanAttribute('continue_on_failure');
   }
-  public set continueOnFailure(value: boolean | cdktf.IResolvable) {
+  public set continueOnFailure(value: boolean | cdktn.IResolvable) {
     this._continueOnFailure = value;
   }
   public resetContinueOnFailure() {
@@ -1411,24 +1411,24 @@ export interface GoogleDataprocWorkflowTemplateJobsPrestoJobLoggingConfig {
 }
 
 export function googleDataprocWorkflowTemplateJobsPrestoJobLoggingConfigToTerraform(struct?: GoogleDataprocWorkflowTemplateJobsPrestoJobLoggingConfigOutputReference | GoogleDataprocWorkflowTemplateJobsPrestoJobLoggingConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    driver_log_levels: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.driverLogLevels),
+    driver_log_levels: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.driverLogLevels),
   }
 }
 
 
 export function googleDataprocWorkflowTemplateJobsPrestoJobLoggingConfigToHclTerraform(struct?: GoogleDataprocWorkflowTemplateJobsPrestoJobLoggingConfigOutputReference | GoogleDataprocWorkflowTemplateJobsPrestoJobLoggingConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     driver_log_levels: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.driverLogLevels),
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.driverLogLevels),
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
@@ -1439,14 +1439,14 @@ export function googleDataprocWorkflowTemplateJobsPrestoJobLoggingConfigToHclTer
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplateJobsPrestoJobLoggingConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplateJobsPrestoJobLoggingConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1497,24 +1497,24 @@ export interface GoogleDataprocWorkflowTemplateJobsPrestoJobQueryListStruct {
 }
 
 export function googleDataprocWorkflowTemplateJobsPrestoJobQueryListStructToTerraform(struct?: GoogleDataprocWorkflowTemplateJobsPrestoJobQueryListStructOutputReference | GoogleDataprocWorkflowTemplateJobsPrestoJobQueryListStruct): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    queries: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.queries),
+    queries: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.queries),
   }
 }
 
 
 export function googleDataprocWorkflowTemplateJobsPrestoJobQueryListStructToHclTerraform(struct?: GoogleDataprocWorkflowTemplateJobsPrestoJobQueryListStructOutputReference | GoogleDataprocWorkflowTemplateJobsPrestoJobQueryListStruct): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     queries: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.queries),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.queries),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -1525,14 +1525,14 @@ export function googleDataprocWorkflowTemplateJobsPrestoJobQueryListStructToHclT
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplateJobsPrestoJobQueryListStructOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplateJobsPrestoJobQueryListStructOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1582,7 +1582,7 @@ export interface GoogleDataprocWorkflowTemplateJobsPrestoJob {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_workflow_template#continue_on_failure GoogleDataprocWorkflowTemplate#continue_on_failure}
   */
-  readonly continueOnFailure?: boolean | cdktf.IResolvable;
+  readonly continueOnFailure?: boolean | cdktn.IResolvable;
   /**
   * Optional. The format in which query output will be displayed. See the Presto documentation for supported output formats
   *
@@ -1616,16 +1616,16 @@ export interface GoogleDataprocWorkflowTemplateJobsPrestoJob {
 }
 
 export function googleDataprocWorkflowTemplateJobsPrestoJobToTerraform(struct?: GoogleDataprocWorkflowTemplateJobsPrestoJobOutputReference | GoogleDataprocWorkflowTemplateJobsPrestoJob): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    client_tags: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.clientTags),
-    continue_on_failure: cdktf.booleanToTerraform(struct!.continueOnFailure),
-    output_format: cdktf.stringToTerraform(struct!.outputFormat),
-    properties: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.properties),
-    query_file_uri: cdktf.stringToTerraform(struct!.queryFileUri),
+    client_tags: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.clientTags),
+    continue_on_failure: cdktn.booleanToTerraform(struct!.continueOnFailure),
+    output_format: cdktn.stringToTerraform(struct!.outputFormat),
+    properties: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.properties),
+    query_file_uri: cdktn.stringToTerraform(struct!.queryFileUri),
     logging_config: googleDataprocWorkflowTemplateJobsPrestoJobLoggingConfigToTerraform(struct!.loggingConfig),
     query_list: googleDataprocWorkflowTemplateJobsPrestoJobQueryListStructToTerraform(struct!.queryList),
   }
@@ -1633,37 +1633,37 @@ export function googleDataprocWorkflowTemplateJobsPrestoJobToTerraform(struct?: 
 
 
 export function googleDataprocWorkflowTemplateJobsPrestoJobToHclTerraform(struct?: GoogleDataprocWorkflowTemplateJobsPrestoJobOutputReference | GoogleDataprocWorkflowTemplateJobsPrestoJob): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     client_tags: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.clientTags),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.clientTags),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     continue_on_failure: {
-      value: cdktf.booleanToHclTerraform(struct!.continueOnFailure),
+      value: cdktn.booleanToHclTerraform(struct!.continueOnFailure),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     output_format: {
-      value: cdktf.stringToHclTerraform(struct!.outputFormat),
+      value: cdktn.stringToHclTerraform(struct!.outputFormat),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     properties: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.properties),
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.properties),
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
     },
     query_file_uri: {
-      value: cdktf.stringToHclTerraform(struct!.queryFileUri),
+      value: cdktn.stringToHclTerraform(struct!.queryFileUri),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1686,14 +1686,14 @@ export function googleDataprocWorkflowTemplateJobsPrestoJobToHclTerraform(struct
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplateJobsPrestoJobOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplateJobsPrestoJobOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1771,11 +1771,11 @@ export class GoogleDataprocWorkflowTemplateJobsPrestoJobOutputReference extends 
   }
 
   // continue_on_failure - computed: false, optional: true, required: false
-  private _continueOnFailure?: boolean | cdktf.IResolvable; 
+  private _continueOnFailure?: boolean | cdktn.IResolvable; 
   public get continueOnFailure() {
     return this.getBooleanAttribute('continue_on_failure');
   }
-  public set continueOnFailure(value: boolean | cdktf.IResolvable) {
+  public set continueOnFailure(value: boolean | cdktn.IResolvable) {
     this._continueOnFailure = value;
   }
   public resetContinueOnFailure() {
@@ -1876,24 +1876,24 @@ export interface GoogleDataprocWorkflowTemplateJobsPysparkJobLoggingConfig {
 }
 
 export function googleDataprocWorkflowTemplateJobsPysparkJobLoggingConfigToTerraform(struct?: GoogleDataprocWorkflowTemplateJobsPysparkJobLoggingConfigOutputReference | GoogleDataprocWorkflowTemplateJobsPysparkJobLoggingConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    driver_log_levels: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.driverLogLevels),
+    driver_log_levels: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.driverLogLevels),
   }
 }
 
 
 export function googleDataprocWorkflowTemplateJobsPysparkJobLoggingConfigToHclTerraform(struct?: GoogleDataprocWorkflowTemplateJobsPysparkJobLoggingConfigOutputReference | GoogleDataprocWorkflowTemplateJobsPysparkJobLoggingConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     driver_log_levels: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.driverLogLevels),
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.driverLogLevels),
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
@@ -1904,14 +1904,14 @@ export function googleDataprocWorkflowTemplateJobsPysparkJobLoggingConfigToHclTe
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplateJobsPysparkJobLoggingConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplateJobsPysparkJobLoggingConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2004,67 +2004,67 @@ export interface GoogleDataprocWorkflowTemplateJobsPysparkJob {
 }
 
 export function googleDataprocWorkflowTemplateJobsPysparkJobToTerraform(struct?: GoogleDataprocWorkflowTemplateJobsPysparkJobOutputReference | GoogleDataprocWorkflowTemplateJobsPysparkJob): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    archive_uris: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.archiveUris),
-    args: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.args),
-    file_uris: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.fileUris),
-    jar_file_uris: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.jarFileUris),
-    main_python_file_uri: cdktf.stringToTerraform(struct!.mainPythonFileUri),
-    properties: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.properties),
-    python_file_uris: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.pythonFileUris),
+    archive_uris: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.archiveUris),
+    args: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.args),
+    file_uris: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.fileUris),
+    jar_file_uris: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.jarFileUris),
+    main_python_file_uri: cdktn.stringToTerraform(struct!.mainPythonFileUri),
+    properties: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.properties),
+    python_file_uris: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.pythonFileUris),
     logging_config: googleDataprocWorkflowTemplateJobsPysparkJobLoggingConfigToTerraform(struct!.loggingConfig),
   }
 }
 
 
 export function googleDataprocWorkflowTemplateJobsPysparkJobToHclTerraform(struct?: GoogleDataprocWorkflowTemplateJobsPysparkJobOutputReference | GoogleDataprocWorkflowTemplateJobsPysparkJob): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     archive_uris: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.archiveUris),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.archiveUris),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     args: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.args),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.args),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     file_uris: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.fileUris),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.fileUris),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     jar_file_uris: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.jarFileUris),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.jarFileUris),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     main_python_file_uri: {
-      value: cdktf.stringToHclTerraform(struct!.mainPythonFileUri),
+      value: cdktn.stringToHclTerraform(struct!.mainPythonFileUri),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     properties: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.properties),
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.properties),
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
     },
     python_file_uris: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.pythonFileUris),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.pythonFileUris),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -2081,14 +2081,14 @@ export function googleDataprocWorkflowTemplateJobsPysparkJobToHclTerraform(struc
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplateJobsPysparkJobOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplateJobsPysparkJobOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2296,31 +2296,31 @@ export interface GoogleDataprocWorkflowTemplateJobsScheduling {
 }
 
 export function googleDataprocWorkflowTemplateJobsSchedulingToTerraform(struct?: GoogleDataprocWorkflowTemplateJobsSchedulingOutputReference | GoogleDataprocWorkflowTemplateJobsScheduling): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    max_failures_per_hour: cdktf.numberToTerraform(struct!.maxFailuresPerHour),
-    max_failures_total: cdktf.numberToTerraform(struct!.maxFailuresTotal),
+    max_failures_per_hour: cdktn.numberToTerraform(struct!.maxFailuresPerHour),
+    max_failures_total: cdktn.numberToTerraform(struct!.maxFailuresTotal),
   }
 }
 
 
 export function googleDataprocWorkflowTemplateJobsSchedulingToHclTerraform(struct?: GoogleDataprocWorkflowTemplateJobsSchedulingOutputReference | GoogleDataprocWorkflowTemplateJobsScheduling): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     max_failures_per_hour: {
-      value: cdktf.numberToHclTerraform(struct!.maxFailuresPerHour),
+      value: cdktn.numberToHclTerraform(struct!.maxFailuresPerHour),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     max_failures_total: {
-      value: cdktf.numberToHclTerraform(struct!.maxFailuresTotal),
+      value: cdktn.numberToHclTerraform(struct!.maxFailuresTotal),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -2331,14 +2331,14 @@ export function googleDataprocWorkflowTemplateJobsSchedulingToHclTerraform(struc
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplateJobsSchedulingOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplateJobsSchedulingOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2411,24 +2411,24 @@ export interface GoogleDataprocWorkflowTemplateJobsSparkJobLoggingConfig {
 }
 
 export function googleDataprocWorkflowTemplateJobsSparkJobLoggingConfigToTerraform(struct?: GoogleDataprocWorkflowTemplateJobsSparkJobLoggingConfigOutputReference | GoogleDataprocWorkflowTemplateJobsSparkJobLoggingConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    driver_log_levels: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.driverLogLevels),
+    driver_log_levels: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.driverLogLevels),
   }
 }
 
 
 export function googleDataprocWorkflowTemplateJobsSparkJobLoggingConfigToHclTerraform(struct?: GoogleDataprocWorkflowTemplateJobsSparkJobLoggingConfigOutputReference | GoogleDataprocWorkflowTemplateJobsSparkJobLoggingConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     driver_log_levels: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.driverLogLevels),
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.driverLogLevels),
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
@@ -2439,14 +2439,14 @@ export function googleDataprocWorkflowTemplateJobsSparkJobLoggingConfigToHclTerr
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplateJobsSparkJobLoggingConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplateJobsSparkJobLoggingConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2539,67 +2539,67 @@ export interface GoogleDataprocWorkflowTemplateJobsSparkJob {
 }
 
 export function googleDataprocWorkflowTemplateJobsSparkJobToTerraform(struct?: GoogleDataprocWorkflowTemplateJobsSparkJobOutputReference | GoogleDataprocWorkflowTemplateJobsSparkJob): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    archive_uris: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.archiveUris),
-    args: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.args),
-    file_uris: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.fileUris),
-    jar_file_uris: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.jarFileUris),
-    main_class: cdktf.stringToTerraform(struct!.mainClass),
-    main_jar_file_uri: cdktf.stringToTerraform(struct!.mainJarFileUri),
-    properties: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.properties),
+    archive_uris: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.archiveUris),
+    args: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.args),
+    file_uris: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.fileUris),
+    jar_file_uris: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.jarFileUris),
+    main_class: cdktn.stringToTerraform(struct!.mainClass),
+    main_jar_file_uri: cdktn.stringToTerraform(struct!.mainJarFileUri),
+    properties: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.properties),
     logging_config: googleDataprocWorkflowTemplateJobsSparkJobLoggingConfigToTerraform(struct!.loggingConfig),
   }
 }
 
 
 export function googleDataprocWorkflowTemplateJobsSparkJobToHclTerraform(struct?: GoogleDataprocWorkflowTemplateJobsSparkJobOutputReference | GoogleDataprocWorkflowTemplateJobsSparkJob): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     archive_uris: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.archiveUris),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.archiveUris),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     args: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.args),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.args),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     file_uris: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.fileUris),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.fileUris),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     jar_file_uris: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.jarFileUris),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.jarFileUris),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     main_class: {
-      value: cdktf.stringToHclTerraform(struct!.mainClass),
+      value: cdktn.stringToHclTerraform(struct!.mainClass),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     main_jar_file_uri: {
-      value: cdktf.stringToHclTerraform(struct!.mainJarFileUri),
+      value: cdktn.stringToHclTerraform(struct!.mainJarFileUri),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     properties: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.properties),
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.properties),
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
@@ -2616,14 +2616,14 @@ export function googleDataprocWorkflowTemplateJobsSparkJobToHclTerraform(struct?
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplateJobsSparkJobOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplateJobsSparkJobOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2828,24 +2828,24 @@ export interface GoogleDataprocWorkflowTemplateJobsSparkRJobLoggingConfig {
 }
 
 export function googleDataprocWorkflowTemplateJobsSparkRJobLoggingConfigToTerraform(struct?: GoogleDataprocWorkflowTemplateJobsSparkRJobLoggingConfigOutputReference | GoogleDataprocWorkflowTemplateJobsSparkRJobLoggingConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    driver_log_levels: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.driverLogLevels),
+    driver_log_levels: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.driverLogLevels),
   }
 }
 
 
 export function googleDataprocWorkflowTemplateJobsSparkRJobLoggingConfigToHclTerraform(struct?: GoogleDataprocWorkflowTemplateJobsSparkRJobLoggingConfigOutputReference | GoogleDataprocWorkflowTemplateJobsSparkRJobLoggingConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     driver_log_levels: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.driverLogLevels),
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.driverLogLevels),
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
@@ -2856,14 +2856,14 @@ export function googleDataprocWorkflowTemplateJobsSparkRJobLoggingConfigToHclTer
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplateJobsSparkRJobLoggingConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplateJobsSparkRJobLoggingConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -2944,53 +2944,53 @@ export interface GoogleDataprocWorkflowTemplateJobsSparkRJob {
 }
 
 export function googleDataprocWorkflowTemplateJobsSparkRJobToTerraform(struct?: GoogleDataprocWorkflowTemplateJobsSparkRJobOutputReference | GoogleDataprocWorkflowTemplateJobsSparkRJob): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    archive_uris: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.archiveUris),
-    args: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.args),
-    file_uris: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.fileUris),
-    main_r_file_uri: cdktf.stringToTerraform(struct!.mainRFileUri),
-    properties: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.properties),
+    archive_uris: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.archiveUris),
+    args: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.args),
+    file_uris: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.fileUris),
+    main_r_file_uri: cdktn.stringToTerraform(struct!.mainRFileUri),
+    properties: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.properties),
     logging_config: googleDataprocWorkflowTemplateJobsSparkRJobLoggingConfigToTerraform(struct!.loggingConfig),
   }
 }
 
 
 export function googleDataprocWorkflowTemplateJobsSparkRJobToHclTerraform(struct?: GoogleDataprocWorkflowTemplateJobsSparkRJobOutputReference | GoogleDataprocWorkflowTemplateJobsSparkRJob): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     archive_uris: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.archiveUris),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.archiveUris),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     args: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.args),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.args),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     file_uris: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.fileUris),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.fileUris),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     main_r_file_uri: {
-      value: cdktf.stringToHclTerraform(struct!.mainRFileUri),
+      value: cdktn.stringToHclTerraform(struct!.mainRFileUri),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     properties: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.properties),
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.properties),
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
@@ -3007,14 +3007,14 @@ export function googleDataprocWorkflowTemplateJobsSparkRJobToHclTerraform(struct
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplateJobsSparkRJobOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplateJobsSparkRJobOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3172,24 +3172,24 @@ export interface GoogleDataprocWorkflowTemplateJobsSparkSqlJobLoggingConfig {
 }
 
 export function googleDataprocWorkflowTemplateJobsSparkSqlJobLoggingConfigToTerraform(struct?: GoogleDataprocWorkflowTemplateJobsSparkSqlJobLoggingConfigOutputReference | GoogleDataprocWorkflowTemplateJobsSparkSqlJobLoggingConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    driver_log_levels: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.driverLogLevels),
+    driver_log_levels: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.driverLogLevels),
   }
 }
 
 
 export function googleDataprocWorkflowTemplateJobsSparkSqlJobLoggingConfigToHclTerraform(struct?: GoogleDataprocWorkflowTemplateJobsSparkSqlJobLoggingConfigOutputReference | GoogleDataprocWorkflowTemplateJobsSparkSqlJobLoggingConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     driver_log_levels: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.driverLogLevels),
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.driverLogLevels),
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
@@ -3200,14 +3200,14 @@ export function googleDataprocWorkflowTemplateJobsSparkSqlJobLoggingConfigToHclT
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplateJobsSparkSqlJobLoggingConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplateJobsSparkSqlJobLoggingConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3258,24 +3258,24 @@ export interface GoogleDataprocWorkflowTemplateJobsSparkSqlJobQueryListStruct {
 }
 
 export function googleDataprocWorkflowTemplateJobsSparkSqlJobQueryListStructToTerraform(struct?: GoogleDataprocWorkflowTemplateJobsSparkSqlJobQueryListStructOutputReference | GoogleDataprocWorkflowTemplateJobsSparkSqlJobQueryListStruct): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    queries: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.queries),
+    queries: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.queries),
   }
 }
 
 
 export function googleDataprocWorkflowTemplateJobsSparkSqlJobQueryListStructToHclTerraform(struct?: GoogleDataprocWorkflowTemplateJobsSparkSqlJobQueryListStructOutputReference | GoogleDataprocWorkflowTemplateJobsSparkSqlJobQueryListStruct): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     queries: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.queries),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.queries),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -3286,14 +3286,14 @@ export function googleDataprocWorkflowTemplateJobsSparkSqlJobQueryListStructToHc
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplateJobsSparkSqlJobQueryListStructOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplateJobsSparkSqlJobQueryListStructOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3371,15 +3371,15 @@ export interface GoogleDataprocWorkflowTemplateJobsSparkSqlJob {
 }
 
 export function googleDataprocWorkflowTemplateJobsSparkSqlJobToTerraform(struct?: GoogleDataprocWorkflowTemplateJobsSparkSqlJobOutputReference | GoogleDataprocWorkflowTemplateJobsSparkSqlJob): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    jar_file_uris: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.jarFileUris),
-    properties: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.properties),
-    query_file_uri: cdktf.stringToTerraform(struct!.queryFileUri),
-    script_variables: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.scriptVariables),
+    jar_file_uris: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.jarFileUris),
+    properties: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.properties),
+    query_file_uri: cdktn.stringToTerraform(struct!.queryFileUri),
+    script_variables: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.scriptVariables),
     logging_config: googleDataprocWorkflowTemplateJobsSparkSqlJobLoggingConfigToTerraform(struct!.loggingConfig),
     query_list: googleDataprocWorkflowTemplateJobsSparkSqlJobQueryListStructToTerraform(struct!.queryList),
   }
@@ -3387,31 +3387,31 @@ export function googleDataprocWorkflowTemplateJobsSparkSqlJobToTerraform(struct?
 
 
 export function googleDataprocWorkflowTemplateJobsSparkSqlJobToHclTerraform(struct?: GoogleDataprocWorkflowTemplateJobsSparkSqlJobOutputReference | GoogleDataprocWorkflowTemplateJobsSparkSqlJob): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     jar_file_uris: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.jarFileUris),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.jarFileUris),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     properties: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.properties),
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.properties),
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
     },
     query_file_uri: {
-      value: cdktf.stringToHclTerraform(struct!.queryFileUri),
+      value: cdktn.stringToHclTerraform(struct!.queryFileUri),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     script_variables: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.scriptVariables),
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.scriptVariables),
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
@@ -3434,14 +3434,14 @@ export function googleDataprocWorkflowTemplateJobsSparkSqlJobToHclTerraform(stru
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplateJobsSparkSqlJobOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplateJobsSparkSqlJobOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -3667,15 +3667,15 @@ export interface GoogleDataprocWorkflowTemplateJobs {
   readonly sparkSqlJob?: GoogleDataprocWorkflowTemplateJobsSparkSqlJob;
 }
 
-export function googleDataprocWorkflowTemplateJobsToTerraform(struct?: GoogleDataprocWorkflowTemplateJobs | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDataprocWorkflowTemplateJobsToTerraform(struct?: GoogleDataprocWorkflowTemplateJobs | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    labels: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.labels),
-    prerequisite_step_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.prerequisiteStepIds),
-    step_id: cdktf.stringToTerraform(struct!.stepId),
+    labels: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.labels),
+    prerequisite_step_ids: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.prerequisiteStepIds),
+    step_id: cdktn.stringToTerraform(struct!.stepId),
     hadoop_job: googleDataprocWorkflowTemplateJobsHadoopJobToTerraform(struct!.hadoopJob),
     hive_job: googleDataprocWorkflowTemplateJobsHiveJobToTerraform(struct!.hiveJob),
     pig_job: googleDataprocWorkflowTemplateJobsPigJobToTerraform(struct!.pigJob),
@@ -3689,26 +3689,26 @@ export function googleDataprocWorkflowTemplateJobsToTerraform(struct?: GoogleDat
 }
 
 
-export function googleDataprocWorkflowTemplateJobsToHclTerraform(struct?: GoogleDataprocWorkflowTemplateJobs | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDataprocWorkflowTemplateJobsToHclTerraform(struct?: GoogleDataprocWorkflowTemplateJobs | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     labels: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.labels),
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.labels),
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
     },
     prerequisite_step_ids: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.prerequisiteStepIds),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.prerequisiteStepIds),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     step_id: {
-      value: cdktf.stringToHclTerraform(struct!.stepId),
+      value: cdktn.stringToHclTerraform(struct!.stepId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3773,9 +3773,9 @@ export function googleDataprocWorkflowTemplateJobsToHclTerraform(struct?: Google
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplateJobsOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplateJobsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -3783,11 +3783,11 @@ export class GoogleDataprocWorkflowTemplateJobsOutputReference extends cdktf.Com
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDataprocWorkflowTemplateJobs | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDataprocWorkflowTemplateJobs | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -3844,7 +3844,7 @@ export class GoogleDataprocWorkflowTemplateJobsOutputReference extends cdktf.Com
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDataprocWorkflowTemplateJobs | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDataprocWorkflowTemplateJobs | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -3861,7 +3861,7 @@ export class GoogleDataprocWorkflowTemplateJobsOutputReference extends cdktf.Com
       this._sparkRJob.internalValue = undefined;
       this._sparkSqlJob.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -4073,15 +4073,15 @@ export class GoogleDataprocWorkflowTemplateJobsOutputReference extends cdktf.Com
   }
 }
 
-export class GoogleDataprocWorkflowTemplateJobsList extends cdktf.ComplexList {
-  public internalValue? : GoogleDataprocWorkflowTemplateJobs[] | cdktf.IResolvable
+export class GoogleDataprocWorkflowTemplateJobsList extends cdktn.ComplexList {
+  public internalValue? : GoogleDataprocWorkflowTemplateJobs[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -4102,24 +4102,24 @@ export interface GoogleDataprocWorkflowTemplateParametersValidationRegex {
 }
 
 export function googleDataprocWorkflowTemplateParametersValidationRegexToTerraform(struct?: GoogleDataprocWorkflowTemplateParametersValidationRegexOutputReference | GoogleDataprocWorkflowTemplateParametersValidationRegex): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    regexes: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.regexes),
+    regexes: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.regexes),
   }
 }
 
 
 export function googleDataprocWorkflowTemplateParametersValidationRegexToHclTerraform(struct?: GoogleDataprocWorkflowTemplateParametersValidationRegexOutputReference | GoogleDataprocWorkflowTemplateParametersValidationRegex): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     regexes: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.regexes),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.regexes),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -4130,14 +4130,14 @@ export function googleDataprocWorkflowTemplateParametersValidationRegexToHclTerr
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplateParametersValidationRegexOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplateParametersValidationRegexOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -4185,24 +4185,24 @@ export interface GoogleDataprocWorkflowTemplateParametersValidationValues {
 }
 
 export function googleDataprocWorkflowTemplateParametersValidationValuesToTerraform(struct?: GoogleDataprocWorkflowTemplateParametersValidationValuesOutputReference | GoogleDataprocWorkflowTemplateParametersValidationValues): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    values: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.values),
+    values: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.values),
   }
 }
 
 
 export function googleDataprocWorkflowTemplateParametersValidationValuesToHclTerraform(struct?: GoogleDataprocWorkflowTemplateParametersValidationValuesOutputReference | GoogleDataprocWorkflowTemplateParametersValidationValues): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     values: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.values),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.values),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -4213,14 +4213,14 @@ export function googleDataprocWorkflowTemplateParametersValidationValuesToHclTer
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplateParametersValidationValuesOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplateParametersValidationValuesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -4274,8 +4274,8 @@ export interface GoogleDataprocWorkflowTemplateParametersValidation {
 }
 
 export function googleDataprocWorkflowTemplateParametersValidationToTerraform(struct?: GoogleDataprocWorkflowTemplateParametersValidationOutputReference | GoogleDataprocWorkflowTemplateParametersValidation): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -4286,8 +4286,8 @@ export function googleDataprocWorkflowTemplateParametersValidationToTerraform(st
 
 
 export function googleDataprocWorkflowTemplateParametersValidationToHclTerraform(struct?: GoogleDataprocWorkflowTemplateParametersValidationOutputReference | GoogleDataprocWorkflowTemplateParametersValidation): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -4309,14 +4309,14 @@ export function googleDataprocWorkflowTemplateParametersValidationToHclTerraform
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplateParametersValidationOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplateParametersValidationOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -4406,40 +4406,40 @@ export interface GoogleDataprocWorkflowTemplateParameters {
   readonly validation?: GoogleDataprocWorkflowTemplateParametersValidation;
 }
 
-export function googleDataprocWorkflowTemplateParametersToTerraform(struct?: GoogleDataprocWorkflowTemplateParameters | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDataprocWorkflowTemplateParametersToTerraform(struct?: GoogleDataprocWorkflowTemplateParameters | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    description: cdktf.stringToTerraform(struct!.description),
-    fields: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.fields),
-    name: cdktf.stringToTerraform(struct!.name),
+    description: cdktn.stringToTerraform(struct!.description),
+    fields: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.fields),
+    name: cdktn.stringToTerraform(struct!.name),
     validation: googleDataprocWorkflowTemplateParametersValidationToTerraform(struct!.validation),
   }
 }
 
 
-export function googleDataprocWorkflowTemplateParametersToHclTerraform(struct?: GoogleDataprocWorkflowTemplateParameters | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDataprocWorkflowTemplateParametersToHclTerraform(struct?: GoogleDataprocWorkflowTemplateParameters | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     description: {
-      value: cdktf.stringToHclTerraform(struct!.description),
+      value: cdktn.stringToHclTerraform(struct!.description),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     fields: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.fields),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.fields),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     name: {
-      value: cdktf.stringToHclTerraform(struct!.name),
+      value: cdktn.stringToHclTerraform(struct!.name),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -4456,9 +4456,9 @@ export function googleDataprocWorkflowTemplateParametersToHclTerraform(struct?: 
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplateParametersOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplateParametersOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -4466,11 +4466,11 @@ export class GoogleDataprocWorkflowTemplateParametersOutputReference extends cdk
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDataprocWorkflowTemplateParameters | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDataprocWorkflowTemplateParameters | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -4495,7 +4495,7 @@ export class GoogleDataprocWorkflowTemplateParametersOutputReference extends cdk
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDataprocWorkflowTemplateParameters | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDataprocWorkflowTemplateParameters | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -4504,7 +4504,7 @@ export class GoogleDataprocWorkflowTemplateParametersOutputReference extends cdk
       this._name = undefined;
       this._validation.internalValue = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -4577,15 +4577,15 @@ export class GoogleDataprocWorkflowTemplateParametersOutputReference extends cdk
   }
 }
 
-export class GoogleDataprocWorkflowTemplateParametersList extends cdktf.ComplexList {
-  public internalValue? : GoogleDataprocWorkflowTemplateParameters[] | cdktf.IResolvable
+export class GoogleDataprocWorkflowTemplateParametersList extends cdktn.ComplexList {
+  public internalValue? : GoogleDataprocWorkflowTemplateParameters[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -4612,31 +4612,31 @@ export interface GoogleDataprocWorkflowTemplatePlacementClusterSelector {
 }
 
 export function googleDataprocWorkflowTemplatePlacementClusterSelectorToTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementClusterSelectorOutputReference | GoogleDataprocWorkflowTemplatePlacementClusterSelector): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    cluster_labels: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.clusterLabels),
-    zone: cdktf.stringToTerraform(struct!.zone),
+    cluster_labels: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.clusterLabels),
+    zone: cdktn.stringToTerraform(struct!.zone),
   }
 }
 
 
 export function googleDataprocWorkflowTemplatePlacementClusterSelectorToHclTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementClusterSelectorOutputReference | GoogleDataprocWorkflowTemplatePlacementClusterSelector): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     cluster_labels: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.clusterLabels),
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.clusterLabels),
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
     },
     zone: {
-      value: cdktf.stringToHclTerraform(struct!.zone),
+      value: cdktn.stringToHclTerraform(struct!.zone),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -4647,14 +4647,14 @@ export function googleDataprocWorkflowTemplatePlacementClusterSelectorToHclTerra
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplatePlacementClusterSelectorOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplatePlacementClusterSelectorOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -4724,24 +4724,24 @@ export interface GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigAuto
 }
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigAutoscalingConfigToTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigAutoscalingConfigOutputReference | GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigAutoscalingConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    policy: cdktf.stringToTerraform(struct!.policy),
+    policy: cdktn.stringToTerraform(struct!.policy),
   }
 }
 
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigAutoscalingConfigToHclTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigAutoscalingConfigOutputReference | GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigAutoscalingConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     policy: {
-      value: cdktf.stringToHclTerraform(struct!.policy),
+      value: cdktn.stringToHclTerraform(struct!.policy),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -4752,14 +4752,14 @@ export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigAutos
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigAutoscalingConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigAutoscalingConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -4810,24 +4810,24 @@ export interface GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigEncr
 }
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigEncryptionConfigToTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigEncryptionConfigOutputReference | GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigEncryptionConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    gce_pd_kms_key_name: cdktf.stringToTerraform(struct!.gcePdKmsKeyName),
+    gce_pd_kms_key_name: cdktn.stringToTerraform(struct!.gcePdKmsKeyName),
   }
 }
 
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigEncryptionConfigToHclTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigEncryptionConfigOutputReference | GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigEncryptionConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     gce_pd_kms_key_name: {
-      value: cdktf.stringToHclTerraform(struct!.gcePdKmsKeyName),
+      value: cdktn.stringToHclTerraform(struct!.gcePdKmsKeyName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -4838,14 +4838,14 @@ export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigEncry
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigEncryptionConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigEncryptionConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -4892,28 +4892,28 @@ export interface GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigEndp
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_workflow_template#enable_http_port_access GoogleDataprocWorkflowTemplate#enable_http_port_access}
   */
-  readonly enableHttpPortAccess?: boolean | cdktf.IResolvable;
+  readonly enableHttpPortAccess?: boolean | cdktn.IResolvable;
 }
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigEndpointConfigToTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigEndpointConfigOutputReference | GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigEndpointConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    enable_http_port_access: cdktf.booleanToTerraform(struct!.enableHttpPortAccess),
+    enable_http_port_access: cdktn.booleanToTerraform(struct!.enableHttpPortAccess),
   }
 }
 
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigEndpointConfigToHclTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigEndpointConfigOutputReference | GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigEndpointConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     enable_http_port_access: {
-      value: cdktf.booleanToHclTerraform(struct!.enableHttpPortAccess),
+      value: cdktn.booleanToHclTerraform(struct!.enableHttpPortAccess),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -4924,14 +4924,14 @@ export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigEndpo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigEndpointConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigEndpointConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -4957,11 +4957,11 @@ export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigEndpoint
   }
 
   // enable_http_port_access - computed: false, optional: true, required: false
-  private _enableHttpPortAccess?: boolean | cdktf.IResolvable; 
+  private _enableHttpPortAccess?: boolean | cdktn.IResolvable; 
   public get enableHttpPortAccess() {
     return this.getBooleanAttribute('enable_http_port_access');
   }
-  public set enableHttpPortAccess(value: boolean | cdktf.IResolvable) {
+  public set enableHttpPortAccess(value: boolean | cdktn.IResolvable) {
     this._enableHttpPortAccess = value;
   }
   public resetEnableHttpPortAccess() {
@@ -4973,7 +4973,7 @@ export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigEndpoint
   }
 
   // http_ports - computed: true, optional: false, required: false
-  private _httpPorts = new cdktf.StringMap(this, "http_ports");
+  private _httpPorts = new cdktn.StringMap(this, "http_ports");
   public get httpPorts() {
     return this._httpPorts;
   }
@@ -4988,24 +4988,24 @@ export interface GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceC
 }
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigNodeGroupAffinityToTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigNodeGroupAffinityOutputReference | GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigNodeGroupAffinity): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    node_group: cdktf.stringToTerraform(struct!.nodeGroup),
+    node_group: cdktn.stringToTerraform(struct!.nodeGroup),
   }
 }
 
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigNodeGroupAffinityToHclTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigNodeGroupAffinityOutputReference | GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigNodeGroupAffinity): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     node_group: {
-      value: cdktf.stringToHclTerraform(struct!.nodeGroup),
+      value: cdktn.stringToHclTerraform(struct!.nodeGroup),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -5016,14 +5016,14 @@ export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigGceCl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigNodeGroupAffinityOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigNodeGroupAffinityOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -5083,38 +5083,38 @@ export interface GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceC
 }
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigReservationAffinityToTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigReservationAffinityOutputReference | GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigReservationAffinity): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    consume_reservation_type: cdktf.stringToTerraform(struct!.consumeReservationType),
-    key: cdktf.stringToTerraform(struct!.key),
-    values: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.values),
+    consume_reservation_type: cdktn.stringToTerraform(struct!.consumeReservationType),
+    key: cdktn.stringToTerraform(struct!.key),
+    values: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.values),
   }
 }
 
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigReservationAffinityToHclTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigReservationAffinityOutputReference | GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigReservationAffinity): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     consume_reservation_type: {
-      value: cdktf.stringToHclTerraform(struct!.consumeReservationType),
+      value: cdktn.stringToHclTerraform(struct!.consumeReservationType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     key: {
-      value: cdktf.stringToHclTerraform(struct!.key),
+      value: cdktn.stringToHclTerraform(struct!.key),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     values: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.values),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.values),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
@@ -5125,14 +5125,14 @@ export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigGceCl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigReservationAffinityOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigReservationAffinityOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -5223,54 +5223,54 @@ export interface GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceC
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_workflow_template#enable_integrity_monitoring GoogleDataprocWorkflowTemplate#enable_integrity_monitoring}
   */
-  readonly enableIntegrityMonitoring?: boolean | cdktf.IResolvable;
+  readonly enableIntegrityMonitoring?: boolean | cdktn.IResolvable;
   /**
   * Optional. Defines whether the instances have Secure Boot enabled. Secure Boot helps ensure that the system only runs authentic software by verifying the digital signature of all boot components, and halting the boot process if signature verification fails.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_workflow_template#enable_secure_boot GoogleDataprocWorkflowTemplate#enable_secure_boot}
   */
-  readonly enableSecureBoot?: boolean | cdktf.IResolvable;
+  readonly enableSecureBoot?: boolean | cdktn.IResolvable;
   /**
   * Optional. Defines whether the instance have the vTPM enabled. Virtual Trusted Platform Module protects objects like keys, certificates and enables Measured Boot by performing the measurements needed to create a known good boot baseline, called the integrity policy baseline.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_workflow_template#enable_vtpm GoogleDataprocWorkflowTemplate#enable_vtpm}
   */
-  readonly enableVtpm?: boolean | cdktf.IResolvable;
+  readonly enableVtpm?: boolean | cdktn.IResolvable;
 }
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigShieldedInstanceConfigToTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigShieldedInstanceConfigOutputReference | GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigShieldedInstanceConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    enable_integrity_monitoring: cdktf.booleanToTerraform(struct!.enableIntegrityMonitoring),
-    enable_secure_boot: cdktf.booleanToTerraform(struct!.enableSecureBoot),
-    enable_vtpm: cdktf.booleanToTerraform(struct!.enableVtpm),
+    enable_integrity_monitoring: cdktn.booleanToTerraform(struct!.enableIntegrityMonitoring),
+    enable_secure_boot: cdktn.booleanToTerraform(struct!.enableSecureBoot),
+    enable_vtpm: cdktn.booleanToTerraform(struct!.enableVtpm),
   }
 }
 
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigShieldedInstanceConfigToHclTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigShieldedInstanceConfigOutputReference | GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigShieldedInstanceConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     enable_integrity_monitoring: {
-      value: cdktf.booleanToHclTerraform(struct!.enableIntegrityMonitoring),
+      value: cdktn.booleanToHclTerraform(struct!.enableIntegrityMonitoring),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     enable_secure_boot: {
-      value: cdktf.booleanToHclTerraform(struct!.enableSecureBoot),
+      value: cdktn.booleanToHclTerraform(struct!.enableSecureBoot),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     enable_vtpm: {
-      value: cdktf.booleanToHclTerraform(struct!.enableVtpm),
+      value: cdktn.booleanToHclTerraform(struct!.enableVtpm),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -5281,14 +5281,14 @@ export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigGceCl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigShieldedInstanceConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigShieldedInstanceConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -5326,11 +5326,11 @@ export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClust
   }
 
   // enable_integrity_monitoring - computed: false, optional: true, required: false
-  private _enableIntegrityMonitoring?: boolean | cdktf.IResolvable; 
+  private _enableIntegrityMonitoring?: boolean | cdktn.IResolvable; 
   public get enableIntegrityMonitoring() {
     return this.getBooleanAttribute('enable_integrity_monitoring');
   }
-  public set enableIntegrityMonitoring(value: boolean | cdktf.IResolvable) {
+  public set enableIntegrityMonitoring(value: boolean | cdktn.IResolvable) {
     this._enableIntegrityMonitoring = value;
   }
   public resetEnableIntegrityMonitoring() {
@@ -5342,11 +5342,11 @@ export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClust
   }
 
   // enable_secure_boot - computed: false, optional: true, required: false
-  private _enableSecureBoot?: boolean | cdktf.IResolvable; 
+  private _enableSecureBoot?: boolean | cdktn.IResolvable; 
   public get enableSecureBoot() {
     return this.getBooleanAttribute('enable_secure_boot');
   }
-  public set enableSecureBoot(value: boolean | cdktf.IResolvable) {
+  public set enableSecureBoot(value: boolean | cdktn.IResolvable) {
     this._enableSecureBoot = value;
   }
   public resetEnableSecureBoot() {
@@ -5358,11 +5358,11 @@ export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClust
   }
 
   // enable_vtpm - computed: false, optional: true, required: false
-  private _enableVtpm?: boolean | cdktf.IResolvable; 
+  private _enableVtpm?: boolean | cdktn.IResolvable; 
   public get enableVtpm() {
     return this.getBooleanAttribute('enable_vtpm');
   }
-  public set enableVtpm(value: boolean | cdktf.IResolvable) {
+  public set enableVtpm(value: boolean | cdktn.IResolvable) {
     this._enableVtpm = value;
   }
   public resetEnableVtpm() {
@@ -5379,7 +5379,7 @@ export interface GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceC
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_workflow_template#internal_ip_only GoogleDataprocWorkflowTemplate#internal_ip_only}
   */
-  readonly internalIpOnly?: boolean | cdktf.IResolvable;
+  readonly internalIpOnly?: boolean | cdktn.IResolvable;
   /**
   * The Compute Engine metadata entries to add to all instances (see [Project and instance metadata](https://cloud.google.com/compute/docs/storing-retrieving-metadata#project_and_instance_metadata)).
   *
@@ -5449,20 +5449,20 @@ export interface GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceC
 }
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigToTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigOutputReference | GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    internal_ip_only: cdktf.booleanToTerraform(struct!.internalIpOnly),
-    metadata: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.metadata),
-    network: cdktf.stringToTerraform(struct!.network),
-    private_ipv6_google_access: cdktf.stringToTerraform(struct!.privateIpv6GoogleAccess),
-    service_account: cdktf.stringToTerraform(struct!.serviceAccount),
-    service_account_scopes: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.serviceAccountScopes),
-    subnetwork: cdktf.stringToTerraform(struct!.subnetwork),
-    tags: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.tags),
-    zone: cdktf.stringToTerraform(struct!.zone),
+    internal_ip_only: cdktn.booleanToTerraform(struct!.internalIpOnly),
+    metadata: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.metadata),
+    network: cdktn.stringToTerraform(struct!.network),
+    private_ipv6_google_access: cdktn.stringToTerraform(struct!.privateIpv6GoogleAccess),
+    service_account: cdktn.stringToTerraform(struct!.serviceAccount),
+    service_account_scopes: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.serviceAccountScopes),
+    subnetwork: cdktn.stringToTerraform(struct!.subnetwork),
+    tags: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.tags),
+    zone: cdktn.stringToTerraform(struct!.zone),
     node_group_affinity: googleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigNodeGroupAffinityToTerraform(struct!.nodeGroupAffinity),
     reservation_affinity: googleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigReservationAffinityToTerraform(struct!.reservationAffinity),
     shielded_instance_config: googleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigShieldedInstanceConfigToTerraform(struct!.shieldedInstanceConfig),
@@ -5471,61 +5471,61 @@ export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigGceCl
 
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigToHclTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigOutputReference | GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     internal_ip_only: {
-      value: cdktf.booleanToHclTerraform(struct!.internalIpOnly),
+      value: cdktn.booleanToHclTerraform(struct!.internalIpOnly),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     metadata: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.metadata),
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.metadata),
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
     },
     network: {
-      value: cdktf.stringToHclTerraform(struct!.network),
+      value: cdktn.stringToHclTerraform(struct!.network),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     private_ipv6_google_access: {
-      value: cdktf.stringToHclTerraform(struct!.privateIpv6GoogleAccess),
+      value: cdktn.stringToHclTerraform(struct!.privateIpv6GoogleAccess),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     service_account: {
-      value: cdktf.stringToHclTerraform(struct!.serviceAccount),
+      value: cdktn.stringToHclTerraform(struct!.serviceAccount),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     service_account_scopes: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.serviceAccountScopes),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.serviceAccountScopes),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     subnetwork: {
-      value: cdktf.stringToHclTerraform(struct!.subnetwork),
+      value: cdktn.stringToHclTerraform(struct!.subnetwork),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     tags: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.tags),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.tags),
       isBlock: false,
       type: "set",
       storageClassType: "stringList",
     },
     zone: {
-      value: cdktf.stringToHclTerraform(struct!.zone),
+      value: cdktn.stringToHclTerraform(struct!.zone),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -5554,14 +5554,14 @@ export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigGceCl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -5653,11 +5653,11 @@ export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClust
   }
 
   // internal_ip_only - computed: true, optional: true, required: false
-  private _internalIpOnly?: boolean | cdktf.IResolvable; 
+  private _internalIpOnly?: boolean | cdktn.IResolvable; 
   public get internalIpOnly() {
     return this.getBooleanAttribute('internal_ip_only');
   }
-  public set internalIpOnly(value: boolean | cdktf.IResolvable) {
+  public set internalIpOnly(value: boolean | cdktn.IResolvable) {
     this._internalIpOnly = value;
   }
   public resetInternalIpOnly() {
@@ -5767,7 +5767,7 @@ export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClust
   // tags - computed: false, optional: true, required: false
   private _tags?: string[]; 
   public get tags() {
-    return cdktf.Fn.tolist(this.getListAttribute('tags'));
+    return cdktn.Fn.tolist(this.getListAttribute('tags'));
   }
   public set tags(value: string[]) {
     this._tags = value;
@@ -5860,31 +5860,31 @@ export interface GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGkeC
 }
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigGkeClusterConfigNamespacedGkeDeploymentTargetToTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGkeClusterConfigNamespacedGkeDeploymentTargetOutputReference | GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGkeClusterConfigNamespacedGkeDeploymentTarget): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    cluster_namespace: cdktf.stringToTerraform(struct!.clusterNamespace),
-    target_gke_cluster: cdktf.stringToTerraform(struct!.targetGkeCluster),
+    cluster_namespace: cdktn.stringToTerraform(struct!.clusterNamespace),
+    target_gke_cluster: cdktn.stringToTerraform(struct!.targetGkeCluster),
   }
 }
 
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigGkeClusterConfigNamespacedGkeDeploymentTargetToHclTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGkeClusterConfigNamespacedGkeDeploymentTargetOutputReference | GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGkeClusterConfigNamespacedGkeDeploymentTarget): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     cluster_namespace: {
-      value: cdktf.stringToHclTerraform(struct!.clusterNamespace),
+      value: cdktn.stringToHclTerraform(struct!.clusterNamespace),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     target_gke_cluster: {
-      value: cdktf.stringToHclTerraform(struct!.targetGkeCluster),
+      value: cdktn.stringToHclTerraform(struct!.targetGkeCluster),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -5895,14 +5895,14 @@ export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigGkeCl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGkeClusterConfigNamespacedGkeDeploymentTargetOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGkeClusterConfigNamespacedGkeDeploymentTargetOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -5975,8 +5975,8 @@ export interface GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGkeC
 }
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigGkeClusterConfigToTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGkeClusterConfigOutputReference | GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGkeClusterConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -5986,8 +5986,8 @@ export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigGkeCl
 
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigGkeClusterConfigToHclTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGkeClusterConfigOutputReference | GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGkeClusterConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -6003,14 +6003,14 @@ export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigGkeCl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGkeClusterConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGkeClusterConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -6066,32 +6066,32 @@ export interface GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigInit
   readonly executionTimeout?: string;
 }
 
-export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigInitializationActionsToTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigInitializationActions | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigInitializationActionsToTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigInitializationActions | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    executable_file: cdktf.stringToTerraform(struct!.executableFile),
-    execution_timeout: cdktf.stringToTerraform(struct!.executionTimeout),
+    executable_file: cdktn.stringToTerraform(struct!.executableFile),
+    execution_timeout: cdktn.stringToTerraform(struct!.executionTimeout),
   }
 }
 
 
-export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigInitializationActionsToHclTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigInitializationActions | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigInitializationActionsToHclTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigInitializationActions | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     executable_file: {
-      value: cdktf.stringToHclTerraform(struct!.executableFile),
+      value: cdktn.stringToHclTerraform(struct!.executableFile),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     execution_timeout: {
-      value: cdktf.stringToHclTerraform(struct!.executionTimeout),
+      value: cdktn.stringToHclTerraform(struct!.executionTimeout),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -6102,9 +6102,9 @@ export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigIniti
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigInitializationActionsOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigInitializationActionsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -6112,11 +6112,11 @@ export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigInitiali
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigInitializationActions | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigInitializationActions | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -6133,14 +6133,14 @@ export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigInitiali
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigInitializationActions | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigInitializationActions | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._executableFile = undefined;
       this._executionTimeout = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -6185,15 +6185,15 @@ export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigInitiali
   }
 }
 
-export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigInitializationActionsList extends cdktf.ComplexList {
-  public internalValue? : GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigInitializationActions[] | cdktf.IResolvable
+export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigInitializationActionsList extends cdktn.ComplexList {
+  public internalValue? : GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigInitializationActions[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -6226,38 +6226,38 @@ export interface GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigLife
 }
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigLifecycleConfigToTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigLifecycleConfigOutputReference | GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigLifecycleConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    auto_delete_time: cdktf.stringToTerraform(struct!.autoDeleteTime),
-    auto_delete_ttl: cdktf.stringToTerraform(struct!.autoDeleteTtl),
-    idle_delete_ttl: cdktf.stringToTerraform(struct!.idleDeleteTtl),
+    auto_delete_time: cdktn.stringToTerraform(struct!.autoDeleteTime),
+    auto_delete_ttl: cdktn.stringToTerraform(struct!.autoDeleteTtl),
+    idle_delete_ttl: cdktn.stringToTerraform(struct!.idleDeleteTtl),
   }
 }
 
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigLifecycleConfigToHclTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigLifecycleConfigOutputReference | GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigLifecycleConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     auto_delete_time: {
-      value: cdktf.stringToHclTerraform(struct!.autoDeleteTime),
+      value: cdktn.stringToHclTerraform(struct!.autoDeleteTime),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     auto_delete_ttl: {
-      value: cdktf.stringToHclTerraform(struct!.autoDeleteTtl),
+      value: cdktn.stringToHclTerraform(struct!.autoDeleteTtl),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     idle_delete_ttl: {
-      value: cdktf.stringToHclTerraform(struct!.idleDeleteTtl),
+      value: cdktn.stringToHclTerraform(struct!.idleDeleteTtl),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -6268,14 +6268,14 @@ export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigLifec
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigLifecycleConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigLifecycleConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -6369,8 +6369,8 @@ export interface GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMast
 }
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigManagedGroupConfigToTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigManagedGroupConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -6379,8 +6379,8 @@ export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigMaste
 
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigManagedGroupConfigToHclTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigManagedGroupConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -6388,7 +6388,7 @@ export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigMaste
   return attrs;
 }
 
-export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigManagedGroupConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigManagedGroupConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -6397,7 +6397,7 @@ export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterCo
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -6427,14 +6427,14 @@ export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterCo
   }
 }
 
-export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigManagedGroupConfigList extends cdktf.ComplexList {
+export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigManagedGroupConfigList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -6460,32 +6460,32 @@ export interface GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMast
   readonly acceleratorType?: string;
 }
 
-export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigAcceleratorsToTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigAccelerators | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigAcceleratorsToTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigAccelerators | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    accelerator_count: cdktf.numberToTerraform(struct!.acceleratorCount),
-    accelerator_type: cdktf.stringToTerraform(struct!.acceleratorType),
+    accelerator_count: cdktn.numberToTerraform(struct!.acceleratorCount),
+    accelerator_type: cdktn.stringToTerraform(struct!.acceleratorType),
   }
 }
 
 
-export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigAcceleratorsToHclTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigAccelerators | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigAcceleratorsToHclTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigAccelerators | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     accelerator_count: {
-      value: cdktf.numberToHclTerraform(struct!.acceleratorCount),
+      value: cdktn.numberToHclTerraform(struct!.acceleratorCount),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     accelerator_type: {
-      value: cdktf.stringToHclTerraform(struct!.acceleratorType),
+      value: cdktn.stringToHclTerraform(struct!.acceleratorType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -6496,9 +6496,9 @@ export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigMaste
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigAcceleratorsOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigAcceleratorsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -6506,11 +6506,11 @@ export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterCo
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigAccelerators | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigAccelerators | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -6527,14 +6527,14 @@ export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterCo
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigAccelerators | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigAccelerators | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._acceleratorCount = undefined;
       this._acceleratorType = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -6579,15 +6579,15 @@ export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterCo
   }
 }
 
-export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigAcceleratorsList extends cdktf.ComplexList {
-  public internalValue? : GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigAccelerators[] | cdktf.IResolvable
+export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigAcceleratorsList extends cdktn.ComplexList {
+  public internalValue? : GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigAccelerators[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -6620,38 +6620,38 @@ export interface GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMast
 }
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigDiskConfigToTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigDiskConfigOutputReference | GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigDiskConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    boot_disk_size_gb: cdktf.numberToTerraform(struct!.bootDiskSizeGb),
-    boot_disk_type: cdktf.stringToTerraform(struct!.bootDiskType),
-    num_local_ssds: cdktf.numberToTerraform(struct!.numLocalSsds),
+    boot_disk_size_gb: cdktn.numberToTerraform(struct!.bootDiskSizeGb),
+    boot_disk_type: cdktn.stringToTerraform(struct!.bootDiskType),
+    num_local_ssds: cdktn.numberToTerraform(struct!.numLocalSsds),
   }
 }
 
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigDiskConfigToHclTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigDiskConfigOutputReference | GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigDiskConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     boot_disk_size_gb: {
-      value: cdktf.numberToHclTerraform(struct!.bootDiskSizeGb),
+      value: cdktn.numberToHclTerraform(struct!.bootDiskSizeGb),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     boot_disk_type: {
-      value: cdktf.stringToHclTerraform(struct!.bootDiskType),
+      value: cdktn.stringToHclTerraform(struct!.bootDiskType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     num_local_ssds: {
-      value: cdktf.numberToHclTerraform(struct!.numLocalSsds),
+      value: cdktn.numberToHclTerraform(struct!.numLocalSsds),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -6662,14 +6662,14 @@ export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigMaste
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigDiskConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigDiskConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -6790,7 +6790,7 @@ export interface GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMast
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_workflow_template#accelerators GoogleDataprocWorkflowTemplate#accelerators}
   */
-  readonly accelerators?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigAccelerators[] | cdktf.IResolvable;
+  readonly accelerators?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigAccelerators[] | cdktn.IResolvable;
   /**
   * disk_config block
   *
@@ -6800,60 +6800,60 @@ export interface GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMast
 }
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigToTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigOutputReference | GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    image: cdktf.stringToTerraform(struct!.image),
-    machine_type: cdktf.stringToTerraform(struct!.machineType),
-    min_cpu_platform: cdktf.stringToTerraform(struct!.minCpuPlatform),
-    num_instances: cdktf.numberToTerraform(struct!.numInstances),
-    preemptibility: cdktf.stringToTerraform(struct!.preemptibility),
-    accelerators: cdktf.listMapper(googleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigAcceleratorsToTerraform, true)(struct!.accelerators),
+    image: cdktn.stringToTerraform(struct!.image),
+    machine_type: cdktn.stringToTerraform(struct!.machineType),
+    min_cpu_platform: cdktn.stringToTerraform(struct!.minCpuPlatform),
+    num_instances: cdktn.numberToTerraform(struct!.numInstances),
+    preemptibility: cdktn.stringToTerraform(struct!.preemptibility),
+    accelerators: cdktn.listMapper(googleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigAcceleratorsToTerraform, true)(struct!.accelerators),
     disk_config: googleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigDiskConfigToTerraform(struct!.diskConfig),
   }
 }
 
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigToHclTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigOutputReference | GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     image: {
-      value: cdktf.stringToHclTerraform(struct!.image),
+      value: cdktn.stringToHclTerraform(struct!.image),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     machine_type: {
-      value: cdktf.stringToHclTerraform(struct!.machineType),
+      value: cdktn.stringToHclTerraform(struct!.machineType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     min_cpu_platform: {
-      value: cdktf.stringToHclTerraform(struct!.minCpuPlatform),
+      value: cdktn.stringToHclTerraform(struct!.minCpuPlatform),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     num_instances: {
-      value: cdktf.numberToHclTerraform(struct!.numInstances),
+      value: cdktn.numberToHclTerraform(struct!.numInstances),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     preemptibility: {
-      value: cdktf.stringToHclTerraform(struct!.preemptibility),
+      value: cdktn.stringToHclTerraform(struct!.preemptibility),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     accelerators: {
-      value: cdktf.listMapperHcl(googleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigAcceleratorsToHclTerraform, true)(struct!.accelerators),
+      value: cdktn.listMapperHcl(googleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigAcceleratorsToHclTerraform, true)(struct!.accelerators),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigAcceleratorsList",
@@ -6870,14 +6870,14 @@ export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigMaste
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -7039,7 +7039,7 @@ export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterCo
   public get accelerators() {
     return this._accelerators;
   }
-  public putAccelerators(value: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigAccelerators[] | cdktf.IResolvable) {
+  public putAccelerators(value: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigAccelerators[] | cdktn.IResolvable) {
     this._accelerators.internalValue = value;
   }
   public resetAccelerators() {
@@ -7076,24 +7076,24 @@ export interface GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMeta
 }
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigMetastoreConfigToTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMetastoreConfigOutputReference | GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMetastoreConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    dataproc_metastore_service: cdktf.stringToTerraform(struct!.dataprocMetastoreService),
+    dataproc_metastore_service: cdktn.stringToTerraform(struct!.dataprocMetastoreService),
   }
 }
 
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigMetastoreConfigToHclTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMetastoreConfigOutputReference | GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMetastoreConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     dataproc_metastore_service: {
-      value: cdktf.stringToHclTerraform(struct!.dataprocMetastoreService),
+      value: cdktn.stringToHclTerraform(struct!.dataprocMetastoreService),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -7104,14 +7104,14 @@ export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigMetas
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMetastoreConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMetastoreConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -7153,8 +7153,8 @@ export interface GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSeco
 }
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigManagedGroupConfigToTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigManagedGroupConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -7163,8 +7163,8 @@ export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigSecon
 
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigManagedGroupConfigToHclTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigManagedGroupConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -7172,7 +7172,7 @@ export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigSecon
   return attrs;
 }
 
-export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigManagedGroupConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigManagedGroupConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -7181,7 +7181,7 @@ export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondar
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -7211,14 +7211,14 @@ export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondar
   }
 }
 
-export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigManagedGroupConfigList extends cdktf.ComplexList {
+export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigManagedGroupConfigList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -7244,32 +7244,32 @@ export interface GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSeco
   readonly acceleratorType?: string;
 }
 
-export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigAcceleratorsToTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigAccelerators | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigAcceleratorsToTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigAccelerators | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    accelerator_count: cdktf.numberToTerraform(struct!.acceleratorCount),
-    accelerator_type: cdktf.stringToTerraform(struct!.acceleratorType),
+    accelerator_count: cdktn.numberToTerraform(struct!.acceleratorCount),
+    accelerator_type: cdktn.stringToTerraform(struct!.acceleratorType),
   }
 }
 
 
-export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigAcceleratorsToHclTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigAccelerators | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigAcceleratorsToHclTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigAccelerators | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     accelerator_count: {
-      value: cdktf.numberToHclTerraform(struct!.acceleratorCount),
+      value: cdktn.numberToHclTerraform(struct!.acceleratorCount),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     accelerator_type: {
-      value: cdktf.stringToHclTerraform(struct!.acceleratorType),
+      value: cdktn.stringToHclTerraform(struct!.acceleratorType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -7280,9 +7280,9 @@ export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigSecon
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigAcceleratorsOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigAcceleratorsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -7290,11 +7290,11 @@ export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondar
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigAccelerators | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigAccelerators | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -7311,14 +7311,14 @@ export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondar
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigAccelerators | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigAccelerators | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._acceleratorCount = undefined;
       this._acceleratorType = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -7363,15 +7363,15 @@ export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondar
   }
 }
 
-export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigAcceleratorsList extends cdktf.ComplexList {
-  public internalValue? : GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigAccelerators[] | cdktf.IResolvable
+export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigAcceleratorsList extends cdktn.ComplexList {
+  public internalValue? : GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigAccelerators[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -7404,38 +7404,38 @@ export interface GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSeco
 }
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigDiskConfigToTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigDiskConfigOutputReference | GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigDiskConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    boot_disk_size_gb: cdktf.numberToTerraform(struct!.bootDiskSizeGb),
-    boot_disk_type: cdktf.stringToTerraform(struct!.bootDiskType),
-    num_local_ssds: cdktf.numberToTerraform(struct!.numLocalSsds),
+    boot_disk_size_gb: cdktn.numberToTerraform(struct!.bootDiskSizeGb),
+    boot_disk_type: cdktn.stringToTerraform(struct!.bootDiskType),
+    num_local_ssds: cdktn.numberToTerraform(struct!.numLocalSsds),
   }
 }
 
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigDiskConfigToHclTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigDiskConfigOutputReference | GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigDiskConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     boot_disk_size_gb: {
-      value: cdktf.numberToHclTerraform(struct!.bootDiskSizeGb),
+      value: cdktn.numberToHclTerraform(struct!.bootDiskSizeGb),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     boot_disk_type: {
-      value: cdktf.stringToHclTerraform(struct!.bootDiskType),
+      value: cdktn.stringToHclTerraform(struct!.bootDiskType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     num_local_ssds: {
-      value: cdktf.numberToHclTerraform(struct!.numLocalSsds),
+      value: cdktn.numberToHclTerraform(struct!.numLocalSsds),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -7446,14 +7446,14 @@ export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigSecon
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigDiskConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigDiskConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -7574,7 +7574,7 @@ export interface GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSeco
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_workflow_template#accelerators GoogleDataprocWorkflowTemplate#accelerators}
   */
-  readonly accelerators?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigAccelerators[] | cdktf.IResolvable;
+  readonly accelerators?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigAccelerators[] | cdktn.IResolvable;
   /**
   * disk_config block
   *
@@ -7584,60 +7584,60 @@ export interface GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSeco
 }
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigToTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigOutputReference | GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    image: cdktf.stringToTerraform(struct!.image),
-    machine_type: cdktf.stringToTerraform(struct!.machineType),
-    min_cpu_platform: cdktf.stringToTerraform(struct!.minCpuPlatform),
-    num_instances: cdktf.numberToTerraform(struct!.numInstances),
-    preemptibility: cdktf.stringToTerraform(struct!.preemptibility),
-    accelerators: cdktf.listMapper(googleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigAcceleratorsToTerraform, true)(struct!.accelerators),
+    image: cdktn.stringToTerraform(struct!.image),
+    machine_type: cdktn.stringToTerraform(struct!.machineType),
+    min_cpu_platform: cdktn.stringToTerraform(struct!.minCpuPlatform),
+    num_instances: cdktn.numberToTerraform(struct!.numInstances),
+    preemptibility: cdktn.stringToTerraform(struct!.preemptibility),
+    accelerators: cdktn.listMapper(googleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigAcceleratorsToTerraform, true)(struct!.accelerators),
     disk_config: googleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigDiskConfigToTerraform(struct!.diskConfig),
   }
 }
 
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigToHclTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigOutputReference | GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     image: {
-      value: cdktf.stringToHclTerraform(struct!.image),
+      value: cdktn.stringToHclTerraform(struct!.image),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     machine_type: {
-      value: cdktf.stringToHclTerraform(struct!.machineType),
+      value: cdktn.stringToHclTerraform(struct!.machineType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     min_cpu_platform: {
-      value: cdktf.stringToHclTerraform(struct!.minCpuPlatform),
+      value: cdktn.stringToHclTerraform(struct!.minCpuPlatform),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     num_instances: {
-      value: cdktf.numberToHclTerraform(struct!.numInstances),
+      value: cdktn.numberToHclTerraform(struct!.numInstances),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     preemptibility: {
-      value: cdktf.stringToHclTerraform(struct!.preemptibility),
+      value: cdktn.stringToHclTerraform(struct!.preemptibility),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     accelerators: {
-      value: cdktf.listMapperHcl(googleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigAcceleratorsToHclTerraform, true)(struct!.accelerators),
+      value: cdktn.listMapperHcl(googleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigAcceleratorsToHclTerraform, true)(struct!.accelerators),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigAcceleratorsList",
@@ -7654,14 +7654,14 @@ export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigSecon
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -7823,7 +7823,7 @@ export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondar
   public get accelerators() {
     return this._accelerators;
   }
-  public putAccelerators(value: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigAccelerators[] | cdktf.IResolvable) {
+  public putAccelerators(value: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigAccelerators[] | cdktn.IResolvable) {
     this._accelerators.internalValue = value;
   }
   public resetAccelerators() {
@@ -7880,7 +7880,7 @@ export interface GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecu
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_workflow_template#enable_kerberos GoogleDataprocWorkflowTemplate#enable_kerberos}
   */
-  readonly enableKerberos?: boolean | cdktf.IResolvable;
+  readonly enableKerberos?: boolean | cdktn.IResolvable;
   /**
   * Optional. The Cloud Storage URI of a KMS encrypted file containing the master key of the KDC database.
   *
@@ -7944,122 +7944,122 @@ export interface GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecu
 }
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigSecurityConfigKerberosConfigToTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecurityConfigKerberosConfigOutputReference | GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecurityConfigKerberosConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    cross_realm_trust_admin_server: cdktf.stringToTerraform(struct!.crossRealmTrustAdminServer),
-    cross_realm_trust_kdc: cdktf.stringToTerraform(struct!.crossRealmTrustKdc),
-    cross_realm_trust_realm: cdktf.stringToTerraform(struct!.crossRealmTrustRealm),
-    cross_realm_trust_shared_password: cdktf.stringToTerraform(struct!.crossRealmTrustSharedPassword),
-    enable_kerberos: cdktf.booleanToTerraform(struct!.enableKerberos),
-    kdc_db_key: cdktf.stringToTerraform(struct!.kdcDbKey),
-    key_password: cdktf.stringToTerraform(struct!.keyPassword),
-    keystore: cdktf.stringToTerraform(struct!.keystore),
-    keystore_password: cdktf.stringToTerraform(struct!.keystorePassword),
-    kms_key: cdktf.stringToTerraform(struct!.kmsKey),
-    realm: cdktf.stringToTerraform(struct!.realm),
-    root_principal_password: cdktf.stringToTerraform(struct!.rootPrincipalPassword),
-    tgt_lifetime_hours: cdktf.numberToTerraform(struct!.tgtLifetimeHours),
-    truststore: cdktf.stringToTerraform(struct!.truststore),
-    truststore_password: cdktf.stringToTerraform(struct!.truststorePassword),
+    cross_realm_trust_admin_server: cdktn.stringToTerraform(struct!.crossRealmTrustAdminServer),
+    cross_realm_trust_kdc: cdktn.stringToTerraform(struct!.crossRealmTrustKdc),
+    cross_realm_trust_realm: cdktn.stringToTerraform(struct!.crossRealmTrustRealm),
+    cross_realm_trust_shared_password: cdktn.stringToTerraform(struct!.crossRealmTrustSharedPassword),
+    enable_kerberos: cdktn.booleanToTerraform(struct!.enableKerberos),
+    kdc_db_key: cdktn.stringToTerraform(struct!.kdcDbKey),
+    key_password: cdktn.stringToTerraform(struct!.keyPassword),
+    keystore: cdktn.stringToTerraform(struct!.keystore),
+    keystore_password: cdktn.stringToTerraform(struct!.keystorePassword),
+    kms_key: cdktn.stringToTerraform(struct!.kmsKey),
+    realm: cdktn.stringToTerraform(struct!.realm),
+    root_principal_password: cdktn.stringToTerraform(struct!.rootPrincipalPassword),
+    tgt_lifetime_hours: cdktn.numberToTerraform(struct!.tgtLifetimeHours),
+    truststore: cdktn.stringToTerraform(struct!.truststore),
+    truststore_password: cdktn.stringToTerraform(struct!.truststorePassword),
   }
 }
 
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigSecurityConfigKerberosConfigToHclTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecurityConfigKerberosConfigOutputReference | GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecurityConfigKerberosConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     cross_realm_trust_admin_server: {
-      value: cdktf.stringToHclTerraform(struct!.crossRealmTrustAdminServer),
+      value: cdktn.stringToHclTerraform(struct!.crossRealmTrustAdminServer),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     cross_realm_trust_kdc: {
-      value: cdktf.stringToHclTerraform(struct!.crossRealmTrustKdc),
+      value: cdktn.stringToHclTerraform(struct!.crossRealmTrustKdc),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     cross_realm_trust_realm: {
-      value: cdktf.stringToHclTerraform(struct!.crossRealmTrustRealm),
+      value: cdktn.stringToHclTerraform(struct!.crossRealmTrustRealm),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     cross_realm_trust_shared_password: {
-      value: cdktf.stringToHclTerraform(struct!.crossRealmTrustSharedPassword),
+      value: cdktn.stringToHclTerraform(struct!.crossRealmTrustSharedPassword),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     enable_kerberos: {
-      value: cdktf.booleanToHclTerraform(struct!.enableKerberos),
+      value: cdktn.booleanToHclTerraform(struct!.enableKerberos),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     kdc_db_key: {
-      value: cdktf.stringToHclTerraform(struct!.kdcDbKey),
+      value: cdktn.stringToHclTerraform(struct!.kdcDbKey),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     key_password: {
-      value: cdktf.stringToHclTerraform(struct!.keyPassword),
+      value: cdktn.stringToHclTerraform(struct!.keyPassword),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     keystore: {
-      value: cdktf.stringToHclTerraform(struct!.keystore),
+      value: cdktn.stringToHclTerraform(struct!.keystore),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     keystore_password: {
-      value: cdktf.stringToHclTerraform(struct!.keystorePassword),
+      value: cdktn.stringToHclTerraform(struct!.keystorePassword),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     kms_key: {
-      value: cdktf.stringToHclTerraform(struct!.kmsKey),
+      value: cdktn.stringToHclTerraform(struct!.kmsKey),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     realm: {
-      value: cdktf.stringToHclTerraform(struct!.realm),
+      value: cdktn.stringToHclTerraform(struct!.realm),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     root_principal_password: {
-      value: cdktf.stringToHclTerraform(struct!.rootPrincipalPassword),
+      value: cdktn.stringToHclTerraform(struct!.rootPrincipalPassword),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     tgt_lifetime_hours: {
-      value: cdktf.numberToHclTerraform(struct!.tgtLifetimeHours),
+      value: cdktn.numberToHclTerraform(struct!.tgtLifetimeHours),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     truststore: {
-      value: cdktf.stringToHclTerraform(struct!.truststore),
+      value: cdktn.stringToHclTerraform(struct!.truststore),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     truststore_password: {
-      value: cdktf.stringToHclTerraform(struct!.truststorePassword),
+      value: cdktn.stringToHclTerraform(struct!.truststorePassword),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -8070,14 +8070,14 @@ export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigSecur
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecurityConfigKerberosConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecurityConfigKerberosConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -8251,11 +8251,11 @@ export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecurity
   }
 
   // enable_kerberos - computed: false, optional: true, required: false
-  private _enableKerberos?: boolean | cdktf.IResolvable; 
+  private _enableKerberos?: boolean | cdktn.IResolvable; 
   public get enableKerberos() {
     return this.getBooleanAttribute('enable_kerberos');
   }
-  public set enableKerberos(value: boolean | cdktf.IResolvable) {
+  public set enableKerberos(value: boolean | cdktn.IResolvable) {
     this._enableKerberos = value;
   }
   public resetEnableKerberos() {
@@ -8436,8 +8436,8 @@ export interface GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecu
 }
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigSecurityConfigToTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecurityConfigOutputReference | GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecurityConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -8447,8 +8447,8 @@ export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigSecur
 
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigSecurityConfigToHclTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecurityConfigOutputReference | GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecurityConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -8464,14 +8464,14 @@ export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigSecur
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecurityConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecurityConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -8534,38 +8534,38 @@ export interface GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSoft
 }
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigSoftwareConfigToTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSoftwareConfigOutputReference | GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSoftwareConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    image_version: cdktf.stringToTerraform(struct!.imageVersion),
-    optional_components: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.optionalComponents),
-    properties: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.properties),
+    image_version: cdktn.stringToTerraform(struct!.imageVersion),
+    optional_components: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.optionalComponents),
+    properties: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.properties),
   }
 }
 
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigSoftwareConfigToHclTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSoftwareConfigOutputReference | GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSoftwareConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     image_version: {
-      value: cdktf.stringToHclTerraform(struct!.imageVersion),
+      value: cdktn.stringToHclTerraform(struct!.imageVersion),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     optional_components: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.optionalComponents),
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.optionalComponents),
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
     },
     properties: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.properties),
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.properties),
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
@@ -8576,14 +8576,14 @@ export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigSoftw
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSoftwareConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSoftwareConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -8672,8 +8672,8 @@ export interface GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWork
 }
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigManagedGroupConfigToTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigManagedGroupConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -8682,8 +8682,8 @@ export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigWorke
 
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigManagedGroupConfigToHclTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigManagedGroupConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -8691,7 +8691,7 @@ export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigWorke
   return attrs;
 }
 
-export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigManagedGroupConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigManagedGroupConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -8700,7 +8700,7 @@ export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerCo
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -8730,14 +8730,14 @@ export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerCo
   }
 }
 
-export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigManagedGroupConfigList extends cdktf.ComplexList {
+export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigManagedGroupConfigList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -8763,32 +8763,32 @@ export interface GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWork
   readonly acceleratorType?: string;
 }
 
-export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigAcceleratorsToTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigAccelerators | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigAcceleratorsToTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigAccelerators | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    accelerator_count: cdktf.numberToTerraform(struct!.acceleratorCount),
-    accelerator_type: cdktf.stringToTerraform(struct!.acceleratorType),
+    accelerator_count: cdktn.numberToTerraform(struct!.acceleratorCount),
+    accelerator_type: cdktn.stringToTerraform(struct!.acceleratorType),
   }
 }
 
 
-export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigAcceleratorsToHclTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigAccelerators | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigAcceleratorsToHclTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigAccelerators | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     accelerator_count: {
-      value: cdktf.numberToHclTerraform(struct!.acceleratorCount),
+      value: cdktn.numberToHclTerraform(struct!.acceleratorCount),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     accelerator_type: {
-      value: cdktf.stringToHclTerraform(struct!.acceleratorType),
+      value: cdktn.stringToHclTerraform(struct!.acceleratorType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -8799,9 +8799,9 @@ export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigWorke
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigAcceleratorsOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigAcceleratorsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -8809,11 +8809,11 @@ export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerCo
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigAccelerators | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigAccelerators | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -8830,14 +8830,14 @@ export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerCo
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigAccelerators | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigAccelerators | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._acceleratorCount = undefined;
       this._acceleratorType = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -8882,15 +8882,15 @@ export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerCo
   }
 }
 
-export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigAcceleratorsList extends cdktf.ComplexList {
-  public internalValue? : GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigAccelerators[] | cdktf.IResolvable
+export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigAcceleratorsList extends cdktn.ComplexList {
+  public internalValue? : GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigAccelerators[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -8923,38 +8923,38 @@ export interface GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWork
 }
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigDiskConfigToTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigDiskConfigOutputReference | GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigDiskConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    boot_disk_size_gb: cdktf.numberToTerraform(struct!.bootDiskSizeGb),
-    boot_disk_type: cdktf.stringToTerraform(struct!.bootDiskType),
-    num_local_ssds: cdktf.numberToTerraform(struct!.numLocalSsds),
+    boot_disk_size_gb: cdktn.numberToTerraform(struct!.bootDiskSizeGb),
+    boot_disk_type: cdktn.stringToTerraform(struct!.bootDiskType),
+    num_local_ssds: cdktn.numberToTerraform(struct!.numLocalSsds),
   }
 }
 
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigDiskConfigToHclTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigDiskConfigOutputReference | GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigDiskConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     boot_disk_size_gb: {
-      value: cdktf.numberToHclTerraform(struct!.bootDiskSizeGb),
+      value: cdktn.numberToHclTerraform(struct!.bootDiskSizeGb),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     boot_disk_type: {
-      value: cdktf.stringToHclTerraform(struct!.bootDiskType),
+      value: cdktn.stringToHclTerraform(struct!.bootDiskType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     num_local_ssds: {
-      value: cdktf.numberToHclTerraform(struct!.numLocalSsds),
+      value: cdktn.numberToHclTerraform(struct!.numLocalSsds),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -8965,14 +8965,14 @@ export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigWorke
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigDiskConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigDiskConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -9093,7 +9093,7 @@ export interface GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWork
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_workflow_template#accelerators GoogleDataprocWorkflowTemplate#accelerators}
   */
-  readonly accelerators?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigAccelerators[] | cdktf.IResolvable;
+  readonly accelerators?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigAccelerators[] | cdktn.IResolvable;
   /**
   * disk_config block
   *
@@ -9103,60 +9103,60 @@ export interface GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWork
 }
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigToTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigOutputReference | GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    image: cdktf.stringToTerraform(struct!.image),
-    machine_type: cdktf.stringToTerraform(struct!.machineType),
-    min_cpu_platform: cdktf.stringToTerraform(struct!.minCpuPlatform),
-    num_instances: cdktf.numberToTerraform(struct!.numInstances),
-    preemptibility: cdktf.stringToTerraform(struct!.preemptibility),
-    accelerators: cdktf.listMapper(googleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigAcceleratorsToTerraform, true)(struct!.accelerators),
+    image: cdktn.stringToTerraform(struct!.image),
+    machine_type: cdktn.stringToTerraform(struct!.machineType),
+    min_cpu_platform: cdktn.stringToTerraform(struct!.minCpuPlatform),
+    num_instances: cdktn.numberToTerraform(struct!.numInstances),
+    preemptibility: cdktn.stringToTerraform(struct!.preemptibility),
+    accelerators: cdktn.listMapper(googleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigAcceleratorsToTerraform, true)(struct!.accelerators),
     disk_config: googleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigDiskConfigToTerraform(struct!.diskConfig),
   }
 }
 
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigToHclTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigOutputReference | GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     image: {
-      value: cdktf.stringToHclTerraform(struct!.image),
+      value: cdktn.stringToHclTerraform(struct!.image),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     machine_type: {
-      value: cdktf.stringToHclTerraform(struct!.machineType),
+      value: cdktn.stringToHclTerraform(struct!.machineType),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     min_cpu_platform: {
-      value: cdktf.stringToHclTerraform(struct!.minCpuPlatform),
+      value: cdktn.stringToHclTerraform(struct!.minCpuPlatform),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     num_instances: {
-      value: cdktf.numberToHclTerraform(struct!.numInstances),
+      value: cdktn.numberToHclTerraform(struct!.numInstances),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
     preemptibility: {
-      value: cdktf.stringToHclTerraform(struct!.preemptibility),
+      value: cdktn.stringToHclTerraform(struct!.preemptibility),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     accelerators: {
-      value: cdktf.listMapperHcl(googleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigAcceleratorsToHclTerraform, true)(struct!.accelerators),
+      value: cdktn.listMapperHcl(googleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigAcceleratorsToHclTerraform, true)(struct!.accelerators),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigAcceleratorsList",
@@ -9173,14 +9173,14 @@ export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigWorke
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -9342,7 +9342,7 @@ export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerCo
   public get accelerators() {
     return this._accelerators;
   }
-  public putAccelerators(value: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigAccelerators[] | cdktf.IResolvable) {
+  public putAccelerators(value: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigAccelerators[] | cdktn.IResolvable) {
     this._accelerators.internalValue = value;
   }
   public resetAccelerators() {
@@ -9417,7 +9417,7 @@ export interface GoogleDataprocWorkflowTemplatePlacementManagedClusterConfig {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_workflow_template#initialization_actions GoogleDataprocWorkflowTemplate#initialization_actions}
   */
-  readonly initializationActions?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigInitializationActions[] | cdktf.IResolvable;
+  readonly initializationActions?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigInitializationActions[] | cdktn.IResolvable;
   /**
   * lifecycle_config block
   *
@@ -9463,19 +9463,19 @@ export interface GoogleDataprocWorkflowTemplatePlacementManagedClusterConfig {
 }
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigToTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigOutputReference | GoogleDataprocWorkflowTemplatePlacementManagedClusterConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    staging_bucket: cdktf.stringToTerraform(struct!.stagingBucket),
-    temp_bucket: cdktf.stringToTerraform(struct!.tempBucket),
+    staging_bucket: cdktn.stringToTerraform(struct!.stagingBucket),
+    temp_bucket: cdktn.stringToTerraform(struct!.tempBucket),
     autoscaling_config: googleDataprocWorkflowTemplatePlacementManagedClusterConfigAutoscalingConfigToTerraform(struct!.autoscalingConfig),
     encryption_config: googleDataprocWorkflowTemplatePlacementManagedClusterConfigEncryptionConfigToTerraform(struct!.encryptionConfig),
     endpoint_config: googleDataprocWorkflowTemplatePlacementManagedClusterConfigEndpointConfigToTerraform(struct!.endpointConfig),
     gce_cluster_config: googleDataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigToTerraform(struct!.gceClusterConfig),
     gke_cluster_config: googleDataprocWorkflowTemplatePlacementManagedClusterConfigGkeClusterConfigToTerraform(struct!.gkeClusterConfig),
-    initialization_actions: cdktf.listMapper(googleDataprocWorkflowTemplatePlacementManagedClusterConfigInitializationActionsToTerraform, true)(struct!.initializationActions),
+    initialization_actions: cdktn.listMapper(googleDataprocWorkflowTemplatePlacementManagedClusterConfigInitializationActionsToTerraform, true)(struct!.initializationActions),
     lifecycle_config: googleDataprocWorkflowTemplatePlacementManagedClusterConfigLifecycleConfigToTerraform(struct!.lifecycleConfig),
     master_config: googleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigToTerraform(struct!.masterConfig),
     metastore_config: googleDataprocWorkflowTemplatePlacementManagedClusterConfigMetastoreConfigToTerraform(struct!.metastoreConfig),
@@ -9488,19 +9488,19 @@ export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigToTer
 
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigToHclTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigOutputReference | GoogleDataprocWorkflowTemplatePlacementManagedClusterConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     staging_bucket: {
-      value: cdktf.stringToHclTerraform(struct!.stagingBucket),
+      value: cdktn.stringToHclTerraform(struct!.stagingBucket),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     temp_bucket: {
-      value: cdktf.stringToHclTerraform(struct!.tempBucket),
+      value: cdktn.stringToHclTerraform(struct!.tempBucket),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -9536,7 +9536,7 @@ export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigToHcl
       storageClassType: "GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigGkeClusterConfigList",
     },
     initialization_actions: {
-      value: cdktf.listMapperHcl(googleDataprocWorkflowTemplatePlacementManagedClusterConfigInitializationActionsToHclTerraform, true)(struct!.initializationActions),
+      value: cdktn.listMapperHcl(googleDataprocWorkflowTemplatePlacementManagedClusterConfigInitializationActionsToHclTerraform, true)(struct!.initializationActions),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigInitializationActionsList",
@@ -9589,14 +9589,14 @@ export function googleDataprocWorkflowTemplatePlacementManagedClusterConfigToHcl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -9822,7 +9822,7 @@ export class GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigOutputRe
   public get initializationActions() {
     return this._initializationActions;
   }
-  public putInitializationActions(value: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigInitializationActions[] | cdktf.IResolvable) {
+  public putInitializationActions(value: GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigInitializationActions[] | cdktn.IResolvable) {
     this._initializationActions.internalValue = value;
   }
   public resetInitializationActions() {
@@ -9967,32 +9967,32 @@ export interface GoogleDataprocWorkflowTemplatePlacementManagedCluster {
 }
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterToTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterOutputReference | GoogleDataprocWorkflowTemplatePlacementManagedCluster): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    cluster_name: cdktf.stringToTerraform(struct!.clusterName),
-    labels: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.labels),
+    cluster_name: cdktn.stringToTerraform(struct!.clusterName),
+    labels: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.labels),
     config: googleDataprocWorkflowTemplatePlacementManagedClusterConfigToTerraform(struct!.config),
   }
 }
 
 
 export function googleDataprocWorkflowTemplatePlacementManagedClusterToHclTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementManagedClusterOutputReference | GoogleDataprocWorkflowTemplatePlacementManagedCluster): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     cluster_name: {
-      value: cdktf.stringToHclTerraform(struct!.clusterName),
+      value: cdktn.stringToHclTerraform(struct!.clusterName),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     labels: {
-      value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.labels),
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.labels),
       isBlock: false,
       type: "map",
       storageClassType: "stringMap",
@@ -10009,14 +10009,14 @@ export function googleDataprocWorkflowTemplatePlacementManagedClusterToHclTerraf
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplatePlacementManagedClusterOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplatePlacementManagedClusterOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -10111,8 +10111,8 @@ export interface GoogleDataprocWorkflowTemplatePlacement {
 }
 
 export function googleDataprocWorkflowTemplatePlacementToTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementOutputReference | GoogleDataprocWorkflowTemplatePlacement): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -10123,8 +10123,8 @@ export function googleDataprocWorkflowTemplatePlacementToTerraform(struct?: Goog
 
 
 export function googleDataprocWorkflowTemplatePlacementToHclTerraform(struct?: GoogleDataprocWorkflowTemplatePlacementOutputReference | GoogleDataprocWorkflowTemplatePlacement): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -10146,14 +10146,14 @@ export function googleDataprocWorkflowTemplatePlacementToHclTerraform(struct?: G
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplatePlacementOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplatePlacementOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -10231,39 +10231,39 @@ export interface GoogleDataprocWorkflowTemplateTimeouts {
   readonly update?: string;
 }
 
-export function googleDataprocWorkflowTemplateTimeoutsToTerraform(struct?: GoogleDataprocWorkflowTemplateTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDataprocWorkflowTemplateTimeoutsToTerraform(struct?: GoogleDataprocWorkflowTemplateTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleDataprocWorkflowTemplateTimeoutsToHclTerraform(struct?: GoogleDataprocWorkflowTemplateTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDataprocWorkflowTemplateTimeoutsToHclTerraform(struct?: GoogleDataprocWorkflowTemplateTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -10274,19 +10274,19 @@ export function googleDataprocWorkflowTemplateTimeoutsToHclTerraform(struct?: Go
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDataprocWorkflowTemplateTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleDataprocWorkflowTemplateTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleDataprocWorkflowTemplateTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDataprocWorkflowTemplateTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -10307,7 +10307,7 @@ export class GoogleDataprocWorkflowTemplateTimeoutsOutputReference extends cdktf
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDataprocWorkflowTemplateTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDataprocWorkflowTemplateTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -10315,7 +10315,7 @@ export class GoogleDataprocWorkflowTemplateTimeoutsOutputReference extends cdktf
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -10380,7 +10380,7 @@ export class GoogleDataprocWorkflowTemplateTimeoutsOutputReference extends cdktf
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_workflow_template google_dataproc_workflow_template}
 */
-export class GoogleDataprocWorkflowTemplate extends cdktf.TerraformResource {
+export class GoogleDataprocWorkflowTemplate extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -10391,14 +10391,14 @@ export class GoogleDataprocWorkflowTemplate extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleDataprocWorkflowTemplate resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleDataprocWorkflowTemplate resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleDataprocWorkflowTemplate to import
   * @param importFromId The id of the existing GoogleDataprocWorkflowTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_workflow_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleDataprocWorkflowTemplate to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_dataproc_workflow_template", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_dataproc_workflow_template", importId: importFromId, provider });
       }
 
   // ===========
@@ -10468,7 +10468,7 @@ export class GoogleDataprocWorkflowTemplate extends cdktf.TerraformResource {
   }
 
   // effective_labels - computed: true, optional: false, required: false
-  private _effectiveLabels = new cdktf.StringMap(this, "effective_labels");
+  private _effectiveLabels = new cdktn.StringMap(this, "effective_labels");
   public get effectiveLabels() {
     return this._effectiveLabels;
   }
@@ -10548,7 +10548,7 @@ export class GoogleDataprocWorkflowTemplate extends cdktf.TerraformResource {
   }
 
   // terraform_labels - computed: true, optional: false, required: false
-  private _terraformLabels = new cdktf.StringMap(this, "terraform_labels");
+  private _terraformLabels = new cdktn.StringMap(this, "terraform_labels");
   public get terraformLabels() {
     return this._terraformLabels;
   }
@@ -10595,7 +10595,7 @@ export class GoogleDataprocWorkflowTemplate extends cdktf.TerraformResource {
   public get jobs() {
     return this._jobs;
   }
-  public putJobs(value: GoogleDataprocWorkflowTemplateJobs[] | cdktf.IResolvable) {
+  public putJobs(value: GoogleDataprocWorkflowTemplateJobs[] | cdktn.IResolvable) {
     this._jobs.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -10608,7 +10608,7 @@ export class GoogleDataprocWorkflowTemplate extends cdktf.TerraformResource {
   public get parameters() {
     return this._parameters;
   }
-  public putParameters(value: GoogleDataprocWorkflowTemplateParameters[] | cdktf.IResolvable) {
+  public putParameters(value: GoogleDataprocWorkflowTemplateParameters[] | cdktn.IResolvable) {
     this._parameters.internalValue = value;
   }
   public resetParameters() {
@@ -10654,16 +10654,16 @@ export class GoogleDataprocWorkflowTemplate extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      dag_timeout: cdktf.stringToTerraform(this._dagTimeout),
-      id: cdktf.stringToTerraform(this._id),
-      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
-      location: cdktf.stringToTerraform(this._location),
-      name: cdktf.stringToTerraform(this._name),
-      project: cdktf.stringToTerraform(this._project),
-      version: cdktf.numberToTerraform(this._version),
+      dag_timeout: cdktn.stringToTerraform(this._dagTimeout),
+      id: cdktn.stringToTerraform(this._id),
+      labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
+      location: cdktn.stringToTerraform(this._location),
+      name: cdktn.stringToTerraform(this._name),
+      project: cdktn.stringToTerraform(this._project),
+      version: cdktn.numberToTerraform(this._version),
       encryption_config: googleDataprocWorkflowTemplateEncryptionConfigToTerraform(this._encryptionConfig.internalValue),
-      jobs: cdktf.listMapper(googleDataprocWorkflowTemplateJobsToTerraform, true)(this._jobs.internalValue),
-      parameters: cdktf.listMapper(googleDataprocWorkflowTemplateParametersToTerraform, true)(this._parameters.internalValue),
+      jobs: cdktn.listMapper(googleDataprocWorkflowTemplateJobsToTerraform, true)(this._jobs.internalValue),
+      parameters: cdktn.listMapper(googleDataprocWorkflowTemplateParametersToTerraform, true)(this._parameters.internalValue),
       placement: googleDataprocWorkflowTemplatePlacementToTerraform(this._placement.internalValue),
       timeouts: googleDataprocWorkflowTemplateTimeoutsToTerraform(this._timeouts.internalValue),
     };
@@ -10672,43 +10672,43 @@ export class GoogleDataprocWorkflowTemplate extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       dag_timeout: {
-        value: cdktf.stringToHclTerraform(this._dagTimeout),
+        value: cdktn.stringToHclTerraform(this._dagTimeout),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._labels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       version: {
-        value: cdktf.numberToHclTerraform(this._version),
+        value: cdktn.numberToHclTerraform(this._version),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
@@ -10720,13 +10720,13 @@ export class GoogleDataprocWorkflowTemplate extends cdktf.TerraformResource {
         storageClassType: "GoogleDataprocWorkflowTemplateEncryptionConfigList",
       },
       jobs: {
-        value: cdktf.listMapperHcl(googleDataprocWorkflowTemplateJobsToHclTerraform, true)(this._jobs.internalValue),
+        value: cdktn.listMapperHcl(googleDataprocWorkflowTemplateJobsToHclTerraform, true)(this._jobs.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "GoogleDataprocWorkflowTemplateJobsList",
       },
       parameters: {
-        value: cdktf.listMapperHcl(googleDataprocWorkflowTemplateParametersToHclTerraform, true)(this._parameters.internalValue),
+        value: cdktn.listMapperHcl(googleDataprocWorkflowTemplateParametersToHclTerraform, true)(this._parameters.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "GoogleDataprocWorkflowTemplateParametersList",

@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleDocumentAiProcessorDefaultVersionConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleDocumentAiProcessorDefaultVersionConfig extends cdktn.TerraformMetaArguments {
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_document_ai_processor_default_version#id GoogleDocumentAiProcessorDefaultVersion#id}
   *
@@ -50,32 +50,32 @@ export interface GoogleDocumentAiProcessorDefaultVersionTimeouts {
   readonly delete?: string;
 }
 
-export function googleDocumentAiProcessorDefaultVersionTimeoutsToTerraform(struct?: GoogleDocumentAiProcessorDefaultVersionTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDocumentAiProcessorDefaultVersionTimeoutsToTerraform(struct?: GoogleDocumentAiProcessorDefaultVersionTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
   }
 }
 
 
-export function googleDocumentAiProcessorDefaultVersionTimeoutsToHclTerraform(struct?: GoogleDocumentAiProcessorDefaultVersionTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleDocumentAiProcessorDefaultVersionTimeoutsToHclTerraform(struct?: GoogleDocumentAiProcessorDefaultVersionTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -86,19 +86,19 @@ export function googleDocumentAiProcessorDefaultVersionTimeoutsToHclTerraform(st
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleDocumentAiProcessorDefaultVersionTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleDocumentAiProcessorDefaultVersionTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleDocumentAiProcessorDefaultVersionTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleDocumentAiProcessorDefaultVersionTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -115,14 +115,14 @@ export class GoogleDocumentAiProcessorDefaultVersionTimeoutsOutputReference exte
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleDocumentAiProcessorDefaultVersionTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleDocumentAiProcessorDefaultVersionTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._create = undefined;
       this._delete = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -170,7 +170,7 @@ export class GoogleDocumentAiProcessorDefaultVersionTimeoutsOutputReference exte
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_document_ai_processor_default_version google_document_ai_processor_default_version}
 */
-export class GoogleDocumentAiProcessorDefaultVersion extends cdktf.TerraformResource {
+export class GoogleDocumentAiProcessorDefaultVersion extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -181,14 +181,14 @@ export class GoogleDocumentAiProcessorDefaultVersion extends cdktf.TerraformReso
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleDocumentAiProcessorDefaultVersion resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleDocumentAiProcessorDefaultVersion resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleDocumentAiProcessorDefaultVersion to import
   * @param importFromId The id of the existing GoogleDocumentAiProcessorDefaultVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_document_ai_processor_default_version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleDocumentAiProcessorDefaultVersion to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_document_ai_processor_default_version", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_document_ai_processor_default_version", importId: importFromId, provider });
       }
 
   // ===========
@@ -292,9 +292,9 @@ export class GoogleDocumentAiProcessorDefaultVersion extends cdktf.TerraformReso
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      id: cdktf.stringToTerraform(this._id),
-      processor: cdktf.stringToTerraform(this._processor),
-      version: cdktf.stringToTerraform(this._version),
+      id: cdktn.stringToTerraform(this._id),
+      processor: cdktn.stringToTerraform(this._processor),
+      version: cdktn.stringToTerraform(this._version),
       timeouts: googleDocumentAiProcessorDefaultVersionTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -302,19 +302,19 @@ export class GoogleDocumentAiProcessorDefaultVersion extends cdktf.TerraformReso
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       processor: {
-        value: cdktf.stringToHclTerraform(this._processor),
+        value: cdktn.stringToHclTerraform(this._processor),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       version: {
-        value: cdktf.stringToHclTerraform(this._version),
+        value: cdktn.stringToHclTerraform(this._version),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

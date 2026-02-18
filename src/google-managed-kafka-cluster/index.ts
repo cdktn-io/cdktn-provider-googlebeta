@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleManagedKafkaClusterConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleManagedKafkaClusterConfig extends cdktn.TerraformMetaArguments {
   /**
   * The ID to use for the cluster, which will become the final component of the cluster's name. The ID must be 1-63 characters long, and match the regular expression '[a-z]([-a-z0-9]*[a-z0-9])?' to comply with RFC 1035. This value is structured like: 'my-cluster-id'.
   *
@@ -91,31 +91,31 @@ export interface GoogleManagedKafkaClusterCapacityConfig {
 }
 
 export function googleManagedKafkaClusterCapacityConfigToTerraform(struct?: GoogleManagedKafkaClusterCapacityConfigOutputReference | GoogleManagedKafkaClusterCapacityConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    memory_bytes: cdktf.stringToTerraform(struct!.memoryBytes),
-    vcpu_count: cdktf.stringToTerraform(struct!.vcpuCount),
+    memory_bytes: cdktn.stringToTerraform(struct!.memoryBytes),
+    vcpu_count: cdktn.stringToTerraform(struct!.vcpuCount),
   }
 }
 
 
 export function googleManagedKafkaClusterCapacityConfigToHclTerraform(struct?: GoogleManagedKafkaClusterCapacityConfigOutputReference | GoogleManagedKafkaClusterCapacityConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     memory_bytes: {
-      value: cdktf.stringToHclTerraform(struct!.memoryBytes),
+      value: cdktn.stringToHclTerraform(struct!.memoryBytes),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     vcpu_count: {
-      value: cdktf.stringToHclTerraform(struct!.vcpuCount),
+      value: cdktn.stringToHclTerraform(struct!.vcpuCount),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -126,14 +126,14 @@ export function googleManagedKafkaClusterCapacityConfigToHclTerraform(struct?: G
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleManagedKafkaClusterCapacityConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleManagedKafkaClusterCapacityConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -199,25 +199,25 @@ export interface GoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigs {
   readonly subnet: string;
 }
 
-export function googleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigsToTerraform(struct?: GoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigs | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigsToTerraform(struct?: GoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigs | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    subnet: cdktf.stringToTerraform(struct!.subnet),
+    subnet: cdktn.stringToTerraform(struct!.subnet),
   }
 }
 
 
-export function googleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigsToHclTerraform(struct?: GoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigs | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigsToHclTerraform(struct?: GoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigs | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     subnet: {
-      value: cdktf.stringToHclTerraform(struct!.subnet),
+      value: cdktn.stringToHclTerraform(struct!.subnet),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -228,9 +228,9 @@ export function googleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigsToHc
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigsOutputReference extends cdktf.ComplexObject {
+export class GoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -238,11 +238,11 @@ export class GoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigsOutputR
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigs | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigs | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -255,13 +255,13 @@ export class GoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigsOutputR
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigs | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigs | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._subnet = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -286,15 +286,15 @@ export class GoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigsOutputR
   }
 }
 
-export class GoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigsList extends cdktf.ComplexList {
-  public internalValue? : GoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigs[] | cdktf.IResolvable
+export class GoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigsList extends cdktn.ComplexList {
+  public internalValue? : GoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigs[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -311,28 +311,28 @@ export interface GoogleManagedKafkaClusterGcpConfigAccessConfig {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_managed_kafka_cluster#network_configs GoogleManagedKafkaCluster#network_configs}
   */
-  readonly networkConfigs: GoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigs[] | cdktf.IResolvable;
+  readonly networkConfigs: GoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigs[] | cdktn.IResolvable;
 }
 
 export function googleManagedKafkaClusterGcpConfigAccessConfigToTerraform(struct?: GoogleManagedKafkaClusterGcpConfigAccessConfigOutputReference | GoogleManagedKafkaClusterGcpConfigAccessConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    network_configs: cdktf.listMapper(googleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigsToTerraform, true)(struct!.networkConfigs),
+    network_configs: cdktn.listMapper(googleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigsToTerraform, true)(struct!.networkConfigs),
   }
 }
 
 
 export function googleManagedKafkaClusterGcpConfigAccessConfigToHclTerraform(struct?: GoogleManagedKafkaClusterGcpConfigAccessConfigOutputReference | GoogleManagedKafkaClusterGcpConfigAccessConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     network_configs: {
-      value: cdktf.listMapperHcl(googleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigsToHclTerraform, true)(struct!.networkConfigs),
+      value: cdktn.listMapperHcl(googleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigsToHclTerraform, true)(struct!.networkConfigs),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigsList",
@@ -343,14 +343,14 @@ export function googleManagedKafkaClusterGcpConfigAccessConfigToHclTerraform(str
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleManagedKafkaClusterGcpConfigAccessConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleManagedKafkaClusterGcpConfigAccessConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -380,7 +380,7 @@ export class GoogleManagedKafkaClusterGcpConfigAccessConfigOutputReference exten
   public get networkConfigs() {
     return this._networkConfigs;
   }
-  public putNetworkConfigs(value: GoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigs[] | cdktf.IResolvable) {
+  public putNetworkConfigs(value: GoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigs[] | cdktn.IResolvable) {
     this._networkConfigs.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -404,25 +404,25 @@ export interface GoogleManagedKafkaClusterGcpConfig {
 }
 
 export function googleManagedKafkaClusterGcpConfigToTerraform(struct?: GoogleManagedKafkaClusterGcpConfigOutputReference | GoogleManagedKafkaClusterGcpConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    kms_key: cdktf.stringToTerraform(struct!.kmsKey),
+    kms_key: cdktn.stringToTerraform(struct!.kmsKey),
     access_config: googleManagedKafkaClusterGcpConfigAccessConfigToTerraform(struct!.accessConfig),
   }
 }
 
 
 export function googleManagedKafkaClusterGcpConfigToHclTerraform(struct?: GoogleManagedKafkaClusterGcpConfigOutputReference | GoogleManagedKafkaClusterGcpConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     kms_key: {
-      value: cdktf.stringToHclTerraform(struct!.kmsKey),
+      value: cdktn.stringToHclTerraform(struct!.kmsKey),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -439,14 +439,14 @@ export function googleManagedKafkaClusterGcpConfigToHclTerraform(struct?: Google
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleManagedKafkaClusterGcpConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleManagedKafkaClusterGcpConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -516,24 +516,24 @@ export interface GoogleManagedKafkaClusterRebalanceConfig {
 }
 
 export function googleManagedKafkaClusterRebalanceConfigToTerraform(struct?: GoogleManagedKafkaClusterRebalanceConfigOutputReference | GoogleManagedKafkaClusterRebalanceConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    mode: cdktf.stringToTerraform(struct!.mode),
+    mode: cdktn.stringToTerraform(struct!.mode),
   }
 }
 
 
 export function googleManagedKafkaClusterRebalanceConfigToHclTerraform(struct?: GoogleManagedKafkaClusterRebalanceConfigOutputReference | GoogleManagedKafkaClusterRebalanceConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     mode: {
-      value: cdktf.stringToHclTerraform(struct!.mode),
+      value: cdktn.stringToHclTerraform(struct!.mode),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -544,14 +544,14 @@ export function googleManagedKafkaClusterRebalanceConfigToHclTerraform(struct?: 
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleManagedKafkaClusterRebalanceConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleManagedKafkaClusterRebalanceConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -607,39 +607,39 @@ export interface GoogleManagedKafkaClusterTimeouts {
   readonly update?: string;
 }
 
-export function googleManagedKafkaClusterTimeoutsToTerraform(struct?: GoogleManagedKafkaClusterTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleManagedKafkaClusterTimeoutsToTerraform(struct?: GoogleManagedKafkaClusterTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleManagedKafkaClusterTimeoutsToHclTerraform(struct?: GoogleManagedKafkaClusterTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleManagedKafkaClusterTimeoutsToHclTerraform(struct?: GoogleManagedKafkaClusterTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -650,19 +650,19 @@ export function googleManagedKafkaClusterTimeoutsToHclTerraform(struct?: GoogleM
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleManagedKafkaClusterTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleManagedKafkaClusterTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleManagedKafkaClusterTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleManagedKafkaClusterTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -683,7 +683,7 @@ export class GoogleManagedKafkaClusterTimeoutsOutputReference extends cdktf.Comp
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleManagedKafkaClusterTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleManagedKafkaClusterTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -691,7 +691,7 @@ export class GoogleManagedKafkaClusterTimeoutsOutputReference extends cdktf.Comp
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -761,25 +761,25 @@ export interface GoogleManagedKafkaClusterTlsConfigTrustConfigCasConfigs {
   readonly caPool: string;
 }
 
-export function googleManagedKafkaClusterTlsConfigTrustConfigCasConfigsToTerraform(struct?: GoogleManagedKafkaClusterTlsConfigTrustConfigCasConfigs | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleManagedKafkaClusterTlsConfigTrustConfigCasConfigsToTerraform(struct?: GoogleManagedKafkaClusterTlsConfigTrustConfigCasConfigs | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    ca_pool: cdktf.stringToTerraform(struct!.caPool),
+    ca_pool: cdktn.stringToTerraform(struct!.caPool),
   }
 }
 
 
-export function googleManagedKafkaClusterTlsConfigTrustConfigCasConfigsToHclTerraform(struct?: GoogleManagedKafkaClusterTlsConfigTrustConfigCasConfigs | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleManagedKafkaClusterTlsConfigTrustConfigCasConfigsToHclTerraform(struct?: GoogleManagedKafkaClusterTlsConfigTrustConfigCasConfigs | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     ca_pool: {
-      value: cdktf.stringToHclTerraform(struct!.caPool),
+      value: cdktn.stringToHclTerraform(struct!.caPool),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -790,9 +790,9 @@ export function googleManagedKafkaClusterTlsConfigTrustConfigCasConfigsToHclTerr
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleManagedKafkaClusterTlsConfigTrustConfigCasConfigsOutputReference extends cdktf.ComplexObject {
+export class GoogleManagedKafkaClusterTlsConfigTrustConfigCasConfigsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -800,11 +800,11 @@ export class GoogleManagedKafkaClusterTlsConfigTrustConfigCasConfigsOutputRefere
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleManagedKafkaClusterTlsConfigTrustConfigCasConfigs | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleManagedKafkaClusterTlsConfigTrustConfigCasConfigs | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -817,13 +817,13 @@ export class GoogleManagedKafkaClusterTlsConfigTrustConfigCasConfigsOutputRefere
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleManagedKafkaClusterTlsConfigTrustConfigCasConfigs | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleManagedKafkaClusterTlsConfigTrustConfigCasConfigs | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._caPool = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -848,15 +848,15 @@ export class GoogleManagedKafkaClusterTlsConfigTrustConfigCasConfigsOutputRefere
   }
 }
 
-export class GoogleManagedKafkaClusterTlsConfigTrustConfigCasConfigsList extends cdktf.ComplexList {
-  public internalValue? : GoogleManagedKafkaClusterTlsConfigTrustConfigCasConfigs[] | cdktf.IResolvable
+export class GoogleManagedKafkaClusterTlsConfigTrustConfigCasConfigsList extends cdktn.ComplexList {
+  public internalValue? : GoogleManagedKafkaClusterTlsConfigTrustConfigCasConfigs[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -873,28 +873,28 @@ export interface GoogleManagedKafkaClusterTlsConfigTrustConfig {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_managed_kafka_cluster#cas_configs GoogleManagedKafkaCluster#cas_configs}
   */
-  readonly casConfigs?: GoogleManagedKafkaClusterTlsConfigTrustConfigCasConfigs[] | cdktf.IResolvable;
+  readonly casConfigs?: GoogleManagedKafkaClusterTlsConfigTrustConfigCasConfigs[] | cdktn.IResolvable;
 }
 
 export function googleManagedKafkaClusterTlsConfigTrustConfigToTerraform(struct?: GoogleManagedKafkaClusterTlsConfigTrustConfigOutputReference | GoogleManagedKafkaClusterTlsConfigTrustConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    cas_configs: cdktf.listMapper(googleManagedKafkaClusterTlsConfigTrustConfigCasConfigsToTerraform, true)(struct!.casConfigs),
+    cas_configs: cdktn.listMapper(googleManagedKafkaClusterTlsConfigTrustConfigCasConfigsToTerraform, true)(struct!.casConfigs),
   }
 }
 
 
 export function googleManagedKafkaClusterTlsConfigTrustConfigToHclTerraform(struct?: GoogleManagedKafkaClusterTlsConfigTrustConfigOutputReference | GoogleManagedKafkaClusterTlsConfigTrustConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     cas_configs: {
-      value: cdktf.listMapperHcl(googleManagedKafkaClusterTlsConfigTrustConfigCasConfigsToHclTerraform, true)(struct!.casConfigs),
+      value: cdktn.listMapperHcl(googleManagedKafkaClusterTlsConfigTrustConfigCasConfigsToHclTerraform, true)(struct!.casConfigs),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleManagedKafkaClusterTlsConfigTrustConfigCasConfigsList",
@@ -905,14 +905,14 @@ export function googleManagedKafkaClusterTlsConfigTrustConfigToHclTerraform(stru
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleManagedKafkaClusterTlsConfigTrustConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleManagedKafkaClusterTlsConfigTrustConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -942,7 +942,7 @@ export class GoogleManagedKafkaClusterTlsConfigTrustConfigOutputReference extend
   public get casConfigs() {
     return this._casConfigs;
   }
-  public putCasConfigs(value: GoogleManagedKafkaClusterTlsConfigTrustConfigCasConfigs[] | cdktf.IResolvable) {
+  public putCasConfigs(value: GoogleManagedKafkaClusterTlsConfigTrustConfigCasConfigs[] | cdktn.IResolvable) {
     this._casConfigs.internalValue = value;
   }
   public resetCasConfigs() {
@@ -969,25 +969,25 @@ export interface GoogleManagedKafkaClusterTlsConfig {
 }
 
 export function googleManagedKafkaClusterTlsConfigToTerraform(struct?: GoogleManagedKafkaClusterTlsConfigOutputReference | GoogleManagedKafkaClusterTlsConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    ssl_principal_mapping_rules: cdktf.stringToTerraform(struct!.sslPrincipalMappingRules),
+    ssl_principal_mapping_rules: cdktn.stringToTerraform(struct!.sslPrincipalMappingRules),
     trust_config: googleManagedKafkaClusterTlsConfigTrustConfigToTerraform(struct!.trustConfig),
   }
 }
 
 
 export function googleManagedKafkaClusterTlsConfigToHclTerraform(struct?: GoogleManagedKafkaClusterTlsConfigOutputReference | GoogleManagedKafkaClusterTlsConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     ssl_principal_mapping_rules: {
-      value: cdktf.stringToHclTerraform(struct!.sslPrincipalMappingRules),
+      value: cdktn.stringToHclTerraform(struct!.sslPrincipalMappingRules),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1004,14 +1004,14 @@ export function googleManagedKafkaClusterTlsConfigToHclTerraform(struct?: Google
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleManagedKafkaClusterTlsConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleManagedKafkaClusterTlsConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -1078,7 +1078,7 @@ export class GoogleManagedKafkaClusterTlsConfigOutputReference extends cdktf.Com
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_managed_kafka_cluster google_managed_kafka_cluster}
 */
-export class GoogleManagedKafkaCluster extends cdktf.TerraformResource {
+export class GoogleManagedKafkaCluster extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -1089,14 +1089,14 @@ export class GoogleManagedKafkaCluster extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleManagedKafkaCluster resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleManagedKafkaCluster resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleManagedKafkaCluster to import
   * @param importFromId The id of the existing GoogleManagedKafkaCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_managed_kafka_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleManagedKafkaCluster to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_managed_kafka_cluster", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_managed_kafka_cluster", importId: importFromId, provider });
       }
 
   // ===========
@@ -1161,7 +1161,7 @@ export class GoogleManagedKafkaCluster extends cdktf.TerraformResource {
   }
 
   // effective_labels - computed: true, optional: false, required: false
-  private _effectiveLabels = new cdktf.StringMap(this, "effective_labels");
+  private _effectiveLabels = new cdktn.StringMap(this, "effective_labels");
   public get effectiveLabels() {
     return this._effectiveLabels;
   }
@@ -1238,7 +1238,7 @@ export class GoogleManagedKafkaCluster extends cdktf.TerraformResource {
   }
 
   // terraform_labels - computed: true, optional: false, required: false
-  private _terraformLabels = new cdktf.StringMap(this, "terraform_labels");
+  private _terraformLabels = new cdktn.StringMap(this, "terraform_labels");
   public get terraformLabels() {
     return this._terraformLabels;
   }
@@ -1328,11 +1328,11 @@ export class GoogleManagedKafkaCluster extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      cluster_id: cdktf.stringToTerraform(this._clusterId),
-      id: cdktf.stringToTerraform(this._id),
-      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
-      location: cdktf.stringToTerraform(this._location),
-      project: cdktf.stringToTerraform(this._project),
+      cluster_id: cdktn.stringToTerraform(this._clusterId),
+      id: cdktn.stringToTerraform(this._id),
+      labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
+      location: cdktn.stringToTerraform(this._location),
+      project: cdktn.stringToTerraform(this._project),
       capacity_config: googleManagedKafkaClusterCapacityConfigToTerraform(this._capacityConfig.internalValue),
       gcp_config: googleManagedKafkaClusterGcpConfigToTerraform(this._gcpConfig.internalValue),
       rebalance_config: googleManagedKafkaClusterRebalanceConfigToTerraform(this._rebalanceConfig.internalValue),
@@ -1344,31 +1344,31 @@ export class GoogleManagedKafkaCluster extends cdktf.TerraformResource {
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       cluster_id: {
-        value: cdktf.stringToHclTerraform(this._clusterId),
+        value: cdktn.stringToHclTerraform(this._clusterId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._labels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

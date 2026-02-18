@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleNetworkSecurityMirroringEndpointGroupAssociationConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleNetworkSecurityMirroringEndpointGroupAssociationConfig extends cdktn.TerraformMetaArguments {
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_security_mirroring_endpoint_group_association#id GoogleNetworkSecurityMirroringEndpointGroupAssociation#id}
   *
@@ -73,8 +73,8 @@ export interface GoogleNetworkSecurityMirroringEndpointGroupAssociationLocations
 }
 
 export function googleNetworkSecurityMirroringEndpointGroupAssociationLocationsToTerraform(struct?: GoogleNetworkSecurityMirroringEndpointGroupAssociationLocations): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -83,8 +83,8 @@ export function googleNetworkSecurityMirroringEndpointGroupAssociationLocationsT
 
 
 export function googleNetworkSecurityMirroringEndpointGroupAssociationLocationsToHclTerraform(struct?: GoogleNetworkSecurityMirroringEndpointGroupAssociationLocations): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -92,7 +92,7 @@ export function googleNetworkSecurityMirroringEndpointGroupAssociationLocationsT
   return attrs;
 }
 
-export class GoogleNetworkSecurityMirroringEndpointGroupAssociationLocationsOutputReference extends cdktf.ComplexObject {
+export class GoogleNetworkSecurityMirroringEndpointGroupAssociationLocationsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -101,7 +101,7 @@ export class GoogleNetworkSecurityMirroringEndpointGroupAssociationLocationsOutp
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -131,14 +131,14 @@ export class GoogleNetworkSecurityMirroringEndpointGroupAssociationLocationsOutp
   }
 }
 
-export class GoogleNetworkSecurityMirroringEndpointGroupAssociationLocationsList extends cdktf.ComplexList {
+export class GoogleNetworkSecurityMirroringEndpointGroupAssociationLocationsList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -153,8 +153,8 @@ export interface GoogleNetworkSecurityMirroringEndpointGroupAssociationLocations
 }
 
 export function googleNetworkSecurityMirroringEndpointGroupAssociationLocationsDetailsToTerraform(struct?: GoogleNetworkSecurityMirroringEndpointGroupAssociationLocationsDetails): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -163,8 +163,8 @@ export function googleNetworkSecurityMirroringEndpointGroupAssociationLocationsD
 
 
 export function googleNetworkSecurityMirroringEndpointGroupAssociationLocationsDetailsToHclTerraform(struct?: GoogleNetworkSecurityMirroringEndpointGroupAssociationLocationsDetails): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -172,7 +172,7 @@ export function googleNetworkSecurityMirroringEndpointGroupAssociationLocationsD
   return attrs;
 }
 
-export class GoogleNetworkSecurityMirroringEndpointGroupAssociationLocationsDetailsOutputReference extends cdktf.ComplexObject {
+export class GoogleNetworkSecurityMirroringEndpointGroupAssociationLocationsDetailsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -181,7 +181,7 @@ export class GoogleNetworkSecurityMirroringEndpointGroupAssociationLocationsDeta
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -211,14 +211,14 @@ export class GoogleNetworkSecurityMirroringEndpointGroupAssociationLocationsDeta
   }
 }
 
-export class GoogleNetworkSecurityMirroringEndpointGroupAssociationLocationsDetailsList extends cdktf.ComplexList {
+export class GoogleNetworkSecurityMirroringEndpointGroupAssociationLocationsDetailsList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -244,39 +244,39 @@ export interface GoogleNetworkSecurityMirroringEndpointGroupAssociationTimeouts 
   readonly update?: string;
 }
 
-export function googleNetworkSecurityMirroringEndpointGroupAssociationTimeoutsToTerraform(struct?: GoogleNetworkSecurityMirroringEndpointGroupAssociationTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleNetworkSecurityMirroringEndpointGroupAssociationTimeoutsToTerraform(struct?: GoogleNetworkSecurityMirroringEndpointGroupAssociationTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleNetworkSecurityMirroringEndpointGroupAssociationTimeoutsToHclTerraform(struct?: GoogleNetworkSecurityMirroringEndpointGroupAssociationTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleNetworkSecurityMirroringEndpointGroupAssociationTimeoutsToHclTerraform(struct?: GoogleNetworkSecurityMirroringEndpointGroupAssociationTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -287,19 +287,19 @@ export function googleNetworkSecurityMirroringEndpointGroupAssociationTimeoutsTo
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleNetworkSecurityMirroringEndpointGroupAssociationTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleNetworkSecurityMirroringEndpointGroupAssociationTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleNetworkSecurityMirroringEndpointGroupAssociationTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleNetworkSecurityMirroringEndpointGroupAssociationTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -320,7 +320,7 @@ export class GoogleNetworkSecurityMirroringEndpointGroupAssociationTimeoutsOutpu
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleNetworkSecurityMirroringEndpointGroupAssociationTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleNetworkSecurityMirroringEndpointGroupAssociationTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -328,7 +328,7 @@ export class GoogleNetworkSecurityMirroringEndpointGroupAssociationTimeoutsOutpu
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -393,7 +393,7 @@ export class GoogleNetworkSecurityMirroringEndpointGroupAssociationTimeoutsOutpu
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_security_mirroring_endpoint_group_association google_network_security_mirroring_endpoint_group_association}
 */
-export class GoogleNetworkSecurityMirroringEndpointGroupAssociation extends cdktf.TerraformResource {
+export class GoogleNetworkSecurityMirroringEndpointGroupAssociation extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -404,14 +404,14 @@ export class GoogleNetworkSecurityMirroringEndpointGroupAssociation extends cdkt
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleNetworkSecurityMirroringEndpointGroupAssociation resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleNetworkSecurityMirroringEndpointGroupAssociation resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleNetworkSecurityMirroringEndpointGroupAssociation to import
   * @param importFromId The id of the existing GoogleNetworkSecurityMirroringEndpointGroupAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_security_mirroring_endpoint_group_association#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleNetworkSecurityMirroringEndpointGroupAssociation to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_network_security_mirroring_endpoint_group_association", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_network_security_mirroring_endpoint_group_association", importId: importFromId, provider });
       }
 
   // ===========
@@ -461,7 +461,7 @@ export class GoogleNetworkSecurityMirroringEndpointGroupAssociation extends cdkt
   }
 
   // effective_labels - computed: true, optional: false, required: false
-  private _effectiveLabels = new cdktf.StringMap(this, "effective_labels");
+  private _effectiveLabels = new cdktn.StringMap(this, "effective_labels");
   public get effectiveLabels() {
     return this._effectiveLabels;
   }
@@ -597,7 +597,7 @@ export class GoogleNetworkSecurityMirroringEndpointGroupAssociation extends cdkt
   }
 
   // terraform_labels - computed: true, optional: false, required: false
-  private _terraformLabels = new cdktf.StringMap(this, "terraform_labels");
+  private _terraformLabels = new cdktn.StringMap(this, "terraform_labels");
   public get terraformLabels() {
     return this._terraformLabels;
   }
@@ -629,13 +629,13 @@ export class GoogleNetworkSecurityMirroringEndpointGroupAssociation extends cdkt
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      id: cdktf.stringToTerraform(this._id),
-      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
-      location: cdktf.stringToTerraform(this._location),
-      mirroring_endpoint_group: cdktf.stringToTerraform(this._mirroringEndpointGroup),
-      mirroring_endpoint_group_association_id: cdktf.stringToTerraform(this._mirroringEndpointGroupAssociationId),
-      network: cdktf.stringToTerraform(this._network),
-      project: cdktf.stringToTerraform(this._project),
+      id: cdktn.stringToTerraform(this._id),
+      labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
+      location: cdktn.stringToTerraform(this._location),
+      mirroring_endpoint_group: cdktn.stringToTerraform(this._mirroringEndpointGroup),
+      mirroring_endpoint_group_association_id: cdktn.stringToTerraform(this._mirroringEndpointGroupAssociationId),
+      network: cdktn.stringToTerraform(this._network),
+      project: cdktn.stringToTerraform(this._project),
       timeouts: googleNetworkSecurityMirroringEndpointGroupAssociationTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -643,43 +643,43 @@ export class GoogleNetworkSecurityMirroringEndpointGroupAssociation extends cdkt
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
+        value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(this._labels),
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       mirroring_endpoint_group: {
-        value: cdktf.stringToHclTerraform(this._mirroringEndpointGroup),
+        value: cdktn.stringToHclTerraform(this._mirroringEndpointGroup),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       mirroring_endpoint_group_association_id: {
-        value: cdktf.stringToHclTerraform(this._mirroringEndpointGroupAssociationId),
+        value: cdktn.stringToHclTerraform(this._mirroringEndpointGroupAssociationId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       network: {
-        value: cdktf.stringToHclTerraform(this._network),
+        value: cdktn.stringToHclTerraform(this._network),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

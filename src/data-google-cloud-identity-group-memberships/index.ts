@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface DataGoogleCloudIdentityGroupMembershipsConfig extends cdktf.TerraformMetaArguments {
+export interface DataGoogleCloudIdentityGroupMembershipsConfig extends cdktn.TerraformMetaArguments {
   /**
   * The name of the Group to get memberships from.
   *
@@ -30,8 +30,8 @@ export interface DataGoogleCloudIdentityGroupMembershipsMembershipsMemberKey {
 }
 
 export function dataGoogleCloudIdentityGroupMembershipsMembershipsMemberKeyToTerraform(struct?: DataGoogleCloudIdentityGroupMembershipsMembershipsMemberKey): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -40,8 +40,8 @@ export function dataGoogleCloudIdentityGroupMembershipsMembershipsMemberKeyToTer
 
 
 export function dataGoogleCloudIdentityGroupMembershipsMembershipsMemberKeyToHclTerraform(struct?: DataGoogleCloudIdentityGroupMembershipsMembershipsMemberKey): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -49,7 +49,7 @@ export function dataGoogleCloudIdentityGroupMembershipsMembershipsMemberKeyToHcl
   return attrs;
 }
 
-export class DataGoogleCloudIdentityGroupMembershipsMembershipsMemberKeyOutputReference extends cdktf.ComplexObject {
+export class DataGoogleCloudIdentityGroupMembershipsMembershipsMemberKeyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -58,7 +58,7 @@ export class DataGoogleCloudIdentityGroupMembershipsMembershipsMemberKeyOutputRe
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -88,14 +88,14 @@ export class DataGoogleCloudIdentityGroupMembershipsMembershipsMemberKeyOutputRe
   }
 }
 
-export class DataGoogleCloudIdentityGroupMembershipsMembershipsMemberKeyList extends cdktf.ComplexList {
+export class DataGoogleCloudIdentityGroupMembershipsMembershipsMemberKeyList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -110,8 +110,8 @@ export interface DataGoogleCloudIdentityGroupMembershipsMembershipsPreferredMemb
 }
 
 export function dataGoogleCloudIdentityGroupMembershipsMembershipsPreferredMemberKeyToTerraform(struct?: DataGoogleCloudIdentityGroupMembershipsMembershipsPreferredMemberKey): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -120,8 +120,8 @@ export function dataGoogleCloudIdentityGroupMembershipsMembershipsPreferredMembe
 
 
 export function dataGoogleCloudIdentityGroupMembershipsMembershipsPreferredMemberKeyToHclTerraform(struct?: DataGoogleCloudIdentityGroupMembershipsMembershipsPreferredMemberKey): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -129,7 +129,7 @@ export function dataGoogleCloudIdentityGroupMembershipsMembershipsPreferredMembe
   return attrs;
 }
 
-export class DataGoogleCloudIdentityGroupMembershipsMembershipsPreferredMemberKeyOutputReference extends cdktf.ComplexObject {
+export class DataGoogleCloudIdentityGroupMembershipsMembershipsPreferredMemberKeyOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -138,7 +138,7 @@ export class DataGoogleCloudIdentityGroupMembershipsMembershipsPreferredMemberKe
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -168,14 +168,14 @@ export class DataGoogleCloudIdentityGroupMembershipsMembershipsPreferredMemberKe
   }
 }
 
-export class DataGoogleCloudIdentityGroupMembershipsMembershipsPreferredMemberKeyList extends cdktf.ComplexList {
+export class DataGoogleCloudIdentityGroupMembershipsMembershipsPreferredMemberKeyList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -190,8 +190,8 @@ export interface DataGoogleCloudIdentityGroupMembershipsMembershipsRolesExpiryDe
 }
 
 export function dataGoogleCloudIdentityGroupMembershipsMembershipsRolesExpiryDetailToTerraform(struct?: DataGoogleCloudIdentityGroupMembershipsMembershipsRolesExpiryDetail): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -200,8 +200,8 @@ export function dataGoogleCloudIdentityGroupMembershipsMembershipsRolesExpiryDet
 
 
 export function dataGoogleCloudIdentityGroupMembershipsMembershipsRolesExpiryDetailToHclTerraform(struct?: DataGoogleCloudIdentityGroupMembershipsMembershipsRolesExpiryDetail): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -209,7 +209,7 @@ export function dataGoogleCloudIdentityGroupMembershipsMembershipsRolesExpiryDet
   return attrs;
 }
 
-export class DataGoogleCloudIdentityGroupMembershipsMembershipsRolesExpiryDetailOutputReference extends cdktf.ComplexObject {
+export class DataGoogleCloudIdentityGroupMembershipsMembershipsRolesExpiryDetailOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -218,7 +218,7 @@ export class DataGoogleCloudIdentityGroupMembershipsMembershipsRolesExpiryDetail
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -243,14 +243,14 @@ export class DataGoogleCloudIdentityGroupMembershipsMembershipsRolesExpiryDetail
   }
 }
 
-export class DataGoogleCloudIdentityGroupMembershipsMembershipsRolesExpiryDetailList extends cdktf.ComplexList {
+export class DataGoogleCloudIdentityGroupMembershipsMembershipsRolesExpiryDetailList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -265,8 +265,8 @@ export interface DataGoogleCloudIdentityGroupMembershipsMembershipsRoles {
 }
 
 export function dataGoogleCloudIdentityGroupMembershipsMembershipsRolesToTerraform(struct?: DataGoogleCloudIdentityGroupMembershipsMembershipsRoles): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -275,8 +275,8 @@ export function dataGoogleCloudIdentityGroupMembershipsMembershipsRolesToTerrafo
 
 
 export function dataGoogleCloudIdentityGroupMembershipsMembershipsRolesToHclTerraform(struct?: DataGoogleCloudIdentityGroupMembershipsMembershipsRoles): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -284,7 +284,7 @@ export function dataGoogleCloudIdentityGroupMembershipsMembershipsRolesToHclTerr
   return attrs;
 }
 
-export class DataGoogleCloudIdentityGroupMembershipsMembershipsRolesOutputReference extends cdktf.ComplexObject {
+export class DataGoogleCloudIdentityGroupMembershipsMembershipsRolesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -293,7 +293,7 @@ export class DataGoogleCloudIdentityGroupMembershipsMembershipsRolesOutputRefere
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -324,14 +324,14 @@ export class DataGoogleCloudIdentityGroupMembershipsMembershipsRolesOutputRefere
   }
 }
 
-export class DataGoogleCloudIdentityGroupMembershipsMembershipsRolesList extends cdktf.ComplexList {
+export class DataGoogleCloudIdentityGroupMembershipsMembershipsRolesList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -346,8 +346,8 @@ export interface DataGoogleCloudIdentityGroupMembershipsMemberships {
 }
 
 export function dataGoogleCloudIdentityGroupMembershipsMembershipsToTerraform(struct?: DataGoogleCloudIdentityGroupMembershipsMemberships): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -356,8 +356,8 @@ export function dataGoogleCloudIdentityGroupMembershipsMembershipsToTerraform(st
 
 
 export function dataGoogleCloudIdentityGroupMembershipsMembershipsToHclTerraform(struct?: DataGoogleCloudIdentityGroupMembershipsMemberships): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -365,7 +365,7 @@ export function dataGoogleCloudIdentityGroupMembershipsMembershipsToHclTerraform
   return attrs;
 }
 
-export class DataGoogleCloudIdentityGroupMembershipsMembershipsOutputReference extends cdktf.ComplexObject {
+export class DataGoogleCloudIdentityGroupMembershipsMembershipsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -374,7 +374,7 @@ export class DataGoogleCloudIdentityGroupMembershipsMembershipsOutputReference e
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -442,14 +442,14 @@ export class DataGoogleCloudIdentityGroupMembershipsMembershipsOutputReference e
   }
 }
 
-export class DataGoogleCloudIdentityGroupMembershipsMembershipsList extends cdktf.ComplexList {
+export class DataGoogleCloudIdentityGroupMembershipsMembershipsList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -464,7 +464,7 @@ export class DataGoogleCloudIdentityGroupMembershipsMembershipsList extends cdkt
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_cloud_identity_group_memberships google_cloud_identity_group_memberships}
 */
-export class DataGoogleCloudIdentityGroupMemberships extends cdktf.TerraformDataSource {
+export class DataGoogleCloudIdentityGroupMemberships extends cdktn.TerraformDataSource {
 
   // =================
   // STATIC PROPERTIES
@@ -475,14 +475,14 @@ export class DataGoogleCloudIdentityGroupMemberships extends cdktf.TerraformData
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a DataGoogleCloudIdentityGroupMemberships resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a DataGoogleCloudIdentityGroupMemberships resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGoogleCloudIdentityGroupMemberships to import
   * @param importFromId The id of the existing DataGoogleCloudIdentityGroupMemberships that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_cloud_identity_group_memberships#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGoogleCloudIdentityGroupMemberships to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_cloud_identity_group_memberships", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_cloud_identity_group_memberships", importId: importFromId, provider });
       }
 
   // ===========
@@ -561,21 +561,21 @@ export class DataGoogleCloudIdentityGroupMemberships extends cdktf.TerraformData
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      group: cdktf.stringToTerraform(this._group),
-      id: cdktf.stringToTerraform(this._id),
+      group: cdktn.stringToTerraform(this._group),
+      id: cdktn.stringToTerraform(this._id),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       group: {
-        value: cdktf.stringToHclTerraform(this._group),
+        value: cdktn.stringToHclTerraform(this._group),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

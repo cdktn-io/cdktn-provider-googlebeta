@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleIdentityPlatformInboundSamlConfigConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleIdentityPlatformInboundSamlConfigConfig extends cdktn.TerraformMetaArguments {
   /**
   * Human friendly display name.
   *
@@ -23,7 +23,7 @@ export interface GoogleIdentityPlatformInboundSamlConfigConfig extends cdktf.Ter
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_identity_platform_inbound_saml_config#enabled GoogleIdentityPlatformInboundSamlConfig#enabled}
   */
-  readonly enabled?: boolean | cdktf.IResolvable;
+  readonly enabled?: boolean | cdktn.IResolvable;
   /**
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_identity_platform_inbound_saml_config#id GoogleIdentityPlatformInboundSamlConfig#id}
   *
@@ -71,25 +71,25 @@ export interface GoogleIdentityPlatformInboundSamlConfigIdpConfigIdpCertificates
   readonly x509Certificate?: string;
 }
 
-export function googleIdentityPlatformInboundSamlConfigIdpConfigIdpCertificatesToTerraform(struct?: GoogleIdentityPlatformInboundSamlConfigIdpConfigIdpCertificates | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleIdentityPlatformInboundSamlConfigIdpConfigIdpCertificatesToTerraform(struct?: GoogleIdentityPlatformInboundSamlConfigIdpConfigIdpCertificates | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    x509_certificate: cdktf.stringToTerraform(struct!.x509Certificate),
+    x509_certificate: cdktn.stringToTerraform(struct!.x509Certificate),
   }
 }
 
 
-export function googleIdentityPlatformInboundSamlConfigIdpConfigIdpCertificatesToHclTerraform(struct?: GoogleIdentityPlatformInboundSamlConfigIdpConfigIdpCertificates | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleIdentityPlatformInboundSamlConfigIdpConfigIdpCertificatesToHclTerraform(struct?: GoogleIdentityPlatformInboundSamlConfigIdpConfigIdpCertificates | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     x509_certificate: {
-      value: cdktf.stringToHclTerraform(struct!.x509Certificate),
+      value: cdktn.stringToHclTerraform(struct!.x509Certificate),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -100,9 +100,9 @@ export function googleIdentityPlatformInboundSamlConfigIdpConfigIdpCertificatesT
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleIdentityPlatformInboundSamlConfigIdpConfigIdpCertificatesOutputReference extends cdktf.ComplexObject {
+export class GoogleIdentityPlatformInboundSamlConfigIdpConfigIdpCertificatesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
@@ -110,11 +110,11 @@ export class GoogleIdentityPlatformInboundSamlConfigIdpConfigIdpCertificatesOutp
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): GoogleIdentityPlatformInboundSamlConfigIdpConfigIdpCertificates | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleIdentityPlatformInboundSamlConfigIdpConfigIdpCertificates | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -127,13 +127,13 @@ export class GoogleIdentityPlatformInboundSamlConfigIdpConfigIdpCertificatesOutp
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleIdentityPlatformInboundSamlConfigIdpConfigIdpCertificates | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleIdentityPlatformInboundSamlConfigIdpConfigIdpCertificates | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._x509Certificate = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -161,15 +161,15 @@ export class GoogleIdentityPlatformInboundSamlConfigIdpConfigIdpCertificatesOutp
   }
 }
 
-export class GoogleIdentityPlatformInboundSamlConfigIdpConfigIdpCertificatesList extends cdktf.ComplexList {
-  public internalValue? : GoogleIdentityPlatformInboundSamlConfigIdpConfigIdpCertificates[] | cdktf.IResolvable
+export class GoogleIdentityPlatformInboundSamlConfigIdpConfigIdpCertificatesList extends cdktn.ComplexList {
+  public internalValue? : GoogleIdentityPlatformInboundSamlConfigIdpConfigIdpCertificates[] | cdktn.IResolvable
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -192,7 +192,7 @@ export interface GoogleIdentityPlatformInboundSamlConfigIdpConfig {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_identity_platform_inbound_saml_config#sign_request GoogleIdentityPlatformInboundSamlConfig#sign_request}
   */
-  readonly signRequest?: boolean | cdktf.IResolvable;
+  readonly signRequest?: boolean | cdktn.IResolvable;
   /**
   * URL to send Authentication request to.
   *
@@ -204,49 +204,49 @@ export interface GoogleIdentityPlatformInboundSamlConfigIdpConfig {
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_identity_platform_inbound_saml_config#idp_certificates GoogleIdentityPlatformInboundSamlConfig#idp_certificates}
   */
-  readonly idpCertificates: GoogleIdentityPlatformInboundSamlConfigIdpConfigIdpCertificates[] | cdktf.IResolvable;
+  readonly idpCertificates: GoogleIdentityPlatformInboundSamlConfigIdpConfigIdpCertificates[] | cdktn.IResolvable;
 }
 
 export function googleIdentityPlatformInboundSamlConfigIdpConfigToTerraform(struct?: GoogleIdentityPlatformInboundSamlConfigIdpConfigOutputReference | GoogleIdentityPlatformInboundSamlConfigIdpConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    idp_entity_id: cdktf.stringToTerraform(struct!.idpEntityId),
-    sign_request: cdktf.booleanToTerraform(struct!.signRequest),
-    sso_url: cdktf.stringToTerraform(struct!.ssoUrl),
-    idp_certificates: cdktf.listMapper(googleIdentityPlatformInboundSamlConfigIdpConfigIdpCertificatesToTerraform, true)(struct!.idpCertificates),
+    idp_entity_id: cdktn.stringToTerraform(struct!.idpEntityId),
+    sign_request: cdktn.booleanToTerraform(struct!.signRequest),
+    sso_url: cdktn.stringToTerraform(struct!.ssoUrl),
+    idp_certificates: cdktn.listMapper(googleIdentityPlatformInboundSamlConfigIdpConfigIdpCertificatesToTerraform, true)(struct!.idpCertificates),
   }
 }
 
 
 export function googleIdentityPlatformInboundSamlConfigIdpConfigToHclTerraform(struct?: GoogleIdentityPlatformInboundSamlConfigIdpConfigOutputReference | GoogleIdentityPlatformInboundSamlConfigIdpConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     idp_entity_id: {
-      value: cdktf.stringToHclTerraform(struct!.idpEntityId),
+      value: cdktn.stringToHclTerraform(struct!.idpEntityId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     sign_request: {
-      value: cdktf.booleanToHclTerraform(struct!.signRequest),
+      value: cdktn.booleanToHclTerraform(struct!.signRequest),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
     },
     sso_url: {
-      value: cdktf.stringToHclTerraform(struct!.ssoUrl),
+      value: cdktn.stringToHclTerraform(struct!.ssoUrl),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     idp_certificates: {
-      value: cdktf.listMapperHcl(googleIdentityPlatformInboundSamlConfigIdpConfigIdpCertificatesToHclTerraform, true)(struct!.idpCertificates),
+      value: cdktn.listMapperHcl(googleIdentityPlatformInboundSamlConfigIdpConfigIdpCertificatesToHclTerraform, true)(struct!.idpCertificates),
       isBlock: true,
       type: "list",
       storageClassType: "GoogleIdentityPlatformInboundSamlConfigIdpConfigIdpCertificatesList",
@@ -257,14 +257,14 @@ export function googleIdentityPlatformInboundSamlConfigIdpConfigToHclTerraform(s
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleIdentityPlatformInboundSamlConfigIdpConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleIdentityPlatformInboundSamlConfigIdpConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -321,11 +321,11 @@ export class GoogleIdentityPlatformInboundSamlConfigIdpConfigOutputReference ext
   }
 
   // sign_request - computed: false, optional: true, required: false
-  private _signRequest?: boolean | cdktf.IResolvable; 
+  private _signRequest?: boolean | cdktn.IResolvable; 
   public get signRequest() {
     return this.getBooleanAttribute('sign_request');
   }
-  public set signRequest(value: boolean | cdktf.IResolvable) {
+  public set signRequest(value: boolean | cdktn.IResolvable) {
     this._signRequest = value;
   }
   public resetSignRequest() {
@@ -354,7 +354,7 @@ export class GoogleIdentityPlatformInboundSamlConfigIdpConfigOutputReference ext
   public get idpCertificates() {
     return this._idpCertificates;
   }
-  public putIdpCertificates(value: GoogleIdentityPlatformInboundSamlConfigIdpConfigIdpCertificates[] | cdktf.IResolvable) {
+  public putIdpCertificates(value: GoogleIdentityPlatformInboundSamlConfigIdpConfigIdpCertificates[] | cdktn.IResolvable) {
     this._idpCertificates.internalValue = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -366,8 +366,8 @@ export interface GoogleIdentityPlatformInboundSamlConfigSpConfigSpCertificates {
 }
 
 export function googleIdentityPlatformInboundSamlConfigSpConfigSpCertificatesToTerraform(struct?: GoogleIdentityPlatformInboundSamlConfigSpConfigSpCertificates): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
@@ -376,8 +376,8 @@ export function googleIdentityPlatformInboundSamlConfigSpConfigSpCertificatesToT
 
 
 export function googleIdentityPlatformInboundSamlConfigSpConfigSpCertificatesToHclTerraform(struct?: GoogleIdentityPlatformInboundSamlConfigSpConfigSpCertificates): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
@@ -385,7 +385,7 @@ export function googleIdentityPlatformInboundSamlConfigSpConfigSpCertificatesToH
   return attrs;
 }
 
-export class GoogleIdentityPlatformInboundSamlConfigSpConfigSpCertificatesOutputReference extends cdktf.ComplexObject {
+export class GoogleIdentityPlatformInboundSamlConfigSpConfigSpCertificatesOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -394,7 +394,7 @@ export class GoogleIdentityPlatformInboundSamlConfigSpConfigSpCertificatesOutput
   * @param complexObjectIndex the index of this item in the list
   * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
@@ -419,14 +419,14 @@ export class GoogleIdentityPlatformInboundSamlConfigSpConfigSpCertificatesOutput
   }
 }
 
-export class GoogleIdentityPlatformInboundSamlConfigSpConfigSpCertificatesList extends cdktf.ComplexList {
+export class GoogleIdentityPlatformInboundSamlConfigSpConfigSpCertificatesList extends cdktn.ComplexList {
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+  constructor(protected terraformResource: cdktn.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
     super(terraformResource, terraformAttribute, wrapsSet)
   }
 
@@ -453,31 +453,31 @@ export interface GoogleIdentityPlatformInboundSamlConfigSpConfig {
 }
 
 export function googleIdentityPlatformInboundSamlConfigSpConfigToTerraform(struct?: GoogleIdentityPlatformInboundSamlConfigSpConfigOutputReference | GoogleIdentityPlatformInboundSamlConfigSpConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    callback_uri: cdktf.stringToTerraform(struct!.callbackUri),
-    sp_entity_id: cdktf.stringToTerraform(struct!.spEntityId),
+    callback_uri: cdktn.stringToTerraform(struct!.callbackUri),
+    sp_entity_id: cdktn.stringToTerraform(struct!.spEntityId),
   }
 }
 
 
 export function googleIdentityPlatformInboundSamlConfigSpConfigToHclTerraform(struct?: GoogleIdentityPlatformInboundSamlConfigSpConfigOutputReference | GoogleIdentityPlatformInboundSamlConfigSpConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     callback_uri: {
-      value: cdktf.stringToHclTerraform(struct!.callbackUri),
+      value: cdktn.stringToHclTerraform(struct!.callbackUri),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     sp_entity_id: {
-      value: cdktf.stringToHclTerraform(struct!.spEntityId),
+      value: cdktn.stringToHclTerraform(struct!.spEntityId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -488,14 +488,14 @@ export function googleIdentityPlatformInboundSamlConfigSpConfigToHclTerraform(st
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleIdentityPlatformInboundSamlConfigSpConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleIdentityPlatformInboundSamlConfigSpConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -579,39 +579,39 @@ export interface GoogleIdentityPlatformInboundSamlConfigTimeouts {
   readonly update?: string;
 }
 
-export function googleIdentityPlatformInboundSamlConfigTimeoutsToTerraform(struct?: GoogleIdentityPlatformInboundSamlConfigTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleIdentityPlatformInboundSamlConfigTimeoutsToTerraform(struct?: GoogleIdentityPlatformInboundSamlConfigTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleIdentityPlatformInboundSamlConfigTimeoutsToHclTerraform(struct?: GoogleIdentityPlatformInboundSamlConfigTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleIdentityPlatformInboundSamlConfigTimeoutsToHclTerraform(struct?: GoogleIdentityPlatformInboundSamlConfigTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -622,19 +622,19 @@ export function googleIdentityPlatformInboundSamlConfigTimeoutsToHclTerraform(st
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleIdentityPlatformInboundSamlConfigTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleIdentityPlatformInboundSamlConfigTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleIdentityPlatformInboundSamlConfigTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleIdentityPlatformInboundSamlConfigTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -655,7 +655,7 @@ export class GoogleIdentityPlatformInboundSamlConfigTimeoutsOutputReference exte
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleIdentityPlatformInboundSamlConfigTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleIdentityPlatformInboundSamlConfigTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -663,7 +663,7 @@ export class GoogleIdentityPlatformInboundSamlConfigTimeoutsOutputReference exte
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -728,7 +728,7 @@ export class GoogleIdentityPlatformInboundSamlConfigTimeoutsOutputReference exte
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_identity_platform_inbound_saml_config google_identity_platform_inbound_saml_config}
 */
-export class GoogleIdentityPlatformInboundSamlConfig extends cdktf.TerraformResource {
+export class GoogleIdentityPlatformInboundSamlConfig extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -739,14 +739,14 @@ export class GoogleIdentityPlatformInboundSamlConfig extends cdktf.TerraformReso
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleIdentityPlatformInboundSamlConfig resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleIdentityPlatformInboundSamlConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleIdentityPlatformInboundSamlConfig to import
   * @param importFromId The id of the existing GoogleIdentityPlatformInboundSamlConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_identity_platform_inbound_saml_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleIdentityPlatformInboundSamlConfig to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_identity_platform_inbound_saml_config", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_identity_platform_inbound_saml_config", importId: importFromId, provider });
       }
 
   // ===========
@@ -804,11 +804,11 @@ export class GoogleIdentityPlatformInboundSamlConfig extends cdktf.TerraformReso
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktf.IResolvable; 
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
-  public set enabled(value: boolean | cdktf.IResolvable) {
+  public set enabled(value: boolean | cdktn.IResolvable) {
     this._enabled = value;
   }
   public resetEnabled() {
@@ -912,11 +912,11 @@ export class GoogleIdentityPlatformInboundSamlConfig extends cdktf.TerraformReso
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      display_name: cdktf.stringToTerraform(this._displayName),
-      enabled: cdktf.booleanToTerraform(this._enabled),
-      id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
-      project: cdktf.stringToTerraform(this._project),
+      display_name: cdktn.stringToTerraform(this._displayName),
+      enabled: cdktn.booleanToTerraform(this._enabled),
+      id: cdktn.stringToTerraform(this._id),
+      name: cdktn.stringToTerraform(this._name),
+      project: cdktn.stringToTerraform(this._project),
       idp_config: googleIdentityPlatformInboundSamlConfigIdpConfigToTerraform(this._idpConfig.internalValue),
       sp_config: googleIdentityPlatformInboundSamlConfigSpConfigToTerraform(this._spConfig.internalValue),
       timeouts: googleIdentityPlatformInboundSamlConfigTimeoutsToTerraform(this._timeouts.internalValue),
@@ -926,31 +926,31 @@ export class GoogleIdentityPlatformInboundSamlConfig extends cdktf.TerraformReso
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       display_name: {
-        value: cdktf.stringToHclTerraform(this._displayName),
+        value: cdktn.stringToHclTerraform(this._displayName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       enabled: {
-        value: cdktf.booleanToHclTerraform(this._enabled),
+        value: cdktn.booleanToHclTerraform(this._enabled),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       name: {
-        value: cdktf.stringToHclTerraform(this._name),
+        value: cdktn.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       project: {
-        value: cdktf.stringToHclTerraform(this._project),
+        value: cdktn.stringToHclTerraform(this._project),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

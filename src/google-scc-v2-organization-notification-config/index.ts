@@ -7,11 +7,11 @@
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
-import * as cdktf from 'cdktf';
+import * as cdktn from 'cdktn';
 
 // Configuration
 
-export interface GoogleSccV2OrganizationNotificationConfigConfig extends cdktf.TerraformMetaArguments {
+export interface GoogleSccV2OrganizationNotificationConfigConfig extends cdktn.TerraformMetaArguments {
   /**
   * This must be unique within the organization.
   *
@@ -98,24 +98,24 @@ export interface GoogleSccV2OrganizationNotificationConfigStreamingConfig {
 }
 
 export function googleSccV2OrganizationNotificationConfigStreamingConfigToTerraform(struct?: GoogleSccV2OrganizationNotificationConfigStreamingConfigOutputReference | GoogleSccV2OrganizationNotificationConfigStreamingConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    filter: cdktf.stringToTerraform(struct!.filter),
+    filter: cdktn.stringToTerraform(struct!.filter),
   }
 }
 
 
 export function googleSccV2OrganizationNotificationConfigStreamingConfigToHclTerraform(struct?: GoogleSccV2OrganizationNotificationConfigStreamingConfigOutputReference | GoogleSccV2OrganizationNotificationConfigStreamingConfig): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     filter: {
-      value: cdktf.stringToHclTerraform(struct!.filter),
+      value: cdktn.stringToHclTerraform(struct!.filter),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -126,14 +126,14 @@ export function googleSccV2OrganizationNotificationConfigStreamingConfigToHclTer
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleSccV2OrganizationNotificationConfigStreamingConfigOutputReference extends cdktf.ComplexObject {
+export class GoogleSccV2OrganizationNotificationConfigStreamingConfigOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false, 0);
   }
 
@@ -186,39 +186,39 @@ export interface GoogleSccV2OrganizationNotificationConfigTimeouts {
   readonly update?: string;
 }
 
-export function googleSccV2OrganizationNotificationConfigTimeoutsToTerraform(struct?: GoogleSccV2OrganizationNotificationConfigTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleSccV2OrganizationNotificationConfigTimeoutsToTerraform(struct?: GoogleSccV2OrganizationNotificationConfigTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    create: cdktf.stringToTerraform(struct!.create),
-    delete: cdktf.stringToTerraform(struct!.delete),
-    update: cdktf.stringToTerraform(struct!.update),
+    create: cdktn.stringToTerraform(struct!.create),
+    delete: cdktn.stringToTerraform(struct!.delete),
+    update: cdktn.stringToTerraform(struct!.update),
   }
 }
 
 
-export function googleSccV2OrganizationNotificationConfigTimeoutsToHclTerraform(struct?: GoogleSccV2OrganizationNotificationConfigTimeouts | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
+export function googleSccV2OrganizationNotificationConfigTimeoutsToHclTerraform(struct?: GoogleSccV2OrganizationNotificationConfigTimeouts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
     create: {
-      value: cdktf.stringToHclTerraform(struct!.create),
+      value: cdktn.stringToHclTerraform(struct!.create),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     delete: {
-      value: cdktf.stringToHclTerraform(struct!.delete),
+      value: cdktn.stringToHclTerraform(struct!.delete),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
     },
     update: {
-      value: cdktf.stringToHclTerraform(struct!.update),
+      value: cdktn.stringToHclTerraform(struct!.update),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -229,19 +229,19 @@ export function googleSccV2OrganizationNotificationConfigTimeoutsToHclTerraform(
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class GoogleSccV2OrganizationNotificationConfigTimeoutsOutputReference extends cdktf.ComplexObject {
+export class GoogleSccV2OrganizationNotificationConfigTimeoutsOutputReference extends cdktn.ComplexObject {
   private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
+  private resolvableValue?: cdktn.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): GoogleSccV2OrganizationNotificationConfigTimeouts | cdktf.IResolvable | undefined {
+  public get internalValue(): GoogleSccV2OrganizationNotificationConfigTimeouts | cdktn.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
@@ -262,7 +262,7 @@ export class GoogleSccV2OrganizationNotificationConfigTimeoutsOutputReference ex
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: GoogleSccV2OrganizationNotificationConfigTimeouts | cdktf.IResolvable | undefined) {
+  public set internalValue(value: GoogleSccV2OrganizationNotificationConfigTimeouts | cdktn.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
@@ -270,7 +270,7 @@ export class GoogleSccV2OrganizationNotificationConfigTimeoutsOutputReference ex
       this._delete = undefined;
       this._update = undefined;
     }
-    else if (cdktf.Tokenization.isResolvable(value)) {
+    else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
       this.resolvableValue = value;
     }
@@ -335,7 +335,7 @@ export class GoogleSccV2OrganizationNotificationConfigTimeoutsOutputReference ex
 /**
 * Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_v2_organization_notification_config google_scc_v2_organization_notification_config}
 */
-export class GoogleSccV2OrganizationNotificationConfig extends cdktf.TerraformResource {
+export class GoogleSccV2OrganizationNotificationConfig extends cdktn.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -346,14 +346,14 @@ export class GoogleSccV2OrganizationNotificationConfig extends cdktf.TerraformRe
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a GoogleSccV2OrganizationNotificationConfig resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTN code for importing a GoogleSccV2OrganizationNotificationConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleSccV2OrganizationNotificationConfig to import
   * @param importFromId The id of the existing GoogleSccV2OrganizationNotificationConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_v2_organization_notification_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleSccV2OrganizationNotificationConfig to import is found
   */
-  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
-        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "google_scc_v2_organization_notification_config", importId: importFromId, provider });
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
+        return new cdktn.ImportableResource(scope, importToId, { terraformResourceType: "google_scc_v2_organization_notification_config", importId: importFromId, provider });
       }
 
   // ===========
@@ -529,12 +529,12 @@ export class GoogleSccV2OrganizationNotificationConfig extends cdktf.TerraformRe
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      config_id: cdktf.stringToTerraform(this._configId),
-      description: cdktf.stringToTerraform(this._description),
-      id: cdktf.stringToTerraform(this._id),
-      location: cdktf.stringToTerraform(this._location),
-      organization: cdktf.stringToTerraform(this._organization),
-      pubsub_topic: cdktf.stringToTerraform(this._pubsubTopic),
+      config_id: cdktn.stringToTerraform(this._configId),
+      description: cdktn.stringToTerraform(this._description),
+      id: cdktn.stringToTerraform(this._id),
+      location: cdktn.stringToTerraform(this._location),
+      organization: cdktn.stringToTerraform(this._organization),
+      pubsub_topic: cdktn.stringToTerraform(this._pubsubTopic),
       streaming_config: googleSccV2OrganizationNotificationConfigStreamingConfigToTerraform(this._streamingConfig.internalValue),
       timeouts: googleSccV2OrganizationNotificationConfigTimeoutsToTerraform(this._timeouts.internalValue),
     };
@@ -543,37 +543,37 @@ export class GoogleSccV2OrganizationNotificationConfig extends cdktf.TerraformRe
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
       config_id: {
-        value: cdktf.stringToHclTerraform(this._configId),
+        value: cdktn.stringToHclTerraform(this._configId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       description: {
-        value: cdktf.stringToHclTerraform(this._description),
+        value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       id: {
-        value: cdktf.stringToHclTerraform(this._id),
+        value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       location: {
-        value: cdktf.stringToHclTerraform(this._location),
+        value: cdktn.stringToHclTerraform(this._location),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       organization: {
-        value: cdktf.stringToHclTerraform(this._organization),
+        value: cdktn.stringToHclTerraform(this._organization),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
       pubsub_topic: {
-        value: cdktf.stringToHclTerraform(this._pubsubTopic),
+        value: cdktn.stringToHclTerraform(this._pubsubTopic),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
