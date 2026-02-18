@@ -293,7 +293,7 @@ func ImportFrom(id *string, provider TerraformProvider)
 
 ###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.importFrom.parameter.provider"></a>
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider
 
 ---
 
@@ -392,7 +392,7 @@ func ResetRegion()
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.isConstruct">IsConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.isTerraformElement">IsTerraformElement</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.isTerraformResource">IsTerraformResource</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.generateConfigForImport">GenerateConfigForImport</a></code> | Generates CDKTF code for importing a GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.generateConfigForImport">GenerateConfigForImport</a></code> | Generates CDKTN code for importing a GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy resource upon running "cdktn plan <stack-name>". |
 
 ---
 
@@ -464,7 +464,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleve
 googlevertexaifeatureonlinestorefeatureviewiampolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
 
-Generates CDKTF code for importing a GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy resource upon running "cdktf plan <stack-name>".
+Generates CDKTN code for importing a GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy resource upon running "cdktn plan <stack-name>".
 
 ###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.generateConfigForImport.parameter.scope"></a>
 
@@ -494,7 +494,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 
 ###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.generateConfigForImport.parameter.provider"></a>
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider
 
 ? Optional instance of the provider where the GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy to import is found.
 
@@ -505,18 +505,18 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.property.node">Node</a></code> | <code>github.com/aws/constructs-go/constructs/v10.Node</code> | The tree node. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.property.cdktfStack">CdktfStack</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.property.cdktfStack">CdktfStack</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformStack</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.property.friendlyUniqueId">FriendlyUniqueId</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.property.terraformMetaArguments">TerraformMetaArguments</a></code> | <code>*map[string]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.property.terraformResourceType">TerraformResourceType</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.property.dependsOn">DependsOn</a></code> | <code>*[]*string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.property.forEach">ForEach</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.property.etag">Etag</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.property.featureOnlineStoreInput">FeatureOnlineStoreInput</a></code> | <code>*string</code> | *No description.* |
@@ -552,7 +552,7 @@ The tree node.
 func CdktfStack() TerraformStack
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformStack
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformStack
 
 ---
 
@@ -602,7 +602,7 @@ func TerraformResourceType() *string
 func TerraformGeneratorMetadata() TerraformProviderGeneratorMetadata
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProviderGeneratorMetadata
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProviderGeneratorMetadata
 
 ---
 
@@ -642,7 +642,7 @@ func DependsOn() *[]*string
 func ForEach() ITerraformIterator
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformIterator
 
 ---
 
@@ -652,7 +652,7 @@ func ForEach() ITerraformIterator
 func Lifecycle() TerraformResourceLifecycle
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle
 
 ---
 
@@ -662,7 +662,7 @@ func Lifecycle() TerraformResourceLifecycle
 func Provider() TerraformProvider
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider
 
 ---
 
@@ -836,10 +836,10 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleve
 &googlevertexaifeatureonlinestorefeatureviewiampolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicyConfig {
 	Connection: interface{},
 	Count: interface{},
-	DependsOn: *[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable,
-	ForEach: github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator,
-	Lifecycle: github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle,
-	Provider: github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider,
+	DependsOn: *[]github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformDependable,
+	ForEach: github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformIterator,
+	Lifecycle: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle,
+	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	FeatureOnlineStore: *string,
 	FeatureView: *string,
@@ -856,10 +856,10 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleve
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicyConfig.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicyConfig.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicyConfig.property.dependsOn">DependsOn</a></code> | <code>*[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicyConfig.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicyConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicyConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicyConfig.property.dependsOn">DependsOn</a></code> | <code>*[]github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformDependable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicyConfig.property.forEach">ForEach</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicyConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicyConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicyConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicyConfig.property.featureOnlineStore">FeatureOnlineStore</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_online_store_featureview_iam_policy#feature_online_store GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy#feature_online_store}. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicyConfig.property.featureView">FeatureView</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_online_store_featureview_iam_policy#feature_view GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy#feature_view}. |
@@ -896,7 +896,7 @@ Count interface{}
 DependsOn *[]ITerraformDependable
 ```
 
-- *Type:* *[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable
+- *Type:* *[]github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformDependable
 
 ---
 
@@ -906,7 +906,7 @@ DependsOn *[]ITerraformDependable
 ForEach ITerraformIterator
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformIterator
 
 ---
 
@@ -916,7 +916,7 @@ ForEach ITerraformIterator
 Lifecycle TerraformResourceLifecycle
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle
 
 ---
 
@@ -926,7 +926,7 @@ Lifecycle TerraformResourceLifecycle
 Provider TerraformProvider
 ```
 
-- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider
 
 ---
 

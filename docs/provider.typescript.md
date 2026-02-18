@@ -1488,7 +1488,7 @@ public resetZone(): void
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.isTerraformElement">isTerraformElement</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.isTerraformProvider">isTerraformProvider</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTF code for importing a GoogleBetaProvider resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTN code for importing a GoogleBetaProvider resource upon running "cdktn plan <stack-name>". |
 
 ---
 
@@ -1560,7 +1560,7 @@ import { provider } from '@cdktn/provider-google-beta'
 provider.GoogleBetaProvider.generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: TerraformProvider)
 ```
 
-Generates CDKTF code for importing a GoogleBetaProvider resource upon running "cdktf plan <stack-name>".
+Generates CDKTN code for importing a GoogleBetaProvider resource upon running "cdktn plan <stack-name>".
 
 ###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.generateConfigForImport.parameter.scope"></a>
 
@@ -1590,7 +1590,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 
 ###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.provider.GoogleBetaProvider.generateConfigForImport.parameter.provider"></a>
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ? Optional instance of the provider where the GoogleBetaProvider to import is found.
 
@@ -1601,19 +1601,19 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cdktfStack">cdktfStack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.cdktfStack">cdktfStack</a></code> | <code>cdktn.TerraformStack</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.metaAttributes">metaAttributes</a></code> | <code>{[ key: string ]: any}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.terraformProviderSource">terraformProviderSource</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.alias">alias</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.accessApprovalCustomEndpointInput">accessApprovalCustomEndpointInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.accessContextManagerCustomEndpointInput">accessContextManagerCustomEndpointInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.accessTokenInput">accessTokenInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.activeDirectoryCustomEndpointInput">activeDirectoryCustomEndpointInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.addTerraformAttributionLabelInput">addTerraformAttributionLabelInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.addTerraformAttributionLabelInput">addTerraformAttributionLabelInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.aliasInput">aliasInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.alloydbCustomEndpointInput">alloydbCustomEndpointInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.apiGatewayCustomEndpointInput">apiGatewayCustomEndpointInput</a></code> | <code>string</code> | *No description.* |
@@ -1625,7 +1625,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.artifactRegistryCustomEndpointInput">artifactRegistryCustomEndpointInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.assuredWorkloadsCustomEndpointInput">assuredWorkloadsCustomEndpointInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.backupDrCustomEndpointInput">backupDrCustomEndpointInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.batchingInput">batchingInput</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderBatching">GoogleBetaProviderBatching</a>[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.batchingInput">batchingInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderBatching">GoogleBetaProviderBatching</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.beyondcorpCustomEndpointInput">beyondcorpCustomEndpointInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.biglakeCustomEndpointInput">biglakeCustomEndpointInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.bigqueryAnalyticsHubCustomEndpointInput">bigqueryAnalyticsHubCustomEndpointInput</a></code> | <code>string</code> | *No description.* |
@@ -1693,7 +1693,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.edgenetworkCustomEndpointInput">edgenetworkCustomEndpointInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.essentialContactsCustomEndpointInput">essentialContactsCustomEndpointInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.eventarcCustomEndpointInput">eventarcCustomEndpointInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.externalCredentialsInput">externalCredentialsInput</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderExternalCredentials">GoogleBetaProviderExternalCredentials</a>[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.externalCredentialsInput">externalCredentialsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderExternalCredentials">GoogleBetaProviderExternalCredentials</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.filestoreCustomEndpointInput">filestoreCustomEndpointInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.firebaseAppCheckCustomEndpointInput">firebaseAppCheckCustomEndpointInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.firebaseAppHostingCustomEndpointInput">firebaseAppHostingCustomEndpointInput</a></code> | <code>string</code> | *No description.* |
@@ -1794,7 +1794,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.tpuV2CustomEndpointInput">tpuV2CustomEndpointInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.transcoderCustomEndpointInput">transcoderCustomEndpointInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.universeDomainInput">universeDomainInput</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.userProjectOverrideInput">userProjectOverrideInput</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.userProjectOverrideInput">userProjectOverrideInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.vertexAiCustomEndpointInput">vertexAiCustomEndpointInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.vmwareengineCustomEndpointInput">vmwareengineCustomEndpointInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.vpcAccessCustomEndpointInput">vpcAccessCustomEndpointInput</a></code> | <code>string</code> | *No description.* |
@@ -1806,7 +1806,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.accessContextManagerCustomEndpoint">accessContextManagerCustomEndpoint</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.accessToken">accessToken</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.activeDirectoryCustomEndpoint">activeDirectoryCustomEndpoint</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.addTerraformAttributionLabel">addTerraformAttributionLabel</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.addTerraformAttributionLabel">addTerraformAttributionLabel</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.alloydbCustomEndpoint">alloydbCustomEndpoint</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.apiGatewayCustomEndpoint">apiGatewayCustomEndpoint</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.apigeeCustomEndpoint">apigeeCustomEndpoint</a></code> | <code>string</code> | *No description.* |
@@ -1817,7 +1817,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.artifactRegistryCustomEndpoint">artifactRegistryCustomEndpoint</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.assuredWorkloadsCustomEndpoint">assuredWorkloadsCustomEndpoint</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.backupDrCustomEndpoint">backupDrCustomEndpoint</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.batching">batching</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderBatching">GoogleBetaProviderBatching</a>[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.batching">batching</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderBatching">GoogleBetaProviderBatching</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.beyondcorpCustomEndpoint">beyondcorpCustomEndpoint</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.biglakeCustomEndpoint">biglakeCustomEndpoint</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.bigqueryAnalyticsHubCustomEndpoint">bigqueryAnalyticsHubCustomEndpoint</a></code> | <code>string</code> | *No description.* |
@@ -1885,7 +1885,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.edgenetworkCustomEndpoint">edgenetworkCustomEndpoint</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.essentialContactsCustomEndpoint">essentialContactsCustomEndpoint</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.eventarcCustomEndpoint">eventarcCustomEndpoint</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.externalCredentials">externalCredentials</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderExternalCredentials">GoogleBetaProviderExternalCredentials</a>[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.externalCredentials">externalCredentials</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderExternalCredentials">GoogleBetaProviderExternalCredentials</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.filestoreCustomEndpoint">filestoreCustomEndpoint</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.firebaseAppCheckCustomEndpoint">firebaseAppCheckCustomEndpoint</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.firebaseAppHostingCustomEndpoint">firebaseAppHostingCustomEndpoint</a></code> | <code>string</code> | *No description.* |
@@ -1986,7 +1986,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.tpuV2CustomEndpoint">tpuV2CustomEndpoint</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.transcoderCustomEndpoint">transcoderCustomEndpoint</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.universeDomain">universeDomain</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.userProjectOverride">userProjectOverride</a></code> | <code>boolean \| cdktf.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.userProjectOverride">userProjectOverride</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.vertexAiCustomEndpoint">vertexAiCustomEndpoint</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.vmwareengineCustomEndpoint">vmwareengineCustomEndpoint</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProvider.property.vpcAccessCustomEndpoint">vpcAccessCustomEndpoint</a></code> | <code>string</code> | *No description.* |
@@ -2015,7 +2015,7 @@ The tree node.
 public readonly cdktfStack: TerraformStack;
 ```
 
-- *Type:* cdktf.TerraformStack
+- *Type:* cdktn.TerraformStack
 
 ---
 
@@ -2065,7 +2065,7 @@ public readonly terraformResourceType: string;
 public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
 ```
 
-- *Type:* cdktf.TerraformProviderGeneratorMetadata
+- *Type:* cdktn.TerraformProviderGeneratorMetadata
 
 ---
 
@@ -2135,7 +2135,7 @@ public readonly activeDirectoryCustomEndpointInput: string;
 public readonly addTerraformAttributionLabelInput: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -2255,7 +2255,7 @@ public readonly backupDrCustomEndpointInput: string;
 public readonly batchingInput: IResolvable | GoogleBetaProviderBatching[];
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderBatching">GoogleBetaProviderBatching</a>[]
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderBatching">GoogleBetaProviderBatching</a>[]
 
 ---
 
@@ -2935,7 +2935,7 @@ public readonly eventarcCustomEndpointInput: string;
 public readonly externalCredentialsInput: IResolvable | GoogleBetaProviderExternalCredentials[];
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderExternalCredentials">GoogleBetaProviderExternalCredentials</a>[]
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderExternalCredentials">GoogleBetaProviderExternalCredentials</a>[]
 
 ---
 
@@ -3945,7 +3945,7 @@ public readonly universeDomainInput: string;
 public readonly userProjectOverrideInput: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -4065,7 +4065,7 @@ public readonly activeDirectoryCustomEndpoint: string;
 public readonly addTerraformAttributionLabel: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -4175,7 +4175,7 @@ public readonly backupDrCustomEndpoint: string;
 public readonly batching: IResolvable | GoogleBetaProviderBatching[];
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderBatching">GoogleBetaProviderBatching</a>[]
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderBatching">GoogleBetaProviderBatching</a>[]
 
 ---
 
@@ -4855,7 +4855,7 @@ public readonly eventarcCustomEndpoint: string;
 public readonly externalCredentials: IResolvable | GoogleBetaProviderExternalCredentials[];
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderExternalCredentials">GoogleBetaProviderExternalCredentials</a>[]
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderExternalCredentials">GoogleBetaProviderExternalCredentials</a>[]
 
 ---
 
@@ -5865,7 +5865,7 @@ public readonly universeDomain: string;
 public readonly userProjectOverride: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 ---
 
@@ -5973,7 +5973,7 @@ const googleBetaProviderBatching: provider.GoogleBetaProviderBatching = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderBatching.property.enableBatching">enableBatching</a></code> | <code>boolean \| cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#enable_batching GoogleBetaProvider#enable_batching}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderBatching.property.enableBatching">enableBatching</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#enable_batching GoogleBetaProvider#enable_batching}. |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderBatching.property.sendAfter">sendAfter</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#send_after GoogleBetaProvider#send_after}. |
 
 ---
@@ -5984,7 +5984,7 @@ const googleBetaProviderBatching: provider.GoogleBetaProviderBatching = { ... }
 public readonly enableBatching: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#enable_batching GoogleBetaProvider#enable_batching}.
 
@@ -6020,7 +6020,7 @@ const googleBetaProviderConfig: provider.GoogleBetaProviderConfig = { ... }
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.accessContextManagerCustomEndpoint">accessContextManagerCustomEndpoint</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#access_context_manager_custom_endpoint GoogleBetaProvider#access_context_manager_custom_endpoint}. |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.accessToken">accessToken</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#access_token GoogleBetaProvider#access_token}. |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.activeDirectoryCustomEndpoint">activeDirectoryCustomEndpoint</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#active_directory_custom_endpoint GoogleBetaProvider#active_directory_custom_endpoint}. |
-| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.addTerraformAttributionLabel">addTerraformAttributionLabel</a></code> | <code>boolean \| cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#add_terraform_attribution_label GoogleBetaProvider#add_terraform_attribution_label}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.addTerraformAttributionLabel">addTerraformAttributionLabel</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#add_terraform_attribution_label GoogleBetaProvider#add_terraform_attribution_label}. |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.alias">alias</a></code> | <code>string</code> | Alias name. |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.alloydbCustomEndpoint">alloydbCustomEndpoint</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#alloydb_custom_endpoint GoogleBetaProvider#alloydb_custom_endpoint}. |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.apiGatewayCustomEndpoint">apiGatewayCustomEndpoint</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#api_gateway_custom_endpoint GoogleBetaProvider#api_gateway_custom_endpoint}. |
@@ -6032,7 +6032,7 @@ const googleBetaProviderConfig: provider.GoogleBetaProviderConfig = { ... }
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.artifactRegistryCustomEndpoint">artifactRegistryCustomEndpoint</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#artifact_registry_custom_endpoint GoogleBetaProvider#artifact_registry_custom_endpoint}. |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.assuredWorkloadsCustomEndpoint">assuredWorkloadsCustomEndpoint</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#assured_workloads_custom_endpoint GoogleBetaProvider#assured_workloads_custom_endpoint}. |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.backupDrCustomEndpoint">backupDrCustomEndpoint</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#backup_dr_custom_endpoint GoogleBetaProvider#backup_dr_custom_endpoint}. |
-| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.batching">batching</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderBatching">GoogleBetaProviderBatching</a>[]</code> | batching block. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.batching">batching</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderBatching">GoogleBetaProviderBatching</a>[]</code> | batching block. |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.beyondcorpCustomEndpoint">beyondcorpCustomEndpoint</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#beyondcorp_custom_endpoint GoogleBetaProvider#beyondcorp_custom_endpoint}. |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.biglakeCustomEndpoint">biglakeCustomEndpoint</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#biglake_custom_endpoint GoogleBetaProvider#biglake_custom_endpoint}. |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.bigqueryAnalyticsHubCustomEndpoint">bigqueryAnalyticsHubCustomEndpoint</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#bigquery_analytics_hub_custom_endpoint GoogleBetaProvider#bigquery_analytics_hub_custom_endpoint}. |
@@ -6100,7 +6100,7 @@ const googleBetaProviderConfig: provider.GoogleBetaProviderConfig = { ... }
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.edgenetworkCustomEndpoint">edgenetworkCustomEndpoint</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#edgenetwork_custom_endpoint GoogleBetaProvider#edgenetwork_custom_endpoint}. |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.essentialContactsCustomEndpoint">essentialContactsCustomEndpoint</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#essential_contacts_custom_endpoint GoogleBetaProvider#essential_contacts_custom_endpoint}. |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.eventarcCustomEndpoint">eventarcCustomEndpoint</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#eventarc_custom_endpoint GoogleBetaProvider#eventarc_custom_endpoint}. |
-| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.externalCredentials">externalCredentials</a></code> | <code>cdktf.IResolvable \| <a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderExternalCredentials">GoogleBetaProviderExternalCredentials</a>[]</code> | external_credentials block. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.externalCredentials">externalCredentials</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderExternalCredentials">GoogleBetaProviderExternalCredentials</a>[]</code> | external_credentials block. |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.filestoreCustomEndpoint">filestoreCustomEndpoint</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#filestore_custom_endpoint GoogleBetaProvider#filestore_custom_endpoint}. |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.firebaseAppCheckCustomEndpoint">firebaseAppCheckCustomEndpoint</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#firebase_app_check_custom_endpoint GoogleBetaProvider#firebase_app_check_custom_endpoint}. |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.firebaseAppHostingCustomEndpoint">firebaseAppHostingCustomEndpoint</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#firebase_app_hosting_custom_endpoint GoogleBetaProvider#firebase_app_hosting_custom_endpoint}. |
@@ -6201,7 +6201,7 @@ const googleBetaProviderConfig: provider.GoogleBetaProviderConfig = { ... }
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.tpuV2CustomEndpoint">tpuV2CustomEndpoint</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#tpu_v2_custom_endpoint GoogleBetaProvider#tpu_v2_custom_endpoint}. |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.transcoderCustomEndpoint">transcoderCustomEndpoint</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#transcoder_custom_endpoint GoogleBetaProvider#transcoder_custom_endpoint}. |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.universeDomain">universeDomain</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#universe_domain GoogleBetaProvider#universe_domain}. |
-| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.userProjectOverride">userProjectOverride</a></code> | <code>boolean \| cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#user_project_override GoogleBetaProvider#user_project_override}. |
+| <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.userProjectOverride">userProjectOverride</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#user_project_override GoogleBetaProvider#user_project_override}. |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.vertexAiCustomEndpoint">vertexAiCustomEndpoint</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#vertex_ai_custom_endpoint GoogleBetaProvider#vertex_ai_custom_endpoint}. |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.vmwareengineCustomEndpoint">vmwareengineCustomEndpoint</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#vmwareengine_custom_endpoint GoogleBetaProvider#vmwareengine_custom_endpoint}. |
 | <code><a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderConfig.property.vpcAccessCustomEndpoint">vpcAccessCustomEndpoint</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#vpc_access_custom_endpoint GoogleBetaProvider#vpc_access_custom_endpoint}. |
@@ -6266,7 +6266,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 public readonly addTerraformAttributionLabel: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#add_terraform_attribution_label GoogleBetaProvider#add_terraform_attribution_label}.
 
@@ -6412,7 +6412,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 public readonly batching: IResolvable | GoogleBetaProviderBatching[];
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderBatching">GoogleBetaProviderBatching</a>[]
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderBatching">GoogleBetaProviderBatching</a>[]
 
 batching block.
 
@@ -7230,7 +7230,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 public readonly externalCredentials: IResolvable | GoogleBetaProviderExternalCredentials[];
 ```
 
-- *Type:* cdktf.IResolvable | <a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderExternalCredentials">GoogleBetaProviderExternalCredentials</a>[]
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.provider.GoogleBetaProviderExternalCredentials">GoogleBetaProviderExternalCredentials</a>[]
 
 external_credentials block.
 
@@ -8444,7 +8444,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 public readonly userProjectOverride: boolean | IResolvable;
 ```
 
-- *Type:* boolean | cdktf.IResolvable
+- *Type:* boolean | cdktn.IResolvable
 
 Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs#user_project_override GoogleBetaProvider#user_project_override}.
 

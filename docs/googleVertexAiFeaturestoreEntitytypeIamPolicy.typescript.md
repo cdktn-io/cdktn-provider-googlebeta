@@ -291,7 +291,7 @@ public importFrom(id: string, provider?: TerraformProvider): void
 
 ###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicy.importFrom.parameter.provider"></a>
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -378,7 +378,7 @@ public resetId(): void
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicy.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicy.isTerraformElement">isTerraformElement</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicy.isTerraformResource">isTerraformResource</a></code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicy.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTF code for importing a GoogleVertexAiFeaturestoreEntitytypeIamPolicy resource upon running "cdktf plan <stack-name>". |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicy.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTN code for importing a GoogleVertexAiFeaturestoreEntitytypeIamPolicy resource upon running "cdktn plan <stack-name>". |
 
 ---
 
@@ -450,7 +450,7 @@ import { googleVertexAiFeaturestoreEntitytypeIamPolicy } from '@cdktn/provider-g
 googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicy.generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: TerraformProvider)
 ```
 
-Generates CDKTF code for importing a GoogleVertexAiFeaturestoreEntitytypeIamPolicy resource upon running "cdktf plan <stack-name>".
+Generates CDKTN code for importing a GoogleVertexAiFeaturestoreEntitytypeIamPolicy resource upon running "cdktn plan <stack-name>".
 
 ###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicy.generateConfigForImport.parameter.scope"></a>
 
@@ -480,7 +480,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 
 ###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicy.generateConfigForImport.parameter.provider"></a>
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ? Optional instance of the provider where the GoogleVertexAiFeaturestoreEntitytypeIamPolicy to import is found.
 
@@ -491,19 +491,19 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicy.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicy.property.cdktfStack">cdktfStack</a></code> | <code>cdktf.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicy.property.cdktfStack">cdktfStack</a></code> | <code>cdktn.TerraformStack</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicy.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicy.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicy.property.terraformMetaArguments">terraformMetaArguments</a></code> | <code>{[ key: string ]: any}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicy.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicy.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicy.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicy.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicy.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicy.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicy.property.count">count</a></code> | <code>number \| cdktn.TerraformCount</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicy.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicy.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicy.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicy.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicy.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicy.property.forEach">forEach</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicy.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicy.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicy.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicy.property.etag">etag</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicy.property.entitytypeInput">entitytypeInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicy.property.featurestoreInput">featurestoreInput</a></code> | <code>string</code> | *No description.* |
@@ -534,7 +534,7 @@ The tree node.
 public readonly cdktfStack: TerraformStack;
 ```
 
-- *Type:* cdktf.TerraformStack
+- *Type:* cdktn.TerraformStack
 
 ---
 
@@ -584,7 +584,7 @@ public readonly terraformResourceType: string;
 public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
 ```
 
-- *Type:* cdktf.TerraformProviderGeneratorMetadata
+- *Type:* cdktn.TerraformProviderGeneratorMetadata
 
 ---
 
@@ -594,7 +594,7 @@ public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
 public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
 ```
 
-- *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
 
 ---
 
@@ -604,7 +604,7 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 public readonly count: number | TerraformCount;
 ```
 
-- *Type:* number | cdktf.TerraformCount
+- *Type:* number | cdktn.TerraformCount
 
 ---
 
@@ -624,7 +624,7 @@ public readonly dependsOn: string[];
 public readonly forEach: ITerraformIterator;
 ```
 
-- *Type:* cdktf.ITerraformIterator
+- *Type:* cdktn.ITerraformIterator
 
 ---
 
@@ -634,7 +634,7 @@ public readonly forEach: ITerraformIterator;
 public readonly lifecycle: TerraformResourceLifecycle;
 ```
 
-- *Type:* cdktf.TerraformResourceLifecycle
+- *Type:* cdktn.TerraformResourceLifecycle
 
 ---
 
@@ -644,7 +644,7 @@ public readonly lifecycle: TerraformResourceLifecycle;
 public readonly provider: TerraformProvider;
 ```
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -654,7 +654,7 @@ public readonly provider: TerraformProvider;
 public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
 ```
 
-- *Type:* cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner[]
+- *Type:* cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner[]
 
 ---
 
@@ -782,13 +782,13 @@ const googleVertexAiFeaturestoreEntitytypeIamPolicyConfig: googleVertexAiFeature
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicyConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicyConfig.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicyConfig.property.dependsOn">dependsOn</a></code> | <code>cdktf.ITerraformDependable[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicyConfig.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicyConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicyConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicyConfig.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicyConfig.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicyConfig.property.count">count</a></code> | <code>number \| cdktn.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicyConfig.property.dependsOn">dependsOn</a></code> | <code>cdktn.ITerraformDependable[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicyConfig.property.forEach">forEach</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicyConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicyConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicyConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicyConfig.property.entitytype">entitytype</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_policy#entitytype GoogleVertexAiFeaturestoreEntitytypeIamPolicy#entitytype}. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicyConfig.property.featurestore">featurestore</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_policy#featurestore GoogleVertexAiFeaturestoreEntitytypeIamPolicy#featurestore}. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicyConfig.property.policyData">policyData</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_policy#policy_data GoogleVertexAiFeaturestoreEntitytypeIamPolicy#policy_data}. |
@@ -802,7 +802,7 @@ const googleVertexAiFeaturestoreEntitytypeIamPolicyConfig: googleVertexAiFeature
 public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
 ```
 
-- *Type:* cdktf.SSHProvisionerConnection | cdktf.WinrmProvisionerConnection
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
 
 ---
 
@@ -812,7 +812,7 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 public readonly count: number | TerraformCount;
 ```
 
-- *Type:* number | cdktf.TerraformCount
+- *Type:* number | cdktn.TerraformCount
 
 ---
 
@@ -822,7 +822,7 @@ public readonly count: number | TerraformCount;
 public readonly dependsOn: ITerraformDependable[];
 ```
 
-- *Type:* cdktf.ITerraformDependable[]
+- *Type:* cdktn.ITerraformDependable[]
 
 ---
 
@@ -832,7 +832,7 @@ public readonly dependsOn: ITerraformDependable[];
 public readonly forEach: ITerraformIterator;
 ```
 
-- *Type:* cdktf.ITerraformIterator
+- *Type:* cdktn.ITerraformIterator
 
 ---
 
@@ -842,7 +842,7 @@ public readonly forEach: ITerraformIterator;
 public readonly lifecycle: TerraformResourceLifecycle;
 ```
 
-- *Type:* cdktf.TerraformResourceLifecycle
+- *Type:* cdktn.TerraformResourceLifecycle
 
 ---
 
@@ -852,7 +852,7 @@ public readonly lifecycle: TerraformResourceLifecycle;
 public readonly provider: TerraformProvider;
 ```
 
-- *Type:* cdktf.TerraformProvider
+- *Type:* cdktn.TerraformProvider
 
 ---
 
@@ -862,7 +862,7 @@ public readonly provider: TerraformProvider;
 public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
 ```
 
-- *Type:* cdktf.FileProvisioner | cdktf.LocalExecProvisioner | cdktf.RemoteExecProvisioner[]
+- *Type:* cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner[]
 
 ---
 
